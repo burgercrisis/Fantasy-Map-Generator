@@ -370,16 +370,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Fogo Creole",
-    "i": 182,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0.1,
-    "b": "Sao Filipe,Mosteiros,Cova Figueira,Ponta Verde,Patim,Cha das Caldeiras,Portela,Bangaeira,Achada Grande,Atalaia,Fajazinha,Relva,Ribeira do Ilheu,Campanas Baixo,Curral Grande,Galinheiro,Lomba,Monte Grande,Sao Jorge,Achada Furna,Estancia Roque,Figueira Pavao,Fonte Aleixo,Monte Vermelho,Tinteira,Salto",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Maguindanao",
     "i": 188,
     "min": 4,
@@ -588,16 +578,6 @@ window.asiaNameBases = [
     "m": 0.83,
     "b": "Tharparkar,Nagarparkar,Mithi,Islamkot,Diplo,Chachro,Chelhar,Kaloi,Dahli,Mirpur Khas,Umerkot,Jamesabad,Kunri,Kot Ghulam Muhammad,Jikrio Goth,Deh 333,Tando Allahyar,Hyderabad,Badin,Tando Adam,Nawabshah,Sanghar,Khairpur,Sukkur,Larkana,Thatta,Jamshoro,Matiari,Hala,Tando Muhammad Khan,Digri,Samaro,Pangrio",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Agalega Creole",
-    "i": 756,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0.85,
-    "b": "Vingt-Cinq,La Fourche,Ste Rita,La Grande Case",
-    "status": "WAITING"
   },
   {
     "name": "Ahom",
@@ -3000,16 +2980,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Antillean Creole",
-    "i": 1956,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Fort-de-France,Le Lamentin,Le Robert,Sainte-Marie,Le François,Ducos,Rivière-Salée,Sainte-Luce,Les Trois-Îlets,Le Vauclin,Le Diamant,Saint-Esprit,Le Marin,Rivière-Pilote,Le Morne-Rouge,Le Prêcheur,Grand'Rivière,Macouba,Le Lorrain,Basse-Pointe,Le Carbet,Case-Pilote,Bellefontaine,Fonds-Saint-Denis,Le Morne-Vert,L'Ajoupa-Bouillon,Les Anses-d'Arlet,Saint-Joseph,Schœlcher,La Trinité,Le Gros-Morne,Saint-Pierre,Le Marigot,Basse-Terre,Pointe-à-Pitre,Les Abymes,Baie-Mahault,Le Gosier,Le Moule,Petit-Bourg,Sainte-Rose,Morne-à-l'Eau,Lamentin,Saint-François,Capesterre-Belle-Eau,Gourbeyre,Saint-Claude,Vieux-Habitants,Goyave,Baillif,Bouillante,Deshaies,Vieux-Fort,Pointe-Noire,Port-Louis,Petit-Canal,Anse-Bertrand,Grand-Bourg,Capesterre-de-Marie-Galante,Saint-Louis,La Désirade,Roseau,Portsmouth,Wesley,Salybia,Bataca,Sineku,Gaulette,St. Cyr,Crayfish River,Mahaut River,Atkinson,Castries,Gros Islet,Soufriere,Vieux Fort,Micoud,Dennery,Choiseul,Laborie,Anse la Raye,Canaries,St. George's,Grenville,Gouyave,Victoria,Sauteurs,Hillsborough,L'Esterre,Harvey Vale,Belvidere,Beausejour,Belmont,Birchgrove,Petite Martinique,Fond-du-Curé,Petite-Anse,Gustavia,Saint-Jean,Lorient,Colombier Bay,Flamands,Grand Cul-de-Sac,Petit Cul-de-Sac,Toiny,Anse des Cayes,Grand Fond,Vitet,Corossol,Public,Lurin,Paramin,Blanchisseuse,Lopinot,Talparo,Carenage,Cascade,Champs Fleurs,Laventille,Arima,Macuro,Güiria,El Callao,Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Apatou,Grand-Santi,Papaïchton,Maripasoula,Saül,Camopi,Saint-Georges,Ouanary,Régina,Roura,Sinnamary,Iracoubo",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Yuanmen Hlai",
     "i": 1963,
     "min": 2,
@@ -3390,16 +3360,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ke'yagana",
-    "i": 2134,
-    "min": 4,
-    "max": 17,
-    "d": "",
-    "m": 0,
-    "b": "Goroka,Kainantu,Keyagana,Benabena,Fore,Gende,Gimi,Isabi,Siane,Yaweyuha,Alekano,Dano,Tokano,Kamono,Yagaria",
-    "status": "WAITING"
-  },
-  {
     "name": "Kacchi",
     "i": 2141,
     "min": 4,
@@ -3720,16 +3680,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kombai-Wanggom",
-    "i": 2254,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Boven Digoel,Mappi Regency,South Papua,Digoel River,Asmat,Digul River,Wideman River,Tayan,Kombai Kali",
-    "status": "WAITING"
-  },
-  {
     "name": "Konda",
     "i": 2259,
     "min": 4,
@@ -3998,16 +3948,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Deoghar,Hazaribagh,Giridih,Koderma,Chatra,Latehar,Lohardaga,Simdega,Khunti,West Singhbhum,Saraikela,East Singhbhum,Godda,Sahibganj,Pakur,Dumka,Jamtara,Bankura,Purulia,Midnapore,Paschim Bardhaman",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Kelabit",
-    "i": 2393,
-    "min": 4,
-    "max": 17,
-    "d": "Kelabit is an Austronesian language spoken in the Kelabit Highlands of Sarawak, Malaysia (and adjacent North Kalimantan, Indonesia) with ~1,500 speakers. One of the most remote languages of Borneo.",
-    "m": 0,
-    "b": "Bario,Pa' Dalih,Pa' Mada,Pa' Umor,Long Banga,Long Dano,Long Luyang,Long Semado,Long Tuma,Long Pelutan,Long Selaan,Long Tuyo,Long Puak,Long Bangan,Long Miat,Long Remirang,Long Tuan,Long Karabangan,Pa Dalih,Pa Mada,Pa Umor",
-    "status": "WAITING"
   },
   {
     "name": "Laven",
@@ -4850,16 +4790,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Cocos Malay",
-    "i": 9821,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Bantam,Kampong Bukit,Kampong Tanjong,Pulu Gangsa,Pulu Kembang,Pulu Lang,Pulu Kok,Tak Bawah,Pasir,Keeling,Aceh,Kelong,Tapah,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,West Island,Home Island,Bilangan",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Kar",
     "i": 13491,
     "min": 4,
@@ -4990,16 +4920,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Sao Vicente Creole",
-    "i": 20199,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Calhau,Baia das Gatas,Salamansa,Sao Pedro,Monte,Chã de Alecrim,Madeiral,Pedro,Mata,Praia Grande,Seixal,Julieta,Palha Carga,Mindelo,Sao Vicente",
-    "status": "WAITING"
-  },
-  {
     "name": "Santo Antao Creole",
     "i": 203250,
     "min": 4,
@@ -5027,16 +4947,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bassein,Vasai,Malad,Gorai,Manori,Dahisar,Kandivali,Borivali,Dongri,Mazgaon,Cavel,Sewri,Worli,Madh,Marve,Chimbai,Ranwar,Mumbai,Uttan,Khotwadi",
-    "status": "WAITING"
-  },
-  {
-    "name": "Réunion Creole",
-    "i": 203254,
-    "min": 4,
-    "max": 20,
-    "d": "",
-    "m": 0,
-    "b": "Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Saint-Andre,La Possession,Saint-Benoit,Sainte-Marie,Sainte-Suzanne,Petite-Île,Les Avirons,Cilaos,Bras-Panon,Salazie,Entre-Deux,Etang-Sale,Plaine des Palmistes,Trois Bassins,Saint-Louis,Le Port",
     "status": "WAITING"
   },
   {
@@ -9170,86 +9080,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Northern Formosan",
-    "i": 21118,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wulai,Fuxing,Jianshi,Heping,Wufeng,Tai'an,Ren'ai,Datong,Nanao,Puli,Beigang,Dajia,Nanshi,Xinxian,Fushan,Sinsian,Siaoyi,Smangus,Nanzhuang,Shitan,Donghe,Zhonggang,Huolong,Shangping,Touqian,Zhudong,Qingquan,Shijialushan,Mayiwalaishan,Dafushan,Niaozuishan,Egongjishan,Minduyoushan,Jianbishan,Wuzhishan,Shilushan,Youluoshan,Taoshan,Huayuan,Jiugang,Dabajianshan,Ruiyan,Piasebukan,Papakwaqa,Hanxi,Aohua,Dongyue,Jinyang,Bihou,Jingyue,Wuta,Siji,Lishan,Xiulin,Wanrong,Zhuoxi",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Nedebang",
-    "i": 201113,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "PantarIsland,Balungada,Baulang,AirPanas,AlorArchipelago",
-    "status": "WAITING"
-  },
-  {
-    "name": "Nuaulu",
-    "i": 201123,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "SeramIsland,AmahaiDistrict,Simalou,Kilo12,Bunara,KampungLama,Hahualan,Rouhua,RouhuaBaru,NorthSeramDistrict",
-    "status": "WAITING"
-  },
-  {
-    "name": "Pa",
-    "i": 201134,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,PortMoresby,NukuAlofa,Suva,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Matangia,Tanna,Aonu,Anuboa,Areu,Aliboa,Afagu",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Chagossian Creole",
-    "i": 202380,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Diego Garcia,Peros Banhos,Salomon,Six Îles,Three Brothers,Île Boddam,Île Anglaise,Île du Coin,Île Fouquet,Île Poule,Île Vache Marine,Île Yeye,Île Mapou,Île Diable,Île Parasol,Île Longue,Île Bois Mangue,Île Manoël,Île Animaux,Île Lubine,Île Cipaye,Île Carpathe,Île Crabe,Île aux Vaches,Île aux Rats,Île aux Fous,Île aux Goëlettes,Île aux Coco,Île aux Sables,Île aux Bois,Île aux Souimangas,Île aux Frégates,Île aux Mouettes,Île aux Sternes,Île aux Phaetons,Île aux Albatros,Île aux Fouquets,Île aux Moustiques,Île aux Pintades,Île aux Canards,Île aux Sarcelles,Île aux Hérons,Île aux Aigrettes,Île aux Flamants,Île aux Pélicans,Île aux Cormorans,Île aux Frigates,Kara,Eagle Island",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mauritian Creole",
-    "i": 203062,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Mahebourg,Souillac,Pamplemousses,Triolet,Goodlands,Rivière du Rempart,Flic en Flac,Tamarin,Grand Baie,Pereybère,Cap Malheureux,Rose Belle,Nouvelle France,Chemin Grenier,Surinam,Saint Hubert,Bambous,Saint Pierre,Moka,Phoenix,Albion,Baie du Tombeau,Balaclava,Bois Chéri,Britannia,Case Noyale,Belle Mare",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Rodriguan Creole",
-    "i": 202382,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Port Mathurin,Cascade Victoire,Baie Topaze,Grande Montagne,Anse aux Anglais,Baie du Nord,Cascade Saint Vincent,Citronelle,Coromandels,Crève Coeur,Désiré,Fond La Digue,Gros Mangue,Jentac,La Ferme,Mangue,Mont Lubin,Mourouk,Oyster Bay,Patate Théophile,Petit Brûlé,Petit Gabriel,Plaine Corail,Port Sud-Est,Quatre Vents,Rivière Cocos,Saint Gabriel,Soupir,Tamarin,Vangar",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ch'olti'",
-    "i": 203063,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "American Indian Pidgin English",
     "i": 203064,
     "min": 4,
@@ -9370,56 +9200,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Atayal",
-    "i": 202402,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wulai District,Fuxing District,Jianshi Township,Heping District,Wufeng Township,Tai'an Township,Ren'ai Township,Datong Township,Nanao Township,Squliq,C'uli',Matu'uwal,Skikun,Plngawan,S'uli,Klesan,Matu'aw,Smangus",
-    "status": "WAITING"
-  },
-  {
-    "name": "Budai-Labuan-Taromak Rukai",
-    "i": 203076,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wutai,Pingtung,Taitung,Kaohsiung,Taiwan,Tanan,Labuan,Budai,Taromak",
-    "status": "WAITING"
-  },
-  {
-    "name": "Cheke Holo",
-    "i": 202404,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Santa Isabel Island,Maringe,Hograno,Buala,Gnulahaghe,Kuma'ihaui,Kia District,Gao-Bughotu Region",
-    "status": "WAITING"
-  },
-  {
-    "name": "Isbukun Bunun",
-    "i": 202405,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dongpu,Nantou,Mayuan,Hualien,Laipunuk,Yanping,Taitung,Wanrong,Zhuoxi,Haiduan,Namaxia,Taoyuan,Maolin,Xinyi,Ren-ai,Taiwan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kanakanavu",
-    "i": 203077,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Manga,Takanua,Nangisalu,Maya",
-    "status": "WAITING"
-  },
-  {
     "name": "Kulon",
     "i": 203265,
     "min": 4,
@@ -9430,456 +9210,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Maga-Tona Rukai",
-    "i": 203078,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Maolin,Tona,Kaohsiung,Taiwan,Lower Three Villages",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mantauran Rukai",
-    "i": 203079,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wanshan,Fengli,Maolin,Kaohsiung,Taiwan,Lower Three Villages",
-    "status": "WAITING"
-  },
-  {
-    "name": "Marind",
-    "i": 203080,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Malind District,Merauke Regency,South Papua,Marianne Strait,Maro River,Kumbe River,Bian River",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mombum",
-    "i": 203081,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Komolom Island,Yos Sudarso Island,Muli Strait,Kaimana Regency",
-    "status": "WAITING"
-  },
-  {
-    "name": "Muyu",
-    "i": 203082,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Boven Digoel Regency,Kao River,Kawip dialect area,Medewan,Komoyan,Upyetetko,Kanggewot,Ninggerum,Yonggom",
-    "status": "WAITING"
-  },
-  {
-    "name": "Namiae",
-    "i": 203083,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Oro Province,Afore Rural LLG,Kokoro,Kuae,Sorefuna,Tahama,Ubuvara",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ngalum",
-    "i": 203084,
-    "min": 5,
-    "max": 10,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Oksibil,Bintang Mountains,Puncak Mandala,Telefomin,Mindiptana,Merauke,Digul River,Ok Mabol,Ok Bino,Ok Seng,Ok Tedi,Ok Hene,Ok Kian,Ok Marim,Ok Menga,Ok Sari,Ok Temin,Ok Bori,Ok Kai,Ok Su,Ok Tim,Ok Yal,Ok Kupel,Ok Bintil,Ok Sarnam,Ok Wel,Ok Hane,Ok Sengki,Ok Bintim",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Nomane",
-    "i": 203085,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dekamane,Awna,Gaimo,Chimbu Province",
-    "status": "WAITING"
-  },
-  {
-    "name": "Northern and Central Bunun",
-    "i": 202416,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kantaban,Vogai,Kadu,Kalibuan,Mahavun,Laidazuan,Nehunpu,Takkei,Haitutuan,Tamazuan,Mahowan,Malibasi,Kakacawan,Kohkoh,Dili,Tannan,Wanfeng,Fazhi,Wangxiang,Jiumei,Zhongzheng,Mayuan,Ren'ai,Xinyi,Zhuoxi,Haiduan,Wanrong,Nanxi,Qimei",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Onjob",
-    "i": 203086,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Koreat,Naukwate,Tufi Rural LLG,Oro Province",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ontenu",
-    "i": 202418,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ontena,Oyana",
-    "status": "WAITING"
-  },
-  {
-    "name": "Paiwan",
-    "i": 202421,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pingtung County,Taitung County,Kaohsiung,Tjuabar,Mudan,Kulalao,Kapaiwanan,Tjaqatsiɬay,Patjavaɬ,Rarəkrək,Tjukuvuɬ,Kaviangan,Tjaɬakavus,Makazayazaya,Tjariḍik,Tjavuaɬi,Tjakuvukuvuɬ",
-    "status": "WAITING"
-  },
-  {
-    "name": "Paniai Lakes",
-    "i": 203087,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Enarotali,Mapia,Moanemani,Kamu Valley,Waghete,Dogiyai,Deiyai,Baya Biru,Nabire,Puncak Jaya,Moni,Wolani,Auye,Dao,Yabi,Simori,Kapauku,Ekagi,Mee,Tigi Lake,Tage Lake,Wissel Lakes,Uwapa,Ilu,Kegata,Biha,Pugo,Dauwa,Kapiraya,Tigi,Deiyai Regency,Dogiyai Regency,Paniai Regency",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Pisa",
-    "i": 203088,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "South Papua,Awyu,Asue Awyu,West Awyu",
-    "status": "WAITING"
-  },
-  {
-    "name": "Pitkern",
-    "i": 203089,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pitcairn Islands,Norfolk Island,Adamstown,Kingston,Bounty Bay",
-    "status": "WAITING"
-  },
-  {
-    "name": "Puyuma",
-    "i": 203090,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nanwang,Apapulu,Katipul,Alipai,Pinaski,Pankiu,Kasavakan,Katratripul,Likavung,Tamalakaw,Ulivelivek,Taitung County",
-    "status": "WAITING"
-  },
-  {
-    "name": "Retta",
-    "i": 203091,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pura Island,Ternate Island,Alor archipelago",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rotokas",
-    "i": 203093,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bougainville Island,Pipipaia,Atsilima village,North Bougainville",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rukai",
-    "i": 203266,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Budai,Labuan,Maga,Mantauran,Tanan,Tona,Sandimen Township,Sanhe Village,Wutai Township,Majia Township,Lower Three Villages,Pingtung County",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rumu",
-    "i": 203094,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua New Guinea,Kairi,Dumu,Kibiri,Rumuwa",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rusenu",
-    "i": 203095,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Lautem,Lospalos,Com,Tutuala,Ile Kere Kere,Nari Plains,Ilikerekere Mountain,Fataluku,Oirata,Makuva,Latuloho,Uruha,Cailoru,Nocaru,Fara Kati,East Timor,Timor-Leste,Dili,Baucau,Viqueque,Manatuto,Aileu,Ermera,Manufahi,Cova Lima,Bobonaro,Ainaro",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Saaroa",
-    "i": 203267,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Taoyuan,Kaochung,Taoyuan District,Kaohsiung City,Taiwan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sabakor",
-    "i": 203096,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Buruway District,Kaimana Regency,West Papua,Buruwai,Madewana,Kamrau Bay",
-    "status": "WAITING"
-  },
-  {
-    "name": "Safeyoka",
-    "i": 203097,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ampale,Waffa River,Banir River,Morobe Province,Kaiapit District,Mumeng District,Menyama District,Wojokeso",
-    "status": "WAITING"
-  },
-  {
-    "name": "Saisiyat",
-    "i": 202442,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wufeng,Hsinchu,Nanchuang,Shitan,Miaoli,Ta'ai,Tungho",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sakizaya",
-    "i": 203268,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Takubuwan,Sakur,Maifor,Kaluluwan,Hualien,Taiwan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Setaman",
-    "i": 202451,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Seltamin,Ngisokabip,Baktamin,Kwermin,Bolobip,Biangabip,Golgobip,Olsobip,Amforobip,Yagamkayak,Wabil",
-    "status": "WAITING"
-  },
-  {
-    "name": "Shiaxa",
-    "i": 203100,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua Province,Bamgi River,Ia River,South Awyu,Oser,Yenimu,Jénimu,Sjìagha,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Silimo",
-    "i": 203101,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Indonesian New Guinea Highlands,Wulik,South Ngalik,Papua,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Somahai",
-    "i": 203102,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yahukimo Regency,Highland Papua,Asmat Regency,South Papua,Balim River,Rekai,Momuna,Momina,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sonsorolese",
-    "i": 202461,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sonsorol,Palau,Micronesia,Pulo Anna,Merir,Fana",
-    "status": "WAITING"
-  },
-  {
-    "name": "Squliq Atayal",
-    "i": 203103,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hsinchu County,Jianshi Township,Wufeng Township,Miaoli County,Taichung City,Da'an River,Wulai District,New Taipei City,Taiwan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Suganga",
-    "i": 202464,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yapsiei,Telefomin,Sandaun,Ambunti-Dreikikir,East Sepik",
-    "status": "WAITING"
-  },
-  {
-    "name": "Susuami",
-    "i": 203269,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Manki,Morobe Province,Upper Watut River,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tainae",
-    "i": 203104,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Famba,Paiguna,Pio,Gulf Province,Kotidanga Rural LLG,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tangko",
-    "i": 203270,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kawemaot village,Pegunungan Bintang Regency,Highland Papua,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Teiwa",
-    "i": 203271,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pantar Island,Alor Archipelago,Lebang,Boweli,Kalib,Nule,Kadir,Madar,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tembagla",
-    "i": 203105,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Southern Highlands Province,Ku Waru,Mara-Gomu,Miyemu,Tembalo,Bo-Ung,Mbo-Ung,Medlpa,Kaugel,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Thao",
-    "i": 202477,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sun Moon Lake,Ita Thaw,Barawbaw,Shtafari,Taiwan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tifal",
-    "i": 202478,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tifalmin,Urapmin,Atbalmin,Telefomin valley,Sepik River,Irian Jaya border,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tobian",
-    "i": 203106,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tobi Island,Southwest Islands,Palau,Hatohobei State,Echang,Koror,Sonsorol,Merir,Pulo Ana",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tokano",
-    "i": 203107,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Lower Asaro Rural LLG,Eastern Highlands Province,Gamuso,Tokama,Yufiyufa,Zaka,Zuhozuho,Zuhuzuho,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ts'ole' Atayal",
-    "i": 202484,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yilan County,Taiwan,Matu'uwal,Mayrinax,Plngawan,Skikun,Matu'aw,C'uli'",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tsaukambo",
-    "i": 203108,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kampung Biwage,Kawagit District,Boven Digoel Regency,South Papua,Indonesia,Tsakwambo,Kotogüt",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tsou",
-    "i": 202486,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Alishan Township,Chiayi County,Tapangʉ,Tfuya,Duhtu,Iimcu,Dabang,Lijia,Shanmei,Xinmei,Chashan,Leye,Laiji,Jiumei,Mamahavana,Nantou County,Taiwan",
-    "status": "WAITING"
-  },
-  {
     "name": "Turaka",
     "i": 203272,
     "min": 0,
@@ -9887,236 +9217,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Uab Meto",
-    "i": 202489,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "West Timor,Oecussi-Ambeno,East Timor,Dawan,Baikenu,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Uare",
-    "i": 203109,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rigo Inland Rural LLG,Kwale,Kware,Garihe,Garia,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Umanakaina",
-    "i": 203110,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Gwedena,Meneao Range,Milne Bay",
-    "status": "WAITING"
-  },
-  {
-    "name": "Waffa",
-    "i": 203111,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kusing,Tumbuna,Siaga,Aaringun,Urint,Kaiapit,Morobe,Eastern Highlands,Kainantu",
-    "status": "WAITING"
-  },
-  {
-    "name": "Waimoa",
-    "i": 202498,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "East Timor,Kairui,Midiki,Waima'a,Northeast East Timor",
-    "status": "WAITING"
-  },
-  {
-    "name": "Walak",
-    "i": 203273,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Jayawijaya Regency,Central Mamberamo Regency,Highland Papua,Indonesia,Baliem Valley",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wambon",
-    "i": 203274,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua,Indonesia,Upper Digul Area,Irian Jaya",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wano",
-    "i": 203275,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Puncak Regency,Puncak Jaya Regency,Central Papua,Indonesia,Baliem Valley",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wayan",
-    "i": 203276,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nalauwaki,Natawa,Waya Levu,Yalobi,Viwa Island,Yasawa Islands,Fiji",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wersing",
-    "i": 203112,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Adagai,Taremana,Kolana,Mademang,Pureman,Alor Island,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Western Dani",
-    "i": 202509,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Baliem Valley,Highland Papua,Indonesia,Western Dani",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wiru",
-    "i": 203113,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ialibu-Pangia District,Southern Highlands Province,Papua New Guinea,Teberan,Engan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wolani",
-    "i": 203114,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Paniai Lakes,Central Papua,Indonesia,Kemandoga River,Mbiyandogo River,Lake Paniai,Paniai Regency,Wissel Lakes",
-    "status": "WAITING"
-  },
-  {
-    "name": "Wolio",
-    "i": 203115,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Waruruma,Liabuku,Kaisabu Baru,Sorawolio,Baadia,Busoa,Kaimbulawa,Baubau,Buton Island,Southeast Sulawesi,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yagwoia",
-    "i": 202515,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Iqwalaqamalje,Gwase,Hiqwase,Hiqwaye,Yeqwangilje,Eastern Highlands,Gulf Province,Morobe Province,Papua New Guinea,Angan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yali",
-    "i": 203277,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Angguruk,Kosarek,Holuwon,Apahapsili,Ninia,Nalca,Korupun,Soba,Lolat,Elelim,Seila,Wanim Alo,Puplin,Walma,Seinma,Highland Papua,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yaqay",
-    "i": 203116,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Paedem,Dagemon,Kogo,Kotup,Rayam,Wairu,Wanggate,Mappi Regency,Obaa River,Gandaimu,South Papua,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yareba",
-    "i": 203117,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua,Jayapura,Merauke,Wamena,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yaweyuha",
-    "i": 203118,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Papua,Jayapura,Merauke,Wamena,Indonesia",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yekora",
-    "i": 203278,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sapa village,Morobe Station,Ana-Pose,Boura,Katima,Sirisaro,BS Gaina,Eya,Gugumi,Mambututu,Gira river,Ioma,Popondetta,Manau,Mambare,Taututu,Deboi,Bowera,Mambare Bay,Morobe Province,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yipma",
-    "i": 202521,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wauko,Ande,Mala,Marawaka station,Mount Yelia,Morobe Province,Papua New Guinea",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yogo (Tamagario)",
-    "i": 203119,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Arare,Kerke,Pagai,Tereyemu,Magabag,Taragay,Anit,Kayegai,Kageir,Gaumi,Makabak,Topum,Xaytox,Yame,Segere,Kaitok,Sigare,Mappi Regency,South Papua,Gondu River,Casuarina Coast,Kayagar,Kaugat,Atowhaim,Wiyagar,Jogo,Tamario",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Yonggom",
-    "i": 203279,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Kungembit,Ambaga,Komokpin,Yogi,Dome,Yeran,Bongabun,Atkamba,Konkonda,Nago,Buseki,Western Province,Papua New Guinea,Ok Tedi,Fly River",
     "status": "WAITING"
   },
   {
@@ -10168,86 +9268,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "",
     "status": "WAITING"
-  },
-  {
-    "name": "Araona",
-    "i": 203125,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ka'apor",
-    "i": 203126,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Nivaclé",
-    "i": 203127,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sirionó",
-    "i": 203128,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Sranan Tongo",
-    "i": 203129,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tagalog",
-    "i": 203057,
-    "min": 3,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Manila,Quezon City,Makati,Pasig,Taguig,Caloocan,Marikina,Mandaluyong,Pasay,Paranaque,Las Pinas,Muntinlupa,San Juan,Antipolo,Cavite,Bacoor,Imus,Dasmarinas,GenSan,Davao,Cebu,Iloilo,Bacolod,Tagaytay,Subic,Clark,Pampanga,Bulacan,Tarlac,Nueva Ecija,Zambales,La Union,Pangasinan,Laguna,Batangas,Rizal,Quezon,Albay,Camarines",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "papora",
-    "i": 203054,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Taichung,Changhua,Qingshui,Wuqi,Zhanghua,Lukang,Erlin,Beidou,Xihu,Fuxing,Puyan,Xizhou,Tianzhong,Shengang,Fengyuan,Tanzi,Longjing,Wufeng,Taichung Port,Wuri,South Taichung,North Taichung",
-    "status": "WAITING"
-  },
-  {
-    "name": "timor-alor-pantar",
-    "i": 203056,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dili,Kupang,Alor,Pantar,Kalabahi,Lospalos,Lautem,Aileu,Likusaen,Maubara,Baranusa,Kabir,Bakalang,Marisa,Maliang,Takalelang,Ailol Kiding,Kolana,Wetan,Solor,Flores,Komodo,Sumbawa,Lombok,Bali,Wetar,Atauro,Kisar,Oirata,Fataluku,Makalero,Makasae,Bunak,Luro,Iliomar",
-    "status": "COMPLETE"
   },
   {
     "name": "Hindi",
@@ -10377,16 +9397,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Jakarta,Surabaya,Bandung,Bekasi,Depok,Tangerang,Semarang,Malang,Bogor,Tasikmalaya,Surakarta,Cimahi,Yogyakarta,Sukabumi,Cirebon,Pekalongan,Kediri,Tegal,Probolinggo,Batu,Pasuruan,Banjar,Madiun,Salatiga,Blitar,Mojokerto,Magelang,Cilegon,Pacitan,Ponorogo,Trenggalek,Tulungagung,Kanigoro,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Kraksaan,Gresik,Lamongan,Sidoarjo,Bojonegoro,Jombang,Nganjuk,Ngawi,Tuban,Magetan,Pamekasan,Cilacap,Banyumas,Banjarnegara,Batang,Blora,Boyolali,Brebes,Demak,Grobogan,Jepara,Karanganyar,Kebumen,Kendal,Klaten,Kudus,Pati,Pemalang,Purbalingga,Purworejo,Rembang,Sragen,Sukoharjo,Temanggung,Wonogiri,Wonosobo,Ambarawa,Ungaran,Muntilan,Wates,Bantul,Sleman,Wonosari,Prambanan,Kasihan,Sewon,Banguntapan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Malay",
-    "i": 10019,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Jakarta,Surabaya,Bandung,Medan,Bekasi,Depok,Tangerang,Palembang,Semarang,Makassar,South Tangerang,Bogor,Pekanbaru,Padang,Malang,Samarinda,Denpasar,Balikpapan,Serang,Pontianak,Banjarmasin,Jambi,Cimahi,Surakarta,Manado,Kupang,Bandar Lampung,Pangkal Pinang,Tanjung Pinang,Batam,Bengkulu,Palu,Ambon,Manokwari,Jayapura,Sorong,Ternate,Sofifi,Mataram,Kendari,Bau-Bau,Gorontalo,Tidore,Langsa,Lhokseumawe,Subulussalam,Sabang,Banda Aceh,Meulaboh,Calang,Takengon,Lubuk Basung,Bukittinggi,Padang Panjang,Payakumbuh,Solok,Sawahlunto,Pariaman,Singkawang,Putussibau,Sintang,Ketapang,Sungai Raya,Banjarbaru,Bontang,Nusantara,Tarakan,Berau,Martapura,Kuala Kapuas,Muara Teweh,Palangkaraya,Sampit,Pangkalan Bun,Kotawaringin,Sukamara,Nanga Bulik,Pulang Pisau,Kuala Kurun,Amuntai,Tanjung,Batulicin,Kotabaru,Tanah Bumbu,Tanah Laut,Sekayu,Lubuklinggau,Pagar Alam,Prabumulih,Tebing Tinggi,Pematangsiantar,Tanjungbalai,Sibolga,Padang Sidempuan,Parapat,Berastagi,Binjai,Stabat,Kabanjahe,Sidikalang,Salak,Dolok Sanggul,Pangururan,Natal,Rantauprapat,Kisaran,Indrapura,Tanjung Tiram,Sei Rampah,Perbaungan,Limapuluh,Dumai,Bengkalis,Tembilahan,Selat Panjang,Bagan Siapi-api,Pasir Pangaraian,Ujung Tanjung,Teluk Kuantan,Kuala Lumpur,George Town,Johor Bahru,Kuching,Kota Kinabalu,Shah Alam,Malacca City,Alor Setar,Kota Bharu,Kuantan,Kuala Terengganu,Seremban,Ipoh,Petaling Jaya,Klang,Miri,Sandakan,Tawau,Sibu,Bintulu,Limbang,Lawas,Sri Aman,Mukah,Serian,Simunjan,Sarikei,Marudi,Bario,Kapit,Song,Belaga,Dalat,Betong,Pusa,Sebuyau",
     "status": "COMPLETE"
   },
   {
@@ -12070,46 +11080,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kalamian",
-    "i": 202345,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cuyo,Taytay,San Vicente,Coron,Culion,Busuanga,Linapacan,Baras,Calis,Kurung,Banuang Daan,Delian,Tara,Malawig,Turda,Buenavista,Marcilla,Bulalacao,Camanga,Napaskud,Biong,Calauit",
-    "status": "WAITING"
-  },
-  {
-    "name": "Madurese macro entry",
-    "i": 202352,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Madura Island,Sumenep Regency,Pamekasan Regency,Sampang Regency,Bangkalan Regency,East Java Province,Kangean Islands,Madura",
-    "status": "WAITING"
-  },
-  {
-    "name": "Makalero",
-    "i": 202354,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Iliomar,Baucau,Fataluku",
-    "status": "WAITING"
-  },
-  {
-    "name": "Makasae",
-    "i": 202355,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Baucau District,Viqueque District,Baucau,Viqueque,Laga,Sa'ane,Fataluku,Lospalos",
-    "status": "WAITING"
-  },
-  {
     "name": "Makassar",
     "i": 202356,
     "min": 4,
@@ -12117,66 +11087,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Makassar,Gowa Regency,Takalar Regency,Maros Regency,Pangkajene and Islands Regency,Bulukumba Regency,Selayar Islands Regency,Sinjai Regency,Jeneponto Regency,Bantaeng Regency,South Sulawesi Province,Makassarese",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mian",
-    "i": 202360,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Telefomin District,Sandaun Province,East Sepik Province,Yapsiei,Timeilmin,Temsakmin",
-    "status": "WAITING"
-  },
-  {
-    "name": "Moikodi",
-    "i": 202361,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Moikodi,Ariari,Bubudi,Liamu,Maioki,Bedira",
-    "status": "WAITING"
-  },
-  {
-    "name": "Momina",
-    "i": 202362,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Nakai",
-    "i": 202368,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Awimbom",
-    "status": "WAITING"
-  },
-  {
-    "name": "Narom",
-    "i": 202369,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sarawak,Miri Division,Baram River,Bakong,Dali',Miri'",
-    "status": "WAITING"
-  },
-  {
-    "name": "Nduga",
-    "i": 202371,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Highland Papua,Jayawijaya Regency,Baliem Valley",
     "status": "WAITING"
   },
   {
@@ -12548,16 +11458,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Sahartara,Tupatara,Tarakot,Belawa,Lingdu,Namdel,Samteling,Shahartara,Tarang,Tichen,Gumba Tara,Kane,Bhantara,Lawan,Riwa,Dunai,Juphal,Kathmandu,Tichurong Valley,Dolpa District,Karnali Province,Bheri River,Tibrikot,Magar,Tamangic,Tarali",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Kewa",
-    "i": 97973,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Aiya,Wabi,Sumi,Kagua Central,Kuare,Usa,Karia,Koali,Lombo,Mendo,Sugu Valley,Katiloma,Semberigi,Puputao,Wapisale,Seven Kona",
-    "status": "WAITING"
   },
   {
     "name": "Kisan (Kurukh dialect)",
@@ -13015,6 +11915,1286 @@ window.asiaNameBases = [
     "min": 4,
     "max": 11,
     "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Adeni Arabic",
+    "i": 265,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Aden,Taiz,Ibb,Crater,Tawahi,Mualla,Al Mansura,Sheikh Othman,Dar Sad,Khur Maksar,Al Buraiqa,Dimnat Chadir,Hais,Mocha,Jibla,Mukayras,Wadi Dawan,At Tawilah,Dammaj,Mawza,Maqbanah,Hayfan,Al Mukha,Al Mawasit,Shara'b Ar Rawnah,Dhi as-Sufal,Yarim,Zinjibar,Mudiyah,Lahij,Kawkaban",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Aleppine Arabic",
+    "i": 266,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Aleppo,Afrin,Atarib,Ayn al-Arab,A'zaz,Al-Bab,Al-Safira,Dayr Hafir,Jarabulus,Manbij,Idlib,Arihah,Harem,Jisr ash-Shugur,Maarat al-Numaan,Kafr Takharim,Saraqib,Latakia,Jableh,Qardaha,Al-Haffah,Kessab,Manjila,Qaranjah,Salma,Tartus,Baniyas,Dreikiche,Safita,Hama,Masyaf,Mhardeh,Al-Suqaylabiyah,Raqqa,Tabqa,Al-Qusayr,Deir ez-Zor,Mayadin,Abu Kamal,Tell Abyad",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Algerian Saharan Arabic",
+    "i": 268,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Alyutor ",
+    "i": 862,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky",
+    "status": "WAITING"
+  },
+  {
+    "name": "Taishanese ",
+    "i": 866,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Taishan,Kaiping,Enping,Xinhui,Heshan,Jiangmen,Taicheng,Baisha,Shuibu,Xiqi,Sijiu,Doushan,Duhu,Chixi,Sanhe,Chonglou,Guanghai,Shenjing,Duanfen,Haiyan,Wencun,Naqin,Longkou,Changsha,Sanbu,Chikan,Yueliangwan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Central Min ",
+    "i": 1481,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Sanming,YongAn,ShaCounty,Meilie,Sanyuan",
+    "status": "WAITING"
+  },
+  {
+    "name": "Chechen",
+    "i": 1555,
+    "min": 5,
+    "max": 11,
+    "d": "",
+    "m": 1,
+    "b": "Grozny,Gudermes,Urus-Martan,Shali,Argun,Achkhoy-Martan,Kurchaloy,Oyskhara,Goyty,Avtury,Vedeno,Itum-Kale,Shatoy,Nozhay-Yurt,Samashki,Assinovskaya,Sharoy,Khulandoy,Kesaloy,Khakmadoy,Chayry,Shikaroy,Khimoy,Buti,Kiri,Veduchi,Sadoy,Khindoy,Buni,Galanchozh,Khaybakh,Nikaroy,Zengali,Benoy-Vedeno,Dyshne-Vedeno,Elistanzhi,Tevzana,Khattuni,Alkhan-Yurt,Alkhazurovo,Gekhi,Goy-Chu,Martan-Chu,Roshni-Chu,Shalazhi,Starye Atagi,Novye Atagi,Bachi-Yurt,Alleroy,Geldagana,Enikali,Akhmat-Yurt,Koshkeldy,Gerzel-Aul,Biltoy-Yurt,Ishkhoy-Yurt,Beno-Yurt,Chechen-Aul,Belgatoy,Selmentauzen",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Circassian",
+    "i": 1617,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Maykop,Nalchik,Cherkessk,Krasnodar,Sochi,Adygeysk,Kabardinka,Dombay,Ponezhukay,Guzeripl,Kamennomostsky,Khamyshki,Tulsky,Enem,Tlyustenkhabl,Yablonovsky,Gabukay,Khabez,Besleney,Ali-Berdukovsky,Kfar Kama,Rehaniya,Zaragizh,Kyzburun,Blechepsin",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Abkhaz",
+    "i": 2351,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Gagra,Gudauta,Pitsunda,Bzyb,Tsandrypsh,New Athos,Lykhny,Miusera,Pskhu,Otkhara,Abgarkhuk,Machara,Merkheuli,Mikelrypsh,Tamishi,Tsalkoti,Tsarche,Sukhumi,Ochamchire,Gulripshi,Tkvarcheli,Agubedia,Reka,Chkhuartal,Ilori,Labra,Eshera,Beslakhuba,Blaburkhva,Chkhalta,Chlou,Dranda,Duripshi,Khashupse,Kholodnaya Rechka,Lidzava,Salme,Shroma,Sulevi,Gali,Okumi,Tskhori,Gudava,Orsantia,Pahulan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ingush",
+    "i": 2630,
+    "min": 3,
+    "max": 19,
+    "d": "",
+    "m": 0.05,
+    "b": "Magas,Malgobek,Karabulak,Sunzha,Ekazhevo,Surkhakhi,Troitskaya,Nesterovskaya,Galashki,Sagopshi,Psedakh,Yandare,Kantyshevo,Ali-Yurt,Berd-Yurt,Barsuki,Gazi-Yurt,Dalakovo,Chemulga,Ordzhonikidzevskaya,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Nazran",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ossetian",
+    "i": 2631,
+    "min": 3,
+    "max": 14,
+    "d": "",
+    "m": 0,
+    "b": "Vladikavkaz,Alagir,Ardon,Digora,Mozdok,Zavodskoy,Tskhinvali,Kvaisa,Leningor,Nogir,Gizel,Kambileyevo,Chermen,Mikhaylovskoye,Elkhotovo,Kardzhin,Zmeyskaya,Arkhonskaya,Khumalag,Olginskoye,Brut,Khintsa,Baykom,Kirovo,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Beslan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Georgian",
+    "i": 10032,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tbilisi,Batumi,Kutaisi,Rustavi,Zugdidi,Poti,Gori,Telavi,Mtskheta,Akhaltsikhe,Samtredia,Senaki,Zestaponi,Khashuri,Marneuli,Ozurgeti,Kaspi,Chiatura,Tskaltubo,Gardabani,Borjomi,Tkibuli,Khoni,Bolnisi,Gurjaani,Akhmeta,Kvareli,Akhalkalaki,Dusheti,Kareli,Lanchkhuti,Tsnori,Dedoplistskaro,Lagodekhi,Sachkhere,Terjola,Martvili,Abasha,Vani,Tsalka,Khobi,Tsalenjikha,Dmanisi,Baghdati,Oni,Sighnaghi,Ambrolauri,Chokhatauri,Jvari,Tsageri,Sagarejo,Surami,Chakvi,Kobuleti,Ochkhamuri,Ninotsminda,Tetri Tsqaro,Vale",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Turkish",
+    "i": 10044,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0.1,
+    "b": "Istanbul,Ankara,Izmir,Bursa,Adana,Gaziantep,Konya,Antalya,Kayseri,Mersin,Diyarbakir,Samsun,Eskisehir,Denizli,Sanliurfa,Kahramanmaras,Trabzon,Van,Manisa,Balikesir,Sivas,Aydin,Kutahya,Hatay,Osmaniye,Canakkale,Edirne,Kirklareli,Tekirdag,Bolu,Duzce,Zonguldak,Bartin,Karabuk,Kastamonu,Sinop,Corum,Amasya,Tokat,Ordu,Giresun,Tunceli,Bingol,Erzincan,Bayburt,Erzurum,Agri,Igdir,Kars,Ardahan,Artvin,Rize,Gumushane,Malatya,Adiyaman,Kilis,Mardin,Batman,Siirt,Bitlis,Mus,Hakkari,Burdur,Isparta,Mugla,Kocaeli,Sakarya,Yalova,Bilecik,Afyonkarahisar,Usak,Karaman,Aksaray,Nevsehir,Kirsehir,Yozgat,Kirikkale,Cankiri,Mudurnu,Goynuk,Seben,Mengen,Akcakoca,Kaynasli,Gumusova,Cumayeri,Yigilca,Demirozu,Aydintepe,Palandoken,Aziziye,Yakutiye,Horasan,Karayazi,Karacoban,Hinis,Tekman,Cat,Pasinler,Ispir,Oltu,Olur,Senkaya,Tortum,Uzundere,Narman,Posof,Cildir,Damal,Hanak,Gorele,Digor,Tuzluca,Karakoyunlu,Aralik,Patnos,Diyadin,Eleskirt,Dogubayazit,Taslicay,Hamur,Yusufeli,Arhavi,Hopa,Borcka,Kemalpasa,Findikli,Pazar,Ardesen,Camlihemsin,Ikizdere,Of,Dernekpazari,Caykara,Hayrat,Surmene,Arakli,Yomra,Tonya,Akcaabat,Ortahisar,Sancaktepe,Beykoz,Sisli,Beyoglu,Fatih,Eminonu,Besiktas,Maltepe,Kadikoy,Uskudar,Bostanci,Umraniye,Cekmekoy,Tuzla,Pendik,Kartal,Atasehir,Kucukcekmece,Buyukcekmece,Avcilar,Esenyurt,Beylikduzu,Bahcelievler,Bagcilar,Gaziosmanpasa,Arnavutkoy,Basaksehir,Esenler,Gungoren,Zeytinburnu,Bakirkoy,Alanya,Manavgat,Serik,Fethiye,Marmaris,Bodrum,Kusadasi,Cesme,Foca,Bergama,Edremit,Ayvalik,Bandirma,Biga,Gallipoli,Gelibolu,Lapseki,Izmit,Adapazari,Aliaga",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Andalusi Arabic",
+    "i": 21108,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Cordoba,Granada,Malaga,Almeria,Zaragoza,Toledo,Valencia,Murcia,Lisbon,Evora,Coimbra,Faro,Beja,Silves,Santarem,Badajoz,Mertola,Niebla,Baeza,Seville",
+    "status": "WAITING"
+  },
+  {
+    "name": "Algerian Arabic",
+    "i": 24798,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Algiers,Al,Jazair,Oran,Constantine,Qacentina,Annaba,Qal-a,Blida,Batna,Sétif,Setif,Tlemcen,Tilimsen,Sidi,Bel,Abbes,Tizi,Ouzou,Béjaïa,Bugia,Skikda,Mostaganem,Ouargla,Bordj,Bou,Arreridj,Bu,Chlef,Médéa,Madiyah,Laghouat,Laghwat,M-Sila,Jijel,Tébessa,Tibissa,Biskra,Mila,Tiaret,Tihert,Saïda,Saida,Tipaza,Bouira,Tindouf,Tinduf,Illizi,Djanet,Ghardaïa,Ghardaia,Béchar,Bashshar",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Andi",
+    "i": 200644,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Andi,Gunkha,Gagatl,Ashali,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Bichonni,Rushukha,Tsibilda,Koisu,Tlisi,Chirkata,Gimali,Tsumada,Kvanada,Akhalchi,Sogratl,Oboda,Kizhani,Gakvari,Tadiyal,Maali,Khvered,Tlondoda,Gagar,Dzilebki,Koroda",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Bezhta",
+    "i": 200645,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tladal,Khasharkhota,Balakuri,Isso,Sinatli,Zhammod,Andzhaga,Kachalay,Tsunta,Koyshula,Shamil",
+    "status": "WAITING"
+  },
+  {
+    "name": "Botlikh",
+    "i": 200646,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Miarso,Ashino,Chontaul,Ankho,Batlakhatli,Koyshula",
+    "status": "WAITING"
+  },
+  {
+    "name": "Kabardian",
+    "i": 200647,
+    "min": 4,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nalchik,Baksan,Prokhladny,Terek,Mozdok,Nartan,Kislovodsk,Piatigorsk,Essentuki,Zheleznovodsk,Cherkessk,Maykop,Adygeisk,Giaginskaya,Khadyzhensk,Apsheronsk,Krasnodar,Armavir,Nevinnomyssk,Stavropol,Georgiyevsk,Budyonnovsk,Blagodarny,Izobilny,Neftekumsk,Ust-Dzheguta,Teberda,Dombay,Terskol,Verkhnyaya Balkariya,Zolskoye,Psygansu,Kashkhatau,Aushiger,Kenzhe,Staraya Krepost,Islamey,Kyzburun",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kubachi",
+    "i": 200649,
+    "min": 4,
+    "max": 18,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Amuzgi,Shari,Sulevkent,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mingrelian",
+    "i": 200650,
+    "min": 3,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Zugdidi,Poti,Senaki,Martvili,Chkhorotsku,Tsalenjikha,Khobi,Ochamchire,Gali,Gulripshi,Abasha,Nokalakevi,Kveda Nasakirali,Mestia,Lentekhi,Oni,Ambrolauri,Tkibuli,Tskaltubo,Kutaisi,Batumi,Kobuleti,Ozurgeti,Gori,Khashuri,Kareli,Kaspi,Akhaltsikhe,Adigeni,Aspindza,Akhalkalaki,Ninotsminda,Bolnisi,Dmanisi,Tetri Tskaro,Tsalka,Marneuli,Gardabani,Sagarejo,Telavi,Kvareli",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Rutul",
+    "i": 200652,
+    "min": 3,
+    "max": 15,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Rutul,Luchek,Ikhrek,Amsar,Boch,Shinaz,Khinov,Kala,Aran,Vurush,Djilikhur,Mukhrek,Tsudik,Kiche,Kufa,Khnukh,Fucukh,Una,Kina,Pilek,Kish,Shin,Kainar,Shorsu,Dashjuz,Aidynbulakh,Khyrsa,Sheki,Qax,Khnyukh,Borç,Ağayev,Yuxarı Çardaqlı,Ləkit,Katex,Zəyəm,Müdrəsə,Qonaqkənd,Qusar,Xudat",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Svan",
+    "i": 200653,
+    "min": 4,
+    "max": 15,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mestia,Ushguli,Latali,Lenjeri,Mulakhi,Ipari,Adishi,Kala,Becho,Chuberi,Neskra,Nakra,Lalveri,Pari,Eceri,Xaishi,Laxamula,Cxumari,Rcxmeluri,Xeleduri,Xopuri,Lentekhi,Choluri,Lashxeti,Ialtsunesga,Tskhenis-Tskali,Enguri,Cxenis-Cqali,Kodori,Klukhor,Sakenara,Gvandrala,Dali,Aghirdi,Ushkul,Khumar,Tumusari,Bediani,Tetri Tskaro,Tsalka,Marneuli,Gardabani,Sagarejo,Telavi",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tabasaran",
+    "i": 200654,
+    "min": 4,
+    "max": 18,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Rushvil,Tsanak,Zidyan,Rukala,Kuraka,Vechrik,Khvog-ratsar,Myakhlar,Zilgi",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tat",
+    "i": 200655,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Lahıc,Ismailli,Shamakhi,Khachmaz,Guba,Xizi,Zarat,Qonaqkənd,Qusar,Xudat,Derbent,Mərdəkan,Biləcəri,Binəqədi,Qala,Lökbatan,Ramana,Suraxanı,Sabunçu,Bakıxanov,Balaxanı,Bülbülə,Xocəsən,Masazır,Hövsan,Pirşağı,Şüvəlan,Çilov,Nardaran,Qobustan,Göytəpə,Lənkəran,Astara,Masallı,Yardımlı,Cəlilabad,Biləsuvar,Saatlı,Sabirabad,Salyan,Neftçala,Xıllı,Qaracuxur,Göyçay,Ucar",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tindi",
+    "i": 200656,
+    "min": 4,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Idari,Aknada,Echeda,Tissi,Khushet,Goba",
+    "status": "WAITING"
+  },
+  {
+    "name": "Ubykh",
+    "i": 200657,
+    "min": 3,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sochi,Tuapse,Gelendzhik,Novorossiysk,Krasnodar,Lazarevskoye,Khosta,Matsesta,Dagomys,Adler,Kudepsta,Mzymta,Psou,Shahe,Khamysh,AkhinTam,Akhun,Pehu,Psesh,Psezuapse,Bziy,Nabze,Hadzhyko,Shakhe,Kodori,Bzyb,Gumista,Psirtskha,Mokvi,Otkhara,Duripsh,Lykhny,Gudauta,Sukhum,Gagra,Pitsunda,Bichvinta,Gulripshi,Ochamchire",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zay",
+    "i": 200928,
+    "min": 4,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ziway,Butajira,Wolaita,Hosaina,Shashemene,Boditi,Areka,Worabe,Welkite,Hosaena,Angacha,Kedida Gamela,Leku,Aleta Wendo,Chuko,Dara,Boricha,Yirgalam,Adilo,Kochere,Bensa,Awasa,Addis Ababa,Hawassa,Sodo,Arba Minch,Durame,Dale",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Southern Itelmen",
+    "i": 201247,
+    "min": 4,
+    "max": 24,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Petropavlovsk-Kamchatsky,Yelizovo,Vilyuchinsk,Esso,Milkovo,Klyuchi,UstBolsheretsk,Bolsheretsk,Nikolskoye,Sobolev,Tigil,Palana,Kovran,UstKhayryuzovo,Khayryuzovo,Sopochnoye,Moroshechnoye,Utkholok,Sedanka,Anavgay,Atlasovo,Paratunka,Termalny,Zaporozhye,Mutnovsky,YuzhnoKamchatsky,Apacha,Kamenskoye",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Western Itelmen",
+    "i": 201250,
+    "min": 4,
+    "max": 24,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Petropavlovsk-Kamchatsky,Yelizovo,Vilyuchinsk,Esso,Milkovo,Klyuchi,UstBolsheretsk,Bolsheretsk,Nikolskoye,Sobolev,Tigil,Palana,Kovran,UstKhayryuzovo,Khayryuzovo,Sopochnoye,Moroshechnoye,Utkholok,Sedanka,Anavgay,Atlasovo,Paratunka,Termalny,Zaporozhye,Mutnovsky,YuzhnoKamchatsky,Apacha,Kamenskoye",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kaitag",
+    "i": 202798,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Madjalis,Sanchi,Gazeya,Karatsan,Barshamai,Jhibakhni,Jhavgat,Jhirabachi,Kulidjha,Adaga,Antil',Varseet,Kirki,Gool'bii,Shileyagi,Shilansha,Khungeya,Akhmedkent,Surgeya,Mizhigli,Dooregi,Bazhlukh,Mashatlii,Pilyaki",
+    "status": "WAITING"
+  },
+  {
+    "name": "Han (Samhan)",
+    "i": 202817,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Hmong macro entry",
+    "i": 202819,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Hmu",
+    "i": 202820,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Kiong Nai",
+    "i": 202827,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Northern Min",
+    "i": 202839,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "She",
+    "i": 202857,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Egyptian Arabic",
+    "i": 203059,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Cairo,Alexandria,Giza,ShubraElKheima,PortSaid,Suez,Luxor,Mansoura,ElMahallaElKubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,BeniSuef,Qena,Sohag,Hurghada,KafrElSheikh,Mallawi,Banha,Bilbeis,BorgElArab,Desouk,DarElSalam,Dokki,Daraw,DeirMawas,Dekernes,Dishna,Edfu,Delengat,Heliopolis,Helwan,KafrElDawwar,KafrElZayat,KomHamada,Maadi,Maghaghah,Manfalut,MarinaElAlamein,MarsaAlam,Matay,Menouf,MitGhamr,MinyetElNasr,NagHammadi,Naqada,NewCairo,Obour,OldCairo,PortFuad,Qalyub,Quesna,Qus,Rosetta,SadatCity,Samalut,ShibinElKom,SidiSalem,Tala,Tahta,TellElKebir,Zamalek,Zeitoun,SixthOfOctober,TenthOfRamadan,ElGouna,Shorouk,Badr,NewBorgElArab,NewDamietta,NewMinya,NewSohag,NewQena,NewAsyut,NewFayyum,NewBeniSuef,NewIsmailia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kurdish",
+    "i": 10026,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Erbil,Sulaymaniyah,Dohuk,Duhok,Kirkuk,Halabja,Diyarbakir,Van,Mardin,Batman,Bitlis,Mus,Bingol,Hakkari,Siirt,Sirnak,Sanandaj,Senna,Saqqez,Baneh,Marivan,Qorveh,Kamyaran,Bijar,Divandarreh,Shahrekurd,Ilam,Kermanshah,Mahabad,Miandoab,Naqadeh,Urmia,Sardasht,Maku,Khoy,Salmas,Qamishli,Hasakah,Afrin,Kobane,Malikiyah,Amude,Derik,Dercim,Tunceli,Elazig,Agri,Igdir,Kars,Ardahan,Erzurum,Erzincan,Urfa,Sanliurfa,Adiyaman,Gaziantep,Antep,Kilis,Birecik,Suruc,Siverek,Viransehir,Cizre,Silvan,Lice,Bismil,Silopi,Adana,Mersin,Antakya,Iskenderun,Dersim,Ovacik,Pulumur,Emirhan,Bulanik,Varto,Ahlat,Tatvan,Edremit,Ercis,Caldiran,Saray,Baskale,Semdinli,Yuksekova,Doski,Cukurca,Gurpinar,Ankara,Istanbul,Izmir,Bursa",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Bashkir",
+    "i": 20153,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Ufa,Salavat,Sterlitamak,Neftekamsk,Oktyabrsky,Beloretsk,Ishimbay,Tuymazy,Kumertau,Meleuz,Belebey,Birsk,Uchaly,Sibay,Baymak,Asha,Katav-Ivanovsk,Minyar,Sim,Yuryuzan,Vyazemsky,Karaidel,Kigi,Duvan,Mesyagutovo,Bolsheustyikinskoye,Starosubkhangulovo,Agidel,Blagoveshchensk,Davlekanovo,Dyurtyuli,Yanaul,Verkhny Avzyan,Inzer,Buribay,Tukan,Yumaguzino,Mramorkino,Meleuzovsky,Temyasovo,Isyangulovo,Krasnokholmsky,Tabynsk,Aksakovo,Askino,Bayguzino,Bavly,Begishevo,Belenok,Beleubay,Buzdyak,Chekmagush,Chishmy,Duven,Duven Duvan,Fedorovka,Gafuri,Glukhovskaya,Iglino,Iskino,Itkulovo,Ivanovka,Kabakovo,Kaga,Kalmasi,Kandry,Karlaman,Karmaskaly,Katai-Karmovskaya,Komsomolets,Kraonskaya,Krasny,Krasny Yar,Kushnarenkovo,Kuyurgazino,Magnitka,Mezhgorye,Mikhaylovka,Mishkino,Miyakinskiy,Naglaya,Nikolo-Berezovka,Novobelokatai,Novokudainsk,Osa,Otrada,Pavlovka,Petrovka,Priyutovo,Rafikovo,Sharan,Shulganovo,Sredny Ural,Starobaltachevo,Sterlibashevo,Subkhangulovo,Tirlyanskiy,Udaly,Verkhneye,Munzyrovo,Verkhniy Karakul,Verkhny,Kuganak,Yazykovo,Yurmaty,Zigaza,Argayash,Saraktash,Staraya Mayna,Sterlitamakskiy,Subkhankulovo,Tukansky,Tuymazinskiy,Ulu-Telyak,Ulu-Kain,Urussu,Akkuzovo,Andreyevka,Annam,Kaluy,Kaltyaman,Kalu,Kubyakovo,Almaly,Kyzyl-Kulak,Khalitovo,Sapkulovo,Bikkulovo,Yangi-Turmush,Yanagushevo,Bikkulovskoye,Yunost,Ulu-Kulak,Surak,Teren,Kulchurov,Mazeyevka,Syulpy,Kaltasy,Kundryak,Kungak,Aktau,Tuyembetka,Yanbayevo,Kiyevka,Turbeyevka,Ilmurino,Zilair,Zirgan,Muraptalovo,Chingizovo,Almukhametovo,Iremel,Maloyazovo,Inzerovskiy,Tukmach,Bedzhiga,Karagay,Khaybullinskiy,Akyar,Abzelilovskiy,Tamyanovo,Staraya,Kain,Kuru-Kulak,Khaibulina,Baimbetovo,Temirova,Kislorodchik,Temirovka,Baishevo,Semigorodnya,Mezentsevo,Islambaevo,Karakulevo",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "A'Tong",
+    "i": 202386,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Achhami (Doteli)",
+    "i": 202387,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Alchuka",
+    "i": 202389,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Allar",
+    "i": 202390,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Angika",
+    "i": 202392,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Bagheli",
+    "i": 202396,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Baitadeli (Doteli)",
+    "i": 202397,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Bajhangi (Doteli)",
+    "i": 202398,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Bhojpuri",
+    "i": 202406,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Byangsi",
+    "i": 202408,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Chakhar Mongol",
+    "i": 202412,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Chamling",
+    "i": 202413,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Dadeldhuri (Doteli)",
+    "i": 202417,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Hagei",
+    "i": 202433,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Hailar Dagur",
+    "i": 202434,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Harauti",
+    "i": 202438,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Hindko, Southern",
+    "i": 202440,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Kamviri",
+    "i": 202467,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Khetrani",
+    "i": 202476,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Kundal Shahi",
+    "i": 202482,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Lambadi",
+    "i": 202485,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Loarki",
+    "i": 202490,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Longsang Zhuang",
+    "i": 202491,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Malto",
+    "i": 202506,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Maonan",
+    "i": 202512,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Mel-Khaonh",
+    "i": 202517,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Min Zhuang",
+    "i": 202522,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Moyfaw",
+    "i": 202530,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nachhiring",
+    "i": 202540,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nanaic",
+    "i": 202543,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nantoq Baoan",
+    "i": 202544,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nar Phu",
+    "i": 202545,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Negidal",
+    "i": 202546,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nepalese English",
+    "i": 202547,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nihali",
+    "i": 202548,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nimadi",
+    "i": 202549,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nonni Dagur",
+    "i": 202552,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Northern Tungusic",
+    "i": 202557,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nung Tai",
+    "i": 202558,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Oadki",
+    "i": 202561,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Oeld",
+    "i": 202563,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Ollari",
+    "i": 202568,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Ordos Mongol",
+    "i": 202570,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Ormuri",
+    "i": 202571,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Pahari-Pothwari",
+    "i": 202576,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Pakistani English",
+    "i": 202577,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Paliyan",
+    "i": 202578,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Pattapu",
+    "i": 202584,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Phake",
+    "i": 202587,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Phuan",
+    "i": 202589,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Portugis",
+    "i": 202590,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Pyang Zhuang",
+    "i": 202600,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Rabha",
+    "i": 202603,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Rangpuri",
+    "i": 202607,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Riang",
+    "i": 202611,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Rohingya",
+    "i": 202612,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Saek",
+    "i": 202616,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Santa Mongol",
+    "i": 202623,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Santa Sijiaji",
+    "i": 202624,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sapuan",
+    "i": 202628,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Shilingol / Xilingol Khalkha",
+    "i": 202636,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Shira Yugur",
+    "i": 202639,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sholaga",
+    "i": 202642,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sikkimese",
+    "i": 202643,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Somray",
+    "i": 202645,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sonid Mongol",
+    "i": 202647,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Southern Tai",
+    "i": 202649,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sundanese native-speakers subset",
+    "i": 202658,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Surjapuri",
+    "i": 202661,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tai Yao",
+    "i": 202676,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tamang",
+    "i": 202679,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tampuan",
+    "i": 202680,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tanchangya",
+    "i": 202681,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tay (Tai)",
+    "i": 202684,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tay Tac",
+    "i": 202685,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tenyidie",
+    "i": 202686,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Thakali",
+    "i": 202690,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Thangmi (Thami)",
+    "i": 202691,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tichurong",
+    "i": 202695,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Udege",
+    "i": 202706,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Ulaanchab Mongol",
+    "i": 202709,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Vaghri",
+    "i": 202712,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Varendri",
+    "i": 202713,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Wagdi",
+    "i": 202722,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Walungge",
+    "i": 202723,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Zandui",
+    "i": 202735,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Bhaya ",
+    "i": 203196,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Goaria ",
+    "i": 203208,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
     "m": 0,
     "b": "",
     "status": "WAITING"

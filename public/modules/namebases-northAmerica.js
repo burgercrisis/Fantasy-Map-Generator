@@ -2009,33 +2009,143 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Chamorro",
-    "i": 24702,
-    "min": 3,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0.1,
-    "b": "Hagatna,Dededo,Yigo,Tamuning,Mangilao,Barrigada,Agat,Santa Rita,Chalan Pago,Sinajana,Agana Heights,Asan-Maina,Piti,Talofofo,Inarajan,Merizo,Umatac,Yona,Talisayan,Mongmong,Toto,Maite,Tumon,Latte,Anigua,Maina,Asan,Tiyan,Ordot,Saipan,Garapan,San Jose,Tanapag,Chalan Kanoa,San Antonio,San Vicente,Koblerville,Capitol Hill,Susupe,Oleai,Kagman,San Roque,Kanat Tabla,Talufofo,Tagpochau,Achugao,As Matuis,Capital Hill,Garapan Village,Gualo Rai,Chalan Piao,Maturana Hill,As Perdido,Sugar King",
+    "name": "Antillean Creole",
+    "i": 1956,
+    "min": 4,
+    "max": 16,
+    "d": "",
+    "m": 0,
+    "b": "Fort-de-France,Le Lamentin,Le Robert,Sainte-Marie,Le François,Ducos,Rivière-Salée,Sainte-Luce,Les Trois-Îlets,Le Vauclin,Le Diamant,Saint-Esprit,Le Marin,Rivière-Pilote,Le Morne-Rouge,Le Prêcheur,Grand'Rivière,Macouba,Le Lorrain,Basse-Pointe,Le Carbet,Case-Pilote,Bellefontaine,Fonds-Saint-Denis,Le Morne-Vert,L'Ajoupa-Bouillon,Les Anses-d'Arlet,Saint-Joseph,Schœlcher,La Trinité,Le Gros-Morne,Saint-Pierre,Le Marigot,Basse-Terre,Pointe-à-Pitre,Les Abymes,Baie-Mahault,Le Gosier,Le Moule,Petit-Bourg,Sainte-Rose,Morne-à-l'Eau,Lamentin,Saint-François,Capesterre-Belle-Eau,Gourbeyre,Saint-Claude,Vieux-Habitants,Goyave,Baillif,Bouillante,Deshaies,Vieux-Fort,Pointe-Noire,Port-Louis,Petit-Canal,Anse-Bertrand,Grand-Bourg,Capesterre-de-Marie-Galante,Saint-Louis,La Désirade,Roseau,Portsmouth,Wesley,Salybia,Bataca,Sineku,Gaulette,St. Cyr,Crayfish River,Mahaut River,Atkinson,Castries,Gros Islet,Soufriere,Vieux Fort,Micoud,Dennery,Choiseul,Laborie,Anse la Raye,Canaries,St. George's,Grenville,Gouyave,Victoria,Sauteurs,Hillsborough,L'Esterre,Harvey Vale,Belvidere,Beausejour,Belmont,Birchgrove,Petite Martinique,Fond-du-Curé,Petite-Anse,Gustavia,Saint-Jean,Lorient,Colombier Bay,Flamands,Grand Cul-de-Sac,Petit Cul-de-Sac,Toiny,Anse des Cayes,Grand Fond,Vitet,Corossol,Public,Lurin,Paramin,Blanchisseuse,Lopinot,Talparo,Carenage,Cascade,Champs Fleurs,Laventille,Arima,Macuro,Güiria,El Callao,Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Apatou,Grand-Santi,Papaïchton,Maripasoula,Saül,Camopi,Saint-Georges,Ouanary,Régina,Roura,Sinnamary,Iracoubo",
     "status": "COMPLETE"
   },
   {
-    "name": "Marshallese",
-    "i": 24703,
-    "min": 3,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0.1,
-    "b": "Majuro,Ebeye,Jaluit,Arno,Wotje,Ailinglaplap,Maloelap,Mili,Utirik,Ujae,Lae,Rongelap,Rongerik,Bikini,Enewetak,Ujelang,Likiep,Mejit,Aur,Wotho,Kwajalein,Namorik,Namu,Ebon,Lib,Ailuk,Jabat,Kili,Rita,Laura,Marshall Islands,Delap,Uliga,Djarrit,Ajeltake,Rairok,Woja,Long Island,Ine,Taroa,Imiej,Enejet",
+    "name": "Tzotzil",
+    "i": 8127,
+    "min": 4,
+    "max": 21,
+    "d": "",
+    "m": 0.18,
+    "b": "Chamula,Zinacantán,San Andrés Larráinzar,Chenalhó,Huixtán,Chalchihuitán,Pantelhó,Mitontic,El Bosque,Santiago el Pinar,Venustiano Carranza,Romerillo,Cruztón,Yaltem,Chicumtantic,Nichnamtic,Muquén,Majomut,Saclamantón,Catishtic,Cuchulumtic,Tentic,Pugchén Mumuntic,Tzontehuitz,Navenchauc,Nachig,Apas,Pasté,Patosil,Zequentic,Chalam,Tzoeptic,Chimhucum,Oxinam,Chiquinshulum,Joltealal,Yibeljoj,Muken,Jobel,Bats'i k'op,Sots'leb",
     "status": "COMPLETE"
   },
   {
-    "name": "Palauan",
-    "i": 24704,
-    "min": 3,
-    "max": 20,
+    "name": "Mixtec",
+    "i": 8428,
+    "min": 4,
+    "max": 34,
     "d": "lnrt",
-    "m": 0.1,
-    "b": "Ngerulmud,Koror,Airai,Meyungs,Malakal,Ngermid,Imeong,Ngetkib,Ngerkeai,Ngardmau,Aimeliik,Ngatpang,Angaur,Peleliu,Kayangel,Sonsorol,Hatohobei,Melekeok,Ngchesar,Ngiwal,Ngaraard,Ngarchelong,Ngeremlengui,Oikull,Ngeruluobel,Ngerusar,Medorm,Ngchemiangel,Mongami,Ngersuul,Ulimang,Mengellang,Imul,Kloulklubed,Ngaramasch,Arakabesan,Chelbacheb,Ngerbeched,Eil Malk,Rois",
+    "m": 0.93,
+    "b": "Tlaxiaco,Juxtlahuaca,San Juan Mixtepec,Santa Maria Peñoles,San Miguel el Grande,San Pedro y San Pablo Tequixtepec,San Mateo Yucutindoó,San Esteban Atatlahuca,Santiago Yosondua,Santa Cruz Itundujia,San Andres Dinicuiti,San Juan Diquiyú,San Miguel Amatitlan,San Sebastian Tecomaxtlahuaca,San Martin Duraznos,Santo Tomas Ocotepec,San Agustin Tlacotepec,Magdalena Peñasco,San Jeronimo Xayacatlan,San Juan Ñumí,Santa Maria Yucuhiti,San Andres Yuticachi,San Martin Huamelulpam,San Pedro Molinos,San Dionisio Ocotlan,Santa Lucia Monteverde,San Juan Teita,San Pedro Topiltepec,San Andres Cabecera Nueva,San Andres Nuxiño,Santa Maria Yolotepec,San Antonino Monte Verde,San Cristobal Amoltepec,Santiago Tamazola,San Martin de los Cansecos,San Juan Cieneguilla,Santa Maria Apazco,San Francisco Telixtlahuaca,San Juan Bautista Cuicatlan,San Pedro Jocotipac,Santa Maria Nativitas,San Andres Zautla (neighbor),San Martin Itunyoso,Tlacoatzintepec,Sochiapan,San Pedro y San Pablo Ayutla,San Lorenzo Cuaunecuiltitlan,Santa Maria Jalapa del Marques,San Juan Jaltepec,Santiago Yolomecatl,San Mateo Piñas,San Andres Paxtlan,San Vicente Nuñú,San Francisco Chapulapa,Santiago Huajolotitlan,San Miguel Chicahua,San Juan Tepeuxila",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Otomi",
+    "i": 8429,
+    "min": 4,
+    "max": 18,
+    "d": "kpt",
+    "m": 0.33,
+    "b": "San Juan Bautista Ixtenco,Santiago Tlazoyaltepec,San Jeronimo Acazulco,San Pedro Atlapulco,Santiago Tilapa,Temascalcingo,Temoaya,San Felipe Santiago,San Ildefonso Tultepec,Santiago Mexquititlan,Amealco,Toliman,San Nicolas Tenango,Texcatepec,Toluca,San Felipe los Alzati,San Pablito Pahuatlan,Santa Ana Hueytlalpan,Tecozautla,Chapa de Mota,Jilotepec,Acambay,Mezquital,Ixmiquilpan,Tula,Valle de Mezquital,San Antonio",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zapotec",
+    "i": 8430,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Amatlán,Benito Juárez,Cuajimoloyas,La Nevería,Lachatao,Latuvi,Llano Grande,Yavesía,Ixtlán de Juárez,Capulálpam de Méndez,Guelatao de Juárez,Natividad,San Juan Chicomezúchil,Santiago Xiacuí,San Juan Yaeé,San Juan Yatzona,San Miguel Yotao,San Pedro Yaneri,San Ildefonso Villa Alta,Santa Catarina Ixtepeji,Monte Albán,Mitla,Zaachila,Ocotlán,Etla,Tlacolula,San José Mogote,Zimatlan,Abasolo,Juchitán,Tehuantepec,Jalapa del Marqués,Mixtequilla,Xadani,Chihuitán,Laollaga,Yatee,Zoogocho,Yalálag,Tabaá,Cajonos,Choápam,Abejones,Ozolotepec,Miahuatlán,Coatezas Altas,Santa María Ozolotepec,Santo Domingo Ozolotepec,San Cristóbal Amatlán",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Tzeltal",
+    "i": 20227,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Ocosingo,Altamirano,Huixtan,Tenejapa,Yajalon,Chanal,Sitala,AmatenangoDelValle,Chilon,SanJuanCancuc,Oxchuc,Aguacatenango,Bachajon,Guaquitepec,Sibakja,Cancuc,Tzajala,Tenango,Nichinat,Kotolte,Tzajalchen,Matzam,Yashanal,Chixtontic,Chilolja,NichteelSanAntonio,Chancolom,Ococh,SibaniljaPocolum,Chacoma,Majosik,Jomanichim,Palenque,SanCristobalDeLasCasas,Tila,Tumbala,Socoltenango,Soyalo,Bochil,Simojovel,Huitiupan,LasMargaritas,Comitan,LaIndependencia,LasRosas,Acala,Suchiapa,Chiapilla",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kaqchikel",
+    "i": 24714,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Tecpan,Patzun,Patzicia,SanJosePoaquil,SanMartinJilotepeque,SanAndresItzapa,SanMiguelPochuta,SanPedroYepocapa,SanJuanComalapa,Chimaltenango,ElTejar,Pochuta,Yepocapa,Parramos,Acatenango,Sumpango,Jocotenango,SantaCruzBalanya,Alotenango,MagdalenaMilpasAltas,SanAntonioAguasCalientes,SanBartolomeMilpasAltas,SanLucasSacatepequez,SanMiguelDuenas,SantaCatarinaBarahona,SantaLuciaMilpasAltas,SantaMariaDeJesus,SantiagoSacatepequez,SantoDomingoXenacoj,Chuarrancho,SanJuanSacatepequez,SanPedroAyampuc,SanPedroSacatepequez,SanRaimundo,Panajachel,SanAndresSemetabaj,SanAntonioPalopo,SanJoseChacaya,SantaCatarinaPalopo,SantaCruzLaLaguna,SanMarcosLaLaguna,Solola,SanAntonioSuchitepequez,SanJuanBautista,Patulul,SantaCruzElChol,Iximche,Concepcion,AntiguaGuatemala,CiudadVieja,SantoTomasChichicastenango",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Naukan",
+    "i": 200232,
+    "min": 4,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Uelen,Lavrentiya,Provideniya,Lorino,Nunyamo,Uelkal,Chaplino,Sireniki,Imtuk,Avan,Nutaq,Napaqutaq,Siqlluk,Itygran,Arakamchechen,Yanrakynnot,Mechigmen,Kolyuchin,Inakhpak,Rumilet,Tkachen,Penkigney,Senyavin,Aboleshev,Kygynin,Ergyn,Nunlygran,Nutepenmen,Nuvuqaghmiit,Sighineq,Ungaziq,Qelengay,Teflleq,Wewtengay,Yagrakenutaq,Masiq,Qigi,Pagilleq,Inqetuq,Nashqaq,Qeyuvaggpak,Uuggsit,Yarga",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sirenik",
+    "i": 200233,
+    "min": 4,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Imtuk,Ungaziq,Chaplino,Naukan,Lavrentiya,Provideniya,Lorino,Uelen,Avan,Sighineq,Siqlluk,Itygran,Arakamchechen,Mechigmen,Kolyuchin,Penkigney,Yanrakynnot,Nutaq,Napaqutaq,Qelengay,Teflleq,Masiq,Qigi,Inakhpak,Rumilet,Aboleshev,Kygynin,Ergyn,Nunlygran,Nutepenmen,Wewtengay,Yagrakenutaq,Pagilleq,Inqetuq,Nashqaq,Uuggsit,Yarga",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Mocho'",
+    "i": 202243,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Motozintla de Mendoza,Motozintla,Tuzantan,Tuzantan Pueblo,Estacion Tuzantan,Toliman,Buenos Aires,La Campana,Cerro La Campana,Belisario Dominguez,Huixtla,Mozotal,Niquivil,Boqueron,Male,San Jeronimo",
+    "status": "WAITING"
+  },
+  {
+    "name": "Yuit",
+    "i": 202385,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Naukan,Nuvuqaq,Ungaziq,Ungazik,Chaplino,Novo Chaplino,Nunyamo,Pinakul,Savoonga,Gambell,Wales,Tkachen",
+    "status": "WAITING"
+  },
+  {
+    "name": "Bahamian Creole",
+    "i": 202776,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Bahamian Creole,Holetown,Les Cayes,St. John's,Marigot,The Valley,Tabernacle,Gros Islet,Sandy Ground,Cayon,Tortola,English Harbour,Chaguanas,Philipsburg,Roseau,Micoud,Grenville,Hillsborough,Salisbury,Cockburn Harbour,Cockburn Town,Soufrière,Liberta,Arima,Freeport,Santiago,Basseterre,Matanzas,Montego Bay,Jacmel,Hastings,Mandeville,Ocho Ríos,Saint-Marc,Cap-Haïtien,Simpson Bay,Nassau,Alice Town,Bridgetown,Fort-Liberté,Jérémie,Point Fortin,Port of Spain,Dunmore Town,Santiago de Cuba,Kingston,Brievengat,Speightstown,Holguín,Bathsheba,Upper Prince's Quarter",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "San Andrés-Providencia Creole",
+    "i": 202791,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "San Andrés-Providencia Creole,San Fernando,Soufrière,Marigot,Cap-Haïtien,Victoria,Five Cays,Gonaïves,Holetown,English Harbour,St. John's,Road Town,The Valley,Gros Islet,Cayon,Tabernacle,Portmore,Sandy Ground,Chaguanas,Governor's Harbour,Kralendijk,Portsmouth,Philipsburg,Cockburn Harbour,Grenville,Santo Domingo,Freeport",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ch'olti'",
+    "i": 203063,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   }
 ];

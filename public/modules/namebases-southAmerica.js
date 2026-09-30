@@ -1510,16 +1510,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tzeltal",
-    "i": 20227,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ocosingo,Altamirano,Huixtan,Tenejapa,Yajalon,Chanal,Sitala,AmatenangoDelValle,Chilon,SanJuanCancuc,Oxchuc,Aguacatenango,Bachajon,Guaquitepec,Sibakja,Cancuc,Tzajala,Tenango,Nichinat,Kotolte,Tzajalchen,Matzam,Yashanal,Chixtontic,Chilolja,NichteelSanAntonio,Chancolom,Ococh,SibaniljaPocolum,Chacoma,Majosik,Jomanichim,Palenque,SanCristobalDeLasCasas,Tila,Tumbala,Socoltenango,Soyalo,Bochil,Simojovel,Huitiupan,LasMargaritas,Comitan,LaIndependencia,LasRosas,Acala,Suchiapa,Chiapilla",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tzotzil",
     "i": 20228,
     "min": 4,
@@ -1580,6 +1570,16 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
+    "name": "Mineiro",
+    "i": 893,
+    "min": 4,
+    "max": 11,
+    "d": "nic-GH",
+    "m": 0,
+    "b": "Belo Horizonte,Ouro Preto,Tiradentes,Diamantina,São João del-Rei,Mariana,Sabará,Congonhas,Barbacena,Itabira,Conselheiro Lafaiete,Divinópolis,Juiz de Fora,Pouso Alegre,Poços de Caldas,Araxá,Lambari,Caxambu,Lavras,Governador Valadares,Teófilo Otoni,Janaúba,Patos de Minas,Uberlândia,Araguari,Ituiutaba,Montes Claros,Curvelo,Paracatu,Unaí,Januária,Almenara,Nazareno,Piedade do Rio Grande,Prados,Resende Costa,Ritápolis,Santa Cruz de Minas,Santana do Garambéu,São Tiago,Bom Despacho,Araújos,Dores do Indaiá,Formiga,Itapeceriba,Luz,Oliveira,Pitangui,Camanducaia,Extrema,Itapeva,Maria da Fé,São Lourenço,Soledade de Minas,São Gonçalo do Sapucaí,Carmo de Minas,Cristina,Dores de Campos,Itaverava,Lavras Novas,Matias Barbosa,Ouro Branco,Rio Piracicaba,Santa Bárbara,Santa Rita de Ouro Preto,Santo Antônio do Leite,São Bartolomeu,São José da Lapa,São Miguel do Anta,Santos Dumont,Sarzedo,Serro,Taboão,Vespasiano,Viçosa",
+    "status": "COMPLETE"
+  },
+  {
     "name": "Kiche",
     "i": 24713,
     "min": 4,
@@ -1590,63 +1590,53 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Kaqchikel",
-    "i": 24714,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tecpan,Patzun,Patzicia,SanJosePoaquil,SanMartinJilotepeque,SanAndresItzapa,SanMiguelPochuta,SanPedroYepocapa,SanJuanComalapa,Chimaltenango,ElTejar,Pochuta,Yepocapa,Parramos,Acatenango,Sumpango,Jocotenango,SantaCruzBalanya,Alotenango,MagdalenaMilpasAltas,SanAntonioAguasCalientes,SanBartolomeMilpasAltas,SanLucasSacatepequez,SanMiguelDuenas,SantaCatarinaBarahona,SantaLuciaMilpasAltas,SantaMariaDeJesus,SantiagoSacatepequez,SantoDomingoXenacoj,Chuarrancho,SanJuanSacatepequez,SanPedroAyampuc,SanPedroSacatepequez,SanRaimundo,Panajachel,SanAndresSemetabaj,SanAntonioPalopo,SanJoseChacaya,SantaCatarinaPalopo,SantaCruzLaLaguna,SanMarcosLaLaguna,Solola,SanAntonioSuchitepequez,SanJuanBautista,Patulul,SantaCruzElChol,Iximche,Concepcion,AntiguaGuatemala,CiudadVieja,SantoTomasChichicastenango",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tzotzil",
-    "i": 8127,
-    "min": 4,
-    "max": 21,
-    "d": "",
-    "m": 0.18,
-    "b": "Chamula,Zinacantán,San Andrés Larráinzar,Chenalhó,Huixtán,Chalchihuitán,Pantelhó,Mitontic,El Bosque,Santiago el Pinar,Venustiano Carranza,Romerillo,Cruztón,Yaltem,Chicumtantic,Nichnamtic,Muquén,Majomut,Saclamantón,Catishtic,Cuchulumtic,Tentic,Pugchén Mumuntic,Tzontehuitz,Navenchauc,Nachig,Apas,Pasté,Patosil,Zequentic,Chalam,Tzoeptic,Chimhucum,Oxinam,Chiquinshulum,Joltealal,Yibeljoj,Muken,Jobel,Bats'i k'op,Sots'leb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Zapotec",
-    "i": 8430,
+    "name": "Araona",
+    "i": 203125,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Amatlán,Benito Juárez,Cuajimoloyas,La Nevería,Lachatao,Latuvi,Llano Grande,Yavesía,Ixtlán de Juárez,Capulálpam de Méndez,Guelatao de Juárez,Natividad,San Juan Chicomezúchil,Santiago Xiacuí,San Juan Yaeé,San Juan Yatzona,San Miguel Yotao,San Pedro Yaneri,San Ildefonso Villa Alta,Santa Catarina Ixtepeji,Monte Albán,Mitla,Zaachila,Ocotlán,Etla,Tlacolula,San José Mogote,Zimatlan,Abasolo,Juchitán,Tehuantepec,Jalapa del Marqués,Mixtequilla,Xadani,Chihuitán,Laollaga,Yatee,Zoogocho,Yalálag,Tabaá,Cajonos,Choápam,Abejones,Ozolotepec,Miahuatlán,Coatezas Altas,Santa María Ozolotepec,Santo Domingo Ozolotepec,San Cristóbal Amatlán",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
-    "name": "Mixtec",
-    "i": 8428,
-    "min": 4,
-    "max": 34,
-    "d": "lnrt",
-    "m": 0.93,
-    "b": "Tlaxiaco,Juxtlahuaca,San Juan Mixtepec,Santa Maria Peñoles,San Miguel el Grande,San Pedro y San Pablo Tequixtepec,San Mateo Yucutindoó,San Esteban Atatlahuca,Santiago Yosondua,Santa Cruz Itundujia,San Andres Dinicuiti,San Juan Diquiyú,San Miguel Amatitlan,San Sebastian Tecomaxtlahuaca,San Martin Duraznos,Santo Tomas Ocotepec,San Agustin Tlacotepec,Magdalena Peñasco,San Jeronimo Xayacatlan,San Juan Ñumí,Santa Maria Yucuhiti,San Andres Yuticachi,San Martin Huamelulpam,San Pedro Molinos,San Dionisio Ocotlan,Santa Lucia Monteverde,San Juan Teita,San Pedro Topiltepec,San Andres Cabecera Nueva,San Andres Nuxiño,Santa Maria Yolotepec,San Antonino Monte Verde,San Cristobal Amoltepec,Santiago Tamazola,San Martin de los Cansecos,San Juan Cieneguilla,Santa Maria Apazco,San Francisco Telixtlahuaca,San Juan Bautista Cuicatlan,San Pedro Jocotipac,Santa Maria Nativitas,San Andres Zautla (neighbor),San Martin Itunyoso,Tlacoatzintepec,Sochiapan,San Pedro y San Pablo Ayutla,San Lorenzo Cuaunecuiltitlan,Santa Maria Jalapa del Marques,San Juan Jaltepec,Santiago Yolomecatl,San Mateo Piñas,San Andres Paxtlan,San Vicente Nuñú,San Francisco Chapulapa,Santiago Huajolotitlan,San Miguel Chicahua,San Juan Tepeuxila",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Otomi",
-    "i": 8429,
-    "min": 4,
-    "max": 18,
-    "d": "kpt",
-    "m": 0.33,
-    "b": "San Juan Bautista Ixtenco,Santiago Tlazoyaltepec,San Jeronimo Acazulco,San Pedro Atlapulco,Santiago Tilapa,Temascalcingo,Temoaya,San Felipe Santiago,San Ildefonso Tultepec,Santiago Mexquititlan,Amealco,Toliman,San Nicolas Tenango,Texcatepec,Toluca,San Felipe los Alzati,San Pablito Pahuatlan,Santa Ana Hueytlalpan,Tecozautla,Chapa de Mota,Jilotepec,Acambay,Mezquital,Ixmiquilpan,Tula,Valle de Mezquital,San Antonio",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mineiro",
-    "i": 893,
+    "name": "Ka'apor",
+    "i": 203126,
     "min": 4,
     "max": 11,
-    "d": "nic-GH",
+    "d": "lnrt",
     "m": 0,
-    "b": "Belo Horizonte,Ouro Preto,Tiradentes,Diamantina,São João del-Rei,Mariana,Sabará,Congonhas,Barbacena,Itabira,Conselheiro Lafaiete,Divinópolis,Juiz de Fora,Pouso Alegre,Poços de Caldas,Araxá,Lambari,Caxambu,Lavras,Governador Valadares,Teófilo Otoni,Janaúba,Patos de Minas,Uberlândia,Araguari,Ituiutaba,Montes Claros,Curvelo,Paracatu,Unaí,Januária,Almenara,Nazareno,Piedade do Rio Grande,Prados,Resende Costa,Ritápolis,Santa Cruz de Minas,Santana do Garambéu,São Tiago,Bom Despacho,Araújos,Dores do Indaiá,Formiga,Itapeceriba,Luz,Oliveira,Pitangui,Camanducaia,Extrema,Itapeva,Maria da Fé,São Lourenço,Soledade de Minas,São Gonçalo do Sapucaí,Carmo de Minas,Cristina,Dores de Campos,Itaverava,Lavras Novas,Matias Barbosa,Ouro Branco,Rio Piracicaba,Santa Bárbara,Santa Rita de Ouro Preto,Santo Antônio do Leite,São Bartolomeu,São José da Lapa,São Miguel do Anta,Santos Dumont,Sarzedo,Serro,Taboão,Vespasiano,Viçosa",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nivaclé",
+    "i": 203127,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sirionó",
+    "i": 203128,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sranan Tongo",
+    "i": 203129,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   }
 ];
