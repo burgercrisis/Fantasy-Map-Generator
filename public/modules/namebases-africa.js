@@ -1266,7 +1266,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Dir Village,Baram Dutse,Dingis,Diryawa,Diriya,Dirya,Sago,Tsagu,Diryanci,Buwane,Darazo LGA,Bade-Warji,North Bauchi Languages,Ajawa,Warji District,Jigawa State,Birnin Kudu LGA,Miya Town,Hamlets,Kariya Wuro,Sәrzakwai,Sirzakwai,Sar,Sarawa,Vәne Mi,Miyawa,Languages Darazo LGA,Deno,Ngamo,Afro-Asiatic Chadic West Chadic North Bauchi,Proto-North Bauchi,Geographic Distribution,Ningi LGAs,North Bauchi,Languages Bauchi State Listed LGA,Dulbu,Galambu,Ju,Kir-Balar,Luri,Mangas,Mbat,Shiki,Tala,Zangwal,Dukku,Karekare,Jimi,Kubi,Bure,Fulato/Borno,Shuwa,Kanuri,Sur,Vaghat-Ya-Bijim-Legeri,Gwak,Geji,Gwa,Gyem,Iguta,Jere,Lame,Lemoro,Mawa,Panawa,Sanga,Saya,Shau,Tunzuii,Zeem,Ziriya,Bade,Heterogeneous State,Predominant Tribes,Jarawa,Waja,Balewa,Sayawa,Tarewa,Itas-Gadau,Shira,Emirates,Bauchi Emirate,Katagum Emirate,Azare,Misau Emirate,Ningi Emirate,Jama'are Emirate,Dass Emirate,Bur Emirate,Bur,Dambam Emirate,Dambam,Darazo Emirate,Duguri Emirate,Yuli,Gam Emirate,Gam,Giade Emirate,Toro Emirate,Warji Emirate,Katangar Warji,Ari Emirate,Gadar Maiwa,Itas/Gadau,Jama'a Emirate,Nabardo,Lame Emirate,Gumau,Bununu Emirate,Bununu,Lere Emirate,Lere,Zaar Chiefdom,Mhrim",
+    "b": "Dir Village,Baram Dutse,Dingis,Diryawa,Diriya,Dirya,Sago,Tsagu,Diryanci,Buwane,Darazo LGA,Bade-Warji,North Bauchi Languages,Ajawa,Warji District,Jigawa State,Birnin Kudu LGA,Miya Town,Hamlets,Kariya Wuro,Serzakwai,Sirzakwai,Sar,Sarawa,Vene Mi,Miyawa,Languages Darazo LGA,Deno,Ngamo,Afro-Asiatic Chadic West Chadic North Bauchi,Proto-North Bauchi,Geographic Distribution,Ningi LGAs,North Bauchi,Languages Bauchi State Listed LGA,Dulbu,Galambu,Ju,Kir-Balar,Luri,Mangas,Mbat,Shiki,Tala,Zangwal,Dukku,Karekare,Jimi,Kubi,Bure,Fulato/Borno,Shuwa,Kanuri,Sur,Vaghat-Ya-Bijim-Legeri,Gwak,Geji,Gwa,Gyem,Iguta,Jere,Lame,Lemoro,Mawa,Panawa,Sanga,Saya,Shau,Tunzuii,Zeem,Ziriya,Bade,Heterogeneous State,Predominant Tribes,Jarawa,Waja,Balewa,Sayawa,Tarewa,Itas-Gadau,Shira,Emirates,Bauchi Emirate,Katagum Emirate,Azare,Misau Emirate,Ningi Emirate,Jama'are Emirate,Dass Emirate,Bur Emirate,Bur,Dambam Emirate,Dambam,Darazo Emirate,Duguri Emirate,Yuli,Gam Emirate,Gam,Giade Emirate,Toro Emirate,Warji Emirate,Katangar Warji,Ari Emirate,Gadar Maiwa,Itas/Gadau,Jama'a Emirate,Nabardo,Lame Emirate,Gumau,Bununu Emirate,Bununu,Lere Emirate,Lere,Zaar Chiefdom,Mhrim",
     "status": "COMPLETE"
   },
   {
@@ -2376,7 +2376,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Mәgang,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza,Nzérékoré,Kuru",
+    "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Megang,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza,Nzérékoré,Kuru",
     "status": "COMPLETE"
   },
   {

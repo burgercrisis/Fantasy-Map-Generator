@@ -136,7 +136,7 @@ window.southAmericaNameBases = [
     "max": 22,
     "d": "",
     "m": 0,
-    "b": "Toototobi,Parawa,Auaris,Surucucus,MissãoCatrimani,Uraricoera,Amajari,SãoGabrielDaCachoeira,SãoJoãoBaliza,SãoFelipe,SantaRitaDoWea,SãoPedro,Marauiá,Aracaçá,Demini,Haximú,Maturacá,Watoriki,Xamatauteri,Catrimani,Balawaú,Cauaburi,Padamo,Ocamo,Mavaca,Waiká,Homoxi,Hekura,SãoPauloDeOlivença,LaEsmeralda,Platanal,Parima,SantaMariaDeCaparu,Iguarán,Ashidowa,Kayamá,Parú,Marabitanas,Waracabá,PicoDaNeblina,Mucajai,AltoAlegre,BoaVista,Pacaraima,Normandia,Uiramutã,Canta,Barcelos,SantaIsabelDoRioNegro,Jajau,Paracachoeira,Iracema,MundoNovodeRoraima,VistaAlegreDoLοeste,Caracaraí,Cujubim,SãoLuizDoAnauá,BomIntento,Yanomami,Phelp",
+    "b": "Toototobi,Parawa,Auaris,Surucucus,MissãoCatrimani,Uraricoera,Amajari,SãoGabrielDaCachoeira,SãoJoãoBaliza,SãoFelipe,SantaRitaDoWea,SãoPedro,Marauiá,Aracaçá,Demini,Haximú,Maturacá,Watoriki,Xamatauteri,Catrimani,Balawaú,Cauaburi,Padamo,Ocamo,Mavaca,Waiká,Homoxi,Hekura,SãoPauloDeOlivença,LaEsmeralda,Platanal,Parima,SantaMariaDeCaparu,Iguarán,Ashidowa,Kayamá,Parú,Marabitanas,Waracabá,PicoDaNeblina,Mucajai,AltoAlegre,BoaVista,Pacaraima,Normandia,Uiramutã,Canta,Barcelos,SantaIsabelDoRioNegro,Jajau,Paracachoeira,Iracema,MundoNovodeRoraima,VistaAlegreDoLoeste,Caracaraí,Cujubim,SãoLuizDoAnauá,BomIntento,Yanomami,Phelp",
     "status": "COMPLETE"
   },
   {

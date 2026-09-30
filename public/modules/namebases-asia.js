@@ -9046,7 +9046,7 @@ window.asiaNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Nikolaevsk-on-Amur,Khabarovsk,Innokentyevka,Takhta,Lazarev,Tyr,Kalma,Nizhneye Pronge,Puir,Bogorodskoye,Mnogovershinny,Susanino,Krasnoye,Mago,Oremif,Aleyevka,Ukhta,Nizрnyaya Gavan,Voskresenskoye,Konstantinovka,Tneyvakh,Bulava,Beloglinka,Makarovka,Chnyrrakh,Chlya,Solontsy,Vlasyevo,Oktyabrsky,Sakharovka,Nekrasovka,Poronaysk,Yuzhno-Sakhalinsk,Alexandrovsk-Sakhalinsky,Nogliksky,Okhinsky,Valuevo,Langry,Chingai,Pyrki,Pogibi,Uandi,Ytyk',Viakhtu,Khoe,Tangi,Arkovo,Port Aleksandrovsk,Rybnoe,Visk'vo,Pomyt',Nil'vo,Matnyr',Ngyd',Koibgervo,Khankes',Urkdt',Pil'tun,Kakervo,Kharkor'vo,Chaivo,Lad'vo,Tyrmyts',Vachi,Mil'kovo,Tagry,Lub'vo,Lung'yo,Nappi,Ngamb'vo,Yukyr',Chkharvo,Slavo,Uskovo,Tymovo,Rykovskoe",
+    "b": "Nikolaevsk-on-Amur,Khabarovsk,Innokentyevka,Takhta,Lazarev,Tyr,Kalma,Nizhneye Pronge,Puir,Bogorodskoye,Mnogovershinny,Susanino,Krasnoye,Mago,Oremif,Aleyevka,Ukhta,Nizhnyaya Gavan,Voskresenskoye,Konstantinovka,Tneyvakh,Bulava,Beloglinka,Makarovka,Chnyrrakh,Chlya,Solontsy,Vlasyevo,Oktyabrsky,Sakharovka,Nekrasovka,Poronaysk,Yuzhno-Sakhalinsk,Alexandrovsk-Sakhalinsky,Nogliksky,Okhinsky,Valuevo,Langry,Chingai,Pyrki,Pogibi,Uandi,Ytyk',Viakhtu,Khoe,Tangi,Arkovo,Port Aleksandrovsk,Rybnoe,Visk'vo,Pomyt',Nil'vo,Matnyr',Ngyd',Koibgervo,Khankes',Urkdt',Pil'tun,Kakervo,Kharkor'vo,Chaivo,Lad'vo,Tyrmyts',Vachi,Mil'kovo,Tagry,Lub'vo,Lung'yo,Nappi,Ngamb'vo,Yukyr',Chkharvo,Slavo,Uskovo,Tymovo,Rykovskoe",
     "status": "COMPLETE"
   },
   {

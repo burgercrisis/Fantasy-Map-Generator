@@ -1786,7 +1786,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Shchuchye,Yar-Sale,Stary Nadym,Korotchaevo",
+    "b": "Laryak,Bolshoy Laryak,Korliki,Chekhomey,Sosnovy Bor,Okhteurye,Vakhovsk,Zaytseva Rechka,Novy Vasyugan,Sredny Vasyugan,Myldzhino,Novoyugino,Staroyugino,Ozernoye,Ugut,Maloyugansky,Kayukova,Taylakova,Taurova",
     "status": "WAITING"
   },
   {
@@ -1796,8 +1796,8 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Shchuchye,Yar-Sale,Stary Nadym,Korotchaevo",
-    "status": "WAITING"
+    "b": "Kondinskoye,Mezhdurechensky,Mortka,Kuminsky,Lugovoy,Polovinka,Bolchary,Leushi,Mulymya,Listvenichny,Yagodny,Shugur,Ushya,Chantyrya,Yumas,Yamki,Nazarovo,Altay,Kama,Dalniy,Shaym,Stary Katysh,Nikulkina,Sotnik,Karym,Supra,Ilichevka,Levdym,Kashat",
+    "status": "COMPLETE"
   },
   {
     "name": "Western Mansi",
@@ -1806,7 +1806,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Shchuchye,Yar-Sale,Stary Nadym,Korotchaevo",
+    "b": "Pelym,Vagilsk,Novaya Lyalya,Gora,Ivdel,Sosva,Nyaksimvol,Ust-Manya,Pripolyarny",
     "status": "WAITING"
   },
   {
@@ -2386,7 +2386,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Shchuchye,Yar-Sale,Stary Nadym,Korotchaevo",
+    "b": "Berezovo,Igrim,Pripolyarny,Nyaksimvol,Ust-Manya,Nerokhi,Ustrem,Pushgory,Tegi,Deminskaya,Shaytanka,Vanzetur,Yasunt,Sosva,Lombovozh",
     "status": "WAITING"
   },
   {
@@ -3356,8 +3356,8 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Shchuchye,Yar-Sale,Stary Nadym,Korotchaevo",
-    "status": "WAITING"
+    "b": "Ugut,Maloyugansky,Kayukova,Taylakova,Taurova,Tundrino,Vysokiy Mys,Banniy,Yugan,Lyamina,Lokosovo,Verkhne-Mysovaya,Peschany,Sytomino,Gorny,Barsovo,Bely Yar,Fyodorovsky,Lyantor,Solnechny,Saygatina,Russkinskaya,Nizhnesortymsky,Ult-Yagun,Trom-Agan,Agan,Varyogan,Vata,Pokur,Novoagansk",
+    "status": "COMPLETE"
   },
   {
     "name": "Malij Jugan",
@@ -3406,7 +3406,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Ruzaevka,Kovylkino,Lyambir,Zubova Polyana,Temnikov,Alatyr,Chamzinka,Kadoshkino,Torbeevo,Yavas,Kochkurovo,Staroye Shaygovo,Dublyany,Bolshoye Ignatovo,Saratov,Krasny Kut,Bazarny Karbal,Yekaterinovka,Novye Burasy,Inza,Barysh,Batken,Minkush,Kvarkeno,Saransk,Komsomolsk,Penza,Mokshan,Krasnoslobodsk,Insar,Atyashevo,Ichalkovo,Romodanovo,Ardatov,Nizhny Novgorod,Lukoyanov,Pochinki,Bolshoye Boldino,Kuznetsk,Nikolsk,Voznesensky,Bolsheignatovo,Atyuryevo,Bolshaya Polyana,Staroshaygovsky,Purmysh,Shingary,Sabantuy,Chad,Kemlya,Siaли",
+    "b": "Ruzaevka,Kovylkino,Lyambir,Zubova Polyana,Temnikov,Alatyr,Chamzinka,Kadoshkino,Torbeevo,Yavas,Kochkurovo,Staroye Shaygovo,Dublyany,Bolshoye Ignatovo,Saratov,Krasny Kut,Bazarny Karbal,Yekaterinovka,Novye Burasy,Inza,Barysh,Batken,Minkush,Kvarkeno,Saransk,Komsomolsk,Penza,Mokshan,Krasnoslobodsk,Insar,Atyashevo,Ichalkovo,Romodanovo,Ardatov,Nizhny Novgorod,Lukoyanov,Pochinki,Bolshoye Boldino,Kuznetsk,Nikolsk,Voznesensky,Bolsheignatovo,Atyuryevo,Bolshaya Polyana,Staroshaygovsky,Purmysh,Shingary,Sabantuy,Chad,Kemlya,Siali",
     "status": "COMPLETE"
   },
   {
@@ -3416,7 +3416,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Ruzaevka,Kovylkino,Lyambir,Zubova Polyana,Temnikov,Alatyr,Chamzinka,Kadoshkino,Torbeevo,Yavas,Kochkurovo,Staroye Shaygovo,Dublyany,Bolshoye Ignatovo,Penza,Mokshan,Kamenka,Bessonovka,Narovchat,Zarechny,Kuzovatovo,Inza,Bavly,Tamchi,Saransk,Komsomolsk,Krasnoslobodsk,Insar,Atyashevo,Ichalkovo,Romodanovo,Ardatov,Nizhny Novgorod,Lukoyanov,Pochinki,Bolshoye Boldino,Kuznetsk,Nikolsk,Voznesensky,Bolsheignatovo,Atyuryevo,Bolshaya Polyana,Staroshaygovsky,Purmysh,Shingary,Sabantuy,Chad,Kemlya,Siaли",
+    "b": "Ruzaevka,Kovylkino,Lyambir,Zubova Polyana,Temnikov,Alatyr,Chamzinka,Kadoshkino,Torbeevo,Yavas,Kochkurovo,Staroye Shaygovo,Dublyany,Bolshoye Ignatovo,Penza,Mokshan,Kamenka,Bessonovka,Narovchat,Zarechny,Kuzovatovo,Inza,Bavly,Tamchi,Saransk,Komsomolsk,Krasnoslobodsk,Insar,Atyashevo,Ichalkovo,Romodanovo,Ardatov,Nizhny Novgorod,Lukoyanov,Pochinki,Bolshoye Boldino,Kuznetsk,Nikolsk,Voznesensky,Bolsheignatovo,Atyuryevo,Bolshaya Polyana,Staroshaygovsky,Purmysh,Shingary,Sabantuy,Chad,Kemlya,Siali",
     "status": "COMPLETE"
   },
   {
@@ -3666,7 +3666,7 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Yaransk,Tuzha,Kiknur,Sanchursk,Tonshaevo,Sharanga,Tonkino,Lipsha,Kilemary,Medvedevo,Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Mari-Turek,Kuzhener,Novy Toryal,Vetluga,Nemda,Arkul,Verkhoshizhemye,Paranga,AtBashy,Petrovka,Bozbarma,Sarmanovo,Taskesken,Chyrpykty,Dolon,Ton,Kyshtym,Kazarman,SaryDzhas,Leninogorsk,Aktogay,Aksy,Araksk,Afedsk,Adonensk,NorthwesternMarisk,NorthwesternMariensk",
+    "b": "Yaransk,Znamenka,Opytnoye Pole,Salobelyak,Nikulyata,Kugusherga,Nikola,Serdezh,Karaksha,Pishtan,Pervomayskoye,Demino,Lum,Urtma,Kugalki,Shkalanka,Savichi,Pushkino,Enger,Mari-Ushem,Rozhdestvenskoye,Lom,Verkhouslino,Vysokovo,Ivanovo,Tarasovo,Pakhtaevo,Olinskie,Veshchevo,Shulkomuchaksh,Malovitlino 3,Shagadaki,Baranovo,Mari-Dubniki,Shalagino,Gorushki,Beryaki,Bolshaya Karaksha,Ivanai,Mari-Vaskino,Yuley,Mironovo,Ryzhakovo,Shirkino,Toktai,Titovo,Lyumet-Pole,Bolshaya Layka,Malovitlino 2,Pobeknur,Simanichi,Belousovo,Mitrofanovo,Purty,Shchegly,Ognevovo,Bolshie Shuvary,Katanur,Mityushi,Shariki,Bannovo,Khmelevka,Bakalda,Vorotilixa,Urbezh-Kurbatovo,Maloe Panchino,Kiknur,Russkie Krai,Shapta,Tsekeyevo,Kokshaga,Makarye,Potnyak,Tyryshkino,Ulesh,Pizhanchurga,Panchurga,Luzhanka,Vahtranga,Turusinovo,Pelesnur,Paderino,Bolshoe Sharygino,Maloe Sharygino,Bolshoy Shudum,Maly Shudum,Mariyskaya Tolsheva,Russkaya Tolsheva,Shudumary,Yulyal,Lnozavod,Melniki,Mureevo,Abramovo,Kuknur,Kushnur,Putinovo,Sanchursk,Lumpanur,Matvinur,Marinskaya Patya,Pigozino,Smetanino,Lopanur,Korlyaki,Ikhta,Zimnyachka",
     "status": "COMPLETE"
   },
   {
@@ -4126,7 +4126,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,KadjiSay,Ornok,Yuzhnouralsk,Petrovka,Bozbarma,Sarmanovo,Taskesken,Chyrpykty,Arolsk,Adodensk,Aabensk,Yukonda",
+    "b": "Levdym,Kashat,Shugur,Karym,Bolchary,Kondinskoye,Mezhdurechensky,Mortka,Lugovoy,Polovinka,Leushi,Mulymya,Listvenichny,Yagodny,Shaym,Chantyrya",
     "status": "WAITING"
   },
   {
@@ -4176,8 +4176,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Chesma,Glubokoye,Maimak,Nagaybak,Tamga,Kayyngdy,Turgen,Mariinsky Posad,Vasilsursk",
-    "status": "COMPLETE"
+    "b": "Kozmodemyansk,Arkhipkino,Elasy,Zamyatino,Michaknury,Vysokovo,Shindyryaly,Tyumanovo,Volzhsk,Yurino,Kozlan,Novy Toryal",
+    "status": "WAITING"
   },
   {
     "name": "Kuuďärv Ludic",
@@ -4196,8 +4196,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Kozmodemyansk,Volzhsk,Yaransk,Mariinsky Posad,Vasilsursk,Santala,Shoybulatovo,Troitsky,Mariets,Semyonovka",
-    "status": "COMPLETE"
+    "b": "Lipsha,Bolshaya Lipsha,Perednyaya Lipsha,Novaya Lipsha,Studeny Klyuch",
+    "status": "WAITING"
   },
   {
     "name": "Lower Demjanka",
@@ -4216,7 +4216,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Adudensk,Anodsk",
+    "b": "Kondinskoye,Nikulkina,Stary Katysh,Ilichevka,Supra,Mezhdurechensky,Mortka,Bolchary,Nazarovo,Yumas",
     "status": "WAITING"
   },
   {
@@ -4226,8 +4226,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Yuzhnouralsk,Petrovka,Bozbarma,Sarmanovo,Taskesken,Chyrpykty,Dolon,Kyshtym,Leninogorsk,Adebsk,Aumsk,Adensk,Apidsk,Arabensk,Akimsk,Tavda,Pelym,Ivdel,Severouralsk,Karpinsk,Novaya Lyalya,Gora",
-    "status": "COMPLETE"
+    "b": "Sosva,Nyaksimvol,Ust-Manya,Sartynya,Kimk'yasui,Pripolyarny,Novaya Lyalya,Gora,Pelym,Ivdel",
+    "status": "WAITING"
   },
   {
     "name": "Lower Luga",
@@ -4246,8 +4246,8 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Gyda,Antipayuta,Dikson,Vuktyl,Aikino,Ust-Usa,Ust-Shchuger,Ust-Vym,Ust-Berezovka,Ust-Unya,Ust-Kyma,Ust-Pyzha,Ust-Ilava,Ust-Kyzym,Ust-Lyzha,Ust-Voya,Voyvozh",
-    "status": "COMPLETE"
+    "b": "Kortkeros,Pozheg,Ust-Kulom,Obyachevo,Ust-Nem,Myeldino,Nem,Nemdino,Vylgort,Letskova",
+    "status": "WAITING"
   },
   {
     "name": "Luokta-Mávas",
@@ -4316,8 +4316,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kudymkar,Gaynsk,Yurla,Kochevo,Yusva,Sepol,Pozhva,Maykor,Nytva,Kueda,Bolshaya Sosnova,Zvyozdny,Barda,Kuyeda,Orda,Kocha,Jurlin,Veretka,Čerkino,Boľšaja,Malaja,Starikovo,Maslennikova,Bortščova,Mokino,Šarino,Usolje,Kuzmino,Medjanka,Serebrjanka,Sivinsky,Onyl,Bajbaktša,Kulakovo,Srednjaja,Verhnjaja,Beljaevo,Neždanovo,Naumenka,Karpunino,Gromova,Pyžman,Šuja,Topka,Sosnovka,Palnik,Tuma,Burkovo,Zavorot,Novikovo,Trubnaja,Leštšebnyj,Poldnev,Šumkov,Kriulino,Šiškov,Moškatel,Dubova,Leštšev,Ščugor,Lipovka,Anisimovo,Bor,Šestakovo,Makarova,Jurjasov,Taškino,Vilva,Inva,Kuvy,Koca,Čerdyn,Višera",
-    "status": "COMPLETE"
+    "b": "Mysy,Konoplya,Soyga,Mys-Les,Zhemchuzhny,Verkh-Budym,Kebraty,Gayny,Pashkyb,Enyb,Toshyb",
+    "status": "WAITING"
   },
   {
     "name": "Nerdva",
@@ -4326,8 +4326,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kudymkar,Gaynsk,Yurla,Kochevo,Yusva,Sepol,Pozhva,Maykor,Nytva,Kueda,Bolshaya Sosnova,Zvyozdny,Barda,Kuyeda,Orda,Kocha,Jurlin,Veretka,Čerkino,Boľšaja,Malaja,Starikovo,Maslennikova,Bortščova,Mokino,Šarino,Usolje,Kuzmino,Medjanka,Serebrjanka,Sivinsky,Onyl,Bajbaktša,Kulakovo,Srednjaja,Verhnjaja,Beljaevo,Neždanovo,Naumenka,Karpunino,Gromova,Pyžman,Šuja,Topka,Sosnovka,Palnik,Tuma,Burkovo,Zavorot,Novikovo,Trubnaja,Leštšebnyj,Poldnev,Šumkov,Kriulino,Šiškov,Moškatel,Dubova,Leštšev,Ščugor,Lipovka,Anisimovo,Bor,Šestakovo,Makarova,Jurjasov,Taškino,Vilva,Inva,Kuvy,Koca,Čerdyn,Višera",
-    "status": "COMPLETE"
+    "b": "Leninsk,Pyatino,Yakina,Pronino,Podgora,Mazunina,Kekur,Tikhonyata",
+    "status": "WAITING"
   },
   {
     "name": "North Vagilsk",
@@ -4336,8 +4336,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Tamga,Kayyngdy,Turgen,Uysk,Zyryanovsk,Akdzhilga,KyzylOzgon,Sosnovka,Keldike,Aumensk,Anugsk,Amarensk,Adurensk,Adulsk,Aesk,Vagilsk,Tavda,Pelym,Ivdel,Severouralsk,Karpinsk,Gora",
-    "status": "COMPLETE"
+    "b": "Vagilsk,Khandybina Yurta,Kurtikova Yurta,Uray-Paul,Ounya-Paul,Ahvasym-Paul,Sujevatpaul,Sujevat",
+    "status": "WAITING"
   },
   {
     "name": "Northeastern coastal Estonian",
@@ -4396,7 +4396,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Perm,Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi",
+    "b": "Verkhnie Narykary,Nizhnie Narykary,Pripolyarny,Ust-Manya,Nyaksimvol,Sosva,Berezovo,Igrim,Saranpaul,Lombovozh",
     "status": "WAITING"
   },
   {
@@ -4406,8 +4406,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kudymkar,Gaynsk,Yurla,Kochevo,Yusva,Sepol,Pozhva,Maykor,Nytva,Kueda,Bolshaya Sosnova,Zvyozdny,Barda,Kuyeda,Orda,Kocha,Jurlin,Veretka,Čerkino,Boľšaja,Malaja,Starikovo,Maslennikova,Bortščova,Mokino,Šarino,Usolje,Kuzmino,Medjanka,Serebrjanka,Sivinsky,Onyl,Bajbaktša,Kulakovo,Srednjaja,Verhnjaja,Beljaevo,Neždanovo,Naumenka,Karpunino,Gromova,Pyžman,Šuja,Topka,Sosnovka,Palnik,Tuma,Burkovo,Zavorot,Novikovo,Trubnaja,Leštšebnyj,Poldnev,Šumkov,Kriulino,Šiškov,Moškatel,Dubova,Leštšev,Ščugor,Lipovka,Anisimovo,Bor,Šestakovo,Makarova,Jurjasov,Taškino,Vilva,Inva,Kuvy,Koca,Čerdyn,Višera",
-    "status": "COMPLETE"
+    "b": "Malye Oni,Bolshie Oni,Maksimovka,Yusva",
+    "status": "WAITING"
   },
   {
     "name": "Orodezhi",
@@ -4446,7 +4446,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Chandy,Anugensk,Anukensk,Arakensk,Arudsk,Pelym,Ivdel,Severouralsk,Karpinsk,Novaya Lyalya,Gora,Tavda",
+    "b": "Verkhniy Pelym,Garevka,Chandybina Yurta,Jurta Kurikova,Sujevat,Sujevatpaul,Ahvasym-Paul,Ounya-Paul,Uray-Paul",
     "status": "WAITING"
   },
   {
@@ -4676,7 +4676,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Abimsk,Alensk,Arulensk,Anabensk,Afotensk,Sygva,Tavda,Pelym,Ivdel,Severouralsk,Karpinsk,Gora",
+    "b": "Saranpaul,Sosva,Lombovozh,Shchekurya,Nyaksimvol,Ust-Manya,Pripolyarny,Berezovo",
     "status": "WAITING"
   },
   {
@@ -4696,8 +4696,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Chesma,Glubokoye,Maimak,Nagaybak,Tamga,Kayyngdy,Turgen,Uysk,Zyryanovsk,Akdzhilga,KyzylOzgon,Adussk,Alutensk,Arursk,Verkhnyaya Salda,Nizhnyaya Salda,Kushva,Krasnouralsk,Novouralsk,Nevyansk,Alapayevsk,Rezh,Verkhoturye,Karpinsk,Severouralsk,Ivdel",
-    "status": "COMPLETE"
+    "b": "Verkh-Tur,Shaytanskaya,Kuzyayeva",
+    "status": "WAITING"
   },
   {
     "name": "Tartu",
@@ -4716,8 +4716,8 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Tavda,Yalutorovsk,Ishim,Tara,Bolsherechye,Znamenka,Muromtsevo,Sedelnikovo,Orlovka,Boguchaky,Aznakayevo,Zharma,Avletim,Shadrinsk,Afogsk,Amask,Adunensk,Apassk,Anegsk,Aneensk,Pelym,Ivdel,Severouralsk,Karpinsk,Gora",
-    "status": "COMPLETE"
+    "b": "Chandyri,Yanychkovo,Gorodok,Tavda",
+    "status": "WAITING"
   },
   {
     "name": "Taygi",
@@ -4756,7 +4756,7 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Sharanga,Tonshayevsky,Kiknursky,Yaransky,Kilemarsky,Morkinsky,Sernursky,Paranginsky",
+    "b": "Tonshaevo,Pizhma,Shaignino,Burepolom,Sherstki,Maloe Tonshaevo,Oshary,Oshminskoye,Kuzhener,Kodochigi,Vyakshener,Sukhoy Ovrag,Vesyolovo,Vorozhtsovo,Zotovo,Kirovsky,Lopatino,Trifonovo,Lumar,Bolshaya Pustoshka,Bolshie Ashkaty,Bolshie Lugi,Bolshie Selki,Bolshoy Burepolom,Bolshoy Lom,Bolshoy Odoshnur,Gagarinskoye,Goryntsy,Malaya Lumar,Malokamenskoye,Malye Ashkaty,Malye Selki,Maly Burepolom,Maly Lom,Maly Odoshnur,Markovo,Matveyevskoye,Mayaki,Miryanga,Pekshik,Pisari,Pismener,Plashchener,Purgy,Romachi,Srednie Lugi,Trokhrechye,Troshonki,Fadeyevo,Firsovo,Shaygino,Shattashkem,Shirta,Shukshum,Yuzhny,Yulenurka,Yangarka",
     "status": "COMPLETE"
   },
   {
@@ -4796,7 +4796,7 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kozmodemyansk,Volzhsk,Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Yaransk,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Mariinsky Posad,Vasilsursk,Cheboksary,Tsivilsk,Kanash,Shumerlya,Alatyr,Akdzhilga,Verkhneuralsk",
+    "b": "Tuzha,Nyr,Pishtenur,Pachi,Grekovo,Mikhailovskoe,Poksta,Vaskino,Sheshurga,Kovrizhata,Karavannoe,Polushnur,Vynur,Koshkanur,Evsino,Kidalsolo,Azansola,Ustye,Otyugovo,Maslenskaya,Solonukhino,Pachi-Yugunur,Kopyly,Kilyakovo,Malinichi,Mashkino,Bezdenezhye,Malye Pachi,Sitki,Mari-Kugalki,Chuguny,Bolshoy Kugunur,Artekovo,Kolenki,Panovo,Fomino,Lukoyanka,Korobki,Samsony,Khudyaki,Chumury,Asheevo,Bolshie Pachi",
     "status": "COMPLETE"
   },
   {
@@ -4826,7 +4826,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Kayyngdy,Turgen,Uysk,Zyryanovsk,Akdzhilga,KyzylOzgon,Sosnovka,Keldike,Adimsk,Aridsk",
+    "b": "Mortka,Mezhdurechensky,Polovinka,Leushi,Altay,Kama,Supra,Nazarovo",
     "status": "WAITING"
   },
   {
@@ -4836,7 +4836,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Kostroma,Arkhangelsk,Murmansk,Kandalaksha,Kem,Belomorsk,Loukhi,Aimensk,Abosk,Severouralsk,Karpinsk,Ivdel,Pelym,Mittel,Novaya Lyalya,Gora,Tavda",
+    "b": "Ivdel,Ushma,Pakura,Treskolye,Suevatpaul,Ous,Polunochnoe,Loz'vinsky,Stary Sama,Nadymovka,Ekaterininka,Denezhkino,Severny,Langur,Khorpiya,Burmantovo,Shipichny,Vishay,Massava,Pristan,Yurkino,Talaya,Mityaevo,Ponil",
     "status": "WAITING"
   },
   {
@@ -4846,8 +4846,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Kudymkar,Gaynsk,Yurla,Kochevo,Yusva,Sepol,Pozhva,Maykor,Nytva,Kueda,Bolshaya Sosnova,Zvyozdny,Barda,Kuyeda,Orda,Kocha,Jurlin,Veretka,Čerkino,Boľšaja,Malaja,Starikovo,Maslennikova,Bortščova,Mokino,Šarino,Usolje,Kuzmino,Medjanka,Serebrjanka,Sivinsky,Onyl,Bajbaktša,Kulakovo,Srednjaja,Verhnjaja,Beljaevo,Neždanovo,Naumenka,Karpunino,Gromova,Pyžman,Šuja,Topka,Sosnovka,Palnik,Tuma,Burkovo,Zavorot,Novikovo,Trubnaja,Leštšebnyj,Poldnev,Šumkov,Kriulino,Šiškov,Moškatel,Dubova,Leštšev,Ščugor,Lipovka,Anisimovo,Bor,Šestakovo,Makarova,Jurjasov,Taškino,Vilva,Inva,Kuvy,Koca,Čerdyn,Višera",
-    "status": "COMPLETE"
+    "b": "Verkh-Lupya,Purga,Kosa-Sotchom,Kharin,Shurgashorsay,Medgort,Shordyn,Yadgyn,Verkh-Budym,Kebraty,Gayny",
+    "status": "WAITING"
   },
   {
     "name": "Upper Sysola",
@@ -4856,7 +4856,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Gyda,Antipayuta,Dikson,Vuktyl,Aikino,Ust-Usa,Ust-Shchuger,Ust-Vym,Ust-Berezovka,Ust-Unya,Ust-Kyma,Ust-Pyzha,Ust-Ilava,Ust-Kyzym,Ust-Lyzha,Ust-Voya,Voyvozh",
+    "b": "Vizinga,Vizindor,Kunib,Gagshor,Bortom,Kuratovo,Zarechnoe,Bubdor,Volim,Zhdanovtse,Ivanovtse,Kartasikt,Kostin,Melnikovichi,Mom,Pomjyv,Prokopievka,Raevsik,Raschoy,Savukovchi,Semantse,Semushino,Sloboda,Sorma,Ulichpom,Utka-Vidz,Khvalovtse,Shoryiv,Shuchi,Ybpom,Yagyb,Chukhlem,Dav,Yolbaza,Klyuch,Stary Chukhlem,Yagdor,Mezhador,Maleshor,Tydor,Utoga,Shorsay,Palaouz,Voznesenskaya,Katydpom,Podgorie,Yarkovskaya,Pervomaysky,Kopsa,Pustosh,Votcha,Vel pom,Kyruv,Lyapin",
     "status": "COMPLETE"
   },
   {
@@ -4926,7 +4926,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Gyda,Antipayuta,Dikson,Vuktyl,Aikino,Ust-Usa,Ust-Shchuger,Ust-Vym,Ust-Berezovka,Ust-Unya,Ust-Kyma,Ust-Pyzha,Ust-Ilava,Ust-Kyzym,Ust-Lyzha,Ust-Voya,Voyvozh",
+    "b": "Emva,Sindor,Chinyavoryk,Trakt,Rakpas,Chernorechensky,Seryogovo,Meshchura,Shoshka,Lyali,Iosser,Ropcha,Vetyu,Vozhayel,Turya,Knyazhpogost,Brusnichny,Sedyudor,Onezhye,Kyltovo,Koni,Verkhnyaya Otla,Srednyaya Otla,Nizhnaya Otla,Vyeslyana,Udor,Chasador,Chub,Zloba,Keres",
     "status": "COMPLETE"
   },
   {
@@ -6276,7 +6276,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Vorkuta,Usinsk,Pechora,Inta,Ukhta,Sosnogorsk,Yemva,Vylgort,Kortkeros,Izhma,Nizhny Odes,Zheshart,Koslan,Troitsko-Pechorsk,Ust-Tsilma,Ust-Kulom,Vizinga,Letskoya,Obyachevo,Kudymkar,Gaynsk,Yurla,Naryan-Mur,Amderma,Kharuta,Bugrino,Varandey,Gyda,Antipayuta,Dikson,Vuktyl,Aikino,Ust-Usa,Ust-Shchuger,Ust-Vym,Ust-Berezovka,Ust-Unya,Ust-Kyma,Ust-Pyzha,Ust-Ilava,Ust-Kyzym,Ust-Lyzha,Ust-Voya,Voyvozh",
+    "b": "Verkh-Yazva,Ust-Yazva,Severny Kolchim,Bulatovo,Antipina,Vankova,Bychina,Nizhnyaya Bychina,Parshakova,Talavol,Simanova,Grishina,Arefina,Egorova,Ivachina,Verkhnee Zapolye,Nizhnee Zapolye,Berezovaya Staritsa,Danilov Lug,Gubdor,Nizhnyaya Yazva,Fedorcova,Rategova,Sysoeva,Kotomysh",
     "status": "COMPLETE"
   },
   {

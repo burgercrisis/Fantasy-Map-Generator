@@ -12,9 +12,9 @@ Generated: 2026-09-30  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 3154 |
-| Marked COMPLETE (>= 25 seeds) | 1929 |
-| Marked WAITING (< 25 seeds) | 1225 |
-| Below seed floor | 1223 |
+| Marked COMPLETE (>= 25 seeds) | 1920 |
+| Marked WAITING (< 25 seeds) | 1234 |
+| Below seed floor | 1232 |
 | Zero seeds | 39 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -27,7 +27,7 @@ Generated: 2026-09-30  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 695 | 241 | 4 | 27 |
 | asia | 1120 | 567 | 23 | 24 |
-| europe | 631 | 120 | 11 | 30 |
+| europe | 631 | 129 | 11 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 155 | 28 | 0 | 32 |
 | oceania | 331 | 199 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1223 entries need authentic settlement names. Ordered by seed count,
+1232 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -132,6 +132,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 2326 | Malij Jugan |
 | 3 | europe | 200729 | Cingali |
 | 3 | europe | 200734 | Jugan |
+| 3 | europe | 200811 | Tagil |
 | 3 | europe | 202894 | Kuuďärv Ludic |
 | 3 | northAmerica | 6624 | Chochotec |
 | 3 | oceania | 200994 | Tangwang |
@@ -174,13 +175,10 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1062 | Nuoxi Naxi Yao |
 | 4 | asia | 202574 | Paha |
 | 4 | asia | 202820 | Hmu |
-| 4 | europe | 559 | Eastern Khanty |
-| 4 | europe | 560 | Eastern Mansi |
-| 4 | europe | 561 | Western Mansi |
-| 4 | europe | 758 | Atlym-Nizyam Khanty |
 | 4 | europe | 761 | Western Khanty |
 | 4 | europe | 1093 | Southern Selkup |
-| 4 | europe | 2325 | Surgut Khanty |
+| 4 | europe | 200775 | On |
+| 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
 | 4 | oceania | 202756 | Murrinh Patha |
 | 4 | oceania | 202432 | Rapa Nui |
@@ -244,6 +242,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 1088 | Northern Karelian |
 | 5 | europe | 2110 | Karelian proper |
 | 5 | europe | 2324 | Upper Demjanka |
+| 5 | europe | 200746 | Lipsha |
 | 5 | europe | 200768 | Northern Ludic |
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
@@ -340,8 +339,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 1768 | Eravallan |
 | 7 | asia | 1944 | Hayu (Vayu) |
 | 7 | asia | 2127 | Tai Meuay |
+| 7 | asia | 2489 | Ole |
 
-_Showing the lowest 300 of 1223. Full queue:_
+_Showing the lowest 300 of 1232. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -422,7 +422,7 @@ created from research. Nothing here is guessed at.
 | arabic-javanese-of-klego | Arabic-Javanese of Klego | 17 |
 | arc | Aramaic Names | 801 |
 | arawak | Arawak | undefined |
-| argentinian-spanish | Argentinian Rioplatense Spanish | 237 |
+| argentinian-spanish | Argentinian Rioplatense Spanish | undefined |
 | arin | Arin | 5258 |
 | aru | Aru | 2456 |
 | saj | Asabano | undefined |
