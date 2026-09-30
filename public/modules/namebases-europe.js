@@ -5566,8 +5566,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Tbilisi,Batumi,Kutaisi,Poti,Zugdidi,Sukhumi,Gori,Rustavi,Marneuli,Bolnisi,Gardabani,Kaspi,Mtskheta,Akhaltsikhe,Borjomi,Akhalkalaki,Ninotsminda,Dmanisi,Tsalka,Tetritskaro,Kareli,Khashuri,Chiatura,Zestafoni,Samtredia,Senaki,Abasha,Khobi,Lanchkhuti,Ozurgeti,Ambrolauri,Oni,Sachkhere,Tkibuli,Terjola,Baghdati,Vani,Chokhatauri",
-    "status": "COMPLETE"
+    "b": "Tsalka,Beshtasheni,Trialeti,Gori,Sartana",
+    "status": "WAITING"
   },
   {
     "name": "Valdôtain",
@@ -6220,26 +6220,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Almosan",
-    "i": 202877,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Dené-Yeniseian",
-    "i": 202881,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Kamassian proper",
     "i": 202887,
     "min": 4,
@@ -6310,16 +6290,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Uralic-Yukaghir",
-    "i": 202979,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Vakh",
     "i": 202981,
     "min": 4,
@@ -6348,16 +6318,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Stolp,Culpino,Mulkenthin,Wulckow,Stargrod,Belgrod,Belgroensem,Zitarigroda,Dargozlaw,Dergschlaff,Oboy,Obrita,Zarno,Perlow,Czernekowe,Kolbrzega,Kresyn,Crossin,Gressin,Grossin,Romptzke,Rumpske,Grumbckow,Prebbentow,Schmentzin,Pepelow,Dentzick,Clemme,Gumethow,Teterow,Petervitz,Cusserowe,Sedel,Drenow,Corlin,Corlyn,Bandergowe,Berenslauu",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Ripuarian (Platt)",
-    "i": 203027,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Bozal Spanish",

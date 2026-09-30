@@ -1270,16 +1270,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "KiKAR",
-    "i": 200948,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nairobi,Nanyuki,Isiolo,Wajir,Garissa,Moyale,Kenya",
-    "status": "WAITING"
-  },
-  {
     "name": "Maritime Polynesian Pidgin",
     "i": 200953,
     "min": 4,
@@ -1786,7 +1776,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Wadeye,Nganmarriyanga,Palumpa,Peppimenarti",
     "status": "WAITING"
   },
   {
@@ -1876,7 +1866,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bocas del Toro Creole,Governor's Harbour,All Saints,Charlestown,English Harbour,St. Peter's,Road Town,San Fernando,St. George's,Vieux Fort,Tabernacle,Victoria,Sandy Ground,Five Cays,Portmore,Portsmouth,Marigot,St. John's,Philipsburg",
+    "b": "",
     "status": "WAITING"
   },
   {
@@ -1926,8 +1916,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Karasjok,Kautokeino,Alta,Hammerfest,Kvalsund,Porsanger,Lakselv,Tana,Lebesby,Gamvik,Berlevag,Batsfjord,Vardo,Vadso,Utsjoki,Inari,Sodankyla,Saariselka,Lemmenjoki,Nellim,Angeli,Kaamanen,Muonio,Kittila,Kolari,Yllas,Pallas,Pyha,Levi,Olos,Hetta,Enontekio,Tromso,Kirkenes,Nesseby,Polmak,Storfjord,Kafjord,Nordkapp,Skibotn,Karesuando,Ivalo,Kilpisjarvi,Kevo,Karigasniemi,Jokkmokk,Gallivare",
-    "status": "COMPLETE"
+    "b": "Kalamang,Sewa,Tamisen,Sebakor,Mas,Antalisa,Karas",
+    "status": "WAITING"
   },
   {
     "name": "Kavalan",
@@ -2066,8 +2056,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Ura,Aftimt,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita,Ethiopia,Sudan,South Sudan,Benishangul-Gumuz,Gambella Region,Komuz,Koma",
-    "status": "COMPLETE"
+    "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Ura,Aftimt,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita,Komuz,Koma",
+    "status": "WAITING"
   },
   {
     "name": "Seychellois Creole",
@@ -2217,16 +2207,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Moikodi,Ariari,Bubudi,Liamu,Maioki,Bedira",
-    "status": "WAITING"
-  },
-  {
-    "name": "Momina",
-    "i": 202362,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
@@ -2476,7 +2456,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Maningrida,Blyth River,Cadell River,Cape Stewart",
     "status": "WAITING"
   },
   {
@@ -2486,7 +2466,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Yirrkala,Gunyangara,Ski Beach",
     "status": "WAITING"
   },
   {
@@ -2496,7 +2476,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Kutjungka,Kaningarra,Cummins Range,Sturt Creek,Christmas Creek",
     "status": "WAITING"
   },
   {
@@ -2506,7 +2486,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Ramingining,Maningrida",
     "status": "WAITING"
   },
   {
@@ -2516,7 +2496,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Woodenbong,Drake,Kyogle,Unumgar,Mount Cougal,Tyalgum,Nerang",
     "status": "WAITING"
   },
   {
@@ -2526,7 +2506,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Minjilang,Croker Island,Cobourg Peninsula",
     "status": "WAITING"
   },
   {
@@ -2536,7 +2516,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Thangkenharenge,Elkerempelkere,Karlu Karlu,Barrow Creek,Tennant Creek,Elkedra,Frew River,Whistleduck Creek,Mount Singleton,Gastrolobium Creek",
     "status": "WAITING"
   },
   {
@@ -2546,7 +2526,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Yarliyil,Warrmarn,Wurreranginy,Roogoon,Joowoorlinji,Yarangga,Kununurra,Boornoolooloo,Macphee Creek,Durack Range",
     "status": "WAITING"
   },
   {
@@ -2556,7 +2536,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Balgo,Lake Gregory,Kutjungka,Jigalong",
     "status": "WAITING"
   },
   {
@@ -2566,7 +2546,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Gunbalanya,Kunbarlanja,Mamardawerre,Kumarrirnbang,Kudjekbinj,Manmoyi,Oenpelli",
     "status": "WAITING"
   },
   {
@@ -2576,7 +2556,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Ulpanyali,Watarrka,Kings Canyon,Titjikala,Papunya,Warumpi,Kintore,Mount Liebig,Aputula",
     "status": "WAITING"
   },
   {
@@ -2596,7 +2576,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Jigalong,Parnngurr,Punmu,Kunawarritji,Wiluna,Newman,Nullagine,Warralong,Strelley,Irramindi,Kumpupintil,Karlamilyi,Warla",
     "status": "WAITING"
   },
   {
@@ -2606,7 +2586,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Warruwi,South Goulburn Island,North Goulburn Island,Weyirra,Minjilang,Croker Island,King River,Braithwaite Point,Junction Bay",
     "status": "WAITING"
   },
   {
@@ -2616,7 +2596,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Numbulwar",
     "status": "WAITING"
   },
   {
@@ -2636,7 +2616,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Alpurrurulam,Ampilatwatja,Arlparra,Utopia,Wutunugurra",
     "status": "WAITING"
   },
   {
@@ -2646,7 +2626,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Pine Creek,Guwardagun",
     "status": "WAITING"
   },
   {
@@ -2656,7 +2636,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Noonkanbah,Kunkadea,Kardalapuru,Pililuna,Landrigan Cliffs,Mellon Spring,Munggakulu,Mount Fenton,Cummins Range",
     "status": "WAITING"
   },
   {
@@ -2666,7 +2646,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Coolgardie,Kalgoorlie,Menzies,Leonora,Laverton,Cosmo Newberry,Mulga Queen,Mount Margaret",
     "status": "WAITING"
   },
   {
@@ -2676,7 +2656,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Aurukun,Pormpuraaw",
     "status": "WAITING"
   },
   {
@@ -2686,7 +2666,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Ieramugadu,Roebourne,Ngurrawaana,Karratha,Port Hedland",
     "status": "WAITING"
   },
   {
@@ -2696,7 +2676,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Logan River,Albert River,Tweed River,Tweed Valley,Ukerabagh,Guanaba,Beaudesert,Nerang,Coomera",
     "status": "WAITING"
   },
   {

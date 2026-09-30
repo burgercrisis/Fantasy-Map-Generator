@@ -2145,7 +2145,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Manche,Yol,Yaxha,Chocahau,Tzalac,Nito,Pusilha,Paliac,Campin,Tzoite",
     "status": "WAITING"
   }
 ];

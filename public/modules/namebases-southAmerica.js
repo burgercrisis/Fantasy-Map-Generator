@@ -416,8 +416,8 @@ window.southAmericaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Gurupi,AltoTuriaçu,Araribóia,Caru,Governador,RioPindaré,UrucuJuruá,Amarante,SantaLuzia,BarraDoCorda,BomJardim,MontesAltos,SítioNovo,Tembé,Araguaina,Imperatriz,Timon,Caxias,Codo,Coroatá,Chapadinha,Pinheiro,Bacabal,PresidenteDutra,ItapecuruMirim,SãoJoséDeRibamar,PaçoDoLumiar,Raposa,Viana,Grajaú,Mearim,Zutiua,SantaLuziaDoParuá,Araguanã,CentroNovoDoMaranhão,Maranhãozinho,ZéDoca,CentroDoGuilherme,GovernadorNewtonBello,AltoRioGuamá",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Karu (Baníwa)",

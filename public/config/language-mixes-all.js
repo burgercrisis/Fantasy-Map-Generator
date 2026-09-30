@@ -529,7 +529,7 @@
       "family": "Bantu"
     },
     {
-      "name": "Bidiyo",
+      "name": "Bidiya",
       "iso": "bidiyo",
       "region": "Africa",
       "category": "Afroasiatic",
@@ -8601,7 +8601,7 @@
     },
     {
       "iso": "santa",
-      "name": "Santa / Sarta (Dongxiang)",
+      "name": "Santa Mongol",
       "region": "Asia",
       "category": "Mongolic",
       "family": "Southern Mongolic"
@@ -11464,7 +11464,7 @@
       "family": "Bu–Nao"
     },
     {
-      "name": "North Korean",
+      "name": "Munhwaŏ (Standard North Korean)",
       "iso": "north-korean",
       "region": "East Asia",
       "category": "Koreanic",
@@ -11478,7 +11478,7 @@
       "family": "Mandarin"
     },
     {
-      "name": "Northern Min",
+      "name": "Min Bei",
       "iso": "northern-min",
       "region": "East Asia",
       "category": "Sino-Tibetan",
@@ -16632,7 +16632,7 @@
       "region": "Europe",
       "category": "Turkic",
       "wikipedia": "https://en.wikipedia.org/wiki/Urum_language",
-      "family": "Oghuz Turkic"
+      "family": "Kipchak Turkic"
     },
     {
       "name": "Valdôtain",
@@ -29155,7 +29155,7 @@
       "family": "Adamawa"
     },
     {
-      "name": "Doyago",
+      "name": "Doyayo",
       "iso": "dow",
       "region": "Africa",
       "category": "Afroasiatic",

@@ -780,7 +780,7 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Wolayta",
+    "name": "Wolaytta",
     "i": 957,
     "min": 25,
     "max": 34,
@@ -986,7 +986,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Kongola,Singalamwe,Sibbinda,Lizauli,Imusho,Sinjembela,Mutomena",
     "status": "WAITING"
   },
   {
@@ -1208,16 +1208,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Kouoro,Danderesso,Koumankou,Koungoba,Kapolondougou,Sanzana,Nimbougou,Diou,Dioumaténé,Fourou,Kaï,Misséni,Zégoua,Kadiolo Cercle,Gur,Mali Independence,Farakala Village,Cultivating,Millet,Ancestral History,Agricultural Processes,Neighboring Cultures,Bananas,Manioc,Successfully Cultivated,Care,Chickens,Sheep,Goats,Guinea Fowl",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Mijikenda",
-    "i": 1624,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Dendi",
@@ -1486,7 +1476,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Anturu,Awon,Ariko,Asane,Akwando,Akama,Akwana,Antara,Igo,Atara,Goro",
     "status": "WAITING"
   },
   {
@@ -1566,7 +1556,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Kau,Nyaro,Traida,Marna",
     "status": "WAITING"
   },
   {
@@ -2486,7 +2476,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Geme,Western Province,PNG,Kiunga,Daru,Mawata",
+    "b": "Aliou,Goz Amar II",
     "status": "WAITING"
   },
   {
@@ -3170,7 +3160,7 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Fante",
+    "name": "Fanti",
     "i": 203215,
     "min": 4,
     "max": 16,
@@ -4480,16 +4470,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Bidiyo",
-    "i": 200009,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Bina",
     "i": 200010,
     "min": 5,
@@ -5056,7 +5036,7 @@ window.africaNameBases = [
     "max": 7,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Mahoua,Gurara,Roffono",
     "status": "WAITING"
   },
   {
@@ -5586,8 +5566,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
+    "b": "Dokan Kasuwa,Kwaning,Laardang,Kwang,Miket,Doemak,Kopar,Ba'ap,Tim,Kopfogon,Chim,Yitiar,Kwoor,Shangfuup,Kopbepang,Moeda,Dungras,Nakum,Bwall,Goepil,Katul,Kabum,Kanjing,Kaburuk,Shawk,Kaper,Rundum,Jipal,Bul,Zwakal",
+    "status": "COMPLETE"
   },
   {
     "name": "Parkwa",
@@ -6126,7 +6106,7 @@ window.africaNameBases = [
     "max": 3,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Oubi-Oulèk,Gantoura,Obéna,Oubi Bet,Baggo,Bandaro",
     "status": "WAITING"
   },
   {
@@ -6306,7 +6286,7 @@ window.africaNameBases = [
     "max": 8,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Dobiro,Nikhel,Sirbodom",
     "status": "WAITING"
   },
   {
@@ -6578,16 +6558,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Teshenawa,Kafin Hausa,Kiyawa,Dutse,Birnin Kudu,Ringim,Garki,Bulkachuwa,Auyo,Miga,Jahun,Hadejia,Keffin Hausa,Kwanda,Tsabare,Budur,Bulanguwa,Sabaru,Dangwanki,Madachi,Dashe,Abayo,Mazawa,Shamaki,Kofar Kafin Hausa,Guri Ta Kudu,Janbako,Chamo,Marma,Gantsa,Machinawa,Guri",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Sakhalin dialects",
-    "i": 202618,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Yoruba",
@@ -6988,5 +6958,35 @@ window.africaNameBases = [
     "m": 0,
     "b": "Bafoussam,Dschang,Bandjoun,Mbouda,Bafang,Baham,Bansoa,Galim,Magba,Batcham,Foumban,Foumbot,Nkamsi,Bangangte,Tonga,Kekem,Koutaba,Penka-Michel,Nkong-Zem,Njimom,Santchou,Fongo-Tongo,Massangam,Malentouen,Kouoptamo,Babadjou,Fokoue,Bangou,Bamendjou,Bana,Bandja,Bandoumka,Banka,Banwa,Bassamba,Bati,Batie,Bazou,Bayangam,Baleng,Bamougoum,Bafoussam I,Bafoussam II,Bafoussam III,Bandenkop,Bandounga,Baworo,Mboum,Bandrefam,Banti,Batoufam,Mega,Mbengwi,Bambalang,Balikumbat,Bagam,Balessing,Bamendjing,Bamessingue,Bapi",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Bala",
+    "i": 20501,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mbandaka,Bomongo,Ingende,Budjala,Lukolela,Bolomba,Bikoro,Businga,Basankusu,Gemena,Kungu,Dongo,Libenge,Bosobolo,Bokonzi,Karawa,Makanza,Bumba,Lisala,Bongandanga,Boteka,Bokungu,Likoka,Poko,Iboko,Tanda",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Zay",
+    "i": 200928,
+    "min": 4,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ziway,Butajira,Wolaita,Hosaina,Shashemene,Boditi,Areka,Worabe,Welkite,Hosaena,Angacha,Kedida Gamela,Leku,Aleta Wendo,Chuko,Dara,Boricha,Yirgalam,Adilo,Kochere,Bensa,Awasa,Addis Ababa,Hawassa,Sodo,Arba Minch,Durame,Dale",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "KiKAR",
+    "i": 200948,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nairobi,Nanyuki,Isiolo,Wajir,Garissa,Moyale,Kenya",
+    "status": "WAITING"
   }
 ];

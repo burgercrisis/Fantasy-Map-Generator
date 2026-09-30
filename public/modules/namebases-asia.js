@@ -3506,7 +3506,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Minusinsk,Sagay,Kacha,Koybal,Beltir,Kyzyl,Krasnoyarsk,Tomsk,Kemerovo,Novosibirsk,Irkutsk,Tuva,Abakan",
+    "b": "Abakan,Ust-Abakan,Sagay,Kacha,Koybal,Beltir,Kyzyl",
     "status": "WAITING"
   },
   {
@@ -9780,26 +9780,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "South Korean",
-    "i": 202861,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ye-Maek",
-    "i": 202869,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Younuo",
     "i": 202874,
     "min": 4,
@@ -9808,36 +9788,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Zhonglu,Dazhai,Xiaozhai,Pannei,Ximen,Zhoujia,Jianxin,Lijiang,Qinling,Liuli,Tongluo,Tonglie,Tandi,Heping,Daliu,Baishui,Yueqiao,Bailing,Baishi,Jinjiang,Longji,Ping'an,Huangjiang,Mahai,Zhongliu,Jiangliu,Nitan,Qijialing,Dapan,Dalang,Tiantang",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Mahan Korean",
-    "i": 202829,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "North Korean",
-    "i": 202838,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Pyojuneo (Standard Korean)",
-    "i": 202851,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Ha Em",
@@ -9862,16 +9812,6 @@ window.asiaNameBases = [
   {
     "name": "Katua",
     "i": 202471,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Khorchin Mongol alias",
-    "i": 203155,
     "min": 4,
     "max": 11,
     "d": "",
@@ -10057,16 +9997,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Savar,Kaliganj,Munshiganj,Sunamganj,Joydevpur,Mirsarai,Cumilla,Sonagazi",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tharu languages",
-    "i": 202693,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
@@ -10500,16 +10430,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Bala",
-    "i": 20501,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mbandaka,Bomongo,Ingende,Budjala,Lukolela,Bolomba,Bikoro,Businga,Basankusu,Gemena,Kungu,Dongo,Libenge,Bosobolo,Bokonzi,Karawa,Makanza,Bumba,Lisala,Bongandanga,Boteka,Bokungu,Likoka,Poko,Iboko,Tanda",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Balti ",
     "i": 1100,
     "min": 4,
@@ -10870,16 +10790,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Rouran",
-    "i": 202613,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Sambalpuri",
     "i": 202619,
     "min": 4,
@@ -10900,36 +10810,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Santa / Sarta (Dongxiang)",
-    "i": 202622,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Santa Suonanba",
-    "i": 202625,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Santa Wangjiaji",
-    "i": 202626,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Saraiki",
     "i": 202629,
     "min": 4,
@@ -10942,16 +10822,6 @@ window.asiaNameBases = [
   {
     "name": "Sauria Paharia",
     "i": 202631,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Shan macro entry",
-    "i": 202634,
     "min": 4,
     "max": 11,
     "d": "",
@@ -11027,16 +10897,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Longwu,Rongwo,Baoan,Tokya,Dowa,Lancai,Zainmo,Hornag,Qokog,Nyaintog,Gyaiwo",
-    "status": "WAITING"
-  },
-  {
-    "name": "Transitional Bonan-Kangjia",
-    "i": 202700,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
@@ -11330,16 +11190,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Zay",
-    "i": 200928,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ziway,Butajira,Wolaita,Hosaina,Shashemene,Boditi,Areka,Worabe,Welkite,Hosaena,Angacha,Kedida Gamela,Leku,Aleta Wendo,Chuko,Dara,Boricha,Yirgalam,Adilo,Kochere,Bensa,Awasa,Addis Ababa,Hawassa,Sodo,Arba Minch,Durame,Dale",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Southern Itelmen",
     "i": 201247,
     "min": 4,
@@ -11380,16 +11230,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Hmong macro entry",
-    "i": 202819,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Hmu",
     "i": 202820,
     "min": 4,
@@ -11402,16 +11242,6 @@ window.asiaNameBases = [
   {
     "name": "Kiong Nai",
     "i": 202827,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Northern Min",
-    "i": 202839,
     "min": 4,
     "max": 11,
     "d": "",
