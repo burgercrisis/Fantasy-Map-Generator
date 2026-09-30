@@ -6053,11 +6053,12 @@
       "family": "Bahnaric"
     },
     {
-      "name": "Angku",
+      "name": "Kon Keu",
       "iso": "kkn",
       "region": "Asia",
       "category": "Austroasiatic",
-      "family": "Angkuic"
+      "family": "Chamic",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cham_language"
     },
     {
       "name": "Hyolmo (Yolmo)",
@@ -6485,10 +6486,11 @@
     },
     {
       "name": "Katu",
-      "iso": "katu",
+      "iso": "kuf",
       "region": "Asia",
       "category": "Austroasiatic",
-      "family": "Katuic"
+      "family": "Katuic",
+      "wikipedia": "https://en.wikipedia.org/wiki/Katu_language"
     },
     {
       "name": "Katua",
@@ -29158,14 +29160,6 @@
       "region": "Africa",
       "category": "Afroasiatic",
       "family": "Chadic"
-    },
-    {
-      "name": "Hu",
-      "iso": "huo",
-      "region": "Asia",
-      "category": "Austroasiatic",
-      "wikipedia": "https://en.wikipedia.org/wiki/Hu_language",
-      "family": "Palaungic"
     },
     {
       "name": "Gulf Arabic",

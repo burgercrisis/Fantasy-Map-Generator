@@ -1688,7 +1688,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   Serpent: {
     // the naga of the monsoon forest: Bahnaric + Munda, the dripping sibilants of the Bay of Bengal
     categories: ["Austroasiatic"],
-    families: ["Angkuic", "Aslian", "Bahnaric", "Khasian", "Munda", "Nicobarese", "Viet-Muong", "Waic"],
+    families: ["Angkuic", "Aslian", "Bahnaric", "Chamic", "Khasian", "Munda", "Nicobarese", "Viet-Muong", "Waic"],
     isos: [
       "alak-bahnaric",
       "bahnar",
@@ -2005,7 +2005,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "bru",
       "chong",
       "kasong",
-      "katu",
+      "kuf",
       "kha",
       "kha-lyngngam",
       "kha-native-speakers",
@@ -2178,8 +2178,8 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
   },
   Gnoll: {
     // the hyena laugh: the Chadic block plus the click isolates, a genuinely alien sound
-    categories: ["Afroasiatic", "Isolate"],
-    families: ["Chadic", "Hadza", "Sandawe"],
+    categories: ["Afroasiatic", "Isolate", "Tupian"],
+    families: ["Chadic", "Hadza", "Sandawe", "Tupi-Guarani"],
     isos: [
       "afade",
       "ajawa",
@@ -4123,7 +4123,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "fia",
       "hdy",
       "hokkaido-ainu",
-      "huo",
       "kai",
       "kuril-ainu",
       "lgg",
@@ -5495,7 +5494,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "kasong",
       "katchal-nicobarese",
       "kathu",
-      "katu",
+      "kuf",
       "katua-bahnaric",
       "kau",
       "kawacha",
@@ -7161,7 +7160,7 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "kashubian",
       "kasong",
       "kasua",
-      "katu",
+      "kuf",
       "kazakh",
       "kbh",
       "kenaboi",

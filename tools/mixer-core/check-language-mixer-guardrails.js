@@ -56,7 +56,22 @@ const ALLOWED_REMOVALS = new Set([
   // namebase entry, i=200632 "Jamaican Creole", and jamaican-creole already
   // points at it. The alias row made the app offer a language under a name that
   // appears nowhere in the data.
-  "jamaican-patois"
+  "jamaican-patois",
+  // "huo" was the Palaung language "Hu" of Myanmar, and its row pointed at
+  // i=1012, which is Kon Keu - a Chamic language of Vietnam. The two share the
+  // English name "Hu" and nothing else. The Palaung has no namebase entry
+  // anywhere, so there is nothing correct to point the row at, and generating
+  // Cham names under a Palaung label is worse than not offering the language.
+  // See the note on katu below for the language this tangle turned on.
+  "huo",
+  // The catalog recorded Katu with ISO 639-3 "katu", which is not Katu's code.
+  // Katu / Low Katu is kuf (Glottolog west2398), Katuic, eastern Laos and
+  // central Vietnam; kfu is East Katu. The row is re-keyed to kuf and keeps
+  // pointing at i=200319 "Katu". Worth noting that ISO 639-3 "katu" is not a
+  // code at all, so this was never a valid language entry - it was a key
+  // invented from the name, the same failure mode as "ijaw" earlier in this
+  // work.
+  "katu"
 ]);
 
   function decodeTextFile(buf) {

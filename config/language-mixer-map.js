@@ -4781,7 +4781,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "kkn",
-    "bases": []
+    "bases": [
+      1012
+    ]
   },
   {
     "iso": "scp",
@@ -5116,7 +5118,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "katu",
+    "iso": "kuf",
     "bases": [
       200319
     ]
@@ -25064,12 +25066,6 @@ globalThis.languageMixerMap = [
     "iso": "dow",
     "bases": [
       20732
-    ]
-  },
-  {
-    "iso": "huo",
-    "bases": [
-      1012
     ]
   },
   {
