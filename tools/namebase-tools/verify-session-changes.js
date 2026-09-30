@@ -262,6 +262,33 @@ check("no document word-list appended to a seed list", dumps.length === 0,
   dumps.length ? `${dumps.length} suspected, e.g. ` + dumps.slice(0, 4).join("; ")
     : "55 such entries were cleared in the continent audit");
 
+// A language family or category name used as a place name. The catalog is the
+// vocabulary, so this needs no external gazetteer - but matching the catalog
+// alone is too loose, because Hokkaido, Sakhalin, Naga, Tai, Sami and Angan are
+// all family values somewhere in it and all six are real places. So a seed
+// counts only when it is in the vocabulary AND carries a morpheme no settlement
+// does.
+const catFile = JSON.parse(fs.readFileSync(path.join(root, "config/language-mixes.json"), "utf8"));
+const vocab = new Set();
+for (const c of catFile) {
+  if (c.family) vocab.add(String(c.family).toLowerCase());
+  if (c.category) vocab.add(String(c.category).toLowerCase());
+}
+const CLASSMORPHEME = /(congo|saharan|asiatic|bantoid|bantu|chadic|cushitic|semitic|berber|nguni|\bijo\b|adamawa|songhay|maban|tivoid|gurage|unclassified|language|famil|classified|ethnoling|branch|cluster|macro)/i;
+const labelSeeds = [];
+for (const e of all) {
+  for (const s of lib.seedsOf(e)) {
+    const t = String(s).trim();
+    const low = t.toLowerCase();
+    if ((vocab.has(low) || vocab.has(low.replace(/\s+languages?$/, ""))) && CLASSMORPHEME.test(t)) {
+      labelSeeds.push(`${e.i}:"${t}"`);
+    }
+  }
+}
+check("no classification label used as a place name", labelSeeds.length === 0,
+  labelSeeds.length ? `${labelSeeds.length} found, e.g. ` + labelSeeds.slice(0, 4).join(", ")
+    : "42 removed across 32 entries; Hokkaido, Sakhalin, Naga and Tai are kept - they are places");
+
 // cross-continent identical seed lists are the fabrication signature
 const groups = new Map();
 for (const e of all) {
