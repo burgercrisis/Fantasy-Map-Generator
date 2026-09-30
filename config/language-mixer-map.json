@@ -5127,15 +5127,11 @@
   },
   {
     "iso": "katua-bahnaric",
-    "bases": [
-      202471
-    ]
+    "bases": []
   },
   {
     "iso": "kayong-bahnaric",
-    "bases": [
-      200321
-    ]
+    "bases": []
   },
   {
     "iso": "kenaboi",
@@ -7147,9 +7143,7 @@
   },
   {
     "iso": "tariang-bahnaric",
-    "bases": [
-      202683
-    ]
+    "bases": []
   },
   {
     "iso": "tay-tai",

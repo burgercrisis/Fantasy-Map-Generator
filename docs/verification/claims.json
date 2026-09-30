@@ -1,4 +1,15 @@
 {
   "staleHours": 8,
-  "claims": {}
+  "claims": {
+    "asia": {
+      "agent": "wb7-asia",
+      "task": "W007 leftover asia blocks + Vaghri/Koli/Yugur",
+      "claimedAt": "2026-09-30T22:03:39.137Z"
+    },
+    "europe": {
+      "agent": "wb7-europe",
+      "task": "W007 leftover europe blocks",
+      "claimedAt": "2026-09-30T22:03:39.522Z"
+    }
+  }
 }
