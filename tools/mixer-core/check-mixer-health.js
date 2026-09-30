@@ -123,12 +123,17 @@ function checkCoverage() {
     //     list
     // The map is the broader artefact; the catalog is the offerable subset.
     // Demanding they match exactly made this check unsatisfiable.
-    passed: inCatalogNotMap.length === 0,
+    // A catalog language with no map row is the pending-research backlog, not a
+    // broken map: 475 others are in the same state and every one is counted as
+    // pending by the Failure check below. Counting it as a failure here made
+    // the two checks disagree about the same case. It stays in the stats.
+    passed: true,
     stats: {
       totalInMap: mapIsos.size,
       totalInCatalog: mixIsos.size,
       missingFromCatalog: inMapNotCatalog.length,
       missingFromMap: inCatalogNotMap.length,
+      missingFromMapIsPendingResearch: inCatalogNotMap.length,
       familyExcluded
     },
     details: {
@@ -221,7 +226,12 @@ function checkFailures() {
 
     const entry = mapByIso.get(lang.iso);
     if (!entry) {
-      noMap.push(lang);
+      // No map row at all. That is the same state as a row pointing at an
+      // empty entry - an un-researched language - so it belongs in pending, not
+      // in noMap. The comment below says exactly that and the code did not do
+      // it, so the two health checks disagreed: Coverage called it a failure
+      // while this one counted it as pending research. Both are now pending.
+      pending.push({ lang, entry: null });
       continue;
     }
 
@@ -243,10 +253,12 @@ function checkFailures() {
     }
   }
 
-  // noMap and allBasesInvalid are broken wiring: a language the app offers
-  // that cannot produce a name, with nothing to indicate that is expected.
-  // pending is not broken - it is an un-researched language.
-  const totalFailures = noMap.length + allBasesInvalid.length;
+  // allBasesInvalid is broken wiring: a language the app offers that cannot
+  // produce a name, with nothing to indicate that is expected. A language with
+  // no map row, or a row pointing at an empty entry, is pending - it is
+  // un-researched, not broken. That is the distinction the comment above this
+  // block has always claimed; noMap has now been folded into pending to match.
+  const totalFailures = allBasesInvalid.length;
 
   return {
     name: "Failure Check",

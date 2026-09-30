@@ -151,7 +151,12 @@ const META = [
   /^Government .+(School|Health|Centre|Center)$/i,
   /^(Private|Public) (Secondary|Primary) School$/i,
   /^(Dropping|Adding|Using) .+$/i,
-  /^(Slight|Thick|High|Low) .+$/i,
+  // "Slight Pronunciation Differences" and "Thick Consonants" are notes;
+  // "High Island" is a real Bardi island in the Dampier Peninsula. The words
+  // that signal a note are the second noun, not the adjective, so require the
+  // full descriptive shape rather than any sentence starting with an adjective.
+  /^(Slight|Thick|Heavy|Light)\s+\w*\s*(Pronunciation|Differences|Consonants|Vowels|Tones|Stress|Contrast|Shift|Accent)\b/i,
+  /(Greater|Slightly)\s+(Consonance|Vowel|Pronunciation)\b/i,
   /^(Unknown|No Known|None) .+$/i,
   /^(Eight|Seven|Nine|Ten|Five|Six|Four|Three|Two) .+ Languages$/i,
   /^(Indigenous|Lagwan|Local) .+ People$/i,

@@ -12778,5 +12778,245 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Aru,Piru,Saumlaki,Kai,Tanimbar,Sofifi,Masohi,Babar,Saparua,Seram,Nusa Laut,Gorom,Dobo,Tidore,Banda,Leti,Ternate,Tual,Haruku,Ambon,Kei,Amahai,Wetar,Namlea,Buru,Watubela,Kelang,Buano,Manipa,Obi,Bacan,Halmahera,Morotai,Tobelo,Galela,Jailolo,Maba,Weda,Buli,Gane,Pati,Loloda,Namrole,Bula,Sanana,Sula,Mangoli,Taliabu,Mangon,Larat,Wonreli,Adaut,Kola",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Nagpuri",
+    "i": 202541,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Ranchi,Khunti,Torpa,Muri,Bundu,Kanke,Khelari,Namkum,Ratu,Tundul,Tati,Ray,Ara,Arsande,Bishrampur,Churi,Irba,Hatia,Simdega,Gumla,Ghaghra,Palkot,Bishunpur,Sisai,Jalim,Marda,Nagfeni,Chainpur,Dumri,Jari,Kamdara,Basia,Raidih,Lohardaga,Kisko,Kuru,Senha,Bhandra,Bagru,Kairo,Bano,Bolba,Jaldega,Kolebira,Bansjore,Latehar,Barwadih,Netarhat,Betla,Hazaribagh,Barkagaon,Ichak,Churchu,Barhi,Tati Jhariya,Keredari,Daru,Dadi,Padma,Chauparan,Barkatha,Chas,Gomia,Nawadih,Jaridih,Chandrapura,Bermo",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Naiki",
+    "i": 202542,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Angul,Talcher,Dhenkanal,Bhuban,Budhapanka,Gunupur,Bissam Cuttack,Jeypore,Barbil,Kendujhar,Joda",
+    "status": "WAITING"
+  },
+  {
+    "name": "Nong Zhuang",
+    "i": 202551,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Pengo",
+    "i": 202586,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Rajbanshi",
+    "i": 202605,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Rouran",
+    "i": 202613,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sambalpuri",
+    "i": 202619,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Bargarh,Barapali,Bijepur,Khaliapali,Bardol,Sonepur,Patnagad,Balangir,Kantabanji,Titlagarh,Loisinga,Bangomunda,Sambalpur,Burla,Hirakud,Kuchinda,Rairakhol,Redhakhol,Gambharipank,Samasingha,Laida,Lapanga,Maneswar,Jharsuguda,Belpahar,Brajarajnagar,Bandhbahal,Bundia,Sundargarh,Rourkela,Banaigarh,Hatibandha,Lathikata,Bhawanipatna,Kesinga,Dharmagada,Madanpur Rampur,Boudh,Nuapada,Khariar,Komna,Sinapali,Parashkhol,Deobahal,Khadial",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sanskrit",
+    "i": 202621,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Santa / Sarta (Dongxiang)",
+    "i": 202622,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Santa Suonanba",
+    "i": 202625,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Santa Wangjiaji",
+    "i": 202626,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Saraiki",
+    "i": 202629,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Sauria Paharia",
+    "i": 202631,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Shan macro entry",
+    "i": 202634,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Southern Khalkha",
+    "i": 202648,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tabghach",
+    "i": 202663,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tangut",
+    "i": 202682,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tariang",
+    "i": 202683,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Thachanadan",
+    "i": 202688,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Thmon",
+    "i": 202694,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tongren Bonan",
+    "i": 202698,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Transitional Bonan-Kangjia",
+    "i": 202700,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Tuyuhun",
+    "i": 202705,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
+  },
+  {
+    "name": "Zhangzhung",
+    "i": 202736,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "",
+    "status": "WAITING"
   }
 ];

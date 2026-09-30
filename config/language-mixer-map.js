@@ -126,12 +126,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ambo",
-    "bases": [
-      200240
-    ]
-  },
-  {
     "iso": "amdang",
     "bases": [
       581
@@ -311,12 +305,6 @@ globalThis.languageMixerMap = [
     "iso": "bamwe",
     "bases": [
       20514
-    ]
-  },
-  {
-    "iso": "bana",
-    "bases": [
-      378
     ]
   },
   {
@@ -5148,7 +5136,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "kyv",
     "bases": [
-      97973
+      2387
     ]
   },
   {

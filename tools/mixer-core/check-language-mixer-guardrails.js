@@ -70,9 +70,20 @@ const ALLOWED_REMOVALS = new Set([
   // pointing at i=200319 "Katu". Worth noting that ISO 639-3 "katu" is not a
   // code at all, so this was never a valid language entry - it was a key
   // invented from the name, the same failure mode as "ijaw" earlier in this
-  // work.
-  "katu"
-]);
+    // work.
+    "katu",
+    // Both rows handed out a language other than the one their ISO names, and
+    // the correct catalog rows already existed alongside them.
+    //   ambo  ISO is the Bantu language Ambo of the Congo, but the row pointed
+    //          at i=200240 "Ambonese Malay" - Aru, Piru, Saumlaki, Kai,
+    //          Tanimbar are the Maluku Islands. ambonese-malay now lists it.
+    //   bana  ISO is the Chadic language Bana, but the row pointed at i=378
+    //          "Banat" - Timisoara, Arad, Lugoj, Resita, Caransebes, Oradea
+    //          are the Banat of Romania and Serbia. The catalog's banat row,
+    //          already Daco-Romanian, now lists it.
+    "ambo", "bana"
+  ]);
+
 
   function decodeTextFile(buf) {
    if (!Buffer.isBuffer(buf)) return "";
