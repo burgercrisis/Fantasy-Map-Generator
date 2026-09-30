@@ -24348,7 +24348,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-berta",
     "bases": [
-      13948
+      137
     ]
   },
   {

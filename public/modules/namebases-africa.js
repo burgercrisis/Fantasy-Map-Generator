@@ -2936,7 +2936,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kadugli,Mugum,Rashad,Talodi,Dilling,Lagawa,Abri,Babanusa,Bertakw,Bertatw,Bertapw,Bertamw,Bertasw,Sudan,Ethiopia",
+    "b": "Kadugli,Mugum,Rashad,Talodi,Dilling,Lagawa,Abri,Babanusa,Sudan,Ethiopia",
     "status": "WAITING"
   },
   {
@@ -2976,7 +2976,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Rashad,Tegali,Al-Abbasiya,Umm Ruwaba,Kadugli,Dilling,Lagawa,Abu Jebha,Talodi,Tagoi,Tarjok,Gom,Tingal,Kajakja,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,Tegaliwa,Tegalita,Tegalibwe,Tegalisa,Tegalifa,Tegaliga,Tegalija,Tegalida,Tegalizi,Tegalibo",
+    "b": "Rashad,Tegali,Al-Abbasiya,Umm Ruwaba,Kadugli,Dilling,Lagawa,Abu Jebha,Talodi,Tagoi,Tarjok,Gom,Tingal,Kajakja,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano",
     "status": "COMPLETE"
   },
   {
@@ -4046,7 +4046,7 @@ window.africaNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Cheha,Ezhana Wolene,Cäzza,Welkite,Addis Ababa,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Luanda,Huambo,Lobito,Benguela,Akikwe,Adodje,Adante,Adisje,Akalwe,Amokwe,Aedje,Alante,Abutje,Apuwe,Amurwe,Alubje,Amamte,Anetje,Aodwe,Muherle,Muherre,Muherne,Muherke,Muherhe,BurDiqda",
+    "b": "Cheha,Ezhana Wolene,Cäzza,Welkite,Addis Ababa,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Luanda,Huambo,Lobito,Benguela,Akikwe,Adodje,Adante,Adisje,Akalwe,Amokwe,Aedje,Alante,Abutje,Apuwe,Amurwe,Alubje,Amamte,Anetje,Aodwe,BurDiqda",
     "status": "COMPLETE"
   },
   {

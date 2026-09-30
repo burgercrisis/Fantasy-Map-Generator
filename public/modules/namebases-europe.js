@@ -4126,7 +4126,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Stockholm,Göteborg,Malmö,Uppsala,Västerås,Örebro,Linköping,Norrköping,Helsingborg,Jönköping,Borås,Sundsvall,Umeå,Gävle,Halmstad,Karlstad,Växjö,Luleå,Östersund,Kristianstad,Kalmar,Skellefteå,Uddevalla,Motala,Piteå,Ljungby,Värnamo,Falun,Swedishkw,Swedishtw,Swedishpw,Swedishmw,Swedishsw,Swedishrw",
+    "b": "Stockholm,Göteborg,Malmö,Uppsala,Västerås,Örebro,Linköping,Norrköping,Helsingborg,Jönköping,Borås,Sundsvall,Umeå,Gävle,Halmstad,Karlstad,Växjö,Luleå,Östersund,Kristianstad,Kalmar,Skellefteå,Uddevalla,Motala,Piteå,Ljungby,Värnamo,Falun",
     "status": "COMPLETE"
   },
   {

@@ -289,6 +289,28 @@ check("no classification label used as a place name", labelSeeds.length === 0,
   labelSeeds.length ? `${labelSeeds.length} found, e.g. ` + labelSeeds.slice(0, 4).join(", ")
     : "42 removed across 32 entries; Hokkaido, Sakhalin, Naga and Tai are kept - they are places");
 
+// Seeds that are the entry's own name plus one to three letters: Dyulala,
+// Dyulama, Farefarewa, Swedishkw. A generator staples these onto a real
+// gazetteer - the 11 worst cases shared one suffix set {la,ma,wa,ra,ka} across
+// eleven unrelated languages, which village naming does not do.
+//
+// Requires three or more variants. One is not a signal: "Kikai-Wan",
+// "Kikai-Aden" and "Kikai-Tean" on i=294 are real Tokara island names.
+const alphaOf = s => String(s).toLowerCase().replace(/[^a-z]/g, "");
+const stemPads = [];
+for (const e of all) {
+  const base = alphaOf(e.name);
+  if (base.length < 4) continue;
+  const n = lib.seedsOf(e).filter(s => {
+    const a = alphaOf(s);
+    return a.startsWith(base) && a.length > base.length && a.length <= base.length + 3;
+  }).length;
+  if (n >= 3) stemPads.push(`${e.i}"${e.name}" x${n}`);
+}
+check("no entry seeded with variants of its own name", stemPads.length === 0,
+  stemPads.length ? `${stemPads.length} found, e.g. ` + stemPads.slice(0, 4).join("; ")
+    : "81 removed across 15 entries");
+
 // cross-continent identical seed lists are the fabrication signature
 const groups = new Map();
 for (const e of all) {
