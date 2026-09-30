@@ -396,7 +396,7 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Gwaimasi,Suabi,Sesanabi,Mome Hafi,Dege Hafi,Tagohai,Gugwuasu,Dahamo,Baiya River,Mome Stream,Dege Stream,Sigia Stream,Dogomo River,Molo Stream,Gwai Stream,Duwon Kabi,Tai Su,Sosiyo,Suwa'a 2,Hima'a,Biya'a,Gobamo'o,Diyo'o,Tibidibo,Uwo'o,Forbidden place,Sacred site",
+    "b": "Gwaimasi,Suabi,Sesanabi,Mome Hafi,Dege Hafi,Tagohai,Gugwuasu,Dahamo,Baiya River,Mome Stream,Dege Stream,Sigia Stream,Dogomo River,Molo Stream,Gwai Stream,Duwon Kabi,Tai Su,Sosiyo,Suwa'a 2,Hima'a,Biya'a,Gobamo'o,Diyo'o,Tibidibo,Uwo'o",
     "status": "COMPLETE"
   },
   {
@@ -1276,7 +1276,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Nairobi,Nanyuki,Isiolo,Wajir,Garissa,Moyale,KARBarracks,KARTrainingDepot,KARBattalions,Kenya,KARHeadquarters,King'sAfricanRifles",
+    "b": "Nairobi,Nanyuki,Isiolo,Wajir,Garissa,Moyale,Kenya",
     "status": "WAITING"
   },
   {
@@ -1286,7 +1286,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Niue,Avarua,Arutanga,Amuri,Atiu,Mitiaro,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,RioGrande,Santalsabel,SantaIsabel,Afintown,Abosside,Abalburg,Apebside,Alumtown,Apobtown,Adagside,Abittown,Amogside,Aditside,Abagtown,Aubtown,Amartown,Apisside,Afiktown",
+    "b": "Apia,Salelologa,Asau,Safotu,Faleula,Siumu,Poutasi,Lotofaga,Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,NukuAlofa,Pangai,Havelu,Vaitupu,MataUtu,Leava,Vele,Alofi,Hakupu,Niue,Avarua,Arutanga,Amuri,Atiu,Mitiaro",
     "status": "COMPLETE"
   },
   {
@@ -1296,7 +1296,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Alubside,Anenside,Akugtown,Apabside,Apertown,Afortown,Akosside,Amobburg,Anettown,Abiktown,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Mekeo,Inao,Kuni,Roro,Kabadi,Lala,Aroma,Sinaugoro,Kairuku,Hula,Kapakapa",
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Mekeo,Inao,Kuni,Roro,Kabadi,Lala,Aroma,Sinaugoro,Kairuku,Hula,Kapakapa",
     "status": "COMPLETE"
   },
   {
@@ -1306,7 +1306,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Jabor,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Akumside,Alusford,Afirside,Anekford,Adurford,Apilford,Aposide,Adedland,Akirside,Amosside,Audford,Aborford,Araside,Aidford,Anotford",
+    "b": "Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Jabor,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae",
     "status": "COMPLETE"
   },
   {
@@ -1316,7 +1316,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Tarawa,Bairiki,Bikenibeu,Betio,Nauru,Yauco,Corozal,Guánica,Orocovis,Fajardo,Marigot,Camuy,Guayama,Cidra,SanGerman,AguasBuenas,LasPiedras,Brades,Manati,Humacao,Alukview,Afikview,Apakview,Akugview,Afinbridge,Adesbridge,Amebview,Abebridge,Alirbridge,Abusview,Amorview,Anirview,Akaview,Abalbridge,Amebville",
+    "b": "Yaren,Aiwo,Buada,Denigomodu,Banaba,Tabiteuea,Aranuka,Kuria,Maiana,Marakei,Nikunau,Onotoa,Tamana,Nui,Nanumanga,Vaitupu,Nukufetau,Nukulaelae,Palikir,Kolonia,Weno,Tonoas,Pohnpei,Yap,Colonia,Kosrae,Tofol,Majuro,Ebeye,Tarawa,Bairiki,Bikenibeu,Betio,Nauru",
     "status": "COMPLETE"
   },
   {
@@ -1326,7 +1326,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Philipsburg,Lares,Adjuntas,ToaBaja,Pefiuelas,Villalba,RioGrande,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Akolville,Aikport,Alakport,Aponport,Abugport,Apibville,Afebport,Anubport,Aforport,Akirport,Abaport,Anemville,Apegport,Apekport,Amobport",
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu",
     "status": "COMPLETE"
   },
   {
@@ -1336,7 +1336,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas,Isabela,Loiza,Coamo,Akebtown,Akilford,Aparland,Akemtown,Afitford,Alogtown,Alastown,Apikford,Apektown,Afisford,Apurtown,Alattown,Abimford,Aetland,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges,VegaAlta,Fajardo,Alubside,Anenside,Akugtown,Apabside,Apertown,Afortown,Akosside,Amobburg,Anettown,Abiktown,PapuanPidgin,TokPisin,Pisin,Wantok,Sios,Saint,Morobe,Ward,Lotu,Buluminsky,Papuan",
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu",
     "status": "COMPLETE"
   },
   {
@@ -1356,7 +1356,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Honiara,Gizo,Munda,Noro,Auki,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,Nggatokae,Mayaguez,Juncos,Maunabo,Castries,Dorado,Arecibo,Jayuya,Aguada,Ceiba,Guayama,Arroyo,Bayamon,SanJuan,Maricao,SanSebastian,Abemville,Apuview,Afimville,Amasport,Alerport,Aladville,Aubport,Akidport,Apudville,Anolport,Anobville,Afunview,Adigville,Alukport,Afedport",
+    "b": "Honiara,Gizo,Munda,Noro,Auki,Lata,Tulagi,Marau,Taro,Faisi,Seghe,Viru,Rendova,Pavuvu,Mbambanakira,Kolombangara,Shortlands,Choiseul,VellaLavella,Guadalcanal,Malaita,Ulawa,Temotu,SantaCruz,Vangunu,Simbo,Ranongga,Roviana,Marovo,Tetepare,Uepi,Gatokae,Nggatokae",
     "status": "COMPLETE"
   },
   {
@@ -1366,8 +1366,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Lanzhou,Wuwei,Jinchang,Zhangye,Jiayuguan,Jiuquan,Yumen,Dunhuang,Tianshui,Pingliang,Qingyang,Dingxi,Baiyin,Linxia,Hezuo,Xiahe,Minle,Shandan,Yongchang,Minqin,Gulang,Jingtai,Huining,Qinan,Wushan,Gangu,Lixian,Tanchang,Dangchang,Wenxian,Kangxian,Chengxian,Xihe,Xifeng,Heshui,Ningxian,Canovanas,Kralendijk,SanSebastian,Utuado,VegaAlta,Yauco,Ciales,Luquillo,Cockburn,Quebradillas,Cayey,Comerio,SabanaGrande,Naguabo,Plymouth,Aokville,Akabbridge,Alosbridge,Adaview,Abinbridge,Abasbridge,Apisview,Aembridge,Akodville,Akakbridge,Aoville,Alarview,Aditbridge,Afedbridge,Anotville",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "Te Parau Tinito",
@@ -1376,7 +1376,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,Tahiti,Moorea,BoraBora,Raiatea,Taha,Huahine,Rangiroa,Fakarava,Manihi,Tikehau,Mataiva,NukuHiva,HivaOa,FatuHiva,UaPou,Tahuata,RapaIti,Tubuai,Rurutu,Rimatara,Tureia,Gambier,Barranquitas,Hormigueros,SanLorenzo,Yabucoa,Kingstown,VegaBaja,Aguadilla,Ciales,Rincon,Naguabo,Arroyo,Maunabo,Guaynabo,Ponce,Adjuntas",
+    "b": "Papeete,Faaa,Punaauia,Pirae,Arue,Mahina,Taiarapu,TevaIuta,Paea,Papara,Tahiti,Moorea,BoraBora,Raiatea,Taha,Huahine,Rangiroa,Fakarava,Manihi,Tikehau,Mataiva,NukuHiva,HivaOa,FatuHiva,UaPou,Tahuata,RapaIti,Tubuai,Rurutu,Rimatara,Tureia,Gambier",
     "status": "COMPLETE"
   },
   {
@@ -1386,7 +1386,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu,FlyingFish,Aguada,Coamo,Naranjito,Lajas,Morovis,Ceiba,Gustavia,Arecibo,Caguas,Aibonito,CaboRojo,Gurabo,Humacao,StGeorges",
+    "b": "PortMoresby,Lae,Madang,Wewak,Vanimo,Kavieng,Rabaul,Kimbe,Goroka,MtHagen,Kundiawa,Mendi,Tari,Popondetta,Alotau,Daru,Kiunga,Tabubil,Buka,Arawa,Kieta,Lorengau,Kokopo,Namatanai,Kandrian,Finschhafen,Salamaua,Bulolo,Wau,Menyamya,Okapa,Kainantu",
     "status": "COMPLETE"
   },
   {
@@ -1426,8 +1426,8 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pidgin Onin,Mount Hagen,Nadi,Tabiteuea,Kimbe,Angaur,Nibok,Havelu,Betio,Ebeye,Hobart,Huahine,Canala,Denigomodu,Tanna,Rabaul,Buna,Manus,Kavieng,Uaboe,Asau,Ohonua,Kwajalein,Palikir,Ok Tedi,Nu'uuli,Nuku'alofa,Wewak,Montego Bay,Kingston,Gonaïves,Cul de Sac,Cockburn Town,Cap-Haïtien,Christ Church,Port Antonio,Oistins,Andros Town,Speightstown,Jérémie,Portmore,Crane,Marsh Harbour,Chaguanas,Alice Town,Dunmore Town,Holetown,Couva,Les Cayes,Arima,Road Town,Scarborough,Tunapuna,Nassau,Oranjestad,Onin,OninPidgin,Rumbati,Patin,Fakfak,Kokas,Babo,Kaimana,Kambuaya,Tembuni,Arguni",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   },
   {
     "name": "South Oran and Figuig Berber",
@@ -1516,7 +1516,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Javanese macro entry,Derbent,Abovyan,Khashuri,Tskhinvali,Ashtarak,Gagra,Naftalan,Ijevan,Qonagkend,Khachmaz,Vladimir,Goris,Tikhoretsk,Quba,Anapa,Stepanakert,Khasavyurt,Hrazdan,Shamakhi,Lahij,Yevlakh,Kwajalein,Newcastle,Darwin,Kone,Malekula,Makassar,Luganville,George Town,Cagayan de Oro,Kota Kinabalu,Sonsorol,Munda,Jakarta,Iloilo City,Bandung,Cebu City,Bacolod,Quezon City,Kuching,Jerudong,Tofol,Nadi,Shah Alam,Medan,Malacca,Tutong,Kuala Belait,Seria,Tanna,Kudus,Demak,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati",
+    "b": "Kudus,Demak,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati",
     "status": "COMPLETE"
   },
   {
@@ -1906,7 +1906,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bocas del Toro Creole,Governor's Harbour,All Saints,Charlestown,English Harbour,St. Peter's,Road Town,San Fernando,St. George's,Vieux Fort,Tabernacle,Victoria,Sandy Ground,Five Cays,Portmore,Portsmouth,Marigot,St. John's,Philipsburg,The Valley,Holetown,Gros Islet,Cayon,Salisbury,Port-au-Prince,Ocho Rios,Oistins,Freeport,Tunapuna,Cap-Haïtien,Ocho Ríos,Kingston,Camagüey,Basseterre,Jérémie,Fort-Liberté,Port Antonio,Saint-Marc,Gonaïves,Dunmore Town,Santa Cruz,Crane,Marsh Harbour,Hastings,Harbour Island,Chaguanas,Nassau,Bathsheba,Cockburn Town,Speightstown,Hato,Montego Bay,Scarborough,Oranjestad",
-    "status": "COMPLETE"
+    "b": "",
+    "status": "WAITING"
   }
 ];

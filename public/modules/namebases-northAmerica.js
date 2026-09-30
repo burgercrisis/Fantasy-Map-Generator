@@ -1805,7 +1805,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Clevelândia do Norte,Manga,Santa Cruz,Tartarugalzinho,Macapá,Santana,Mazagão,Ponta Pedras,Porto Grande,Serra Navio,Bailique,Curipi,Gurupá,Pracuúba,Arauanã,Mutum,Amapá,Calçoene,Oiapoque,São José,Sucuriju,Munguba,Pirativa,São Francisco,Itamaraty,Anauerapucu,ESPERANTINA do Norte,São Joaquim,Vitória do Jari,Laranjal do Jari,Aporema,Carmo,Cachoeirinha,Santa Irene",
+    "b": "Clevelândia do Norte,Manga,Santa Cruz,Tartarugalzinho,Macapá,Santana,Mazagão,Ponta Pedras,Porto Grande,Serra Navio,Bailique,Curipi,Gurupá,Pracuúba,Arauanã,Mutum,Amapá,Calçoene,Oiapoque,São José,Sucuriju,Munguba,Pirativa,São Francisco,Itamaraty,Anauerapucu,São Joaquim,Vitória do Jari,Laranjal do Jari,Aporema,Carmo,Cachoeirinha,Santa Irene",
     "status": "COMPLETE"
   },
   {
@@ -1855,7 +1855,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "StraitsOfBelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador,BelleIslePidgin,InuitFrenchJargon,LabradorInuitPidginFrench,StraitsOfBelleIsleRegion",
+    "b": "StraitsOfBelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador",
     "status": "WAITING"
   },
   {
@@ -1875,7 +1875,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,StockmenRoutes,SydneyCove,PortJacksonPenalColony,Bennelong,ArthurPhillip,NewSouthWalesPidgin",
+    "b": "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,SydneyCove,Bennelong",
     "status": "WAITING"
   },
   {
@@ -1955,7 +1955,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Pipil (Nawat),Uxmal,Quiotepec,Xochicalco,Huauchinango,Hanga Roa,Yohualichan,Machu Picchu,Tibes,Jayuya,Riobamba,Chavín de Huántar,Osorno,Tiahuanaco,Piedras Negras,Kaminaljuyú,Calchaquí,Alta Vista,Comalcalco,Texcoco,Teopanzolco,Coyoacán,Tlatelolco,Xochimilco,Tlaxcala,Cholula,Xochitécatl,Tula,Tijuana,Arriaga,Corozal,Mexico City,Tegucigalpa,Puebla,Tuxtla Gutiérrez,Orizaba,Hermosillo,Morelia,Tapachula,Querétaro,Zacatecas,Campeche,Ecatepec,Culiacán,Tehuacán,Toluca,Mazatlán,Puerto Cortés,Córdoba,Cobán,Ciudad del Carmen,Veracruz,Flores,Punta Gorda,Mapastepec,Pipilk,Pipilt,Pipilp,Pipilm,Pipiln,Pipils,Pipilr,Pipill,Pipild,Pipilg",
+    "b": "Pipil (Nawat),Uxmal,Quiotepec,Xochicalco,Huauchinango,Yohualichan,Jayuya,Osorno,Piedras Negras,Kaminaljuyú,Alta Vista,Comalcalco,Texcoco,Teopanzolco,Coyoacán,Tlatelolco,Xochimilco,Tlaxcala,Cholula,Xochitécatl,Tula,Tijuana,Arriaga,Corozal,Mexico City,Tegucigalpa,Puebla,Tuxtla Gutiérrez,Orizaba,Hermosillo,Morelia,Tapachula,Querétaro,Zacatecas,Campeche,Ecatepec,Culiacán,Tehuacán,Toluca,Mazatlán,Puerto Cortés,Córdoba,Cobán,Ciudad del Carmen,Veracruz,Flores,Punta Gorda,Mapastepec",
     "status": "COMPLETE"
   },
   {
@@ -1985,7 +1985,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Grenadian Creole English,Vieux Fort,Brades,St. John's,Five Cays,Kralendijk,Tunapuna,Grenville,Charlestown,Cockburn Harbour,Anegada,Oistins,Salisbury,Hillsborough,Jost Van Dyke,Santa Rosa,Castries,Plymouth,Micoud,Soufrière,Portsmouth,Arima,Saint James,Roseau,All Saints,Ponce,Spanish Town,Camagüey,Lyon,Bydgoszcz,Marseille,Bergen,Palermo,Randers,Bilbao,Sion,Aveiro,Hamburg,Barcelona,Turin,Basel,Birmingham,Linz,Leipzig,Innsbruck,Galway,Turku,Sligo,Bologna,Bristol,Florence,Brno,Selfoss,Glasgow,Bern",
+    "b": "Grenadian Creole English,Vieux Fort,Brades,St. John's,Five Cays,Kralendijk,Tunapuna,Grenville,Charlestown,Cockburn Harbour,Anegada,Oistins,Salisbury,Hillsborough,Jost Van Dyke,Santa Rosa,Castries,Plymouth,Micoud,Soufrière,Portsmouth,Arima,Saint James,Roseau,All Saints,Ponce,Spanish Town,Camagüey",
     "status": "COMPLETE"
   },
   {
@@ -1995,7 +1995,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Leeward Caribbean Creole English,Grenville,Cockburn Harbour,Oistins,Soufrière,Salisbury,St. John's,Jost Van Dyke,Five Cays,Castries,Old Road,Tunapuna,Charlestown,Arima,Anegada,Philipsburg,Victoria,Road Town,Holetown,Sauteurs,Santa Rosa,Oranjestad,Saint-Marc,Santiago de Cuba,Portmore,Chaguanas,Port of Spain,Salt Cay,Bordeaux,Drogheda,Leipzig,Uppsala,Toulouse,Wroclaw,Nantes,Strasbourg,Marseille,Málaga,Sion,Munich,Milan,Bilbao,Granada,Zaragoza,Bristol,Glasgow,Reykjanesbær,Chur,Liverpool,Lisbon,Barcelona,Bologna,Trondheim,St. Gallen,Prague",
+    "b": "Leeward Caribbean Creole English,Grenville,Cockburn Harbour,Oistins,Soufrière,Salisbury,St. John's,Jost Van Dyke,Five Cays,Castries,Old Road,Tunapuna,Charlestown,Arima,Anegada,Philipsburg,Victoria,Road Town,Holetown,Sauteurs,Santa Rosa,Oranjestad,Saint-Marc,Santiago de Cuba,Portmore,Chaguanas,Port of Spain,Salt Cay",
     "status": "COMPLETE"
   },
   {

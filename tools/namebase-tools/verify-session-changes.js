@@ -167,6 +167,26 @@ for (const e of all) for (const s of lib.seedsOf(e)) if (SCRAPE.test(String(s).t
 check("no scraped infobox data in any seed list", scraped.length === 0,
   scraped.length ? scraped.slice(0, 5).join(", ") : "56 terms removed from 19 entries, 2 entries cleared");
 
+// Machine-generated pseudo-place tokens: Afigtown, Abalburg, Akakbridge,
+// Adurford, Aetland. A generator appended a fixed 15- or 24-token block to
+// entries across several continent files.
+//
+// The volume is what discriminates, not the shape. Real place names match the
+// pattern individually - Ambleside, Ammanford, Auckland and Aroland all do - so
+// a per-seed test would fire on clean data. A real settlement list carries at
+// most one or two; a padded one carries 15 or 24 in a contiguous run.
+const GENSHAPE = /^A[a-z]{1,4}(town|ville|side|port|view|bridge|ford|land|burg|field|fort|kit)$/;
+const GEN_MIN = 5;
+const generated = [];
+for (const e of all) {
+  const s = lib.seedsOf(e);
+  const hits = s.filter(x => GENSHAPE.test(String(x).trim()));
+  if (hits.length >= GEN_MIN) generated.push(`${e.i}"${e.name}" x${hits.length}`);
+}
+check(`no generated pseudo-place block (>=${GEN_MIN} matches)`, generated.length === 0,
+  generated.length ? generated.slice(0, 5).join(", ")
+    : "Afigtown/Abalburg/Akakbridge shape occurs 15-24x per padded entry, at most 2x in a real list");
+
 // cross-continent identical seed lists are the fabrication signature
 const groups = new Map();
 for (const e of all) {
