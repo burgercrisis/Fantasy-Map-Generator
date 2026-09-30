@@ -1329,16 +1329,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Jamaican Maroon Creole",
-    "i": 20108,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bridgetown,Speightstown,Oistins,Holetown,Crab Hill,Bathsheba,Greenland,Six Cross Roads,Crane,Welchman Hall,St. Lawrence,St. David,St. George,St. James,St. John,St. Joseph,St. Lucy,St. Michael,St. Peter,St. Philip,St. Thomas,Christ Church,St. Andrew",
-    "status": "WAITING"
-  },
-  {
     "name": "Belizean Creole",
     "i": 200628,
     "min": 4,

@@ -500,16 +500,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Arafundi-Enga Pidgin",
-    "i": 50024,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Chimundo,Kambot,Bobten,Korokopa,Pusyten,Kekten,Buten,Yemen,Manu,Kambugu,Pamban,Bopaten,Langam,Mongol,Wom,Raten,Ketro Samban,Baniamta,Kamen,Marua,Yanboe,Nainten,Yar,Bagaram,Kivim,Longwuk,Mungum,Mingnias,Togo,Monjito,Likan,Klorowom,Sori,Paniten,Pataka,Mui",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Aneme-Wake",
     "i": 50026,
     "min": 3,
@@ -518,16 +508,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Yoivi,Niniuri,Kawowoki,Kaura,Siurani,Kowena,Dea,Siribu,Natanga,Gora,Tahama,Umbuara,Kokoro,Ufia,Toma,Aiari,Yaure,Namudi,Sinua,Moro,Jari,Safia,Obea,Foru,Karisoa,Kinjaki,Embesa,Koira,Domara,Sariri,Gunimba,Jegerakambo,Emo,Banderi,Waiwa",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Fuyug",
-    "i": 50028,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Abau,Bereina,Efogi,Fane,Hula,Kagi,Kwikila,Manari,Ononge,Tapini,Woitape,Boridi,Kerema,Ihu,Kikori,Baimuru,Sasereme,Wabo",
-    "status": "WAITING"
   },
   {
     "name": "Angal",
@@ -830,16 +810,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Safeyoka",
-    "i": 201155,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Bulolo,Finschhafen,Huon,Kabwum,Lae,Markham,Menyamya,Nawae,Tewae-Siassi,Wau-Waria,Wau,Kaiapit,Salamaua,Labu,Simbang,Wantoat,Bogadjim,Adolfhaven,Mumeng,Banir,Waffa",
-    "status": "WAITING"
-  },
-  {
     "name": "Salt-Yui",
     "i": 201158,
     "min": 4,
@@ -1100,16 +1070,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Wiru",
-    "i": 201225,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Poloko 2,Poloko 1,Borona,Koiyapu,Poleya,Iaro 1,Iaro 2,Kalane,Kaluwe 1,Kaluwe 2,Weriko,Maubinin,Kerapali,Tunda,Timbikene 1,Timbikene 2,Pubi,Lawe,Timbari 1,Timbari 2,Wanu,Marapini,Undiyapu,Yakiliyapu,Yoka,Kuabini,Noiya,Taguru,Mamuane,Powe,Kengerene",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Yagaria",
     "i": 201228,
     "min": 3,
@@ -1160,16 +1120,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bariji",
-    "i": 1129,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Bariji,Murua,MountHagen,Lae,Popondetta,Madang,Wewak,Kerema,Daru,Vanimo,Kavieng,Rabaul,Kokopo,Kimbe,Buka,Lorengau,Karimui,Wau,Bulolo,Finschhafen,Menya,Biangai,Tapini,Woitape,Kagi,Efogi,Manari,Karekodi,Kabade,Kaisere,Kolopa,Bkiji,Btiji,Bpiji,Bmiji",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Daga",
     "i": 1650,
     "min": 4,
@@ -1177,16 +1127,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Daga,Rabaraba,Baniara,Murua,Gawa,Woodlark,Kiriwina,Misima,Sudest,Rossel,Panaete,Bwanabwana,Kurada,Sideia,Sagarai,Maiwara,Bohilai,Garuwabu,Weiok,Barabara,Dagoda,Umwa,Bomakwai,Kwadima,Wabu,Pola,Makapun,Sewa,Mapamoiwa,Bonagai,Wakonai,Gewa,Garu,Gilipwa,Gerega,Magabara,Tabaru,Wadau,Sibona,Baiaule",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Golin",
-    "i": 1821,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Golin,Simbu,MariMari,Gembogl,Nomane,Sinasina,SaltYui,Karimui,Daribi,Kuare,Yuri,Kuruk,Kombugl,Komkane,Bongu,Gaura,Kere,Awande,Gogo,Bogai,Daulo,Kwima,Kwembi,Turuk,Komkui,Gogme,Kwaribi,Yobai,Kombui,Dirima,Kemai",
     "status": "COMPLETE"
   },
   {
@@ -1207,26 +1147,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Korafe,Tufi,Popondetta,Kokoda,Ioma,Kira,Safia,Sangara,Sairope,Gona,Buna,Embi,Podare,Balla,Omie,Kakoda,Isurava,Deniki,TempletonCrossing,Myola,Efogi,Menari,Oivi,Wanigela,Siurani,Begera,Kwandu,Dewara,Gorabuna,Simbuna,Kumusi,Mambare,Gira,Eia,Sose",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kovojab",
-    "i": 2273,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kovojab,Madang,Karkar,Bagabag,Alexishafen,Bel,Gum,Isumrud,Mugil,Rempi,Sek,Yabob,Bilia,Saulik,Kou,Balama,Malahang,Tami,Nobanob,Nagada,Saruga,Malala,Bogia,Bunabun,Sakam,Awar,Watam,Boroi,Manam,Uluman,GogolRiver,Narimami,Bunap,Sisisie,Omuru,Jilim,Silop,Moro,Bokure,Baitaluk,Nubia,Malang,Managal",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Pa",
-    "i": 203141,
-    "min": 4,
-    "max": 19,
-    "d": "",
-    "m": 0,
-    "b": "Upovia,Buseki,Boimbulavu,Nago,Maka,Magipopo,Usukof No. 1,Usokof No. 2,Kapikam,Dimu,Pangoa,Tagum,Miwa No. 1,Miwa No. 2,Kusikina,Kuem,Mipan,Manda,Bosset No. 1,Bosset No. 2,Wangawanga No. 1,Wangawanga No. 2,Komovai,Kaviananga No. 1,Kaviananga No. 2,Boikmava,Levame",
     "status": "COMPLETE"
   },
   {
@@ -1990,7 +1910,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Samo",
+    "name": "Mande Samo",
     "i": 5372,
     "min": 3,
     "max": 10,
@@ -2108,16 +2028,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "SeramIsland,AmahaiDistrict,Simalou,Kilo12,Bunara,KampungLama,Hahualan,Rouhua,RouhuaBaru,NorthSeramDistrict",
     "status": "WAITING"
-  },
-  {
-    "name": "Pa",
-    "i": 201134,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Alofi,Noumea,Papeete,Honiara,Apia,PortVila,Palikir,Avarua,PortMoresby,NukuAlofa,Suva,Masefau,Fagaloa,Tafea,Apolima,Mataika,Leone,Nukufetau,Auki,Saleaula,Ringdove,Fagali,Talasiu,Ta'u,Matangia,Tanna,Aonu,Anuboa,Areu,Aliboa,Afagu",
-    "status": "COMPLETE"
   },
   {
     "name": "Kalamian",
@@ -3130,16 +3040,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Daga ",
-    "i": 203203,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Alotau,Samarai,Esa'ala,Kiriwina,Dogura,Taupota,Wedau,Misima,Gurney,Gili Gili,Swinger Bay,Ladava,Ahioma,Huhu,Makamaka,Maramatana,Weraura,Suau,Dobu,Fergusson,Normanby,Goodenough,Trobriand,Rossell,Tagula,Woodlark,Basilaki,Sideia,Kwato",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Golin ",
     "i": 203206,
     "min": 4,
@@ -3147,16 +3047,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Gumine,Boromil,Yani,Dirima,Bokolma,Mul",
-    "status": "WAITING"
-  },
-  {
-    "name": "Korafe ",
-    "i": 203209,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tufi,OroBay,Popondetta,Kokoda,Afore,Ioma,Safia,Sangara,Gona,Buna,Letogo,Kolomotu,Vatia",
     "status": "WAITING"
   },
   {

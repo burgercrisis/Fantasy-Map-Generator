@@ -6706,7 +6706,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Wangmo,Nandan",
+    "b": "Si'en,Chuanshan,Shuiyuan,Minglun,Dongxing,Luoyang,Xianan,Shangnan,Zhongnan,Dacai,Da'an,Changmei,Longyan,Bochuan,Yifeng,Guzhou,Tangba,Yuhuan,Xiyuan,Jingyang,Xiatang,Caimen,Huanjiang,Luocheng",
     "status": "WAITING"
   },
   {
@@ -6716,7 +6716,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Longzhou,Daxin,Tianlin,Xilin,Leye,Wangmo,Nandan",
+    "b": "Si'en,Chuanshan,Shuiyuan,Minglun,Dongxing,Luoyang,Xianan,Shangnan,Zhongnan,Dacai,Da'an,Changmei,Longyan,Bochuan,Yifeng,Guzhou,Tangba,Yuhuan,Xiyuan,Jingyang,Xiatang,Caimen,Huanjiang,Luocheng",
     "status": "WAITING"
   },
   {
@@ -6736,8 +6736,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Lalitpur,Bharatpur,Janakpur,Bhaktapur,Lahan,Chandrapur",
-    "status": "WAITING"
+    "b": "Dhangadhi,Jugeda,Seharigaun,Beladevipur,Geta,Urma,Chaumala,Malakheti,Shreepur,Gadariya,Dekhatbhuli,Kalkattagaun,Rauteli Bichawa,Shankarpur,Krishnapur,Laxmipur,Pipaladi,Jhalari,Kalika,Suda,Tribhuvanbasti,Baisbichawa,Beldadi,Daiji,Prasan,Bilaspur,Iymilia,Hariya,Bataya,Bichawa,Palia Kalan,Chandan Chauki",
+    "status": "COMPLETE"
   },
   {
     "name": "Rangpuri",
@@ -6786,7 +6786,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "b": "Suonan,Daban,Hetan,Naleisi,Tangwang,Guoyuan,Wangji,Chuntai,Liushu,Dongyuan,Pingzhuang,Baihe,Guanbu,Zhaojiaxiang,Wujia,Yanling,Fengshan,Chejiawan,Gaoshan,Dashu,Beiling,Dongling,Dongxiang,Yongjing,Linxia",
     "status": "WAITING"
   },
   {
@@ -6796,7 +6796,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Linxia,Lanzhou,Tianshui,Dingxi,Zhangye,Wuwei,Pingliang,Qingyang,Baiyin,Jinchang,Jiuquan,Linxia County,Yongjing,Guanghe,Hezheng,Dongxiang,Jishishan",
+    "b": "Longquan,Kaolei,Laozhuang,Tianqiao,Wotuo,Yangjia,Machang,Nalengou,Beizhuangwan,Hewang,Huangshan,Gongbeiwan,Suhei,Zhouyang,Zhongling,Pingzhuang,Dabula,Sanyuan,Pogen,Hexi,Xianzi,Bashige,Dangtu",
     "status": "WAITING"
   },
   {
@@ -6856,7 +6856,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Sunan,Zhangye,Jiuquan,Jinta,Yumen,Dunhuang,Anxi,Aksay,Subei",
+    "b": "Dahe,Minghua,Huangcheng,Kangle,Hongshiwo,Minghai,Lianhua,Beitan,Dongtan,Maying,Shuiguan,Xuequan,Yangge,Qinglong,Shangyou,Xiliugou,Xichahe",
     "status": "WAITING"
   },
   {
@@ -6866,7 +6866,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Sunan,Zhangye,Jiuquan,Jinta,Yumen,Dunhuang,Anxi,Aksay,Subei",
+    "b": "Tongren,Reb gong,Rka gsar,Rgya tshang ma,Jianzha,Jishishan,Datongping,Zhaomuchuan",
     "status": "WAITING"
   },
   {
@@ -7336,8 +7336,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
-    "status": "COMPLETE"
+    "b": "Krasny Yar,Olon,Verkhny Pereval,Okhotnichiy,Arsenyevo,Uni,Agzu,Gvasyugi,Snezhny,Kukan,Dalni Kut,Krutoy Yar,Melnichnoe,Vostretsovo,Boguslavets,Novopokrovka,Roshchino,Ostrovnoy",
+    "status": "WAITING"
   },
   {
     "name": "Uilta",
@@ -7366,8 +7366,8 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha",
-    "status": "COMPLETE"
+    "b": "Bulava,Dudi,Kolchem,Mongol,Ukhta,Kalinovka,Mariinskoe,Bogorodskoe,Solontsy,Cherny Yar,Pakhta,Tencha,Koima,Kada,Bolba,Pul,Savinskoe",
+    "status": "WAITING"
   },
   {
     "name": "Ushojo",
@@ -7506,7 +7506,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Birgunj,Butwal,Hetauda,Dhangadhi,Itahari,Nepalgunj,Gorkha,Tansen,Rajbiraj,Siraha,Jaleshwar,Malangwa,Gaur,Sindhuli,Dhulikhel,Bidur,Lalitpur,Bharatpur,Janakpur,Bhaktapur,Lahan,Chandrapur",
+    "b": "Olangchung Gola,Yangma,Ghunsa,Lelep,Lungthung,Khangbachey",
     "status": "WAITING"
   },
   {
@@ -7806,7 +7806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Leye,Lingyun,Fengshan,Baise,Tianyang,Pingguo,Debao,Jingxi,Napo",
+    "b": "Lihu,Nandan,Tian'e,Hechi,Libo,Beidongnuo",
     "status": "WAITING"
   },
   {
@@ -7816,7 +7816,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Leye,Lingyun,Fengshan,Baise,Tianyang,Pingguo,Debao,Jingxi,Napo",
+    "b": "Yaolu,Jiarong,Maolan,Dongtang,Weng'ang,Yaoshan,Yaozhai,Yao'ai,Libo",
     "status": "WAITING"
   },
   {
@@ -8276,7 +8276,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Li,Mao,Heishui,Xiaojin,Barkam,Zagunao,Zamtang,Rangtang,Daofu,Luhuo,Seda,Baiyu,Shiqu,Dege,Sershul,Dzogchen,Maqen,Banma,Jiuzhi,Darlag,Wenchuan,Songpan,Jinchuan,Aba,Ganzi,Yushu,Golog,Hongyuan",
+    "b": "Maoxian,Wenchuan,Beichuan,Songpan,Pingwu,Luobozhai,Qiangfeng,Longxi,Dongmenwai,Baduozhai,Baodinggou,A'er,Qushan,Leigu,Tongquan,Guixi,Yuli,Chenjiaba,Xiaoba,Yongchang,Yong'an,Taolong,Xuanping,Baini,Piankou,Kaiping,Badi,Baishi,Macao,Qingpian,Duguan",
     "status": "COMPLETE"
   },
   {
@@ -8336,7 +8336,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Li,Mao,Heishui,Xiaojin,Barkam,Zagunao,Zamtang,Rangtang,Daofu,Luhuo,Seda,Baiyu,Shiqu,Dege,Sershul,Dzogchen,Maqen,Banma,Jiuzhi,Darlag,Wenchuan,Songpan,Jinchuan,Aba,Ganzi,Yushu,Golog,Hongyuan",
+    "b": "Maoxian,Wenchuan,Lixian,Beichuan,Songpan,Pingwu,Taoping,Miyaluo,Luobozhai,Qiangfeng,Longxi,Dongmenwai,Baduozhai,Baodinggou,A'er,Qushan,Leigu,Tongquan,Guixi,Yuli,Chenjiaba,Xiaoba,Yongchang,Yong'an,Taolong,Xuanping,Baini,Piankou,Kaiping,Badi,Baishi,Macao,Qingpian,Duguan",
     "status": "COMPLETE"
   },
   {

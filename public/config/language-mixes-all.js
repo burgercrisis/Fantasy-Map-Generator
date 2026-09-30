@@ -8612,7 +8612,7 @@
       "region": "Asia",
       "category": "Mongolic",
       "wikipedia": "https://en.wikipedia.org/wiki/Santa_language",
-      "family": "Oirat-Kalmyk"
+      "family": "Southern Mongolic"
     },
     {
       "iso": "santa-sijiaji",

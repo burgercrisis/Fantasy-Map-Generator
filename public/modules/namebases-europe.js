@@ -5016,7 +5016,7 @@ window.europeNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Milan,Brescia,Monza,Bergamo,Como,Varese,Pavia,Cremona,Mantua,Lecco,Lodi,Sondrio,Vigevano,Busto Arsizio,Legnano,Gallarate,Rho,Paderno Dugnano,Cinisello Balsamo,Sesto San Giovanni,Lissone,Desio,Parabiago,Cassano Magnago,Tradate,Saronno",
+    "b": "Monza,Lissone,Seregno,Desio,Vimercate,Giussano,Muggiò,Cesano Maderno,Cogliate,Seveso,Meda,Lentate sul Seveso,Barlassina,Limbiate,Misinto,Carate Brianza,Albiate,Besana in Brianza,Biassono,Lesmo,Arcore,Agrate Brianza,Carnate,Bernareggio,Usmate Velate,Ronco Briantino,Caponago,Camparada,Sirtori,Montevecchia,Osnago,Brivio,Merate,Robbiate,Oggiono,Civate,Galbiate,Garlate,Molteno,Annone di Brianza,Cantù,Mariano Comense,Arosio,Inverigo,Carimate,Carugo",
     "status": "COMPLETE"
   },
   {
@@ -5026,7 +5026,7 @@ window.europeNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Milan,Brescia,Monza,Bergamo,Como,Varese,Pavia,Cremona,Mantua,Lecco,Lodi,Sondrio,Vigevano,Busto Arsizio,Legnano,Gallarate,Rho,Paderno Dugnano,Cinisello Balsamo,Sesto San Giovanni,Lissone,Desio,Parabiago,Cassano Magnago,Tradate,Saronno",
+    "b": "Canzo,Caslino d'Erba,Castelmarte,Eupilio,Longone al Segrino,Proserpio,Erba,Asso,Caglio,Barni,Lasnigo,Magreglio,Rezzago,Sormano,Valbrona,Civenna,Pusiano,Montorfano,Albavilla,Alserio,Albese con Cassano,Ponte Lambro,Merone,Monguzzo,Lambrugo,Orsenigo,Bosisio Parini,Suello,Cesana Brianza,Nibionno,Costa Masnaga,Rogeno,Onno,Visino,Penzano,Corneno,Galliano,Mariaga,Carella,Gajum,Scarenna,Terra Rossa,Castèll,Cuèrc,Gemù,Mudronno,Brazzova",
     "status": "COMPLETE"
   },
   {

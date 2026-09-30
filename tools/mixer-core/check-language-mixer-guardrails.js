@@ -153,7 +153,17 @@ const ALLOWED_REMOVALS = new Set([
     "x-wadiyara-koli", "x-mysy", "x-momina", "x-judeo-italian-standard", "x-ludza",
     "x-obdorsk", "x-porvoo", "x-yaransk", "x-yaran", "x-finnish-savo",
     "x-belizean-creole-dedicated", "x-bahamian-creole-dedicated",
-    "x-southern-tungusic", "x-san-ma", "x-udegheic"
+    "x-southern-tungusic", "x-san-ma", "x-udegheic",
+    // Four more "x-" shadows whose target entry was removed this round. Each
+    // duplicated a real row, and none is a catalog language, so none can be a
+    // stub for un-researched work:
+    //   x-wayuu                   shadow of a Wayuu entry merged into i=7419
+    //   x-kwaza-xoc-amazonian     shadow of a Kwaza entry merged into i=201318
+    //   x-bajan-creole-dedicated  shadow whose target was not Bajan at all - all
+    //                             23 of its seeds were Barbadian, and Bajan
+    //                             already exists at i=200627
+    //   bonan-manegacha-dialect   shadow of an entry removed from southAmerica
+    "x-wayuu", "x-kwaza-xoc-amazonian", "x-bajan-creole-dedicated", "bonan-manegacha-dialect"
   ]);
 
 

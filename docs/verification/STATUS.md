@@ -11,10 +11,10 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3152 |
-| Marked COMPLETE (>= 25 seeds) | 1902 |
-| Marked WAITING (< 25 seeds) | 1250 |
-| Below seed floor | 1247 |
+| Language entries | 3123 |
+| Marked COMPLETE (>= 25 seeds) | 1880 |
+| Marked WAITING (< 25 seeds) | 1243 |
+| Below seed floor | 1239 |
 | Zero seeds | 44 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 695 | 241 | 4 | 27 |
+| africa | 681 | 237 | 4 | 27 |
 | asia | 1118 | 575 | 23 | 24 |
 | europe | 631 | 136 | 16 | 30 |
-| northAmerica | 212 | 68 | 0 | 29 |
-| southAmerica | 155 | 28 | 0 | 32 |
-| oceania | 331 | 199 | 1 | 19 |
+| northAmerica | 211 | 67 | 0 | 29 |
+| southAmerica | 152 | 28 | 0 | 32 |
+| oceania | 320 | 196 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1247 entries need authentic settlement names. Ordered by seed count,
+1239 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -306,7 +306,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 200307 | Jumli |
 | 6 | asia | 200351 | Malankuravan |
 | 6 | asia | 200491 | Sholaga |
+| 6 | asia | 200573 | Walungge |
 | 6 | asia | 200686 | Ná-Meo |
+| 6 | asia | 200687 | Nao Klao |
 | 6 | asia | 200717 | Xong |
 | 6 | asia | 2443 | Bai |
 | 6 | asia | 202630 | Sart Kalmyk |
@@ -338,10 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | southAmerica | 5812 | Berbice |
 | 7 | africa | 1234 | Fwe |
 | 7 | africa | 1720 | Dugwor |
-| 7 | africa | 11287 | Geruma |
-| 7 | africa | 21113 | Juba Arabic |
 
-_Showing the lowest 300 of 1247. Full queue:_
+_Showing the lowest 300 of 1239. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
