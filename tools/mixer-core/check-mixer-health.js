@@ -94,20 +94,36 @@ function checkCoverage() {
   const inMapNotCatalog = [...mapIsos].filter(iso => !mixIsos.has(iso)).sort();
   const inCatalogNotMap = [...mixIsos].filter(iso => {
     if (mapIsos.has(iso)) return false;
-    // Family macro entries intentionally have no individual map entry
     const entry = mixes.find(e => e.iso === iso);
-    return !isFamilyMacro(entry);
+    // Family macro entries intentionally have no individual map entry
+    if (isFamilyMacro(entry)) return false;
+    // Reconstructions are the same: a proto-language never had speakers, so no
+    // one ever coined a place name in it, so it can never have a namebase and
+    // can never have a map row. The map carries none, by design. This check was
+    // reporting all 37 as a coverage failure while checkFailures - which
+    // calls isReconstruction - correctly skipped the same entries.
+    if (isReconstruction(entry)) return false;
+    return true;
   }).sort();
 
   const familyExcluded = [...mixIsos].filter(iso => {
     if (mapIsos.has(iso)) return false;
     const entry = mixes.find(e => e.iso === iso);
-    return isFamilyMacro(entry);
+    return isFamilyMacro(entry) || isReconstruction(entry);
   }).length;
 
   return {
     name: "Coverage Check",
-    passed: inMapNotCatalog.length === 0 && inCatalogNotMap.length === 0,
+    // Only the catalog -> map direction is a failure. A map row with no
+    // catalog entry is expected and by design:
+    //   - 511 "x-" shadow rows, which exist so that resolving an index
+    //     collision stays append-only, and were never meant to be offered
+    //   - dialect-level keys ("bonan-manegacha-dialect", "beni-snous-dialect")
+    //   - 2- and 3-letter keys (af, az, bn, bho) for languages the UI does not
+    //     list
+    // The map is the broader artefact; the catalog is the offerable subset.
+    // Demanding they match exactly made this check unsatisfiable.
+    passed: inCatalogNotMap.length === 0,
     stats: {
       totalInMap: mapIsos.size,
       totalInCatalog: mixIsos.size,
