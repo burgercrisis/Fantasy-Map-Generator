@@ -186,17 +186,27 @@ function checkFailures() {
     "namebases-southAmerica.js",
     "namebases-unknown.js",
     "namebases-fantasy.js",
-    "namebases-dedicated.js",
-    "namebases-research.js"
+    "namebases-dedicated.js"
   ];
   const validBaseIndices = new Set();
-  // The seven continent files are canonical JSON and write `"i": 24702`.
-  // namebases-research.js is still in the older JS-literal style and writes
-  // `i: 24702` with no quotes, so a quoted-only pattern finds zero indices in
-  // it - which is how five working languages (Chamorro, Marshallese, Palauan,
-  // Rapa Nui, Tahitian) came to be reported as having every base invalid.
-  // Both forms are accepted; the runtime cares about the resolved value, not
-  // how the key was written.
+  // namebases-research.js is deliberately NOT in this list.
+  //
+  // It used to be, and that made this check report rows as resolvable when they
+  // are not: src/index.html does not load that file, so an index that exists
+  // only there generates nothing in the app. Roughly 1700 indices live only in
+  // research.js. It is also a derived artifact (rebuild-research-file.js =
+  // continent files + tools/work-data/*.json) and is stale and low quality: it
+  // still holds copies of entries deleted from the continent files, and its
+  // Southern Mansi, Vasjugan and Likrisovskoe entries all carry the same
+  // Khanty-Mansiysk oil-town block that the de-contamination pass purged, while
+  // its Raute entry carries Mexican and Chilean archaeological sites.
+  //
+  // The map rows that pointed into it have been blanked, so they are now
+  // reported here as having no namebase, which is the truth.
+  //
+  // The seven continent files are canonical JSON and write `"i": 24702`, so the
+  // pattern accepts both quoted and unquoted keys: the runtime cares about the
+  // resolved value, not how the key was written.
   const re = /"?i"?\s*:\s*(\d+)/g;
   for (const f of namebaseFiles) {
     try {
@@ -284,10 +294,47 @@ function checkFailures() {
 }
 
 /**
+ * Read the mixer map and return, for each catalog iso, the namebase base index it
+ * resolves to.
+ *
+ * Two catalog rows that resolve to the same base are two keys for one language,
+ * not two languages: they generate identical names, so showing both in the race
+ * editor's dropdown offers a choice that cannot change the output. The catalog
+ * keeps both keys because mixer rows and race profiles reference them, so the
+ * duplicate checks below treat a shared base as one language.
+ */
+function baseIndexByIso() {
+  const byIso = new Map();
+  try {
+    const map = readJson("config/language-mixer-map.json");
+    for (const row of map || []) {
+      if (!row || !row.iso) continue;
+      const bases = Array.isArray(row.bases) ? row.bases : [];
+      for (const b of bases) {
+        if (typeof b === "number") { byIso.set(row.iso, b); break; }
+      }
+    }
+  } catch (e) { /* map unreadable: fall back to treating every row as distinct */ }
+  return byIso;
+}
+
+/**
+ * True when two rows are the same language by virtue of resolving to the same
+ * namebase. Rows with no base at all (no map row, or an empty bases array) are
+ * NOT treated as aliases: there is no evidence they are the same language.
+ */
+function sameLanguage(isoA, isoB, baseIdx) {
+  const a = baseIdx.get(isoA);
+  const b = baseIdx.get(isoB);
+  return a !== undefined && b !== undefined && a === b;
+}
+
+/**
  * Check for exact duplicate language names
  */
 function checkNameDuplicates() {
   const mixes = readJson("config/language-mixes.json");
+  const baseIdx = baseIndexByIso();
   const byName = new Map();
 
   for (const lang of mixes) {
@@ -300,7 +347,13 @@ function checkNameDuplicates() {
 
   const dups = [];
   for (const [name, list] of byName.entries()) {
-    if (list.length > 1) dups.push({ name, count: list.length, entries: list });
+    if (list.length < 2) continue;
+    // keep the first row, drop any later row that is an alias of it
+    const kept = [list[0]];
+    for (const cand of list.slice(1)) {
+      if (!sameLanguage(list[0].iso, cand.iso, baseIdx)) kept.push(cand);
+    }
+    if (kept.length > 1) dups.push({ name, count: kept.length, entries: kept });
   }
 
   return {
@@ -350,14 +403,18 @@ function checkFuzzyDuplicates() {
   }
   const isoDups = [...byIso.entries()].filter(([_, list]) => list.length > 1);
 
-  // Normalized name clusters
+  // Normalized name clusters. Rows that resolve to the same namebase are two
+  // keys for one language, so they are collapsed before the higher-level filter
+  // sees them - otherwise every alias pair reads as a fuzzy duplicate.
+  const baseIdx = baseIndexByIso();
   const clusters = new Map();
   for (const lang of mixes) {
     if (!lang) continue;
     const norm = normalizeName(lang.name || lang.iso);
     if (!norm) continue;
     if (!clusters.has(norm)) clusters.set(norm, []);
-    clusters.get(norm).push(lang);
+    const list = clusters.get(norm);
+    if (!list.some(e => sameLanguage(e.iso, lang.iso, baseIdx))) list.push(lang);
   }
 
   const interestingClusters = [...clusters.entries()]

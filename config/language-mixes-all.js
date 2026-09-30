@@ -3858,8 +3858,8 @@
       "name": "Voro",
       "iso": "voro",
       "region": "Africa",
-      "category": "Niger-Congo",
-      "family": "Bantu"
+      "category": "Uralic",
+      "family": "South Estonian"
     },
     {
       "name": "Wali Ghana",
@@ -8415,8 +8415,8 @@
       "name": "Qifu",
       "iso": "qifu",
       "region": "Asia",
-      "category": "Mongolic",
-      "family": "Para-Mongolic",
+      "category": "Tai-Kadai",
+      "family": "Kam-Sui",
       "tags": [
         "historical",
         "hypothetical"
@@ -8426,8 +8426,8 @@
       "name": "Ra'ong",
       "iso": "ra-ong-bahnaric",
       "region": "Asia",
-      "category": "Austroasiatic",
-      "family": "Bahnaric"
+      "category": "Tai-Kadai",
+      "family": "Kam-Sui"
     },
     {
       "name": "Rabha",
@@ -17406,7 +17406,7 @@
       "family": "Mayan"
     },
     {
-      "name": "K'iche'",
+      "name": "Kiche",
       "iso": "kiche",
       "region": "Mesoamerica",
       "category": "Mayan",
@@ -20205,7 +20205,7 @@
       ]
     },
     {
-      "name": "Mi'kmaq",
+      "name": "Mikmaq",
       "iso": "mikmaq",
       "region": "North America",
       "category": "Algic",
@@ -27067,7 +27067,7 @@
       "lexifier": "Portuguese"
     },
     {
-      "name": "Guinea-Bissau Creole",
+      "name": "Guinea Bissau Creole",
       "iso": "guinea-bissau-creole",
       "region": "Upper Guinea",
       "category": "Creole",

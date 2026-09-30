@@ -6551,9 +6551,7 @@
   },
   {
     "iso": "rau",
-    "bases": [
-      202608
-    ]
+    "bases": []
   },
   {
     "iso": "ravula",
@@ -6659,7 +6657,9 @@
   },
   {
     "iso": "santa-mongol",
-    "bases": []
+    "bases": [
+      200472
+    ]
   },
   {
     "iso": "santa-sijiaji",
@@ -9597,9 +9597,7 @@
   },
   {
     "iso": "likrisovskoe",
-    "bases": [
-      200745
-    ]
+    "bases": []
   },
   {
     "iso": "lipsha",
@@ -9661,9 +9659,7 @@
   },
   {
     "iso": "ludza",
-    "bases": [
-      200752
-    ]
+    "bases": []
   },
   {
     "iso": "lule-sami",
@@ -9951,9 +9947,7 @@
   },
   {
     "iso": "porvoo",
-    "bases": [
-      200782
-    ]
+    "bases": []
   },
   {
     "iso": "proper-southeastern",
@@ -10009,9 +10003,7 @@
   },
   {
     "iso": "semisjaur-njarg",
-    "bases": [
-      200788
-    ]
+    "bases": []
   },
   {
     "iso": "sernur-morkin",
@@ -10151,9 +10143,7 @@
   },
   {
     "iso": "southern-mansi",
-    "bases": [
-      200804
-    ]
+    "bases": []
   },
   {
     "iso": "southern-sami",
@@ -10323,9 +10313,7 @@
   },
   {
     "iso": "tundra-enets",
-    "bases": [
-      200819
-    ]
+    "bases": []
   },
   {
     "iso": "tundra-nenets",
@@ -10445,9 +10433,7 @@
   },
   {
     "iso": "vasjugan",
-    "bases": [
-      200834
-    ]
+    "bases": []
   },
   {
     "iso": "veps",
@@ -10557,9 +10543,7 @@
   },
   {
     "iso": "yoshkar-olin",
-    "bases": [
-      200846
-    ]
+    "bases": []
   },
   {
     "iso": "yurats",
@@ -21307,9 +21291,7 @@
   },
   {
     "iso": "mpu",
-    "bases": [
-      202833
-    ]
+    "bases": []
   },
   {
     "iso": "hnm",
@@ -21427,9 +21409,7 @@
   },
   {
     "iso": "man",
-    "bases": [
-      200804
-    ]
+    "bases": []
   },
   {
     "iso": "lud",
@@ -21445,9 +21425,7 @@
   },
   {
     "iso": "okm",
-    "bases": [
-      202859
-    ]
+    "bases": []
   },
   {
     "iso": "fin-se",
@@ -21773,9 +21751,7 @@
   },
   {
     "iso": "x-castilian-spanish",
-    "bases": [
-      200855
-    ]
+    "bases": []
   },
   {
     "iso": "x-orl-anais",
@@ -21827,9 +21803,7 @@
   },
   {
     "iso": "x-irish",
-    "bases": [
-      200862
-    ]
+    "bases": []
   },
   {
     "iso": "x-yenish",
@@ -21869,9 +21843,7 @@
   },
   {
     "iso": "x-raute",
-    "bases": [
-      202608
-    ]
+    "bases": []
   },
   {
     "iso": "x-sonha",
@@ -22013,9 +21985,7 @@
   },
   {
     "iso": "x-yoshkar-olin",
-    "bases": [
-      200846
-    ]
+    "bases": []
   },
   {
     "iso": "x-brianz",
@@ -22247,9 +22217,7 @@
   },
   {
     "iso": "x-semisjaur-njarg",
-    "bases": [
-      200788
-    ]
+    "bases": []
   },
   {
     "iso": "x-southern-botnian",
@@ -22451,9 +22419,7 @@
   },
   {
     "iso": "x-likrisovskoe",
-    "bases": [
-      200745
-    ]
+    "bases": []
   },
   {
     "iso": "x-lower-lozva",
@@ -22491,9 +22457,7 @@
   },
   {
     "iso": "x-tundra-enets",
-    "bases": [
-      200819
-    ]
+    "bases": []
   },
   {
     "iso": "x-upper-sysola",
@@ -23059,9 +23023,7 @@
   },
   {
     "iso": "x-ludza",
-    "bases": [
-      200752
-    ]
+    "bases": []
   },
   {
     "iso": "x-obdorsk",
@@ -23069,9 +23031,7 @@
   },
   {
     "iso": "x-porvoo",
-    "bases": [
-      200782
-    ]
+    "bases": []
   },
   {
     "iso": "x-tavda",
@@ -23671,9 +23631,7 @@
   },
   {
     "iso": "x-finnish-savo",
-    "bases": [
-      917
-    ]
+    "bases": []
   },
   {
     "iso": "x-chrau-bahnaric",
