@@ -436,13 +436,28 @@ for (const [e, info] of pasted) {
 // the cleaner removes it mechanically.
 
 for (const e of allEntries) {
-  for (const label of detectSelfNamedSeeds(e).labels) {
-    err(
-      "E010",
-      `namebases-${e.__continent}.js`,
-      `${labelOf(e)} has the research label "${label}" in its seed list. ` +
-        `That is a note, not a place name.`
-    );
+  const info = detectSelfNamedSeeds(e);
+  for (const label of info.labels) {
+    // Two different signals, and they must not share a severity.
+    //
+    // A seed that IS the entry's own name is how every padded batch was built -
+    // the language seeds itself, then a generic city pool follows. Provably not
+    // a settlement, so it is an error.
+    //
+    // A seed that merely CONTAINS the name inside a longer phrase is not. "Fadan
+    // Ayu" is the headquarters of Sanga LGA, in the language Ayu, and it is a
+    // real place; "Yoro LGA" would likewise be. The word "Ayu" happening to sit
+    // inside a village name says nothing about provenance, so this is a warning.
+    const isExact = alpha(label) === alpha(e.name);
+    if (isExact) {
+      err("E010", `namebases-${e.__continent}.js`,
+        `${labelOf(e)} has the research label "${label}" in its seed list. That is a note, not a place name.`);
+    } else {
+      warn("E010", `namebases-${e.__continent}.js`,
+        `${labelOf(e)} has the seed "${label}", which contains the language's own name. ` +
+        `Real places do this - Fadan Ayu is the seat of Sanga LGA and the language is Ayu - ` +
+        `so this is reported, not blocked.`);
+    }
   }
 }
 

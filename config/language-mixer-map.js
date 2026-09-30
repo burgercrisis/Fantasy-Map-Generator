@@ -18264,7 +18264,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ayo",
     "bases": [
-      5631
+      201308
     ]
   },
   {
@@ -25090,6 +25090,12 @@ globalThis.languageMixerMap = [
     "iso": "ntp",
     "bases": [
       201031
+    ]
+  },
+  {
+    "iso": "ayu",
+    "bases": [
+      5631
     ]
   }
 ];

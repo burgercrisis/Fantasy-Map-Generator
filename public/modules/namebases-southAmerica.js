@@ -1640,7 +1640,7 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Auyokawa language ",
+    "name": "Mineiro",
     "i": 893,
     "min": 4,
     "max": 11,

@@ -213,9 +213,9 @@
     {
       "name": "Auyokawa",
       "iso": "auyokawa",
-      "region": "South America",
-      "category": "Tupian",
-      "family": "Tupi-Guarani",
+      "region": "Africa",
+      "category": "Afroasiatic",
+      "family": "Chadic",
       "wikipedia": "https://en.wikipedia.org/wiki/Auyokawa_language"
     },
     {
@@ -29191,6 +29191,14 @@
       "region": "North America",
       "category": "Uto-Aztecan",
       "family": "Piman"
+    },
+    {
+      "name": "Ayu",
+      "iso": "ayu",
+      "region": "Africa",
+      "category": "Niger-Congo",
+      "family": "Jee",
+      "wikipedia": "https://en.wikipedia.org/wiki/Ayu_language"
     }
   ];
 })();

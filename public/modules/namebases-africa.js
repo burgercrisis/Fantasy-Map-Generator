@@ -1886,8 +1886,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Auyo,Auyokayi,Ayama,Ayan,Gatafa,Gamafoi,Gamsarka,Kafur,Tsidir,Unik,Hadejia,Gumel,Malam Madori,Dambatta,Wudil,Gwarzo,Bagwai,Shanono,Rimin Gado,Tofa,Dala,Nassarawa,Tarauni,Gwale,Fagge,Kumbotso,Ungogo,Minjibir,Dawakin Tofa,Takai,Kibiya,Tudun Wada,Kiru,Karaye,Makoda,Tsanyawa,Kunchi,Bichi,Danbatta,Bunkure,Gezawa,Gwaram,Jahun,Miga,Buji,Kiyawa,Sule Tankarkar,Kaugama,Maigatari,Babura,Gwiwa",
-    "status": "COMPLETE"
+    "b": "Auyo,Auyokayi,Ayama,Ayan,Gatafa,Gamafoi,Gamsarka,Tsidir,Unik,Gwaram,Miga,Buji,Sule Tankarkar,Kaugama,Maigatari,Babura,Gwiwa",
+    "status": "WAITING"
   },
   {
     "name": "Barga",
@@ -2160,7 +2160,7 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ayo",
+    "name": "Ayu",
     "i": 5631,
     "min": 4,
     "max": 12,
