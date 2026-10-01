@@ -24549,8 +24549,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "wal",
     "bases": [
-      957,
-      20714
+      957
     ]
   },
   {
