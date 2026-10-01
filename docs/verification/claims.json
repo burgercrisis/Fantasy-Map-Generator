@@ -1,25 +1,35 @@
 {
   "staleHours": 8,
   "claims": {
+    "northAmerica": {
+      "agent": "wb12-northAmerica",
+      "task": "W012 cross-file duplicate resolution",
+      "claimedAt": "2026-10-01T23:30:10.232Z"
+    },
+    "southAmerica": {
+      "agent": "wb12-southAmerica",
+      "task": "W012 cross-file duplicate resolution",
+      "claimedAt": "2026-10-01T23:30:10.729Z"
+    },
     "africa": {
-      "agent": "wb11-africa",
-      "task": "phantom entry removal",
-      "claimedAt": "2026-10-01T21:19:28.290Z"
+      "agent": "wb12-africa",
+      "task": "W012 cross-file duplicate resolution",
+      "claimedAt": "2026-10-01T23:30:22.815Z"
     },
     "asia": {
-      "agent": "wb11-asia",
-      "task": "phantom entry removal",
-      "claimedAt": "2026-10-01T21:19:28.584Z"
+      "agent": "wb12-asia",
+      "task": "W012 cross-file duplicate resolution",
+      "claimedAt": "2026-10-01T23:30:23.490Z"
     },
     "europe": {
-      "agent": "wb11-europe",
-      "task": "phantom entry removal",
-      "claimedAt": "2026-10-01T21:19:28.865Z"
+      "agent": "wb12-europe",
+      "task": "W012 cross-file duplicate resolution",
+      "claimedAt": "2026-10-01T23:30:24.072Z"
     },
     "oceania": {
-      "agent": "wb11-oceania",
-      "task": "phantom entry removal",
-      "claimedAt": "2026-10-01T21:19:29.281Z"
+      "agent": "wb12-oceania",
+      "task": "W012 cross-file duplicate resolution",
+      "claimedAt": "2026-10-01T23:30:24.537Z"
     }
   }
 }

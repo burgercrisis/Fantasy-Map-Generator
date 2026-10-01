@@ -10480,43 +10480,13 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Circassian",
-    "i": 1617,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Maykop,Nalchik,Cherkessk,Krasnodar,Sochi,Adygeysk,Kabardinka,Dombay,Ponezhukay,Guzeripl,Kamennomostsky,Khamyshki,Tulsky,Enem,Tlyustenkhabl,Yablonovsky,Gabukay,Khabez,Besleney,Ali-Berdukovsky,Kfar Kama,Rehaniya,Zaragizh,Kyzburun,Blechepsin",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Abkhaz",
     "i": 2351,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gagra,Gudauta,Pitsunda,Bzyb,Tsandrypsh,New Athos,Lykhny,Miusera,Pskhu,Otkhara,Abgarkhuk,Machara,Merkheuli,Mikelrypsh,Tamishi,Tsalkoti,Tsarche,Sukhumi,Ochamchire,Gulripshi,Tkvarcheli,Agubedia,Reka,Chkhuartal,Ilori,Labra,Eshera,Beslakhuba,Blaburkhva,Chkhalta,Chlou,Dranda,Duripshi,Khashupse,Kholodnaya Rechka,Lidzava,Salme,Shroma,Sulevi,Gali,Okumi,Tskhori,Gudava,Orsantia,Pahulan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ingush",
-    "i": 2630,
-    "min": 3,
-    "max": 19,
-    "d": "",
-    "m": 0.05,
-    "b": "Magas,Malgobek,Karabulak,Sunzha,Ekazhevo,Surkhakhi,Troitskaya,Nesterovskaya,Galashki,Sagopshi,Psedakh,Yandare,Kantyshevo,Ali-Yurt,Berd-Yurt,Barsuki,Gazi-Yurt,Dalakovo,Chemulga,Ordzhonikidzevskaya,Nazran",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ossetian",
-    "i": 2631,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Vladikavkaz,Alagir,Ardon,Digora,Mozdok,Zavodskoy,Tskhinvali,Kvaisa,Leningor,Nogir,Gizel,Kambileyevo,Chermen,Mikhaylovskoye,Elkhotovo,Kardzhin,Zmeyskaya,Arkhonskaya,Khumalag,Olginskoye,Brut,Khintsa,Baykom,Kirovo,Tehran,Isfahan,Shiraz,Tabriz,Mashhad,Ahvaz,Kermanshah,Qom,Rasht,Hamadan,Yazd,Beslan",
+    "b": "Gagra,Gudauta,Pitsunda,Bzyb,Tsandrypsh,New Athos,Lykhny,Miusera,Pskhu,Otkhara,Abgarkhuk,Machara,Merkheuli,Mikelrypsh,Tamishi,Tsalkoti,Tsarche,Sukhumi,Ochamchire,Gulripshi,Tkvarcheli,Agubedia,Reka,Chkhuartal,Ilori,Labra,Eshera,Beslakhuba,Blaburkhva,Chkhalta,Chlou,Dranda,Duripshi,Khashupse,Kholodnaya Rechka,Lidzava,Salme,Shroma,Sulevi,Gali,Okumi,Tskhori,Gudava,Orsantia,Pahulan,Leselidze,Bedia,Atara,Otomari,Tagilon,Kutol,Kvemo Azhara,Baghnari,Dzuar,Darch,Mokvi,Guma",
     "status": "COMPLETE"
   },
   {
@@ -10748,16 +10718,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "",
     "status": "WAITING"
-  },
-  {
-    "name": "Egyptian Arabic",
-    "i": 203059,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Cairo,Alexandria,Giza,ShubraElKheima,PortSaid,Suez,Luxor,Mansoura,ElMahallaElKubra,Tanta,Asyut,Ismailia,Fayyum,Zagazig,Aswan,Damietta,Damanhur,Minya,BeniSuef,Qena,Sohag,Hurghada,KafrElSheikh,Mallawi,Banha,Bilbeis,BorgElArab,Desouk,DarElSalam,Dokki,Daraw,DeirMawas,Dekernes,Dishna,Edfu,Delengat,Heliopolis,Helwan,KafrElDawwar,KafrElZayat,KomHamada,Maadi,Maghaghah,Manfalut,MarinaElAlamein,MarsaAlam,Matay,Menouf,MitGhamr,MinyetElNasr,NagHammadi,Naqada,NewCairo,Obour,OldCairo,PortFuad,Qalyub,Quesna,Qus,Rosetta,SadatCity,Samalut,ShibinElKom,SidiSalem,Tala,Tahta,TellElKebir,Zamalek,Zeitoun,SixthOfOctober,TenthOfRamadan,ElGouna,Shorouk,Badr,NewBorgElArab,NewDamietta,NewMinya,NewSohag,NewQena,NewAsyut,NewFayyum,NewBeniSuef,NewIsmailia",
-    "status": "COMPLETE"
   },
   {
     "name": "Kurdish",

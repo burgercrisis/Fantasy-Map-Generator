@@ -11,10 +11,10 @@ Generated: 2026-10-01  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3068 |
-| Marked COMPLETE (>= 25 seeds) | 1834 |
-| Marked WAITING (< 25 seeds) | 1234 |
-| Below seed floor | 1229 |
+| Language entries | 3059 |
+| Marked COMPLETE (>= 25 seeds) | 1830 |
+| Marked WAITING (< 25 seeds) | 1229 |
+| Below seed floor | 1224 |
 | Zero seeds | 44 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-10-01  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 681 | 237 | 4 | 27 |
-| asia | 1083 | 564 | 24 | 23 |
-| europe | 614 | 137 | 15 | 30 |
+| africa | 679 | 235 | 4 | 27 |
+| asia | 1079 | 563 | 24 | 23 |
+| europe | 613 | 137 | 15 | 30 |
 | northAmerica | 211 | 67 | 0 | 29 |
 | southAmerica | 150 | 28 | 0 | 32 |
-| oceania | 319 | 196 | 1 | 19 |
+| oceania | 317 | 194 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1229 entries need authentic settlement names. Ordered by seed count,
+1224 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -117,7 +117,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | northAmerica | 200938 | Cauque Mayan |
 | 2 | oceania | 187 | Ari (Papuan) |
 | 2 | oceania | 202338 | Auye |
-| 2 | oceania | 202779 | Bocas del Toro Creole |
 | 2 | oceania | 2272 | Kosena  |
 | 2 | oceania | 202418 | Ontenu |
 | 2 | oceania | 202740 | Djinang |
@@ -340,8 +339,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | africa | 21113 | Juba Arabic |
 | 7 | africa | 200034 | Jibyal |
 | 7 | africa | 200068 | Majera |
+| 7 | africa | 200198 | Toram |
 
-_Showing the lowest 300 of 1229. Full queue:_
+_Showing the lowest 300 of 1224. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

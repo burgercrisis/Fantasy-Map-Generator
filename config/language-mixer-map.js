@@ -2330,7 +2330,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "saba",
     "bases": [
-      203099
+      201162
     ]
   },
   {
@@ -8162,7 +8162,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "circassian",
     "bases": [
-      1617
+      20162
     ]
   },
   {
@@ -8198,7 +8198,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ingush",
     "bases": [
-      2630
+      20024
     ]
   },
   {
@@ -8286,7 +8286,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ossetian",
     "bases": [
-      2631
+      20025
     ]
   },
   {
@@ -13386,7 +13386,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "egyptian-arabic",
     "bases": [
-      203059
+      24794
     ]
   },
   {
@@ -16550,7 +16550,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "snv",
     "bases": [
-      203099
+      201162
     ]
   },
   {
@@ -19308,7 +19308,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "snd",
     "bases": [
-      20026
+      2351
     ]
   },
   {
@@ -19946,13 +19946,13 @@ globalThis.languageMixerMap = [
   {
     "iso": "inh",
     "bases": [
-      2630
+      20024
     ]
   },
   {
     "iso": "oss",
     "bases": [
-      2631
+      20025
     ]
   },
   {
@@ -19964,7 +19964,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ady",
     "bases": [
-      1617
+      20162
     ]
   },
   {
@@ -20628,7 +20628,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "arz",
     "bases": [
-      203059
+      24794
     ]
   },
   {
@@ -23514,7 +23514,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-abkhaz",
     "bases": [
-      20026
+      2351
     ]
   },
   {
@@ -24190,12 +24190,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-south-oran-figuig-berber",
-    "bases": [
-      1689
-    ]
-  },
-  {
     "iso": "x-ocaina",
     "bases": [
       5820
@@ -24312,7 +24306,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-south-oran-and-figuig-berber",
     "bases": [
-      202311
+      201011
     ]
   },
   {

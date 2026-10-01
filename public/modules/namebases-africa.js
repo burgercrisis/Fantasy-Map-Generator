@@ -1170,16 +1170,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "South Oran-Figuig Berber",
-    "i": 1689,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Figuig,Beni Ounif,Béchar,Aïn Sefra,Mecheria,Naama,Tiout,Ain Sfisifa,Boussemghoun,Moghrar,Chellala,Asla,Fendi,Mougheul,Lahmar,Boukais,Sfissifa,Ouakda,Barrbi,Taghit,Igli,Mazzer,Iche,Ain Chair,Ait Wadday,Ait Amar,Ait Lamiz,Ait Sliman,Ait Anaj,Ait Addi,Laabidate,Loudaghir,Oulad Slimane,Hamam Tahtani,Hamam Foukani,El Maïz,At Wadday,At Amar,At Lamiz,At Sliman,At Anaj,At Addi,At nneţ,At ɍeddi,At slimane,At wadday,At ɍamer,At lemɍiz,Ksour,Oases,Fortified Villages,Algeria,Morocco,Saoura Basin,Ksour Mountains,Figuig Region,Sud-Oranais,Parlers des Kçours Oranais et de Figuig,Tachelhit,Tabeldit,Tashelhiyt,Zenati,Mzab-Wargla,Afro-Asiatic,Arabic,Latin,Tifinagh,Bipartite Verbal Negation,ul,un,il,ša,šay,iš,Preverbal Negator,Postverbal Negator,Numerals 1 2 Berber,Higher Numerals Arabic Borrowings,Figuig Oasis,Eastern Morocco,Atlas Mountains",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tawellemmet",
     "i": 1690,
     "min": 3,
@@ -6246,8 +6236,8 @@ window.africaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Bechar,Kenadsa,Abadla,Figuig,Beni Ounif,Arbaouat,Amour,Labiodh Sidi Cheikh,Brezina,Ouled Khodeir,Ain Sefra,El Bayadh,Moghrar,Asla,Chellala,Bouktob,Boussemghoun,Beni Ikhlef",
-    "status": "WAITING"
+    "b": "Bechar,Kenadsa,Abadla,Figuig,Beni Ounif,Arbaouat,Amour,Labiodh Sidi Cheikh,Brezina,Ouled Khodeir,Ain Sefra,El Bayadh,Moghrar,Asla,Chellala,Bouktob,Boussemghoun,Beni Ikhlef,Tiout,Aïn Sfisifa,Fendi,Mougheul,Lahmar,Boukais,Ouakda,Barrbi,Igli,Mazzer,Iche,Aïn Chair,Aït Wadday,Aït Amar,Aït Lamiz,Aït Sliman,Aït Anaj,Aït Addi,Béchar,Aïn Sefra,Mecheria,Naama,Ain Sfisifa,Sfissifa,Taghit,Ain Chair,Ait Wadday,Ait Amar,Ait Lamiz,Ait Sliman,Ait Anaj,Ait Addi,Laabidate,Loudaghir,Oulad Slimane,Hamam Tahtani,Hamam Foukani,El Maïz,At Wadday,At Amar,At Lamiz,At Sliman,At Anaj,At Addi,At nneţ,At ɍeddi,At slimane,At wadday,At ɍamer,At lemɍiz,Ksour,Tabeldit",
+    "status": "COMPLETE"
   },
   {
     "name": "Tarifit",
@@ -6566,7 +6556,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Cairo,Al,Qahirah,Alexandria,Iskandariyah,Giza,Jizah,Luxor,Uqsur,Aswan,Asyut,Hurghada,Ghardaqah,Sharm,El,Sheikh,al,Shaykh,Suez,As,Suways,Tanta,Mansoura,Mansurah,Zagazig,Az,Zaqaziq,Damietta,Dimyat,Port,Said,Bur,Ismailia,Isma-iliyah,Beni,Suef,Bani,Suwayf,Faiyum,Fayyum,Minya,Sohag,Suhaj,Qena,Qina,Idfu,Armant,Ballas,Edfu,Esna,Isna,Manfalut,Abnub,Qusiya,Dayrut,Badari,Ghanayim,Mazar,Samallut,Matay,Idwah",
+    "b": "Cairo,Qahirah,Alexandria,Iskandariyah,Giza,Jizah,Luxor,Uqsur,Aswan,Asyut,Hurghada,Ghardaqah,Sharm El Sheikh,Suez,Suways,Tanta,Mansoura,Mansurah,Zagazig,Zaqaziq,Damietta,Dimyat,Said,Ismailia,Isma-iliyah,Suef,Suwayf,Faiyum,Fayyum,Minya,Sohag,Suhaj,Qena,Qina,Idfu,Armant,Ballas,Edfu,Esna,Isna,Manfalut,Abnub,Qusiya,Dayrut,Badari,Ghanayim,Samallut,Matay,Idwah,Shubra El Kheima,Port Said,El Mahalla El Kubra,Damanhur,Beni Suef,Kafr El Sheikh,Mallawi,Banha,Bilbeis,Borg El Arab,Desouk,Dar El Salam,Dokki,Daraw,Deir Mawas,Dekernes,Dishna,Delengat,Heliopolis,Helwan,Kafr El Dawwar,Kafr El Zayat,Kom Hamada,Maadi,Maghaghah,Marina El Alamein,Marsa Alam,Menouf,Mit Ghamr,Minyet El Nasr,Nag Hammadi,Naqada,New Cairo,Obour,Old Cairo,Port Fuad,Qalyub,Qus,Quesna,Rosetta,Sadat City,Shibin El Kom,Sidi Salem,Tala,Tahta,Tell El Kebir,Zamalek,Zeitoun,Sixth of October,Tenth of Ramadan,El Gouna,Shorouk,Badr,New Borg El Arab,New Damietta,New Minya,New Sohag,New Qena,New Asyut,New Fayyum,New Beni Suef,New Ismailia",
     "status": "COMPLETE"
   },
   {
@@ -6648,16 +6638,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Yaounde,Mbalmayo,Mfou,Obala,Bafia,Mbandjock,Nanga-Eboko,Monatele,Sa-a,Okola,Mbankomo,Bikok,Ngoumou,Akono,Ayos,Akonolinga,Esse,Soa,Nkolafamba,Afanloum,Awae,Edzendouan,Olanguina,Ntui,Batchenga,Ebebda,Elig-Mfomo,Evodoula,Lobo,Nkoteng,Minta,Nsem,Bibey,Lembe-Yezoum,Deuk,Kiiki,Kon-Yambetta,Makenene,Ndikinimeki,Nitoukou,Ombessa,Eséka,Boumnyebel,Dibang,Messondo,Matomb,Makak,Bot-Makak,Mengang,Endom,Kobdombo,Ngomedzap,Nkolmetet,Dzeng,Mengueme,Akoeman,Ngog-Mapubi,Biyouha,Bondjock",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Saʼban",
-    "i": 203099,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Long Peluan,Long Banga,Long Balong,Sarawak,Kalimantan,Borneo,Apo Duat",
-    "status": "WAITING"
   },
   {
     "name": "saharan-spanish",

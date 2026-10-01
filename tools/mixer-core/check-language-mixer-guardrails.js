@@ -228,7 +228,16 @@ const ALLOWED_REMOVALS = new Set([
     // Catalog key `boon` was not an ISO 639-3 code: `boon` is Bine, and Boon is
     // `bnl` (Glottolog boon1242, Cushitic). Re-keyed to `bnl` in the catalog, the
     // map row and races.ts.
-    "boon"
+    "boon",
+    // i=1689 "South Oran-Figuig Berber" deleted: a *third* copy of the language
+    // that W012 could not see, because its name differs from i=201011 by a
+    // hyphen rather than matching. Its 81 seeds opened with ~40 genuine Berber
+    // settlements of the Saoura basin and the Ksour, then continued with 41
+    // items that are not places: two countries, five regions, a bibliographic
+    // title, eight language labels, five research-jargon terms and six isolated
+    // morphemes (ul, un, il, ša, šay, iš). The 40 settlements were merged into
+    // i=201011, which already has a natural row key, so no rename was needed.
+    "x-south-oran-figuig-berber"
   ]);
 
 

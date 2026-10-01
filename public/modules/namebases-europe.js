@@ -5626,7 +5626,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Magas,Nazran,Karabulak,Malgobek,Ordzhonikidzevskaya,Troitskaya,Kantyshevo,Dolakovo,Plievo,Sunzha,Sleptsovskaya,Stavropol,Voznesenskaya,Sunzhenskaya,Yandare,Kambileyevka,Dzhayrakh,Inarki,Tyembi,Vyalki,Osh,Kolkhida,Sagopshi,Novy Karabulak,Ali-Yurt",
+    "b": "Magas,Nazran,Karabulak,Malgobek,Ordzhonikidzevskaya,Troitskaya,Kantyshevo,Dolakovo,Plievo,Sunzha,Sleptsovskaya,Voznesenskaya,Sunzhenskaya,Yandare,Dzhayrakh,Inarki,Tyembi,Vyalki,Sagopshi,Novy Karabulak,Ali-Yurt,Ekazhevo,Surkhakhi,Galashki,Psedakh,Barsuki,Gazi-Yurt,Chemulga,Berd-Yurt,Nesterovskaya",
     "status": "COMPLETE"
   },
   {
@@ -5636,17 +5636,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Vladikavkaz,Mozdok,Beslan,Alagir,Ardon,Digora,Chikola,Kirov,Tarskoe,Troitskoe,Akhalkalaki,Tskhinvali,Java,Kvareli,Zhinvali,Oni,Ambrolauri,Kutaisi,Tbilisi,Nikozi,Khashuri,Verkhny Fiagdon,Kambileyevskoye,Zaramag,Elkhotovo,Dzuarki,Mayramadag,Khatadon,Tagaur,Kostek,Dargom,Kosta,Brut,Sadon,Tmenikau,Dzhimara,Bur,Khardzhin,Khurkau,Luar,Stari,Unal,Nogir,Kartsa,Kambileyevka,Donysar,Elinvar,Vedeno,Dariali,Kazbegi,Stepantsminda,Kvasatala,Chiatura,Sachkhere",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Abkhaz",
-    "i": 20026,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Sukhumi,Gagra,Pitsunda,Gudauta,Ochamchira,Tkvarcheli,Gali,New Athos,Gulripshi,Dranda,Eshera,Miusera,Kholodnaya Rechka,Leselidze,Bzyb,Bedia,Atara,Beslakhuba,Otomari,Tagilon,Kutol,Kvemo Azhara,Lidzava,Baghnari,Dzuar,Darch,Mokvi,Chlou,Guma",
+    "b": "Vladikavkaz,Mozdok,Beslan,Alagir,Ardon,Digora,Chikola,Kirovo,Tarskoe,Troitskoe,Akhalkalaki,Tskhinvali,Java,Kvareli,Zhinvali,Oni,Ambrolauri,Kutaisi,Tbilisi,Nikozi,Khashuri,Verkhny Fiagdon,Kambileyevskoye,Zaramag,Elkhotovo,Dzuarki,Mayramadag,Khatadon,Tagaur,Kostek,Dargom,Kosta,Brut,Sadon,Tmenikau,Dzhimara,Khardzhin,Khurkau,Luar,Nogir,Kartsa,Donysar,Elinvar,Dariali,Kazbegi,Stepantsminda,Kvasatala,Chiatura,Sachkhere,Zavodskoy,Gizel,Chermen,Mikhaylovskoye,Zmeyskaya,Arkhonskaya,Khumalag,Olginskoye",
     "status": "COMPLETE"
   },
   {
@@ -5716,7 +5706,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Maykop,Adygeysk,Krasnogvardeyskoye,Tlyustenhabl,Ponezhukay,Giaginskaya,Dondukovskaya,Koshekhabl,Takhtamukay,Yablonovsky,Enem,Khatukayevskaya,Nalchik,Baksan,Prokhladny,Terek,Maysky,Nartkala,Chegem,Tyrnyauz,Dugulubgey,Kashkhatau,Aushiger,Zayukovo,Kamenomostskoye,Cherkessk,Karachayevsk,Ust-Dzheguta,Teberda,Zelenchukskaya,Uchkeken",
+    "b": "Maykop,Adygeysk,Krasnogvardeyskoye,Tlyustenhabl,Ponezhukay,Giaginskaya,Dondukovskaya,Koshekhabl,Takhtamukay,Yablonovsky,Enem,Khatukayevskaya,Nalchik,Baksan,Prokhladny,Terek,Maysky,Nartkala,Chegem,Tyrnyauz,Dugulubgey,Kashkhatau,Aushiger,Zayukovo,Kamenomostskoye,Cherkessk,Karachayevsk,Ust-Dzheguta,Teberda,Zelenchukskaya,Uchkeken,Dombay,Guzeripl,Khamyshki,Gabukay,Khabez,Besleney,Ali-Berdukovsky,Zaragizh,Kyzburun,Blechepsin",
     "status": "COMPLETE"
   },
   {

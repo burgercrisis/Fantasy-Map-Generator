@@ -1290,16 +1290,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "South Oran and Figuig Berber",
-    "i": 202311,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tiout,Aïn Sfisifa,Boussemghoun,Moghrar,Chellala,Asla,Fendi,Mougheul,Lahmar,Boukais,Ouakda,Barrbi,Igli,Mazzer,Iche,Aïn Chair,Aït Wadday,Aït Amar,Aït Lamiz,Aït Sliman,Aït Anaj,Aït Addi,Iznayen,Figuig",
-    "status": "WAITING"
-  },
-  {
     "name": "Alekano",
     "i": 202334,
     "min": 4,
@@ -1747,16 +1737,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Pukatja,Ernabella,Musgrave Ranges,Umuwa,Nyapari,Angatja,Amata,Pipalyatjara,Kalka,Kaltjiti,Fregon,Iwantja,Indulkana,Kanpi,Watarru,Tjurma,Anilalya,Mimili,Irintata,Officer Creek",
-    "status": "WAITING"
-  },
-  {
-    "name": "Bocas del Toro Creole",
-    "i": 202779,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Uol Bánk, Buocas Taun",
     "status": "WAITING"
   },
   {
