@@ -1440,26 +1440,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tzotzil",
-    "i": 20228,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Chamula,Zinacantan,SanAndresLarraninzar,Chenalho,Huixtan,Chalchihuitan,Pantelho,Mitontic,ElBosque,SantiagoElPinar,VenustianoCarranza,Romerillo,Cruzton,Yaltem,Chicumtantic,Nichnamtic,Muquen,Majomut,Saclamanton,Catishtic,Cuchulumtic,Tentic,PugchenMumuntic,Tzontehuitz,Navenchauc,Nachig,Apas,Paste,Patosil,Zequentic,Chalam,Tzoeptic,Chimhucum,Oxinam,Chiquinshulum,Joltealal,Yibeljoj,Muken,Jobel,SanCristobalDeLasCasas,SanLucas,SanBartolomeDeLosLlanos,Ixtapa,Suchiapa,Acala,ChiapaDeCorzo,TuxtlaGutierrez",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mixtec",
-    "i": 20230,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Tlaxiaco,Juxtlahuaca,Silacayoapan,HuajuapanDeLeon,Teposcolula,Nochixtlan,SanJuanMixtepec,SanPedroMixtepec,SantaMariaPenoles,SanMiguelElGrande,SanPedroYSanPabloTequixtepec,SanMateoYucutindoo,SanEstebanAtatlahuca,SantiagoYosondua,SantaCruzItundujia,SanAndresDinicuiti,SanJuanDiquiyu,SanMiguelAmatitlan,SanSebastianTecomaxtlahuaca,SanMartinDuraznos,SantoTomasOcotepec,SanAgustinTlacotepec,MagdalenaPenasco,SanJeronimoXayacatlan,SanJuanNumi,SantaMariaYucuhiti,SanAndresYuticachi,SanMartinHuamelulpam,SanPedroMolinos,SanDionisioOcotlan,SantaLuciaMonteverde,SanJuanTeita,SanPedroTopiltepec,SanAndresCabeceraNueva,SanAndresNuxino,SantaMariaYolotepec,SanAntoninoMonteVerde,SanCristobalAmoltepec,SantiagoTamazola,SanMartinDeLosCansecos,SanJuanCieneguilla,SantaMariaApazco,SanFranciscoTelixtlahuaca,SanJuanBautistaCuicatlan,SanPedroJocotipac,SantaMariaNativitas,SanMartinItunyoso,Tlacoatzintepec,Sochiapan,SanPedroYSanPabloAyutla,SanLorenzoCuaunecuiltitlan,SantaMariaJalapaDelMarques,SanJuanJaltepec,SantiagoYolomecatl,SanMateoPinas,SanAndresPaxtlan,SanVicenteNunu,SanFranciscoChapulapa,SantiagoHuajolotitlan,SanMiguelChicahua,SanJuanTepeuxila,Yoloxochitl",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Southern-Quechua",
     "i": 2565,
     "min": 4,

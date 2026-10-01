@@ -4070,16 +4070,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Avar",
-    "i": 2431,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Khunzakhsky,Tsezensky,Shamilsky,Makhachkala,Derbent,Balaken,Zaqatala,Andi,Akhvakh,Bagvalal,Botlikh,Chamalal,Godoberi,Karata,Tindi",
-    "status": "WAITING"
-  },
-  {
     "name": "Yerukala",
     "i": 2432,
     "min": 4,
@@ -9560,16 +9550,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Rapa Nui",
-    "i": 24701,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hanga Roa,Hanga Piko,Hanga Roa Otai,Hanga Vare Vare,Pea,Anakena,Vaihu,Akahanga,Tongariki,Ovahe,Rano Raraku,Orongo",
-    "status": "WAITING"
-  },
-  {
     "name": "Balkar",
     "i": 24756,
     "min": 4,
@@ -10007,16 +9987,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Makassar,Gowa Regency,Takalar Regency,Maros Regency,Pangkajene and Islands Regency,Bulukumba Regency,Selayar Islands Regency,Sinjai Regency,Jeneponto Regency,Bantaeng Regency,South Sulawesi Province,Makassarese",
-    "status": "WAITING"
-  },
-  {
-    "name": "Nedebang",
-    "i": 202372,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pantar Island,Alor Archipelago,Balungada,Baulang,Air Panas",
     "status": "WAITING"
   },
   {

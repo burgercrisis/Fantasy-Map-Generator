@@ -1,10 +1,4 @@
 {
   "staleHours": 8,
-  "claims": {
-    "europe": {
-      "agent": "wb8-europe",
-      "task": "W011 cluster list rebuilds",
-      "claimedAt": "2026-09-30T23:34:56.207Z"
-    }
-  }
+  "claims": {}
 }

@@ -5500,16 +5500,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Arafundi-Enga Pidgin ",
-    "i": 800,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Yimas,Auwim,Imboin,Kaiyam,Namata,Kupini,Andambit,Wambrumas,Yamandim,Imanmeri,Awarem,Mongolo,EngaProvince,ArafundiRiver",
-    "status": "WAITING"
-  },
-  {
     "name": "Wutunhua ",
     "i": 867,
     "min": 4,
@@ -5637,16 +5627,6 @@ window.europeNameBases = [
     "d": "",
     "m": 0,
     "b": "Rennes,Brest,Quimper,Saint-Malo,Lorient,Vannes,Saint-Brieuc,Concarneau,Lanester,Fougeres,Lannion,Vitre,Morlaix,Douarnenez,Pontivy,Auray,Dinan,Guingamp,Ploemeur,Hennebont,Quimperle,Plerin,Saint-Lo,Granville,Avranches,Villedieu-les-Poeles,Cancale,Loudeac,Paimpol,Treguier,Guilvinec,Pont-lAbbe,Rosporden,Chateaugiron,Chateaulin,Chateauneuf-du-Faou,Carhaix,Rostrenen,Mur-de-Bretagne,Josselin,Malestroit,Ploermel,La Gacilly,Redon,Guer,Maure-de-Bretagne,Plelan-le-Grand,Montfort-sur-Meu,Tinteniac,Combourg,Dol-de-Bretagne,Pleine-Fougeres,Pontorson,Antrain,Bazouges-la-Perouse,Noyal-sous-Bazouges,Tremblay,Cuguen,Lanhelin,Meillac,Bonnemain,La Boussac,Epiniac,Baguer-Pican,Roz-Landrieux,Plerguer,Saint-Benoit-des-Ondes,Saint-Meloir-des-Ondes,Saint-Coulomb,Hirel,Le Vivier-sur-Mer,Cherrueix,Mont-Dol,Saint-Lunaire,Dinard,Saint-Briac-sur-Mer,Lancieux,Saint-Jacut-de-la-Mer,Ploubalay,Beausse,Saint-Jouan-des-Guerets,La Gouesniere,Saint-Pere-Marc-en-Poulet,Saint-Servan,Parame,Rotheneuf,Le Vivier,Saint-Georges-de-Reintembault,Saint-James,Argouges,Carnet,Vergoncey,Villiers-le-Preu,Preu,Le Teilleul,Barenton,Ger,Mortain,Le Neufbourg,Romagny,Juvigny-le-Tertre,Bellefontaine,Sourdeval,Percy,Hambye,Gavray,Cerences,Brehal,Saint-Pair-sur-Mer,Donville-les-Bains,Yquelon,Longueville,Anctoville-sur-Boscq,Boscq,Hudimesnil,Saint-Sauveur-Lendelin,Coutances,Gratot,Blainville-sur-Mer,Gouville-sur-Mer,Agon-Coutainville,Tourville-sur-Sienne,Heugueville-sur-Sienne,Pirou,Creances,Lessay,La Haye-du-Puits,Periers,Saint-Sauveur-Villages,Carentan,Saint-Hilaire-Petitville,Pont-Hebert,Agneaux,Saint-Georges-Montcocq,Collinee,Le Gouray,Plenee-Jugon,Jugon-les-Lacs,Plorec-sur-Arguenon,Corseul,Lanvallay,Lehon,Quevert,Taden,Saint-Helen,Saint-Samson-sur-Rance,Saint-Suliac,Pleudihen-sur-Rance,Plouer-sur-Rance",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Chechen",
-    "i": 20019,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Grozny,Argun,Gudermes,Urus-Martan,Ali-Yurt,Avtury,Kurchaloy,Achkhoy-Martan,Znamenskoye,Nadterechny,Ordzhonikidzevskaya,Sernovodsk,Vedeno,Nozhay-Yurt,Yalkhoroy,Kharachoy,Shali,Gekhi,Uvarovo,Starye Atagi,Novye Atagi,Chiri-Yurt,Bamut,Samashki,Serzhen-Yurt,Vedensky,Dzhalka,Tsotsin-Yurt,Bachi-Yurt,Katyr-Yurt,Kharbatau,Alleroy,Koshkeldy,Goyskoe,Zakan-Yurt,Martan-Chu,Chapaevskaya,Naurskaya,Shelkovskaya,Itum-Kale,Shatoy,Mezhdurechye,Benoy-Vedeno,Dargo,Elistanzhi,Alleroyskaya,Gekhi-Chu,Khankala,Tsa-Vedeno",
     "status": "COMPLETE"
   },
   {

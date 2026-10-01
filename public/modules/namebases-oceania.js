@@ -2580,16 +2580,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tagalog",
-    "i": 203057,
-    "min": 3,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Manila,Quezon City,Makati,Pasig,Taguig,Caloocan,Marikina,Mandaluyong,Pasay,Paranaque,Las Pinas,Muntinlupa,San Juan,Antipolo,Cavite,Bacoor,Imus,Dasmarinas,GenSan,Davao,Cebu,Iloilo,Bacolod,Tagaytay,Subic,Clark,Pampanga,Bulacan,Tarlac,Nueva Ecija,Zambales,La Union,Pangasinan,Laguna,Batangas,Rizal,Quezon,Albay,Camarines",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Mauritian Creole",
     "i": 203062,
     "min": 4,

@@ -171,7 +171,12 @@ const ALLOWED_REMOVALS = new Set([
     //                           language in this project, and it was pointing at
     //                           a Romansh entry. Its intent is unknown, so it is
     //                           retired rather than pointed somewhere arbitrary.
-    "central-hilali-dialects", "the"
+    "central-hilali-dialects", "the",
+    // Two x- shadows retired with their redundant cross-file duplicate:
+    //   x-nedebang   shadow of the asia copy; oceania i=201113 is canonical and
+    //                 its own `nedebang` row remains
+    //   x-rapa-nui   shadow of the asia copy; oceania i=202432 is canonical
+    "x-nedebang", "x-rapa-nui"
   ]);
 
 

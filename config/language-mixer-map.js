@@ -8108,7 +8108,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ava",
     "bases": [
-      2431
+      20020
     ]
   },
   {
@@ -13520,7 +13520,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "arafundi-enga-pidgin",
     "bases": [
-      800
+      203163
     ]
   },
   {
@@ -16192,12 +16192,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "nedebang",
-    "bases": [
-      201113
-    ]
-  },
-  {
     "iso": "new-zealand-pidgin-english",
     "bases": []
   },
@@ -16720,7 +16714,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "tagalog",
     "bases": [
-      203057
+      10012
     ]
   },
   {
@@ -19340,7 +19334,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "tgl",
     "bases": [
-      203057
+      10012
     ]
   },
   {
@@ -20930,7 +20924,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "tgl2",
     "bases": [
-      203057
+      10012
     ]
   },
   {
@@ -21500,7 +21494,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "gmh",
     "bases": [
-      203057
+      10012
     ]
   },
   {
@@ -24198,12 +24192,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-rapa-nui",
-    "bases": [
-      24701
-    ]
-  },
-  {
     "iso": "x-xong",
     "bases": [
       200717
@@ -24399,12 +24387,6 @@ globalThis.languageMixerMap = [
     "iso": "x-c-muh",
     "bases": [
       202340
-    ]
-  },
-  {
-    "iso": "x-nedebang",
-    "bases": [
-      202372
     ]
   },
   {
@@ -24785,6 +24767,12 @@ globalThis.languageMixerMap = [
     "iso": "mande-samo",
     "bases": [
       5372
+    ]
+  },
+  {
+    "iso": "nedebang",
+    "bases": [
+      201113
     ]
   }
 ];
