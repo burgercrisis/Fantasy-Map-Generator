@@ -23718,12 +23718,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-lak",
-    "bases": [
-      20023
-    ]
-  },
-  {
     "iso": "x-phu-thai",
     "bases": [
       200437

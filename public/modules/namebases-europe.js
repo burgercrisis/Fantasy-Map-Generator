@@ -5630,16 +5630,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Lak",
-    "i": 20023,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Makhachkala,Kaspiysk,Kizlyar,Izberbash,Khasavyurt,Kumukh,Gunib,Levashi,Kuba,Kuli,Shovkra,Lutkun,Kostek,Kala-Koreish,Balakhany,Verkhnee Ishkart,Chukna,Shalib,Tsuzbe-Kutan,Tsurib,Dzhugba,Chko,Kurush,Kalaus",
-    "status": "WAITING"
-  },
-  {
     "name": "Ingush",
     "i": 20024,
     "min": 4,

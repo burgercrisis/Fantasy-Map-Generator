@@ -11,11 +11,11 @@ Generated: 2026-10-01  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3070 |
+| Language entries | 3069 |
 | Marked COMPLETE (>= 25 seeds) | 1834 |
-| Marked WAITING (< 25 seeds) | 1236 |
-| Below seed floor | 1231 |
-| Zero seeds | 44 |
+| Marked WAITING (< 25 seeds) | 1235 |
+| Below seed floor | 1230 |
+| Zero seeds | 45 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 803 |
@@ -26,16 +26,16 @@ Generated: 2026-10-01  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 681 | 237 | 4 | 27 |
-| asia | 1083 | 564 | 23 | 23 |
-| europe | 616 | 139 | 16 | 30 |
+| asia | 1083 | 564 | 24 | 23 |
+| europe | 615 | 138 | 16 | 30 |
 | northAmerica | 211 | 67 | 0 | 29 |
 | southAmerica | 150 | 28 | 0 | 32 |
-| oceania | 319 | 196 | 1 | 18 |
+| oceania | 319 | 196 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1231 entries need authentic settlement names. Ordered by seed count,
+1230 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -46,6 +46,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | africa | 203072 | Settler Swahili |
 | 0 | asia | 1024 | Badong Yao |
 | 0 | asia | 1165 | Tai Muong Vat |
+| 0 | asia | 2412 | Lak |
 | 0 | asia | 200321 | Kayong |
 | 0 | asia | 203064 | American Indian Pidgin English |
 | 0 | asia | 203265 | Kulon |
@@ -193,7 +194,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
 | 4 | oceania | 202756 | Murrinh Patha |
-| 4 | oceania | 202432 | Rapa Nui |
 | 4 | oceania | 756 | Agalega Creole |
 | 4 | oceania | 202509 | Western Dani |
 | 4 | oceania | 202737 | Burarra |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | africa | 21113 | Juba Arabic |
 | 7 | africa | 200034 | Jibyal |
 
-_Showing the lowest 300 of 1231. Full queue:_
+_Showing the lowest 300 of 1230. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

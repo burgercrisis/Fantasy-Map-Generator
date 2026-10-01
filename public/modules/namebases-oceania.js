@@ -1766,7 +1766,7 @@ window.oceaniaNameBases = [
     "max": 20,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Easter Island,Hanga Roa,Rapa Nui,Isla de Pascua",
+    "b": "Haŋa Roa,Te Pito o Te Henua,Mata-ki-te-rangi,Anakena,Orongo,Rano Kau,Rano Raraku,Rano Aroi,Terevaka,Poike,Motu Iti,Motu Nui,Motu Kao Kao,Tahai,Te Peu,Ahu Tongariki,Ahu Akivi,Ahu Vinapu,Ahu Te Pito Kura,Hoa Hakananai'a,Ovahe",
     "status": "WAITING"
   },
   {

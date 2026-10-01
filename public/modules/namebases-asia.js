@@ -3966,7 +3966,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kumukh,Levashi,Vitskhi,Arakul,Balkhar,Shadni,Shalib,Vikhli,Kuli,Kaya",
+    "b": "",
     "status": "WAITING"
   },
   {

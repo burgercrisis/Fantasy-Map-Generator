@@ -212,7 +212,12 @@ const ALLOWED_REMOVALS = new Set([
     // was merged into it before the shadow was retired.
     "x-kannada", "x-karakalpak", "x-kurukh", "x-parkari-koli", "x-levantine-arabic",
     "x-tajik", "x-turkmen", "x-zhuang", "x-magahi", "x-marwari", "x-sapa", "x-thar",
-    "x-toda", "x-tulu", "x-vayu", "x-wakhi", "x-western-middle-aramaic", "x-odia"
+    "x-toda", "x-tulu", "x-vayu", "x-wakhi", "x-western-middle-aramaic", "x-odia",
+    // The x- shadow of a second "Lak" entry, deleted as an empty duplicate. Both
+    // held Lezgin (Dagestan) toponyms and not one Lak place; the actual Lak is
+    // `lax`, Western Pahari, upper Kwanon valley, Uttarakhand. asia i=2412 is the
+    // catalog row's target and stays.
+    "x-lak"
   ]);
 
 
