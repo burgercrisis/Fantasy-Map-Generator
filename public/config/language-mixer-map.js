@@ -7224,12 +7224,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "the",
-    "bases": [
-      24791
-    ]
-  },
-  {
     "iso": "then-kam-sui",
     "bases": [
       1057
@@ -11766,7 +11760,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "neapolitan-lang",
     "bases": [
-      2669
+      20123
     ]
   },
   {
@@ -11822,7 +11816,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "norwegian",
     "bases": [
-      918
+      20009
     ]
   },
   {
@@ -11966,7 +11960,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "piedmontese",
     "bases": [
-      555
+      20126
     ]
   },
   {
@@ -12102,7 +12096,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "romanian",
     "bases": [
-      201376
+      10045
     ]
   },
   {
@@ -13341,12 +13335,6 @@ globalThis.languageMixerMap = [
     "iso": "central-asian-arabic",
     "bases": [
       315
-    ]
-  },
-  {
-    "iso": "central-hilali-dialects",
-    "bases": [
-      20123
     ]
   },
   {
@@ -19340,13 +19328,13 @@ globalThis.languageMixerMap = [
   {
     "iso": "hau",
     "bases": [
-      24788
+      1934
     ]
   },
   {
     "iso": "ibo",
     "bases": [
-      20009
+      1913
     ]
   },
   {
@@ -19422,7 +19410,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "mai",
     "bases": [
-      20124
+      10028
     ]
   },
   {
@@ -19622,7 +19610,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ms",
     "bases": [
-      24789
+      10019
     ]
   },
   {
@@ -19710,7 +19698,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ta",
     "bases": [
-      20123
+      55997
     ]
   },
   {
@@ -19816,7 +19804,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "de",
     "bases": [
-      10041
+      200860
     ]
   },
   {
@@ -19912,7 +19900,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "nor",
     "bases": [
-      918
+      20009
     ]
   },
   {
@@ -20408,7 +20396,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "nap",
     "bases": [
-      2669
+      20123
     ]
   },
   {
@@ -20426,7 +20414,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "pms",
     "bases": [
-      555
+      20126
     ]
   },
   {
@@ -21506,7 +21494,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "nds",
     "bases": [
-      10041
+      922
     ]
   },
   {

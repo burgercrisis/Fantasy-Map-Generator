@@ -5,16 +5,16 @@
 > Hand edits are overwritten. To change a number here, change the data in
 > `public/modules/namebases-*.js` and regenerate.
 
-Generated: 2026-09-30  |  Seed floor: 25
+Generated: 2026-10-01  |  Seed floor: 25
 
 ## Headline
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3123 |
-| Marked COMPLETE (>= 25 seeds) | 1880 |
-| Marked WAITING (< 25 seeds) | 1243 |
-| Below seed floor | 1239 |
+| Language entries | 3113 |
+| Marked COMPLETE (>= 25 seeds) | 1866 |
+| Marked WAITING (< 25 seeds) | 1247 |
+| Below seed floor | 1243 |
 | Zero seeds | 44 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -27,7 +27,7 @@ Generated: 2026-09-30  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 681 | 237 | 4 | 27 |
 | asia | 1118 | 575 | 23 | 24 |
-| europe | 631 | 136 | 16 | 30 |
+| europe | 621 | 140 | 16 | 30 |
 | northAmerica | 211 | 67 | 0 | 29 |
 | southAmerica | 152 | 28 | 0 | 32 |
 | oceania | 320 | 196 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-09-30  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1239 entries need authentic settlement names. Ordered by seed count,
+1243 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -114,6 +114,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | asia | 211004 | Malaccan Creole Malay |
 | 2 | asia | 202732 | Yong |
 | 2 | europe | 2323 | Southern Khanty |
+| 2 | europe | 200744 | Kuuďärv Ludic |
 | 2 | europe | 200747 | Lower Demjanka |
 | 2 | northAmerica | 200938 | Cauque Mayan |
 | 2 | oceania | 187 | Ari (Papuan) |
@@ -150,7 +151,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 200729 | Cingali |
 | 3 | europe | 200734 | Jugan |
 | 3 | europe | 200811 | Tagil |
-| 3 | europe | 202894 | Kuuďärv Ludic |
 | 3 | northAmerica | 6624 | Chochotec |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202354 | Makalero |
@@ -318,6 +318,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 200656 | Tindi |
 | 6 | europe | 905 | Ludic |
 | 6 | europe | 1094 | Vadey |
+| 6 | europe | 200797 | Sörkaitum |
+| 6 | europe | 200820 | Tuorpon |
 | 6 | europe | 200830 | Uralo-Siberian |
 | 6 | europe | 200835 | Verkhne-Kalimsk |
 | 6 | northAmerica | 6636 | Holikachuk |
@@ -338,10 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | oceania | 203268 | Sakizaya |
 | 6 | southAmerica | 201313 | Itonama |
 | 6 | southAmerica | 5812 | Berbice |
-| 7 | africa | 1234 | Fwe |
-| 7 | africa | 1720 | Dugwor |
 
-_Showing the lowest 300 of 1239. Full queue:_
+_Showing the lowest 300 of 1243. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

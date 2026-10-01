@@ -163,7 +163,15 @@ const ALLOWED_REMOVALS = new Set([
     //                             23 of its seeds were Barbadian, and Bajan
     //                             already exists at i=200627
     //   bonan-manegacha-dialect   shadow of an entry removed from southAmerica
-    "x-wayuu", "x-kwaza-xoc-amazonian", "x-bajan-creole-dedicated", "bonan-manegacha-dialect"
+    "x-wayuu", "x-kwaza-xoc-amazonian", "x-bajan-creole-dedicated", "bonan-manegacha-dialect",
+    // Two more rows whose target was never what the key named:
+    //   central-hilali-dialects  a dialect stratum of Maghrebi Arabic, not a
+    //                           language; it was pointing at i=20123 "Neapolitan"
+    //   the                     no catalog row, not an ISO 639-3 code for any
+    //                           language in this project, and it was pointing at
+    //                           a Romansh entry. Its intent is unknown, so it is
+    //                           retired rather than pointed somewhere arbitrary.
+    "central-hilali-dialects", "the"
   ]);
 
 

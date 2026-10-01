@@ -1,35 +1,10 @@
 {
   "staleHours": 8,
   "claims": {
-    "asia": {
-      "agent": "wb8-asia",
-      "task": "W011 cluster list rebuilds",
-      "claimedAt": "2026-09-30T23:34:55.769Z"
-    },
     "europe": {
       "agent": "wb8-europe",
       "task": "W011 cluster list rebuilds",
       "claimedAt": "2026-09-30T23:34:56.207Z"
-    },
-    "africa": {
-      "agent": "wb9-africa",
-      "task": "W009 duplicate entry names",
-      "claimedAt": "2026-09-30T23:38:04.410Z"
-    },
-    "northAmerica": {
-      "agent": "wb9-northAmerica",
-      "task": "W009 duplicate entry names",
-      "claimedAt": "2026-09-30T23:38:04.745Z"
-    },
-    "oceania": {
-      "agent": "wb9-oceania",
-      "task": "W009 duplicate entry names",
-      "claimedAt": "2026-09-30T23:38:05.211Z"
-    },
-    "southAmerica": {
-      "agent": "wb9-southAmerica",
-      "task": "W009 duplicate entry names",
-      "claimedAt": "2026-09-30T23:38:05.628Z"
     }
   }
 }
