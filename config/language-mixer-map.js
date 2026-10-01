@@ -602,7 +602,7 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
-    "iso": "boon",
+    "iso": "bnl",
     "bases": [
       20606
     ]
@@ -8759,7 +8759,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "mo-piu",
-    "bases": []
+    "bases": [
+      202833
+    ]
   },
   {
     "iso": "modern-korean",
@@ -14186,12 +14188,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "xieheyu",
-    "bases": [
-      201003
-    ]
-  },
-  {
     "iso": "yilan-creole-japanese",
     "bases": [
       254
@@ -15831,7 +15827,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "uon",
-    "bases": []
+    "bases": [
+      203265
+    ]
   },
   {
     "iso": "kula",
@@ -21500,7 +21498,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "skp",
     "bases": [
-      202296
+      2377
     ]
   },
   {

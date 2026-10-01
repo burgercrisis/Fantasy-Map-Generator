@@ -217,7 +217,18 @@ const ALLOWED_REMOVALS = new Set([
     // held Lezgin (Dagestan) toponyms and not one Lak place; the actual Lak is
     // `lax`, Western Pahari, upper Kwanon valley, Uttarakhand. asia i=2412 is the
     // catalog row's target and stays.
-    "x-lak"
+    "x-lak",
+    // i=201003 "Xieheyu" deleted: en.wikipedia *Kyowa-go* records two pidginised
+    // languages spoken in Manchukuo in the 1930s-40s that "died out when
+    // Manchukuo fell", and Glottolog marks them extinct. Their entire attested
+    // corpus - Sakurai (2015), the HKU conference paper, Watarai 1918, Nakatani
+    // 1925/26 - is conversational or lexifier-derived, with no vernacular
+    // place-name material, so no namebase entry can generate from it.
+    "xieheyu",
+    // Catalog key `boon` was not an ISO 639-3 code: `boon` is Bine, and Boon is
+    // `bnl` (Glottolog boon1242, Cushitic). Re-keyed to `bnl` in the catalog, the
+    // map row and races.ts.
+    "boon"
   ]);
 
 

@@ -719,7 +719,7 @@
     },
     {
       "name": "Boon",
-      "iso": "boon",
+      "iso": "bnl",
       "region": "Africa",
       "category": "Afroasiatic",
       "family": "Cushitic"
@@ -19520,17 +19520,6 @@
         "mixed"
       ],
       "lexifier": "Chinese-Tibetan"
-    },
-    {
-      "name": "Xieheyu",
-      "iso": "xieheyu",
-      "region": "Misc",
-      "category": "Pidgin",
-      "family": "Pidgin",
-      "tags": [
-        "pidgin"
-      ],
-      "lexifier": "Chinese"
     },
     {
       "name": "Yilan Creole Japanese",

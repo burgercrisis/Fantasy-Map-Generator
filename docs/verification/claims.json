@@ -1,4 +1,25 @@
 {
   "staleHours": 8,
-  "claims": {}
+  "claims": {
+    "africa": {
+      "agent": "wb11-africa",
+      "task": "phantom entry removal",
+      "claimedAt": "2026-10-01T21:19:28.290Z"
+    },
+    "asia": {
+      "agent": "wb11-asia",
+      "task": "phantom entry removal",
+      "claimedAt": "2026-10-01T21:19:28.584Z"
+    },
+    "europe": {
+      "agent": "wb11-europe",
+      "task": "phantom entry removal",
+      "claimedAt": "2026-10-01T21:19:28.865Z"
+    },
+    "oceania": {
+      "agent": "wb11-oceania",
+      "task": "phantom entry removal",
+      "claimedAt": "2026-10-01T21:19:29.281Z"
+    }
+  }
 }

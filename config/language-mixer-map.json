@@ -602,7 +602,7 @@
     "bases": []
   },
   {
-    "iso": "boon",
+    "iso": "bnl",
     "bases": [
       20606
     ]
@@ -8759,7 +8759,9 @@
   },
   {
     "iso": "mo-piu",
-    "bases": []
+    "bases": [
+      202833
+    ]
   },
   {
     "iso": "modern-korean",
@@ -14186,12 +14188,6 @@
     ]
   },
   {
-    "iso": "xieheyu",
-    "bases": [
-      201003
-    ]
-  },
-  {
     "iso": "yilan-creole-japanese",
     "bases": [
       254
@@ -15831,7 +15827,9 @@
   },
   {
     "iso": "uon",
-    "bases": []
+    "bases": [
+      203265
+    ]
   },
   {
     "iso": "kula",
@@ -21500,7 +21498,7 @@
   {
     "iso": "skp",
     "bases": [
-      202296
+      2377
     ]
   },
   {

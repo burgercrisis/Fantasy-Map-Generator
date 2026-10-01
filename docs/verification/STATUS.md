@@ -11,11 +11,11 @@ Generated: 2026-10-01  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3069 |
+| Language entries | 3068 |
 | Marked COMPLETE (>= 25 seeds) | 1834 |
-| Marked WAITING (< 25 seeds) | 1235 |
-| Below seed floor | 1230 |
-| Zero seeds | 45 |
+| Marked WAITING (< 25 seeds) | 1234 |
+| Below seed floor | 1229 |
+| Zero seeds | 44 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 803 |
@@ -27,7 +27,7 @@ Generated: 2026-10-01  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 681 | 237 | 4 | 27 |
 | asia | 1083 | 564 | 24 | 23 |
-| europe | 615 | 138 | 16 | 30 |
+| europe | 614 | 137 | 15 | 30 |
 | northAmerica | 211 | 67 | 0 | 29 |
 | southAmerica | 150 | 28 | 0 | 32 |
 | oceania | 319 | 196 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-10-01  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1230 entries need authentic settlement names. Ordered by seed count,
+1229 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -81,7 +81,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | europe | 200836 | Vishera |
 | 0 | europe | 200845 | Ylä-Satakunta |
 | 0 | europe | 200847 | Yurats |
-| 0 | europe | 201003 | Xieheyu |
 | 0 | europe | 202296 | Skepi Dutch Creole |
 | 0 | europe | 202265 | Duvle-Wano Pidgin |
 | 0 | oceania | 202763 | Umbugarla |
@@ -340,8 +339,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | africa | 11287 | Geruma |
 | 7 | africa | 21113 | Juba Arabic |
 | 7 | africa | 200034 | Jibyal |
+| 7 | africa | 200068 | Majera |
 
-_Showing the lowest 300 of 1230. Full queue:_
+_Showing the lowest 300 of 1229. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

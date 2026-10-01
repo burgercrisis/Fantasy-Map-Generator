@@ -5440,16 +5440,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Xieheyu",
-    "i": 201003,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Law French",
     "i": 355,
     "min": 4,
