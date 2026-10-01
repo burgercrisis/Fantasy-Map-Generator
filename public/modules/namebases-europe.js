@@ -256,8 +256,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Jokkmokk,Arjeplog,Gällivare,Kiruna,Luleå,Piteå,Älvsbyn,Boden,Skellefteå,Arvidsjaur,Dorotea,Vilhelmina,Strömsund,Östersund,Sveg,Hammarstrand,Åre,Krokom,Bräcke,Ockelbo,Sandviken,Gävle,Hudiksvall,Ljusdal,Söderhamn,Bollnäs,Ovanåker,Nordanstig,Järvsö,Drag,Tysfjord,Hamarøy,Divtasvuodna,Ájluokta,Jåhkåmåhkke,Jiellevárre,Áhkkájávri,Máhka,Váhtjárgga,Guoládat,Bierjjel,Stáloluokta",
-    "status": "COMPLETE"
+    "b": "Jokkmokk,Gällivare,Storbacken,Kvikkjokk,Kåbdalis,Murjek,Porjus,Vuollerim,Harsprånget,Ligga,Tellejokk,Vajkijaur,Padjerim,Suoksjokk,Kuouka,Malmberget,Kaitum,Ritsem,Nikkaluokta,Killingsuando,Drag,Oppeid,Sørfold",
+    "status": "WAITING"
   },
   {
     "name": "Cantabrian",
@@ -910,16 +910,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Brianzoo",
-    "i": 387,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Monza,Lecco,Seregno,Desio,Cinisello Balsamo,Sesto San Giovanni,Muggiò,Lissone,Vimercate,Agrate Brianza,Carate Brianza,Seveso,Meda,Lentate sul Seveso,Mariano Comense,Cantù,Inverigo,Cermenate,Lurago Marinone,Arosio,Albiate,Briosco,Giussano,Carugo,Verano Brianza,Como,Sondrio,Erba,Lurate Caccivio,Fino Mornasco",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Brigasc",
     "i": 388,
     "min": 5,
@@ -937,16 +927,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Cernăuți,Suceava,Rădăuți,Vatra Dornei,Câmpulung Moldovenesc,Gura Humorului,Siret,Vicovu de Sus,Milișăuți,Broșteni,Cajvana,Solca,Arbore,Marginea,Frumosu,Iacobeni,Vama,Pojorâta,Moldovița,Cârlibaba,Parhauti,Dornisoara,Coșna,Hârlău,Baia,Valea Moldovei,Bilca,Botoșani",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Canzes",
-    "i": 391,
-    "min": 4,
-    "max": 22,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Canzo,Erba,Asso,Pusiano,Cremella,Monguzzo,Albavilla,Alzate Brianza,Anzano del Parco,Appiano Gentile,Arosio,Barlassina,Beregazzo con Figliaro,Binasco,Brenna,Briosco,Bulciago,Cabiate,Caglio,Carimate,Cantù,Carbonate,Cermenate,Cernobbio,Cirimido,Cucciago,Fino Mornasco,Figino Serenza,Grandate,Guanzate,Lambrugo,Lasnigo,Lipomo,Lurago d'Erba,Lurago Marinone,Mariaga,Molteno,Montorfano,Orsenigo,Pellio Intelvi,Pianello del Lario,Renate,Sala Comacina,Senna Comasco,Sirone,Sormano,Tavernerio,Torno,Vertemate con Minoprio",
     "status": "COMPLETE"
   },
   {
@@ -2456,7 +2436,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Svyatoozero,Yarn,Konchezero,Spasskaya Guba,Tivdiya,Mikhailovskoye",
+    "b": "Mikhaylovskoye,Konchezero,Spasskaya Guba,Yurkostrov,Munozero,Pryazha,Vydany,Svyatoozero,Pyalozero,Tivdiya,Yershi,Petrozavodsk",
     "status": "WAITING"
   },
   {
@@ -2816,7 +2796,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Munozero,Likhmozero,Vokhtozero,Voknavolok,Deknavolok,Gallezero,Koykary,Logmozero,Polovina,Nizhnie Vidany",
+    "b": "Munozero,Vydany,Nizhnie Vidany,Polovina,Logmozero,Deknavolok,Likhmozero,Pryazha",
     "status": "WAITING"
   },
   {
@@ -4140,16 +4120,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kuuďärv Ludic",
-    "i": 200744,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Petrozavodsk,Mikhaylovskoye",
-    "status": "WAITING"
-  },
-  {
     "name": "Lipsha",
     "i": 200746,
     "min": 4,
@@ -4326,7 +4296,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Petrozavodsk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja",
+    "b": "Konchezero,Spasskaya Guba,Yurkostrov,Vokhtozero,Gallezero,Sununsuu",
     "status": "WAITING"
   },
   {
@@ -4976,7 +4946,7 @@ window.europeNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Monza,Lissone,Seregno,Desio,Vimercate,Giussano,Muggiò,Cesano Maderno,Cogliate,Seveso,Meda,Lentate sul Seveso,Barlassina,Limbiate,Misinto,Carate Brianza,Albiate,Besana in Brianza,Biassono,Lesmo,Arcore,Agrate Brianza,Carnate,Bernareggio,Usmate Velate,Ronco Briantino,Caponago,Camparada,Sirtori,Montevecchia,Osnago,Brivio,Merate,Robbiate,Oggiono,Civate,Galbiate,Garlate,Molteno,Annone di Brianza,Cantù,Mariano Comense,Arosio,Inverigo,Carimate,Carugo",
+    "b": "Monza,Lissone,Seregno,Desio,Vimercate,Giussano,Muggiò,Cesano Maderno,Cogliate,Seveso,Meda,Lentate sul Seveso,Barlassina,Limbiate,Misinto,Carate Brianza,Albiate,Besana in Brianza,Biassono,Lesmo,Arcore,Agrate Brianza,Carnate,Bernareggio,Usmate Velate,Ronco Briantino,Caponago,Camparada,Sirtori,Montevecchia,Osnago,Brivio,Merate,Robbiate,Oggiono,Molteno,Annone di Brianza,Verano Brianza,Cinisello Balsamo,Briosco,Cantù,Mariano Comense,Arosio,Inverigo,Carimate,Carugo,Erba",
     "status": "COMPLETE"
   },
   {
@@ -4986,7 +4956,7 @@ window.europeNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Canzo,Caslino d'Erba,Castelmarte,Eupilio,Longone al Segrino,Proserpio,Erba,Asso,Caglio,Barni,Lasnigo,Magreglio,Rezzago,Sormano,Valbrona,Civenna,Pusiano,Montorfano,Albavilla,Alserio,Albese con Cassano,Ponte Lambro,Merone,Monguzzo,Lambrugo,Orsenigo,Bosisio Parini,Suello,Cesana Brianza,Nibionno,Costa Masnaga,Rogeno,Onno,Visino,Penzano,Corneno,Galliano,Mariaga,Carella,Gajum,Scarenna,Terra Rossa,Castèll,Cuèrc,Gemù,Mudronno,Brazzova",
+    "b": "Canzo,Caslino d'Erba,Castelmarte,Eupilio,Longone al Segrino,Proserpio,Asso,Caglio,Barni,Lasnigo,Magreglio,Rezzago,Sormano,Valbrona,Civenna,Albavilla,Albese con Cassano,Ponte Lambro,Penzano,Corneno,Galliano,Mariaga,Carella,Gajum,Scarenna,Terra Rossa,Castèll,Cuèrc,Gemù,Mudronno,Brazzova",
     "status": "COMPLETE"
   },
   {
@@ -5706,7 +5676,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Naples,Salerno,Caserta,Torre del Greco,Giugliano,Portici,Ercolano,Castellammare di Stabia,Cava de,Tirreni,Afragola,Acerra,Pomigliano d,Arco,Nola,Sorrento,Pozzuoli,Quarto,Marano di Napoli,Somma Vesuviana,San Giorgio a Cremano,Torre Annunziata,Boscoreale,San Giuseppe Vesuviano,Ottaviano,Terzigno,Pompei,Gragnano,Pagani,Nocera Inferiore,Nocera Superiore,Sarno,Angri,Sant,Antonio Abate,Casalnuovo di Napoli,Casoria,Arzano,Frattamaggiore,Marigliano,Saviano,Cicciano,San Paolo Bel Sito,Liveri,Visciano,Marzano di Nola,Casamarciano,Brusciano,Mariglianella,Volla,Cercola,San Sebastiano al Vesuvio,Massa di Somma,Pollena Trocchia,Anastasia,San Vitaliano,Striano,Palmese,Carbonara di Nola,Tufino,Comiziano,Casola di Napoli,Lettere,Corbara,Egidio del Monte Albino,San Valentino Torio,Bracigliano,Siano,Boschetto,Castel San Giorgio,Roccapiemonte,Mercato San Severino,Fisciano,Baronissi,Pellezzano,San Mango Piemonte,Calvanico,Giffoni Sei Casali,Giffoni Valle Piana,Montecorvino Rovella,Montecorvino Pugliano,Bellizzi,Pontecagnano,Battipaglia,Eboli,Capaccio,Agropoli,Castellabate,Santa Maria di Castellabate,San Marco di Castellabate,Pollica,Casal Velino,Ascea,Velia,Marina di Camerota,Camerota,Centola,Pisciotta,Palinuro,Ceraso,Polla,Arsenio,Buonabitacolo,Sala Consilina,Vallo della Lucania,Novi Velia,Laurino,Montano Antilia,Rofrano,Sanza,Amalfi,Ravello,Positano,Tramonti,Pimonte,Furore,Minori,Maiori,Cetara,Vico Equense,Piano di Sorrento,Sant'Agnello,Ischia,Capri,Procida,Bacoli",
+    "b": "Naples,Salerno,Caserta,Torre del Greco,Giugliano,Portici,Ercolano,Castellammare di Stabia,Cava de' Tirreni,Afragola,Acerra,Pomigliano d'Ercolano,Arco,Nola,Sorrento,Pozzuoli,Quarto,Marano di Napoli,Somma Vesuviana,San Giorgio a Cremano,Torre Annunziata,Boscoreale,San Giuseppe Vesuviano,Ottaviano,Terzigno,Pompei,Gragnano,Pagani,Nocera Inferiore,Nocera Superiore,Sarno,Angri,Sant'Antonio Abate,Casalnuovo di Napoli,Casoria,Arzano,Frattamaggiore,Marigliano,Saviano,Cicciano,San Paolo Bel Sito,Liveri,Visciano,Marzano di Nola,Casamarciano,Brusciano,Mariglianella,Volla,Cercola,San Sebastiano al Vesuvio,Massa di Somma,Pollena Trocchia,Anastasia,San Vitaliano,Striano,Palmese,Carbonara di Nola,Tufino,Comiziano,Casola di Napoli,Lettere,Corbara,Egidio del Monte Albino,San Valentino Torio,Bracigliano,Siano,Boschetto,Castel San Giorgio,Roccapiemonte,Mercato San Severino,Fisciano,Baronissi,Pellezzano,Calvanico,Giffoni Sei Casali,Giffoni Valle Piana,Montecorvino Rovella,Montecorvino Pugliano,Bellizzi,Pontecagnano,Battipaglia,Eboli,Capaccio,Agropoli,Castellabate,Santa Maria di Castellabate,San Marco di Castellabate,Pollica,Casal Velino,Ascea,Velia,Marina di Camerota,Camerota,Centola,Pisciotta,Palinuro,Ceraso,Polla,Arsenio,Buonabitacolo,Sala Consilina,Vallo della Lucania,Novi Velia,Laurino,Montano Antilia,Rofrano,Sanza,Amalfi,Ravello,Positano,Tramonti,Pimonte,Furore,Minori,Maiori,Cetara,Vico Equense,Piano di Sorrento,Sant'Agnello,Ischia,Capri,Procida,Bacoli",
     "status": "COMPLETE"
   },
   {
@@ -5726,7 +5696,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Turin,Novara,Alessandria,Asti,Cuneo,Vercelli,Biella,Verbania,Saluzzo,Savigliano,Fossano,Mondovi,Bra,Cherasco,Racconigi,Carmagnola,Chieri,Settimo Torinese,Venaria Reale,Rivoli,Collegno,Grugliasco,Moncalieri,Nichelino,Poirino,Carignano,Chivasso,Gassino Torinese,Volpiano,Caselle Torinese,Borgaro Torinese,Alpignano,Pianezza,Cumiana,Airasca,None,Pinerolo,Cavour,Vigone,Villafranca Piemonte,Moretta,Faule,Polonghera,Casalgrasso,Carde,Cavallerleone,Murello,Caramagna Piemonte,Castagnole Piemonte,Ceresole Alba,Monta,Pralormo,Valfenera,Villanova d,San Damiano d,Costigliole d,Canelli,Nizza Monferrato,Acqui Terme,Ovada,Novi Ligure,Tortona,Voghera,Viguzzolo,Castelnuovo Scrivia,Cassano Spinola,Arquata Scrivia,Serravalle Scrivia,Gavi,Masone,Campo Ligure,Rossiglione,Tiglieto,Urbe,Sassello,Pontinvrea,Stella,Piana Crixia,Dego,Cortemilia,Gottasecca,Camerana,Monesiglio,Prunetto,Saliceto,Cengio,Cairo Montenotte,Carcare,Altare,Quiliano,Vado Ligure,Bergeggi,Savona,Albisola Superiore,Albisola Marina,Celle Ligure,Varazze,Cogoleto,Arenzano,Sestri Ponente,Voltri,Pra,Peagna,Ceriale,Borghetto Santo Spirito,Loano,Pietra Ligure,Finale Ligure,Noli,Spotorno,Ivrea,Casale Monferrato,Borgosesia,Alba",
+    "b": "Turin,Novara,Alessandria,Asti,Cuneo,Vercelli,Biella,Saluzzo,Savigliano,Fossano,Mondovi,Bra,Cherasco,Racconigi,Carmagnola,Chieri,Settimo Torinese,Venaria Reale,Rivoli,Collegno,Grugliasco,Moncalieri,Nichelino,Poirino,Carignano,Chivasso,Gassino Torinese,Volpiano,Caselle Torinese,Borgaro Torinese,Alpignano,Pianezza,Cumiana,Airasca,None,Pinerolo,Cavour,Vigone,Villafranca Piemonte,Moretta,Faule,Polonghera,Casalgrasso,Carde,Cavallerleone,Murello,Caramagna Piemonte,Castagnole Piemonte,Ceresole Alba,Monta,Pralormo,Valfenera,Villanova d'Asti,San Damiano d'Asti,Costigliole d'Asti,Canelli,Nizza Monferrato,Acqui Terme,Ovada,Viguzzolo,Ivrea,Casale Monferrato,Alba,Peagna,Borgosesia",
     "status": "COMPLETE"
   },
   {

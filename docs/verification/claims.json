@@ -1,4 +1,15 @@
 {
   "staleHours": 8,
-  "claims": {}
+  "claims": {
+    "europe": {
+      "agent": "wb10-europe",
+      "task": "W010 remaining duplicates",
+      "claimedAt": "2026-10-01T00:31:21.368Z"
+    },
+    "asia": {
+      "agent": "wb10-asia",
+      "task": "W010 remaining duplicates",
+      "claimedAt": "2026-10-01T00:31:21.780Z"
+    }
+  }
 }

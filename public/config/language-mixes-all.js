@@ -5887,7 +5887,7 @@
     },
     {
       "name": "Hagei",
-      "iso": "hagei",
+      "iso": "giq",
       "region": "Asia",
       "category": "Tai-Kadai",
       "family": "Kra"
@@ -8645,7 +8645,7 @@
     },
     {
       "name": "Sapa",
-      "iso": "sapa",
+      "iso": "tys",
       "region": "Asia",
       "category": "Hmong-Mien",
       "family": "Hmongic"
@@ -9382,7 +9382,7 @@
     },
     {
       "name": "Toda",
-      "iso": "toda",
+      "iso": "tcx",
       "region": "Asia",
       "category": "Dravidian",
       "family": "South Dravidian"
@@ -9453,7 +9453,7 @@
     },
     {
       "name": "Tulu",
-      "iso": "tulu",
+      "iso": "tcy",
       "region": "Asia",
       "category": "Dravidian",
       "wikipedia": "https://en.wikipedia.org/wiki/Tulu_language",
@@ -19490,7 +19490,7 @@
     },
     {
       "name": "Waxiang",
-      "iso": "waxiang",
+      "iso": "wxa",
       "region": "Misc",
       "category": "Hmong-Mien",
       "family": "Hmongic",
@@ -24359,8 +24359,8 @@
       "family": "Yukaghir"
     },
     {
-      "name": "Western Itelmen",
-      "iso": "western-itelmen",
+      "name": "Northern Itelmen",
+      "iso": "northern-itelmen",
       "region": "Siberia",
       "category": "Chukotko-Kamchatkan",
       "family": "Itelmen"

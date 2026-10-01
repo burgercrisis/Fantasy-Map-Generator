@@ -176,7 +176,43 @@ const ALLOWED_REMOVALS = new Set([
     //   x-nedebang   shadow of the asia copy; oceania i=201113 is canonical and
     //                 its own `nedebang` row remains
     //   x-rapa-nui   shadow of the asia copy; oceania i=202432 is canonical
-    "x-nedebang", "x-rapa-nui"
+    "x-nedebang", "x-rapa-nui",
+    // Four more x- shadows plus one canonical key whose entry was removed as an
+    // un-accented duplicate of the surviving accented entry:
+    //   x-brianzoo / x-canzes       shadows of "Brianzoo" and "Canzes", which
+    //                               duplicated "Brianzöö" (i=200853) and "Canzés"
+    //                               (i=200854). The canonical rows `brianz-` and
+    //                               `canz-s` were repointed to the survivors.
+    //   kuu-rv-ludic / x-kuu-rv-ludic   i=200744 "Kuuďärv Ludic" was a fourth
+    //                               entry for three Ludic groups; its material
+    //                               merged into the i=905 umbrella.
+    "x-brianzoo", "x-canzes", "kuu-rv-ludic", "x-kuu-rv-ludic",
+    // Three x- shadows left pointing at entries removed as cross-file duplicates:
+    //   x-tzotzil / x-mixtec  shadows of the southAmerican copies of two Mexican
+    //                        Mayan languages; northAmerica holds the originals
+    //   x-chechen             shadow of the europe copy, duplicate of asia i=1555
+    "x-tzotzil", "x-mixtec", "x-chechen",
+    // Catalog keys that were not valid ISO 639-3 and have been corrected. The old
+    // keys are gone, which the append-only check reads as a removal:
+    //   sapa -> tys, toda -> tcx, tulu -> tcy, hagei -> giq, waxiang -> wxa
+    // and `western-itelmen` -> `northern-itelmen`, because "Western Itelmen" is an
+    // alternate name for the whole Itelmen language (itl / itel1242), not a
+    // dialect; the real second dialect is Northern, of Sedanka.
+    "sapa", "toda", "tulu", "hagei", "waxiang", "western-itelmen",
+    // The x- shadows retired with the 31 duplicate asia entries removed in the
+    // same pass. Each duplicated a real row, and the surviving entry kept the
+    // language's canonical key:
+    //   x-kannada x-karakalpak x-kurukh x-parkari-koli x-levantine-arabic
+    //   x-tajik x-turkmen x-zhuang x-magahi x-marwari x-sapa x-thar x-toda
+    //   x-tulu x-vayu x-wakhi x-western-middle-aramaic x-odia
+    // Two of the pairs were not merely duplicated: `Vayu` i=200563 held twelve
+    // western-Nepal districts nowhere near Vayu territory, and `Thar` i=200541 held
+    // Rajasthan cities of the Thar Desert rather than the Bede community. In both
+    // cases the *index with the better key* was the wrong one, so the correct list
+    // was merged into it before the shadow was retired.
+    "x-kannada", "x-karakalpak", "x-kurukh", "x-parkari-koli", "x-levantine-arabic",
+    "x-tajik", "x-turkmen", "x-zhuang", "x-magahi", "x-marwari", "x-sapa", "x-thar",
+    "x-toda", "x-tulu", "x-vayu", "x-wakhi", "x-western-middle-aramaic", "x-odia"
   ]);
 
 
