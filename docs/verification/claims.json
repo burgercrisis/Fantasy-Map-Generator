@@ -1,35 +1,35 @@
 {
   "staleHours": 8,
   "claims": {
-    "northAmerica": {
-      "agent": "wb12-northAmerica",
-      "task": "W012 cross-file duplicate resolution",
-      "claimedAt": "2026-10-01T23:30:10.232Z"
-    },
-    "southAmerica": {
-      "agent": "wb12-southAmerica",
-      "task": "W012 cross-file duplicate resolution",
-      "claimedAt": "2026-10-01T23:30:10.729Z"
-    },
-    "europe": {
-      "agent": "wb12-europe",
-      "task": "W012 cross-file duplicate resolution",
-      "claimedAt": "2026-10-01T23:30:24.072Z"
-    },
-    "oceania": {
-      "agent": "wb12-oceania",
-      "task": "W012 cross-file duplicate resolution",
-      "claimedAt": "2026-10-01T23:30:24.537Z"
+    "africa": {
+      "agent": "wb14-africa",
+      "task": "W012 folded-label duplicates",
+      "claimedAt": "2026-10-02T01:32:09.595Z"
     },
     "asia": {
-      "agent": "wb13-asia",
-      "task": "W002 zero-seed toponym research",
-      "claimedAt": "2026-10-01T23:50:17.049Z"
+      "agent": "wb14-asia",
+      "task": "W012 folded-label duplicates",
+      "claimedAt": "2026-10-02T01:32:09.966Z"
     },
-    "africa": {
-      "agent": "wb13-africa",
-      "task": "W002 zero-seed toponym research",
-      "claimedAt": "2026-10-01T23:50:17.519Z"
+    "europe": {
+      "agent": "wb14-europe",
+      "task": "W012 folded-label duplicates",
+      "claimedAt": "2026-10-02T01:32:10.502Z"
+    },
+    "northAmerica": {
+      "agent": "wb14-northAmerica",
+      "task": "W012 folded-label duplicates",
+      "claimedAt": "2026-10-02T01:32:10.983Z"
+    },
+    "oceania": {
+      "agent": "wb14-oceania",
+      "task": "W012 folded-label duplicates",
+      "claimedAt": "2026-10-02T01:32:11.434Z"
+    },
+    "southAmerica": {
+      "agent": "wb14-southAmerica",
+      "task": "W012 folded-label duplicates",
+      "claimedAt": "2026-10-02T01:32:11.967Z"
     }
   }
 }

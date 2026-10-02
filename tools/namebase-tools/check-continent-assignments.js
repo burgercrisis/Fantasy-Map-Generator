@@ -26,6 +26,27 @@ const regions = [
   { name: 'americas-indigenous', continent: 'southAmerica', file: 'wikipedia-indigenous-languages-of-the-americas.json' }
 ];
 
+// Two inputs this tool needs are absent from the repository, so it cannot run:
+//   tools/mixer-meta/<region>.json   - the per-country language lists
+//   modules/namebases-real.js       - the reference tree it audits against
+// Both are reported explicitly rather than dying on MODULE_NOT_FOUND, and the
+// region files are loaded individually so a partial dataset still audits
+// whatever regions are present instead of aborting on the first missing one.
+const REAL_BASEPATH = path.resolve(__dirname, "..", "..", "modules", "namebases-real.js");
+const missingRegions = regions.filter((r) => !fs.existsSync(path.join(__dirname, "mixer-meta", r.file)));
+const missingReal = !fs.existsSync(REAL_BASEPATH);
+
+if (missingReal || missingRegions.length) {
+  console.error("check-continent-assignments: cannot run - required input missing\n");
+  if (missingReal) console.error(`  missing: ${REAL_BASEPATH}  (reference namebase tree)`);
+  for (const r of missingRegions) console.error(`  missing: tools/mixer-meta/${r.file}  (region "${r.name}" -> ${r.continent})`);
+  console.error(
+    `\n${regions.length - missingRegions.length} of ${regions.length} region files are present` +
+      (missingRegions.length ? `, but the reference tree is absent, so nothing can be audited.` : ".")
+  );
+  process.exit(1);
+}
+
 // Load all region data
 const regionData = {};
 for (const region of regions) {
@@ -33,7 +54,7 @@ for (const region of regions) {
 }
 
 // Load current namebases
-const realNamebasesContent = fs.readFileSync('../modules/namebases-real.js', 'utf8');
+const realNamebasesContent = fs.readFileSync(REAL_BASEPATH, 'utf8');
 const realWorldNameBases = eval(realNamebasesContent.replace('"use strict";\n\nwindow.realWorldNameBases = ', '').replace(/;$/, ''));
 
 // Function to normalize language names for matching

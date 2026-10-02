@@ -720,13 +720,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Orleanais",
+    "name": "Orléanais",
     "i": 360,
     "min": 3,
     "max": 28,
     "d": "lnrt",
     "m": 0,
-    "b": "Orléans,Beaugency,Meung-sur-Loire,Châteauneuf-sur-Loire,Sully-sur-Loire,Gien,Châtillon-sur-Loire,Briare,Montargis,Olivet,Amilly,Châlette-sur-Loing,Cepoy,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Saint-Denis-en-Val,Saint-Cyr-en-Val,Fleury-les-Aubrais,La Chapelle-Saint-Mesmin,Combleux,Chécy,Sandillon,Saran,Mardié,Rebréchien,Ingrannes,Intville-la-Guétard,Château-Renard,Châtillon-Coligny,Châtillon-le-Roi,Chaussy,Chevannes,Chevillon-sur-Huillard,Chevilly,Chilleurs-aux-Bois,Cléry-Saint-André,Coinces,Combreux,Conflans-sur-Loing,Corbeilles,Corquilleroy,Coudroy,Coullons,Coulmiers,Courcelles-le-Roi,Courcy-aux-Loges,La Cour-Marigny,Courtenay,Cravant,Dadonville,Dammarie-sur-Loing,Dampierre-en-Burly,Darvoy,Donnery,Dordives,Douchy-Montcorbon,Dry,Échilleuses,Égry,Engenville,Épieds-en-Beauce,Erceville,Ervauville,Escrennes,Escrignelles,Estouy,Faverelles,Fay-aux-Loges,Férolles,Ferrières-en-Gâtinais,La Ferté-Saint-Aubin,Fontenay-sur-Loing,Foucherolles,Fréville-du-Gâtinais,Gaubertin,Gémigny,Germigny-des-Prés,Gidy,Girolles,Givraines,Gondreville,Grangermont,Greneville-en-Beauce,Griselles,Guigneville,Guilly,Gy-les-Nonains,Huêtre,Huisseau-sur-Mauves,Ingré,Jargeau,Jouy-en-Pithiverais,Jouy-le-Potier,Juranville,Ladon,Lailly-en-Val,Langesse,Léouville,Ligny-le-Ribault,Lion-en-Beauce,Lion-en-Sullias,Lombreuil,Lorcy,Lorris,Loury,Louzouer,Le Malesherbois,Marcilly-en-Villette,Mareau-aux-Bois,Mareau-aux-Prés,Marigny-les-Usages,Marsainvilliers,Melleroy,Ménestreau-en-Villette,Mérinville,Messas,Mézières-en-Gâtinais,Mézières-lez-Cléry,Mignères,Mignerette,Montbarrois,Montbouy,Montereau,Montigny,Montliard,Mormant-sur-Vernisson,Morville-en-Beauce,Le Moulinet-sur-Solin,Moulon,Nancray-sur-Rimarde,Nargis,Nesploy,Neuville-aux-Bois,La Neuville-sur-Essonne,Neuvy-en-Sullias,Nevoy,Nibelle,Nogent-sur-Vernisson,Noyers,Oison,Ondreville-sur-Essonne,Ormes,Orville,Ousson-sur-Loire,Oussoy-en-Gâtinais,Outarville,Ouvrouer-les-Champs,Ouzouer-des-Champs,Ouzouer-sous-Bellegarde,Ouzouer-sur-Loire,Ouzouer-sur-Trézée,Pannecières,Pannes,Patay,Paucourt,Pers-en-Gâtinais,Pierrefitte-ès-Bois,Pithiviers,Pithiviers-le-Vieil,Poilly-lez-Gien,Préfontaines,Presnoy,Pressigny-les-Pins,Puiseaux,Quiers-sur-Bézonde,Ramoulu,Rozoy-le-Vieil,Rouvray-Sainte-Croix,Rouvres-Saint-Jean,Rozières-en-Beauce,Ruan,Saint-Aignan-le-Jaillard,Saint-Ay,Saint-Benoît-sur-Loire,Saint-Brisson-sur-Loire,Saint-Denis-de-l'Hôtel,Saint-Firmin-des-Bois,Saint-Firmin-sur-Loire,Saint-Florent,Saint-Germain-des-Prés,Saint-Gondon,Saint-Hilaire-les-Andrésis,Saint-Hilaire-Saint-Mesmin,Saint-Hilaire-sur-Puiseaux,Saint-Loup-des-Vignes,Saint-Lyé-la-Forêt,Saint-Martin-d'Abbat,Saint-Martin-sur-Ocre,Saint-Maurice-sur-Aveyron,Saint-Maurice-sur-Fessard,Saint-Michel,Saint-Péravy-la-Colombe,Saint-Père-sur-Loire,Saint-Pryvé-Saint-Mesmin,Saint-Sigismond,Santeau,Sceaux-du-Gâtinais,Seichebrières,La Selle-en-Hermoy,La Selle-sur-le-Bied,Semoy,Sennely,Sermaises,Sigloy,Solterre,Sougy,Sully-la-Chapelle,Sury-aux-Bois,Tavers,Thignonville,Thimory,Thorailles,Thou,Varennes-Changy,Vennecy,Vieilles-Maisons-sur-Joudry,Vienne-en-Val,Viglain,Villamblain,Villemandeur,Villemoutiers,Villemurlin,Villeneuve-sur-Conie,Villereau,Villevoques,Villorceau,Vimory,Vitry-aux-Loges,Yèvre-la-Ville",
+    "b": "Orléans,Beaugency,Meung-sur-Loire,Châteauneuf-sur-Loire,Sully-sur-Loire,Gien,Châtillon-sur-Loire,Briare,Montargis,Olivet,Amilly,Châlette-sur-Loing,Cepoy,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Saint-Denis-en-Val,Saint-Cyr-en-Val,Fleury-les-Aubrais,La Chapelle-Saint-Mesmin,Combleux,Chécy,Sandillon,Saran,Mardié,Rebréchien,Ingrannes,Intville-la-Guétard,Château-Renard,Châtillon-Coligny,Châtillon-le-Roi,Chaussy,Chevannes,Chevillon-sur-Huillard,Chevilly,Chilleurs-aux-Bois,Cléry-Saint-André,Coinces,Combreux,Conflans-sur-Loing,Corbeilles,Corquilleroy,Coudroy,Coullons,Coulmiers,Courcelles-le-Roi,Courcy-aux-Loges,La Cour-Marigny,Courtenay,Cravant,Dadonville,Dammarie-sur-Loing,Dampierre-en-Burly,Darvoy,Donnery,Dordives,Douchy-Montcorbon,Dry,Échilleuses,Égry,Engenville,Épieds-en-Beauce,Erceville,Ervauville,Escrennes,Escrignelles,Estouy,Faverelles,Fay-aux-Loges,Férolles,Ferrières-en-Gâtinais,La Ferté-Saint-Aubin,Fontenay-sur-Loing,Foucherolles,Fréville-du-Gâtinais,Gaubertin,Gémigny,Germigny-des-Prés,Gidy,Girolles,Givraines,Gondreville,Grangermont,Greneville-en-Beauce,Griselles,Guigneville,Guilly,Gy-les-Nonains,Huêtre,Huisseau-sur-Mauves,Ingré,Jargeau,Jouy-en-Pithiverais,Jouy-le-Potier,Juranville,Ladon,Lailly-en-Val,Langesse,Léouville,Ligny-le-Ribault,Lion-en-Beauce,Lion-en-Sullias,Lombreuil,Lorcy,Lorris,Loury,Louzouer,Le Malesherbois,Marcilly-en-Villette,Mareau-aux-Bois,Mareau-aux-Prés,Marigny-les-Usages,Marsainvilliers,Melleroy,Ménestreau-en-Villette,Mérinville,Messas,Mézières-en-Gâtinais,Mézières-lez-Cléry,Mignères,Mignerette,Montbarrois,Montbouy,Montereau,Montigny,Montliard,Mormant-sur-Vernisson,Morville-en-Beauce,Le Moulinet-sur-Solin,Moulon,Nancray-sur-Rimarde,Nargis,Nesploy,Neuville-aux-Bois,La Neuville-sur-Essonne,Neuvy-en-Sullias,Nevoy,Nibelle,Nogent-sur-Vernisson,Noyers,Oison,Ondreville-sur-Essonne,Ormes,Orville,Ousson-sur-Loire,Oussoy-en-Gâtinais,Outarville,Ouvrouer-les-Champs,Ouzouer-des-Champs,Ouzouer-sous-Bellegarde,Ouzouer-sur-Loire,Ouzouer-sur-Trézée,Pannecières,Pannes,Patay,Paucourt,Pers-en-Gâtinais,Pierrefitte-ès-Bois,Pithiviers,Pithiviers-le-Vieil,Poilly-lez-Gien,Préfontaines,Presnoy,Pressigny-les-Pins,Puiseaux,Quiers-sur-Bézonde,Ramoulu,Rozoy-le-Vieil,Rouvray-Sainte-Croix,Rouvres-Saint-Jean,Rozières-en-Beauce,Ruan,Saint-Aignan-le-Jaillard,Saint-Ay,Saint-Benoît-sur-Loire,Saint-Brisson-sur-Loire,Saint-Denis-de-l'Hôtel,Saint-Firmin-des-Bois,Saint-Firmin-sur-Loire,Saint-Florent,Saint-Germain-des-Prés,Saint-Gondon,Saint-Hilaire-les-Andrésis,Saint-Hilaire-Saint-Mesmin,Saint-Hilaire-sur-Puiseaux,Saint-Loup-des-Vignes,Saint-Lyé-la-Forêt,Saint-Martin-d'Abbat,Saint-Martin-sur-Ocre,Saint-Maurice-sur-Aveyron,Saint-Maurice-sur-Fessard,Saint-Michel,Saint-Péravy-la-Colombe,Saint-Père-sur-Loire,Saint-Pryvé-Saint-Mesmin,Saint-Sigismond,Santeau,Sceaux-du-Gâtinais,Seichebrières,La Selle-en-Hermoy,La Selle-sur-le-Bied,Semoy,Sennely,Sermaises,Sigloy,Solterre,Sougy,Sully-la-Chapelle,Sury-aux-Bois,Tavers,Thignonville,Thimory,Thorailles,Thou,Varennes-Changy,Vennecy,Vieilles-Maisons-sur-Joudry,Vienne-en-Val,Viglain,Villamblain,Villemandeur,Villemoutiers,Villemurlin,Villeneuve-sur-Conie,Villereau,Villevoques,Villorceau,Vimory,Vitry-aux-Loges,Yèvre-la-Ville,Blois,Chartres,Vendôme,Romorantin-Lanthenay,Selles-sur-Cher,Saint-Aignan,Contres",
     "status": "COMPLETE"
   },
   {
@@ -1778,16 +1778,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Pelym,Vagilsk,Novaya Lyalya,Gora,Ivdel,Sosva,Nyaksimvol,Ust-Manya,Pripolyarny",
     "status": "WAITING"
-  },
-  {
-    "name": "Csangó",
-    "i": 562,
-    "min": 4,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Gyergyószentmiklós,Ditrău,Székelyudvarhely,Székelykeresztúr,Gyergyótölgyes,Csíkszereda,Szentimre,Barátfalva,Kászonfüzes,Kászonimpodrom,Székelyderzs,Székelypálfalva,Mádéfalva,Szentlászló,Csíkmadaras,Csíkszentmárton,Gyergyóalfalu,Csíktapolca,Székelyhodos,Székelyközfalva,Székelyszentkirály,Székelyzsombor,Székelydoboz,Székelyfancsal,Székelyvécke,Székelybikfalva,Székelykövesd,Székelyszakadás,Székelyszépvíz,Székelyhosszúaszó,Székelykisgörgény,Székelynagygörgény,Székelyoroszlános,Székelyszentdomonkos,Székelybélbor,Székelyköbölkút,Székelymalomfalva,Székelypákás,Székelyszentmihály,Székelytófalu,Székelyvadas",
-    "status": "COMPLETE"
   },
   {
     "name": "Southern Sami",
@@ -5080,16 +5070,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Orléanais",
-    "i": 200873,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Orléans,Blois,Tours,Bourges,Chartres,Châteauroux,Montargis,Pithiviers,Gien,Vierzon,Amboise,Chinon,Loches,Vendôme,Romorantin-Lanthenay,Le Château,Issoudun,Le Blanc,Buzannes,Selles-sur-Cher,Saint-Aignan,Contres,Mareau-aux-Prés,Meung-sur-Loire,Patay,Saint-Privé-Saint-Mesmin,Saint-Jean-de-la-Ruelle,Saint-Jean-de-Braye,Saint-Jean-le-Blanc,Olivet,Saint-Hilaire-Saint-Mesmin,Ingré,Artenay,Chaingy,La Chapelle-Saint-Mesmin,Saint-Ay,Saint-Denis-en-Val",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Paḷḷuezu",
     "i": 200874,
     "min": 3,
@@ -6137,6 +6117,16 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Timișoara,Arad,Lugoj,Reșița,Caransebeș,Oradea,Satu Mare,Chișineu-Criș,Deta,Făget,Lipova,Sânnicolau Mare,Nădlac,Pecica,Sebiș,Sântana,Vinga,Gurahonț,Șiria,Ineu,Săcueni,Becicherecu Mic,Cenad,Sânmartin,Lovrin,Buziaș,Jimbolia,Biled,Ciacova,Dudeștii Noi",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Csángó",
+    "i": 200730,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0.1,
+    "b": "Săbăoani,Pildești,Traian,Iugani,Bărgăoani,Bălușești,Ploscuțeni,Valea Seacă,Galbeni,Valea Mare,Gioseni,Nicolae Bălcescu,Pădureni,Călugăreni,Lespezi,Gârlenii de Sus,Lilieci,Cleja,Arini,Bălțata,Frumoasa,Pustiana,Bogdănești,Târța,Palanca",
     "status": "COMPLETE"
   }
 ];

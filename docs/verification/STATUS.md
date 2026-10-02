@@ -11,31 +11,31 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3058 |
-| Marked COMPLETE (>= 25 seeds) | 1830 |
-| Marked WAITING (< 25 seeds) | 1228 |
-| Below seed floor | 1223 |
+| Language entries | 3033 |
+| Marked COMPLETE (>= 25 seeds) | 1820 |
+| Marked WAITING (< 25 seeds) | 1213 |
+| Below seed floor | 1208 |
 | Zero seeds | 29 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 803 |
+| Map ISOs with no namebase (research backlog) | 802 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 680 | 236 | 4 | 27 |
-| asia | 1074 | 558 | 8 | 23 |
-| europe | 614 | 138 | 15 | 30 |
+| africa | 678 | 233 | 4 | 27 |
+| asia | 1059 | 550 | 8 | 23 |
+| europe | 613 | 138 | 15 | 30 |
 | northAmerica | 212 | 68 | 1 | 29 |
-| southAmerica | 150 | 28 | 0 | 32 |
-| oceania | 318 | 195 | 1 | 19 |
+| southAmerica | 148 | 28 | 0 | 32 |
+| oceania | 313 | 191 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1223 entries need authentic settlement names. Ordered by seed count,
+1208 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -163,7 +163,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1012 | Hu (Kongge / Kun'ge / Kon Keu) |
 | 4 | asia | 1155 | Ili Turki |
 | 4 | asia | 1165 | Tai Muong Vat |
-| 4 | asia | 1179 | tai-daeng |
+| 4 | asia | 1179 | Tai Daeng |
 | 4 | asia | 1254 | Lashi |
 | 4 | asia | 1384 | Bateri |
 | 4 | asia | 1496 | Tilung |
@@ -182,7 +182,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | europe | 200775 | On |
 | 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
-| 4 | oceania | 202756 | Murrinh Patha |
 | 4 | oceania | 756 | Agalega Creole |
 | 4 | oceania | 202509 | Western Dani |
 | 4 | oceania | 202737 | Burarra |
@@ -340,8 +339,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 1561 | Dhuleli |
 | 7 | asia | 1626 | Chilsso |
 | 7 | asia | 1768 | Eravallan |
+| 7 | asia | 2489 | Ole |
 
-_Showing the lowest 300 of 1223. Full queue:_
+_Showing the lowest 300 of 1208. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-803 languages the mixer map offers have no namebase entry
+802 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -414,7 +414,7 @@ created from research. Nothing here is guessed at.
 | amorite | Amorite | undefined |
 | ancient-egyptian | Ancient Egyptian | undefined |
 | ancient-north-arabian | Ancient North Arabian | undefined |
-| anz | Anem | 1971 |
+| anz | Anem | undefined |
 | angaataha | Angaataha | undefined |
 | anindilyakwa | Anindilyakwa | undefined |
 | kbx | Ap Ma | undefined |
@@ -456,8 +456,7 @@ created from research. Nothing here is guessed at.
 | barai | Barai | undefined |
 | baramu | Baramu | 1377 |
 | bardi | Bardi | undefined |
-| barikanchi-pidgin | Barikanchi Pidgin | 836 |
-| barito | Barito | 836 |
+| barikanchi-pidgin | Barikanchi Pidgin | undefined |
 | baruga | Baruga | undefined |
 | basap | Basap | undefined |
 | byq | Basay | undefined |
@@ -533,8 +532,9 @@ created from research. Nothing here is guessed at.
 | bua | Buryat Names | 20112 |
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
+| camtho | Camtho | undefined |
 
-_Showing 150 of 803._
+_Showing 150 of 802._
 
 ## How to work on this
 

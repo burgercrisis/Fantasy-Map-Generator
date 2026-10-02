@@ -266,7 +266,7 @@ window.oceaniaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Abia,Aro,Ianu,Boneka,Alimado,Onaudi,Musi-obi,Monanobi,Lilipu,Omai-a,Afaibobo,Taibu,Namo,Ofilini,Du-onakai,Iobo,Buku,Debana,Pu-ibi,Oveau,Domuoi,Jari,Mori,Doma,Auwaka,Buniabura",
+    "b": "Abia,Aro,Ianu,Boneka,Alimado,Onaudi,Musi-obi,Monanobi,Lilipu,Omai-a,Afaibobo,Taibu,Namo,Ofilini,Du-onakai,Iobo,Buku,Debana,Pu-ibi,Oveau,Domuoi,Jari,Mori,Doma,Auwaka,Buniabura,Yoivi,Niniuri,Kawowoki,Kaura,Siurani,Kowena,Dea,Siribu,Natanga,Gora,Tahama,Umbuara,Kokoro,Ufia,Toma,Aiari,Yaure,Namudi,Sinua,Moro,Safia,Obea,Foru,Karisoa,Kinjaki,Embesa,Koira,Domara,Sariri,Gunimba,Jegerakambo,Emo,Banderi,Waiwa",
     "status": "COMPLETE"
   },
   {
@@ -500,16 +500,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Aneme-Wake",
-    "i": 50026,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Yoivi,Niniuri,Kawowoki,Kaura,Siurani,Kowena,Dea,Siribu,Natanga,Gora,Tahama,Umbuara,Kokoro,Ufia,Toma,Aiari,Yaure,Namudi,Sinua,Moro,Jari,Safia,Obea,Foru,Karisoa,Kinjaki,Embesa,Koira,Domara,Sariri,Gunimba,Jegerakambo,Emo,Banderi,Waiwa",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Angal",
     "i": 97971,
     "min": 3,
@@ -637,16 +627,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Dei,Kotna,Muglamp,Baiyer,Lumusa,Mul,Giluwe,Nebilyer,Kagul,Tambul,Jiwaka,Jimi,Waghi,Kambia,Mount Giluwe",
-    "status": "WAITING"
-  },
-  {
-    "name": "Ke’yagana",
-    "i": 201064,
-    "min": 4,
-    "max": 20,
-    "d": "",
-    "m": 0,
-    "b": "Kainantu,Lufa,Goroka,Daulo,Henganofi,Okapa,Unggai,Bena,Watabung,Asaro,Lamari,Benna",
     "status": "WAITING"
   },
   {
@@ -1400,7 +1380,7 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kombai–Wanggom",
+    "name": "Kombai-Wanggom",
     "i": 202349,
     "min": 4,
     "max": 11,
@@ -1417,16 +1397,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kaimana Regency,Namatota,Bicari,Pulau Adi,Nusa Ulang,Kayu Merah,Trikora,Sowa,Kaimana City,Bomberai Peninsula,Arguni Bay,Etna Bay",
-    "status": "WAITING"
-  },
-  {
-    "name": "Māori",
-    "i": 202358,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Aotearoa,New Zealand,North Island,South Island,Auckland,Wellington,Christchurch,Rotorua,Taupō,Whanganui,Hokianga,Aoraki / Mount Cook",
     "status": "WAITING"
   },
   {
@@ -1450,7 +1420,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "murrinh-patha",
+    "name": "Murrinh-patha",
     "i": 203046,
     "min": 4,
     "max": 11,
@@ -1500,13 +1470,13 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Maori",
+    "name": "Māori",
     "i": 20072,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Dunedin,Palmerston North,Napier,Hastings,Nelson,Rotorua,New Plymouth,Whangarei,Invercargill,Whanganui,Gisborne,Whakatane,Timaru,Pukekohe,Taupo,Hawera,Levin,Kaitaia,Ashburton,Cambridge,Te Awamutu,Huntly,Thames,Coromandel,Whitianga,Taumarunui,Te Kuiti,Tokoroa,Putaruru,Otorohanga,Foxton,Marton,Feilding,Masterton,Carterton,Greytown,Martinborough,Blenheim,Picton,Kaikoura,Hokitika,Greymouth,Westport,Wanaka,Queenstown,Te Anau,Gore,Oamaru,Rangiora,Rolleston,Lincoln,Akaroa,Lyttelton,Motueka,Takaka,Kerikeri,Kaikohe,Dargaville,Paeroa,Waihi,Ohakune,Raetihi,Taihape,Waipukurau,Waipawa,Wairoa,Opotiki,Paengaroa,Te Puke,Katikati,Waihi Beach,Mangawhai,Kawakawa,Moerewa,Opua,Russell,Turangi,Wairakei,Waimate,Palmerston,Milton,Balclutha,Lawrence,Roxburgh,Alexandra,Clyde",
+    "b": "Auckland,Wellington,Christchurch,Hamilton,Tauranga,Dunedin,Palmerston North,Napier,Hastings,Nelson,Rotorua,New Plymouth,Whangarei,Invercargill,Whanganui,Gisborne,Whakatane,Timaru,Pukekohe,Taupo,Hawera,Levin,Kaitaia,Ashburton,Cambridge,Te Awamutu,Huntly,Thames,Coromandel,Whitianga,Taumarunui,Te Kuiti,Tokoroa,Putaruru,Otorohanga,Foxton,Marton,Feilding,Masterton,Carterton,Greytown,Martinborough,Blenheim,Picton,Kaikoura,Hokitika,Greymouth,Westport,Wanaka,Queenstown,Te Anau,Gore,Oamaru,Rangiora,Rolleston,Lincoln,Akaroa,Lyttelton,Motueka,Takaka,Kerikeri,Kaikohe,Dargaville,Paeroa,Waihi,Ohakune,Raetihi,Taihape,Waipukurau,Waipawa,Wairoa,Opotiki,Paengaroa,Te Puke,Katikati,Waihi Beach,Mangawhai,Kawakawa,Moerewa,Opua,Russell,Turangi,Wairakei,Waimate,Palmerston,Milton,Balclutha,Lawrence,Roxburgh,Alexandra,Clyde,Hokianga",
     "status": "COMPLETE"
   },
   {
@@ -1648,16 +1618,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Darwin,Belyuen,Delissaville,Rapid Creek,Nightcliff,Coconut Grove,Millner,Jingili,Alawa,Brinkin,Stuart Park,Casuarina,Kulaluk,Minmarama Park,Southport,Coolalinga,Hidden Valley,Karama,Marrara,Nakara,Holtze,The Narrows,East Arm,Fog Bay,Finniss River,Gunn Point,Cox Peninsula,Bynoe Harbour,Howard River,Manton Dam,Stokes Hill,Mindil Beach",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Murrinh Patha",
-    "i": 202756,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Wadeye,Nganmarriyanga,Palumpa,Peppimenarti",
-    "status": "WAITING"
   },
   {
     "name": "Ngaanyatjarra",
@@ -1810,23 +1770,13 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ke'yagana",
+    "name": "Keyagana",
     "i": 2134,
     "min": 4,
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Goroka,Kainantu,Keyagana,Benabena,Fore,Gende,Gimi,Isabi,Siane,Yaweyuha,Alekano,Dano,Tokano,Kamono,Yagaria",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kombai-Wanggom",
-    "i": 2254,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Boven Digoel,Mappi Regency,South Papua,Digoel River,Asmat,Digul River,Wideman River,Tayan,Kombai Kali",
+    "b": "Goroka,Kainantu,Keyagana,Benabena,Fore,Gende,Gimi,Isabi,Siane,Yaweyuha,Alekano,Dano,Tokano,Kamono,Yagaria,Daulo,Henganofi,Okapa,Unggai,Bena,Watabung,Asaro,Lamari,Benna",
     "status": "WAITING"
   },
   {

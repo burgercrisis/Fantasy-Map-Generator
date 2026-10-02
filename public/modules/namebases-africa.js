@@ -190,13 +190,13 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Dangaleat",
+    "name": "Dangaléat",
     "i": 250,
     "min": 3,
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongo,Bitkine,Korbo,Barlo,Koubo Adougoul,Bara,Korlongo,Tchafo,Ideba,Tchalo-Zoudou,Bang-bang,Batha,Guera,Guera Department,Hadjeray,Korbo Mountains,Migami Canton,N'Djamena,Bitkine Subprefecture,Guera Prefecture,Korbo Village,Bara Village,Barlo Village,Korlongo Village,Koubo Adougoul Village,Tchafo Village,Ideba Village,Tchalo-Zoudou Village,Chad,Arab",
+    "b": "Mongo,Bitkine,Korbo,Barlo,Koubo Adougoul,Bara,Korlongo,Tchafo,Ideba,Tchalo-Zoudou,Bang-bang,Batha,Guera,Guera Department,Hadjeray,Korbo Mountains,Migami Canton,N'Djamena,Bitkine Subprefecture,Guera Prefecture,Korbo Village,Bara Village,Barlo Village,Korlongo Village,Koubo Adougoul Village,Tchafo Village,Ideba Village,Tchalo-Zoudou Village,Chad,Arab,Golé",
     "status": "COMPLETE"
   },
   {
@@ -1580,7 +1580,7 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Voro",
+    "name": "Voro (Nigeria)",
     "i": 2062,
     "min": 3,
     "max": 12,
@@ -2420,16 +2420,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ghadamès",
-    "i": 11289,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ghadames Oasis,Nalut District,Tripoli District,Misrata District,Sabha District,Awjila Oasis,Gharyan District,Yefren District,Zintan District,Tajura District,Msallata District",
-    "status": "WAITING"
-  },
-  {
     "name": "Gude",
     "i": 11332,
     "min": 4,
@@ -2708,16 +2698,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Kabale,Kisoro,Kanungu,Rubanda,Ntungamo,Mbarara,Kampala,Entebbe,Jinja,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Mityana,Bushenyi,Isingiro,Ibanda,Kamwenge,Kyegegwa,Kiruhura,Mitoma,Mitooma,Rubirizi,Sheema,Rukungiri",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Moore",
-    "i": 13745,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ouagadougou,Koudougou,Bobo-Dioulasso,Banfora,Kaya,Fada N'Gourma,Gorom-Gorom,Dori,Ouahigouya,Koupéla,Gaoua,Bittou,Ziniaré,Kongoussi,RéOuagadougou,Ré,Burkina Faso,Mossi,Mossi Language,Mossi People",
-    "status": "WAITING"
   },
   {
     "name": "Kongo",
@@ -4337,16 +4317,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Dokan Tofa",
-    "status": "WAITING"
-  },
-  {
-    "name": "Dangaléat",
-    "i": 200018,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Mongo,Bitkine,Korbo,Golé,Tyalo-Idéba,Barlo,Koubo Adougoul,Korlongo,Guéra Region,Abtouyour Department,Batha Region,Bang-bang Subprefecture",
     "status": "WAITING"
   },
   {
@@ -6170,7 +6140,7 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ghadames",
+    "name": "Ghadamès",
     "i": 201005,
     "min": 4,
     "max": 11,
@@ -6326,7 +6296,7 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Porto Novo,Ribeira Grande,Ponta do Sol,Pombas,Paul,Sinagoga,Espongeiro,Vale do Paúl,Tope de Coroa,Monte Tomé,Gudo de Cavaleiro,Moroços,Pico da Cruz,Ribeira da Garça,Ribeira da Janela,Ribeira do Paul,Ribeira da Torre,Ribeira da Cruz,Ribeira das Patas,Santo António das Pombas,São João Baptista,Santo André,Nossa Senhora do Rosário,Nossa Senhora do Livramento,Santo Crucifixo,São Pedro Apóstolo,Canal de São Vicente,Ilhéu dos Pássaros,Ribeira de Alto Mira",
+    "b": "Porto Novo,Ribeira Grande,Ponta do Sol,Pombas,Paul,Sinagoga,Espongeiro,Vale do Paúl,Tope de Coroa,Monte Tomé,Gudo de Cavaleiro,Moroços,Pico da Cruz,Ribeira da Garça,Ribeira da Janela,Ribeira do Paul,Ribeira da Torre,Ribeira da Cruz,Ribeira das Patas,Santo António das Pombas,São João Baptista,Santo André,Nossa Senhora do Rosário,Nossa Senhora do Livramento,Santo Crucifixo,São Pedro Apóstolo,Canal de São Vicente,Ilhéu dos Pássaros,Ribeira de Alto Mira,Fontainhas,Janela,Coculi,Eito,Alto Mira,Morro da Cruz,Pauzinho,Esponja",
     "status": "COMPLETE"
   },
   {
@@ -6336,7 +6306,7 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cachaço,Caleijão,Carriçal,Carvoeiros,Juncalinho,Morro Brás,Talho,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata,Nossa Senhora da Lapa,Nossa Senhora do Rosário,São Francisco de Assis,Baía de São Jorge,Ponta do Barril",
+    "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cachaço,Caleijão,Carriçal,Carvoeiros,Juncalinho,Morro Brás,Talho,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata,Nossa Senhora da Lapa,Nossa Senhora do Rosário,São Francisco de Assis,Baía de São Jorge,Ponta do Barril,Morros,Rochinha,Calhau,Cabecalinho,Horta,Cova,Tope,Canto,Tubarão,Água das Patas,Fajã",
     "status": "COMPLETE"
   },
   {
@@ -6798,5 +6768,15 @@ window.africaNameBases = [
     "m": 0,
     "b": "Nairobi,Nanyuki,Isiolo,Wajir,Garissa,Moyale,Kenya",
     "status": "WAITING"
+  },
+  {
+    "name": "Bari (South Sudan)",
+    "i": 836,
+    "min": 3,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Juba,Kajo-Keji,Lainya,Moro,Terekeka,Yeı,Rajaf,Rejaf,Tali,Tindilo,Wudu,Lobonok,Kuduzú,Loa,Gworl,Lon,Eri,Rek,Mere,Lukubá,Kuma,Besıa,Kero,Wẽ,Lor,Ngiri",
+    "status": "COMPLETE"
   }
 ];

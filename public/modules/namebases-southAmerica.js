@@ -560,16 +560,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Southern Quechua",
-    "i": 201333,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Cusco,Arequipa,Puno,Huancavelica,Ayacucho,Abancay,Urubamba,Pisac,Chinchero,Maras,Yucay,Combapata,Checacupe,Pomacanchi,Huancapi,VilcasHuamán,Huanta,Cangallo,Quinua,Acobamba,Izcuchaca,Pichari,Kimbiri,SantaAna,Ccatca,Lucre,Andahuaylillas,Urcos,Oropesa,Chinchaypujio,Ocongate,Tinta,Sicuani,Espinar,Yauri,Chuquibambilla,Antabamba,Aymaraes,Andahuaylas,Sangarará,Acocora,Huancarani,Huancaray,Juliaca,Ilave,Ayaviri,Azángaro,Lampa,Cabana,Potosí,Sucre,Cochabamba,Quillacollo,Sacaba,Tarija,Tumibamba",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Sranan Tongo",
     "i": 201334,
     "min": 5,
@@ -1440,13 +1430,13 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Southern-Quechua",
+    "name": "Southern Quechua",
     "i": 2565,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Apurímac,Santo Tomás,La Convención,Tipón,Písac,Azángaro,Huancané,Potosí,Villazón,Cusco,Arequipa,Puno,Juliaca,Abancay,Andahuaylas,Ayacucho,Huamanga,Huancavelica,Urubamba,Ollantaytambo,Aguas Calientes,Machu Picchu,Sicuani,Espinar,Yauri,Chumbivilcas,Quillabamba,Calca,Anta,Paruro,Paucartambo,Quispicanchi,Canchis,Canas,Acomayo,Chinchero,Maras,Moray,Raqchi,Andahuaylillas,Huaro,Checacupe,Lampa,Ayaviri,Melgar,Carabaya,Sandia,Putina,Moho,Taraco,Conima,Juli,Pomata,Yunguyo,Desaguadero,Copacabana,Isla del Sol,Tiwanaku,La Paz,Oruro,Cochabamba,Sucre,Chuquisaca,Tarija,Bermejo",
+    "b": "Apurímac,Santo Tomás,La Convención,Tipón,Písac,Azángaro,Huancané,Potosí,Villazón,Cusco,Arequipa,Puno,Juliaca,Abancay,Andahuaylas,Ayacucho,Huamanga,Huancavelica,Urubamba,Ollantaytambo,Aguas Calientes,Machu Picchu,Sicuani,Espinar,Yauri,Chumbivilcas,Quillabamba,Calca,Anta,Paruro,Paucartambo,Quispicanchi,Canchis,Canas,Acomayo,Chinchero,Maras,Moray,Raqchi,Andahuaylillas,Huaro,Checacupe,Lampa,Ayaviri,Melgar,Carabaya,Sandia,Putina,Moho,Taraco,Conima,Juli,Pomata,Yunguyo,Desaguadero,Copacabana,Isla del Sol,Tiwanaku,La Paz,Oruro,Cochabamba,Sucre,Chuquisaca,Tarija,Bermejo,Pisac,Yucay,Combapata,Pomacanchi,Huancapi,VilcasHuamán,Huanta,Cangallo,Quinua,Acobamba,Izcuchaca,Pichari,Kimbiri,SantaAna,Ccatca,Lucre,Urcos,Oropesa,Chinchaypujio,Ocongate,Tinta,Chuquibambilla,Antabamba,Aymaraes,Sangarará,Acocora,Huancarani,Huancaray,Ilave,Cabana,Quillacollo,Sacaba,Tumibamba",
     "status": "COMPLETE"
   },
   {
@@ -1458,16 +1448,6 @@ window.southAmericaNameBases = [
     "m": 0,
     "b": "Mn̵fɵsikń̵,Adusé,Pɵɵtuɵi,Adukoefisiá,Fe’ikɵsé,Podɨn̵yakn̵’si,Ḭɒ̰yakn̵’si,Hḭ’ḭsé,Pɨdadié,I’ñefɵpiá,Sɒ’dɨn̵sí,Siɒhɒḛbukn̵fisiá,Kooró,Ḭsiakn̵taɨfo’í,Ya’doin̵sí,Po’padɨkń̵,Kɒipopaí,Ḭpa̰se,Paseifo’í",
     "status": "WAITING"
-  },
-  {
-    "name": "Bari",
-    "i": 836,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Juba,Kajo-Keji,Lainya,Moro,Terekeka,Yeı,Rajaf,Rejaf,Tali,Tindilo,Wudu,Lobonok,Kuduzú,Loa,Gworl,Lon,Eri,Rek,Mere,Lukubá,Kuma,Besıa,Kero,Wẽ,Lor,Ngiri",
-    "status": "COMPLETE"
   },
   {
     "name": "Venezuelan Spanish",

@@ -892,9 +892,26 @@ function err_has(code) {
 // name. That is a linguistic judgement, so this is reported, not enforced.
 
 {
+  // Fold diacritics, hyphens, slashes, dots, underscores and quote style as well
+  // as case, so that "Dangaleat"/"Dangaléat", "Kam Sui"/"Kam-Sui",
+  // "min-zhuang"/"Min Zhuang" and "Santo Antão Creole"/"Santo Antao Creole"
+  // are recognised as the same label. The previous key was
+  // trim().toLowerCase() with whitespace collapsed - the same normalisation
+  // filterNameBases() uses at runtime - so twenty-one pairs of duplicate labels
+  // were invisible to this check *and* were not deduplicated in the UI either.
+  // (An equivalent `fold` is defined in the W005 block above; this one is local so
+  // the two checks cannot drift apart silently if either is edited.)
+  const foldLabel = (s) =>
+    String(s || "")
+      .trim()
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[̀-ͯ]/g, "")
+      .replace(/[‘’ʼʻ`´]/g, "")
+      .replace(/[^a-z0-9]+/g, "");
   const byName = new Map();
   for (const e of allEntries) {
-    const name = String(e.name || "").trim().toLowerCase().replace(/\s+/g, " ");
+    const name = foldLabel(e.name);
     if (!name) continue;
     if (!byName.has(name)) byName.set(name, []);
     byName.get(name).push(e);

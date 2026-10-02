@@ -238,6 +238,11 @@ const ALLOWED_REMOVALS = new Set([
     // which is wrong on both counts. The language stays reachable through
     // `tariang-bahnaric`, which now holds its settlements.
     "tabghach",
+    // The `barito` row retired: its catalog row is tagged tags:["family"], so it
+    // is a group label rather than a language, and a "bases": [] stub is only
+    // legitimate for a real language nobody has researched. Its former base
+    // i=836 "Bari (South Sudan)" is an unrelated Central Sudan language.
+    "barito",
     // i=1689 "South Oran-Figuig Berber" deleted: a *third* copy of the language
     // that W012 could not see, because its name differs from i=201011 by a
     // hyphen rather than matching. Its 81 seeds opened with ~40 genuine Berber
