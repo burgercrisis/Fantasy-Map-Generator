@@ -350,16 +350,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Barlavento Creoles",
-    "i": 181,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0.1,
-    "b": "Ribeira Grande,Ponta do Sol,Porto Novo,Paul,Pombas,Mindelo,Calhau,Salamansa,São Pedro,Baía das Gatas,Ribeira da Vinha,Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Juncalinho,Caleijão,Carriçal,Espargos,Santa Maria,Palmeira,Pedra de Lume,Terra Boa,Murdeira,Sal Rei,Rabil,Povoação Velha,Fundo das Figueiras,João Galego,Bofarreira,Estância de Baixo,Cabeça dos Tarrafes,Coculi,Corda,Chã de Pedras,Figueiras,Chã de Igreja,Ribeira Alta,Lajedo,Alto Mira,Monte Trigo,Tarrafal de Monte Trigo,Janela,Eito,Fontainhas,Sinagoga,Xoxo,Lombo Santa,Covoada,Fajã de Baixo,Queimadas,Talho,Belém,Cachaço,Praia Branca,Ribeira Prata,Carvoeiros,Morro Brás,Fragata,Hortelã,Cabeçalinho,Ribeira dos Calhaus,Lameirão,Ribeira de Calhau,Ribeira Julião",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Maguindanao",
     "i": 188,
     "min": 4,
@@ -367,16 +357,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Cotabato City,Datu Odin Sinsuat,Sultan Kudarat,Buluan,Datu Piang,Shariff Aguak,Datu Paglas,Buldon,Parang,Sultan sa Barongis,Talayan,Guindulungan,Ampatuan,Mamasapano,Pagalungan,Barira,Upi,Matanog,Sultan Mastura,Kabuntalan,Northern Kabuntalan,Talitay,Datu Blah T. Sinsuat,Datu Abdullah Sangki,Datu Anggal Midtimbang,Datu Hoffer Ampatuan,Datu Montawal,Datu Salibo,Datu Saudi Ampatuan,Datu Unsay,General Salipada K. Pendatun,Mangudadatu,Paglat,Pandag,Rajah Buayan,Shariff Saydona Mustapha,South Upi,Dinaig,Nuling,Dulawan,Maganoy,Lambayong,Pagagawan,Kabacan,Midsayap,Pikit,Tulunan,Alamada,Matalam,Isulan,Lutayan,Sultan Kudarat (Sultan Kudarat Province),Tacurong,Pigcawayan,Aleosan,Carmen,Banisilan,Libungan,Mlang,Tantangan,Senator Ninoy Aquino,Lambayong (Sultan Kudarat Province),Columbio,Pres. Quirino,Esperanza,Kiamba,Maasim,Glan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Sotavento Creoles",
-    "i": 189,
-    "min": 4,
-    "max": 20,
-    "d": "",
-    "m": 0.1,
-    "b": "Praia,Assomada,Tarrafal,Pedra Badejo,Cidade Velha,Calheta de São Miguel,São Domingos,São Jorge dos Órgãos,Picos,Achada Falcão,Rui Vaz,João Teves,Santa Cruz,Ribeira da Barca,Chão Bom,Achada Grande,Palmarejo,Achada Santo António,Fazenda,Ponta d'Água,Vila Nova,São Francisco,Renque Purga,Fundura,Milho Branco,Vila do Maio,Calheta,Morro,Ribeira Dom João,Cascabulho,Figueira da Horta,Alcatraz,Pilão Cão,Pedro Vaz,Nova Sintra,Furna,Nossa Senhora do Monte,Cova Rodela,Fajã de Água,Cachaço,Sorno,São Filipe,Cova Figueira,Mosteiros",
     "status": "COMPLETE"
   },
   {
@@ -4577,16 +4557,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bassein,Vasai,Malad,Gorai,Manori,Dahisar,Kandivali,Borivali,Dongri,Mazgaon,Cavel,Sewri,Worli,Madh,Marve,Chimbai,Ranwar,Mumbai,Uttan,Khotwadi",
-    "status": "WAITING"
-  },
-  {
-    "name": "Caribbean English Creole",
-    "i": 20214,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Kingston,Port of Spain,Georgetown,Bridgetown,Nassau,Castries,St Georges,St Johns,Basse-Terre,Fort-de-France,Oranjestad,The Valley,Gustavia,Charlotte Amalie,Grand Turk,Plymouth,Brades,Philipsburg,Cockburn Town,Road Town",
     "status": "WAITING"
   },
   {
@@ -9096,7 +9066,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Sau,Arandu",
+    "b": "Shigar,Skardu,Kharmang,Gupis,Khaplu,Skarmu,Phander,Chilas,Marol,Dwyer,Chitral,Darel,Tangir,Roundu,Sond,Arang Kel,Satsar",
     "status": "WAITING"
   },
   {
@@ -9538,16 +9508,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Ranchi,Hazaribagh,Bokaro,Dhanbad,Giridih,Koderma,Chatra,Latehar,Palamu,Medininagar,Lohardaga,Gumla,Simdega,Khunti,Ramgarh,Chaibasa,Saraikela,Jamshedpur,Purulia,Jhalda,Baghmundi,Baripada,Karanjia,Jashipur,Udala,Keonjhar,Rourkela,Bamra,Rajnagarpur,Biramitrapur,Gomia,Chandrapura,Bhojudih,Nawagaon,Jamtara,Dumka,Godda,Sahebganj",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Koita",
-    "i": 97979,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Koiari,Hiri,Bereina,Kwikila,Rigo,Aroma,Goilala,Tapini,Woitape,Guari,Abau,Cloudy Bay,Amazon Bay,Kairuku,Mekeo Kuni,Bautama,Port Moresby",
-    "status": "WAITING"
   },
   {
     "name": "Kota",
@@ -10136,7 +10096,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Budai,Labuan,Maga,Mantauran,Tanan,Tona,Sandimen Township,Sanhe Village,Wutai Township,Majia Township,Lower Three Villages,Pingtung County",
+    "b": "Wutai,Haocha,Ali,Chiamu,Chulu,Tawu,Chinye,Taromak,Maolin,Tona,Wanshan,Tunghsin,Qingye,Dewen,Sanhe,Meiyuan,Jinfeng,Shenshan,Guchuan,Jiamu,Kucapungane,Dongxin,Pingtung",
     "status": "WAITING"
   },
   {
@@ -10207,6 +10167,66 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Armazi,Mtskheta,Garni,Bori,Dedoplistsqaro,Dzalisa,Kartli",
+    "status": "WAITING"
+  },
+  {
+    "name": "Klon",
+    "i": 2241,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "Probur,Probur Utara,Tribur,Halerman,Manatang,Margeta,Kuifana,Orgen,Wakapsir,Wakapsir Timur,Kafelulang,Moramam,Morba,Pailelang,Pintu Mas,Wolwal,Wolwal Barat,Wolwal Selatan,Wolwal Tengah,Mataraben,Aluben",
+    "status": "WAITING"
+  },
+  {
+    "name": "Javindo",
+    "i": 202270,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Semarang,Surakarta,Sala,Grobogan,Demak,Jepara,Pati,Rembang,Blora,Kendal,Ungaran,Ambarawa,Magelang,Salatiga,Boyolali,Sukoharjo,Klaten,Karanganyar,Sragen,Wonosari,Prambanan,Kasihan,Sewon,Banguntapan,Muntilan,Wates,Temanggung",
+    "status": "WAITING"
+  },
+  {
+    "name": "Makalero",
+    "i": 202354,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Iliomar,Uma Cadac,Uma Metinaro,Uma Quic,Luca,Letumoho,Viqueque,Natebe,Couraka,Umamota,Uma Matan",
+    "status": "WAITING"
+  },
+  {
+    "name": "Makasae",
+    "i": 202355,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Baucau,Viqueque,Laga,Sa'ane,Quelicai,Baguia,Vemasse,Venilale,Laivai,Luro,Nitibe",
+    "status": "WAITING"
+  },
+  {
+    "name": "Saisiyat",
+    "i": 202442,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Wufeng,Da'ai,Huayuan,Nanzhuang,Donghe,Penglai,Nanjinag,Shitan,Baisho",
+    "status": "WAITING"
+  },
+  {
+    "name": "Kanakanavu",
+    "i": 203077,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Manga,Takanua,Sanmin,Namasia",
     "status": "WAITING"
   }
 ];

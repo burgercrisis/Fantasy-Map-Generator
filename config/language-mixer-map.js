@@ -13741,9 +13741,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "negro-dutch",
-    "bases": [
-      202284
-    ]
+    "bases": []
   },
   {
     "iso": "nootka-jargon",
@@ -13799,9 +13797,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "pidgin-hawaiian",
-    "bases": [
-      200975
-    ]
+    "bases": []
   },
   {
     "iso": "pidgin-iha",
@@ -14989,9 +14985,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "rukai-budai-labuan-taromak",
-    "bases": [
-      203076
-    ]
+    "bases": []
   },
   {
     "iso": "buk",
@@ -15343,9 +15337,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "javanese",
-    "bases": [
-      202342
-    ]
+    "bases": []
   },
   {
     "iso": "jimi",
@@ -15691,9 +15683,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "rukai-maga-tona",
-    "bases": [
-      203078
-    ]
+    "bases": []
   },
   {
     "iso": "mailu",
@@ -15759,9 +15749,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "rukai-mantauran",
-    "bases": [
-      203079
-    ]
+    "bases": []
   },
   {
     "iso": "maori-ascii",
@@ -16173,9 +16161,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "philippine",
-    "bases": [
-      2072
-    ]
+    "bases": []
   },
   {
     "iso": "pitcairn-norfolk",
@@ -16585,9 +16571,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "timor-alor-pantar",
-    "bases": [
-      203056
-    ]
+    "bases": []
   },
   {
     "iso": "tok-pisin",
@@ -23203,12 +23187,6 @@ globalThis.languageMixerMap = [
     "iso": "x-saint-kitts-creole-dedicated",
     "bases": [
       20181
-    ]
-  },
-  {
-    "iso": "x-caribbean-english-creole",
-    "bases": [
-      20214
     ]
   },
   {

@@ -176,6 +176,13 @@ const ALLOWED_REMOVALS = new Set([
     //     Mingrelian + Laz; Karto-Zan (geor1252) the branch holding Georgian +
     //     Zan. It duplicated i=10032, i=200650 and i=2411.
     "x-orok", "x-georgian-zan", "x-kartvelian-languages", "karto-zan",
+    // "x-caribbean-english-creole" shadowed i=20214, which was not a variety at
+    // all: its twenty seeds were literally the national capitals of the Caribbean,
+    // plus five French and Dutch ones (Gustavia for Saint Barthelemy, Philipsburg
+    // for Sint Maarten, Oranjestad for Aruba). The repo already holds twelve
+    // dedicated entries for Bajan, Trinidadian, Bahamian, Jamaican, Virgin Islands
+    // Creole and the rest, so the coverage was already complete.
+    "x-caribbean-english-creole",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

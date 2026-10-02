@@ -1819,16 +1819,6 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Pidgin Hawaiian",
-    "i": 200975,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "HawaiianIslands,Oahu,Maui,Hawaii,Kauai,Molokai,Lanai,Niihau,Kahoolawe,Honolulu,Hilo,Lahaina,Wailuku,Kahului,Lihue,Kapaa",
-    "status": "WAITING"
-  },
-  {
     "name": "Port Jackson Pidgin English",
     "i": 200980,
     "min": 4,
@@ -2107,5 +2097,25 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Manche,Yol,Yaxha,Chocahau,Tzalac,Nito,Pusilha,Paliac,Campin,Tzoite",
     "status": "WAITING"
+  },
+  {
+    "name": "Negerhollands",
+    "i": 200967,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Charlotte Amalie,Charlotte Amalie East,Charlotte Amalie West,Christiansted,Coral Bay,Cruz Bay,Frederiksted,Frederiksted Southeast,Red Hook,Tutu,Anna's Retreat,Grove Place,Sion Farm",
+    "status": "WAITING"
+  },
+  {
+    "name": "West Greenlandic Eskimo Pidgin",
+    "i": 201002,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Paamiut,Manitsoq,Tasiilaq,Uummannaq,Upernavik,Qaanaaq,Ittoqqortoormiit,Kangerlussuaq,Narsaq,Narsarsuaq,Qasigiannguit,Qeqertarsuaq,Nanortalik,Kullorsuaq,Kangaatsiaq,Kulusuk,Ammassivik,Sarfannguit,Igaliku,Niaqornat,Qeqertat,Kapisillit,Nussuaq",
+    "status": "COMPLETE"
   }
 ];

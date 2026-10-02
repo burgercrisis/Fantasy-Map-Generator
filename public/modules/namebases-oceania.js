@@ -1,6 +1,6 @@
 window.oceaniaNameBases = [
   {
-    "name": "Ari (Papuan)",
+    "name": "Ari",
     "i": 187,
     "min": null,
     "max": null,
@@ -320,16 +320,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Philippine",
-    "i": 2072,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Manila,Cebu,Davao,Quezon City,Baguio,Iloilo,Zamboanga,Cagayan de Oro,Antipolo,Taguig,Pasig,Caloocan,General Santos,Parañaque,Bacoor,Makati,Las Piñas,Bacolod,Muntinlupa,Calamba,Imus,Angeles City,Marikina,Pasay,Biñan,Tarlac City,Butuan,Iligan,San Fernando",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Damal",
     "i": 2180,
     "min": 4,
@@ -367,16 +357,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Iasa,Sumai,Doropo,Sagasia,Ipisia,Agobara,Oromosapuo,Saguane,Samari,Wopa'ura,Kubira,Sepe,Aibinio,Aberegerema,Kename,Wariobodoro,Doumori,Pagona,Kope,Gibaio,Urama,Arigibi,Daru,Mabaduan,Mawata,Tureture,Katatai,Parama,Sui,Dawari,Sewerimabu,Koabu,Madame,Wederehiamo,Wabuda,Dameratamu,Gesoa,Wapi,Mabuduo,Kovisi,Sagero,Tivere,Maipani,Dibiri,Purutu",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Klon",
-    "i": 2241,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Kalabahi,Kabir,Baranusa,Bakalang,Marisa,Maliang,Moru,Kota Kalabahi,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Adang,Kokar,Wolibang,Alim Mebung,Apui,Maritaing,Bukapiting,Peitoko,Bolamelang,Pura,Kabola,Mainang",
     "status": "COMPLETE"
   },
   {
@@ -546,7 +526,7 @@ window.oceaniaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Abau,Amazon Bay,Aroma,Cloudy Bay,Bereina,Kwikila,Rigo,Tapini,Guari,Woitape,Kairuku,Koiari,Hiri,Bautama,Port Moresby,Goilala",
+    "b": "Ongofoina,Inauaisa,Kovio,Kairuku,Sagoa,Mangrove,Mairawa,Babou,Waileti",
     "status": "WAITING"
   },
   {
@@ -1240,16 +1220,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Javindo",
-    "i": 202270,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Semarang",
-    "status": "WAITING"
-  },
-  {
     "name": "Alekano",
     "i": 202334,
     "min": 4,
@@ -1318,16 +1288,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Touho,Vieux Touho,Touho-Mission,Koé-Ponandou,Kokingone-Pouïou,Congouma,Ouanache,Paola-Poyes,Pombéi,Tiouande,Tuai,Twaka,Wagap,Poindimié,Galilée,Tye,Koné",
     "status": "WAITING"
-  },
-  {
-    "name": "Javanese macro entry",
-    "i": 202342,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kudus,Demak,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati",
-    "status": "COMPLETE"
   },
   {
     "name": "Kaera",
@@ -1950,26 +1910,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Makalero",
-    "i": 202354,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Iliomar,Baucau,Fataluku",
-    "status": "WAITING"
-  },
-  {
-    "name": "Makasae",
-    "i": 202355,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Baucau District,Viqueque District,Baucau,Viqueque,Laga,Sa'ane,Fataluku,Lospalos",
-    "status": "WAITING"
-  },
-  {
     "name": "Mian",
     "i": 202360,
     "min": 4,
@@ -2087,16 +2027,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ontena,Oyana",
-    "status": "WAITING"
-  },
-  {
-    "name": "Saisiyat",
-    "i": 202442,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wufeng,Hsinchu,Nanchuang,Shitan,Miaoli,Ta'ai,Tungho",
     "status": "WAITING"
   },
   {
@@ -2440,16 +2370,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "timor-alor-pantar",
-    "i": 203056,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dili,Kupang,Alor,Pantar,Kalabahi,Lospalos,Lautem,Aileu,Likusaen,Maubara,Baranusa,Kabir,Bakalang,Marisa,Maliang,Takalelang,Ailol Kiding,Kolana,Wetan,Solor,Flores,Komodo,Sumbawa,Lombok,Bali,Wetar,Atauro,Kisar,Oirata,Fataluku,Makalero,Makasae,Bunak,Luro,Iliomar",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Mauritian Creole",
     "i": 203062,
     "min": 4,
@@ -2458,46 +2378,6 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Port Louis,Curepipe,Vacoas,Quatre Bornes,Beau Bassin,Rose Hill,Flacq,Mahebourg,Souillac,Pamplemousses,Triolet,Goodlands,Rivière du Rempart,Flic en Flac,Tamarin,Grand Baie,Pereybère,Cap Malheureux,Rose Belle,Nouvelle France,Chemin Grenier,Surinam,Saint Hubert,Bambous,Saint Pierre,Moka,Phoenix,Albion,Baie du Tombeau,Balaclava,Bois Chéri,Britannia,Case Noyale,Belle Mare",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Budai-Labuan-Taromak Rukai",
-    "i": 203076,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wutai,Pingtung,Taitung,Kaohsiung,Taiwan,Tanan,Labuan,Budai,Taromak",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kanakanavu",
-    "i": 203077,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Manga,Takanua,Nangisalu,Maya",
-    "status": "WAITING"
-  },
-  {
-    "name": "Maga-Tona Rukai",
-    "i": 203078,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Maolin,Tona,Kaohsiung,Taiwan,Lower Three Villages",
-    "status": "WAITING"
-  },
-  {
-    "name": "Mantauran Rukai",
-    "i": 203079,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wanshan,Fengli,Maolin,Kaohsiung,Taiwan,Lower Three Villages",
-    "status": "WAITING"
   },
   {
     "name": "Marind",
@@ -2756,7 +2636,7 @@ window.oceaniaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Rigo Inland Rural LLG,Kwale,Kware,Garihe,Garia,Papua New Guinea",
+    "b": "Kwale,Kware,Garihe,Garia",
     "status": "WAITING"
   },
   {
@@ -3057,6 +2937,16 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Dagai,Puduk,Wodegoduk,Iratoi,Mbowid,Biricare,Yevamu,Turumo,Nggweri,Fawidua,Acodi,Mbomban,Yei,Dumo,Kududomo,Ninggi,Mbinitmu,Wiga,Kiagai,Wina,Tumbui,Anevawi,Nggiduweni,Dukibeci,Kimbin,Weiga,Lumo",
+    "status": "WAITING"
+  },
+  {
+    "name": "Koita",
+    "i": 97979,
+    "min": 4,
+    "max": 16,
+    "d": "",
+    "m": 0,
+    "b": "Kilakila,Kailakinumu,Boera,Konekaru,Lea Lea,Papa,Porebada,Davage,Bogi,Kailak,Bun,Vadrau,Gaile,Hihifo,Gerehu,Wogim,Muri,Naga,Apau,Rikana,Ubu,Kambisa,Wamini,Saparua",
     "status": "WAITING"
   }
 ];

@@ -6756,7 +6756,7 @@
     {
       "name": "Koi",
       "iso": "kkt",
-      "region": "Asia",
+      "region": "Oceania",
       "category": "Sino-Tibetan",
       "family": "Kiranti"
     },
@@ -19489,7 +19489,7 @@
       "lexifier": "Chinese"
     },
     {
-      "name": "West Greenlandic Pidgin",
+      "name": "West Greenlandic Eskimo Pidgin",
       "iso": "west-greenlandic-pidgin",
       "region": "Misc",
       "category": "Pidgin",

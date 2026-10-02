@@ -5200,26 +5200,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Français Tirailleur",
-    "i": 200941,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dakar,Thies,SaintLouis,Ziguinchor,Banjul,Brikama,Kerewan,Bamako,Sikasso,Kayes,Segou,BoboDioulasso,Boromo,Nouakchott,Nema,Kiffa,Conakry,Kankan,Siguiri,Boke,Kamsar,Fria,Kindia,Mamou,Labe,Dalaba,Macenta,Kissidougou,Forecariah,Kaolack,Tambacounda,Diourbel,Kaedi,Rufisque,Abidjan,Bouake,Yamoussoukro",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Italian Eritrean",
-    "i": 200945,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Asmara,Massawa,Assab,Keren,Mendefera,Adi Keyh,Dekemhare,Senafe,Adi Quala,Segheneyti,Nakfa,Agordat,Barentu,Teseney,Beilul,Edd,Ghinda,Nefasit,Debarwa,Afabet,Alghena,Arafali,Beylul,Mersa Fatma,Omhajer,Shambiko,Tio,Wekiro,Dahlak Kebir,Nora,Dehil,Emba Soira,Anseba,Baraka,Gash,Mereb,Tekezé,Qohaito,Toconda,Metera,Dogali,Dukambiya,Haykota,Hagaz,Halhal,Kerkebet,Mai Aini,Areza,Tokombiya,Sahelia",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Jersey Dutch",
     "i": 200947,
     "min": 4,
@@ -5280,16 +5260,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Negerhollands",
-    "i": 200967,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "CharlotteAmalie,Christiansted,Frederiksted,RoadTown,Tortola,SpanishTown,StThomas,StJohn,StCroix,CruzBay,Tutu,Nyherrenhut,Annaberg,CinnamonBay,EstateEnigheden,Haulover,AnnasRetreat,CharlotteAmalieEast,CharlotteAmalieWest,CoralBay,FrederikstedSoutheast,RedHook,Frenchtown,Havensight,Altona,Fortuna,Contant",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Nootka Jargon",
     "i": 200969,
     "min": 4,
@@ -5327,16 +5297,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Colombo,Kandy,Galle,Jaffna,Anuradhapura,Trincomalee,Batticaloa,Negombo,Matara,Kalutara,Panadura,Kurunegala,Puttalam,Chilaw,Mannar,Vavuniya,Badulla,Bandarawela,NuwaraEliya,Dambulla,Sigiriya,Habarana,Kataragama,Tissamaharama,Hambantota,Ampara,Monaragala,Ratnapura,Kegalle,Gampaha,Dambana,Mahiyangana,SenanayakeSamudraya,MaduruOya,Henanigala",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "West Greenlandic Pidgin",
-    "i": 201002,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Paamiut,Manitsoq,Tasiilaq,Uummannaq,Upernavik,Qaanaaq,Ittoqqortoormiit,Kangerlussuaq,Narsaq,Narsarsuaq,Holsteinsborg,Julianehaab,Frederikshaab,Godthaab,Egedesminde,Christianshaab,Jakobshavn,Godhavn,Angmagssalik,Sukkertoppen",
     "status": "COMPLETE"
   },
   {
@@ -5718,46 +5678,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Havana,Matanzas,SantiagodeCuba,Trinidad,Cienfuegos,Camaguey,PinarDelRio,SanctiSpiritus,VillaClara,CiegoDeAvila,LasTunas,Holguin,Granma,Guantanamo,Artemisa,Mayabeque,ElPerico,PedroBetancourt,UnionDeReyes,Jibacoa,Guanabacoa,Regla,Marianao,Cerro,HabanaDelEste,SanMiguelDelPadron,Cotorro,LaLisa,Playa,PlazaDeLaRevolucion,ArroyoNaranjo,Boyeros,Montevideo,BuenosAires",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Namibian Black German",
-    "i": 200963,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Windhoek,Swakopmund,Omaruru,Outjo,Khorixas,Usakos,Karibib,Otjiwarongo,Grootfontein,Tsumeb,Otavi,Okahandja,Rehoboth,Mariental,Ketmanshoop,Luderitz,Oranjemund,Opuwo,Sesfontein,Okongo,Eenhana,Oshakati,Ondangwa,Gobabis,Aranos,Stampriet,Gibeon,Bethanie,Aus,RoshPinah,Helmeringhausen",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Simplified Italian of Libya",
-    "i": 200988,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tripoli,Benghazi,Misrata,Sabratha,Sirte,AlKhums,Derna,Tobruk,Ajdabiya,Zliten,Gharyan,Zawiya,Tarhuna,Ghadames,Nalut,Ghat,Zintan,Bayda,ElAgheila,Zuwarah,Mizda,RasLanuf,Sabha,Murzuk,Kufra",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Simplified Italian of Somalia",
-    "i": 200989,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mogadishu,Genale,Merca,Kismayo,Berbera,Hargeisa,Borama,Burao,Garoowe,Galkayo,Baidoa,Beledweyne,Bosaso,Qandala,Hobyo,Afmadow,LasKhorey",
-    "status": "WAITING"
-  },
-  {
-    "name": "Negro Dutch",
-    "i": 202284,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Charlotte Amalie,Charlotte Amalie East,Charlotte Amalie West,Christiansted,Coral Bay,Cruz Bay,Frederiksted,Frederiksted Southeast,Red Hook,Tutu,Anna's Retreat,Grove Place,Sion Farm",
-    "status": "WAITING"
   },
   {
     "name": "Beni Snous dialect",

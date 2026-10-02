@@ -6306,8 +6306,8 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Monte Gordo,Monte Bissau,Pico de Alberto,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cachaço,Caleijão,Carriçal,Carvoeiros,Juncalinho,Morro Brás,Talho,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata,Nossa Senhora da Lapa,Nossa Senhora do Rosário,São Francisco de Assis,Baía de São Jorge,Ponta do Barril,Morros,Rochinha,Calhau,Cabecalinho,Horta,Cova,Tope,Canto,Tubarão,Água das Patas,Fajã",
-    "status": "COMPLETE"
+    "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Carriçal,Juncalinho,Cachaço,Caleijão,Carvoeiros,Morro Brás,Talho,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata",
+    "status": "WAITING"
   },
   {
     "name": "Mbugu",
@@ -6788,5 +6788,75 @@ window.africaNameBases = [
     "m": 0,
     "b": "Algiers,Al,Jazair,Oran,Constantine,Qacentina,Annaba,Qal-a,Blida,Batna,Sétif,Setif,Tlemcen,Tilimsen,Sidi,Bel,Abbes,Tizi,Ouzou,Béjaïa,Bugia,Skikda,Mostaganem,Ouargla,Bordj,Bou,Arreridj,Bu,Chlef,Médéa,Madiyah,Laghouat,Laghwat,M-Sila,Jijel,Tébessa,Tibissa,Biskra,Mila,Tiaret,Tihert,Saïda,Saida,Tipaza,Bouira,Tindouf,Tinduf,Illizi,Djanet,Ghardaïa,Ghardaia,Béchar,Bashshar",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Barlavento Creoles",
+    "i": 181,
+    "min": 4,
+    "max": 18,
+    "d": "",
+    "m": 0.1,
+    "b": "Ribeira Grande,Porto Novo,Paul,Ponta do Sol,Pombas,Sinagoga,Coculi,Corda,Chã das Pedras,Chã de Igreja,Figueiras,Fontainhas,Lajedo,Alto Mira,Monte Trigo,Tarrafal de Monte Trigo,Janela,Eito,Xoxo,Lombo de Santa,Ribeira Alta,Mindelo,Calhau,Salamansa,São Pedro,Baía das Gatas,Lameirão,Ribeira de Vinha,Ribeira de Calhau,Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Juncalinho,Caleijão,Carriçal,Covoada,Fajã de Baixo,Queimadas,Talho,Belém,Cachaço,Praia Branca,Ribeira Prata,Carvoeiros,Morro Brás,Fragata,Hortelã,Cabeçalinho,Ribeira dos Calhaus,Espargos,Santa Maria,Palmeira,Pedra de Lume,Terra Boa,Murdeira,Sal Rei,Rabil,Povoação Velha,Fundo das Figueiras,João Galego,Bofarreira,Estância de Baixo,Cabeça dos Tarrafes",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Sotavento Creoles",
+    "i": 189,
+    "min": 4,
+    "max": 20,
+    "d": "",
+    "m": 0.1,
+    "b": "Praia,Assomada,Tarrafal,Pedra Badejo,Cidade Velha,Calheta de São Miguel,São Domingos,São Jorge dos Órgãos,Picos,Rui Vaz,João Teves,Santa Cruz,Ribeira da Barca,Chão Bom,Fazenda,Milho Branco,Vila do Maio,Calheta,Morro,Ribeira Dom João,Cascabulho,Figueira da Horta,Alcatraz,Pilão Cão,Pedro Vaz,São Filipe,Cova Figueira,Mosteiros,Nova Sintra,Furna,Nossa Senhora do Monte,Cova Rodela,Fajã de Água,Cachaço",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Français Tirailleur",
+    "i": 200941,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dakar,Thies,SaintLouis,Ziguinchor,Banjul,Brikama,Kerewan,Bamako,Sikasso,Kayes,Segou,BoboDioulasso,Boromo,Nouakchott,Nema,Kiffa,Conakry,Kankan,Siguiri,Boke,Kamsar,Fria,Kindia,Mamou,Labe,Dalaba,Macenta,Kissidougou,Forecariah,Kaolack,Tambacounda,Diourbel,Kaedi,Rufisque,Abidjan,Bouake,Yamoussoukro",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Italian Eritrean",
+    "i": 200945,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Asmara,Massawa,Assab,Keren,Mendefera,Adi Keyh,Dekemhare,Senafe,Adi Quala,Agordat,Barentu,Teseney,Beilul,Edd,Ghinda,Nefasit,Debarwa,Afabet,Alghena,Arafali,Beylul,Mersa Fatma,Omhajer,Shambiko,Tio,Wekiro,Nora,Dehil,Halhal,Kerkebet,Mai Aini,Areza,Tokombiya,Sahelia",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Namibian Black German",
+    "i": 200963,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Windhoek,Swakopmund,Omaruru,Outjo,Khorixas,Usakos,Karibib,Otjiwarongo,Grootfontein,Tsumeb,Otavi,Okahandja,Rehoboth,Mariental,Ketmanshoop,Luderitz,Oranjemund,Opuwo,Sesfontein,Okongo,Eenhana,Oshakati,Ondangwa,Gobabis,Aranos,Stampriet,Gibeon,Bethanie,Aus,RoshPinah,Helmeringhausen",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Simplified Italian of Libya",
+    "i": 200988,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tripoli,Benghazi,Misrata,Sabratha,Sirte,AlKhums,Derna,Tobruk,Ajdabiya,Zliten,Gharyan,Zawiya,Tarhuna,Ghadames,Nalut,Ghat,Zintan,Bayda,ElAgheila,Zuwarah,Mizda,RasLanuf,Sabha,Murzuk,Kufra",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Simplified Italian of Somalia",
+    "i": 200989,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mogadishu,Genale,Merca,Kismayo,Berbera,Hargeisa,Borama,Burao,Garoowe,Galkayo,Baidoa,Beledweyne,Bosaso,Qandala,Hobyo,Afmadow,LasKhorey",
+    "status": "WAITING"
   }
 ];
