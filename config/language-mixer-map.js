@@ -19298,7 +19298,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "snd",
     "bases": [
-      2351
+      990
     ]
   },
   {
@@ -19656,19 +19656,13 @@ globalThis.languageMixerMap = [
   {
     "iso": "pus",
     "bases": [
-      13600
+      10007
     ]
   },
   {
     "iso": "tl",
     "bases": [
       10012
-    ]
-  },
-  {
-    "iso": "fil",
-    "bases": [
-      13600
     ]
   },
   {
@@ -19686,7 +19680,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "kn",
     "bases": [
-      13600
+      25
     ]
   },
   {
@@ -19822,7 +19816,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "bangla",
     "bases": [
-      13600
+      10001
     ]
   },
   {

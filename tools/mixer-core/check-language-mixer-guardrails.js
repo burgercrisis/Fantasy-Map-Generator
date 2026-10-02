@@ -243,6 +243,11 @@ const ALLOWED_REMOVALS = new Set([
     // legitimate for a real language nobody has researched. Its former base
     // i=836 "Bari (South Sudan)" is an unrelated Central Sudan language.
     "barito",
+    // The `fil` row retired: Filipino has neither a catalog record nor a
+    // namebase entry, so there was nothing to repoint to and nothing to research.
+    // It had been pointing at i=13600 "Ndebele", which is a different language
+    // and a different continent.
+    "fil",
     // i=1689 "South Oran-Figuig Berber" deleted: a *third* copy of the language
     // that W012 could not see, because its name differs from i=201011 by a
     // hyphen rather than matching. Its 81 seeds opened with ~40 genuine Berber

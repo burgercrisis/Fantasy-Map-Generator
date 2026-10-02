@@ -26,11 +26,11 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 678 | 233 | 4 | 27 |
-| asia | 1059 | 550 | 8 | 23 |
-| europe | 613 | 138 | 15 | 30 |
+| asia | 1031 | 541 | 8 | 23 |
+| europe | 646 | 152 | 15 | 30 |
 | northAmerica | 212 | 68 | 1 | 29 |
 | southAmerica | 148 | 28 | 0 | 32 |
-| oceania | 313 | 191 | 1 | 19 |
+| oceania | 308 | 186 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
@@ -117,7 +117,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | africa | 200225 | Zizilivakan |
 | 3 | africa | 200227 | Zumaya |
 | 3 | asia | 133 | Kenaboi |
-| 3 | asia | 1503 | Hinuq |
 | 3 | asia | 1675 | Kaikadi |
 | 3 | asia | 1704 | Domaaki |
 | 3 | asia | 2129 | Nadou |
@@ -135,6 +134,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 200729 | Cingali |
 | 3 | europe | 200734 | Jugan |
 | 3 | europe | 200811 | Tagil |
+| 3 | europe | 1503 | Hinuq |
 | 3 | northAmerica | 6624 | Chochotec |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202354 | Makalero |
@@ -232,6 +232,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 200571 | Wadiyara Koli |
 | 5 | asia | 211002 | Bishnupriya Manipuri |
 | 5 | asia | 1481 | Central Min |
+| 5 | asia | 202477 | Thao |
 | 5 | europe | 1088 | Northern Karelian |
 | 5 | europe | 1480 | Central Mansi |
 | 5 | europe | 2110 | Karelian proper |
@@ -243,7 +244,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 200973 | Papuan Pidgin English |
 | 5 | oceania | 201113 | Nedebang |
 | 5 | oceania | 202464 | Suganga |
-| 5 | oceania | 202477 | Thao |
 | 5 | oceania | 202498 | Waimoa |
 | 5 | oceania | 202739 | Djaru |
 | 5 | oceania | 202764 | Upper Arrernte |
@@ -296,8 +296,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 202630 | Sart Kalmyk |
 | 6 | asia | 202511 | Mankiyali |
 | 6 | asia | 202569 | Önge |
-| 6 | asia | 200646 | Botlikh |
-| 6 | asia | 200656 | Tindi |
 | 6 | asia | 201250 | Northern Itelmen |
 | 6 | europe | 1094 | Vadey |
 | 6 | europe | 200768 | Northern Ludic |
@@ -305,6 +303,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | europe | 200820 | Tuorpon |
 | 6 | europe | 200830 | Uralo-Siberian |
 | 6 | europe | 200835 | Verkhne-Kalimsk |
+| 6 | europe | 200646 | Botlikh |
+| 6 | europe | 200656 | Tindi |
 | 6 | northAmerica | 6636 | Holikachuk |
 | 6 | northAmerica | 6640 | Upper Tanana |
 | 6 | northAmerica | 8136 | Poqomam |

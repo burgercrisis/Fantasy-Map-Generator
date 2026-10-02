@@ -1,35 +1,20 @@
 {
   "staleHours": 8,
   "claims": {
-    "africa": {
-      "agent": "wb14-africa",
-      "task": "W012 folded-label duplicates",
-      "claimedAt": "2026-10-02T01:32:09.595Z"
-    },
-    "asia": {
-      "agent": "wb14-asia",
-      "task": "W012 folded-label duplicates",
-      "claimedAt": "2026-10-02T01:32:09.966Z"
-    },
     "europe": {
-      "agent": "wb14-europe",
-      "task": "W012 folded-label duplicates",
-      "claimedAt": "2026-10-02T01:32:10.502Z"
-    },
-    "northAmerica": {
-      "agent": "wb14-northAmerica",
-      "task": "W012 folded-label duplicates",
-      "claimedAt": "2026-10-02T01:32:10.983Z"
+      "agent": "wb15-europe",
+      "task": "continent misplacement moves",
+      "claimedAt": "2026-10-02T03:39:06.738Z"
     },
     "oceania": {
-      "agent": "wb14-oceania",
-      "task": "W012 folded-label duplicates",
-      "claimedAt": "2026-10-02T01:32:11.434Z"
+      "agent": "wb15-oceania",
+      "task": "continent misplacement moves",
+      "claimedAt": "2026-10-02T03:39:07.038Z"
     },
-    "southAmerica": {
-      "agent": "wb14-southAmerica",
-      "task": "W012 folded-label duplicates",
-      "claimedAt": "2026-10-02T01:32:11.967Z"
+    "asia": {
+      "agent": "wb15-asia",
+      "task": "continent misplacement moves",
+      "claimedAt": "2026-10-02T03:39:21.154Z"
     }
   }
 }

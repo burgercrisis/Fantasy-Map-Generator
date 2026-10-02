@@ -80,16 +80,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Archi",
-    "i": 95,
-    "min": 4,
-    "max": 11,
-    "d": "cltr",
-    "m": 0,
-    "b": "Archi,Kubachi,Khunzakh,Botlikh,Godoberi,Chamalal,Tindi,Bagulal,Bezhta,Hunzib,Tsez,Dido,Andi,Gamiyakh,Karata,Akusha,Mugi,Khvartseri,Archib,Khuchada,Talda,Gigatl,Chitab,Shalib,Agvali,Gunib,Derbent,Buynaksk,Khasavyurt,Makhachkala,Rutul,Kurakh,Akhty,Tlyarata,Gergebil,Untsukul,Gimry,Salta,Chokh,Tadmagitl",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Iban",
     "i": 97,
     "min": 4,
@@ -627,16 +617,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "North Andaman,North Reef Island,Strait Island,Bluff Island,Mayabunder",
-    "status": "WAITING"
-  },
-  {
-    "name": "Akhvakh",
-    "i": 811,
-    "min": 5,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Karata,Anchik,Archo,Ingerdakh,Izano,Kudiyabroso,Lologonitel,Mashtada,Mesterukh,Rachabulda,Ratsitl,Tad-Magitl,Tlibisho,Tlisi,Tsoloda,Tukita,Verkhneye Inkhelo,Akhvakh-Dere,Kaxib,Tlyanub,Tsegob,Ratlub",
     "status": "WAITING"
   },
   {
@@ -1890,16 +1870,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Hinuq",
-    "i": 1503,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Genukh,Novomonastyrskoe,Dagestan",
-    "status": "WAITING"
-  },
-  {
     "name": "Kachi Koli",
     "i": 203131,
     "min": 4,
@@ -2160,16 +2130,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Chamalal",
-    "i": 1620,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tsumada,Gigatl,Gakvari,Agvali,Gachitl,Quenkh,Urukh,Gadiri,Richaganikh,Egdada,Gigatli-Urukh,Arkaskent,Tsundi,Urguda,Tsidatl,Batlakhatli,Tsumada-Urukh,Lower-Gakvari,Upper-Gakvari",
-    "status": "WAITING"
-  },
-  {
     "name": "Chak",
     "i": 1621,
     "min": 4,
@@ -2298,16 +2258,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Jiayo,Yeyou,Jiraralay,Langdao,Jiranmilek,Dongqing,Jivalino,Jimowrod,Hongtou,Jiratay,Yuren,Iwatas,Yiwadasi,Iraralay,Iranmeylek,Iranmadgo,Ivalino,Imorod,Imourud,Iratay,Iratai",
     "status": "WAITING"
-  },
-  {
-    "name": "Dargwa",
-    "i": 1659,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Akusha,Urakhi,Kubachi,Gubden,Kayakent,Urkarakh,Suleiman-Stal,Khasavyurt,Makhachkala,Derbent,Buynaksk,Izberbash,Kaspiysk,Kizilyurt,Levashi,Sergokala,Mekegi,Tsudaqar,Kadar,Mugi,Gapshima,Butri,Ashti,Amuzgi,Shiri,Sanakari,Chakhrizhi,Dakhadayurt,Novolakskoye,Aknada",
-    "status": "COMPLETE"
   },
   {
     "name": "Dari",
@@ -2670,16 +2620,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tsez",
-    "i": 1802,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tsunta,Kidero,Gudatl,Azilta,Shaitl,Asakh,Retlob,Shapikh,Hupri,Sagada,Mitluda,Tsebari,Mokok",
-    "status": "WAITING"
-  },
-  {
     "name": "Dzongkha",
     "i": 1813,
     "min": 3,
@@ -2718,16 +2658,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Chuncheon,Wonju,Hwacheon,Inje,Yanggu,Hongcheon,Hoengseong,Pyeongchang,Jeongseon,Yeongwol,Gangneung,Donghae,Sokcho,Samcheok,Taebaek,Goseong,Yangyang,Wonsan,Munchon,Anbyon,Changdo,Chonchae,Hoeyang,Ichon,Kimhwa,Kosan,Kumgang,Kosong,Tongchon,Sepo",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Godoberi",
-    "i": 1838,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Zibirkhali,Beledi,Terechnoe,Tarumovka,Yurkovka,Malaya Areshevka,Zhdanova,Krasno-oktyabrskoe,Krasny Voskhod,Kamar-khutor,Utsmiyurt,Makhachkala,Khasavyurt,Kizilyurt,Kizlyar,Yuzhno-Sukhokumsk",
-    "status": "WAITING"
   },
   {
     "name": "Gejia",
@@ -2837,16 +2767,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Gaopo Township,Yangchang Township,Tangbao Township,Pingfa Township,Gaopo District,Huishui County,Guiding County,Baijin Township,Guiyang suburbs,Changshun County,Xiguan Township,Pingtang County,Yarong Township,Yashui District,Sandu District,Doudi District,Duansha District,Baitang District,Zhongguo District",
-    "status": "WAITING"
-  },
-  {
-    "name": "Hunzib",
-    "i": 1906,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Garbutl,Gunzib,Nakhada,Gelo,Khelada,Novo Garbutl,Rodor,Todor,Saruso,Khaladukh,Tsuntinsky,Kizilyurt",
     "status": "WAITING"
   },
   {
@@ -3390,16 +3310,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Khwarshi",
-    "i": 2160,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Khonokh,Khvarshi,Kwantlada,Upper Inkhokwari,Lower Inkhokwari,Santlada,Khwayni,Oktyabrskoe,Pervomayskoe,Komsomolskoe,Kizilyurt,Mutsalaul,Aksaj,Khasavyurt",
-    "status": "WAITING"
-  },
-  {
     "name": "Kiautschou Pidgin German",
     "i": 2161,
     "min": 4,
@@ -3700,26 +3610,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Karata",
-    "i": 2276,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Karata,Anchix,Tukita,Rachabalda,Lower Inxelo,Mashtada,Archo,Chabakovo,Racitl,Siux,Akhvakh,Khasavyurt,Tindi,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Armavir,Kapan,Goris,Stepanakert,Makhachkala,Derbent,Grozny,Dagestan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Karachay-Balkar",
-    "i": 2280,
-    "min": 4,
-    "max": 19,
-    "d": "",
-    "m": 0,
-    "b": "Karachay-Cherkessia,Nalchik,Cherkessk,Kislovodsk,Chegem,Terskol,Elbrus,Malkar,Terkebayevo,Karachay,Balkar,Kumyk,Teberda,Tyarbek,Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep,Mersin,Kayseri,Eskisehir,Samsun,Denizli,Trabzon,Diyarbakir,Sanliurfa,Van,Erzurum,Sivas,Balikesir,Aydin,Baksan,Dombay",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Kristang",
     "i": 2283,
     "min": 4,
@@ -3737,16 +3627,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Magwe,Thadou,Hmar,Lakher,Ralte,Paite,Mizo,Zo,Sinlung,Chinglung,Aizawl,Hakha,Tedim,Lunglei,Champhai,Kolasib,Serchhip,Lawngtlai,Saiha,Mamit,Thenzawl,Darlawn,Vairengte,Kawrthah,Sairang,Lengpui,Khawzawl,Saitual,Hnahthial,Zawlnuam,Bairabi,Khortu,Seling,Tlabung,Bualte,Nghalchawm,Phaipheng,Rulchawm,Samlukhai,Neihbawh,Hlimen,Tachhip,Maubuang,Hliappui,Phuaibuang,Tuirial,Sihphir,Melriat,Tanhril,Zemabawk,Dinthar,Chanmari,Ramhlun,Tuikual,Zotlang,Chhinga Veng,Chaltlang,Venghnuai,Bawngkawn,Ramthar,Salem Veng,Mission Veng,Thoubal,Mysore,Mangalore,Nagpur,Indore,Sagaing,Falam,Churachandpur,Bishnupur,Chandel,Kangpokpi,Thantlang,Mindat,Matupi,Paletwa,Kanpetlet,Siaha,Pherzawl,Cachar,Karbi Anglong",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kumyk",
-    "i": 2290,
-    "min": 4,
-    "max": 17,
-    "d": "",
-    "m": 0,
-    "b": "Makhachkala,Kizlyar,Buynaksk,Hasavyurt,Güçük-yurt,Braguny,Temir-Khan-Shura,Derbent,Kumyk,Kaitag,Terek,Bekeshevskaya,Chernyayevka,Alexeyevka,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Gorno-Altaysk,Ulan-Ude,Elista,Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep",
     "status": "COMPLETE"
   },
   {
@@ -3797,16 +3677,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Koraput,Rayagada,Gajapati,Kandhamal,Kalahandi,Phulbani,Ganjam,Araku,Sunkarametta,Gudari,Parja Kandha,Dongria Kondh",
-    "status": "WAITING"
-  },
-  {
-    "name": "Bagvalal",
-    "i": 2299,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kwanada,Khushtada,Tlisi,Andi-Koisu,Bagvalal,Avar,Tindi,Botlikh,Akhvakhsky,Tsumadinsky",
     "status": "WAITING"
   },
   {
@@ -3868,16 +3738,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Lanping,Gongxing,Enqi,Jinman,Tuoluo,Ega,Hexi,Lajing",
     "status": "WAITING"
-  },
-  {
-    "name": "Adyghe",
-    "i": 2356,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Maykop,Adygeysk,Enem,Tlyustenkhabl,Yablonovsky,Giaginskaya,Dondukovskaya,Kelermesskaya,Egerukhay,Koshekhabl,Khachemzy,Natyrbovo,Ponezhukay,Krasnogvardeyskoye,Dzhambichi,Adamy,Tulsky,Dakhovskaya,Kamennomostsky,Kurdzhipskaya,Kuzhorskaya,Guzeripl,Mafekhabl,Shuntuk,Khatazhukay,Mamkheg,Pshicho,Pshizov,Dzherokay,Natukhay,Novobzhegokay,Starobzhegokay,Afipsip,Khashtuk,Kozet,Pseytuk,Shendzhy,Sups,Pchegatlukay,Tugurgoy,Vochepshiy,Gabukay,Assokolay,Kunchukokhabl,Tauykhabl,Pshikuykhabl,Lazarevskoye,Volkonka,Chemitokvadzhe,Golovinka,Yakornaya Shchel,Nizhnyaya Beranda,Vardane,Loo,Uchdere,Dagomys,Tuapse",
-    "status": "COMPLETE"
   },
   {
     "name": "Lao",
@@ -3967,16 +3827,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Damascus,Dimashq,Aleppo,Halab,Homs,Hims,Hama,Hamah,Latakia,Al-Ladhiqiyah,Tartus,Baniyas,Idlib,Afrin,Daraa,As-Suwayda,Deir ez-Zor,Az-Zawr,Raqqa,Ar-Raqqah,Hasakah,Kamishli,Qamishli,Qunaytirah,Palmyra,Tadmur,Salamiyah,Manbij,Al-Bab,Azaz,Atarib,Hafir,Safirah,Jisr al-Shughur,Ariha,Maarat al-Numan,Khan Shaykhun,Saraqib,Binnish,Salqin,Kafr Nabl,Takharim,Harim,Jerusalem,Amman,Beirut,Haifa,Gaza,Nablus,Ramallah",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Lezgin",
-    "i": 2419,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Qusar,Quba,Qabala,Oghuz,Ismailli,Khachmaz,Derbent,Magaramkentsky,Kurakhsky,Suleyman-Stalsky,Balaken,Zaqatala,Samur,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Armavir,Kapan,Goris,Stepanakert,Makhachkala,Grozny,Nazran,Dagestan",
     "status": "COMPLETE"
   },
   {
@@ -4527,16 +4377,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Turbat,Khuzdar,Gwadar,Panjgur,Pasni,Mastung,Dalbandin,Nushki,Kalat,Sibi,Parom,Jiwani,Ormara,Hoshab,Mand,Tump,Suntsar,Washuk,Surab,Nag,Mashkhel,Gandava,Wadh,Dera Bugti,Chabahar,Iranshahr,Nikshahr,Chah-e-Mobarakeh,Espakeh,Kharan,Saravan,Quetta,Chagai,Hub,Lasbela,Killa Abdullah,Pishin,Loralai,Zhob,Awaran,Kech,Sui,Kohlu,Barkhan,Musa Khel,Zahedan,Zabol,Khash,Sarbaz,Konarak,Zaranj",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Nogai",
-    "i": 2658,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0.05,
-    "b": "Terekli-Mekteb,Erken-Yurt,Kizlyar,Achikulak,Nogaymir,Babayurt,Khasavyurt,Kumukh,Magaramkent,Kurakh,Kochubey,Tarumovka,Terek,Yaman-Su,Adil-Yangiyurt,Kokrek,Sulak,Komsomolskoe,Sary-Tyuz,Chinar,Sardarbek,Edige,Edyge,Termen,Chemen,Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep,Mersin,Kayseri,Alpan",
     "status": "COMPLETE"
   },
   {
@@ -8620,16 +8460,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Abaza",
-    "i": 300,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Cherkessk,Karachay,Cherkessia,Elbrus,Teberda,Dombay,Khasaut,Khabez,UstDzheguta,Zelenchuk,Arkhyz,Ust-Dzheguta,CherkessiaElbrus",
-    "status": "WAITING"
-  },
-  {
     "name": "Bzyb",
     "i": 303,
     "min": 4,
@@ -8637,16 +8467,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Bzypta,Pitsunda,Gagra,Gudauta,Ritsa,Ldzaa,Alakhadzi,Gegsky,Psyrtskha,Kodori,Geg,BzyptaRitsa,PsyrtskhaKodori",
-    "status": "WAITING"
-  },
-  {
-    "name": "Aghul",
-    "i": 304,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tpig,Richa,Fite,Khudig,Keren,Chirag,Akhty,Rutul,Kasumkent,Derbent,Tabasaran,Kurakh,TpigKurakh,DerbentTabasaran,RichaChirag",
     "status": "WAITING"
   },
   {
@@ -9127,16 +8947,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Ulan-Ude,Severobaikalsk,Gusinoozersk,Kyakhta,Zakamensk,Bichura,Selenginsk,Kabansk,Barguzin,Kurumkan,Khorinsk,Zaigraevo,Mukhorshibir,Ivolginsk,Tataurovo,Sokol,Onokhoy,Turuntaevo,Istomino,Verkhnyaya Ivolga,Petropavlovka,Dzhida,Kizhinga,Novokizhinginsk,Taksimo,Novy Uoyan,Severomuysk,Novaya Bryan,Kichera,Nizhneangarsk,Yanchukan,Ust-Barguzin,Bagdarin,Bayangol,Sharalday,Naushki,Tankhoy,Selenduma,Rechka-Vydrino,Vydrino,Gusinoye Ozero,Il,inka,ka,Istok,Orlik,Sosnovo-Ozerskoye,Sotnikovo,Tarbagatay,Smolenshchina,Talovka,Monostyrskoe,Posolskoye,Kabanskoye,Shara-Gorkhon,Turka,Maximikha,Mirnaya,Krasny Yar,Chivyrkuy,Davsha,Bodun,Bolshoy Ushkaniy,Borogol,Chitkan,Adamovo,Khorga,Shana,Shara-Azarga,Bulak,Gorkhon,Sarma,Sukhoy,Ulan-Gorkhon,Ust-Kyakhta,Khoronkhoy,Altan,Namag,Khuzhir,Kharagun,Markov,Krasnovodsk,Nizhnyaya Ivolga,Srednyaya Ivolga,Staryy Onokhoy,Novyy Onokhoy,Chelutay",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kalmyk",
-    "i": 20113,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Elista,Lagan,Gorodovikovsk,Sadovoye,Yashkul,Malye Derbety,Tsagan Aman,Bolshoy Tsaryn,Ketchenery,Komsomolsky,Yashalta,Utta,Khar-Buluk,Arshan,Baga-Burul,Iki-Burul,Zunda Tolga,Evgyut,Mandzhikiny,Mantsin Kets,Orgakin,Primanych,Khomutnik,Ut Sala,Cholun-Khamur,Shatt,Atsytskkhuta,Sarpa,Tugtun,Kegulta,Ergenny,Troitskoye,Vinogradnoye,Pushkino,Chapayevo,Rozenlal,Bagatugtun,Berezovskoye,Krasnomikhaylovskoye,Krasnopolye,Krasnyy Manych,Oktayabrskiy,Ulyyanovskoye,Esto-Altay",
     "status": "COMPLETE"
   },
   {
@@ -10280,26 +10090,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Chechen",
-    "i": 1555,
-    "min": 5,
-    "max": 11,
-    "d": "",
-    "m": 1,
-    "b": "Grozny,Gudermes,Urus-Martan,Shali,Argun,Achkhoy-Martan,Kurchaloy,Oyskhara,Goyty,Avtury,Vedeno,Itum-Kale,Shatoy,Nozhay-Yurt,Samashki,Assinovskaya,Sharoy,Khulandoy,Kesaloy,Khakmadoy,Chayry,Shikaroy,Khimoy,Buti,Kiri,Veduchi,Sadoy,Khindoy,Buni,Galanchozh,Khaybakh,Nikaroy,Zengali,Benoy-Vedeno,Dyshne-Vedeno,Elistanzhi,Tevzana,Khattuni,Alkhan-Yurt,Alkhazurovo,Gekhi,Goy-Chu,Martan-Chu,Roshni-Chu,Shalazhi,Starye Atagi,Novye Atagi,Bachi-Yurt,Alleroy,Geldagana,Enikali,Akhmat-Yurt,Koshkeldy,Gerzel-Aul,Biltoy-Yurt,Ishkhoy-Yurt,Beno-Yurt,Chechen-Aul,Belgatoy,Selmentauzen",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Abkhaz",
-    "i": 2351,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Gagra,Gudauta,Pitsunda,Bzyb,Tsandrypsh,New Athos,Lykhny,Miusera,Pskhu,Otkhara,Abgarkhuk,Machara,Merkheuli,Mikelrypsh,Tamishi,Tsalkoti,Tsarche,Sukhumi,Ochamchire,Gulripshi,Tkvarcheli,Agubedia,Reka,Chkhuartal,Ilori,Labra,Eshera,Beslakhuba,Blaburkhva,Chkhalta,Chlou,Dranda,Duripshi,Khashupse,Kholodnaya Rechka,Lidzava,Salme,Shroma,Sulevi,Gali,Okumi,Tskhori,Gudava,Orsantia,Pahulan,Leselidze,Bedia,Atara,Otomari,Tagilon,Kutol,Kvemo Azhara,Baghnari,Dzuar,Darch,Mokvi,Guma",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Georgian",
     "i": 10032,
     "min": 4,
@@ -10340,96 +10130,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Andi",
-    "i": 200644,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Andi,Gunkha,Gagatl,Ashali,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Bichonni,Rushukha,Tsibilda,Koisu,Tlisi,Chirkata,Gimali,Tsumada,Kvanada,Akhalchi,Sogratl,Oboda,Kizhani,Gakvari,Tadiyal,Maali,Khvered,Tlondoda,Gagar,Dzilebki,Koroda",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bezhta",
-    "i": 200645,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tladal,Khasharkhota,Balakuri,Isso,Sinatli,Zhammod,Andzhaga,Kachalay,Tsunta,Koyshula,Shamil",
-    "status": "WAITING"
-  },
-  {
-    "name": "Botlikh",
-    "i": 200646,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Miarso,Ashino,Chontaul,Ankho,Batlakhatli,Koyshula",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kabardian",
-    "i": 200647,
-    "min": 4,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nalchik,Baksan,Prokhladny,Terek,Mozdok,Nartan,Kislovodsk,Piatigorsk,Essentuki,Zheleznovodsk,Cherkessk,Maykop,Adygeisk,Giaginskaya,Khadyzhensk,Apsheronsk,Krasnodar,Armavir,Nevinnomyssk,Stavropol,Georgiyevsk,Budyonnovsk,Blagodarny,Izobilny,Neftekumsk,Ust-Dzheguta,Teberda,Dombay,Terskol,Verkhnyaya Balkariya,Zolskoye,Psygansu,Kashkhatau,Aushiger,Kenzhe,Staraya Krepost,Islamey,Kyzburun",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kubachi",
-    "i": 200649,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Amuzgi,Shari,Sulevkent,Derbent,Mamedkala,Dagestanskiye Ogni,Tabasaran,Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Mingrelian",
-    "i": 200650,
-    "min": 3,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zugdidi,Poti,Senaki,Martvili,Chkhorotsku,Tsalenjikha,Khobi,Ochamchire,Gali,Gulripshi,Abasha,Nokalakevi,Kveda Nasakirali,Mestia,Lentekhi,Oni,Ambrolauri,Tkibuli,Tskaltubo,Kutaisi,Batumi,Kobuleti,Ozurgeti,Gori,Khashuri,Kareli,Kaspi,Akhaltsikhe,Adigeni,Aspindza,Akhalkalaki,Ninotsminda,Bolnisi,Dmanisi,Tetri Tskaro,Tsalka,Marneuli,Gardabani,Sagarejo,Telavi,Kvareli",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Rutul",
-    "i": 200652,
-    "min": 3,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rutul,Luchek,Ikhrek,Amsar,Boch,Shinaz,Khinov,Kala,Aran,Vurush,Djilikhur,Mukhrek,Tsudik,Kiche,Kufa,Khnukh,Fucukh,Una,Kina,Pilek,Kish,Shin,Kainar,Shorsu,Dashjuz,Aidynbulakh,Khyrsa,Sheki,Qax,Khnyukh,Borç,Ağayev,Yuxarı Çardaqlı,Ləkit,Katex,Zəyəm,Müdrəsə,Qonaqkənd,Qusar,Xudat",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Svan",
-    "i": 200653,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mestia,Ushguli,Latali,Lenjeri,Mulakhi,Ipari,Adishi,Kala,Becho,Chuberi,Neskra,Nakra,Lalveri,Pari,Eceri,Xaishi,Laxamula,Cxumari,Rcxmeluri,Xeleduri,Xopuri,Lentekhi,Choluri,Lashxeti,Ialtsunesga,Tskhenis-Tskali,Enguri,Cxenis-Cqali,Kodori,Klukhor,Sakenara,Gvandrala,Dali,Aghirdi,Ushkul,Khumar,Tumusari,Bediani,Tetri Tskaro,Tsalka,Marneuli,Gardabani,Sagarejo,Telavi",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Tabasaran",
-    "i": 200654,
-    "min": 4,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Khuchni,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Kasumkent,Sulevkent,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Urkarakh,Madzhalis,Basly,Derbent,Mamedkala,Dagestanskiye Ogni,Rushvil,Tsanak,Zidyan,Rukala,Kuraka,Vechrik,Khvog-ratsar,Myakhlar,Zilgi",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tat",
     "i": 200655,
     "min": 4,
@@ -10438,16 +10138,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Lahıc,Ismailli,Shamakhi,Khachmaz,Guba,Xizi,Zarat,Qonaqkənd,Qusar,Xudat,Derbent,Mərdəkan,Biləcəri,Binəqədi,Qala,Lökbatan,Ramana,Suraxanı,Sabunçu,Bakıxanov,Balaxanı,Bülbülə,Xocəsən,Masazır,Hövsan,Pirşağı,Şüvəlan,Çilov,Nardaran,Qobustan,Göytəpə,Lənkəran,Astara,Masallı,Yardımlı,Cəlilabad,Biləsuvar,Saatlı,Sabirabad,Salyan,Neftçala,Xıllı,Qaracuxur,Göyçay,Ucar",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Tindi",
-    "i": 200656,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Idari,Aknada,Echeda,Tissi,Khushet,Goba",
-    "status": "WAITING"
   },
   {
     "name": "Ubykh",
@@ -10477,16 +10167,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Sedanka,Tigil,Napana,Amanino,Icha,Samzat",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kaitag",
-    "i": 202798,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Madjalis,Sanchi,Gazeya,Karatsan,Barshamai,Jhibakhni,Jhavgat,Jhirabachi,Kulidjha,Adaga,Antil',Varseet,Kirki,Gool'bii,Shileyagi,Shilansha,Khungeya,Akhmedkent,Surgeya,Mizhigli,Dooregi,Bazhlukh,Mashatlii,Pilyaki",
     "status": "WAITING"
   },
   {
@@ -10540,16 +10220,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bashkir",
-    "i": 20153,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Ufa,Salavat,Sterlitamak,Neftekamsk,Oktyabrsky,Beloretsk,Ishimbay,Tuymazy,Kumertau,Meleuz,Belebey,Birsk,Uchaly,Sibay,Baymak,Asha,Katav-Ivanovsk,Minyar,Sim,Yuryuzan,Vyazemsky,Karaidel,Kigi,Duvan,Mesyagutovo,Bolsheustyikinskoye,Starosubkhangulovo,Agidel,Blagoveshchensk,Davlekanovo,Dyurtyuli,Yanaul,Verkhny Avzyan,Inzer,Buribay,Tukan,Yumaguzino,Mramorkino,Meleuzovsky,Temyasovo,Isyangulovo,Krasnokholmsky,Tabynsk,Aksakovo,Askino,Bayguzino,Bavly,Begishevo,Belenok,Beleubay,Buzdyak,Chekmagush,Chishmy,Duven,Duven Duvan,Fedorovka,Gafuri,Glukhovskaya,Iglino,Iskino,Itkulovo,Ivanovka,Kabakovo,Kaga,Kalmasi,Kandry,Karlaman,Karmaskaly,Katai-Karmovskaya,Komsomolets,Kraonskaya,Krasny,Krasny Yar,Kushnarenkovo,Kuyurgazino,Magnitka,Mezhgorye,Mikhaylovka,Mishkino,Miyakinskiy,Naglaya,Nikolo-Berezovka,Novobelokatai,Novokudainsk,Osa,Otrada,Pavlovka,Petrovka,Priyutovo,Rafikovo,Sharan,Shulganovo,Sredny Ural,Starobaltachevo,Sterlibashevo,Subkhangulovo,Tirlyanskiy,Udaly,Verkhneye,Munzyrovo,Verkhniy Karakul,Verkhny,Kuganak,Yazykovo,Yurmaty,Zigaza,Argayash,Saraktash,Staraya Mayna,Sterlitamakskiy,Subkhankulovo,Tukansky,Tuymazinskiy,Ulu-Telyak,Ulu-Kain,Urussu,Akkuzovo,Andreyevka,Annam,Kaluy,Kaltyaman,Kalu,Kubyakovo,Almaly,Kyzyl-Kulak,Khalitovo,Sapkulovo,Bikkulovo,Yangi-Turmush,Yanagushevo,Bikkulovskoye,Yunost,Ulu-Kulak,Surak,Teren,Kulchurov,Mazeyevka,Syulpy,Kaltasy,Kundryak,Kungak,Aktau,Tuyembetka,Yanbayevo,Kiyevka,Turbeyevka,Ilmurino,Zilair,Zirgan,Muraptalovo,Chingizovo,Almukhametovo,Iremel,Maloyazovo,Inzerovskiy,Tukmach,Bedzhiga,Karagay,Khaybullinskiy,Akyar,Abzelilovskiy,Tamyanovo,Staraya,Kain,Kuru-Kulak,Khaibulina,Baimbetovo,Temirova,Kislorodchik,Temirovka,Baishevo,Semigorodnya,Mezentsevo,Islambaevo,Karakulevo",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Oeld",
     "i": 202563,
     "min": 4,
@@ -10587,6 +10257,56 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Dhor,Mitho,Kalan Kot,Mirpur Mathelo,Tando Hafiz,Channo,Samaro,Tando Mir,Tando Bhayo,Drigh Road,Jalal Khan,Kandhkot,Tando Kot Bux,Kotri,Naudero",
+    "status": "WAITING"
+  },
+  {
+    "name": "Paiwan",
+    "i": 202421,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Pingtung County,Taitung County,Kaohsiung,Tjuabar,Mudan,Kulalao,Kapaiwanan,Tjaqatsiɬay,Patjavaɬ,Rarəkrək,Tjukuvuɬ,Kaviangan,Tjaɬakavus,Makazayazaya,Tjariḍik,Tjavuaɬi,Tjakuvukuvuɬ",
+    "status": "WAITING"
+  },
+  {
+    "name": "Thao",
+    "i": 202477,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Sun Moon Lake,Ita Thaw,Barawbaw,Shtafari,Taiwan",
+    "status": "WAITING"
+  },
+  {
+    "name": "papora",
+    "i": 203054,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Taichung,Changhua,Qingshui,Wuqi,Zhanghua,Lukang,Erlin,Beidou,Xihu,Fuxing,Puyan,Xizhou,Tianzhong,Shengang,Fengyuan,Tanzi,Longjing,Wufeng,Taichung Port,Wuri,South Taichung,North Taichung",
+    "status": "WAITING"
+  },
+  {
+    "name": "Puyuma",
+    "i": 203090,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Nanwang,Apapulu,Katipul,Alipai,Pinaski,Pankiu,Kasavakan,Katratripul,Likavung,Tamalakaw,Ulivelivek,Taitung County",
+    "status": "WAITING"
+  },
+  {
+    "name": "Rukai",
+    "i": 203266,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Budai,Labuan,Maga,Mantauran,Tanan,Tona,Sandimen Township,Sanhe Village,Wutai Township,Majia Township,Lower Three Villages,Pingtung County",
     "status": "WAITING"
   }
 ];

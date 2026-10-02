@@ -2120,16 +2120,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Paiwan",
-    "i": 202421,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pingtung County,Taitung County,Kaohsiung,Tjuabar,Mudan,Kulalao,Kapaiwanan,Tjaqatsiɬay,Patjavaɬ,Rarəkrək,Tjukuvuɬ,Kaviangan,Tjaɬakavus,Makazayazaya,Tjariḍik,Tjavuaɬi,Tjakuvukuvuɬ",
-    "status": "WAITING"
-  },
-  {
     "name": "Saisiyat",
     "i": 202442,
     "min": 4,
@@ -2167,16 +2157,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Yapsiei,Telefomin,Sandaun,Ambunti-Dreikikir,East Sepik",
-    "status": "WAITING"
-  },
-  {
-    "name": "Thao",
-    "i": 202477,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sun Moon Lake,Ita Thaw,Barawbaw,Shtafari,Taiwan",
     "status": "WAITING"
   },
   {
@@ -2490,16 +2470,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "papora",
-    "i": 203054,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Taichung,Changhua,Qingshui,Wuqi,Zhanghua,Lukang,Erlin,Beidou,Xihu,Fuxing,Puyan,Xizhou,Tianzhong,Shengang,Fengyuan,Tanzi,Longjing,Wufeng,Taichung Port,Wuri,South Taichung,North Taichung",
-    "status": "WAITING"
-  },
-  {
     "name": "timor-alor-pantar",
     "i": 203056,
     "min": 4,
@@ -2657,16 +2627,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Pitcairn Islands,Norfolk Island,Adamstown,Kingston,Bounty Bay",
-    "status": "WAITING"
-  },
-  {
-    "name": "Puyuma",
-    "i": 203090,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nanwang,Apapulu,Katipul,Alipai,Pinaski,Pankiu,Kasavakan,Katratripul,Likavung,Tamalakaw,Ulivelivek,Taitung County",
     "status": "WAITING"
   },
   {
@@ -2987,16 +2947,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Saint-Denis,Saint-Paul,Saint-Pierre,Le Tampon,Saint-Andre,La Possession,Saint-Benoit,Sainte-Marie,Sainte-Suzanne,Petite-Île,Les Avirons,Cilaos,Bras-Panon,Salazie,Entre-Deux,Etang-Sale,Plaine des Palmistes,Trois Bassins,Saint-Louis,Le Port",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rukai",
-    "i": 203266,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Budai,Labuan,Maga,Mantauran,Tanan,Tona,Sandimen Township,Sanhe Village,Wutai Township,Majia Township,Lower Three Villages,Pingtung County",
     "status": "WAITING"
   },
   {
