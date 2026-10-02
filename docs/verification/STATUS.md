@@ -14,7 +14,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Language entries | 3016 |
 | Marked COMPLETE (>= 25 seeds) | 1812 |
 | Marked WAITING (< 25 seeds) | 1204 |
-| Below seed floor | 1190 |
+| Below seed floor | 1189 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -26,7 +26,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 679 | 230 | 1 | 27 |
-| asia | 1025 | 538 | 2 | 23 |
+| asia | 1025 | 537 | 2 | 23 |
 | europe | 636 | 140 | 0 | 30 |
 | northAmerica | 211 | 67 | 0 | 29 |
 | southAmerica | 149 | 28 | 0 | 32 |
@@ -35,7 +35,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1190 entries need authentic settlement names. Ordered by seed count,
+1189 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203083 | Namiae |
 | 7 | oceania | 203108 | Tsaukambo |
 
-_Showing the lowest 300 of 1190. Full queue:_
+_Showing the lowest 300 of 1189. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

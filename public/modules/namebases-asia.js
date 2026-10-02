@@ -5726,7 +5726,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Minhe,Huzhu,Datong,Huangyuan,Xining,Pingan,Jishishan,Guyuan,Tongren,Golmud,Dulan,Zeku,Jianzha,Tongde,Xinghai,Guide,Chaka,Ledu,Hualong,Xunhua",
+    "b": "Chuankou,Gushan,Maying,Guanting,Bazhou,Manping,Li'erbao,Xiamen,Machangyuan,Beishan,Songshu,Xigou,Zongbao,Longzhi,Dazhuang,Zhuandao,Qianhe,Gangou,Zhongchuan,Hetaozhuang,Xinmin,Xing'er,Lajia,Sanxingzhuang,Fanjiahe,Hualintan,Guojiashan,Xiaoling,Qili,Fujiahe,Caiziwan,Lianhe,Sancha,Jianling,Maojiashanzhuang,Xianzi,Mayingzhuang,Liujiawan,Lijiashan,Chaigou,Guanxi",
     "status": "WAITING"
   },
   {

@@ -1576,7 +1576,7 @@ window.europeNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Perpignan,Figueres,Girona,Lleida,Tarragona,Barcelona,Sabadell,Terrassa,Mataró,Manresa,Vic,Olot,Puigcerdà,La Seu d'Urgell,Solsona,Balaguer,Tàrrega,Cervera,Prats-de-Mollo-la-Preste,Arles-sur-Tech,Céret,Villefranche-de-Conflent,Elne,Salses,Argelès-sur-Mer,Collioure,Aaov",
+    "b": "Perpignan,Elne,Salses,Argelès-sur-Mer,Collioure,Canet-en-Roussillon,Canohès,Cabestany,Pia,Rivesaltes,Pollestres,Bages,Passa,Baho,Baixas,Saint-Nazaire,Fourques,Brouilla,Banyuls-dels-Aspres,Saint-Martin-de-Fenouillet,Camélas,Maureillas-las-Illas,Leucate,Céret,Prats-de-Mollo-la-Preste,Arles-sur-Tech,Amélie-les-Bains-Palalda,Le-Boulou,Le-Tech,Laroque-des-Albères,L'Albère,Banyuls-sur-Mer,Cerbère,Port-Vendres,Prades,Villefranche-de-Conflent,Codalet,Corneilla-de-Conflent,Espira-de-Conflent,Bouleternère,Rodès,Ille-sur-Têt,Olette,Nyer,Py,Jujols,Fuilla,Fillols,Taurinya,Escaro,Eus,Estavar,Enveitg,Saillagouse,Sainte-Léocadine,Bourg-Madame,Angoustrine-Villeneuve-des-Escaldes,Porta,Osséja,Planès,Dorres,Égat,Font-Romeu-Odeillo-Via,Fontpédrouse,Formiguères,Mont-Louis,La-Cabanasse,La-Llagonne,Les-Angles,Matemale,Puyvalador,Porté-Puymorens,Targasonne,Ur,Ansignan,Caudiès-de-Fenouillèdes,Bélesta,Caramany,Opoul-Périllos,Estagel,Espira-de-l'Agly,Arboussols,Campoussy,Prats-de-Sournia,Sournia,Fenouillet,Tautavel,Llívia",
     "status": "COMPLETE"
   },
   {
@@ -2366,7 +2366,7 @@ window.europeNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Ala-Satakunta,Harjavalta,Kokemäki,Eura,Huittinen,Sastamala,Vampula,Punkalaidun,Vammala,Tyrvää,Kiikoinen,Mouhijärvi,Lavia,Suodenniemi,Pomarkku,Noormarkku,Ulvila,Kullaa,Ahlainen,Merikarvia,Siikainen,Honkajoki,Jämijärvi,Kankaanpää,Karvia,Ikaalinen,Kyykoski",
+    "b": "Loimaa,Huittinen,Kokemäki,Harjavalta,Hirvikoski,Alastaro,Mellilä,Virttaa,Vesikoski,Juva,Kemppilä,Mäenpää,Peltoinen,Taulensuu,Myllykylä,Kartanonmäki,Taati,Niittukulma,Ferraria,Hulmi,Suopelto,Hietalahti,Kojonkulma,Orisuo,Hauvola,Havinki,Hermu,Hiirijärvi,Huhtamaa,Merstola,Mämmimäki,Niuttala,Näyhälä,Pirilä,Pirkkala,Pitkäjärvi,Pitkäpäälä,Raasa,Suomenkylä,Satalinna,Torttila,Torvela,Tuisku,Tynkönkylä,Vareksela,Vinnari",
     "status": "COMPLETE"
   },
   {
