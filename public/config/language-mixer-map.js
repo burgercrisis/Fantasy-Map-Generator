@@ -9001,9 +9001,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "central-selkup",
-    "bases": [
-      1483
-    ]
+    "bases": []
   },
   {
     "iso": "central-transdanubian",
@@ -9041,9 +9039,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "colloquial-finnish",
-    "bases": [
-      1633
-    ]
+    "bases": []
   },
   {
     "iso": "core-mansi",
@@ -9553,15 +9549,11 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "merya",
-    "bases": [
-      200755
-    ]
+    "bases": []
   },
   {
     "iso": "meshcherian",
-    "bases": [
-      200756
-    ]
+    "bases": []
   },
   {
     "iso": "middle-botnian",
@@ -9589,9 +9581,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "muromian",
-    "bases": [
-      200761
-    ]
+    "bases": []
   },
   {
     "iso": "mysy",
@@ -9873,9 +9863,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "siberian-finnish",
-    "bases": [
-      200792
-    ]
+    "bases": []
   },
   {
     "iso": "siberian-ingrian-finnish",
@@ -10295,9 +10283,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "western-khanty",
-    "bases": [
-      761
-    ]
+    "bases": []
   },
   {
     "iso": "western-mansi",
@@ -21981,24 +21967,6 @@ globalThis.languageMixerMap = [
     "iso": "x-tswa",
     "bases": [
       20688
-    ]
-  },
-  {
-    "iso": "x-merya",
-    "bases": [
-      200755
-    ]
-  },
-  {
-    "iso": "x-meshcherian",
-    "bases": [
-      200756
-    ]
-  },
-  {
-    "iso": "x-muromian",
-    "bases": [
-      200761
     ]
   },
   {

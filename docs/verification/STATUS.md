@@ -11,14 +11,14 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3024 |
+| Language entries | 3017 |
 | Marked COMPLETE (>= 25 seeds) | 1812 |
-| Marked WAITING (< 25 seeds) | 1212 |
-| Below seed floor | 1202 |
-| Zero seeds | 20 |
+| Marked WAITING (< 25 seeds) | 1205 |
+| Below seed floor | 1193 |
+| Zero seeds | 7 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 809 |
+| Map ISOs with no namebase (research backlog) | 816 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -27,7 +27,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 679 | 230 | 1 | 27 |
 | asia | 1025 | 538 | 2 | 23 |
-| europe | 645 | 151 | 15 | 30 |
+| europe | 638 | 142 | 2 | 30 |
 | northAmerica | 212 | 68 | 1 | 29 |
 | southAmerica | 148 | 28 | 0 | 32 |
 | oceania | 305 | 187 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1202 entries need authentic settlement names. Ordered by seed count,
+1193 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -43,19 +43,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | africa | 200097 | Miler |
 | 0 | asia | 202471 | Katua |
 | 0 | asia | 202704 | Turung |
-| 0 | europe | 760 | Salym Khanty |
-| 0 | europe | 761 | Western Khanty |
-| 0 | europe | 1483 | Central Selkup |
-| 0 | europe | 1633 | Colloquial Finnish |
-| 0 | europe | 200755 | Merya |
-| 0 | europe | 200756 | Meshcherian |
-| 0 | europe | 200761 | Muromian |
-| 0 | europe | 200792 | Siberian Finnish |
-| 0 | europe | 200821 | Turku highlands |
-| 0 | europe | 200832 | Värmland Savonian |
-| 0 | europe | 200836 | Vishera |
-| 0 | europe | 200845 | Ylä-Satakunta |
-| 0 | europe | 200847 | Yurats |
 | 0 | europe | 202296 | Skepi Dutch Creole |
 | 0 | europe | 202265 | Duvle-Wano Pidgin |
 | 0 | northAmerica | 203064 | American Indian Pidgin English |
@@ -340,8 +327,21 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 202694 | Thmon |
 | 7 | europe | 2379 | Northern Mansi |
 | 7 | northAmerica | 396 | Seri |
+| 7 | northAmerica | 1198 | Tlicho |
+| 7 | northAmerica | 1630 | Chicomuceltec |
+| 7 | northAmerica | 2439 | Cuicatec |
+| 7 | northAmerica | 8055 | Chontal Maya |
+| 7 | oceania | 1827 | Grass Koiari |
+| 7 | oceania | 97974 | Huli |
+| 7 | oceania | 201207 | Usarufa |
+| 7 | oceania | 1069 | Kárás |
+| 7 | oceania | 202442 | Saisiyat |
+| 7 | oceania | 202478 | Tifal |
+| 7 | oceania | 202521 | Yipma |
+| 7 | oceania | 202742 | Githabul |
+| 7 | oceania | 202749 | Kunwinjku |
 
-_Showing the lowest 300 of 1202. Full queue:_
+_Showing the lowest 300 of 1193. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-809 languages the mixer map offers have no namebase entry
+816 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 | camtho | Camtho | undefined |
 
-_Showing 150 of 809._
+_Showing 150 of 816._
 
 ## How to work on this
 

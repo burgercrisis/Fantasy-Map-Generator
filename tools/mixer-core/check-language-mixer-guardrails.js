@@ -159,6 +159,12 @@ const ALLOWED_REMOVALS = new Set([
     //   x-madras-bashai  - shadow of i=202273, a Tamil sociolect defined by the
     //                     single city of Madras, so it had no toponymy of its own.
     "x-shirwi", "x-madras-bashai",
+    // Three more shadows of retired entries. All three shadowed an extinct,
+    // unattested Volga Finnic substrate known only from toponymy - Merya, the
+    // language of the Meshchera people, and Muromian. None has an ISO code or a
+    // Glottolog record and none has a documented settlement, so a namebase cannot
+    // be built for any of them.
+    "x-merya", "x-meshcherian", "x-muromian",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

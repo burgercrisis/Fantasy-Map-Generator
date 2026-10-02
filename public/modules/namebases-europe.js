@@ -2356,17 +2356,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Western Khanty",
-    "i": 761,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
+    "b": "Salym,Sivyś-Yakh,KS-6,Lempino,Cheuskino,Poykovsky,Singapay,Yuganskaya Ob,Kartateevy,Kut-Yakh,Sentyabrsky,KS-5,Ust-Yugan,Nefteyugansk,Pyt-Yakh,Alekseevy,Varvariny,Danilovy,Pavlovy,Petrovy,Punsy,Samsonovskie,Stepanovy,Filippovskie,Vosh-rap,Ay-yega-iki",
     "status": "WAITING"
   },
   {
@@ -2800,16 +2790,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Central Selkup",
-    "i": 1483,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Petuh",
     "i": 1487,
     "min": 4,
@@ -2878,16 +2858,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Perm,Berezniki,Solikamsk,Kizel,Chernushka,Kungur,Krasnoufimsk,Arya,Overyata,Dobryanka,Osa,Nytva,Gornozavodsk,Lysva,Chusovoy,Kuvandyk,Alexandrovsk,Bolkhov,Yayva,Okhansk,Ochyor,Barda,Yanaul,Ozersk,JalalAbad,Orlovka,Boguchaky,Aznakayevo,Zharma,Avletim,Shadrinsk,Gubakha,Gremyachinsk,Chaykovsky,Krasnokamsk,Usolye",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Colloquial Finnish",
-    "i": 1633,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Crimean Tatar",
@@ -4180,26 +4150,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Merya",
-    "i": 200755,
-    "min": 3,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Meshcherian",
-    "i": 200756,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Mulgi",
     "i": 200760,
     "min": 3,
@@ -4207,16 +4157,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Helme,Hummuli,Karksi,Halliste,Mulgi,Tarvastu,Paistu,Abja-Paluoja,Mõisaküla,Suure-Jaani,Kolga-Jaani,Kärstä,Olustvere,Aakre,Kurista,Väätsa,Järva-Jaani,Koeru,Albu,Rūjiena,Burtnieki",
-    "status": "WAITING"
-  },
-  {
-    "name": "Muromian",
-    "i": 200761,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {
@@ -4438,16 +4378,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Koidula,Võõpsu,Petseri,Värska,Saatse,Obinitsa,Meremäe,Miikse,Niitsiku,Mikitamäe,Ala-Tsumba,Tsumba,Kiiova,Kiislova,Kiksova,Klistina,Kolodavitsa,Kõllätõvä,Litvina,Lobotka,Lutepää,Lutja,Lütä,Maaslova,Masluva,Miku,Napi,Nedsaja,Paklova,Hindsa",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Siberian Finnish",
-    "i": 200792,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Siberian Ingrian Finnish",
@@ -4696,7 +4626,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Pöytyä,Karinainen,Ellinen,Helttula,Hi_mainen,Jalkala,Juotola,Juva,Kantola,Karhunoja,Kaulanperä,Kaulansuu,Koivisto,Kolkkinen,Kulhua,Kumila,Lankkinen,Leisala,Mustanoja,Mäkiäinen,Naaranoja,Oja,Ortenoja,Paju,Pappila,Pihlava,Puho,Raatikainen,Riihikoski,Taipalsaari,Vauranoja,Vistola,Kiukainen,Kyrö,Mäenpää,Närppi,Suutarla,Tilkanen,Heinijoki,Kajava,Keihäskoski,Kurala,Kärrilä,Latvo,Lietsa,Mettäinen,Mykkälä,Nokkala,Osa,Pramila,Tourula,Uusikartano,Vainionperä,Vimpa,Yläne,Köyliö,Säkylä,Yttilä,Kepola,Voitoinen,Tuiskula,Ristola,Vuorenmaa,Iso-Vimma,Karhusuo,Isokylä,Huovinrinne,Pyhäjoki,Sydänmaa",
     "status": "WAITING"
   },
   {
@@ -4796,7 +4726,7 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Juvanniemi,Lautasalmi,Lekvattnet,Kirveskangas,Norra Finnskoga,Södra Finnskoga,Östra Finnskoga,Vstra Finnskoga,Solør,Torsby,Filipstad,Munkfors,Säffle,Sunne,Sävedalen,Arvika,Hagfors,Åmål,Hällefors",
     "status": "WAITING"
   },
   {
@@ -4826,7 +4756,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Ust-Uls,Cherdyn,Solikamsk,Nyrob,Vels,Burunduk,Akchim,Pisanaya,Kondratova yurt,Loginova yurt,Bakhtiaryov yurts",
     "status": "WAITING"
   },
   {
@@ -4866,7 +4796,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Honkajoki,Kankaanpää,Karvia,Kiikka,Kiikoinen,Parkano,Punkalaidun,Virrat,Hämeenkyrö,Karkku,Tyrvää,Ruovesi,Pirkkala,Kangasala,Lempäälä,Vesilahti,Jämijärvi,Lavia,Kihniö",
     "status": "WAITING"
   },
   {
@@ -4876,7 +4806,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Gyda,Tazovsky,Antipayuta,Gaz-Sale,Urengoy,Nadym,Tarko-Sale,Yamburg,Novy Port,Mys Kamennyy,Gyyt,Yuratskaya Bay",
     "status": "WAITING"
   },
   {
