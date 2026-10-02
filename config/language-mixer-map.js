@@ -13299,9 +13299,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "american-indian-pidgin-english",
-    "bases": [
-      203064
-    ]
+    "bases": []
   },
   {
     "iso": "andaman-creole-hindi",

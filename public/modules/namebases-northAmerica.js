@@ -2099,16 +2099,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "American Indian Pidgin English",
-    "i": 203064,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Ch'olti'",
     "i": 203063,
     "min": 4,

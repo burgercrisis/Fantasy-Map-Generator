@@ -3048,5 +3048,15 @@ window.oceaniaNameBases = [
     "m": 0,
     "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Kungembit,Ambaga,Komokpin,Yogi,Dome,Yeran,Bongabun,Atkamba,Konkonda,Nago,Buseki,Western Province,Papua New Guinea,Ok Tedi,Fly River",
     "status": "WAITING"
+  },
+  {
+    "name": "Duvle-Wano Pidgin",
+    "i": 202265,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Dagai,Puduk,Wodegoduk,Iratoi,Mbowid,Biricare,Yevamu,Turumo,Nggweri,Fawidua,Acodi,Mbomban,Yei,Dumo,Kududomo,Ninggi,Mbinitmu,Wiga,Kiagai,Wina,Tumbui,Anevawi,Nggiduweni,Dukibeci,Kimbin,Weiga,Lumo",
+    "status": "WAITING"
   }
 ];

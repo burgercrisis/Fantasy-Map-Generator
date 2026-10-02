@@ -5760,26 +5760,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Skepi Dutch Creole",
-    "i": 202296,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Duvle-Wano Pidgin",
-    "i": 202265,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Beni Snous dialect",
     "i": 202304,
     "min": 4,

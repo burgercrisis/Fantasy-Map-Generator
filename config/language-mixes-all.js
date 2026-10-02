@@ -18444,7 +18444,7 @@
     {
       "name": "Duvle-Wano Pidgin",
       "iso": "duvle-wano-pidgin",
-      "region": "Misc",
+      "region": "Oceania",
       "category": "Pidgin",
       "family": "Pidgin",
       "tags": [
@@ -19324,7 +19324,7 @@
     {
       "name": "Skepi Dutch Creole",
       "iso": "skepi-dutch-creole",
-      "region": "Misc",
+      "region": "South America",
       "category": "Creole",
       "family": "Dutch-based",
       "tags": [

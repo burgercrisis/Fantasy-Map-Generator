@@ -1478,5 +1478,15 @@ window.southAmericaNameBases = [
     "m": 0,
     "b": "SantaCruzDelQuiche,ElQuiche,Chichicastenango,Chinique,Cunen,Joyabaj,Zacualpa,Chicaman,Pachalum,SanAndresSajcabaja,SanAntonioIlotenango,SanBartoloJocotenango,SanMiguelUspantan,SanPedroJocopilas,Quetzaltenango,Totonicapan,Momostenango,SanAndresXecul,SanCristobalTotonicapan,SanFranciscoElAlto,SantaMariaChiquimula,Nahuala,SantaLuciaUtatlan,Solola,Cantel,Zunil,Almolonga,Salcaja,Olintepeque,Quetzaltepeque,Cubulco,Rabinal,SanMiguelChicaj,SantaClaraLaLaguna,Samayac,Mazatenango,Sacapulas,Canilla,Uspantan,Patzite,SanBartolome,Jocotenango,Quiche,SanJuanCotzal,Nebaj,Chajul,SantoDomingoXenacoj,SanAndresSemetabaj",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Skepi Dutch Creole",
+    "i": 202296,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Stabroek,Cartabo,Fort Zeelandia,Fort Kyk-Over-Al,Ter Hoogen,Pomeroon,Georgetown,Vreed-en-Hoop,Queenstown,Zeelugt,Tuschen,Vergenoegen,Philadelphia,Greenwich Park,Hydronie,Parika,Sparta,Salem,Mora,Uitvlugt,Wakenaam,Leguan,Hog Island,Annandale,Suddie,Charity,Hampton Court,Adventure,Lima,Henrietta,La Belle Alliance,Anna Regina",
+    "status": "WAITING"
   }
 ];
