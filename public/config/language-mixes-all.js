@@ -17674,7 +17674,7 @@
     {
       "name": "Algerian Arabic",
       "iso": "algerian-arabic",
-      "region": "Middle East",
+      "region": "North Africa",
       "category": "Afroasiatic",
       "family": "Maghrebi"
     },

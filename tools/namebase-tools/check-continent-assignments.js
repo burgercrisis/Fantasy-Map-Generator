@@ -191,22 +191,80 @@ if (unassigned.length > 15) console.log(`  ... and ${unassigned.length - 15} mor
 // several passes have had to correct by hand.
 console.log("\nCatalog region vs the file the entry lives in:");
 let regionMismatch = 0;
+// Only unambiguous region values belong here. This map used to hold six keys, so
+// the check could compare 53% of the catalog and printed "(none)" for the other
+// 47% as if it had cleared them. Six misfiled entries were found sitting inside
+// that blind spot while this gate reported it green: Tangwang in oceania with 100%
+// Asian seeds, Vedda and Mingrelian in europe, Javindo and Pidgin Hawaiian in the
+// wrong continents.
+//
+// Deliberately NOT mapped, because each of these spans continents and mapping it
+// would manufacture false positives rather than find real ones:
+//   Pacific      Malay and Malayo-Chamic are Asian; Malayo-Polynesian is not.
+//   Eurasia      spans Europe and Asia outright.
+//   Americas     spans North and South America.
+//   Indian Ocean / Atlantic  span Africa, Asia and the Americas.
+//   Misc         carries no geographic meaning at all - it is the bucket a row
+//                lands in when nobody assigned it a region, so 123 rows are
+//                unplaceable rather than misplaced.
 const REGION_TO_CONTINENT = {
 	africa: "africa",
 	asia: "asia",
 	europe: "europe",
 	"north america": "northAmerica",
 	"south america": "southAmerica",
-	oceania: "oceania"
+	oceania: "oceania",
+	// sub-regions that name exactly one continent
+	"east asia": "asia",
+	"southeast asia": "asia",
+	"south asia": "asia",
+	"central asia": "asia",
+	"west asia": "asia",
+	"middle east": "asia",
+	"ancient mesopotamia": "asia",
+	caucasus: "asia",
+	siberia: "asia",
+	"sino-tibetan region": "asia",
+	"north africa": "africa",
+	"horn of africa": "africa",
+	"upper guinea": "africa",
+	"gulf of guinea": "africa",
+	australia: "oceania",
+	mesoamerica: "northAmerica",
+	"central america": "northAmerica",
+	caribbean: "northAmerica"
 };
+
+// Count how much of the catalog this section can actually judge, so a clean run
+// cannot be mistaken for full coverage.
+const regionIncomparable = new Map();
+let regionJudged = 0;
+let regionUnjudged = 0;
 for (const e of all) {
 	for (const iso of isosOfBase.get(e.i) || []) {
 		const reg = declaredRegion.get(iso);
 		const mapped = reg ? REGION_TO_CONTINENT[String(reg).toLowerCase()] : null;
-		if (mapped && mapped !== e.continent) {
+		if (!mapped) {
+			regionUnjudged++;
+			const key = reg ? String(reg) : "(no region)";
+			regionIncomparable.set(key, (regionIncomparable.get(key) || 0) + 1);
+			continue;
+		}
+		regionJudged++;
+		if (mapped !== e.continent) {
 			regionMismatch++;
 			console.log(`  ${iso} "${e.name}": catalog region "${reg}" but the entry is in ${e.continent}`);
 		}
 	}
 }
 console.log(regionMismatch ? `  (${regionMismatch} mismatch${regionMismatch > 1 ? "es" : ""})` : "  (none)");
+
+const judgedTotal = regionJudged + regionUnjudged;
+console.log(
+	`  coverage: ${regionJudged} row(s) judged, ${regionUnjudged} not comparable` +
+		` (${Math.round((regionJudged / Math.max(1, judgedTotal)) * 100)}%)`
+);
+if (regionIncomparable.size) {
+	const parts = [...regionIncomparable.entries()].sort((a, b) => b[1] - a[1]).map(([k, n]) => `${k} ${n}`);
+	console.log(`  not comparable, by region: ${parts.join(", ")}`);
+}
