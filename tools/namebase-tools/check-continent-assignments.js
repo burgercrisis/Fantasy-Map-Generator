@@ -44,7 +44,12 @@ const REGIONS = [
 	{ name: "europe", continent: "europe", file: "wikipedia-languages-of-europe.json" },
 	{ name: "north-america", continent: "northAmerica", file: "wikipedia-languages-of-north-america.json" },
 	{ name: "oceania", continent: "oceania", file: "wikipedia-languages-of-oceania.json" },
-	{ name: "americas-indigenous", continent: "southAmerica", file: "wikipedia-indigenous-languages-of-the-americas.json" }
+	// Spans the WHOLE Americas, so it cannot be attributed to one continent.
+	// Listing it as southAmerica - which the name invites - made it indict every
+	// North American indigenous language: Nahuatl, Cherokee, Inuktitut, Zuni and
+	// a hundred more were reported as "should be southAmerica". It is therefore
+	// claimed against both continents and never used to place an entry.
+	{ name: "americas-indigenous", continent: "northAmerica,southAmerica", file: "wikipedia-indigenous-languages-of-the-americas.json" }
 ];
 
 // ---- inputs -------------------------------------------------------------------
@@ -82,7 +87,8 @@ for (const region of REGIONS) {
 		const norm = normalizeName(item.name);
 		if (!norm) continue;
 		if (!continentsOf.has(norm)) continentsOf.set(norm, new Set());
-		continentsOf.get(norm).add(region.continent);
+		// a region may claim several continents, e.g. the whole-Americas list
+		for (const c of region.continent.split(",")) continentsOf.get(norm).add(c.trim());
 	}
 }
 
