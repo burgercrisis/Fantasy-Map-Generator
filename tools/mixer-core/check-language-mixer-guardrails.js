@@ -248,6 +248,26 @@ const ALLOWED_REMOVALS = new Set([
     // It had been pointing at i=13600 "Ndebele", which is a different language
     // and a different continent.
     "fil",
+    // 23 rows retired after an ISO 639-3 audit. Each named a real language that
+    // has neither a namebase entry nor a catalog record, so a "bases": [] stub
+    // would promise research with nothing to research. Worse, every one of these
+    // isos was invisible to the automated checks precisely because it had no
+    // catalog row, and most had been resolving to the WRONG language for years:
+    //   bng Benga (Cameroon, not Bengali)   ind Indonesian
+    //   crr Carolina Algonquian             tis Masadiit Itneg
+    //   sso Sissano (Vanuatu)               ydk Yoidik
+    //   uma Umatilla (Oregon)               ssi Sansi (India)
+    //   ksh Kolsch                         koo Konzo
+    //   sks Maia                            pko Pokoot
+    //   gmh Middle High German              skp Sekapan
+    //   lig Ligbi                           frc Cajun French
+    //   nyk Nyaneka                         suy Suya
+    //   yzg E'ma Buyang (not Yang Zhuang)   sop Songe
+    //   krs Gbaya (Kara-Kalpak is kaa, which already resolves correctly)
+    //   quh South Bolivian Quechua only; i=2565 spans Peru, Bolivia and N Chile
+    //   tyo absent from ISO 639-3, ISO 639-2 and Glottolog alike
+    "bng", "ind", "crr", "tis", "sso", "ydk", "uma", "ssi", "ksh", "koo", "sks",
+    "pko", "gmh", "skp", "lig", "frc", "nyk", "suy", "yzg", "sop", "krs", "tyo", "quh",
     // i=1689 "South Oran-Figuig Berber" deleted: a *third* copy of the language
     // that W012 could not see, because its name differs from i=201011 by a
     // hyphen rather than matching. Its 81 seeds opened with ~40 genuine Berber
