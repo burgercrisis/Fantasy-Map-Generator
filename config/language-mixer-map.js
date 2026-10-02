@@ -6980,12 +6980,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "tabghach",
-    "bases": [
-      202663
-    ]
-  },
-  {
     "iso": "tai",
     "bases": [
       202664

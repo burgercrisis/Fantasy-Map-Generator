@@ -229,6 +229,15 @@ const ALLOWED_REMOVALS = new Set([
     // `bnl` (Glottolog boon1242, Cushitic). Re-keyed to `bnl` in the catalog, the
     // map row and races.ts.
     "boon",
+    // The `tabghach` row and catalog record removed: they described the same
+    // language as `tariang-bahnaric`. Taghbach / Trieu / Talieng and the
+    // Gie-Trieng are one living Central Bahnaric language that carries three ISO
+    // codes between them (tdf, stg, gio) - Glottolog's own Tareng note records
+    // the confusion. The deleted row was the worse half of it: a zero-seed entry
+    // catalogued as "Mongolic / Para-Mongolic / historical / hypothetical",
+    // which is wrong on both counts. The language stays reachable through
+    // `tariang-bahnaric`, which now holds its settlements.
+    "tabghach",
     // i=1689 "South Oran-Figuig Berber" deleted: a *third* copy of the language
     // that W012 could not see, because its name differs from i=201011 by a
     // hyphen rather than matching. Its 81 seeds opened with ~40 genuine Berber

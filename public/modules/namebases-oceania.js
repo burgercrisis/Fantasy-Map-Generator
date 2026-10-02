@@ -3160,6 +3160,16 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
+    "name": "Turaka",
+    "i": 203272,
+    "min": 3,
+    "max": 12,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kapotaki",
+    "status": "WAITING"
+  },
+  {
     "name": "Yonggom",
     "i": 203279,
     "min": 4,

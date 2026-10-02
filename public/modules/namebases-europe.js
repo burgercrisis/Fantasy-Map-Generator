@@ -6120,6 +6120,16 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
+    "name": "Lak",
+    "i": 2412,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Kumukh,Vitskhi,Arakul,Balkhar,Shadni,Shalib,Vikhli,Kuli,Kaya",
+    "status": "WAITING"
+  },
+  {
     "name": "Banat",
     "i": 378,
     "min": 4,

@@ -6780,6 +6780,16 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
+    "name": "Algerian Saharan Arabic",
+    "i": 268,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tamanrasset,Tindouf",
+    "status": "WAITING"
+  },
+  {
     "name": "KiKAR",
     "i": 200948,
     "min": 4,

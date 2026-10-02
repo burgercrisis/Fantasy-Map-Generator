@@ -1096,7 +1096,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Huangyandong,Malindong,Dazhendong,Huangjin,Malin,Shanglin,Zhuli,Masi",
     "status": "WAITING"
   },
   {
@@ -1426,7 +1426,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Ban Phat,Ban Coc Lac,Chieng Pan,Tu Nang",
     "status": "WAITING"
   },
   {
@@ -3960,16 +3960,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Lak",
-    "i": 2412,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Ladakhi",
     "i": 2413,
     "min": 3,
@@ -5726,7 +5716,7 @@ window.asiaNameBases = [
     "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Sa Thay,Kon Plong,Duc Ha,Dac To,Tra My,Tay Tra,Son Tay,Son Bua",
     "status": "WAITING"
   },
   {
@@ -8880,33 +8870,13 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "American Indian Pidgin English",
-    "i": 203064,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Kulon",
     "i": 203265,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
-    "name": "Turaka",
-    "i": 203272,
-    "min": 3,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "",
+    "b": "Kulon,Kulonling,Fengshukeng,Xinlukeng",
     "status": "WAITING"
   },
   {
@@ -9626,7 +9596,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Nam Tu Thuong,Nam Tu Ha,Nam Xe",
     "status": "WAITING"
   },
   {
@@ -10256,7 +10226,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Yanshan,Guangnan,Wenshan,Maguan,Funing,Xichou,Malipo,Kuaxi,Zhela,Zhetu",
     "status": "WAITING"
   },
   {
@@ -10330,16 +10300,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tabghach",
-    "i": 202663,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Tangut",
     "i": 202682,
     "min": 4,
@@ -10356,7 +10316,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Dak Duc,Dak Nong,Boy Y,Plei Kan,Ngoc Hoi,Nam Giang,Dak Glei,Kon Tum,Quang Nam,Phuoc Son,Ngoc Linh,Sekong,Attapeu",
     "status": "WAITING"
   },
   {
@@ -10366,7 +10326,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Thavinjal,Ambalavayal,Vythiri,Muttil,Pozhuthana,Meppadi,Muppainad,Poothadi,Kalpetta,Kottanad,Kallumala,Kalpparra,Puttyad,Kadooru,Rippon,Chakkittappara,Karingandam,Koottakkavu,Kariyathan,Peradi,Meenmudi,Nedungarana",
     "status": "WAITING"
   },
   {
@@ -10428,16 +10388,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Aleppo,Afrin,Atarib,Ayn al-Arab,A'zaz,Al-Bab,Al-Safira,Dayr Hafir,Jarabulus,Manbij,Idlib,Arihah,Harem,Jisr ash-Shugur,Maarat al-Numaan,Kafr Takharim,Saraqib,Latakia,Jableh,Qardaha,Al-Haffah,Kessab,Manjila,Qaranjah,Salma,Tartus,Baniyas,Dreikiche,Safita,Hama,Masyaf,Mhardeh,Al-Suqaylabiyah,Raqqa,Tabqa,Al-Qusayr,Deir ez-Zor,Mayadin,Abu Kamal,Tell Abyad",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Algerian Saharan Arabic",
-    "i": 268,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Alyutor",
@@ -10706,7 +10656,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Liuxiang,Mengtou,Dadeng,Huangsang,Xincun,Gupu,Longhua,Nanzhou,Dajing,Zhanger,Liutuan,Luodan",
     "status": "WAITING"
   },
   {
@@ -10716,7 +10666,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Zhangbei,Luofu,Lianhua",
     "status": "WAITING"
   },
   {
@@ -10746,7 +10696,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Oldsiit,Ogiinuur,Khotont,Bayangol,Bortala,Tacheng,Altai,Chelpek,Boru Bashi,Erdeneburen,Ulzii Tup",
     "status": "WAITING"
   },
   {

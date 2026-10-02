@@ -9048,17 +9048,6 @@
       "family": "Bengali–Assamese"
     },
     {
-      "name": "Tabghach",
-      "iso": "tabghach",
-      "region": "Asia",
-      "category": "Mongolic",
-      "family": "Para-Mongolic",
-      "tags": [
-        "historical",
-        "hypothetical"
-      ]
-    },
-    {
       "name": "Tai",
       "iso": "tai",
       "region": "Asia",
@@ -10783,7 +10772,7 @@
       "iso": "lbe",
       "region": "Caucasus",
       "category": "Northeast Caucasian",
-      "family": "Avar"
+      "family": "Nakh-Dagestanian"
     },
     {
       "name": "Laz",
@@ -17692,7 +17681,7 @@
     {
       "name": "Algerian Saharan Arabic",
       "iso": "algerian-saharan-arabic",
-      "region": "Middle East",
+      "region": "Africa",
       "category": "Afroasiatic",
       "family": "Maghrebi"
     },
@@ -18167,7 +18156,7 @@
     {
       "name": "American Indian Pidgin English",
       "iso": "american-indian-pidgin-english",
-      "region": "Misc",
+      "region": "North America",
       "category": "Pidgin",
       "family": "English-based",
       "tags": [
@@ -22342,7 +22331,7 @@
     {
       "name": "Kulon",
       "iso": "uon",
-      "region": "Pacific",
+      "region": "Asia",
       "category": "Austronesian",
       "family": "Formosan",
       "wikipedia": "https://en.wikipedia.org/wiki/Kulon_language"
@@ -23858,7 +23847,7 @@
       "iso": "turaka",
       "region": "Pacific",
       "category": "Papuan",
-      "family": "Southeast Papuan"
+      "family": "Trans-New Guinea"
     },
     {
       "name": "Turama-Kikorian",

@@ -7283,7 +7283,6 @@ const raceLanguageProfiles: Record<string, RaceLanguageProfile> = {
       "southern-thai",
       "sqi",
       "surgut-khanty",
-      "tabghach",
       "tai-daeng",
       "tai-don",
       "tai-hongjin",

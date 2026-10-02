@@ -5,17 +5,17 @@
 > Hand edits are overwritten. To change a number here, change the data in
 > `public/modules/namebases-*.js` and regenerate.
 
-Generated: 2026-10-01  |  Seed floor: 25
+Generated: 2026-10-02  |  Seed floor: 25
 
 ## Headline
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3059 |
+| Language entries | 3058 |
 | Marked COMPLETE (>= 25 seeds) | 1830 |
-| Marked WAITING (< 25 seeds) | 1229 |
-| Below seed floor | 1224 |
-| Zero seeds | 44 |
+| Marked WAITING (< 25 seeds) | 1228 |
+| Below seed floor | 1223 |
+| Zero seeds | 29 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 803 |
@@ -25,17 +25,17 @@ Generated: 2026-10-01  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 679 | 235 | 4 | 27 |
-| asia | 1079 | 563 | 24 | 23 |
-| europe | 613 | 137 | 15 | 30 |
-| northAmerica | 211 | 67 | 0 | 29 |
+| africa | 680 | 236 | 4 | 27 |
+| asia | 1074 | 558 | 8 | 23 |
+| europe | 614 | 138 | 15 | 30 |
+| northAmerica | 212 | 68 | 1 | 29 |
 | southAmerica | 150 | 28 | 0 | 32 |
-| oceania | 317 | 194 | 1 | 19 |
+| oceania | 318 | 195 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1224 entries need authentic settlement names. Ordered by seed count,
+1223 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -44,30 +44,14 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | africa | 200097 | Miler |
 | 0 | africa | 200099 | Mire |
 | 0 | africa | 203072 | Settler Swahili |
-| 0 | asia | 1024 | Badong Yao |
-| 0 | asia | 1165 | Tai Muong Vat |
-| 0 | asia | 2412 | Lak |
-| 0 | asia | 200321 | Kayong |
-| 0 | asia | 203064 | American Indian Pidgin English |
-| 0 | asia | 203265 | Kulon |
-| 0 | asia | 203272 | Turaka |
 | 0 | asia | 202471 | Katua |
 | 0 | asia | 202617 | Sakhalin Ainu |
 | 0 | asia | 202641 | Shirwi |
 | 0 | asia | 202704 | Turung |
-| 0 | asia | 202833 | Mo Piu |
 | 0 | asia | 202850 | Puyŏ |
 | 0 | asia | 202273 | Madras Bashai |
-| 0 | asia | 202551 | Nong Zhuang |
-| 0 | asia | 202663 | Tabghach |
-| 0 | asia | 202683 | Tariang |
-| 0 | asia | 202688 | Thachanadan |
 | 0 | asia | 202705 | Tuyuhun |
-| 0 | asia | 268 | Algerian Saharan Arabic |
 | 0 | asia | 202817 | Han (Samhan) |
-| 0 | asia | 202827 | Kiong Nai |
-| 0 | asia | 202857 | She |
-| 0 | asia | 202563 | Oeld |
 | 0 | europe | 760 | Salym Khanty |
 | 0 | europe | 761 | Western Khanty |
 | 0 | europe | 1483 | Central Selkup |
@@ -83,6 +67,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | europe | 200847 | Yurats |
 | 0 | europe | 202296 | Skepi Dutch Creole |
 | 0 | europe | 202265 | Duvle-Wano Pidgin |
+| 0 | northAmerica | 203064 | American Indian Pidgin English |
 | 0 | oceania | 202763 | Umbugarla |
 | 1 | africa | 20722 | Cineni |
 | 1 | africa | 20731 | Dazawa |
@@ -103,9 +88,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | oceania | 202270 | Javindo |
 | 1 | oceania | 202368 | Nakai |
 | 1 | oceania | 202759 | Nunggubuyu |
+| 1 | oceania | 203272 | Turaka |
 | 2 | africa | 11282 | Geme |
 | 2 | africa | 200005 | Belneng |
 | 2 | africa | 200064 | Maaka |
+| 2 | africa | 268 | Algerian Saharan Arabic |
 | 2 | asia | 1645 | Cun Hlai |
 | 2 | asia | 2147 | Gong |
 | 2 | asia | 2246 | Lakkia-Kam-Sui |
@@ -142,6 +129,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 200325 | Khetrani |
 | 3 | asia | 200720 | Yeheni |
 | 3 | asia | 202620 | Samre |
+| 3 | asia | 202833 | Mo Piu |
+| 3 | asia | 202857 | She |
 | 3 | europe | 759 | Nizyam |
 | 3 | europe | 200729 | Cingali |
 | 3 | europe | 200734 | Jugan |
@@ -173,6 +162,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | africa | 200222 | Zemba |
 | 4 | asia | 1012 | Hu (Kongge / Kun'ge / Kon Keu) |
 | 4 | asia | 1155 | Ili Turki |
+| 4 | asia | 1165 | Tai Muong Vat |
 | 4 | asia | 1179 | tai-daeng |
 | 4 | asia | 1254 | Lashi |
 | 4 | asia | 1384 | Bateri |
@@ -184,6 +174,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200337 | Longsang Zhuang |
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
+| 4 | asia | 203265 | Kulon |
 | 4 | asia | 202614 | Sa-och |
 | 4 | asia | 1062 | Nuoxi Naxi Yao |
 | 4 | asia | 202574 | Paha |
@@ -340,8 +331,17 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | africa | 200034 | Jibyal |
 | 7 | africa | 200068 | Majera |
 | 7 | africa | 200198 | Toram |
+| 7 | africa | 200228 | Zumbun |
+| 7 | africa | 200948 | KiKAR |
+| 7 | asia | 1025 | Baekje Korean |
+| 7 | asia | 1133 | Barzani Jewish Neo-Aramaic |
+| 7 | asia | 1377 | Baram |
+| 7 | asia | 1257 | Ciqam |
+| 7 | asia | 1561 | Dhuleli |
+| 7 | asia | 1626 | Chilsso |
+| 7 | asia | 1768 | Eravallan |
 
-_Showing the lowest 300 of 1224. Full queue:_
+_Showing the lowest 300 of 1223. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
