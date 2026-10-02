@@ -14,7 +14,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Language entries | 3033 |
 | Marked COMPLETE (>= 25 seeds) | 1820 |
 | Marked WAITING (< 25 seeds) | 1213 |
-| Below seed floor | 1208 |
+| Below seed floor | 1207 |
 | Zero seeds | 29 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 678 | 233 | 4 | 27 |
-| asia | 1031 | 541 | 8 | 23 |
-| europe | 646 | 152 | 15 | 30 |
+| africa | 679 | 233 | 4 | 27 |
+| asia | 1033 | 542 | 8 | 23 |
+| europe | 646 | 151 | 15 | 30 |
 | northAmerica | 212 | 68 | 1 | 29 |
 | southAmerica | 148 | 28 | 0 | 32 |
-| oceania | 308 | 186 | 1 | 19 |
+| oceania | 305 | 185 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1208 entries need authentic settlement names. Ordered by seed count,
+1207 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 1768 | Eravallan |
 | 7 | asia | 2489 | Ole |
 
-_Showing the lowest 300 of 1208. Full queue:_
+_Showing the lowest 300 of 1207. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

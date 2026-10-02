@@ -10120,16 +10120,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Algerian Arabic",
-    "i": 24798,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Algiers,Al,Jazair,Oran,Constantine,Qacentina,Annaba,Qal-a,Blida,Batna,Sétif,Setif,Tlemcen,Tilimsen,Sidi,Bel,Abbes,Tizi,Ouzou,Béjaïa,Bugia,Skikda,Mostaganem,Ouargla,Bordj,Bou,Arreridj,Bu,Chlef,Médéa,Madiyah,Laghouat,Laghwat,M-Sila,Jijel,Tébessa,Tibissa,Biskra,Mila,Tiaret,Tihert,Saïda,Saida,Tipaza,Bouira,Tindouf,Tinduf,Illizi,Djanet,Ghardaïa,Ghardaia,Béchar,Bashshar",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tat",
     "i": 200655,
     "min": 4,
@@ -10307,6 +10297,36 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Budai,Labuan,Maga,Mantauran,Tanan,Tona,Sandimen Township,Sanhe Village,Wutai Township,Majia Township,Lower Three Villages,Pingtung County",
+    "status": "WAITING"
+  },
+  {
+    "name": "Saʼban",
+    "i": 201162,
+    "min": 5,
+    "max": 16,
+    "d": "",
+    "m": 0,
+    "b": "Bario,Bario Asal,Ulung Palang,Arur Dalan,Pa'Ramapoh Atas,Pa'Ramapoh Bawah,Pa'Derung,Padang Pasir,Kampung Baru,Pa'Umor,Pa'Ukat,Pa'Lungan,Long Dano,Pa'Dallih,Remudu,Long Lellang,Long Seridan,Ba'kelalan,Long Banga,Long Puak,Long Ballong,Long Peluan,Tang Paye,Krayan,Long Bawan,Nunukan",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Malay",
+    "i": 10019,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Jakarta,Surabaya,Bandung,Medan,Bekasi,Depok,Tangerang,Palembang,Semarang,Makassar,South Tangerang,Bogor,Pekanbaru,Padang,Malang,Samarinda,Denpasar,Balikpapan,Serang,Pontianak,Banjarmasin,Jambi,Cimahi,Surakarta,Manado,Kupang,Bandar Lampung,Pangkal Pinang,Tanjung Pinang,Batam,Bengkulu,Palu,Ambon,Manokwari,Jayapura,Sorong,Ternate,Sofifi,Mataram,Kendari,Bau-Bau,Gorontalo,Tidore,Langsa,Lhokseumawe,Subulussalam,Sabang,Banda Aceh,Meulaboh,Calang,Takengon,Lubuk Basung,Bukittinggi,Padang Panjang,Payakumbuh,Solok,Sawahlunto,Pariaman,Singkawang,Putussibau,Sintang,Ketapang,Sungai Raya,Banjarbaru,Bontang,Nusantara,Tarakan,Berau,Martapura,Kuala Kapuas,Muara Teweh,Palangkaraya,Sampit,Pangkalan Bun,Kotawaringin,Sukamara,Nanga Bulik,Pulang Pisau,Kuala Kurun,Amuntai,Tanjung,Batulicin,Kotabaru,Tanah Bumbu,Tanah Laut,Sekayu,Lubuklinggau,Pagar Alam,Prabumulih,Tebing Tinggi,Pematangsiantar,Tanjungbalai,Sibolga,Padang Sidempuan,Parapat,Berastagi,Binjai,Stabat,Kabanjahe,Sidikalang,Salak,Dolok Sanggul,Pangururan,Natal,Rantauprapat,Kisaran,Indrapura,Tanjung Tiram,Sei Rampah,Perbaungan,Limapuluh,Dumai,Bengkalis,Tembilahan,Selat Panjang,Bagan Siapi-api,Pasir Pangaraian,Ujung Tanjung,Teluk Kuantan,Kuala Lumpur,George Town,Johor Bahru,Kuching,Kota Kinabalu,Shah Alam,Malacca City,Alor Setar,Kota Bharu,Kuantan,Kuala Terengganu,Seremban,Ipoh,Petaling Jaya,Klang,Miri,Sandakan,Tawau,Sibu,Bintulu,Limbang,Lawas,Sri Aman,Mukah,Serian,Simunjan,Sarikei,Marudi,Bario,Kapit,Song,Belaga,Dalat,Betong,Pusa,Sebuyau",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Petjo",
+    "i": 202286,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Kemajoran,Karangbidara,Krambangan,Batavia,Bandung,Semarang,Surabaya,Malang,Garut,Depok,Magelang,Sukabumi,Koja,Dayeuh Manggung",
     "status": "WAITING"
   }
 ];

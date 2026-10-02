@@ -19127,7 +19127,7 @@
     {
       "name": "Petjo",
       "iso": "petjo",
-      "region": "Misc",
+      "region": "Asia",
       "category": "Creole",
       "family": "Dutch-based",
       "tags": [
@@ -22496,7 +22496,7 @@
     {
       "name": "Malay",
       "iso": "malay",
-      "region": "Pacific",
+      "region": "Asia",
       "category": "Austronesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Malay_language",
       "family": "Malayo-Polynesian"
@@ -23402,7 +23402,7 @@
     {
       "name": "Saʼban",
       "iso": "snv",
-      "region": "Pacific",
+      "region": "Asia",
       "category": "Austronesian",
       "family": "Malayo-Polynesian"
     },
@@ -26851,7 +26851,7 @@
     {
       "name": "Malaysian Malay",
       "iso": "malaysian-malay",
-      "region": "Oceania",
+      "region": "Asia",
       "category": "Austronesian",
       "family": "Malayo-Polynesian",
       "wikipedia": "https://en.wikipedia.org/wiki/Malaysian_Malay"

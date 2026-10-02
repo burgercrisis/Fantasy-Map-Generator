@@ -2416,7 +2416,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Kingisepp,Luga,Gatchina,Tosno,Lomonosov,Kronstadt,Sosnovy Bor,Sertolovo,Volkhov,Kirishi,Chudovo,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Pieksamaki,Jyvaskyla,Sysma,Hameenlinna,Hyvinkaa,Kolka,Mērsrags,Roja,Dundaga,Ventspils,Riga,Mazirbe,Sīkrags,Vaide,Pitrags,Melnsils,Košrags,Lūžņa,Tamme,Miķeļtornis",
+    "b": "Oviši,Lūžņa,Miķeļtornis,Lielirbe,Jaunciems,Sīkrags,Mazirbe,Košrags,Pitrags,Saunags,Vaide,Kolka,Melnsils,Ģipka,Paţīkmō,Lūž,Pizā,Īra,Ūžkilā,Sīkrõg,Irē,Kuoštrõg,Pitrõg,Sǟnag,Vaid,Kūolka,Mustānum,Gipkõ,Riga,Ventspils,Dundaga,Roja,Mērsrags,Slītere",
     "status": "COMPLETE"
   },
   {
@@ -4466,7 +4466,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Isilkul,Tara,Tavda,Znamenka,Bolsherechye,Kalachinsk,Muromtsevo,Sedelnikovo,Tevriz,Ust-Ishim,Znamenskoye,Kormilovka,Maryanovka,Moskalenki,Nazyvayevsk,Odesskoye,Poltavka",
+    "b": "Vanakülä,Malaya Arsiya,Bolshaya Arsiya,Volkovo,Mertvitsa,Fedorovka,Variva,Ryzhkovo,Chukhonskaya,Bugene,Finy,Orikovo,Matveevka,Välikülä,Larionovka,Unkurin külä,Boiarka,Staraya Riga,Stary Revel,Viron külä,Gelsingfors,Ruotsin külä,Narva,Suomen külä,Ivanovka,Verkhny Suetuk,Kulunda,Omsk,Tallinn",
     "status": "WAITING"
   },
   {

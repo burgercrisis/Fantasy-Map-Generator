@@ -268,6 +268,39 @@ const ALLOWED_REMOVALS = new Set([
     //   tyo absent from ISO 639-3, ISO 639-2 and Glottolog alike
     "bng", "ind", "crr", "tis", "sso", "ydk", "uma", "ssi", "ksh", "koo", "sks",
     "pko", "gmh", "skp", "lig", "frc", "nyk", "suy", "yzg", "sop", "krs", "tyo", "quh",
+    // 30 ISO-shaped row keys retired. Each duplicated a row that already
+    // governed the same namebase entry under the iso the catalog actually uses
+    // (`deu` not `ger`, `bod` not `tib`, `hausa` not `hau`, `igbo` not `ibo`,
+    // `thai` not `tha`, `sinhala` not `sin`, `maithili` not `mai`,
+    // `afrikaans` not `afr`, `nepali` not `npi`, `pashto` not `pus`,
+    // `georgian` not `geo`, `romanian` not `rum`, `low-german` not `nds`,
+    // `silesian-german` not `szl`, `walser-german` not `wae`, `skolt-sami` not
+    // `sms`, `pite-sami` not `sje`, `ter-sami` not `sjt`, `v-ro` not `vro`,
+    // `berta` not `wti`, `tai-daeng` not `tyr`, `shi` not `shr`,
+    // `huilliche` not `huh`, `limonese-creole` not `lwc`,
+    // `haflong-hindi` not `hfl`, `jiaoliao-mandarin` not `jlm`,
+    // `jilu-mandarin` not `jlu`).
+    // These were the blind spot: W009 compares a catalog name against the entry a
+    // row resolves to, and a row whose iso has no catalog record has nothing to
+    // compare. That is how `ben` generated Abenaki names, `tel` generated Avar
+    // and `kaz` generated Pohnpeian without any check firing. Zero of the 3726
+    // catalog rows use a bare 3-letter ISO code, so the fix was to retire the
+    // ISO-shaped duplicates rather than add 35 ISO-keyed records, which would
+    // have duplicated 30 existing names and taken the duplicate-name check from
+    // 10 groups to 39.
+    //
+    // `v-ro` was itself wrong before this and pointed at i=2062 "Voro (Nigeria)";
+    // ISO `vor` is Nigerian Voro and `vro` is Võro, so `v-ro` now resolves to Võro
+    // at i=908 and a correctly-keyed `vor` row was added for the Nigerian one.
+    //
+    // Most of these keys are not even ISO codes, which is the point: the catalog
+    // has always keyed these languages by an English slug, so the ISO-shaped key
+    // had no record to match. `shr`, `urd`, `hau`, `ibo`, `tha`, `sin`, `mai`,
+    // `aze`, `afr`, `fas` and `npi` are genuine ISO 639-3 codes, but of the
+    // wrong language or a code no catalog record uses.
+    "shr", "urd", "hau", "ibo", "tha", "sin", "mai", "aze", "afr", "fas",
+    "tib", "npi", "pus", "geo", "ger", "rum", "sms", "sje", "sjt", "vro",
+    "wae", "szl", "nds", "wti", "tyr", "hfl", "jlm", "jlu", "huh", "lwc",
     // i=1689 "South Oran-Figuig Berber" deleted: a *third* copy of the language
     // that W012 could not see, because its name differs from i=201011 by a
     // hyphen rather than matching. Its 81 seeds opened with ~40 genuine Berber

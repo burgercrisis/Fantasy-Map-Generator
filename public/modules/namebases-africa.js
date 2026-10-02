@@ -6778,5 +6778,15 @@ window.africaNameBases = [
     "m": 0,
     "b": "Juba,Kajo-Keji,Lainya,Moro,Terekeka,Yeı,Rajaf,Rejaf,Tali,Tindilo,Wudu,Lobonok,Kuduzú,Loa,Gworl,Lon,Eri,Rek,Mere,Lukubá,Kuma,Besıa,Kero,Wẽ,Lor,Ngiri",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Algerian Arabic",
+    "i": 24798,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Algiers,Al,Jazair,Oran,Constantine,Qacentina,Annaba,Qal-a,Blida,Batna,Sétif,Setif,Tlemcen,Tilimsen,Sidi,Bel,Abbes,Tizi,Ouzou,Béjaïa,Bugia,Skikda,Mostaganem,Ouargla,Bordj,Bou,Arreridj,Bu,Chlef,Médéa,Madiyah,Laghouat,Laghwat,M-Sila,Jijel,Tébessa,Tibissa,Biskra,Mila,Tiaret,Tihert,Saïda,Saida,Tipaza,Bouira,Tindouf,Tinduf,Illizi,Djanet,Ghardaïa,Ghardaia,Béchar,Bashshar",
+    "status": "COMPLETE"
   }
 ];

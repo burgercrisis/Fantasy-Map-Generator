@@ -830,16 +830,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Saʼban",
-    "i": 201162,
-    "min": 5,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Bario,Bario Asal,Ulung Palang,Arur Dalan,Pa'Ramapoh Atas,Pa'Ramapoh Bawah,Pa'Derung,Padang Pasir,Kampung Baru,Pa'Umor,Pa'Ukat,Pa'Lungan,Long Dano,Pa'Dallih,Remudu,Long Lellang,Long Seridan,Ba'kelalan,Long Banga,Long Puak,Long Ballong,Long Peluan,Tang Paye,Krayan,Long Bawan,Nunukan",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Seediq",
     "i": 201163,
     "min": 5,
@@ -1257,16 +1247,6 @@ window.oceaniaNameBases = [
     "d": "",
     "m": 0,
     "b": "Semarang",
-    "status": "WAITING"
-  },
-  {
-    "name": "Petjo",
-    "i": 202286,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kemajoran,Karangbidara,Krambangan,Batavia,Bandung,Semarang,Surabaya,Malang,Garut,Depok,Magelang,Sukabumi,Koja,Dayeuh Manggung,The Hague",
     "status": "WAITING"
   },
   {
@@ -1853,20 +1833,10 @@ window.oceaniaNameBases = [
     "name": "Cocos Malay",
     "i": 9821,
     "min": 4,
-    "max": 15,
+    "max": 18,
     "d": "",
     "m": 0,
-    "b": "Bantam,Kampong Bukit,Kampong Tanjong,Pulu Gangsa,Pulu Kembang,Pulu Lang,Pulu Kok,Tak Bawah,Pasir,Keeling,Aceh,Kelong,Tapah,Jakarta,Surabaya,Bandung,Medan,Palembang,Makassar,Semarang,Yogyakarta,Denpasar,Batam,Pekanbaru,Padang,Malang,Samarinda,Banjarmasin,Balikpapan,Manado,Mataram,Kupang,Ambon,Ternate,Jayapura,West Island,Home Island,Bilangan",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Malay",
-    "i": 10019,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Jakarta,Surabaya,Bandung,Medan,Bekasi,Depok,Tangerang,Palembang,Semarang,Makassar,South Tangerang,Bogor,Pekanbaru,Padang,Malang,Samarinda,Denpasar,Balikpapan,Serang,Pontianak,Banjarmasin,Jambi,Cimahi,Surakarta,Manado,Kupang,Bandar Lampung,Pangkal Pinang,Tanjung Pinang,Batam,Bengkulu,Palu,Ambon,Manokwari,Jayapura,Sorong,Ternate,Sofifi,Mataram,Kendari,Bau-Bau,Gorontalo,Tidore,Langsa,Lhokseumawe,Subulussalam,Sabang,Banda Aceh,Meulaboh,Calang,Takengon,Lubuk Basung,Bukittinggi,Padang Panjang,Payakumbuh,Solok,Sawahlunto,Pariaman,Singkawang,Putussibau,Sintang,Ketapang,Sungai Raya,Banjarbaru,Bontang,Nusantara,Tarakan,Berau,Martapura,Kuala Kapuas,Muara Teweh,Palangkaraya,Sampit,Pangkalan Bun,Kotawaringin,Sukamara,Nanga Bulik,Pulang Pisau,Kuala Kurun,Amuntai,Tanjung,Batulicin,Kotabaru,Tanah Bumbu,Tanah Laut,Sekayu,Lubuklinggau,Pagar Alam,Prabumulih,Tebing Tinggi,Pematangsiantar,Tanjungbalai,Sibolga,Padang Sidempuan,Parapat,Berastagi,Binjai,Stabat,Kabanjahe,Sidikalang,Salak,Dolok Sanggul,Pangururan,Natal,Rantauprapat,Kisaran,Indrapura,Tanjung Tiram,Sei Rampah,Perbaungan,Limapuluh,Dumai,Bengkalis,Tembilahan,Selat Panjang,Bagan Siapi-api,Pasir Pangaraian,Ujung Tanjung,Teluk Kuantan,Kuala Lumpur,George Town,Johor Bahru,Kuching,Kota Kinabalu,Shah Alam,Malacca City,Alor Setar,Kota Bharu,Kuantan,Kuala Terengganu,Seremban,Ipoh,Petaling Jaya,Klang,Miri,Sandakan,Tawau,Sibu,Bintulu,Limbang,Lawas,Sri Aman,Mukah,Serian,Simunjan,Sarikei,Marudi,Bario,Kapit,Song,Belaga,Dalat,Betong,Pusa,Sebuyau",
+    "b": "Pulu Kokos,Kampung Bantam,Pulu Keeling,Pulu Luar,Pulu Tikus,Pulu Pasir,Pulu Beras,Pulu Gangsa,Pulu Selma,Pulu Ampang Kechil,Pulu Ampang,Pulu Wa-idas,Pulu Blekok,Pulu Kembang,Pulu Cheplok,Pulu Pandan,Pulu Siput,Pulu Jambatan,Pulu Labu,Pulu Atas,Pulu Kelapa Satu,Pulu Blan,Pulu Blan Madar,Pulu Maria,Pulu Kambing,Pulu Panjang,Pulu Wak Bangka,Pulu Maraya",
     "status": "COMPLETE"
   },
   {
