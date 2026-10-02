@@ -6719,9 +6719,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "shirwi",
-    "bases": [
-      202641
-    ]
+    "bases": []
   },
   {
     "iso": "sholaga",
@@ -7249,9 +7247,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "tuyuhun",
-    "bases": [
-      202705
-    ]
+    "bases": []
   },
   {
     "iso": "u-pouma",
@@ -8485,9 +8481,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "han-samhan",
-    "bases": [
-      202817
-    ]
+    "bases": []
   },
   {
     "iso": "hm-nai",
@@ -8721,9 +8715,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "puyo",
-    "bases": [
-      202850
-    ]
+    "bases": []
   },
   {
     "iso": "pyojuneo",
@@ -13653,9 +13645,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "madras-bashai",
-    "bases": [
-      202273
-    ]
+    "bases": []
   },
   {
     "iso": "makassar-malay",
@@ -21616,12 +21606,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-madras-bashai",
-    "bases": [
-      202273
-    ]
-  },
-  {
     "iso": "x-michif",
     "bases": [
       200958
@@ -21631,12 +21615,6 @@ globalThis.languageMixerMap = [
     "iso": "x-orok",
     "bases": [
       202573
-    ]
-  },
-  {
-    "iso": "x-shirwi",
-    "bases": [
-      202641
     ]
   },
   {

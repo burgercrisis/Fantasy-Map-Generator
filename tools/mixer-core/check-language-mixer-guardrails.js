@@ -151,6 +151,14 @@ const ALLOWED_REMOVALS = new Set([
     // had nothing left to point at, and it could not be emptied instead because
     // the test requires an empty row to name a catalogued language.
     "x-armenian-hayeren",
+    // Five more x- shadows, removed with the entries they shadowed. None of the
+    // five was ever a language identifier:
+    //   x-shirwi         - shadow of i=202641, and "Shirwi" was not even an
+    //                     Ethiopian language: it is the historical ethnonym for
+    //                     Xianbei in the Serbi-Mongolic classification.
+    //   x-madras-bashai  - shadow of i=202273, a Tamil sociolect defined by the
+    //                     single city of Madras, so it had no toponymy of its own.
+    "x-shirwi", "x-madras-bashai",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

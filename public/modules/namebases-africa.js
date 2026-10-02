@@ -3646,7 +3646,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Jilib,Labadaad,Baladu Raxma,Maanyagaabo,Misra,Xatal Baraka,Kablaandi,Muuna,Maxad,Nassib Mohallim,Libaanga,Limoole,Cabdalle Kakane,Qalaaliyow,Geedgoy,Gajawa,Ghedgoi,Shidaad,Madhooka,Miniasa,Kumeyda,Makuungo,Makuuni,Seylac,Mubaarak,Mashemba,Mareerey,Heno,Hargeysa,Kumbareere,Yoontoy,Fanoole No. 1",
     "status": "WAITING"
   },
   {
@@ -4986,7 +4986,7 @@ window.africaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Laï,Tandjilé,Ndam,Sabou,Porol,Tine,Ouroulou,Sourdougou,Séméguin,Yémano,Padamaïnda,Mourgou,Mouoï,Tchéré,Toguior Mbassa,Toguior Ngolo,Douala,Bakhti,Mbarek,Kaïlal,Bogandé,Bogoro,Bédjia,Ogoi,Am Hobeïdou,Am Koulbédji,Am Koussou,Am Djarasso,Moundagabol,Nabrine,Palik,Kaga-Bandé,Yemdigué",
     "status": "WAITING"
   },
   {
@@ -6566,7 +6566,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Naivasha,Nakuru,Nanyuki,Nyahururu,Nyeri,Othaya,Tetu,Karatina,Naro Moru,Eldoret,Kesses,Burnt Forest,Matunda,Turbo,Kipkelion,Kericho,Litein,Londiani,Brooke,Kapsoit,Kapkatet,Nyamira,Keroka,Sotik,Bomet,Njoro,Molo,Gilgil,Elburgon,Subukia,Dundori,Bahati,Kijabe,Mau Narok,Rumuruti,Kinungi,Karuga,Endarasha,Mweiga,Kampi Ya Moto,Kitwe,Ndola,Chingola,Luanshya,Mufulira,Chililabombwe,Kalulushi,Chambishi,Mpongwe,Kabwe,Kapiri Mposhi,Serenje,Mkushi,Mumbwa",
     "status": "WAITING"
   },
   {

@@ -9126,7 +9126,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Tomari,Ilyinsky,Krasnogorsk,Orlovo,Uglegorsk,Kalinino,Kholmsk,Parusnoye,Korsakov,Gastello,Poronaysk,Siisuka,Otasu,Tarayka,Reinkol,Nogliki,Rayciska,Esturi",
     "status": "WAITING"
   },
   {
@@ -9180,16 +9180,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Shirwi",
-    "i": 202641,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Todrah",
     "i": 202697,
     "min": 4,
@@ -9240,16 +9230,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Puyŏ",
-    "i": 202850,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Andaman Creole Hindi",
     "i": 202259,
     "min": 4,
@@ -9268,16 +9248,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Cypriot Maronite-Arabic,Al-Hasakah,Suez,Tokat,Antalya,Ahmadi,Konya,Jeddah,Byblos,Nasiriyah,Homs,Ad Dali,Halabja,Istanbul,Ibri,Hebron,Jerash,Siirt,Batman,Raniya,Şanlıurfa,Hodeidah,Ras Al Khaimah,Samsun,Netanya,Zarqa,Buraidah,Port Vila,Aqaba,Aleppo,Beirut,Asyut,Alexandria,Urfa,Damascus,Nablus,Izmir,Gaza,Zahle,Sohar,Taiz,Sur,Hama,Adana,Karbala,Mosul,Tunis,Manama,Tyre,Ahvaz,Najaf,Baalbek,Tehran",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Madras Bashai",
-    "i": 202273,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
   },
   {
     "name": "Makassar",
@@ -9990,16 +9960,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tuyuhun",
-    "i": 202705,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Zhangzhung",
     "i": 202736,
     "min": 4,
@@ -10130,23 +10090,13 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Han (Samhan)",
-    "i": 202817,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Hmu",
     "i": 202820,
     "min": 4,
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Kad Linx,Qeef Dongb Naif Zeb,Qeef Dongb Naif Dol Hmub Dol Gud Zid Zid Zeb,Kaili",
+    "b": "Yanghao,Yangpai,Baixing,Datu,Zhenmin,Ouli,Qanu,Kaili,Leishan,Taijiang,Shibing,Huangping,Fuquan,Weng'an,Xingren,Gedong,Yangwu,Longquan,Paidiao,Yahui,Yanglie,Baduo,Metao,Taohua,Xinchang,Wulu,Wuzhai,Zongjiang,Guanghua,Xingfu,Zhaitou,Baye,Liangshan,Gaoyongzhai,Guanme,Hekou,Wenniu,Zhanghua,Pinglve,Zhaizao,Jiaosan,Maoping,Guazhi,Pingjin,Suijiang,Loujiang,Tongpo,Yuhe,Xinmin,Guben,Caidiwan,Huitong,Heba,Longshan,Raohe,Luobang,Wuai,Lalan,Paishaozhai,Jiaoli,Dujiang,Jialan,Dediao,Hongguang,Wuyun,Paidao,Paimo,Shuiwei,Jialiao,Jiajiu,Xunle,Bingmei,Tingdong,Cuili,Yueliangshan,Gunqinzhai,Yaogao",
     "status": "WAITING"
   },
   {
