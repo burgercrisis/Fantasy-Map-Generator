@@ -5800,16 +5800,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Minz Zhuang",
-    "i": 200371,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Longlin,Tianlin,Lingyun,Fengshan,Donglan,Bama,Du'an,Mashan,Longan,Ningming,Pingxiang",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Mnong",
     "i": 200372,
     "min": 3,

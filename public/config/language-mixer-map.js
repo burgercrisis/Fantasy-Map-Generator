@@ -5843,9 +5843,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "min-zhuang",
-    "bases": [
-      200371
-    ]
+    "bases": []
   },
   {
     "iso": "miyakoan",
@@ -23563,12 +23561,6 @@ globalThis.languageMixerMap = [
     "iso": "x-alak-bahnaric",
     "bases": [
       812
-    ]
-  },
-  {
-    "iso": "x-min-zhuang",
-    "bases": [
-      200371
     ]
   },
   {

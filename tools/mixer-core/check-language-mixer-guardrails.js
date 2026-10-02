@@ -133,6 +133,17 @@ const ALLOWED_REMOVALS = new Set([
     "x-santa-suonanba", "x-castilian-spanish", "x-irish", "x-raute",
     "x-yoshkar-olin", "x-western-hilali-dialects", "x-tharu-languages",
     "x-south-korean",
+    // "x-min-zhuang" is the same case again. It shadowed i=200371 "Minz Zhuang",
+    // whose 29 seeds were all already in i=200387 "Myang Zhuang" - the two
+    // entries held one list under two names, and the catalog calls the language
+    // "Min Zhuang" while the entry said "Minz Zhuang", so W009 compared two
+    // different strings and 29 is not 30, so no equality check fired either. The
+    // shadow's whole purpose was to paper over that index collision. With the
+    // duplicate entry gone the shadow has nothing left to point at, and an "x-"
+    // key can never be an empty row: mixer-map-resolution.test.js requires an
+    // empty row to name a catalogued language, which is what makes it a
+    // placeholder for outstanding work, and an alias is not a language.
+    "x-min-zhuang",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

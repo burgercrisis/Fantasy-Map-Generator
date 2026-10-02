@@ -11,8 +11,8 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3033 |
-| Marked COMPLETE (>= 25 seeds) | 1820 |
+| Language entries | 3032 |
+| Marked COMPLETE (>= 25 seeds) | 1819 |
 | Marked WAITING (< 25 seeds) | 1213 |
 | Below seed floor | 1207 |
 | Zero seeds | 29 |
@@ -26,7 +26,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 679 | 233 | 4 | 27 |
-| asia | 1033 | 542 | 8 | 23 |
+| asia | 1032 | 542 | 8 | 23 |
 | europe | 646 | 151 | 15 | 30 |
 | northAmerica | 212 | 68 | 1 | 29 |
 | southAmerica | 148 | 28 | 0 | 32 |
