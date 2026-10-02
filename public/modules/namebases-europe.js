@@ -1596,7 +1596,7 @@ window.europeNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Lleida,Tarragona,Girona,Barcelona,Manresa,Vic,Berga,Ripoll,Olot,Figueres,Blanes,Lloret de Mar,Tossa de Mar,Sant Feliu de Guíxols,Palamós,Solsona,Balaguer,Tàrrega,Igualada,Puigcerdà,Seu d'Urgell,Sort,Àger,Os de Balaguer,Ponte de Suert",
+    "b": "Lleida,Balaguer,Os de Balaguer,Algerri,Albesa,Camarasa,Artesa de Segre,Ponts,Tàrrega,Anglesola,Tornabous,Vallfogona de Balaguer,Mollerussa,Bellpuig,Cervera,Agramunt,Golmés,Borges Blanques,Solsona,La Seu d'Urgell,Les Escaldes,Montblanc,Vimbodí i Poblet,Móra d'Ebre,Miravet,Riba-roja d'Ebre,Flix,Ascó,Tivissa,Gandesa,Horta de Sant Joan,Andorra la Vella,Escaldes-Engordany,Encamp",
     "status": "COMPLETE"
   },
   {
@@ -2286,7 +2286,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Namur,Charleroi,Dinant,Philippeville,Couvin,Walcourt,Beaumont,Chimay,Froidchapelle,Cerfontaine,Florennes,Onhaye,Yvoir,Anhée,Ciney,Hamois,Somme-Leuze,Havelange,Marche-en-Famenne,Nassogne,Rochefort,Houyet,Beauraing,Gedinne,Viroinval,Doische",
+    "b": "Charleroi,Châtelet,Jumet,Fleurus,Gosselies,Landelies,Leernes,Farciennes,Montignies-le-Tilleul,Seneffe,Feluy,Luttre,Frasnes-lez-Gosselies,Godarville,Trazegnies,Viesville,Petit-Rœulx,Chapelle-lez-Herlaimont,Nivelles,Rebecq,Jodoigne,Ittre,Genappe,Perwez,Grez-Doiceau,Piétrebais,La Hulpe,Rosières,Philippeville,Morialmé,Stave,Rognée,Chastrès,Gourdinne,Berzée",
     "status": "COMPLETE"
   },
   {
@@ -2297,16 +2297,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ejea de los Caballeros,Sos del Rey Católico,Uncastillo,Sádaba,Tauste,Luesia,Biel,Sierra de Luna,Las Pedrosas,Ardisa,Luna,Erla,Valpalmas,Piedratajada,Marracos,Farasdués,Bagüés,Asín,Orés,Frago,Lobera de Onsella,Isuerre,Undués de Lerda,Urriés,Salvatierra de Escá,Sigüés,Mianos,Ruesta,Artieda,Biota,El Frago",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Western Catalan",
-    "i": 734,
-    "min": 3,
-    "max": 21,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Lleida,Tarragona,Girona,Barcelona,Manresa,Vic,Berga,Ripoll,Olot,Figueres,Blanes,Lloret de Mar,Tossa de Mar,Sant Feliu de Guíxols,Palamós,Solsona,Balaguer,Tàrrega,Igualada,Puigcerdà,Seu d'Urgell,Sort,Àger,Os de Balaguer,Ponte de Suert",
     "status": "COMPLETE"
   },
   {
@@ -3586,7 +3576,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Namur,Charleroi,Dinant,Philippeville,Couvin,Walcourt,Beaumont,Chimay,Froidchapelle,Cerfontaine,Florennes,Onhaye,Yvoir,Anhée,Ciney,Hamois,Somme-Leuze,Havelange,Marche-en-Famenne,Nassogne,Rochefort,Houyet,Beauraing,Gedinne,Viroinval,Doische",
+    "b": "Namur,Dinant,Wavre,Ciney,Gembloux,Andenne,Mettet,Sombreffe,Fosse-la-Ville,Ohey,Profondeville,Jemeppe-sur-Sambre,Sambreville,Fernelmont,Éghezée,Gesves,Assesse,Floreffe,La Bruyère,Mazy,Crupet,Florée,Anhée,Yvoir,Hamois,Havelange,Somme-Leuze,Hastière,Onhaye,Rochefort,Houyet,Gedinne,Beauraing,Bièvre,Vresse-sur-Semois,Walcourt,Cerfontaine,Couvin,Florennes,Viroinval,Doische,Liège,Verviers,Malmedy,Huy,Waremme,Seraing,Herstal,Esneux,Juprelle,Visé,Dalhem,Glons,Ans,Comblain-au-Pont,Aywaille,Sprimont,Louveigné,Amay,Nandrin,Hamoir,Ouffet,Spa,Stoumont,Stavelot,Jalhay,Sart-lez-Spa,La Reid,Francorchamps,Chevron,Waimes,Robertville,Bévercée,Bellevaux-Ligneuville,Lierneux,Bastogne,Grand-Halleux,Arbrefontaine,Vielsalm,Bihain,Bovigny,Marche-en-Famenne,Durbuy,Rendeux,Waha,Nassogne,Tenneville,La Roche-en-Ardenne,Charleroi,Nivelles,Philippeville",
     "status": "COMPLETE"
   },
   {

@@ -5889,9 +5889,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "monguor",
-    "bases": [
-      200377
-    ]
+    "bases": []
   },
   {
     "iso": "monom-bahnaric",
@@ -12367,9 +12365,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "western-catalan",
-    "bases": [
-      734
-    ]
+    "bases": []
   },
   {
     "iso": "western-lombard",
@@ -22535,12 +22531,6 @@ globalThis.languageMixerMap = [
     "iso": "x-finnish",
     "bases": [
       1844
-    ]
-  },
-  {
-    "iso": "x-armenian-hayeren",
-    "bases": [
-      1937
     ]
   },
   {

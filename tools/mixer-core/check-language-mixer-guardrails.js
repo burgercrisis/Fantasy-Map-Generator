@@ -144,6 +144,13 @@ const ALLOWED_REMOVALS = new Set([
     // empty row to name a catalogued language, which is what makes it a
     // placeholder for outstanding work, and an alias is not a language.
     "x-min-zhuang",
+    // "x-armenian-hayeren" is the same case. It shadowed i=1937 "Armenian
+    // (Hayeren)", which held the same 42-seed list as i=2615 "Armenian" under a
+    // second name - Hayeren is simply the language's own endonym, not Western
+    // Armenian, which is Arevmtahayeren. With the duplicate entry gone the shadow
+    // had nothing left to point at, and it could not be emptied instead because
+    // the test requires an empty row to name a catalogued language.
+    "x-armenian-hayeren",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

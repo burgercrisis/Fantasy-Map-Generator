@@ -5889,9 +5889,7 @@
   },
   {
     "iso": "monguor",
-    "bases": [
-      200377
-    ]
+    "bases": []
   },
   {
     "iso": "monom-bahnaric",
@@ -12367,9 +12365,7 @@
   },
   {
     "iso": "western-catalan",
-    "bases": [
-      734
-    ]
+    "bases": []
   },
   {
     "iso": "western-lombard",
@@ -22535,12 +22531,6 @@
     "iso": "x-finnish",
     "bases": [
       1844
-    ]
-  },
-  {
-    "iso": "x-armenian-hayeren",
-    "bases": [
-      1937
     ]
   },
   {

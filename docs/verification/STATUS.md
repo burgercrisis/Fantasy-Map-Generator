@@ -11,14 +11,14 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3032 |
-| Marked COMPLETE (>= 25 seeds) | 1819 |
-| Marked WAITING (< 25 seeds) | 1213 |
-| Below seed floor | 1207 |
+| Language entries | 3029 |
+| Marked COMPLETE (>= 25 seeds) | 1812 |
+| Marked WAITING (< 25 seeds) | 1217 |
+| Below seed floor | 1211 |
 | Zero seeds | 29 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 802 |
+| Map ISOs with no namebase (research backlog) | 804 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -26,16 +26,16 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 679 | 233 | 4 | 27 |
-| asia | 1032 | 542 | 8 | 23 |
-| europe | 646 | 151 | 15 | 30 |
+| asia | 1030 | 544 | 8 | 23 |
+| europe | 645 | 151 | 15 | 30 |
 | northAmerica | 212 | 68 | 1 | 29 |
 | southAmerica | 148 | 28 | 0 | 32 |
-| oceania | 305 | 185 | 1 | 19 |
+| oceania | 305 | 187 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1207 entries need authentic settlement names. Ordered by seed count,
+1211 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -241,6 +241,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
+| 5 | oceania | 1851 | Fore |
 | 5 | oceania | 200973 | Papuan Pidgin English |
 | 5 | oceania | 201113 | Nedebang |
 | 5 | oceania | 202464 | Suganga |
@@ -339,9 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 1561 | Dhuleli |
 | 7 | asia | 1626 | Chilsso |
 | 7 | asia | 1768 | Eravallan |
-| 7 | asia | 2489 | Ole |
 
-_Showing the lowest 300 of 1207. Full queue:_
+_Showing the lowest 300 of 1211. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-802 languages the mixer map offers have no namebase entry
+804 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 | camtho | Camtho | undefined |
 
-_Showing 150 of 802._
+_Showing 150 of 804._
 
 ## How to work on this
 

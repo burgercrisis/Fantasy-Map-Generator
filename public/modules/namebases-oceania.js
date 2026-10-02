@@ -206,8 +206,8 @@ window.oceaniaNameBases = [
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Purosa,Awarosa,Orie,Umasa,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Ibusa,Kasoru,Ofafina,Okapa,Kawaina,Avia,Asempa,Sefuna,Iwaki,Kemiu,Kokopi,Wayoepa,Tarabo,Yagana,Haga,Ke'efu",
-    "status": "COMPLETE"
+    "b": "Okapa,Purosa,Awande,Moke,Mt Mugaiamuti",
+    "status": "WAITING"
   },
   {
     "name": "Hupla",
@@ -976,8 +976,8 @@ window.oceaniaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Purosa,Awarosa,Orie,Umasa,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Ibusa,Kasoru,Ofafina,Okapa,Kawaina,Avia,Asempa,Sefuna,Iwaki,Kemiu,Kokopi,Wayoepa,Tarabo,Ke'efu,Yagana,Haga",
-    "status": "COMPLETE"
+    "b": "Moife,Imikori,Irafo,Kagu,Agura,Orona,Mairapaqa",
+    "status": "WAITING"
   },
   {
     "name": "Vaeakau-Taumako",

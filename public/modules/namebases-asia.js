@@ -2830,16 +2830,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Armenian (Hayeren)",
-    "i": 1937,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Armenian Dialect",
     "i": 1938,
     "min": 4,
@@ -5816,17 +5806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Tianzhu,Yongjing,Linxia,Hezuo,Maqu,Luqu,Xiahe,Zoige,Hongyuan,Ruoergai,Aba",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Monguor",
-    "i": 200377,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Huzhu,Ledu,Minhe,Hualong,Xunhua,Jianzha,Zeku,Tongde,Xinghai,Guide,Chaka,Da Qaidam,Datong,Pingan,Xining,Huangyuan,Tongren,Golmud,Dulan,Delingha,Tianzhu,Yongjing,Linxia,Hezuo,Maqu,Luqu,Xiahe,Zoige,Hongyuan,Ruoergai,Aba",
+    "b": "Weiyuan,Danma,Nanmenxia,Jiading,Tangchuan,Wushi,Wufeng,Gaozhai,Taizi,Xishan,Hongyazigou,Halazhigou,Dongshan,Qiaotou,Chengguan,Tar,Huangjiazhai,Changning,Jingyang,Duolin,Xinzhuang,Nianbo,Yurun,Shoule,Gaomiao,Hongshui,Gaodian,Qutan,Dara,Zhaxilung,Kêsangnyagkai,Pachi,Daglung,Sêrzü",
     "status": "COMPLETE"
   },
   {
@@ -7776,8 +7756,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Yongping,Yangbi,Midu,Xiangyun,Shuanglang,Lanping,Liuku,Pianma,Longling,Fengqing,Dali,Xiaguan,Eryuan,Binchuan,Yunlong,Weishan,Nanjian,Heqing,Jianchuan,Lijiang,Shangri-La,Deqin,Fugong,Gongshan,Nujiang,Lushui,Tengchong,Changning",
-    "status": "COMPLETE"
+    "b": "Xiaguan,Taihe,Manjiang,Dali,Fengyi,Xizhou,Haidong,Wase,Wanqiao,Yinqiao,Shuanglang,Shangguan,Taiyi,Qiliqiao,Zhoucheng,Xiangyun,Nuodeng",
+    "status": "WAITING"
   },
   {
     "name": "Digaro Mishmi",
@@ -7996,8 +7976,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yongping,Yangbi,Midu,Xiangyun,Shuanglang,Lanping,Liuku,Pianma,Longling,Fengqing,Dali,Xiaguan,Eryuan,Binchuan,Yunlong,Weishan,Nanjian,Heqing,Jianchuan,Lijiang,Shangri-La,Deqin,Fugong,Gongshan,Nujiang,Lushui,Tengchong,Changning",
-    "status": "COMPLETE"
+    "b": "Jianchuan,Jinhua,Laojunshan,Diannan,Shaxi,Madeng,Yangcen,Misha,Xiangtu,Eryuan,Heqing",
+    "status": "WAITING"
   },
   {
     "name": "Zakhring",
@@ -8136,7 +8116,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Yerevan,Gyumri,Vanadzor,Vagharshapat,Armavir,Masis,Artashat,Gavar,Artik,Goris,Ararat,Ashtarak,Spitak,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Ejmiatsin,Kapan,Stepanakert,Makhachkala,Derbent,Grozny,Nazran,Cherkessk,Nalchik,Vladikavkaz,Maikop,Abovyan,Hrazdan,Charentsavan,Sevan,Ijevan,Dilijan,Sisian",
+    "b": "Yerevan,Gyumri,Vanadzor,Abovyan,Vagharshapat,Hrazdan,Kapan,Armavir,Charentsavan,Masis,Artashat,Sevan,Ijevan,Gavar,Artik,Goris,Ararat,Dilijan,Ashtarak,Sisian,Spitak,Vardenis,Yeghvard,Alaverdi,Stepanavan,Martuni,Vedi,Byureghavan,Nor Hachn,Metsamor,Tashir,Yeghegnadzor,Berd,Kajaran,Aparan,Chambarak,Vayk,Maralik,Noyemberyan,Meghri,Jermuk,Talin,Akhtala,Ayrum,Tumanyan,Tsaghkadzor,Stepanakert,Tbilisi,Sukhumi,Sochi,Pyatigorsk,Georgiyevsk,Rostov-on-Don,Nakhichevan-on-Don,Karabagly",
     "status": "COMPLETE"
   },
   {
