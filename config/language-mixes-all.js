@@ -17756,7 +17756,7 @@
     {
       "name": "Armazic",
       "iso": "armazic",
-      "region": "Middle East",
+      "region": "Caucasus",
       "category": "Afroasiatic",
       "family": "Western Aramaic",
       "tags": [

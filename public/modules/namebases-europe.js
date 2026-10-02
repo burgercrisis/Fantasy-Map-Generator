@@ -1706,8 +1706,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dudinka,Norilsk,Khatanga,Tiksi,Pevek,Provideniya,Anadyr,Bilibino,Chersky,Zyryanka,Saskylakh,Belaya Gora,Ust-Kuyga,Chokurdakh,Krasnoe,Uelen,Lavrentiya,Enurmino,Inchoun,Nutepelmen,Sireniki,Lorino,Kalan,Kamenka,Uelkal",
-    "status": "COMPLETE"
+    "b": "Salekhard,Nadym,Tarko-Sale,Korotchaevo,Pangody,Purpe,Novy Urengoy,Gubkinsky,Novy Port,Yamburg,Krasnoselkup,Bely Yar,Beloyarsky,Beryozovo,Igrim,Nyagan,Lyantor,Agirish,Pionersky,Zelenoborsk,Malinovsky,Kommunistichesky,Tayozhny",
+    "status": "WAITING"
   },
   {
     "name": "Southwestern Finnish",
@@ -2936,8 +2936,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Anadyr,Provideniya,Pevek,Bilibino,Uelen,Lavrentiya,Enurmino,Inchoun,Krasneno,Nutepelmen,Sireniki,Lorino,Kalan,Kamenka,Uelkal,Vankarem,Markovo,Chuvanskoye,Kanchalan,Amguema,Neshkan,Kolyuchin,Billings,Egvekinot,Ushakovskoye,Tossor",
-    "status": "COMPLETE"
+    "b": "Nizhnevartovsk,Andra,Novoagansk,Izluchinsk,Priobye,Talinka,Oktyabrskoye,Vasyuganskoye,Kargasok,Nefteyugansk,Megion,Langepas,Khanty-Mansiysk,Surgut",
+    "status": "WAITING"
   },
   {
     "name": "Gaulish",
@@ -4086,7 +4086,7 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Chuy,Akdzhilga",
+    "b": "Demyanka,Demyanskoye,Tobolsk,Ishim",
     "status": "WAITING"
   },
   {
@@ -6126,8 +6126,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Karata,Anchix,Tukita,Rachabalda,Lower Inxelo,Mashtada,Archo,Chabakovo,Racitl,Siux,Akhvakh,Khasavyurt,Tindi,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Armavir,Kapan,Goris,Stepanakert,Makhachkala,Derbent,Grozny,Dagestan",
-    "status": "COMPLETE"
+    "b": "Karata,Archo,Anchik,Rachabalda,Mashtada,Verkhnee Inkhelo,Ratsitl,Nizhnee Enkhelo,Siukh,Tukita",
+    "status": "WAITING"
   },
   {
     "name": "Karachay-Balkar",
@@ -6146,8 +6146,8 @@ window.europeNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Makhachkala,Kizlyar,Buynaksk,Hasavyurt,Güçük-yurt,Braguny,Temir-Khan-Shura,Derbent,Kumyk,Kaitag,Terek,Bekeshevskaya,Chernyayevka,Alexeyevka,Jalal-Abad,Karakol,Ulaanbaatar,Erdenet,Khovd,Yakutsk,Mirny,Neryungri,Tiksi,Gorno-Altaysk,Ulan-Ude,Elista,Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep",
-    "status": "COMPLETE"
+    "b": "Kizlyar,Khasavyurt,Kizilyurt,Babayurt,Makhachkala,Buynaksk,Temir-Khan-Shura,Kyakhulay,Novy Kyakhulay,Korkmaskala,Tyube,Komsomolsky,Ardzhidada,Dakhadayevka,Almalo,Temirgoye,Uchkent,Agachkala,Akaytala,Apshi,Semender,Endirey,Bashly",
+    "status": "WAITING"
   },
   {
     "name": "Bagvalal",
@@ -6167,16 +6167,6 @@ window.europeNameBases = [
     "d": "",
     "m": 0,
     "b": "Maykop,Adygeysk,Enem,Tlyustenkhabl,Yablonovsky,Giaginskaya,Dondukovskaya,Kelermesskaya,Egerukhay,Koshekhabl,Khachemzy,Natyrbovo,Ponezhukay,Krasnogvardeyskoye,Dzhambichi,Adamy,Tulsky,Dakhovskaya,Kamennomostsky,Kurdzhipskaya,Kuzhorskaya,Guzeripl,Mafekhabl,Shuntuk,Khatazhukay,Mamkheg,Pshicho,Pshizov,Dzherokay,Natukhay,Novobzhegokay,Starobzhegokay,Afipsip,Khashtuk,Kozet,Pseytuk,Shendzhy,Sups,Pchegatlukay,Tugurgoy,Vochepshiy,Gabukay,Assokolay,Kunchukokhabl,Tauykhabl,Pshikuykhabl,Lazarevskoye,Volkonka,Chemitokvadzhe,Golovinka,Yakornaya Shchel,Nizhnyaya Beranda,Vardane,Loo,Uchdere,Dagomys,Tuapse",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Lezgin",
-    "i": 2419,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Qusar,Quba,Qabala,Oghuz,Ismailli,Khachmaz,Derbent,Magaramkentsky,Kurakhsky,Suleyman-Stalsky,Balaken,Zaqatala,Samur,Tbilisi,Kutaisi,Batumi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Armavir,Kapan,Goris,Stepanakert,Makhachkala,Grozny,Nazran,Dagestan",
     "status": "COMPLETE"
   },
   {
@@ -6296,8 +6286,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Zugdidi,Poti,Senaki,Martvili,Chkhorotsku,Tsalenjikha,Khobi,Ochamchire,Gali,Gulripshi,Abasha,Nokalakevi,Kveda Nasakirali,Mestia,Lentekhi,Oni,Ambrolauri,Tkibuli,Tskaltubo,Kutaisi,Batumi,Kobuleti,Ozurgeti,Gori,Khashuri,Kareli,Kaspi,Akhaltsikhe,Adigeni,Aspindza,Akhalkalaki,Ninotsminda,Bolnisi,Dmanisi,Tetri Tskaro,Tsalka,Marneuli,Gardabani,Sagarejo,Telavi,Kvareli",
-    "status": "COMPLETE"
+    "b": "Abasha,Zugdidi,Martvili,Mestia,Senaki,Chkhorotsku,Tsalenjikha,Khobi,Poti,Jvari,Bandza,Nokalakevi,Kveda Nasakirali,Tsaishi,Salkhino,Anaklia,Skuri,Menji,Lebarde,Mukhuri-Lugela,Maltakva,Chkaduashi,Ochamchire",
+    "status": "WAITING"
   },
   {
     "name": "Rutul",

@@ -6234,7 +6234,7 @@
   {
     "iso": "orok",
     "bases": [
-      202573
+      200557
     ]
   },
   {
@@ -8151,9 +8151,7 @@
   },
   {
     "iso": "lezgin",
-    "bases": [
-      2419
-    ]
+    "bases": []
   },
   {
     "iso": "mingrelian",
@@ -16971,9 +16969,7 @@
   },
   {
     "iso": "kamchatkan",
-    "bases": [
-      2088
-    ]
+    "bases": []
   },
   {
     "iso": "kerek",
@@ -21596,12 +21592,6 @@
     ]
   },
   {
-    "iso": "x-orok",
-    "bases": [
-      202573
-    ]
-  },
-  {
     "iso": "x-tai-lue",
     "bases": [
       200520
@@ -22634,12 +22624,6 @@
     ]
   },
   {
-    "iso": "x-georgian-zan",
-    "bases": [
-      2084
-    ]
-  },
-  {
     "iso": "x-kyrgyz",
     "bases": [
       20163
@@ -23318,12 +23302,6 @@
     ]
   },
   {
-    "iso": "x-kartvelian-languages",
-    "bases": [
-      2085
-    ]
-  },
-  {
     "iso": "x-dii",
     "bases": [
       20733
@@ -23759,12 +23737,6 @@
     "iso": "gogodala-suki",
     "bases": [
       205
-    ]
-  },
-  {
-    "iso": "karto-zan",
-    "bases": [
-      2084
     ]
   },
   {

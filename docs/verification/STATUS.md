@@ -11,14 +11,14 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3016 |
-| Marked COMPLETE (>= 25 seeds) | 1812 |
-| Marked WAITING (< 25 seeds) | 1204 |
-| Below seed floor | 1189 |
+| Language entries | 3011 |
+| Marked COMPLETE (>= 25 seeds) | 1801 |
+| Marked WAITING (< 25 seeds) | 1210 |
+| Below seed floor | 1194 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 817 |
+| Map ISOs with no namebase (research backlog) | 820 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -26,8 +26,8 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 679 | 230 | 1 | 27 |
-| asia | 1025 | 537 | 2 | 23 |
-| europe | 636 | 140 | 0 | 30 |
+| asia | 1021 | 537 | 2 | 23 |
+| europe | 635 | 145 | 0 | 30 |
 | northAmerica | 211 | 67 | 0 | 29 |
 | southAmerica | 149 | 28 | 0 | 32 |
 | oceania | 306 | 187 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-10-02  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1189 entries need authentic settlement names. Ordered by seed count,
+1194 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -75,7 +75,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | asia | 211004 | Malaccan Creole Malay |
 | 2 | asia | 202732 | Yong |
 | 2 | europe | 2323 | Southern Khanty |
-| 2 | europe | 200747 | Lower Demjanka |
 | 2 | northAmerica | 200938 | Cauque Mayan |
 | 2 | oceania | 187 | Ari (Papuan) |
 | 2 | oceania | 202338 | Auye |
@@ -153,6 +152,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 202614 | Sa-och |
 | 4 | asia | 1062 | Nuoxi Naxi Yao |
 | 4 | asia | 202574 | Paha |
+| 4 | europe | 200747 | Lower Demjanka |
 | 4 | europe | 200775 | On |
 | 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
@@ -322,6 +322,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 200449 | Pyang Zhuang |
 | 7 | asia | 203174 | Dungmali |
 | 7 | asia | 202694 | Thmon |
+| 7 | asia | 945 | Armazic |
 | 7 | europe | 2379 | Northern Mansi |
 | 7 | northAmerica | 396 | Seri |
 | 7 | northAmerica | 1198 | Tlicho |
@@ -339,9 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 202749 | Kunwinjku |
 | 7 | oceania | 203080 | Marind |
 | 7 | oceania | 203083 | Namiae |
-| 7 | oceania | 203108 | Tsaukambo |
 
-_Showing the lowest 300 of 1189. Full queue:_
+_Showing the lowest 300 of 1194. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-817 languages the mixer map offers have no namebase entry
+820 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 817._
+_Showing 150 of 820._
 
 ## How to work on this
 

@@ -550,16 +550,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Adjaran Georgian",
-    "i": 749,
-    "min": 3,
-    "max": 12,
-    "d": "",
-    "m": 0.85,
-    "b": "Batumi,Kobuleti,Chakvi,Gonio,Keda,Shuakhevi,Tsikhisdziri,Kvariati,Sarpi,Lanchkhuti,Ozurgeti,Terjola,Khulo,Baghdati,Vani,Samtredia,Zestaponi,Tkibuli,Tskaltubo,Kutaisi,Oni,Lentekhi,Tsageri,Tbilisi,Rustavi,Gori,Zugdidi,Poti,Telavi,Akhaltsikhe,Mtskheta,Khelvachauri,Chokhatauri,Khashuri,Ambrolauri",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Aer",
     "i": 751,
     "min": 4,
@@ -897,16 +887,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Blagoveshchensk,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Altai,Bayanhongor,Mandalgovi,Dalanzadgad,Kharkhorin,Ulan-Ude,Irkutsk,Kyakhta,Hulunbuir,Arxan,Elista,Hailar,Manzhouli,Ordos,Qiqihar,Morin Dawa,Hohhot,Baotou,Chifeng,Tongliao,Heihe,Dauriya",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Armazic",
-    "i": 945,
-    "min": 4,
-    "max": 16,
-    "d": "",
-    "m": 0,
-    "b": "Armazi,Mtskheta,Garni,Bori,Dedoplis Mindori,Dzalisa,Kartli,Iberia,Tbilisi,Vanadzor,Gyumri,Stepanakert,Shushi,Sukhumi,Batumi,Poti,Kutaisi,Rustavi,Gori,Kaspi,Marneuli,Telavi,Akhmeta,Kvareli,Lagodekhi,Yerevan",
     "status": "COMPLETE"
   },
   {
@@ -2086,7 +2066,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Anadyr,Lavrentiya,Uelen,Lorino,Provideniya,Egvekinot,Bilibino,Kanchalan",
+    "b": "Anadyr,Provideniya,Uelen,Uelkal,Lavrentiya,Lorino,Neshkan,Kanchalan,Amguema,Vankarem,Kolyuchin,Billings,Markovo,Pevek,Egvekinot,Mys Shmidta,Ugolnye Kopi,Chuvanskoye,Novy Chaplino,Sireniki,Omolon,Vesenny,Shakhtyorsky,Komsomolsky,Anadyrsky",
     "status": "WAITING"
   },
   {
@@ -2576,7 +2556,7 @@ window.asiaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Evensk,Bilibino,Esso,Ola,Chersky,Deputatsky,Sebyan-Kyuyol,Berezovka,Andryushkino,Russkoye Ustye,Anadyr,Aldan,Magadan",
+    "b": "Ola,Arman,Atka,Burchala,Cholodny,Debin,Ducat,Evensk,Yagodnoye,Karamken,Myaundscha,Omsukchan,Orotukan,Palatka,Seimchan,Sinegorye,Sokol,Stekolny,Talaya,Ust-Omchug,Uptar,Susuman,Omolon,Deputatsky",
     "status": "WAITING"
   },
   {
@@ -3090,53 +3070,13 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Judaeo-Georgian",
-    "i": 2083,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Tbilisi,Kutaisi,Batumi,Poti,Sukhumi,Zugdidi,Telavi,Gori,Rustavi,Marneuli,Bolnisi,Tianeti,Akhaltsikhe,Akhalkalaki,Ninotsminda,Tsalka,Lagodekhi,Tsnori,Ozurgeti,Lanchkhuti,Kobuleti,Keda,Kvareli,Sagarejo,Terjola,Chiatura,Kharagauli,Zestaponi,Shukhevi,Baghdati,Vani,Khoni,Tskhinvali,Akhmeta,Dedoplistsqaro,Lentekhi,Aspindza,Dmanisi,Jvari,Abastumani,Mtskheta,Stepantsminda,Oni,Tsageri,Chkhorotsku,Chokhatauri,Nigavan,Ambrolauri",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Georgian-Zan",
-    "i": 2084,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Tbilisi,Kutaisi,Batumi,Zugdidi,Poti,Jvari,Khobi,Martvili,Senaki,Tsalendjikha,Tsageri,Oni,Lentekhi,Gali,Ochamchire,Tskhinvali,Rustavi,Tianeti,Kvareli,Zestaponi,Baghdati,Vani,Dmanisi,Gori,Telavi,Akhaltsikhe,Mtskheta,Sukhumi,Yerevan,Gyumri,Vanadzor,Ejmiatsin,Armavir,Kapan,Goris,Ambrolauri",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Kartvelian languages",
-    "i": 2085,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Tbilisi,Kutaisi,Batumi,Poti,Zugdidi,Mtskheta,Gori,Rustavi,Telavi,Dmanisi,Vani,Oni,Tsageri,Chkhorotsqu,Lentekhi,Kobuleti,Ambrolauri",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kamchatkan",
-    "i": 2088,
-    "min": 4,
-    "max": 24,
-    "d": "",
-    "m": 0,
-    "b": "Petropavlovsk-Kamchatsky,Klyuchi,Ust-Kamchatsk,Palana,Elizovo,Snezhnogorsk,Kurganinsk,Sopochnaya,KrasnayaPolyana,Saskylakh,Tuapse,Ambarchik,Krymsk,Verkhnekolymsk,Anapa,Atka,Asha,UstOmchug,KatavIvanovsk,Kovran,Magadan",
-    "status": "WAITING"
-  },
-  {
     "name": "Kerek",
     "i": 2089,
     "min": 4,
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Chukotka,Anadyr,Uelen,Kolyuchin,Provideniya,Sireniki,Russkaya,Kamenka,Primorsko,Chersky,Abinsk,Srednekolymsk,Sim,Sinegorye,Zlatoust,Miass,Uvelsky,Okhotsk,Kyshtym,Komsomolsk,Talitsa,Omsukchan,Chumikan",
+    "b": "Khatyrka,Meinypilgino,Vayegi,Anadyr,Uelen,Kolyuchin,Provideniya,Kems,Bitkak,Ukhatyr",
     "status": "WAITING"
   },
   {
@@ -5966,7 +5906,7 @@ window.asiaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Amursk,De-Kastri,Sofia,Vyatskoye,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Gonzh,Mogocha,Chara",
+    "b": "Vladimirovka,Ayan,Nelkan,Ayan-Mai,Chukchagirskoye,Kamenka,Obor,Komsomolsk-on-Amur,Khabarovsk",
     "status": "WAITING"
   },
   {
@@ -6926,7 +6866,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Tygda,Mogocha",
+    "b": "Nogliki,Val,Poronaysk,Gastello,Vakhrushev,Viakhtu,Smirnykh,Tymovskoye,Korsakov,Yuzhno-Sakhalinsk,Okha,Okhotsk,Aleksandrovsk-Sakhalinsky,Dolinsk,Aniva,Tomari,Kholmsk,Shakhtyorsk,Nevelsk,Uglegorsk",
     "status": "WAITING"
   },
   {
@@ -9720,16 +9660,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Orok",
-    "i": 202573,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Orok,Magadan,Norilsk,Barguzin,Anadyr,Oymyakon,Petropavlovsk-Kamchatsky,Saskylakh,Kozyrevsk,Olyokminsk,Chokurdakh,Klyuchi,Khandyga,Provideniya,Kadykchan,Tigil,Suntar,Kolpashevo,Bagdarin,Bilibino,Ust-Nera,Lavrentiya,Yelizovo,Dudinka,Kargasok,Igarka",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Paha",
     "i": 202574,
     "min": 4,
@@ -9996,7 +9926,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Palana,Tigil,Ossora,Karaga,Tilichiki,Klyuchi,UstKamchatsk,Milkovo,Kozyrevsk,Esso,Anavgai,Beringovsky",
+    "b": "Palana,Tigil,Tilichiki,Karaga,Tymlat,Vyvenka,Ossora,Kamenskoye,Ilpyrskoe,Pakhachi,Ivashka,Kresty,Olyutorka,Rekinniki",
     "status": "WAITING"
   },
   {
@@ -10018,16 +9948,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Sanming,YongAn,ShaCounty,Meilie,Sanyuan",
     "status": "WAITING"
-  },
-  {
-    "name": "Georgian",
-    "i": 10032,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tbilisi,Batumi,Kutaisi,Rustavi,Zugdidi,Poti,Gori,Telavi,Mtskheta,Akhaltsikhe,Samtredia,Senaki,Zestaponi,Khashuri,Marneuli,Ozurgeti,Kaspi,Chiatura,Tskaltubo,Gardabani,Borjomi,Tkibuli,Khoni,Bolnisi,Gurjaani,Akhmeta,Kvareli,Akhalkalaki,Dusheti,Kareli,Lanchkhuti,Tsnori,Dedoplistskaro,Lagodekhi,Sachkhere,Terjola,Martvili,Abasha,Vani,Tsalka,Khobi,Tsalenjikha,Dmanisi,Baghdati,Oni,Sighnaghi,Ambrolauri,Chokhatauri,Jvari,Tsageri,Sagarejo,Surami,Chakvi,Kobuleti,Ochkhamuri,Ninotsminda,Tetri Tsqaro,Vale",
-    "status": "COMPLETE"
   },
   {
     "name": "Turkish",
@@ -10247,6 +10167,46 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Kemajoran,Karangbidara,Krambangan,Batavia,Bandung,Semarang,Surabaya,Malang,Garut,Depok,Magelang,Sukabumi,Koja,Dayeuh Manggung",
+    "status": "WAITING"
+  },
+  {
+    "name": "Georgian",
+    "i": 10032,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Tbilisi,Batumi,Kutaisi,Rustavi,Zugdidi,Poti,Gori,Telavi,Mtskheta,Akhaltsikhe,Samtredia,Senaki,Zestaponi,Khashuri,Marneuli,Ozurgeti,Kaspi,Chiatura,Tskaltubo,Gardabani,Borjomi,Tkibuli,Khoni,Bolnisi,Gurjaani,Akhmeta,Kvareli,Akhalkalaki,Dusheti,Kareli,Lanchkhuti,Tsnori,Dedoplistskaro,Lagodekhi,Sachkhere,Terjola,Martvili,Abasha,Vani,Tsalka,Khobi,Tsalenjikha,Dmanisi,Baghdati,Oni,Sighnaghi,Ambrolauri,Chokhatauri,Jvari,Tsageri,Sagarejo,Surami,Chakvi,Kobuleti,Ochkhamuri,Ninotsminda,Tetri Tsqaro,Vale",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Adjaran Georgian",
+    "i": 749,
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0.85,
+    "b": "Batumi,Keda,Kobuleti,Khelvachauri,Khulo,Shuakhevi,Daba Keda,Dandalo,Zvare,Makhuntseti,Dologani,Merisi,Tskhmorisi,Tsoniarisi,Bako,Chakvi,Gonio,Kvariati,Sarpi,Tsikhisdziri,Makhinjauri,Ochkhamuri",
+    "status": "WAITING"
+  },
+  {
+    "name": "Judaeo-Georgian",
+    "i": 2083,
+    "min": 3,
+    "max": 14,
+    "d": "",
+    "m": 0,
+    "b": "Kulashi,Bandza,Akhaltsikhe,Tbilisi,Kutaisi,Mtskheta,Batumi,Poti,Tskhinvali,Oni,Surami,Kareli,Akhalkalaki,Gori,Lailashi,Sujuna,Vani,Senaki,Lilo,Ashdod,Bat Yam,Lod,Holon",
+    "status": "WAITING"
+  },
+  {
+    "name": "Armazic",
+    "i": 945,
+    "min": 4,
+    "max": 16,
+    "d": "",
+    "m": 0,
+    "b": "Armazi,Mtskheta,Garni,Bori,Dedoplistsqaro,Dzalisa,Kartli",
     "status": "WAITING"
   }
 ];

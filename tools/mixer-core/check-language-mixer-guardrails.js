@@ -165,6 +165,17 @@ const ALLOWED_REMOVALS = new Set([
     // Glottolog record and none has a documented settlement, so a namebase cannot
     // be built for any of them.
     "x-merya", "x-meshcherian", "x-muromian",
+    // Four rows that could not be emptied, only deleted. An empty row is only
+    // meaningful when it names a catalogued language, because that is what makes
+    // it a placeholder for outstanding work; a family macro and an internal alias
+    // are neither.
+    //   x-orok, x-georgian-zan, x-kartvelian-languages - x- shadows, never a
+    //     language identifier. x-orok shadowed i=202573, which was Orok = Uilta
+    //     (oaa), a duplicate of i=200557. `orok` itself is re-pointed there.
+    //   karto-zan - a family macro. Zan (zann1245) is the branch holding
+    //     Mingrelian + Laz; Karto-Zan (geor1252) the branch holding Georgian +
+    //     Zan. It duplicated i=10032, i=200650 and i=2411.
+    "x-orok", "x-georgian-zan", "x-kartvelian-languages", "karto-zan",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

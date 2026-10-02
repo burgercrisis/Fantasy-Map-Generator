@@ -222,6 +222,14 @@ const REGION_TO_CONTINENT = {
 	"west asia": "asia",
 	"middle east": "asia",
 	"ancient mesopotamia": "asia",
+	// The Caucasus maps to ASIA. The project already draws its own line a little
+	// north of it: the sixteen North Caucasus entries all carry catalog region
+	// "Europe" (Lezgian, Avar, Ossetian, Ingush, Chechen, Circassian, Kabardian,
+	// Adyghe, Abaza, Abkhaz, Lak, Svan, Tabasaran, Rutul, Archi, Karachay-Balkar,
+	// and Mingrelian, Karata and Kumyk), while the South Caucasus - Georgian,
+	// Adjaran Georgian, Judaeo-Georgian, Armazic, Laz, Armenian, Bats, Bzyb -
+	// carries "Caucasus" and sits in asia. Mapping it to europe would flag those
+	// eight correctly-placed South Caucasus entries.
 	caucasus: "asia",
 	siberia: "asia",
 	"sino-tibetan region": "asia",
