@@ -7520,16 +7520,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Western Egyptian Bedawi Arabic",
-    "i": 200920,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Marsa Matruh,Siwa,Alexandria,Cairo,Luxor,Port Said,Suez,El Arish,Sharm El Sheikh,Dahab,Taba,Nuweiba,Wadi Rum,Aqaba,Asyut,Minya,Beni Suef,Faiyum,Qena,Sohag,Hurghada,El Gouna",
-    "status": "WAITING"
-  },
-  {
     "name": "Western Middle Aramaic",
     "i": 200922,
     "min": 4,
@@ -9870,16 +9860,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Andalusi Arabic",
-    "i": 21108,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Cordoba,Granada,Malaga,Almeria,Zaragoza,Toledo,Valencia,Murcia,Lisbon,Evora,Coimbra,Faro,Beja,Silves,Santarem,Badajoz,Mertola,Niebla,Baeza,Seville",
-    "status": "WAITING"
-  },
-  {
     "name": "Tat",
     "i": 200655,
     "min": 4,
@@ -10178,5 +10158,15 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Manga,Takanua,Sanmin,Namasia",
     "status": "WAITING"
+  },
+  {
+    "name": "Vedda",
+    "i": 201000,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bintenna,Monaragala,Ratnapura,Veddagala,Vedi Kanda,Hambantota,Ampara,Tissamaharama,Kataragama,Kirinda,Tangalle,Ambalantota,Kumbukkanawa,Yakinna,Debara,Dimbulagala,Korathota,Veedheriya,Wellawaya,Buttala,Bibile,Badalkumbura,Thanamalwila,Seyanagala,Ladugala,Danigala,Pokung,Anuradhapura,Maha Nuwara,Sewanagala,Diyawanna Oya",
+    "status": "COMPLETE"
   }
 ];

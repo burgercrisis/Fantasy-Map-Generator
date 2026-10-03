@@ -11272,7 +11272,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "ladino",
     "bases": [
-      50035
+      21063
     ]
   },
   {
@@ -13956,12 +13956,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "beni-snous-dialect",
-    "bases": [
-      202304
-    ]
-  },
-  {
     "iso": "central-atlas-tamazight",
     "bases": [
       20661
@@ -14131,12 +14125,6 @@ globalThis.languageMixerMap = [
     "iso": "tuwat",
     "bases": [
       201016
-    ]
-  },
-  {
-    "iso": "western-algerian-zenatic-dialects",
-    "bases": [
-      201017
     ]
   },
   {
@@ -15502,7 +15490,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "komolom",
+    "iso": "xom",
     "bases": [
       11646
     ]
@@ -21873,12 +21861,6 @@ globalThis.languageMixerMap = [
     "iso": "x-tswa",
     "bases": [
       20688
-    ]
-  },
-  {
-    "iso": "x-beni-snous-dialect",
-    "bases": [
-      202304
     ]
   },
   {

@@ -243,6 +243,23 @@ const ALLOWED_REMOVALS = new Set([
     //     i=373, so the entry existed but nothing could resolve it. Replaced by the
     //     proper catalogued key argentinian-spanish, which points at the same base.
     "x-argentinian-spanish",
+    //   beni-snous-dialect, x-beni-snous-dialect
+    //     A second entry for a language already held at i=5810 Beni Snous, in a
+    //     different continent file, with 9 of its 27 seeds literally in the other.
+    //     Snous is classified in the Western Algerian group but is widely treated
+    //     as a dialect of Tarifit (Riffian).
+    //   western-algerian-zenatic-dialects
+    //     "A diffuse SET of Zenati Berber dialects" - no speaker community, no
+    //     coherent toponymy, and "for most of which we have no linguistic data".
+    //   komolom -> xom
+    //     `komolom` was not a language code; the catalog row was named after it too.
+    //     Komo is xom / Glottolog komo1258, Nilo-Saharan, of Mao-Komo special
+    //     woreda in Benishangul-Gumuz and White Nile in Sudan - not the DRC Bantu
+    //     kmw, and Nigeria has no "Komo" at all (it has Koma, Kom and Kwaami).
+    "beni-snous-dialect",
+    "x-beni-snous-dialect",
+    "western-algerian-zenatic-dialects",
+    "komolom",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

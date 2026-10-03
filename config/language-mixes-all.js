@@ -15076,7 +15076,7 @@
     {
       "name": "Haketia",
       "iso": "haketia",
-      "region": "Europe",
+      "region": "North Africa",
       "category": "Romance",
       "family": "Judeo-Spanish"
     },
@@ -17733,7 +17733,7 @@
     {
       "name": "Andalusi Arabic",
       "iso": "andalusi-arabic",
-      "region": "Middle East",
+      "region": "Europe",
       "category": "Afroasiatic",
       "family": "Maghrebi"
     },
@@ -18077,7 +18077,7 @@
     {
       "name": "Western Egyptian Bedawi Arabic",
       "iso": "western-egyptian-bedawi-arabic",
-      "region": "Middle East",
+      "region": "North Africa",
       "category": "Afroasiatic",
       "family": "Egypto-Sudanic"
     },
@@ -22219,8 +22219,8 @@
       "family": "Greater Awyu"
     },
     {
-      "name": "Komolom",
-      "iso": "komolom",
+      "name": "Komo",
+      "iso": "xom",
       "region": "Pacific",
       "category": "Papuan",
       "family": "Bayono–Awbono"

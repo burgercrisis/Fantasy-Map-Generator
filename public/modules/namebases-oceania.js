@@ -1800,16 +1800,6 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Komo",
-    "i": 11646,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Asosa,Gambella,Kurmuk,Assosa,Penishuba,Yabeldigis,Mao,Ura,Aftimt,Bisha,Guba,Didessa,Omo,Beloj,Dabus,Sherkole,Menge,Durame,Kacha,Bita,Komuz,Koma",
-    "status": "WAITING"
-  },
-  {
     "name": "Seychellois Creole",
     "i": 20671,
     "min": 4,

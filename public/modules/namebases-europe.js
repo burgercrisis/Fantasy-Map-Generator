@@ -1320,16 +1320,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Haketia",
-    "i": 449,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Tánger,Casablanca,Rabat,Fez,Orán,Argel,Túnez,Sfax,Susa,Ceuta,Melilla,Tetuán,Larache,Arcila,Mogador,Safi,Azemour,Chefchaouen,Asilah,Ksar el-Kebir,Ouezzane,Esaouira,Salé,Meknès,Kenitra,Oujda,Debdou,Sefrou,Demnate,Marrakech",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Intemelio",
     "i": 450,
     "min": 4,
@@ -3736,8 +3726,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Istanbul,Thessaloniki,Izmir,Sarajevo,Sofia,Belgrade,Bucharest,Rhodes,Edirne,Safed,Tetouan,Fez,Algiers,Tunis,Oran,Amsterdam,Venice,Livorno,Antwerp,Paris,Salonika,Skopje,Athens,Rome,Barcelona",
-    "status": "COMPLETE"
+    "b": "Thessaloniki,Istanbul,Izmir,Edirne,Sarajevo,Bitola,Kastoria,Skopje,Sofia,Bucharest,Belgrade,Zagreb,Rhodes,Larissa,Trieste,Venice,Ferrara,Budapest,Jerusalem,Jaffa,Hebron,Safed,Alexandria,Cairo",
+    "status": "WAITING"
   },
   {
     "name": "Izhma",
@@ -3877,16 +3867,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Pula,Rovinj,Poreč,Novigrad,Umag,Buje,Buzet,Motovun,Grožnjan,Vižinada,Žminj,Kanfanar,Sveti Petar u Šumi,Baderna,Tar,Vodnjan,Fažana,Medulin,Labin,Pazin,Kastav,Boljun,Brseč,Sveti Lovreč,Đikići",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ladino",
-    "i": 50035,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Thessaloniki,Istanbul,Sofia,Sarajevo,Zagreb,Belgrade,Skopje,Athens,Rome,Milan,Naples,Turin,Genoa,Bologna,Florence,Venice,Verona,Padua,Trieste,Barcelona,Paris,Amsterdam,London,Vienna,Prague",
     "status": "COMPLETE"
   },
   {
@@ -5240,16 +5220,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Vedda",
-    "i": 201000,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Colombo,Kandy,Galle,Jaffna,Anuradhapura,Trincomalee,Batticaloa,Negombo,Matara,Kalutara,Panadura,Kurunegala,Puttalam,Chilaw,Mannar,Vavuniya,Badulla,Bandarawela,NuwaraEliya,Dambulla,Sigiriya,Habarana,Kataragama,Tissamaharama,Hambantota,Ampara,Monaragala,Ratnapura,Kegalle,Gampaha,Dambana,Mahiyangana,SenanayakeSamudraya,MaduruOya,Henanigala",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Law French",
     "i": 355,
     "min": 4,
@@ -5627,16 +5597,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Havana,Matanzas,SantiagodeCuba,Trinidad,Cienfuegos,Camaguey,PinarDelRio,SanctiSpiritus,VillaClara,CiegoDeAvila,LasTunas,Holguin,Granma,Guantanamo,Artemisa,Mayabeque,ElPerico,PedroBetancourt,UnionDeReyes,Jibacoa,Guanabacoa,Regla,Marianao,Cerro,HabanaDelEste,SanMiguelDelPadron,Cotorro,LaLisa,Playa,PlazaDeLaRevolucion,ArroyoNaranjo,Boyeros,Montevideo,BuenosAires",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Beni Snous dialect",
-    "i": 202304,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Nedroma,Ghazaouet,Marsa Ben M'Hidi,Honaine,Béni Saf,Sidi Abdellah,Sidi Medjahed,Sidi Djillali,Sidi Bel Abbès,Oujda,El Aricha,Mascara,Saida,Aflou,Mecheria,Naâma,Aïn Sefra,Bab El Assa",
     "status": "COMPLETE"
   },
   {
@@ -6208,5 +6168,15 @@ window.europeNameBases = [
     "m": 0,
     "b": "Ufa,Salavat,Sterlitamak,Neftekamsk,Oktyabrsky,Beloretsk,Ishimbay,Tuymazy,Kumertau,Meleuz,Belebey,Birsk,Uchaly,Sibay,Baymak,Asha,Katav-Ivanovsk,Minyar,Sim,Yuryuzan,Vyazemsky,Karaidel,Kigi,Duvan,Mesyagutovo,Bolsheustyikinskoye,Starosubkhangulovo,Agidel,Blagoveshchensk,Davlekanovo,Dyurtyuli,Yanaul,Verkhny Avzyan,Inzer,Buribay,Tukan,Yumaguzino,Mramorkino,Meleuzovsky,Temyasovo,Isyangulovo,Krasnokholmsky,Tabynsk,Aksakovo,Askino,Bayguzino,Bavly,Begishevo,Belenok,Beleubay,Buzdyak,Chekmagush,Chishmy,Duven,Duven Duvan,Fedorovka,Gafuri,Glukhovskaya,Iglino,Iskino,Itkulovo,Ivanovka,Kabakovo,Kaga,Kalmasi,Kandry,Karlaman,Karmaskaly,Katai-Karmovskaya,Komsomolets,Kraonskaya,Krasny,Krasny Yar,Kushnarenkovo,Kuyurgazino,Magnitka,Mezhgorye,Mikhaylovka,Mishkino,Miyakinskiy,Naglaya,Nikolo-Berezovka,Novobelokatai,Novokudainsk,Osa,Otrada,Pavlovka,Petrovka,Priyutovo,Rafikovo,Sharan,Shulganovo,Sredny Ural,Starobaltachevo,Sterlibashevo,Subkhangulovo,Tirlyanskiy,Udaly,Verkhneye,Munzyrovo,Verkhniy Karakul,Verkhny,Kuganak,Yazykovo,Yurmaty,Zigaza,Argayash,Saraktash,Staraya Mayna,Sterlitamakskiy,Subkhankulovo,Tukansky,Tuymazinskiy,Ulu-Telyak,Ulu-Kain,Urussu,Akkuzovo,Andreyevka,Annam,Kaluy,Kaltyaman,Kalu,Kubyakovo,Almaly,Kyzyl-Kulak,Khalitovo,Sapkulovo,Bikkulovo,Yangi-Turmush,Yanagushevo,Bikkulovskoye,Yunost,Ulu-Kulak,Surak,Teren,Kulchurov,Mazeyevka,Syulpy,Kaltasy,Kundryak,Kungak,Aktau,Tuyembetka,Yanbayevo,Kiyevka,Turbeyevka,Ilmurino,Zilair,Zirgan,Muraptalovo,Chingizovo,Almukhametovo,Iremel,Maloyazovo,Inzerovskiy,Tukmach,Bedzhiga,Karagay,Khaybullinskiy,Akyar,Abzelilovskiy,Tamyanovo,Staraya,Kain,Kuru-Kulak,Khaibulina,Baimbetovo,Temirova,Kislorodchik,Temirovka,Baishevo,Semigorodnya,Mezentsevo,Islambaevo,Karakulevo",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Andalusi Arabic",
+    "i": 21108,
+    "min": 4,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "b": "Córdoba,Sevilla,Granada,Málaga,Almería,Ronda,Aracena,Niebla,Baeza,Jaén,Écija,Utrera,Carmona,Marchena,Osuna,Moron de la Frontera,Lebrija,Jerez de la Frontera,Sanlucar de Barrameda,Cadiz,Huelva,Triana,La Puebla de Cazalla,Jerez de los Caballeros,Alcala la Real,Guadix,Baza,Alhama de Granada,Loja,Almuñecar,Nerja,Velez Malaga,Zahara de la Sierra,Grazalema,Ubrique,Olvera,Arcos de la Frontera,Setenil,Tarifa,Algeciras,Ceuta,Melilla",
+    "status": "WAITING"
   }
 ];

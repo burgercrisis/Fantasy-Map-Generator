@@ -3966,7 +3966,7 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Cairo,Alexandria,Asyut,Luxor,Memphis,Thebes,Faiyum,Oxyrhynchus,Aswan,Minya,Sohag,Qena,El-Arish,Siwa,Damanhur,Tanta,Zagazig,Mansoura,Hurghada,Sharm el-Sheikh,Port Said,Suez,Ismailia,Damietta,Rosetta,Tunis,Sfax,Tripoli,Benghazi,Fez,Tangier,Annaba,Constantine,Rabat,Meknes",
+    "b": "Alexandria,Kafr El Dawwar,Damanhur,Tanta,Mansoura,Zagazig,Bilbeis,Kafr El Sheikh,Desouk,Mit Ghamr,Shibin El Kom,Damietta,Baltim,Dikirya,Rashid,Burullus,Asyut,Dayrut,Mallawi,Manfalut,Dayrout,Samallut,Minya,Badari,Tahta,Girga,Akhmim,Qena,Naqada,Nag Hammadi,Esna,Edfu,Dendera,Kom Ombo,Armant,Toshka,Qift,Gebelein,Balat,Hu",
     "status": "COMPLETE"
   },
   {
@@ -6260,16 +6260,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Western Algerian Zenatic dialects",
-    "i": 201017,
-    "min": 4,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Oran,Sidi Bel Abbes,Ain Temouchent,Mascara,Relizane,Mostaganem,Saida,Mecheria,Tlemcen,Maghnia,Nedroma,Ghazaouet,Beni Saf,Remchi,Ouled Mimoun,Sabra,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ain Fekan,Ain El Turk,Misserghin,Boutlelis,Gdyel,Bir El Djir",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Zuwara Berber",
     "i": 201019,
     "min": 4,
@@ -6317,16 +6307,6 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Magamba,Rangwi,Bumbuli,Lushoto,Soni,Vuga,Mgwashi,Iren'te,Milemeleni,KibumbeMategho,Mshangai,Fwizai,Kin'ko,Mp'anda,Malibwi,Matego,Ngoka,Mziragembei,Mazumbai,Kwemakame,Gare,Kwai,Ubiri,Mtae,Sunga,Mnazi,Lunguza,Mbaramo,Mng'aro,Mlalo,Mwangoi,Shume,Malindi,Hemtoye,Mlola,Makanya,Ngwelo,Kilole,Kwekanga,Lukozi,Manolo,DuleM,Kwemshasha,Ngulwi,Kwemashai",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Palenquero",
-    "i": 200971,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cartagena,Barranquilla,SantaMarta,Valledupar,Sincelejo,Monteria,Cucuta,Bucaramanga,Medellin,Cali,Pasto,Popayan,Ipiales,Tumaco,Quibdo,Turbo,Apartado,Chigorodo,SanAntero,Lorica,Tolu,Covenas,ElCarmen,Ovejas,Zambrano,Plato,Maganque,Chimichagua,Curumani,Riohacha,Maicao,Uribia",
     "status": "COMPLETE"
   },
   {
@@ -6857,6 +6837,36 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mogadishu,Genale,Merca,Kismayo,Berbera,Hargeisa,Borama,Burao,Garoowe,Galkayo,Baidoa,Beledweyne,Bosaso,Qandala,Hobyo,Afmadow,LasKhorey",
+    "status": "WAITING"
+  },
+  {
+    "name": "Haketia",
+    "i": 449,
+    "min": 3,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tangier,Tetouan,Ceuta,Melilla,Larache,Asilah,Ksar El Kebir,Chefchaouen,Ouezzane,Sale,Fez,Meknes,Rabat,Casablanca,Kenitra,Safi,Essaouira,Azemour,Marrakech,Taza,Berkane,Nador,Oujda,Oran,Algiers,Mostaganem,Tlemcen,Relizane,Setif,Bejaia,Skikda,Annaba,Guelma",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Komo",
+    "i": 11646,
+    "min": 3,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tongo,Tongen,Kesor,Mao,Bonga,Gambela,Itang,Pokung,Dembidolo,Wollega,Asosa,Gidami,Yabus,Gule,Kwama,Gambiella,Suri,Uduk,Opuuo,Bahir Dar,Nekemte,Finote Selam,Bilo,Gida,Bati,Kulg Ejersa,Dizi,Dabo,Tumcha",
+    "status": "WAITING"
+  },
+  {
+    "name": "Western Egyptian Bedawi Arabic",
+    "i": 200920,
+    "min": 4,
+    "max": 15,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Alexandria,Marsa Matruh,Baltim,Edku,Abu Qir,Lake Mariout,Damanhur,Delengat,Kafr El Dawwar,Shubrakhit,Abu Hummus,Badr,Basta,Kom Hamada,Rashid,Kafr Shukr,Sidi Barrani,Sallum,Burg El Arab,Wadi El Natrun,Cairo,Beni Suef,Sidi Salem,Fashn,Tanta,Banha,Kafr El Sheikh,Desouk,Samannoud,Domiat",
     "status": "WAITING"
   }
 ];

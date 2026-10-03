@@ -11,10 +11,10 @@ Generated: 2026-10-03  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2993 |
-| Marked COMPLETE (>= 25 seeds) | 1793 |
-| Marked WAITING (< 25 seeds) | 1200 |
-| Below seed floor | 1182 |
+| Language entries | 2990 |
+| Marked COMPLETE (>= 25 seeds) | 1789 |
+| Marked WAITING (< 25 seeds) | 1201 |
+| Below seed floor | 1180 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-10-03  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 686 | 232 | 1 | 27 |
-| asia | 1018 | 535 | 2 | 23 |
-| europe | 621 | 140 | 0 | 30 |
+| africa | 687 | 232 | 1 | 27 |
+| asia | 1017 | 533 | 2 | 23 |
+| europe | 618 | 141 | 0 | 30 |
 | northAmerica | 212 | 67 | 0 | 29 |
-| southAmerica | 152 | 29 | 0 | 32 |
-| oceania | 294 | 179 | 1 | 19 |
+| southAmerica | 153 | 29 | 0 | 31 |
+| oceania | 293 | 178 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1182 entries need authentic settlement names. Ordered by seed count,
+1180 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203118 | Yaweyuha |
 | 7 | oceania | 203276 | Wayan |
 
-_Showing the lowest 300 of 1182. Full queue:_
+_Showing the lowest 300 of 1180. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
