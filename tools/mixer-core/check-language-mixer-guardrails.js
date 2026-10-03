@@ -273,6 +273,35 @@ const ALLOWED_REMOVALS = new Set([
     //     its own keys ladin-lang, lld and x-ladin.
     "klon",
     "ladino",
+    // Eleven entries that were one language entered several times under different
+    // names, plus their dead keys. W011 could see none of them: it fires only on
+    // IDENTICAL sorted lists and skips anything under the seed floor, whereas these
+    // were SUBSET relationships - one entry's list entirely contained in another's.
+    //
+    //   Daur / Dagur / Hailar Dagur  - four entries for one people. Britannica:
+    //     "Daur, also spelled Daghor, Daghur, or Dagur." One entry survives.
+    //   Baoan / Bonan                 - two romanisations of bona1250, alt names
+    //     Bao'an, Baonan, Boan, Pao-an, endonym Manikacha. peh is its ISO code.
+    //   Bargut Buryat                 - "known in Chinese sources as the Bargu-
+    //     Buryat dialect"; its extra seeds are 1,000 km away in Buryatia.
+    //   Ao Naga                       - same as Ao; its ten extra seeds were Delhi,
+    //     Kolkata, Chennai, Bangalore, Pune, Surat, Jaipur, Nagpur, Indore, Bhopal.
+    //   Halabi                        - an alt-name of Halbi in Wikipedia's own list.
+    //   Meitei macro entry / Meitei   - Meitei is one language. Both existed
+    //     because i=20048 Manipuri, the only substantial entry, was UNPINNED - no
+    //     mixer row reached it. It is now the survivor, reached by meitei and mni.
+    //   Sundanese native-speakers subset - a subset of Sundanese; there is no such
+    //     category in ISO 639-3, Ethnologue or Glottolog.
+    //   Iranian Persian               - pes is the INDIVIDUAL code under the Persian
+    //     macrolanguage, whose individuals are pes and prs (Dari).
+    "bargut-buryat",
+    "dagur",
+    "hailar-dagur",
+    "x-dagur",
+    "x-halabi",
+    "x-ao-naga",
+    "x-sundanese",
+    "x-meitei",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

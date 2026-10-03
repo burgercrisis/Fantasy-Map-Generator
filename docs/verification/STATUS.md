@@ -11,8 +11,8 @@ Generated: 2026-10-03  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2989 |
-| Marked COMPLETE (>= 25 seeds) | 1785 |
+| Language entries | 2977 |
+| Marked COMPLETE (>= 25 seeds) | 1773 |
 | Marked WAITING (< 25 seeds) | 1204 |
 | Below seed floor | 1182 |
 | Zero seeds | 4 |
@@ -26,7 +26,7 @@ Generated: 2026-10-03  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 688 | 233 | 1 | 27 |
-| asia | 1018 | 534 | 2 | 23 |
+| asia | 1006 | 534 | 2 | 23 |
 | europe | 618 | 143 | 0 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 153 | 29 | 0 | 31 |
@@ -206,7 +206,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 200492 | Sikkimese |
 | 5 | asia | 200506 | Su' |
 | 5 | asia | 200571 | Wadiyara Koli |
-| 5 | asia | 211002 | Bishnupriya Manipuri |
 | 5 | asia | 1481 | Central Min |
 | 5 | asia | 202477 | Thao |
 | 5 | europe | 1480 | Central Mansi |
@@ -340,6 +339,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203083 | Namiae |
 | 7 | oceania | 203108 | Tsaukambo |
 | 7 | oceania | 203112 | Wersing |
+| 7 | oceania | 203118 | Yaweyuha |
 
 _Showing the lowest 300 of 1182. Full queue:_
 
@@ -452,10 +452,10 @@ created from research. Nothing here is guessed at.
 | bamukumbit | Bamukumbit | undefined |
 | bangime | Bangime | 20323 |
 | bangladeshi-english | Bangladeshi English | undefined |
-| baoanic | Baoanic | 1019 |
 | barai | Barai | undefined |
 | baramu | Baramu | 1377 |
 | bardi | Bardi | undefined |
+| bargut-buryat | Bargut Buryat | undefined |
 | barikanchi-pidgin | Barikanchi Pidgin | undefined |
 | baruga | Baruga | undefined |
 | basap | Basap | undefined |

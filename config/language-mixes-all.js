@@ -4796,13 +4796,13 @@
     },
     {
       "iso": "baoan",
-      "name": "Baoan",
+      "name": "Baoan (Bonan)",
       "region": "Asia",
       "category": "Mongolic",
       "family": "Baoanic"
     },
     {
-      "name": "Baoanic",
+      "name": "Baoan (Bonan)",
       "iso": "baoanic",
       "region": "Asia",
       "category": "Mongolic",
@@ -5473,7 +5473,7 @@
       "family": "Mongolic"
     },
     {
-      "name": "Daur",
+      "name": "Daur (Dagur)",
       "iso": "daur",
       "region": "Asia",
       "category": "Mongolic",
@@ -6136,7 +6136,7 @@
       "family": "Dardic"
     },
     {
-      "name": "Iranian Persian",
+      "name": "Persian",
       "iso": "iranian-persian",
       "region": "Asia",
       "category": "Iranian",
@@ -24929,7 +24929,7 @@
       "family": "Mandarin"
     },
     {
-      "name": "Meitei macro entry",
+      "name": "Meitei (Manipuri)",
       "iso": "meitei",
       "region": "Sino-Tibetan region",
       "category": "Sino-Tibetan",
@@ -24986,7 +24986,7 @@
       "family": "Tani"
     },
     {
-      "name": "Mongsen Ao",
+      "name": "Ao",
       "iso": "njo",
       "region": "Sino-Tibetan region",
       "category": "Sino-Tibetan",
@@ -25223,7 +25223,7 @@
       "family": "Burmish"
     },
     {
-      "name": "Qiang",
+      "name": "Northern Qiang",
       "iso": "qiang",
       "region": "Sino-Tibetan region",
       "category": "Sino-Tibetan",
@@ -26658,7 +26658,7 @@
       ]
     },
     {
-      "name": "Meitei",
+      "name": "Meitei (Manipuri)",
       "iso": "mni",
       "region": "South Asia",
       "category": "Sino-Tibetan",
@@ -29177,6 +29177,11 @@
       "category": "Niger-Congo",
       "family": "Jee",
       "wikipedia": "https://en.wikipedia.org/wiki/Ayu_language"
+    },
+    {
+      "name": "Northern Qiang",
+      "iso": "cng",
+      "region": "Asia"
     }
   ];
 })();
