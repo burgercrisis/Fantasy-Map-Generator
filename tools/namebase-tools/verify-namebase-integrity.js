@@ -508,6 +508,28 @@ for (const p of nearIdenticalPairs(allEntries, {threshold: 0.9, minSeeds: 8})) {
 // Khakas and Mari are all transcontinental, and whether Mari El counts as
 // europe or asia is a judgement the data cannot make.
 
+// KNOWN LIMIT - clusters of misfiled entries. The count a seed accrues for a
+// continent comes from the entries filed there, so a group of mutually-overlapping
+// misfiled entries partly defeats this majority test: each one votes for the seeds
+// the others pasted from it, and each makes the others harder to see.
+//
+// Latin American Spanish, Ecuadorian Spanish and Argentinian Spanish all sat in
+// namebases-europe.js and none of them was flagged here. Two attempts to close
+// that were measured and abandoned rather than shipped: excluding each round's
+// hits cannot work, because round one finds nothing to exclude; and discounting
+// an entry's overlapping siblings works mechanically but produced 116 hits on the
+// real data, most of them false positives - "Roma" is both a town in Lesotho and
+// one in Italy. Discounting siblings but keeping self-votes removes the false
+// positives and then catches none of the three, because the umbrella entry's
+// foreign share is only about 34% against a 70% threshold: Latin American
+// Spanish is a macrolanguage that genuinely does span many countries.
+//
+// The class is caught by the catalog-region cross-check instead, which is why
+// latin-american-spanish and ecuadorian-spanish carrying region "Europe" mattered.
+// A future detector here should compare an entry's seeds against continents
+// EXCLUDING its own overlap cluster, and needs a threshold that does not assume a
+// language occupies one continent - a macrolanguage will never trip a
+// one-continent test.
 for (const [e, info] of continentMismatches(allEntries, {minSeeds: 6, share: 0.7})) {
   warn(
     "W006",

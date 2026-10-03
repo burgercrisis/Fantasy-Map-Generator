@@ -12,13 +12,13 @@ Generated: 2026-10-03  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2993 |
-| Marked COMPLETE (>= 25 seeds) | 1795 |
-| Marked WAITING (< 25 seeds) | 1198 |
-| Below seed floor | 1180 |
+| Marked COMPLETE (>= 25 seeds) | 1793 |
+| Marked WAITING (< 25 seeds) | 1200 |
+| Below seed floor | 1182 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 829 |
+| Map ISOs with no namebase (research backlog) | 827 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -27,15 +27,15 @@ Generated: 2026-10-03  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 686 | 232 | 1 | 27 |
 | asia | 1018 | 535 | 2 | 23 |
-| europe | 624 | 139 | 0 | 30 |
+| europe | 621 | 140 | 0 | 30 |
 | northAmerica | 212 | 67 | 0 | 29 |
-| southAmerica | 149 | 28 | 0 | 32 |
+| southAmerica | 152 | 29 | 0 | 32 |
 | oceania | 294 | 179 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1180 entries need authentic settlement names. Ordered by seed count,
+1182 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -325,6 +325,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | northAmerica | 1630 | Chicomuceltec |
 | 7 | northAmerica | 2439 | Cuicatec |
 | 7 | northAmerica | 8055 | Chontal Maya |
+| 7 | northAmerica | 200906 | Itza' |
 | 7 | oceania | 1827 | Grass Koiari |
 | 7 | oceania | 97974 | Huli |
 | 7 | oceania | 201207 | Usarufa |
@@ -339,9 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203112 | Wersing |
 | 7 | oceania | 203118 | Yaweyuha |
 | 7 | oceania | 203276 | Wayan |
-| 7 | southAmerica | 203166 | Wichí Lhamtés Nocten (Weenhayek) |
 
-_Showing the lowest 300 of 1180. Full queue:_
+_Showing the lowest 300 of 1182. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-829 languages the mixer map offers have no namebase entry
+827 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -422,7 +422,6 @@ created from research. Nothing here is guessed at.
 | arabic-javanese-of-klego | Arabic-Javanese of Klego | 17 |
 | arc | Aramaic Names | 801 |
 | arawak | Arawak | undefined |
-| argentinian-spanish | Argentinian Rioplatense Spanish | undefined |
 | arin | Arin | 5258 |
 | aru | Aru | 2456 |
 | saj | Asabano | undefined |
@@ -533,8 +532,9 @@ created from research. Nothing here is guessed at.
 | buruwai | Buruwai | undefined |
 | bua | Buryat Names | 20112 |
 | busa | Busa | undefined |
+| cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 829._
+_Showing 150 of 827._
 
 ## How to work on this
 

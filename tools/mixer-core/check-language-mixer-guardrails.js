@@ -239,6 +239,10 @@ const ALLOWED_REMOVALS = new Set([
     "rung",
     //   x-tai-hang-tong - the x- shadow that went with it.
     "x-tai-hang-tong",
+    //   x-argentinian-spanish - an x- shadow that was the ONLY row reaching
+    //     i=373, so the entry existed but nothing could resolve it. Replaced by the
+    //     proper catalogued key argentinian-spanish, which points at the same base.
+    "x-argentinian-spanish",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

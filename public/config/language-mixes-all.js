@@ -8010,7 +8010,7 @@
       ]
     },
     {
-      "name": "Orok",
+      "name": "Uilta",
       "iso": "orok",
       "region": "Asia",
       "category": "Tungusic",
@@ -14737,7 +14737,7 @@
     {
       "name": "Ecuadorian Spanish",
       "iso": "ecuadorian-spanish",
-      "region": "Europe",
+      "region": "South America",
       "category": "Romance",
       "wikipedia": "https://en.wikipedia.org/wiki/Ecuadorian_Spanish",
       "family": "Latin American"
@@ -17222,7 +17222,7 @@
     {
       "name": "Latin American Spanish",
       "iso": "latin-american-spanish",
-      "region": "Europe",
+      "region": "South America",
       "category": "Romance",
       "wikipedia": "https://en.wikipedia.org/wiki/Spanish_language_in_the_Americas",
       "family": "Latin American"
@@ -25522,7 +25522,7 @@
       "family": "Arawakan"
     },
     {
-      "name": "Argentinian Rioplatense Spanish",
+      "name": "Argentinian Spanish",
       "iso": "argentinian-spanish",
       "region": "South America",
       "category": "Romance",

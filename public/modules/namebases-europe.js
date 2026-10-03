@@ -830,16 +830,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Argentinian Spanish",
-    "i": 373,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Buenos Aires,Córdoba,Rosario,Mendoza,La Plata,Mar del Plata,San Miguel de Tucumán,Salta,Santa Fe,Paraná,Resistencia,Posadas,Neuquén,San Juan,San Luis,Río Gallegos,Viedma,Comodoro Rivadavia,San Salvador de Jujuy,Formosa,Rawson,Ushuaia,Puerto Madryn,Río Grande,San Carlos de Bariloche,Villa Carlos Paz,San Rafael,La Rioja,Catamarca,Santiago del Estero,Corrientes",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Arpitan",
     "i": 374,
     "min": 4,
@@ -1067,16 +1057,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Iași,Bacău,Vaslui,Neamț,Piatra Neamț,Roman,Târgu Neamț,Buhuși,Pașcani,Târgu Frumos,Hârlău,Dorohoi,Botoșani,Suceava,Rădăuți,Câmpulung Moldovenesc,Vatra Dornei,Gura Humorului,Siret,Vicovu de Sus,Milișăuți,Broșteni,Cajvana,Solca,Arbore,Marginea,Frumosu,Iacobeni,Vama,Pojorâta,Moldovița,Cârlibaba,Parhauti,Dornisoara,Coșna,Baia",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Ecuadorian Spanish",
-    "i": 411,
-    "min": 3,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Quito,Guayaquil,Cuenca,Santo Domingo,Machala,Durán,Portoviejo,Manta,Loja,Ambato,Esmeraldas,Quevedo,Riobamba,Ibarra,La Libertad,Babahoyo,Ventanas,Daule,Pasaje,La Troncal,Naranjal,Milagro,Yaguachi,Playas,El Triunfo,Samborondón,La Maná,Pujilí,San Miguel de Salces,Guaranda,Cevallos,Píllaro,Pelileo,Baños,Patate,Tena,Puyo,Macas,Sucúa,Gualaquiza,Logroño,Mendez,Palora,Sevilla de Oro,Yantzaza,Centinela del Cóndor,Girón,San Fernando,Gualaceo,Paute,Sigsig,Chordeleg,Oña",
     "status": "COMPLETE"
   },
   {
@@ -5146,8 +5126,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Geneva,NewYork,London,Tokyo,Paris,HongKong,Sydney,Amsterdam,Stockholm,Berlin,Brussels,Vienna,Montreal,Oslo,Copenhagen,Madrid,Rome,Zurich,Singapore,Seoul,Beijing,Shanghai,Dubai,Frankfurt,Munich,Milan,Barcelona,Dublin,Prague,Warsaw,Budapest,Athens,Istanbul,Washington,Moscow,Chicago,Boston,LosAngeles,SanFrancisco,Philadelphia",
-    "status": "COMPLETE"
+    "b": "Geneva,Rome,Paris,Oslo,Berlin,Amsterdam,Brussels,Vienna,Belgrade,Copenhagen,Stockholm,Bucharest,Warsaw,Washington,Melbourne",
+    "status": "WAITING"
   },
   {
     "name": "Algonquian-Basque pidgin",
@@ -5760,16 +5740,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Latin American Spanish",
-    "i": 14025,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "BuenosAires,Lima,Bogotá,Caracas,Quito,LaPaz,Sucre,Montevideo,Asunción,Córdoba,Rosario,Mendoza,Tucuman,Salta,MarDelPlata,Bariloche,Valparaiso,Concepcion,Temuco,Antofagasta,Iquique,Manaus,Belem,Santarém,Guayaquil,Cuenca,Ambato,Medellín,Cali,Barranquilla,Cartagena,Bucaramanga,Pereira,Manizales,SantaCruz,Cochabamba,Oruro,Potosí,Arequipa,Cusco,Trujillo,Chiclayo,Piura,Huancayo,Iquitos,Pucallpa,PuertoVaras,PuntaArenas,Ushuaia,Santarem,Parintins,Itacoatiara,Barcelos,Coari,Tefe,Tabatinga,Machala,Esmeraldas,Portoviejo,Riobamba,Loja,Ibarra,Quevedo,Babahoyo,LaLatacunga,Tulcán,SantoDomingoDeLosColorados,Otavalo,Cayambe,Pujilí,SanGabriel,Chunchi,Alausí,Guaranda,Azogues,Cañar,Macas,Gualaceo,Sigsig,Tena,Puyo,Archidona,ElChaco,Quijos,Baeza,SevillaDeOro,PuertoFranciscoDeOrellana,Loreto,Coca,Shushufindi,LaBonita,NuevaLoja,Sucumbíos,Pastaza,Morona,Chinchipe,Zamora,CentinelaDelCóndor,Yantzaza,Gualaquiza,Logroño,Sucúa,PanamaCity,SanJose,GuatemalaCity,SanSalvador,Tegucigalpa,Managua,SanJoseCR,Havana,SantoDomingo,SanJuan,PuertoPlata,Kingston,PortOfSpain,Georgetown,Cayenne",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Ligurian",
     "i": 24984,
     "min": 4,
@@ -5806,7 +5776,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Madrid,Seville,Zaragoza,Malaga,Bilbao,Murcia,Palma,Las Palmas de Gran Canaria,Alicante,Valladolid,Vigo,Gijon,Hospitalet de Llobregat,La Coruna,Vitoria-Gasteiz,Elche,Santa Cruz de Tenerife,Badalona,Terrassa,Jerez de la Frontera,Sabadell,Mostoles,Alcala de Henares,Pamplona,Fuenlabrada,Almeria,San Sebastian,Leganes,Santander,Castellon de la Plana,Burgos,Albacete,Getafe,Salamanca,Logrono,Huelva,Marbella,Tarragona,Cadiz,Lleida,Mataro,Dos Hermanas,Ceuta,Melilla,Ciudad Real,Huesca,Teruel,Avila,Segovia,Soria,Palencia,Pontevedra,Lugo,Orense,Badajoz,Caceres,Toledo,Jaen,Linares,Roquetas de Mar,El Ejido,Nijar,Sanlucar de Barrameda,Arrecife,Puerto del Rosario,Santiago de Compostela,Aranjuez,Ronda,Algeciras,La Linea de la Concepcion,Chiclana,Santa Coloma de Gramenet,Torrejon de Ardoz,Parla,Alcobendas,Las Rozas de Madrid,Pozuelo de Alarcon,Boadilla del Monte,Mexico City,Monterrey,Puebla,Tijuana,Juarez,Torreon,Queretaro,San Luis Potosi,Mexicali,Aguascalientes,Tampico,Chihuahua,Saltillo,Veracruz,Acapulco,Cancun,Culiacan,Mazatlan,Morelia,Tuxtla Gutierrez,Villahermosa,Toluca,Hermosillo,Cabo San Lucas,Playa del Carmen,Cozumel,Oaxaca,Tapachula,Chetumal,Campeche,Colima,Zacatecas,Irapuato,Durango,Los Mochis,Ensenada,Matamoros,Reynosa,Nuevo Laredo,Ciudad Victoria,Poza Rica,Coatzacoalcos,Havana,Santiago de Cuba,Camaguey,Holguin,Santa Clara,Bayamo,Las Tunas,Cienfuegos,Pinar del Rio,Matanzas,Sancti Spiritus,Ciego de Avila,Manzanillo,Guantanamo,Nueva Gerona,Varadero,Remedios,Camajuani,Moron,Guatemala City,Quetzaltenango,Escuintla,Coban,Antigua Guatemala,Huehuetenango,Flores,San Marcos,San Salvador,Santa Ana,San Miguel,Usulutan,Chalatenango,La Union,Sonsonate,Ahuachapan,Cojutepeque,San Vicente,Zacatecoluca,Sensuntepeque,Tegucigalpa,San Pedro Sula,Comayagua,La Ceiba,Choluteca,El Progreso,Danli,Gracias,Roatan,Managua,Masaya,Esteli,Matagalpa,Jinotega,Bluefields,San Carlos,Rivas,Boaco,Juigalpa,Ocotal,San Jose,Alajuela,Cartago,Heredia,Limon,Puntarenas,Liberia,Quepos,David,Panama City,La Palma,Santiago,Penonome,Chitre,Bocas del Toro,Aguadulce,Santiago de Veraguas,Las Tablas,Antofagasta,La Serena,Temuco,Iquique,Arica,Copiapo,Valparaiso,Rancagua,Talca,Chillan,Los Angeles,Osorno,Puerto Montt,Coyhaique,Punta Arenas,Quillota,Calera,San Antonio,Melipilla,Buin,Paine,Bogota,Medellin,Cali,Barranquilla,Cucuta,Bucaramanga,Pereira,Santa Marta,Ibague,Pasto,Manizales,Neiva,Villavicencio,Valledupar,Monteria,Sincelejo,Tunja,Quibdo,Popayan,Riohacha,Armenia,Floridablanca,Giron,Bello,Itagui,Envigado,Tulua,Buga,Palmira,Yumbo,Buenaventura,Caracas,Maracaibo,Barquisimeto,Maracay,Ciudad Guayana,Maturin,Cumana,Cabimas,Punto Fijo,Barinas,Guacara,Puerto Cabello,Los Teques,Guarenas,Catia La Mar,Quito,Guayaquil,Loja,Machala,Ambato,Portoviejo,Manta,Riobamba,Esmeraldas,Ibarra,Latacunga,Quevedo,Santo Domingo,Milagro,El Coca,Tena,Bahia de Caraquez,Sangolqui,La Libertad,Salinas,Santa Elena,Puyo,Tulcan,Macas,Santiago de los Caballeros,La Romana,San Pedro de Macoris,Puerto Plata,La Vega,San Juan de la Maguana,Bani,Moca,Higuey,Nagua,Cotui,Bonao,Mao,Monte Cristi,Dajabon,Bayamon,Ponce,Mayaguez,Caguas,Arecibo,Humacao,Fajardo,Guayama,Aguadilla,Coamo,Yauco,Cayey,Manati,Vega Baja,Canovanas,Rio Grande,Carolina,Guaynabo,Asuncion,Ciudad del Este,San Lorenzo,Encarnacion,Pedro Juan Caballero,Villarrica,Caaguazu,Coronel Oviedo,Itapua,Pilar,Salto del Guaira,Hernandarias,Montevideo,Salto,Paysandu,Las Piedras,Rivera,Maldonado,Tacuarembo,Melo,Florida,Punta del Este,Colonia del Sacramento,Rocha,Artigas,Durazno,Buenos Aires,Rosario,Mendoza,La Plata,San Miguel de Tucuman,Mar del Plata,Salta,Santa Fe,Resistencia,Santiago del Estero,Corrientes,Posadas,Bahia Blanca,Parana,Neuquen,La Rioja,Catamarca,San Salvador de Jujuy,Tandil,Olavarria,Junin,Mercedes,Lima,Arequipa,Trujillo,Chiclayo,Piura,Cusco,Iquitos,Chimbote,Huancayo,Tacna,Juliaca,Ica,Sullana,Ayacucho,Cajamarca,Pucallpa,Tarapoto,Huaraz,Tumbes,Talara,Pisco,Huancavelica,Moyobamba,Chachapoyas,Abancay,Puno,Callao,Huacho,Santa Cruz de la Sierra,Cochabamba,Oruro,Sucre,Potosi,Tarija,Cobija,Riberalta,Camiri,Villazon,Tupiza,Montero,Warnes,Yacuiba",
+    "b": "Madrid,Seville,Zaragoza,Malaga,Bilbao,Murcia,Palma,Las Palmas de Gran Canaria,Alicante,Valladolid,Vigo,Gijon,Hospitalet de Llobregat,La Coruna,Vitoria-Gasteiz,Elche,Santa Cruz de Tenerife,Badalona,Terrassa,Jerez de la Frontera,Sabadell,Mostoles,Alcala de Henares,Pamplona,Fuenlabrada,Almeria,San Sebastian,Leganes,Santander,Castellon de la Plana,Burgos,Albacete,Getafe,Salamanca,Logrono,Huelva,Marbella,Tarragona,Cadiz,Lleida,Mataro,Dos Hermanas,Ceuta,Melilla,Ciudad Real,Huesca,Teruel,Avila,Segovia,Soria,Palencia,Pontevedra,Lugo,Orense,Badajoz,Caceres,Toledo,Jaen,Linares,Roquetas de Mar,El Ejido,Nijar,Sanlucar de Barrameda,Arrecife,Puerto del Rosario,Santiago de Compostela,Aranjuez,Ronda,Algeciras,La Linea de la Concepcion,Chiclana,Santa Coloma de Gramenet,Torrejon de Ardoz,Parla,Alcobendas,Las Rozas de Madrid,Pozuelo de Alarcon,Boadilla del Monte,Mexico City,Monterrey,Puebla,Tijuana,Juarez,Torreon,Queretaro,San Luis Potosi,Mexicali,Aguascalientes,Tampico,Chihuahua,Saltillo,Veracruz,Acapulco,Cancun,Culiacan,Mazatlan,Morelia,Tuxtla Gutierrez,Villahermosa,Toluca,Hermosillo,Cabo San Lucas,Playa del Carmen,Cozumel,Oaxaca,Tapachula,Chetumal,Campeche,Colima,Zacatecas,Irapuato,Durango,Los Mochis,Ensenada,Matamoros,Reynosa,Nuevo Laredo,Ciudad Victoria,Poza Rica,Coatzacoalcos,Santiago de Cuba,Camaguey,Holguin,Santa Clara,Bayamo,Las Tunas,Cienfuegos,Pinar del Rio,Matanzas,Sancti Spiritus,Ciego de Avila,Manzanillo,Guantanamo,Nueva Gerona,Varadero,Remedios,Camajuani,Moron,Guatemala City,Quetzaltenango,Escuintla,Coban,Antigua Guatemala,Huehuetenango,Flores,San Marcos,San Salvador,Santa Ana,San Miguel,Usulutan,Chalatenango,La Union,Sonsonate,Ahuachapan,Cojutepeque,San Vicente,Zacatecoluca,Sensuntepeque,San Pedro Sula,Comayagua,La Ceiba,Choluteca,El Progreso,Danli,Gracias,Roatan,Masaya,Esteli,Matagalpa,Jinotega,Bluefields,San Carlos,Rivas,Boaco,Juigalpa,Ocotal,San Jose,Alajuela,Cartago,Heredia,Limon,Puntarenas,Liberia,Quepos,David,Panama City,La Palma,Penonome,Chitre,Bocas del Toro,Aguadulce,Santiago de Veraguas,Las Tablas,Antofagasta,La Serena,Temuco,Iquique,Arica,Copiapo,Valparaiso,Rancagua,Talca,Chillan,Los Angeles,Osorno,Puerto Montt,Coyhaique,Punta Arenas,Quillota,Calera,San Antonio,Melipilla,Buin,Paine,Bogota,Medellin,Cucuta,Bucaramanga,Pereira,Santa Marta,Ibague,Pasto,Manizales,Neiva,Villavicencio,Valledupar,Monteria,Sincelejo,Tunja,Quibdo,Popayan,Riohacha,Armenia,Floridablanca,Giron,Bello,Itagui,Envigado,Tulua,Buga,Palmira,Yumbo,Buenaventura,Maracaibo,Barquisimeto,Maracay,Ciudad Guayana,Maturin,Cumana,Cabimas,Punto Fijo,Barinas,Guacara,Puerto Cabello,Los Teques,Guarenas,Catia La Mar,Loja,Machala,Ambato,Portoviejo,Manta,Riobamba,Esmeraldas,Ibarra,Latacunga,Quevedo,Santo Domingo,Milagro,El Coca,Tena,Bahia de Caraquez,Sangolqui,La Libertad,Salinas,Santa Elena,Puyo,Tulcan,Macas,Santiago de los Caballeros,La Romana,San Pedro de Macoris,Puerto Plata,La Vega,San Juan de la Maguana,Bani,Moca,Higuey,Nagua,Cotui,Bonao,Mao,Monte Cristi,Dajabon,Bayamon,Ponce,Mayaguez,Caguas,Arecibo,Humacao,Fajardo,Guayama,Aguadilla,Coamo,Yauco,Cayey,Manati,Vega Baja,Canovanas,Rio Grande,Carolina,Guaynabo,Asuncion,Ciudad del Este,San Lorenzo,Encarnacion,Pedro Juan Caballero,Villarrica,Caaguazu,Coronel Oviedo,Itapua,Pilar,Salto del Guaira,Hernandarias,Salto,Paysandu,Las Piedras,Rivera,Maldonado,Tacuarembo,Melo,Florida,Punta del Este,Colonia del Sacramento,Rocha,Artigas,Durazno,Buenos Aires,La Plata,San Miguel de Tucuman,Mar del Plata,Salta,Santa Fe,Resistencia,Santiago del Estero,Corrientes,Posadas,Bahia Blanca,Parana,Neuquen,La Rioja,Catamarca,San Salvador de Jujuy,Tandil,Olavarria,Junin,Mercedes,Chiclayo,Piura,Chimbote,Huancayo,Tacna,Juliaca,Ica,Sullana,Ayacucho,Cajamarca,Tarapoto,Huaraz,Tumbes,Talara,Pisco,Huancavelica,Moyobamba,Chachapoyas,Abancay,Puno,Callao,Huacho,Santa Cruz de la Sierra,Oruro,Potosi,Tarija,Cobija,Riberalta,Camiri,Villazon,Tupiza,Montero,Warnes,Yacuiba",
     "status": "COMPLETE"
   },
   {

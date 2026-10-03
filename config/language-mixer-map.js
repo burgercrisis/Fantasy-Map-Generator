@@ -11289,9 +11289,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "lat",
-    "bases": [
-      14025
-    ]
+    "bases": []
   },
   {
     "iso": "latvian",
@@ -17847,7 +17845,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "argentinian-spanish",
-    "bases": []
+    "bases": [
+      373
+    ]
   },
   {
     "iso": "arh",
@@ -22725,12 +22725,6 @@ globalThis.languageMixerMap = [
     "iso": "x-udmurt",
     "bases": [
       24731
-    ]
-  },
-  {
-    "iso": "x-argentinian-spanish",
-    "bases": [
-      373
     ]
   },
   {

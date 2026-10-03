@@ -1325,7 +1325,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Flores,San Jose,San Benito,Santa Elena,Melchor de Mencos,Poptun,Dolores,San Luis,San Francisco,La Libertad,Las Cruces,El Chal,Sayaxche,La Union",
+    "b": "SanJosé,Flores,SantaElena,SanBenito,MelchorDeMencos,Uaxactún,Tikal",
     "status": "WAITING"
   },
   {

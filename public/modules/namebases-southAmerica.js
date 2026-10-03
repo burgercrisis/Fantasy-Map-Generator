@@ -1196,8 +1196,8 @@ window.southAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Quito,Guayaquil,Cuenca,Ambato,Riobamba,Loja,Latacunga,Portoviejo,Manta,SantoDomingo,Machala,Quevedo,Babahoyo,Chone,Duran,Ibarra,Otavalo,Cotacachi,Sangolqui,Cayambe,Tena,Puyo,Macas,Zamora,Banos,Guaranda,Azogues,Tulcan,NuevaLoja,Coca,Shell,Mera,Arajuno,Pujili,Pelileo",
-    "status": "COMPLETE"
+    "b": "Pijal,Angla,ElTopo,Uscha,Gualacata,CascoValenzuela,Yacubamba,Chicaiza,SanPabloDelLago,Otavalo,Salcedo,Pujilí,Latacunga",
+    "status": "WAITING"
   },
   {
     "name": "Ndyuka-Tiriyó Pidgin",
@@ -1488,5 +1488,35 @@ window.southAmericaNameBases = [
     "m": 0,
     "b": "Stabroek,Cartabo,Fort Zeelandia,Fort Kyk-Over-Al,Ter Hoogen,Pomeroon,Georgetown,Vreed-en-Hoop,Queenstown,Zeelugt,Tuschen,Vergenoegen,Philadelphia,Greenwich Park,Hydronie,Parika,Sparta,Salem,Mora,Uitvlugt,Wakenaam,Leguan,Hog Island,Annandale,Suddie,Charity,Hampton Court,Adventure,Lima,Henrietta,La Belle Alliance,Anna Regina",
     "status": "WAITING"
+  },
+  {
+    "name": "Argentinian Spanish",
+    "i": 373,
+    "min": 4,
+    "max": 23,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Buenos Aires,Córdoba,Rosario,Mendoza,La Plata,Mar del Plata,San Miguel de Tucumán,Salta,Santa Fe,Paraná,Resistencia,Posadas,Neuquén,San Juan,San Luis,Río Gallegos,Viedma,Comodoro Rivadavia,San Salvador de Jujuy,Formosa,Rawson,Ushuaia,Puerto Madryn,Río Grande,San Carlos de Bariloche,Villa Carlos Paz,San Rafael,La Rioja,Catamarca,Santiago del Estero,Corrientes",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Ecuadorian Spanish",
+    "i": 411,
+    "min": 3,
+    "max": 20,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Quito,Guayaquil,Cuenca,Santo Domingo,Machala,Durán,Portoviejo,Manta,Loja,Ambato,Esmeraldas,Quevedo,Riobamba,Ibarra,La Libertad,Babahoyo,Ventanas,Daule,Pasaje,La Troncal,Naranjal,Milagro,Yaguachi,Playas,El Triunfo,Samborondón,La Maná,Pujilí,San Miguel de Salces,Guaranda,Cevallos,Píllaro,Pelileo,Baños,Patate,Tena,Puyo,Macas,Sucúa,Gualaquiza,Logroño,Mendez,Palora,Sevilla de Oro,Yantzaza,Centinela del Cóndor,Girón,San Fernando,Gualaceo,Paute,Sigsig,Chordeleg,Oña",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Latin American Spanish",
+    "i": 14025,
+    "min": 4,
+    "max": 26,
+    "d": "lnrt",
+    "m": 0,
+    "b": "MexicoCity,Guadalajara,Monterrey,Puebla,León,Querétaro,Morelia,Oaxaca,Toluca,Aguascalientes,Chihuahua,Saltillo,Hermosillo,Torreón,Acapulco,Xalapa,Villahermosa,TuxtlaGutiérrez,Mérida,Cancún,Veracruz,Tampico,Mexicali,Cuernavaca,Pachuca,Tepic,Durango,Irapuato,Uruapan,GuatemalaCity,Mixco,VillaNueva,Quetzaltenango,Cobán,Escuintla,Huehuetenango,Retalhuleu,PuertoBarrios,Chimaltenango,Sololá,Jutiapa,Mazatenango,SanSalvador,SantaAna,SanMiguel,Soyapango,Mejicanos,Sonsonate,Usulután,Ahuachapán,SantaTecla,Tegucigalpa,SanPedroSula,LaCeiba,Choloma,Comayagua,Danlí,PuertoCortés,Juticalpa,ElProgreso,Tocoa,Villanueva,Siguatepeque,Yoro,Trujillo,Roatán,Managua,Masaya,Granada,Chinandega,Estelí,Matagalpa,Tipitapa,Bluefields,Juigalpa,Somoto,Ocotal,Waspán,SanJosé,Alajuela,Cartago,Heredia,Liberia,Puntarenas,Limón,SanIsidroDeElGeneral,Guápiles,Nicoya,CiudadNeily,PanamaCity,SanMiguelito,Tocumen,David,Colón,LaChorrera,SantiagoDeVeraguas,Chitré,Penonomé,BelizeCity,Belmopan,OrangeWalk,Corozal,PuntaGorda,Placencia,LaHabana,SantiagoDeCuba,Camagüey,Holguín,Cienfuegos,Matanzas,Guantánamo,Bayamo,SantaClara,SantoDomingo,LaRomana,SanPedroDeMacorís,PuertoPlata,LaVega,SanCristobal,SanJuan,Ponce,Bayamón,Carolina,Caguas,Mayagüez,Bogotá,Medellín,Cali,Barranquilla,Cartagena,Bucaramanga,Pereira,Manizales,SantaMarta,Ibagué,Pasto,Neiva,Villavicencio,Tunja,Popayán,Valledupar,Montería,Armenia,Sincelejo,Caracas,Maracaibo,Valencia,Barquisimeto,Maracay,CiudadGuayana,Barinas,Cumaná,PuertoLaCruz,PuntoFijo,Quito,Guayaquil,Cuenca,Machala,Durán,Manta,Portoviejo,Loja,Ambato,Esmeraldas,Quevedo,Riobamba,Ibarra,Latacunga,Milagro,Babahoyo,Tulcán,NuevaLoja,Azogues,Lima,Arequipa,Chiclayo,Piura,Iquitos,Cusco,Chimbote,Huancayo,Tacna,Pucallpa,Juliaca,Ica,Ayacucho,Moquegua,LaPaz,SantaCruz,Cochabamba,Sucre,ElAlto,Oruro,Potosí,Tarija,Montero,Trinidad,BuenosAires,Córdoba,Rosario,Mendoza,LaPlata,SanMiguelDeTucumán,MarDelPlata,Salta,SantaFe,Resistencia,Posadas,LaRioja,RíoCuarto,Neuquén,ComodoroRivadavia,Ushuaia,Bariloche,Santiago,Valparaíso,Concepción,Antofagasta,Temuco,Iquique,Rancagua,PuertoMontt,Arica,PuntaArenas,PuertoVaras,Osorno,Calama,Coquimbo,Montevideo,Salto,Paysandú,Rivera,Maldonado,Tacuarembó,Asunción,CiudadDelEste,Encarnación,PedroJuanCaballero,Villarrica",
+    "status": "COMPLETE"
   }
 ];
