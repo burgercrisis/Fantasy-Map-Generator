@@ -1426,7 +1426,7 @@ window.asiaNameBases = [
     "max": 17,
     "d": "",
     "m": 0,
-    "b": "Shiyajiao,Baini,Fangluocheng,Panzhihua",
+    "b": "Lao Cai,Sa Pa,Bac Ha,Van Ban,Yen Bai,Phu Tho,Ha Giang,Hoa Binh,Moc Chau,Mai Chau,Muong Lay,Phong Tho,Quynh Nhai,Xieng Khouang,Luang Namtha,Phongsaly,Houaphanh",
     "status": "WAITING"
   },
   {
@@ -6296,7 +6296,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ban Sapuan,Attapeu,Attabou,Sanamsay,Ban Chanto,Ban Mai,Salavan,Sekong,Xayaburi,Savannakhet,Pakse,Vientiane",
+    "b": "Ban Sapuan,Attapeu,Sanxay,Samakkixay,Xaysetha",
     "status": "WAITING"
   },
   {
@@ -6400,16 +6400,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Southern Tai",
-    "i": 200498,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Uttaradit,Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Sukhothai,Phetchabun,Phitsanulok",
-    "status": "WAITING"
-  },
-  {
     "name": "Southern Thai",
     "i": 200499,
     "min": 4,
@@ -6466,7 +6456,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ban Chanto,Ban Mai,Sanamsay,Ban Sapuan,Attapeu,Attabou,Salavan,Sekong,Xayaburi,Savannakhet,Pakse,Vientiane",
+    "b": "Sanamxay,Ban Chanto,Ban Mai,Xaysetha,Attapeu",
     "status": "WAITING"
   },
   {
@@ -6506,7 +6496,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Purnia,Katihar,Araria,Madhepura,Saharsa,Darbhanga,Begusarai,Munger,Banka,Jamui,Kishanganj,Muzaffarpur,Samastipur,Bhagalpur,Godda,Dumka,Sahibganj",
+    "b": "Purnia,Katihar,Kishanganj,Araria,Maheshkalan,Gopalganj,Saharsa,Madhepura,Khetaur,Islampur,Jalpaiguri,Goalpara,Thakurgaon,Jhapa,Birampur",
     "status": "WAITING"
   },
   {
@@ -6527,16 +6517,6 @@ window.asiaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Chiang Rai,Loei,Nong Khai,Nong Bua Lamphu,Udon Thani,Sakon Nakhon,Kalasin,Amnat Charoen,Yasothon,Bueng Kan,Si Sa Ket,Surin,Buri Ram,Nakhon Ratchasima,Roi Et,Chaiyaphum,Maha Sarakham,Khon Kaen,Ubon Ratchasani,Mukdahan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Tai Hang Tong",
-    "i": 200516,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Chiang Mai,Chiang Rai,Lampang,Lamphun,Mae Hong Son,Nan,Phayao,Phrae,Uttaradit,Sukhothai,Phetchabun,Phitsanulok",
     "status": "WAITING"
   },
   {
@@ -6866,7 +6846,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Purnia,Katihar,Araria,Madhepura,Saharsa,Darbhanga,Begusarai,Munger,Banka,Jamui,Kishanganj,Muzaffarpur,Samastipur,Bhagalpur,Godda,Dumka,Sahibganj",
+    "b": "Malda,English Bazar,Old Malda,Murshidabad,Dinajpur,Uttar Dinajpur,Rajshahi,Bogra,Naogaon,Natore,Pabna,Sirajganj,Chapai Nawabganj,Joypurhat,Gaibandha",
     "status": "WAITING"
   },
   {
@@ -7800,21 +7780,11 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Rouruo",
+    "name": "Rouruo (Zauzou)",
     "i": 201291,
     "min": 4,
     "max": 13,
     "d": "lnrt",
-    "m": 0,
-    "b": "Tu'e,Bijifeng,Wupijiang,Guoli,Xiaocun,Jiangmo,Lanping,Lushui,Nujiang",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rung",
-    "i": 201292,
-    "min": 4,
-    "max": 11,
-    "d": "",
     "m": 0,
     "b": "Tu'e,Bijifeng,Wupijiang,Guoli,Xiaocun,Jiangmo,Lanping,Lushui,Nujiang",
     "status": "WAITING"
@@ -8356,7 +8326,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bukhara,Samarkand,Navoi,Kattakurgan,Karshi,Shahrisabz,Termez,Dushanbe,Khujand,Panjakent,Tashkent,Balkh",
+    "b": "Bukhara,Gijduvan,Vobkent,Jogari,Jughary,Chandyr,Arabkhane",
     "status": "WAITING"
   },
   {
@@ -8376,7 +8346,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Bukhara,Samarkand,Kattakurgan,Karshi,Termez,Dushanbe,Khujand,Panjakent,Shahrisabz,Navoi,Tashkent,Balkh",
+    "b": "Bukhara,Gijduvan,Samarkand,Karshi,Shahrisabz,Kitab,Termez,Sherabad,Jarkurgan,Boysun,Dushanbe,Kulob,Khujand,Panjakent,Andkhoy,Mazar-i-Sharif,Balkh,Khulm,Mashhad,Neyshabur",
     "status": "WAITING"
   },
   {

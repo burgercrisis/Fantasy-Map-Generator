@@ -220,6 +220,25 @@ const ALLOWED_REMOVALS = new Set([
     // code that already existed, so both the mixer key and the catalog row move to
     // it. This is a rename, not a loss: the entry at i=1056 is unchanged.
     "telue",
+    // Four more keys from the below-floor duplicate groups, all of which W011
+    // skipped because every entry involved was under the seed floor.
+    //   southern-tai, tai-hang-tong, thc
+    //     "Southern Tai" is not a language - a folk alternate for Southern Thai
+    //     (sou, i=200499) and the name of the reconstructed Proto-Southern branch,
+    //     an off-by-one slip against its own sibling. Tai Hang Tong was ISO thc
+    //     until that code was retired in 2016 and merged into tpo Tai Pao, already
+    //     i=200522. Note sdl is Saudi Arabian Sign Language, not this.
+    //   rung
+    //     Not a language at all: LaPolla's proposed Tibeto-Burman super-branch
+    //     (Thurgood 1984 / LaPolla 2003, disputed since), with no ISO code and no
+    //     Glottolog languoid. The catalog already carries Gurung, Jerung,
+    //     Lohorung, Turung and Derung, so this was a junk variant of that cluster.
+    "southern-tai",
+    "tai-hang-tong",
+    "thc",
+    "rung",
+    //   x-tai-hang-tong - the x- shadow that went with it.
+    "x-tai-hang-tong",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

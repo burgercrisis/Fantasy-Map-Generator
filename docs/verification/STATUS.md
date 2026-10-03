@@ -11,14 +11,14 @@ Generated: 2026-10-03  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2996 |
+| Language entries | 2993 |
 | Marked COMPLETE (>= 25 seeds) | 1795 |
-| Marked WAITING (< 25 seeds) | 1201 |
-| Below seed floor | 1183 |
+| Marked WAITING (< 25 seeds) | 1198 |
+| Below seed floor | 1180 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 828 |
+| Map ISOs with no namebase (research backlog) | 829 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -26,7 +26,7 @@ Generated: 2026-10-03  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 686 | 232 | 1 | 27 |
-| asia | 1021 | 538 | 2 | 23 |
+| asia | 1018 | 535 | 2 | 23 |
 | europe | 624 | 139 | 0 | 30 |
 | northAmerica | 212 | 67 | 0 | 29 |
 | southAmerica | 149 | 28 | 0 | 32 |
@@ -35,7 +35,7 @@ Generated: 2026-10-03  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1183 entries need authentic settlement names. Ordered by seed count,
+1180 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -134,7 +134,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1012 | Hu (Kongge / Kun'ge / Kon Keu) |
 | 4 | asia | 1155 | Ili Turki |
 | 4 | asia | 1165 | Tai Muong Vat |
-| 4 | asia | 1179 | Tai Daeng |
 | 4 | asia | 1254 | Lashi |
 | 4 | asia | 1384 | Bateri |
 | 4 | asia | 1496 | Tilung |
@@ -201,14 +200,14 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 203138 | Kili |
 | 5 | asia | 200350 | Mala Malasar |
 | 5 | asia | 200361 | Maonan |
+| 5 | asia | 200477 | Sapuan |
 | 5 | asia | 200492 | Sikkimese |
+| 5 | asia | 200506 | Su' |
 | 5 | asia | 200571 | Wadiyara Koli |
 | 5 | asia | 211002 | Bishnupriya Manipuri |
 | 5 | asia | 1481 | Central Min |
 | 5 | asia | 202477 | Thao |
-| 5 | europe | 1088 | Northern Karelian |
 | 5 | europe | 1480 | Central Mansi |
-| 5 | europe | 2110 | Karelian proper |
 | 5 | europe | 2378 | Northern Selkup |
 | 5 | europe | 200746 | Lipsha |
 | 5 | europe | 200888 | Urum |
@@ -317,6 +316,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 200341 | Lower Uda Buryat |
 | 7 | asia | 200449 | Pyang Zhuang |
 | 7 | asia | 203174 | Dungmali |
+| 7 | asia | 313 | Bukharian Arabic |
 | 7 | asia | 202694 | Thmon |
 | 7 | asia | 945 | Armazic |
 | 7 | europe | 2379 | Northern Mansi |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203276 | Wayan |
 | 7 | southAmerica | 203166 | Wichí Lhamtés Nocten (Weenhayek) |
 
-_Showing the lowest 300 of 1183. Full queue:_
+_Showing the lowest 300 of 1180. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-828 languages the mixer map offers have no namebase entry
+829 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | bua | Buryat Names | 20112 |
 | busa | Busa | undefined |
 
-_Showing 150 of 828._
+_Showing 150 of 829._
 
 ## How to work on this
 

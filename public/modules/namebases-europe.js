@@ -2646,7 +2646,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Petrozavodsk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja",
+    "b": "Kalevala,Loukhi,Uhtua,Kiestinki,Kontokki,Paanajärvi,Vuokkiniemi,Vitsataipale,Pistojärvi,Oulanka,Suomussalmi,Kuhmo,Hietajärvi,Kuivajärvi,Rimpi,Kostomuksha",
     "status": "WAITING"
   },
   {
@@ -3036,7 +3036,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Petrozavodsk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja",
+    "b": "Petrozavodsk,Kondopoga,Medvezhyegorsk,Segezha,Suoyarvi,Belomorsk,Kem,Kalevala,Loukhi,Kostomuksha,Kiestinki,Uhtua,Tunkua,Suistamo,Impilahti,Rautu,Ilomantsi,Korpiselkä,Tikhvin,Valday,Tver",
     "status": "WAITING"
   },
   {
@@ -4446,7 +4446,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Nurmes,Kontiolahti,Liperi,Outokumpu,Polvijärvi,Juuka,Rautavaara,Valtimo,Rautjärvi,Tuupovaara,Kiihtelysvaara",
+    "b": "Tunkua,Suikujärvi,Repola,Rukajärvi,Paatene,Mäntyselkä,Porajärvi,Ilomantsi,Korpiselkä,Suojärvi,Suistamo,Impilahti,Tikhvin,Valday,Tver",
     "status": "WAITING"
   },
   {

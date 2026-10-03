@@ -6798,12 +6798,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "southern-tai",
-    "bases": [
-      200498
-    ]
-  },
-  {
     "iso": "southern-thai",
     "bases": [
       200499
@@ -6923,12 +6917,6 @@ globalThis.languageMixerMap = [
     "iso": "tai-don",
     "bases": [
       200515
-    ]
-  },
-  {
-    "iso": "tai-hang-tong",
-    "bases": [
-      200516
     ]
   },
   {
@@ -17664,12 +17652,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "rung",
-    "bases": [
-      201292
-    ]
-  },
-  {
     "iso": "shaozhou-tuhua",
     "bases": [
       201293
@@ -20882,7 +20864,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "krl",
     "bases": [
-      200803
+      2110
     ]
   },
   {
@@ -21339,12 +21321,6 @@ globalThis.languageMixerMap = [
     "iso": "x-stieng",
     "bases": [
       200505
-    ]
-  },
-  {
-    "iso": "x-tai-hang-tong",
-    "bases": [
-      200516
     ]
   },
   {
