@@ -6868,5 +6868,15 @@ window.africaNameBases = [
     "m": 0,
     "b": "Alexandria,Marsa Matruh,Baltim,Edku,Abu Qir,Lake Mariout,Damanhur,Delengat,Kafr El Dawwar,Shubrakhit,Abu Hummus,Badr,Basta,Kom Hamada,Rashid,Kafr Shukr,Sidi Barrani,Sallum,Burg El Arab,Wadi El Natrun,Cairo,Beni Suef,Sidi Salem,Fashn,Tanta,Banha,Kafr El Sheikh,Desouk,Samannoud,Domiat",
     "status": "WAITING"
+  },
+  {
+    "name": "Ari (South Omo)",
+    "i": 202335,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Jinka,Bako,Biyo,Laydo,Seyki,Sido,Zeddo,Shangama,Wubahamer,South Omo Zone,Dell,Basketo",
+    "status": "WAITING"
   }
 ];

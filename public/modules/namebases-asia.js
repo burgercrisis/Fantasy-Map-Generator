@@ -8120,16 +8120,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Tsotsitaal",
-    "i": 200998,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pretoria,Johannesburg,Durban,Bloemfontein,PortElizabeth,EastLondon,Kimberley,Pietermaritzburg,Nelspruit,Mafikeng,Polokwane,Thohoyandou,Lebowakgomo,Middelburg,Witbank,Bethal,Ermelo,Standerton,PietRetief,Volksrust,Newcastle,Ladysmith,Kokstad,Queenstown,Grahamstown,Worcester,Paarl,Stellenbosch,Swellendam,George,Oudtshoorn,Riversdale,Caledon,Soweto,Alexandra,London,Paris,Tokyo,New York,Beijing,Sydney,Cairo,Moscow,Berlin,Rome,Madrid,Seoul,Shanghai,Mumbai,Lagos,Buenos Aires,Lima,Bogotá,Caracas,Quito,La Paz,Montevideo,Asunción,Brasília",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Yaeyama",
     "i": 251,
     "min": 4,
@@ -8787,16 +8777,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Jerusalem,Tel Aviv,Haifa,Rishon LeZion,Petah Tikva,Ashdod,Netanya,Bnei Brak,Holon,Beersheba,Ramat Gan,Bat Yam,Herzliya,Kfar Saba,Rehovot,Ashkelon,Beit Shemesh,Nazareth,Acre,Afula,Modiin,Ramla,Lod,Tiberias,Beit Shean,Yokneam,Kiryat Shmona,Metula,Nahariya,Rosh Pina,Zefat,Karmiel,Sakhnin,Shefa Amr,Tamra,Migdal HaEmek,Mevaseret Zion,Efrat,Beitar Illit,Maale Adumim,Ariel,Givat Zeev,Kiryat Malakhi,Yerucham,Dimona,Mitzpe Ramon,Sderot,Netivot,Ofakim,Beer Yaakov,Gedera,Yavne,Kiryat Ono,Givatayim,Ramat HaSharon,Hod HaSharon,Ra,anana,Kfar Yona,Even Yehuda,Pardes Hanna,Kiryat Tivon,Kiryat Ata,Kiryat Bialik,Kiryat Yam,Afula Illit,Tirat Carmel,Daliyat al-Karmel,Isfiya,Ein Gedi,Eilat,Arad,Sedom,Masada,Qumran,Rosh HaAyin,Kiryat Gat,Safed,Nes Ziona,Nesher,Tayibe,Tira,Kafr Qasim,Kafr Kanna,Kafr Manda,Majd al-Kurum,Umm al-Fahm,Shefar,am,Baqa al-Gharbiyye,Ar,ara,Maalot Tarshiha,Hadera,Qalansawe,Or Yehuda,Or Aqiva,Beit Jann,Jish,Arrabe,Mughar,Hurfeish,Buq,ata,Majdal Shams,Mas,ade,Ghajar,Nof Hagalil,Ilut,Julis,Yarka,Reineh,Sajur,Tuba Zangari,Tur,an,Kokhav Ya,ir,Ra-anana,Shefa-am,Ar-ara,Buq-ata,Mas-ade,Tur-an,Kokhav Ya-ir,Bnei Ayish,Gan Yavne,Aseret,Yish-i,Be-er Tuvia,Qiryat Malakhi,Lehavim,Omer,Meitar,Shomria,Sapir,Kuseife,Lakiya,Tel Sheva,Rahat,Segev Shalom,Hura,Laqye,Tuba-Zangariyye,Abu Snan,Jadeidi-Makr,Deir al-Asad,Suhmata,Fassuta,Gush Halav,Bar-am,Hulata,Yesud HaMa-ala,Dafna,Ayelet HaShahar,Tel Hazor,Hazor HaGlilit,Korazim,Amir,Kfar HaNassi,Poria,Migdal,Tabgha,Capernaum,Kursi,Beit Zayit,Abu Ghosh,Kiryat Anavim,Mevaseret Yerushalayim,Beit Nekofa,Ein Naquba,Ein Rafa,Even Sapir,Kiryat Yearim,Tzur Hadassah,Netiv HaGdud,Aviezer,Neve Michael,Tzoref,Ramath Raziel,Ma-ale HaHamisha,Giv-at Ye-arim,Shoresh,Neve Ilan,Beit Meir,Nofit,Ramat Tivon,Binyamina,Ganei Tikva,Ein Iron,Yokneam Illit,HaYogev,Megiddo,Mishmar HaEmek,Yad Mordechai,Nir Yafeh,Ein HaShofet,Beit Oren,Hof HaCarmel,Ein Carmel,Atlit,Neve Yam,HaBonim,Ein Ayala,Ma-agan Michael,Nahsholim,Caesarea,Or Akiva,Zichron Ya-akov,Mahnaim,Sede Ya-akov,Barkai,Ein Shemer,Ein HaEmek,Aviel,Magen,Nogah,Ofer,Ussishkin,Kababir,Yas-ur,Regba,Ahihud,Yasif,Shlomi,Sa-ar,Gesher HaZiv,Adamit,Rosh HaNikra,Betzet,Hanita,Eilon,Netua,Yanuch,Matat,Yiftah,Hila,Baram,Malkia,Avdon,Mahraka,Ras al-Magharah",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Balkar",
-    "i": 24756,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Nalchik,Nartkala,Baksan,Prokhladny,Terek,Maysky,Tyrnyauz,Elbrus,Chegem,Chegem Vtoroy,Dokshukino,Kashkhatau,Aushiger,Zalukokoazhe,Kakhun,Kamenka,Kuba,Aktash,Kishpek,Kremen-Konstantinovskaya,Nizhniy Cherek,Stariy Cherek,Belaya Rechka,Kamenomostskoye,Kendel,Aktau,Verkhniy Kurp,Krasnoarmeyskoye,Terskaya,Gundelen,Kamennomostskoye,Lechinkay,Zhankhoteko,Akkaya,Tashly-Tala,Zayukovo,Karagay,Karagayli,Karakulak,Kazanka,Kislovodsk,Yessentukskiy",
     "status": "COMPLETE"
   },
   {
@@ -9826,7 +9806,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Palana,Tigil,Tilichiki,Karaga,Tymlat,Vyvenka,Ossora,Kamenskoye,Ilpyrskoe,Pakhachi,Ivashka,Kresty,Olyutorka,Rekinniki",
+    "b": "Vyvenka,Tilichiki,Ilpyrsky,Tymlat,Khailino,Olyutorka,Kultushnoye,Vetvey,Anapka,Kichiga,Ossora,Rekinniki,Podkagernaya,Pustoretsk,Palana,Lesnaya,Kinkil,Kakhtana,Voyampolka,Karaga,Ivashka,Dranka,Uka,Khaylyulya,Ozernoye",
     "status": "WAITING"
   },
   {
@@ -10106,7 +10086,7 @@ window.asiaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Probur,Probur Utara,Tribur,Halerman,Manatang,Margeta,Kuifana,Orgen,Wakapsir,Wakapsir Timur,Kafelulang,Moramam,Morba,Pailelang,Pintu Mas,Wolwal,Wolwal Barat,Wolwal Selatan,Wolwal Tengah,Mataraben,Aluben",
+    "b": "Probur,Probur Utara,Tribur,Halerman,Margeta,Manatang,Mataraben,Aluben",
     "status": "WAITING"
   },
   {
@@ -10168,5 +10148,35 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Bintenna,Monaragala,Ratnapura,Veddagala,Vedi Kanda,Hambantota,Ampara,Tissamaharama,Kataragama,Kirinda,Tangalle,Ambalantota,Kumbukkanawa,Yakinna,Debara,Dimbulagala,Korathota,Veedheriya,Wellawaya,Buttala,Bibile,Badalkumbura,Thanamalwila,Seyanagala,Ladugala,Danigala,Pokung,Anuradhapura,Maha Nuwara,Sewanagala,Diyawanna Oya",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Chukotko-Kamchatkan-Amuric",
+    "i": 1609,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Chukotka,Kamchatka,Koryakia,Anadyr,Petropavlovsk,Magadan,Tigil,Palana,Esso,Ust-Kamchatsk,Kliuchi,Milkovo,Sobolevo,Penzhino,Markovo,Bilibino,Pevek,Providenia,Lavrentia,Uelen,Chaplino,Sireniki,Novoe,Tinany,Ossora,Karaginskiy,Ilpyrskoe,Pachichi,Olyutor,Apuka,Kavacha,Reinikovo,Gachir,Vyvenka,Tymlat,Samovo,Khanovey,Kamenskoye,Slautnoe,Pakhachi,Anadyrsk,Ortan,Tuman,Enmuveem,Chuvanskoye,Keperveyem,Snezhnoe,Lamutskoe,Khatyrka,Ust-Belaya,Tigilskoe,Sopochnaya,Korf,Beringovskiy",
+    "status": "COMPLETE"
+  },
+  {
+    "name": "Kafoa",
+    "i": 202344,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Moru,Moramam,Morba,Pintumas,Kafelulang,Wakapsir,Wakapsir Timur,Pailelang,Wolwal,Wolwal Barat,Wolwal Selatan,Wolwal Tengah,Orgen,Kuifana,Mataraben,Probur Utara,Aluben,Fanating,Kalabahi,Mutiara",
+    "status": "WAITING"
+  },
+  {
+    "name": "Ari (Dardic)",
+    "i": 187,
+    "min": null,
+    "max": null,
+    "d": "",
+    "m": null,
+    "b": "Ari,Serea",
+    "status": "WAITING"
   }
 ];

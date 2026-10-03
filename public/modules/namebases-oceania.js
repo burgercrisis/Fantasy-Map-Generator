@@ -1,15 +1,5 @@
 window.oceaniaNameBases = [
   {
-    "name": "Ari",
-    "i": 187,
-    "min": null,
-    "max": null,
-    "d": "",
-    "m": null,
-    "b": "Ari,Serea",
-    "status": "WAITING"
-  },
-  {
     "name": "Bimin",
     "i": 202,
     "min": null,
@@ -1230,16 +1220,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ari",
-    "i": 202335,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Jinka,Bako,Biyo,Laydo,Seyki,Sido,Zeddo,Shangama,Wubahamer,South Omo Zone,Dell,Basketo",
-    "status": "WAITING"
-  },
-  {
     "name": "Asmat–Kamoro",
     "i": 202336,
     "min": 4,
@@ -1297,16 +1277,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kaleb,Batu,Bunga Bali,Lalafang,Lekom,Mawar,Merdeka,Nule,Ombay,Treweng,Padang Sul,Abang Iwang,Tamalabang,Tamalpusi",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kafoa",
-    "i": 202344,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Moru,Moramam,Morba,Pintu Mas,Kafelulang,Wakapsir,Wakapsir Timur,Pailelang,Probur,Probur Utara,Wolwal,Wolwal Selatan,Wolwal Barat,Wolwal Tengah,Halerman,Manatang,Orgen,Tribur,Kuifana,Margeta,Bawah",
     "status": "WAITING"
   },
   {

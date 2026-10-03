@@ -30,14 +30,14 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Chipilo",
+    "name": "Chipilo Venetian (chipileño)",
     "i": 71,
     "min": 3,
     "max": 22,
     "d": "cltr",
     "m": 0.35,
-    "b": "Chipilo,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,Conegliano,Vittorio Veneto,Pieve di Soligo,Mogliano Veneto,Preganziol,San Biagio di Callalta,Spresiano,Villa del Conte,Montebelluna,Castelfranco Veneto,Cittadella,Stramare,Alano di Piave,Pederobba,Cavaso del Tomba,Fener,Vas",
-    "status": "COMPLETE"
+    "b": "Chipilo",
+    "status": "WAITING"
   },
   {
     "name": "New England French",

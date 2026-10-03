@@ -11270,12 +11270,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "ladino",
-    "bases": [
-      21063
-    ]
-  },
-  {
     "iso": "landese",
     "bases": [
       466
@@ -13899,9 +13893,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "tsotsitaal",
-    "bases": [
-      200998
-    ]
+    "bases": []
   },
   {
     "iso": "turku-arabic",
@@ -15472,7 +15464,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "klon",
+    "iso": "kyo",
     "bases": [
       2241
     ]

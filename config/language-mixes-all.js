@@ -10733,7 +10733,7 @@
       "family": "Northeast Caucasian"
     },
     {
-      "name": "Karachay-Balkar",
+      "name": "Karachay",
       "iso": "krc",
       "region": "Europe",
       "category": "Turkic",
@@ -20670,9 +20670,9 @@
       "family": "Keram"
     },
     {
-      "name": "Ari",
+      "name": "Ari (South Omo)",
       "iso": "ari",
-      "region": "Pacific",
+      "region": "Africa",
       "category": "Papuan",
       "family": "Gogodala–Suki"
     },
@@ -22189,7 +22189,7 @@
     },
     {
       "name": "Klon",
-      "iso": "klon",
+      "iso": "kyo",
       "region": "Pacific",
       "category": "Papuan",
       "family": "Alor–Pantar"
@@ -24203,7 +24203,7 @@
     {
       "name": "Chukotko-Kamchatkan",
       "iso": "chukotko-kamchatkan",
-      "region": "Europe",
+      "region": "Asia",
       "category": "Chukotko-Kamchatkan",
       "family": "Chukotko-Kamchatkan"
     },

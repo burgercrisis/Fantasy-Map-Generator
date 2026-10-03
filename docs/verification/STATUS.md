@@ -11,31 +11,31 @@ Generated: 2026-10-03  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2990 |
-| Marked COMPLETE (>= 25 seeds) | 1789 |
-| Marked WAITING (< 25 seeds) | 1201 |
-| Below seed floor | 1180 |
+| Language entries | 2989 |
+| Marked COMPLETE (>= 25 seeds) | 1785 |
+| Marked WAITING (< 25 seeds) | 1204 |
+| Below seed floor | 1182 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 827 |
+| Map ISOs with no namebase (research backlog) | 828 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 687 | 232 | 1 | 27 |
-| asia | 1017 | 533 | 2 | 23 |
-| europe | 618 | 141 | 0 | 30 |
-| northAmerica | 212 | 67 | 0 | 29 |
+| africa | 688 | 233 | 1 | 27 |
+| asia | 1018 | 534 | 2 | 23 |
+| europe | 618 | 143 | 0 | 30 |
+| northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 153 | 29 | 0 | 31 |
-| oceania | 293 | 178 | 1 | 19 |
+| oceania | 290 | 175 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1180 entries need authentic settlement names. Ordered by seed count,
+1182 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -58,6 +58,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | asia | 200299 | Jandavra |
 | 1 | asia | 202585 | Pear |
 | 1 | europe | 757 | Atlym |
+| 1 | northAmerica | 71 | Chipilo Venetian (chipileño) |
 | 1 | northAmerica | 6625 | Ixcatec |
 | 1 | northAmerica | 8425 | Matlatzinca |
 | 1 | oceania | 202368 | Nakai |
@@ -72,9 +73,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | asia | 2246 | Lakkia-Kam-Sui |
 | 2 | asia | 211004 | Malaccan Creole Malay |
 | 2 | asia | 202732 | Yong |
+| 2 | asia | 187 | Ari (Dardic) |
 | 2 | europe | 2323 | Southern Khanty |
 | 2 | northAmerica | 200938 | Cauque Mayan |
-| 2 | oceania | 187 | Ari |
 | 2 | oceania | 202338 | Auye |
 | 2 | oceania | 2272 | Kosena  |
 | 2 | oceania | 202418 | Ontenu |
@@ -150,6 +151,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1062 | Nuoxi Naxi Yao |
 | 4 | asia | 202574 | Paha |
 | 4 | asia | 203077 | Kanakanavu |
+| 4 | europe | 1852 | Forest Enets |
 | 4 | europe | 200747 | Lower Demjanka |
 | 4 | europe | 200775 | On |
 | 4 | europe | 200813 | Tavda |
@@ -338,10 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203083 | Namiae |
 | 7 | oceania | 203108 | Tsaukambo |
 | 7 | oceania | 203112 | Wersing |
-| 7 | oceania | 203118 | Yaweyuha |
-| 7 | oceania | 203276 | Wayan |
 
-_Showing the lowest 300 of 1180. Full queue:_
+_Showing the lowest 300 of 1182. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-827 languages the mixer map offers have no namebase entry
+828 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 827._
+_Showing 150 of 828._
 
 ## How to work on this
 

@@ -2800,16 +2800,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Chukotko-Kamchatkan-Amuric",
-    "i": 1609,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Chukotka,Kamchatka,Koryakia,Anadyr,Petropavlovsk,Magadan,Tigil,Palana,Esso,Ust-Kamchatsk,Kliuchi,Milkovo,Sobolevo,Penzhino,Markovo,Bilibino,Pevek,Providenia,Lavrentia,Uelen,Chaplino,Sireniki,Novoe,Tinany,Ossora,Karaginskiy,Ilpyrskoe,Pachichi,Olyutor,Apuka,Kavacha,Reinikovo,Gachir,Vyvenka,Tymlat,Samovo,Khanovey,Kamenskoye,Slautnoe,Pakhachi,Anadyrsk,Ortan,Tuman,Enmuveem,Chuvanskoye,Keperveyem,Snezhnoe,Lamutskoe,Khatyrka,Ust-Belaya,Tigilskoe,Sopochnaya,Korf,Beringovskiy",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Chusovaya",
     "i": 1611,
     "min": 3,
@@ -2886,8 +2876,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dudinka,Norilsk,Khatanga,Tiksi,Pevek,Provideniya,Anadyr,Bilibino,Zyryanka,Saskylakh,Belaya Gora,Ust-Kuyga,Chokurdakh,Krasnoe,Uelen,Lavrentiya,Enurmino,Inchoun,Nutepelmen,Sireniki,Lorino,Kalan,Kamenka,Uelkal,Kalinovskoe,Kichikemine,Ozersk,JalalAbad,Potapovo,Volochanka,Ust-Avam,Boganida,Karaul,Novorybnaya,Dikson,Popigai",
-    "status": "COMPLETE"
+    "b": "Vorontsovo,Ust-Avam,Volochanka,Tukhard,Dudinka,Potapovo,Karaul,Norilsk,Igarka",
+    "status": "WAITING"
   },
   {
     "name": "Far Eastern Khanty",
@@ -2926,8 +2916,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Dudinka,Norilsk,Khatanga,Tiksi,Pevek,Provideniya,Anadyr,Bilibino,Zyryanka,Saskylakh,Belaya Gora,Ust-Kuyga,Chokurdakh,Krasnoe,Uelen,Lavrentiya,Enurmino,Inchoun,Nutepelmen,Sireniki,Lorino,Kalan,Kamenka,Uelkal,Potapovo,Volochanka,Ust-Avam,Boganida,Karaul,Novorybnaya,Dikson,Popigai",
-    "status": "COMPLETE"
+    "b": "Potapovo,Dudinka,Karaul,Norilsk",
+    "status": "WAITING"
   },
   {
     "name": "Gällivare",
@@ -4766,7 +4756,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "London,Westminster,York,Durham,Canterbury,Winchester,Chester,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Edinburgh,Glasgow,Aberdeen,Dundee,Inverness,Perth,Stirling,Dublin,Cork,Galway,Limerick,Waterford,Oxford,Cambridge,Exeter,Salisbury,Wells,Gloucester,Worcester,Hereford,Shrewsbury,Nottingham,Derby,Leicester,Coventry,Northampton,Bedford,Newcastle upon Tyne,Sunderland,Middlesbrough,Hull,Doncaster,Sheffield,Manchester,Liverpool,Leeds,Bradford,Lancaster,Kendal,Penrith,Berwick-upon-Tweed",
+    "b": "London,Westminster,York,Durham,Canterbury,Winchester,Chester,Norwich,Ipswich,Southampton,Portsmouth,Brighton,Wolverhampton,Stoke-on-Trent,Plymouth,Reading,Carlisle,Lincoln,Bath,Oxford,Cambridge,Exeter,Salisbury,Wells,Gloucester,Worcester,Hereford,Shrewsbury,Nottingham,Derby,Leicester,Coventry,Northampton,Bedford,Hull,Doncaster,Sheffield,Manchester,Liverpool,Leeds,Bradford,Lancaster,Kendal,Penrith",
     "status": "COMPLETE"
   },
   {
@@ -5950,13 +5940,13 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Karachay-Balkar",
+    "name": "Karachay",
     "i": 2280,
     "min": 4,
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Karachay-Cherkessia,Nalchik,Cherkessk,Kislovodsk,Chegem,Terskol,Elbrus,Malkar,Terkebayevo,Karachay,Balkar,Kumyk,Teberda,Tyarbek,Istanbul,Ankara,Izmir,Bursa,Antalya,Adana,Konya,Gaziantep,Mersin,Kayseri,Eskisehir,Samsun,Denizli,Trabzon,Diyarbakir,Sanliurfa,Van,Erzurum,Sivas,Balikesir,Aydin,Baksan,Dombay",
+    "b": "Karachayevsk,Verkhny Uchkulan,Uchkulan,Verkhnyaya Teberda,Nizhnyaya Teberda,Novaya Teberda,Kamennomost,Kart-Jurt,Dzhingirik,Kumysh,Khumara,Khurzuk,Verkhnyaya Mara,Nizhnyaya Mara,Vostok,Belaya Gora,Kubran,Novy Karachay,Pravokubansky,Uchkeken,Kichi-Balyk,Dzhagin,Krasnovostochnoye,Krasnokurganskoye,Kyzyl-Pokunskoye,Pervomayskoye,Rimgorskoye,Terezinskoye,Elkush,Arkhyz,Dombay,Teberda,Elbrussky,Ordzhonikidzevsky",
     "status": "COMPLETE"
   },
   {
@@ -6178,5 +6168,15 @@ window.europeNameBases = [
     "m": 0,
     "b": "Córdoba,Sevilla,Granada,Málaga,Almería,Ronda,Aracena,Niebla,Baeza,Jaén,Écija,Utrera,Carmona,Marchena,Osuna,Moron de la Frontera,Lebrija,Jerez de la Frontera,Sanlucar de Barrameda,Cadiz,Huelva,Triana,La Puebla de Cazalla,Jerez de los Caballeros,Alcala la Real,Guadix,Baza,Alhama de Granada,Loja,Almuñecar,Nerja,Velez Malaga,Zahara de la Sierra,Grazalema,Ubrique,Olvera,Arcos de la Frontera,Setenil,Tarifa,Algeciras,Ceuta,Melilla",
     "status": "WAITING"
+  },
+  {
+    "name": "Balkar",
+    "i": 24756,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Kashkhatau,Aushiger,Babugent,Verkhnyaya Balkariya,Bezengi,Zhemtala,Verkhnyaya Zhemtala,Gerpegizh,Zaragizh,Karasu,Nizhniy Chegem,Khushto-Syrt,Yanikoy,Eltyubyu,Bulungu,Chegem Vtoroy,Shalushka,Baksan,Baksanok,Kishpek,Zayukovo,Islamey,Kurkuzhin,Dyugulybgey,Kuba,Kuba-Taba,Psykhurey,Psychokh,Atazhukino,Zhanhoteko",
+    "status": "COMPLETE"
   }
 ];

@@ -260,6 +260,19 @@ const ALLOWED_REMOVALS = new Set([
     "x-beni-snous-dialect",
     "western-algerian-zenatic-dialects",
     "komolom",
+    //   klon -> kyo
+    //     `klon` is not an ISO 639-3 code at all. Klon is kyo / Glottolog kelo1247,
+    //     a West Alor language of Alor Island, East Nusa Tenggara, Indonesia.
+    //   ladino
+    //     An alias I added that turned out to be a trap. The catalog's `ladino` row
+    //     is family "Judeo-Spanish", so it does name i=21063 - but that entry is
+    //     called "Judeo-Spanish", and W009 compares the catalog name against the
+    //     ENTRY name. Two keys for one language only pays off when both agree, so
+    //     `judeo-spanish` covers it alone. Note this is NOT the same language as
+    //     i=24751 "Ladin", the Runic-Romance language of the Dolomites, which has
+    //     its own keys ladin-lang, lld and x-ladin.
+    "klon",
+    "ladino",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

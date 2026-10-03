@@ -455,8 +455,9 @@ for (const e of allEntries) {
     } else {
       warn("E010", `namebases-${e.__continent}.js`,
         `${labelOf(e)} has the seed "${label}", which contains the language's own name. ` +
-        `Real places do this - Fadan Ayu is the seat of Sanga LGA and the language is Ayu - ` +
-        `so this is reported, not blocked.`);
+        `Real places do this - Fadan Ayu is the seat of Sanga LGA in the language Ayu, ` +
+        `Bolshaya Lipsha is a Mari village in the language Lipsha, Ban Sapuan is the ` +
+        `single Sapuan village - so this is reported, not blocked.`);
     }
   }
 }
