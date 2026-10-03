@@ -9249,7 +9249,7 @@
     },
     {
       "name": "Telue",
-      "iso": "telue",
+      "iso": "giw",
       "region": "Asia",
       "category": "Tai-Kadai",
       "family": "Kra"
@@ -9270,7 +9270,7 @@
       "family": "Aslian"
     },
     {
-      "name": "Tenyidie",
+      "name": "Angami (Tenyidie)",
       "iso": "njm",
       "region": "Asia",
       "category": "Sino-Tibetan",

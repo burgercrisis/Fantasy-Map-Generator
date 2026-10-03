@@ -1076,7 +1076,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Sanya,Baoting,Lingshui,Tunchang,Qiongzhong,Dongfang,Danzhou,Ledong,Baisha,Changjiang,Lingao,Chengmai,Tongshi,Yinggehai,Jianfang,Qionghai,Wanning,Hebao,Mutang,Yazhou,Wuzhishan,Dingan",
+    "b": "Tongzha,Wuzhishan,Chongshan,Nansheng,Maoyang,Panyang,Shuiman,Changhao,Maodao,Baoting,Ledong,Changjiang,Qiongzhong",
     "status": "WAITING"
   },
   {
@@ -1086,7 +1086,7 @@ window.asiaNameBases = [
     "max": 12,
     "d": "",
     "m": 0,
-    "b": "Sanya,Baoting,Lingshui,Tunchang,Qiongzhong,Dongfang,Danzhou,Ledong,Baisha,Changjiang,Lingao,Chengmai,Tongshi,Yinggehai,Jianfang,Qionghai,Wanning,Hebao,Mutang,Yazhou,Wuzhishan,Dingan",
+    "b": "Judu,Niupo,Liuzhi,Moji,Wantao,Longlin,Yueliangwan,Fengyan,Laozhai,Malipo",
     "status": "WAITING"
   },
   {
@@ -4490,16 +4490,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Angami",
-    "i": 20160,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Kohima,Chumukedima,Viswema,Khonoma,Diphu,Jakhama,Kezo,Nerhema,Phekerkrima,Keshor,Keringu,Kijumetso,Phesama,Rusoma,Mirapfu,Merema,Sendenyu,Kakha,Dihoma,Tsiesema",
-    "status": "WAITING"
-  },
-  {
     "name": "Lotha Naga",
     "i": 20161,
     "min": 4,
@@ -4636,7 +4626,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Okhaldhunga,Solu,Diktel,Salleri,Taplejung,Phidim,Hile,Mangalbare,Thoklung,Chhintang,Nele,Bamdanda,Moplung,Mane,Sake,Chivali,Solma,Chainpur",
+    "b": "Harkapur,Ragdip,Bigutar,Baruneswor,Okhaldhunga,Rumjatar,Barnalu,Mamkha,Ratmate,Serna,Diyale,Bhadaure,Ketuke,Moli,Waksa,Ubu,Necha Batase,Salyan,Khotang",
     "status": "WAITING"
   },
   {
@@ -6200,23 +6190,13 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Qifu",
-    "i": 200450,
-    "min": 4,
-    "max": 16,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Si'en,Chuanshan,Shuiyuan,Minglun,Dongxing,Luoyang,Xianan,Shangnan,Zhongnan,Dacai,Da'an,Changmei,Longyan,Bochuan,Yifeng,Guzhou,Tangba,Yuhuan,Xiyuan,Jingyang,Xiatang,Caimen,Huanjiang,Luocheng",
-    "status": "WAITING"
-  },
-  {
     "name": "Ra'ong",
     "i": 200451,
     "min": 4,
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Si'en,Chuanshan,Shuiyuan,Minglun,Dongxing,Luoyang,Xianan,Shangnan,Zhongnan,Dacai,Da'an,Changmei,Longyan,Bochuan,Yifeng,Guzhou,Tangba,Yuhuan,Xiyuan,Jingyang,Xiatang,Caimen,Huanjiang,Luocheng",
+    "b": "Ou Am,Srae Khtum,Kaev Seima,Mondulkiri",
     "status": "WAITING"
   },
   {
@@ -6710,7 +6690,7 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tenyidie",
+    "name": "Angami (Tenyidie)",
     "i": 200535,
     "min": 4,
     "max": 16,
@@ -8066,7 +8046,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Okhaldhunga,Solu,Diktel,Salleri,Taplejung,Phidim,Hile,Mangalbare,Thoklung,Chhintang,Nele,Bamdanda,Moplung,Mane,Sake,Chivali,Solma,Chainpur",
+    "b": "Okhaldhunga,Jerung,Mohantar,Sindhuli,Ratnawati,Madhavpur,Balkhu,Sisneri",
     "status": "WAITING"
   },
   {

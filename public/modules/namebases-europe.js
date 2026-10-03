@@ -2426,7 +2426,7 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Petrozavodsk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Voznesenye,Shyoltozero,Rybreka",
+    "b": "Petrozavodsk,Shyoltozero,Rybreka,Kvartsitny,Vinnitsy,Podporozhye,Tervenichi,Lodeynoye Pole,Kuya,Pondala,Shimozero,Voylahta,Nemzha,Belozersk,Babayevo,Borisovo-Sudskoye,Andoma,Vytegra,Oyat,Ladva,Yuksovichi,Boksitogorsk,Radogoshcha,Sidorovo,Vazhiny",
     "status": "WAITING"
   },
   {
@@ -2808,16 +2808,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Saint Helier,Gorey,Saint Aubin,Saint Clement,Trinity,Saint John,Saint Lawrence,Saint Martin,Saint Mary,Saint Ouen,Saint Peter,Saint Saviour,Grouville,Ville à l'Évêque,Les Quennevais,La Moye,La Hougue Bie,St Brelade,St Ouen,St Peter,St Mary,St John,St Lawrence,St Clement,Sark,Alderney",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Central Veps",
-    "i": 1490,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Petrozavodsk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Voznesenye,Shyoltozero,Rybreka",
-    "status": "WAITING"
   },
   {
     "name": "Central Vychegda",
@@ -4230,16 +4220,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Northern Veps",
-    "i": 200770,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Petrozavodsk,Voznesenye,Shyoltozero,Rybreka",
-    "status": "WAITING"
-  },
-  {
     "name": "Ob Mansi",
     "i": 200771,
     "min": 3,
@@ -4488,16 +4468,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Hämeenlinna,Lahti,Hollola,Orimattila,Artjärvi,Asikkala,Hattula,Hauho,Jankkala,Kärkölä,Lammi,Nastola,Tuulos,Vanaja,Vesilahti,Ypäjä,Jämsä,Jämsänkoski,Kuhmoinen,Luhanka,Orivesi,Toivakka,Kangasala,Haukkavaara,Lempäälä,Nokia,Pirkkala,Ylöjärvi,Hämeenkoski,Kylmäkoski,Luopioinen,Pälkäne,Urjala,Valkeakoski",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Southern Veps",
-    "i": 200807,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Vytegra,Podporozhye,Boksitogorsk,Lodeynoye Pole,Pikalyovo,Tikhvin,Chudovo,Malaya Vishera,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Petrozavodsk,Voznesenye,Shyoltozero,Rybreka",
-    "status": "WAITING"
   },
   {
     "name": "Svaipa",

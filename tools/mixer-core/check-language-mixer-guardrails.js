@@ -183,6 +183,43 @@ const ALLOWED_REMOVALS = new Set([
     // dedicated entries for Bajan, Trinidadian, Bahamian, Jamaican, Virgin Islands
     // Creole and the rest, so the coverage was already complete.
     "x-caribbean-english-creole",
+    // Nine keys that were never real identifiers. W011 could not see any of these,
+    // because it only compares entries at or above the 25-seed floor and every one
+    // of them was below it - which is how three exact set-identical groups survived
+    // a check that reports identical seed lists.
+    //
+    //   qifu                 - i=200450 is not a language. No ISO 639-3 code (the
+    //                         Q list has no qif/qifu), no Glottolog languoid, no
+    //                         article. Ra'ong, which shared its list, is not a
+    //                         synonym: it is a Bahnaric language of Cambodia.
+    //   central-veps,
+    //   northern-veps,
+    //   southern-veps,
+    //   vep-sou              - Glottolog veps1250 has no dialect children and
+    //                         vep-sou 404s in ISO 639-3. All four Veps entries held
+    //                         one list, including Sortavala and Lahdenpohja, which
+    //                         are in Finland and outside the Vepsian Upland.
+    //   yogo-tamagario       - "Yogo is considered a dialect of Tamagario", and
+    //                         Glottolog tama1336 lists no Yogo among its names.
+    //   x-ra-ong, x-angami,
+    //   x-bahing-bayung      - x- shadows of entries that were themselves
+    //                         duplicates. x-angami shadowed i=20160, which was
+    //                         Tenyidie: Angami's own autonym and prestige dialect,
+    //                         already held at i=200535 under the real ISO njm.
+    "qifu",
+    "central-veps",
+    "northern-veps",
+    "southern-veps",
+    "vep-sou",
+    "yogo-tamagario",
+    "x-ra-ong",
+    "x-angami",
+    "x-bahing-bayung",
+    // "telue" -> "giw". Telue is White Gelao; giw is its real ISO 639-3 code and
+    // whit1267 its Glottolog id. "telue" was a project slug standing in for a
+    // code that already existed, so both the mixer key and the catalog row move to
+    // it. This is a rename, not a loss: the entry at i=1056 is unchanged.
+    "telue",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

@@ -896,7 +896,7 @@ window.oceaniaNameBases = [
     "max": 15,
     "d": "",
     "m": 0,
-    "b": "Amagatsu,Amenda,Arare,Atsipim,Geiripim,Kaibu,Kaibusene,Kasima,Katage,Kerke,Mani,Okor,Omuro,Paghai,Semtaipim,Sogope,Warogom,Wiyage,Yagatsu",
+    "b": "Arare,Kerke,Pagai,Tereyemu,Magabag,Haju,Mambioman Bapai,Mappi",
     "status": "WAITING"
   },
   {
@@ -2727,16 +2727,6 @@ window.oceaniaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Yabiyufa, Hipili, Rafayufa, Nivi, Wanto, Omena, Urumfa",
-    "status": "WAITING"
-  },
-  {
-    "name": "Yogo (Tamagario)",
-    "i": 203119,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Amagatsu,Amenda,Arare,Atsipim,Geiripim,Kaibu,Kaibusene,Kasima,Katage,Kerke,Mani,Okor,Omuro,Paghai,Semtaipim,Sogope,Warogom,Wiyage,Yagatsu",
     "status": "WAITING"
   },
   {

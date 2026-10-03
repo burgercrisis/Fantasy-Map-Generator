@@ -5,16 +5,16 @@
 > Hand edits are overwritten. To change a number here, change the data in
 > `public/modules/namebases-*.js` and regenerate.
 
-Generated: 2026-10-02  |  Seed floor: 25
+Generated: 2026-10-03  |  Seed floor: 25
 
 ## Headline
 
 | Metric | Count |
 |---|---:|
-| Language entries | 3002 |
+| Language entries | 2996 |
 | Marked COMPLETE (>= 25 seeds) | 1795 |
-| Marked WAITING (< 25 seeds) | 1207 |
-| Below seed floor | 1190 |
+| Marked WAITING (< 25 seeds) | 1201 |
+| Below seed floor | 1183 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -26,16 +26,16 @@ Generated: 2026-10-02  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 686 | 232 | 1 | 27 |
-| asia | 1023 | 540 | 2 | 23 |
-| europe | 627 | 143 | 0 | 30 |
+| asia | 1021 | 538 | 2 | 23 |
+| europe | 624 | 139 | 0 | 30 |
 | northAmerica | 212 | 67 | 0 | 29 |
 | southAmerica | 149 | 28 | 0 | 32 |
-| oceania | 295 | 180 | 1 | 19 |
+| oceania | 294 | 179 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1190 entries need authentic settlement names. Ordered by seed count,
+1183 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -143,6 +143,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200280 | Ghera |
 | 4 | asia | 200332 | Kurumba |
 | 4 | asia | 200337 | Longsang Zhuang |
+| 4 | asia | 200451 | Ra'ong |
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
 | 4 | asia | 203265 | Kulon |
@@ -339,9 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 203118 | Yaweyuha |
 | 7 | oceania | 203276 | Wayan |
 | 7 | southAmerica | 203166 | Wichí Lhamtés Nocten (Weenhayek) |
-| 7 | southAmerica | 5825 | Miraña |
 
-_Showing the lowest 300 of 1190. Full queue:_
+_Showing the lowest 300 of 1183. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
