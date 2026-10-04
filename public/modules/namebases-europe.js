@@ -596,7 +596,7 @@ window.europeNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Taranto,Brindisi,Lecce,Foggia,Bari,Molfetta,Trani,Andria,Barletta,Altamura,Gravina in Puglia,Matera,Castellaneta,Palagiano,Crispiano,Massafra,Grottaglie,Manduria,Nardò,Ostuni,Francavilla Fontana,Ceglie Messapica,San Vito dei Normani,Carovigno,Mesagne,San Vito dei Normanni,Torre Santa Susanna,Oria,Latiano,San Pancrazio Salentino",
+    "b": "Taranto,Statte,Leporano,Monteiasi,Carosino,Grottaglie,Faggiano,Fragagnano,Lizzano,Pulsano,San Marzano di San Giuseppe,Roccaforzata,Monteparano,Montemesola,Torricella,San Giorgio Ionico,Maruggio,Sava,Crispiano,Palagiano,Palagianello,Mottola,Massafra,Castellaneta,Laterza,Ginosa,Avetrana,Martina Franca",
     "status": "COMPLETE"
   },
   {
@@ -806,7 +806,7 @@ window.europeNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Arezzo,Florence,Siena,Pisa,Lucca,Pistoia,Prato,Carrara,Viareggio,Forte dei Marmi,Pietrasanta,Camaiore,Barga,Castelnuovo di Garfagnana,Chiusdino,Montalcino,Pienza,San Gimignano,Sinalunga,Cortona,Foiano della Chiana,Lucignano,Marciano della Chiana,Monte San Savino,Sansepolco,Castiglion Fiorentino,Bibbiena,Poppi,Pratovecchio,Massa",
+    "b": "Arezzo,Anghiari,Badia Tedalda,Bibbiena,Bucine,Capolona,Caprese Michelangelo,Castel Focognano,Castel San Niccolò,Castelfranco Piandiscò,Castiglion Fibocchi,Castiglion Fiorentino,Cavriglia,Chitignano,Chiusi della Verna,Civitella in Val di Chiana,Cortona,Foiano della Chiana,Laterina Pergine Valdarno,Loro Ciuffenna,Lucignano,Marciano della Chiana,Monte San Savino,Montemignaio,Monterchi,Montevarchi,Ortignano Raggiolo,Pieve Santo Stefano,Poppi,Pratovecchio Stia,San Giovanni Valdarno,Sansepolcro,Sestino,Subbiano,Talla,Terranuova Bracciolini",
     "status": "COMPLETE"
   },
   {
@@ -1406,8 +1406,8 @@ window.europeNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Lucca,Viareggio,Forte dei Marmi,Pietrasanta,Camaiore,Barga,Castelnuovo di Garfagnana,Altopascio,Buti,Calci,Capannori,Cascina,Chiesina Uzzanese,Coreglia Antelminelli,Fosciandora,Gallicano,Giuncugnano,Massarosa,Minucciano,Molazzana,Montecarlo,Pescaglia,Piazza al Serchio,Porcari,San Giuliano Terme,San Romano in Garfagnana,Sillano,Stazzema,Vagli Sotto,Vergemoli",
-    "status": "COMPLETE"
+    "b": "Lucca,Capannori,Porcari,Altopascio,Montecarlo,Villa Basilica,Bagni di Lucca,Borgo a Mozzano,Pescaglia",
+    "status": "WAITING"
   },
   {
     "name": "Macerata",
@@ -1526,7 +1526,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Novara,Torino,Asti,Alessandria,Cuneo,Vercelli,Biella,Verbania,Domodossola,Borgosesia,Arona,Stresa,Omegna,Borgomanero,Ghemme,Acqui Terme,Casale Monferrato,Trecate,Galliate,Busto Arsizio,Magenta,Vigevano,Somma Lombardo,Codogno,Orta San Giulio,Gozzano,Cureggio,Cavaglietto,Fontaneto d'Agogna,Borgo Ticino,Divignano,Marano Ticino,Mezzomerico,Vaprio d'Agogna,Momo,Sillavengo,Casalbeltrame,Casalvolone,San Pietro Mosezzo,Cameri,Castano Primo,Lonate Pozzolo,Oleggio,Dormelletto,Sesto Calende,Varallo Pombia",
+    "b": "Novara,Agrate Conturbia,Ameno,Armeno,Arona,Barengo,Bellinzago Novarese,Biandrate,Boca,Bogogno,Bolzano Novarese,Borgo Ticino,Borgolavezzaro,Borgomanero,Briga Novarese,Briona,Caltignaga,Cameri,Carpignano Sesia,Casalbeltrame,Casaleggio Novarese,Casalino,Casalvolone,Castellazzo Novarese,Castelletto sopra Ticino,Cavaglietto,Cavaglio d'Agogna,Cavallirio,Cerano,Colazza,Comignago,Cressa,Cureggio,Divignano,Dormelletto,Fara Novarese,Fontaneto d'Agogna,Galliate,Garbagna Novarese,Gargallo,Gattico-Veruno,Ghemme,Gozzano,Granozzo con Monticello,Grignasco,Invorio,Landiona,Lesa,Maggiora,Mandello Vitta,Marano Ticino,Massino Visconti,Meina,Mezzomerico,Miasino,Momo,Nebbiuno,Nibbiola,Oleggio,Oleggio Castello,Orta San Giulio,Paruzzaro,Pella,Pettenasco,Pisano,Pogno,Pombia,Prato Sesia,Recetto,Romagnano Sesia,Romentino,San Maurizio d'Opaglio,San Nazzaro Sesia,San Pietro Mosezzo,Sillavengo,Sizzano,Soriso,Sozzago,Suno,Terdobbiate,Tornaco,Trecate,Vaprio d'Agogna,Varallo Pombia,Vespolate,Vicolungo,Vinzaglio",
     "status": "COMPLETE"
   },
   {
@@ -1606,8 +1606,8 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Pescia,Monsummano Terme,Montecatini Terme,Buggiano,Chiesina Uzzanese,Ponte Buggianese,Larciano,Arcetri,Abetone,Cutigliano,Pistoia,Prato,Firenze,Siena,Grosseto,Livorno,Pisa,Lucca,Carrara,Viareggio,Camaiore,Pietrasanta,Forte dei Marmi,Seravezza,Stazzema,Massa",
-    "status": "COMPLETE"
+    "b": "Pescia,Massa e Cozzile,Buggiano,Ponte Buggianese,Monsummano Terme,Montecatini Terme,Pieve a Nievole,Lamporecchio,Uzzano,Chiesina Uzzanese,Larciano",
+    "status": "WAITING"
   },
   {
     "name": "Forest Nenets",
@@ -1856,7 +1856,7 @@ window.europeNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Lecce,Galatina,Galatone,Lequile,Soleto,Melissano,Ugento,Alliste,Matino,Parabita,Casarano,Taurisano,Racale,Melendugno,Uggiano la Chiesa,Vernole,Gallipoli,Santa Cesarea Terme,Otranto,Diso,Castro,Muro Leccese,Salice Salentino,Salve,Nardò,Palmariggi,Seclì,Sogliano Cavour,Ortelle,Sannicola,Zollino,Nociglia,Presicce-Acquarica,Melpignano,Tuglie,Maglie,Cursi,Specchia,Tiggiano,Surano,Ruffano,Supersano,Miggiano,Spongano,Minervino di Lecce,Alessano,Gagliano del Capo,Carpignano Salentino,Aradeo,Leverano,Martano,Fasano,Cisternino,Ceglie Messapica,Ostuni,Francavilla Fontana,Martina Franca,Manduria,Grottaglie",
+    "b": "Lecce,Galatina,Galatone,Lequile,Soleto,Melissano,Ugento,Alliste,Matino,Parabita,Casarano,Taurisano,Racale,Melendugno,Uggiano la Chiesa,Vernole,Gallipoli,Santa Cesarea Terme,Otranto,Diso,Castro,Muro Leccese,Salice Salentino,Salve,Nardò,Palmariggi,Seclì,Sogliano Cavour,Ortelle,Sannicola,Zollino,Nociglia,Presicce-Acquarica,Melpignano,Tuglie,Maglie,Cursi,Specchia,Tiggiano,Surano,Ruffano,Supersano,Miggiano,Spongano,Minervino di Lecce,Alessano,Gagliano del Capo,Carpignano Salentino,Aradeo,Leverano,Martano,Fasano,Cisternino,Ceglie Messapica,Ostuni,Francavilla Fontana,Manduria",
     "status": "COMPLETE"
   },
   {
@@ -2056,7 +2056,7 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Rome,Florence,Siena,Pisa,Lucca,Arezzo,Pistoia,Prato,Carrara,Grosseto,Perugia,Terni,Viterbo,Rieti,Civitacastellana,Tarquinia,Orvieto,Acquapendente,Bolsena,Marte,Capalbio,Ischia di Castro,Saturnia,Tuscania,Massa",
+    "b": "Viterbo,Acquapendente,Arlena di Castro,Bagnoregio,Barbarano Romano,Bassano in Teverina,Bassano Romano,Blera,Bolsena,Bomarzo,Calcata,Canepina,Canino,Capodimonte,Capranica,Caprarola,Carbognano,Castel Sant'Elia,Castiglione in Teverina,Celleno,Cellere,Civita Castellana,Civitella d'Agliano,Corchiano,Fabrica di Roma,Faleria,Farnese,Gallese,Gradoli,Graffignano,Grotte di Castro,Ischia di Castro,Latera,Lubriano,Marta,Montalto di Castro,Monte Romano,Montefiascone,Monterosi,Nepi,Onano,Oriolo Romano,Orte,Piansano,Proceno,Ronciglione,San Lorenzo Nuovo,Soriano nel Cimino,Sutri,Tarquinia,Tessennano,Tuscania,Valentano,Vallerano,Vasanello,Vejano,Vetralla,Vignanello,Villa San Giovanni in Tuscia,Vitorchiano",
     "status": "COMPLETE"
   },
   {
