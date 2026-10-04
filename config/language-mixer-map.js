@@ -11740,7 +11740,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "put-r",
     "bases": [
-      570
+      203302
     ]
   },
   {
@@ -23898,6 +23898,24 @@ globalThis.languageMixerMap = [
     "iso": "fas",
     "bases": [
       10040
+    ]
+  },
+  {
+    "iso": "garfagnin",
+    "bases": [
+      203300
+    ]
+  },
+  {
+    "iso": "casalasco",
+    "bases": [
+      203301
+    ]
+  },
+  {
+    "iso": "putr",
+    "bases": [
+      203302
     ]
   }
 ];

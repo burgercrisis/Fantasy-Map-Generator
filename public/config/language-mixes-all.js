@@ -29182,6 +29182,33 @@
       "name": "Northern Qiang",
       "iso": "cng",
       "region": "Asia"
+    },
+    {
+      "name": "Garfagnana",
+      "iso": "garfagnin",
+      "region": "Europe",
+      "family": "Romance",
+      "tags": [
+        "Indo-European"
+      ]
+    },
+    {
+      "name": "Casalasco",
+      "iso": "casalasco",
+      "region": "Europe",
+      "family": "Romance",
+      "tags": [
+        "Indo-European"
+      ]
+    },
+    {
+      "name": "Puter",
+      "iso": "putr",
+      "region": "Europe",
+      "family": "Romance",
+      "tags": [
+        "Indo-European"
+      ]
     }
   ];
 })();

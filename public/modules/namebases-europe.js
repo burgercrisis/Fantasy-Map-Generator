@@ -1710,16 +1710,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Putèr",
-    "i": 570,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "St. Moritz,Davos,Klosters,Arosa,Chur,Flims,Ilanz,Disentis,Scuol,Guarda,Ardez,Tarasp,Ftan,Sent,Ramosch,Zernez,Lavin,Susch,Valsot,Bever,Samnaun,Tschlin,Müstair,Santa Maria Val Müstair,Tschierv",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Varesino",
     "i": 577,
     "min": 3,
@@ -5968,5 +5958,35 @@ window.europeNameBases = [
     "m": 0,
     "b": "Kashkhatau,Aushiger,Babugent,Verkhnyaya Balkariya,Bezengi,Zhemtala,Verkhnyaya Zhemtala,Gerpegizh,Zaragizh,Karasu,Nizhniy Chegem,Khushto-Syrt,Yanikoy,Eltyubyu,Bulungu,Chegem Vtoroy,Shalushka,Baksan,Baksanok,Kishpek,Zayukovo,Islamey,Kurkuzhin,Dyugulybgey,Kuba,Kuba-Taba,Psykhurey,Psychokh,Atazhukino,Zhanhoteko",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Garfagnana",
+    "i": 203300,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "Barga,Castelnuovo di Garfagnana,Piazza al Serchio,Castiglione di Garfagnana,Pieve Fosciana,Sillano Giuncugnano,Camporgiano,Careggine,Coreglia Antelminelli,Fabbriche di Vergemoli,Fosciandora,Gallicano,Minucciano,Molazzana,San Romano in Garfagnana,Vagli Sotto,Villa Collemandina",
+    "status": "WAITING"
+  },
+  {
+    "name": "Casalasco",
+    "i": 203301,
+    "min": 4,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Casalmaggiore,Casalmorano,Bozzolo,Gussola,Scandolara Ravara,Torricella del Pizzo,Paderno Ponchielli,Voltido,Solarolo Rainerio,Pizzighettone",
+    "status": "WAITING"
+  },
+  {
+    "name": "Puter",
+    "i": 203302,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "St. Moritz,Silvaplana,Sils,Pontresina,Celerina,Zuoz,La Punt,Madulain,Bever,Samedan,Ftan,Champfèr,Guarda,S-chanf,Cinuos-chel,Vulpera",
+    "status": "WAITING"
   }
 ];
