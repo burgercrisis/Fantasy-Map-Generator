@@ -384,6 +384,18 @@ const ALLOWED_REMOVALS = new Set([
     "orodezhi",
     "sirkas",
     "svaipa",
+    //   talian, x-talian, regional-italian
+    //     "Talian" is an alternative NAME for Venetian itself - the Venetian
+    //     language article lists it as a dialect, and the UNITesi survey says the
+    //     language "is defined with the term 'Venetian' or with the alternative
+    //     words 'Talian', 'Venet' or 'Veneto'". Its 38 seeds were the first 38 of
+    //     Venetian's 70 in the same order. The narrow sense - the Gallo-Venetian
+    //     diaspora dialect of southern Brazil - would need its own Brazilian list.
+    //     "Regional Italian" had 23 of 25 seeds identical to Standard Italian and
+    //     24 of 25 to Italian, so it had no content of its own at all.
+    "talian",
+    "x-talian",
+    "regional-italian",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

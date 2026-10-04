@@ -526,7 +526,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Bari,Trani,Andria,Barletta,Bisceglie,Canosa di Puglia,Corato,Giovinazzo,Gravina in Puglia,Molfetta,Monopoli,Ruvo di Puglia,San Severo,Terlizzi,Toritto,Fasano,Ostuni,Brindisi,Lecce,Galatina,Nardò,Casarano,Taranto,Martina Franca,Mottola,Locorotondo,Alberobello,Putignano,Conversano,Polignano a Mare,Cisternino",
+    "b": "Bari,Molfetta,Giovinazzo,Capurso,Modugno,Valenzano,Cellamare,Toritto,Santeramo in Colle,Sannicandro di Bari,Triggiano,Bitritto,Cassano delle Murge,Ruvo di Puglia,Terlizzi,Corato,Gravina in Puglia,Grumo Appula,Altamura,Bitonto,Mola di Bari,Palo del Colle,Gioia del Colle,Acquaviva delle Fonti,Adelfia,Casamassima,Rutigliano,Trani,Bisceglie,Noicattaro",
     "status": "COMPLETE"
   },
   {
@@ -536,7 +536,7 @@ window.europeNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Matera,Potenza,Melfi,Venosa,Lavello,Avigliano,Grottole,Grassano,Aliano,Craco,Sant'Arcangelo,Tricarico,Tursi,Ferrandina,Pomarico,Scanzano Jonico,Montalbano Jonico,Pisticci,Bernalda,Stigliano,Calvello,Satriano di Lucania,Genzano di Lucania,Oliveto Lucano,Miglionico,Policoro,Valdoriano,San Giorgio Ionico,Montescaglioso,Nova Siri",
+    "b": "Matera,Montescaglioso,Pisticci,Policoro,Scanzano Jonico,Montalbano Jonico,Bernalda,Nova Siri,Craco,Stigliano,Aliano,Grassano,Pomarico,Miglionico,Tursi,Ferrandina,Tricarico,Avigliano,Grottole,San Giorgio Lucano,Valsinni,Colobraro,Irsina,Cirigliano,Rotondella,Calciano,Accettura,Garaguso,Oliveto Lucano,Salandra",
     "status": "COMPLETE"
   },
   {
@@ -576,7 +576,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Bari,Trani,Andria,Barletta,Bisceglie,Canosa di Puglia,Corato,Giovinazzo,Gravina in Puglia,Molfetta,Monopoli,Ruvo di Puglia,San Severo,Terlizzi,Fasano,Ostuni,Brindisi,Lecce,Galatina,Nardò,Casarano,Taranto,Martina Franca,Mottola,Locorotondo,Alberobello,Putignano,Conversano,Polignano a Mare,Cisternino",
+    "b": "Avellino,Atripalda,Solofra,Forino,Mercogliano,Avella,Montoro,Sarno,San Martino Valle Caudina,Serino,Santa Lucia di Serino,San Michele di Serino,Volturara Irpina,Aiello del Sabato,San Potito Ultra,Chianche,Quindici,Montemarano,Grottaminarda,Montefalcione,Manocalzati,Capriglia Irpina,Altavilla Irpina,Summonte,Montefredane,Sturno,Pratola Serra,Tufo,Montecalvo Irpino,Grottolella",
     "status": "COMPLETE"
   },
   {
@@ -586,7 +586,7 @@ window.europeNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Matera,Potenza,Melfi,Venosa,Lavello,Avigliano,Grottole,Grassano,Aliano,Craco,Sant'Arcangelo,Tricarico,Tursi,Ferrandina,Pomarico,Scanzano Jonico,Montalbano Jonico,Pisticci,Bernalda,Stigliano,Calvello,Satriano di Lucania,Genzano di Lucania,Oliveto Lucano,Miglionico,Policoro,Valdoriano,San Giorgio Ionico,Montescaglioso,Nova Siri,Castelmezzano,Pietrapertosa,Paterno,Accettura,Calciano,Salandra,Sasso di Castalda,San Mauro Forte,Cirigliano,Gorgoglione,Trivigno,Anzi,Laurenzana,Brindisi di Montagna,Valsinni,Colobraro,Roccanova,San Chirico Raparo,Castronuovo di Sant'Andrea,Cersosimo,Noepoli,Guardia Perticara",
+    "b": "Potenza,Castelmezzano,Picerno,Pietrapertosa,Marsicovetere,Marsico Nuovo,Tramutola,Moliterno,Viggiano,Paterno,Calciano,San Mauro Forte,Francavilla in Sinni,Chiaromonte,Lauria,Castelluccio Superiore,Castelluccio Inferiore,Viggianello,Castelsaraceno,Rotonda,Terranova di Pollino,Senise,San Severino Lucano,Maratea,Scalea,Diamante,Verbicaro,Santa Domenica Talao,Orsomarso,Belmonte Calabro",
     "status": "COMPLETE"
   },
   {
@@ -886,7 +886,7 @@ window.europeNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Bologna,Modena,Parma,Reggio Emilia,Ferrara,Ravenna,Forlì,Cesena,Rimini,Imola,Faenza,Carpi,Sassuolo,Castelfranco Emilia,Vignola,San Giovanni in Persiceto,Cento,Budrio,Malalbergo,Argelato,San Giorgio di Piano,Castel San Pietro Terme,Pianoro,Sasso Marconi,Vergato,Galliera,San Pietro in Casale,Bentivoglio,Fidenza,Valsamoggia,Aiov",
+    "b": "Bologna,Imola,Casalecchio di Reno,San Lazzaro di Savena,San Giovanni in Persiceto,Castiglione dei Pepoli,Castel San Pietro Terme,Castel Maggiore,Pianoro,Sasso Marconi,Monghidoro,Marzabotto,Grizzana Morandi,Vergato,Castel di Casio,Camugnano,Lizzano in Belvedere,Loiano,Monzuno,San Benedetto Val di Sambro,Castel d'Aiano,Castel del Rio,Casalfiumanese,Borgo Tossignano,Dozza,Fontanelice,Mordano,Castel Guelfo di Bologna,Zola Predosa,Calderara di Reno,Sant'Agata Bolognese,Galliera,Argelato,Bentivoglio,San Giorgio di Piano,San Pietro in Casale,Budrio,Granarolo dell'Emilia,Molinella,Medicina,Minerbio,Baricella,Castenaso,Ozzano dell'Emilia,Anzola dell'Emilia,Crevalcore,Alto Reno Terme,Pieve di Cento,Sala Bolognese,Morzano",
     "status": "COMPLETE"
   },
   {
@@ -1416,8 +1416,8 @@ window.europeNameBases = [
     "max": 26,
     "d": "lnrt",
     "m": 0,
-    "b": "Sassari,Ozieri,Alghero,Sorso,Porto Torres,Stintino,Castelsardo,Badesi,Valledoria,Sedini,Tergu,Santa Maria Coghinas,Cheremule,Thiesi,Ploaghe,Bono,Anela,Benetutti,Bottidda,Bulzi,Cargeghe,Chiaramonti,Cossoine,Esporlatu,Florinas,Ittireddu,Mara,Martis,Monteleone Rocca Doria,Mores,Nughedu San Nicolò,Nule,Osilo,Perfugas,Pattada,Pozzomaggiore,Putifigari,Romana,Sagama,Semestene,Sennori,Silo,Tissi,Torralba,Trinità d'Agultu e Vignola,Tula,Viddalba,Villanova Monteleone",
-    "status": "COMPLETE"
+    "b": "Nuoro,Macomer,Oliena,Gavoi,Mamoiada,Fonni,Galtellì,Orgosolo,Orani,Olzai,Ollolai,Bitti,Desulo,Meana Sardo,Austis,Aritzo,Belvì,Sorgono,Ortueri,Atzara,Tiana,Tonara,Sarule,Seulo,Ottana,Ovodda,Lodè,Lodine,Onifai,Orune,Irgoli,Bolotana,Bortigali,Dorgali,Posada,Siniscola,Torpè,Orosei,Osidda,Onanì,Ozieri,Osilo,Bonorva,Ala dei Sardi,Alà,Anela,Benetutti,Bottidda,Bulzi,Cargeghe,Cheremule,Cossoine,Esporlatu,Florinas,Ittireddu,Mara,Martis,Monteleone Rocca Doria,Mores,Nughedu Santa Maria,Nule,Pattada,Perfugas,Pozzomaggiore,Putifigari,Romana,Sagama,Semestene,Silo,Thiesi,Tissi,Torralba,Tula,Buddusò,Burgos,Illorai,Padria,Borutta",
+    "status": "WAITING"
   },
   {
     "name": "Lucchese",
@@ -1636,7 +1636,7 @@ window.europeNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Parma,Modena,Bologna,Reggio Emilia,Ferrara,Ravenna,Forlì,Cesena,Rimini,Imola,Faenza,Carpi,Sassuolo,Castelfranco Emilia,Vignola,San Giovanni in Persiceto,Cento,Budrio,Malalbergo,Argelato,San Giorgio di Piano,Castel San Pietro Terme,Pianoro,Sasso Marconi,Vergato,Galliera,San Pietro in Casale,Bentivoglio",
+    "b": "Parma,Colorno,Fiorenzuola d'Arda,Fidenza,Salsomaggiore Terme,Pellegrino Parmense,San Secondo Parmense,Tizzano Val Parma,Traversetolo,Borgo Val di Taro,Medesano,Noceto,Montechiarugolo,Felino,Sala Baganza,Langhirano,Corniglio,Fornovo di Taro,Roccabianca,Busseto,Fontevivo,Soragna,Torrile,Solignano,Collecchio,Varano de' Melegari,Bedonia,Sissa Trecasali,Fontanellato,Polesine Zibello,Bardi,Albareto,Lesignano de' Bagni,Monchio delle Corti,Compiano,Terenzo,Palanzano,Varsi,Neviano degli Arduini,Bore,Tornolo,Calestano,Valmozzola",
     "status": "COMPLETE"
   },
   {
@@ -1820,16 +1820,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Regional Italian",
-    "i": 592,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Roma,Milano,Napoli,Torino,Palermo,Genova,Bologna,Firenze,Catania,Bari,Venezia,Verona,Padova,Trieste,Parma,Modena,Perugia,Taranto,Ancona,Cagliari,Messina,Campobasso,Aosta,Rimini,Lecce",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Ribagorçan",
     "i": 593,
     "min": 4,
@@ -1956,8 +1946,8 @@ window.europeNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Sassari,Alghero,Sorso,Porto Torres,Stintino,Castelsardo,Badesi,Valledoria,Sedini,Tergu,Santa Maria Coghinas,Cheremule,Chiaramonti,Pattada,Ploaghe,Bono,Anela,Benetutti,Bottidda,Bulzi,Cargeghe,Cossoine,Esporlatu,Florinas,Ittireddu,Mara,Martis,Monteleone Rocca Doria,Mores,Nughedu San Nicolò,Nule,Osilo,Ozieri,Perfugas,Pozzomaggiore,Putifigari,Romana,Sagama,Semestene,Sennori,Silo,Thiesi,Tissi,Torralba,Viddalba,Villanova Monteleone",
-    "status": "COMPLETE"
+    "b": "Sassari,Sorso,Porto Torres,Stintino,Castelsardo,Tergu,Sedini,Valledoria,Badesi,Santa Maria Coghinas,Sennori,Ardara,Uri,Ossi,Budoni",
+    "status": "WAITING"
   },
   {
     "name": "Savoyard",
@@ -1986,7 +1976,7 @@ window.europeNameBases = [
     "max": 27,
     "d": "lnrt",
     "m": 0,
-    "b": "Siracusa,Ragusa,Noto,Lentini,Pachino,Augusta,Solarino,Floridia,Carlentini,Militello in Val di Catania,Palazzolo Acreide,Modica,Scicli,Comiso,Ispica,Vittoria,Acate,Gela,Butera,Mazzarino,Riesi,Barrafranca,Pietraperzia,Mussomeli,Sommatino,Mazzarrone,Mineo",
+    "b": "Ragusa,Modica,Scicli,Comiso,Vittoria,Ispica,Acate,Pozzallo,Santa Croce Camerina,Chiaramonte Gulfi,Giarratana,Monterosso Almo,Siracusa,Noto,Pachino,Avola,Rosolini,Sortino,Palazzolo Acreide,Francofonte,Melilli,Buccheri,Buscemi,Cassaro,Ferla,Canicattini Bagni,Priolo Gargallo,Portopalo di Capo Passero,Lentini,Carlentini,Floridia,Solarino,Augusta",
     "status": "COMPLETE"
   },
   {
@@ -2106,18 +2096,8 @@ window.europeNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Carloforte,San Pietro Island,Calasetta,Sant'Antioco,Porto Pino,Palmas,Masainas,Teulada,Tratalias,Giba,Portoscuso,Fluminimaggiore,Arzana,Gairo,Tortolì,Lanusei,Bari Sardo,Cardedu,Osini,Elini,Ilbono,Loceri,Perdasdefogu,Ulassai,Escalaplano,Ballao,Silius,San Nicolò Gerrei,Sadali,Seui,Seulo,Esterzili,Nurri,Orroli,Sarroch,Porto Torres,Stintino,Castelsardo,Badesi,Valledoria,Sedini,Tergu,Santa Maria Coghinas,Cheremule,Chiaramonti,Pattada,Ploaghe,Bono,Anela,Benetutti,Bottidda,Bulzi,Cargeghe,Cossoine,Esporlatu,Florinas,Ittireddu,Mara,Martis,Monteleone Rocca Doria,Mores,Nughedu San Nicolò,Nule,Osilo,Ozieri,Perfugas,Pozzomaggiore,Putifigari,Romana,Sagama,Sassari,Semestene,Sennori,Silo,Sorso,Thiesi,Tissi,Torralba,Viddalba,Villanova Monteleone",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Talian",
-    "i": 647,
-    "min": 3,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Venezia,Padova,Verona,Vicenza,Treviso,Belluno,Rovigo,Chioggia,Mestre,Marghera,Portogruaro,Conegliano,Vittorio Veneto,Feltre,Bassano del Grappa,Schio,Arzignano,Montebelluna,Castelfranco Veneto,Asolo,Pieve di Cadore,Cortina d'Ampezzo,Auronzo di Cadore,Agordo,Seren del Grappa,Quero Vas,Alano di Piave,Fener,Lentiai,Cesiomaggiore,Sospirolo,Trichiana,Mel,Valdobbiadene,Colle Umberto,Codogné,Godega di Sant'Urano,San Vendemiano",
-    "status": "COMPLETE"
+    "b": "Carloforte,San Pietro,Calasetta,Sant'Antioco,Porto Pino,Palmas,Masainas,Teulada,Tratalias,Giba,Portoscuso,Fluminimaggiore,San Pietro Isola,Cabras",
+    "status": "WAITING"
   },
   {
     "name": "Transylvanian",
@@ -5296,7 +5276,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Milan,Bergamo,Brescia,Como,Lecco,Monza,Pavia,Lodi,Cremona,Mantua,Varese,Vigevano,Crema,Gallarate,Saronno,Busto Arsizio,Legnano,Cinisello Balsamo,Paderno Dugnano,Sesto San Giovanni,Rho,Abbiategrasso,Corsico,Magenta,Castiglione delle Stiviere,Desenzano del Garda,Desio,Seregno,Lissone,Cesano Maderno,Limbiate,Lainate,Garbagnate Milanese,Arese,Bollate,Cusano Milanino,Cormano,Bresso,Novate Milanese,Baranzate,Settimo Milanese,Trezzano sul Naviglio,Buccinasco,Assago,Opera,Pieve Emanuele,Locate di Triulzi,Melegnano,San Donato Milanese,San Giuliano Milanese,Mediglia,Pioltello,Segrate,Vimodrone,Cernusco sul Naviglio,Brugherio,Carugate,Cassano d,Adda,Trezzo sull,Vaprio d,Canonica d,Fara Gera d,Pontirolo Nuovo,Chiari,Palazzolo sull,Oglio,Rovato,Ospitaletto,Cazzago San Martino,Passirano,Iseo,Sarnico,Lovere,Clusone,Vilminore di Scalve,Breno,Darfo Boario Terme,Edolo,Ponte di Legno,Temu,Vezza d,Sonico,Berzo Demo,Ceto,Cerveno,Cimbergo,Paspardo,Saviore dell,Adamello,Malonno,Corteno Golgi,Aprica,Livigno,Bormio,Santa Caterina Valfurva,Valdidentro,Valdisotto,Grosio,Grosotto,Mazzo di Valtellina,Vervio,Tovo di Sant,Agata,Mello,Traona,Civo,Morbegno,Ardenno,Forcola,Colorina,Fusine,Sondrio,Albosaggia,Caiolo,Castione Andevenno,Postalesio,Chiavenna,Piuro,Villa di Chiavenna,San Giacomo Filippo,Mese,Gordona,Samolaco,Novate Mezzola,Cino,Cercino,Mantello,Gerola Alta,Pedesina,Rasura,Bema,Lugano,Locarno,Bellinzona,Mendrisio,Chiasso,Ascona,Brissago,Losone,Minusio,Muralto",
+    "b": "Milan,Bergamo,Brescia,Como,Lecco,Monza,Pavia,Lodi,Cremona,Mantua,Varese,Vigevano,Crema,Gallarate,Saronno,Busto Arsizio,Legnano,Cinisello Balsamo,Paderno Dugnano,Sesto San Giovanni,Rho,Abbiategrasso,Corsico,Magenta,Castiglione delle Stiviere,Desenzano del Garda,Desio,Seregno,Lissone,Cesano Maderno,Limbiate,Lainate,Garbagnate Milanese,Arese,Bollate,Cusano Milanino,Cormano,Bresso,Novate Milanese,Baranzate,Settimo Milanese,Trezzano sul Naviglio,Buccinasco,Assago,Opera,Pieve Emanuele,Locate di Triulzi,Melegnano,San Donato Milanese,San Giuliano Milanese,Mediglia,Pioltello,Segrate,Vimodrone,Cernusco sul Naviglio,Brugherio,Carugate,Cassano d'Adda,Trezzo sull'Adda,Chiari,Palazzolo sull'Oglio,Rovato,Ospitaletto,Cazzago San Martino,Passirano,Iseo,Sarnico,Lovere,Clusone,Vilminore di Scalve,Breno,Darfo Boario Terme,Edolo,Ponte di Legno,Temu,Vezza d'Adda,Berzo Demo,Ceto,Cerveno,Cimbergo,Paspardo,Saviore dell'Adamello,Malonno,Corteno Golgi,Aprica,Livigno,Bormio,Santa Caterina Valfurva,Valdidentro,Valdisotto,Grosio,Grosotto,Mazzo di Valtellina,Vervio,Tovo di Sant'Agata,Mello,Traona,Civo,Morbegno,Ardenno,Forcola,Colorina,Fusine,Sondrio,Albosaggia,Caiolo,Castione Andevenno,Postalesio,Chiavenna,Piuro,Villa di Chiavenna,San Giacomo Filippo,Mese,Gordona,Samolaco,Novate Mezzola,Cino,Cercino,Mantello,Gerola Alta,Pedesina,Rasura,Bema,Lugano,Locarno,Bellinzona,Mendrisio,Chiasso,Ascona,Brissago,Losone,Minusio,Muralto",
     "status": "COMPLETE"
   },
   {
@@ -5546,7 +5526,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Udine,Pordenone,Tolmezzo,Gemona del Friuli,Cividale del Friuli,San Daniele del Friuli,Spilimbergo,Maniago,Codroipo,Latisana,Cervignano del Friuli,Palmanova,Gradisca d,Isonzo,Cormons,Gorizia,Monfalcone,Grado,Aquileia,Casarsa della Delizia,Sacile,Aviano,Fontanafredda,Porcia,Roveredo in Piano,San Quirino,Meduno,Travesio,Clauzetto,Vito d,Asio,Forgaria nel Friuli,Ragogna,Majano,Buja,Treppo Grande,Artegna,Montenars,Magnano in Riviera,Osoppo,Trasaghis,Bordano,Venzone,Amaro,Resiutta,Moggio Udinese,Pontebba,Dogna,Chiusaforte,Malborghetto-Valbruna,Tarvisio",
+    "b": "Udine,Pordenone,Tolmezzo,Gemona del Friuli,Cividale del Friuli,San Daniele del Friuli,Spilimbergo,Maniago,Codroipo,Latisana,Cervignano del Friuli,Palmanova,Gradisca d'Isonzo,Cormons,Gorizia,Monfalcone,Grado,Aquileia,Casarsa della Delizia,Sacile,Aviano,Fontanafredda,Porcia,Roveredo in Piano,San Quirino,Meduno,Travesio,Clauzetto,Vito d'Asio,Forgaria nel Friuli,Ragogna,Majano,Buja,Treppo Grande,Artegna,Montenars,Magnano in Riviera,Osoppo,Trasaghis,Bordano,Venzone,Amaro,Resiutta,Moggio Udinese,Pontebba,Dogna,Chiusaforte,Malborghetto-Valbruna,Tarvisio",
     "status": "COMPLETE"
   },
   {
@@ -5556,7 +5536,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Cortina d,Ampezzo,Corvara,Colfosco,Arabba,Falcade,Moena,Canazei,Campitello di Fassa,Mazzin,Pozza di Fassa,Vigo di Fassa,Ortisei,Santa Cristina Valgardena,Selva di Valgardena,La Villa,San Cassiano,Badia,La Valle,San Martino in Badia,Marebbe,San Vigilio di Marebbe,Val di Funes,Chiusa,Velturno,Bressanone,Castelrotto,Siusi allo Sciliar,Fie allo Sciliar,Tires,Collalbo,Renon,Bolzano,Caldaro sulla Strada del Vino,Appiano sulla Strada del Vino,San Genesio Atesino,Senale-San Felice,San Pancrazio,Ultimo,San Nicolo d,Laces,Castelbello-Ciardes,Naturno,Plaus,Parcines,Lagundo,Tirolo,Cermes,Marlengo,Merano,Lana,Caldaro,Termeno sulla Strada del Vino,Salorno,Vadena,Laives,Bronzolo,Aldino,Montagna,Tesimo,San Martino in Passiria",
+    "b": "Cortina d'Ampezzo,Corvara,Colfosco,Arabba,Falcade,Moena,Canazei,Campitello di Fassa,Mazzin,Pozza di Fassa,Vigo di Fassa,Ortisei,Santa Cristina Valgardena,Selva di Valgardena,La Villa,San Cassiano,Badia,La Valle,San Martino in Badia,Marebbe,San Vigilio di Marebbe,Val di Funes,Chiusa,Velturno,Bressanone,Castelrotto,Siusi allo Sciliar,Fie allo Sciliar,Tires,Collalbo,Renon,Bolzano,Caldaro sulla Strada del Vino,Appiano sulla Strada del Vino,San Genesio Atesino,Senale-San Felice,San Pancrazio,Ultimo,San Nicolò,Laces,Castelbello-Ciardes,Naturno,Plaus,Parcines,Lagundo,Tirolo,Cermes,Marlengo,Merano,Lana,Caldaro,Termeno sulla Strada del Vino,Salorno,Vadena,Laives,Bronzolo,Aldino,Montagna,Tesimo,San Martino in Passiria",
     "status": "COMPLETE"
   },
   {
@@ -5586,7 +5566,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lr",
     "m": 0.1,
-    "b": "Cagliari,Sassari,Quartu Sant,Elena,Olbia,Alghero,Nuoro,Oristano,Carbonia,Iglesias,Sanluri,Villacidro,Guspini,Terralba,Macomer,Ozieri,Tempio Pausania,Lanusei,Tortoli,San Gavino Monreale,Senorbi,Selargius,Monserrato,Sestu,Assemini,Capoterra,Sarroch,Pula,Domus de Maria,Teulada,Santadi,Narcao,Nuxis,Villaputzu,Muravera,San Vito,Burcei,Maracalagonis,Quartucciu,Elmas,Ussana,Monastir,Uta,Villa San Pietro,Sant,Antioco,Calasetta,Carloforte,Portoscuso,Gonnesa,Masainas,Tratalias,Pimentel,Samatzai,Barrali",
+    "b": "Cagliari,Sassari,Quartu Sant'Elena,Olbia,Alghero,Nuoro,Oristano,Carbonia,Iglesias,Sanluri,Villacidro,Guspini,Terralba,Macomer,Ozieri,Tempio Pausania,Lanusei,Tortoli,San Gavino Monreale,Senorbi,Selargius,Monserrato,Sestu,Assemini,Capoterra,Sarroch,Pula,Domus de Maria,Teulada,Santadi,Narcao,Nuxis,Villaputzu,Muravera,San Vito,Burcei,Maracalagonis,Quartucciu,Elmas,Ussana,Monastir,Uta,Villa San Pietro,Sant'Antioco,Calasetta,Carloforte,Portoscuso,Gonnesa,Masainas,Tratalias,Pimentel,Samatzai,Barrali",
     "status": "COMPLETE"
   },
   {

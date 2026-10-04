@@ -11753,9 +11753,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "regional-italian",
-    "bases": [
-      592
-    ]
+    "bases": []
   },
   {
     "iso": "r-mois",
@@ -12057,9 +12055,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "talian",
-    "bases": [
-      647
-    ]
+    "bases": []
   },
   {
     "iso": "tarantino",
@@ -22381,12 +22377,6 @@ globalThis.languageMixerMap = [
     "iso": "x-southern-nicobarese",
     "bases": [
       130
-    ]
-  },
-  {
-    "iso": "x-talian",
-    "bases": [
-      647
     ]
   },
   {

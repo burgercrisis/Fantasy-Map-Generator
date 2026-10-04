@@ -11,14 +11,14 @@ Generated: 2026-10-04  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2961 |
-| Marked COMPLETE (>= 25 seeds) | 1742 |
-| Marked WAITING (< 25 seeds) | 1219 |
-| Below seed floor | 1197 |
+| Language entries | 2959 |
+| Marked COMPLETE (>= 25 seeds) | 1737 |
+| Marked WAITING (< 25 seeds) | 1222 |
+| Below seed floor | 1199 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 833 |
+| Map ISOs with no namebase (research backlog) | 835 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -27,7 +27,7 @@ Generated: 2026-10-04  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 686 | 236 | 1 | 27 |
 | asia | 1007 | 539 | 2 | 22 |
-| europe | 605 | 151 | 0 | 30 |
+| europe | 603 | 153 | 0 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 153 | 29 | 0 | 31 |
 | oceania | 288 | 174 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-10-04  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1197 entries need authentic settlement names. Ordered by seed count,
+1199 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 1069 | Kárás |
 | 7 | oceania | 202478 | Tifal |
 
-_Showing the lowest 300 of 1197. Full queue:_
+_Showing the lowest 300 of 1199. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-833 languages the mixer map offers have no namebase entry
+835 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 833._
+_Showing 150 of 835._
 
 ## How to work on this
 
