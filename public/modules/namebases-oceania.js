@@ -1960,26 +1960,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Isbukun Bunun",
-    "i": 202405,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Dongpu,Nantou,Mayuan,Hualien,Laipunuk,Yanping,Taitung,Wanrong,Zhuoxi,Haiduan,Namaxia,Taoyuan,Maolin,Xinyi,Ren-ai,Taiwan",
-    "status": "WAITING"
-  },
-  {
-    "name": "Northern and Central Bunun",
-    "i": 202416,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kantaban,Vogai,Kadu,Kalibuan,Mahavun,Laidazuan,Nehunpu,Takkei,Haitutuan,Tamazuan,Mahowan,Malibasi,Kakacawan,Kohkoh,Dili,Tannan,Wanfeng,Fazhi,Wangxiang,Jiumei,Zhongzheng,Mayuan,Ren'ai,Xinyi,Zhuoxi,Haiduan,Wanrong,Nanxi,Qimei",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Ontenu",
     "i": 202418,
     "min": 4,

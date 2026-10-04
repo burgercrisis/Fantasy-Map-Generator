@@ -256,7 +256,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Jokkmokk,Gällivare,Storbacken,Kvikkjokk,Kåbdalis,Murjek,Porjus,Vuollerim,Harsprånget,Ligga,Tellejokk,Vajkijaur,Padjerim,Suoksjokk,Kuouka,Malmberget,Kaitum,Ritsem,Nikkaluokta,Killingsuando,Drag,Oppeid,Sørfold",
+    "b": "Jokkmokk,Gällivare,Arjeplog,Boden,Luleå,Storbacken,Kvikkjokk,Kåbdalis,Porjus,Vuollerim,Harsprånget,Malmberget,Kaitum,Nikkaluokta,Drag,Hamarøy,Piteå",
     "status": "WAITING"
   },
   {
@@ -267,16 +267,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Santander,Torrelavega,Laredo,Castro-Urdiales,Santoña,San Vicente de la Barquera,Comillas,Santillana del Mar,Suances,Puente Viesgo,Los Corrales de Buelna,Cartes,Astillero,Reinosa,Potes,Camargo,Miengo,Meruelo,Villacarriedo,Rasines,Saro,Liérganes,Vega de Pas,Rionansa,Ruente,Cabuérniga,Tudanca,Soba,Puente Arce,Liendo",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Castrapo",
-    "i": 235,
-    "min": 3,
-    "max": 22,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Santiago de Compostela,A Coruña,Vigo,Ourense,Lugo,Pontevedra,Ferrol,Narón,Carballo,Arteixo,Cambre,Culleredo,Betanzos,Noia,Muros,Ribeira,Boiro,Pobra do Caramiñal,Vilagarcía de Arousa,Caldas de Reis,Tui,O Porriño,Redondela,Nigrán,Cangas do Morrazo,Marín,Ponteareas,Moaña,O Barco de Valdeorras,Verín,Allariz,Xinzo de Limia,O Carballiño,Ribeira de Pena,A Estrada,A Lama,Ponte Caldelas,Silleda,Lalín,Catoira,Terra Chá",
     "status": "COMPLETE"
   },
   {
@@ -3660,24 +3650,14 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Judeo-Italian",
-    "i": 21058,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Roma,Venezia,Firenze,Milano,Torino,Genova,Bologna,Ferrara,Mantova,Padova,Verona,Trieste,Ancona,Perugia,Siena,Livorno,Pisa,Asti,Alessandria,Cuneo,Saluzzo,Pitigliano,Orvieto,Spoleto,Urbino",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Judeo-Mantuan",
     "i": 21059,
     "min": 4,
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Mantova,Peschiera del Garda,Verona,Vicenza,Padova,Rovigo,Legnago,Castelfranco Veneto,Montebelluna,Asolo,Bassano del Grappa,Conegliano,Treviso,Vittorio Veneto,Milano,Brescia,Bergamo,Cremona,Lodi,Pavia,Venezia,Ferrara,Bologna,Modena,Reggio Emilia,Parma,Piacenza,Oderzo,San Donà di Piave,Chioggia,Mirano,Mestre,Schio,Thiene,Arzignano,Marostica,Sirmione,Desenzano del Garda,Lonato,Castiglione delle Stiviere,Goito,Ostiglia,Suzzara,Borgoforte,Quistello,Carbonara di Po,Felonica,San Benedetto Po,Viadana,Bozzolo,Rivarolo Mantovano,Castel Goffredo,Casalmaggio,Asola,Volta Mantovana,Cavriana,Guidizzolo,Medole,Castel d'Ario,Roverbella,Bagnolo San Vito,Sustinente",
-    "status": "COMPLETE"
+    "b": "Mantova,Gonzaga,Viadana,Sabbioneta,Castiglione delle Stiviere,Bozzolo,Goito,Volta Mantovana,Cavriana,Medole,Castel Goffredo,Asola,Rodigo,Sustinente,Ostiglia,Quistello",
+    "status": "WAITING"
   },
   {
     "name": "Judeo-Piedmontese",
@@ -3696,8 +3676,8 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Lisboa,Porto,Coimbra,Évora,Tomar,Braga,Guimarães,Setúbal,Beja,Faro,Guarda,Bragança,Vila Real,Aveiro,Viseu,Leiria,Santarem,Portalegre,Castelo Branco,Amsterdam,Hamburg,London,Antwerp,Chaves,Ponte de Lima",
-    "status": "COMPLETE"
+    "b": "Lisboa,Porto,Coimbra,Évora,Tomar,Braga,Guimarães,Setúbal,Beja,Faro",
+    "status": "WAITING"
   },
   {
     "name": "Judeo-Provençal",
@@ -3716,7 +3696,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Thessaloniki,Istanbul,Izmir,Edirne,Sarajevo,Bitola,Kastoria,Skopje,Sofia,Bucharest,Belgrade,Zagreb,Rhodes,Larissa,Trieste,Venice,Ferrara,Budapest,Jerusalem,Jaffa,Hebron,Safed,Alexandria,Cairo",
+    "b": "Thessaloniki,Istanbul,Izmir,Edirne,Sarajevo,Bitola,Kastoria,Skopje,Sofia,Bucharest,Belgrade,Zagreb,Rhodes,Larissa",
     "status": "WAITING"
   },
   {
@@ -3760,26 +3740,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Judeo-Mantuan (Lombardy)",
-    "i": 23006,
-    "min": 4,
-    "max": 22,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mantova,Brescia,Bergamo,Cremona,Lodi,Pavia,Vigevano,Codogno,Somma Lombardo,Magenta,Abbiategrasso,Legnano,Busto Arsizio,Gallarate,Saronno,Asola,Castel Goffredo,Guidizzolo,Marmirolo,Ostiglia,Quistello,Rodigo,Sabbioneta,San Giorgio di Mantova,Sermide,Sustinente",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Judeo-Piedmontese (Turin)",
-    "i": 23007,
-    "min": 3,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Torino,Asti,Alessandria,Novara,Cuneo,Vercelli,Biella,Verbania,Domodossola,Borgosesia,Arona,Stresa,Omegna,Borgomanero,Ghemme,Acqui Terme,Casale Monferrato,Fossano,Saluzzo,Bra,Alba,Moncalieri,Rivoli,Collegno,Nichelino,Settimo Torinese,Chieri,Carmagnola,Ivrea,Aosta,Piedmontese,Giudeo,Pinerolo,Rivarolo,Jkese,JudeoPiedmonteset,Jtese,Jpese,Jmese",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Molisan (Molise)",
     "i": 23011,
     "min": 4,
@@ -3807,16 +3767,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Chișinău,Bălți,Tiraspol,Bender,Cahul,Ungheni,Soroca,Orhei,Dubăsari,Călărași,Hîncești,Nisporeni,Căușeni,Strășeni,Ialoveni,Edineț,Briceni,Ocnița,Dondușeni,Drochia,Fălești,Glodeni,Rîșcani,Sîngerei,Telenești,Moldaviank,Moldaviant,Moldavianp,Moldavianm,Moldaviann,Moldavians,Moldavianr,Moldavianl,Moldaviand,Moldaviang,Moldavianb",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Judeo-Aragonese (Aragon)",
-    "i": 23014,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zaragoza,Huesca,Jaca,Calatayud,Tarazona,Alcañiz,Teruel,Daroca,Monzón,Barbastro,Fraga,Caspe,Albalate del Arzobispo,Ariza,Borja,Cariñena,Ejea de los Caballeros,Epila,Gallocanta,La Almunia de Doña Godina,Magallón,Maluenda,Paniza,Ricla,La Puebla de Valverde,Sástago,Tauste,Villafeliche,Alcaniz,Belchite",
     "status": "COMPLETE"
   },
   {
@@ -3917,16 +3867,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Yalutorovsk,Lugovoy,Bely Yar",
-    "status": "WAITING"
-  },
-  {
-    "name": "Jåkkåkaska",
-    "i": 200732,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Jokkmokk,Kvikkjokk,Kåbdalis,Murjek,Harsprånget,Ligga,Tellejokk,Vajkijaur,Porjus,Vuollerim",
     "status": "WAITING"
   },
   {
@@ -4288,16 +4228,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tonshaevo,Tuzha,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Sernur-Morkin,Alekseyevka,KadjiSay,Kozmodemyansk,Volzhsk,Yaransk,Mariinsky Posad,Vasilsursk,Santala,Shoybulatovo,Troitsky,Mariets,Semyonovka",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Serri",
-    "i": 200790,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Jokkmokk,Storbacken,Vuollerim,Harsprånget,Ligga,Tellejokk,Vajkijaur,Padjerim,Suoksjokk,Kuouka",
-    "status": "WAITING"
   },
   {
     "name": "Seto",
@@ -4856,8 +4786,8 @@ window.europeNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Huesca,Zaragoza,Teruel,Jaca,Barbastro,Monzón,Fraga,Binéfar,Sabiñánigo,Calatayud,Tarazona,Caspe,Alcañiz,Andorra,Borja,Tauste,Ejea de los Caballeros,Zuera,Utebo,La Almunia de Doña Godina,Daroca,Calamocha,Graus,Benabarre,Aínsa,Bielsa,Ansó,Hecho,Jasa,Broto,Aoum",
-    "status": "COMPLETE"
+    "b": "Jaca,Ansó,Hecho,Bielsa,Broto,Graus,Aínsa-Sobrarbe,Benasque,Huesca,Zaragoza,Teruel,Barbastro,Monzón,Fraga,Binéfar,Sabiñánigo,Calatayut",
+    "status": "WAITING"
   },
   {
     "name": "Lower Sorbian",

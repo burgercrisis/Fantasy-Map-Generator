@@ -5,37 +5,37 @@
 > Hand edits are overwritten. To change a number here, change the data in
 > `public/modules/namebases-*.js` and regenerate.
 
-Generated: 2026-10-03  |  Seed floor: 25
+Generated: 2026-10-04  |  Seed floor: 25
 
 ## Headline
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2977 |
-| Marked COMPLETE (>= 25 seeds) | 1773 |
-| Marked WAITING (< 25 seeds) | 1204 |
-| Below seed floor | 1182 |
+| Language entries | 2967 |
+| Marked COMPLETE (>= 25 seeds) | 1755 |
+| Marked WAITING (< 25 seeds) | 1212 |
+| Below seed floor | 1190 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 828 |
+| Map ISOs with no namebase (research backlog) | 831 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 688 | 233 | 1 | 27 |
-| asia | 1006 | 534 | 2 | 23 |
-| europe | 618 | 143 | 0 | 30 |
+| africa | 686 | 236 | 1 | 27 |
+| asia | 1007 | 539 | 2 | 22 |
+| europe | 611 | 144 | 0 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 153 | 29 | 0 | 31 |
-| oceania | 290 | 175 | 1 | 19 |
+| oceania | 288 | 174 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1182 entries need authentic settlement names. Ordered by seed count,
+1190 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -56,6 +56,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | africa | 200202 | Tumak |
 | 1 | asia | 1719 | Duan |
 | 1 | asia | 200299 | Jandavra |
+| 1 | asia | 200723 | Younian |
 | 1 | asia | 202585 | Pear |
 | 1 | europe | 757 | Atlym |
 | 1 | northAmerica | 71 | Chipilo Venetian (chipileño) |
@@ -65,6 +66,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | oceania | 202759 | Nunggubuyu |
 | 1 | oceania | 203272 | Turaka |
 | 2 | africa | 11282 | Geme |
+| 2 | africa | 11287 | Geruma |
 | 2 | africa | 200005 | Belneng |
 | 2 | africa | 200064 | Maaka |
 | 2 | africa | 268 | Algerian Saharan Arabic |
@@ -229,6 +231,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203267 | Saaroa |
 | 5 | oceania | 203273 | Walak |
 | 5 | oceania | 203275 | Wano |
+| 6 | africa | 2038 | Goundo |
 | 6 | africa | 11286 | Gera |
 | 6 | africa | 200004 | Bebe |
 | 6 | africa | 200023 | Fut |
@@ -296,7 +299,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | southAmerica | 5812 | Berbice |
 | 7 | africa | 1234 | Fwe |
 | 7 | africa | 1720 | Dugwor |
-| 7 | africa | 11287 | Geruma |
 | 7 | africa | 21113 | Juba Arabic |
 | 7 | africa | 200034 | Jibyal |
 | 7 | africa | 200068 | Majera |
@@ -316,6 +318,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | asia | 200326 | Khorchin Mongol |
 | 7 | asia | 200341 | Lower Uda Buryat |
 | 7 | asia | 200449 | Pyang Zhuang |
+| 7 | asia | 200704 | Sanqiao |
 | 7 | asia | 203174 | Dungmali |
 | 7 | asia | 313 | Bukharian Arabic |
 | 7 | asia | 202694 | Thmon |
@@ -337,11 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 202749 | Kunwinjku |
 | 7 | oceania | 203080 | Marind |
 | 7 | oceania | 203083 | Namiae |
-| 7 | oceania | 203108 | Tsaukambo |
-| 7 | oceania | 203112 | Wersing |
-| 7 | oceania | 203118 | Yaweyuha |
 
-_Showing the lowest 300 of 1182. Full queue:_
+_Showing the lowest 300 of 1190. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-828 languages the mixer map offers have no namebase entry
+831 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -524,7 +524,7 @@ created from research. Nothing here is guessed at.
 | bunak | Bunak | undefined |
 | bns | Bundeli Names | 20056 |
 | bundjalung | Bundjalung | undefined |
-| bunun | Bunun | 1392 |
+| bunun | Bunun | undefined |
 | mya2 | Burmese Expanded 2 | 10014 |
 | mya | Burmese Names | 10014 |
 | bmu | Burmeso | undefined |
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 828._
+_Showing 150 of 831._
 
 ## How to work on this
 

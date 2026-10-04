@@ -197,7 +197,7 @@
       "family": "Bantu"
     },
     {
-      "name": "Atlas Berber",
+      "name": "Central Atlas Tamazight",
       "iso": "atlas-berber",
       "region": "Africa",
       "category": "Afroasiatic",
@@ -3247,7 +3247,7 @@
       "family": "Northern Berber"
     },
     {
-      "name": "Standard Moroccan Amazigh",
+      "name": "Central Atlas Tamazight",
       "iso": "standard-moroccan-amazigh",
       "region": "Africa",
       "category": "Afroasiatic",
@@ -11070,7 +11070,7 @@
       "family": "West Hmongic"
     },
     {
-      "name": "Bunu",
+      "name": "Kiong Nai",
       "iso": "bunu",
       "region": "East Asia",
       "category": "Hmong-Mien",

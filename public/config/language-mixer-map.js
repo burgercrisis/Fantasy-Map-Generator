@@ -170,7 +170,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "atlas-berber",
     "bases": [
-      200003
+      20661
     ]
   },
   {
@@ -2582,7 +2582,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "standard-moroccan-amazigh",
     "bases": [
-      200177
+      20661
     ]
   },
   {
@@ -8310,7 +8310,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "bunu",
     "bases": [
-      1392
+      202827
     ]
   },
   {
@@ -9175,9 +9175,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "j-kk-kaska",
-    "bases": [
-      200732
-    ]
+    "bases": []
   },
   {
     "iso": "j-llivaara",
@@ -9789,9 +9787,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "serri",
-    "bases": [
-      200790
-    ]
+    "bases": []
   },
   {
     "iso": "seto",
@@ -10638,12 +10634,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "castrapo",
-    "bases": [
-      235
-    ]
-  },
-  {
     "iso": "cast-o",
     "bases": [
       200856
@@ -11209,9 +11199,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "judeo-italian",
-    "bases": [
-      21058
-    ]
+    "bases": []
   },
   {
     "iso": "judeo-mantuan",
@@ -14927,9 +14915,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "bunun",
-    "bases": [
-      1392
-    ]
+    "bases": []
   },
   {
     "iso": "buruwai",
@@ -20974,12 +20960,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-j-kk-kaska",
-    "bases": [
-      200732
-    ]
-  },
-  {
     "iso": "x-jugan",
     "bases": [
       200734
@@ -21709,12 +21689,6 @@ globalThis.languageMixerMap = [
     "iso": "x-north-vagilsk",
     "bases": [
       200764
-    ]
-  },
-  {
-    "iso": "x-serri",
-    "bases": [
-      200790
     ]
   },
   {
@@ -22735,12 +22709,6 @@ globalThis.languageMixerMap = [
     "iso": "x-judeo-piedmontese",
     "bases": [
       21060
-    ]
-  },
-  {
-    "iso": "x-judeo-aragonese-aragon",
-    "bases": [
-      23014
     ]
   },
   {

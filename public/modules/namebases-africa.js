@@ -356,7 +356,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wadi Fira,Goz Beida,Abeche,Abdi,Bir Kedde,Magrane,Koundoul,Gurda,Woda'a,Fafa,Abu Daza,Ouaddai Region,Darfur,Kordofan,Abu Daza District",
+    "b": "Biltine,Wadi Fira,Abéché,Abdi,Bir Kedde,Mimi Goz,Mimi Hadjer,Woda'a,Fafa,Magrur,Bara",
     "status": "WAITING"
   },
   {
@@ -1516,8 +1516,8 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Goundo-Bengli,Goundo-Nangom,Goundo-Yila,Kélo Subprefecture,Lai Subprefecture,Tandjilé Region,Logone River,Messéré Canton,Laï-Rural Canton,Kabalay Area,Biltine,Am Zoer,Iriba,Wadi Fira,Goz Beida,Abeche,Abdi,Bir Kedde,Magrane,Mata,Koundoul,Gurda,Woda'a,Fafa,Abu Daza,Mimi Goz,Mimi Hadjer,Ouaddai Region,Batha Region,Darfur,Sudan,Kordofan,Abu Daza District,North of Biltine,Chad",
-    "status": "COMPLETE"
+    "b": "Bengli,Nangom,Yila,Kélo,Laï,Tandjilé",
+    "status": "WAITING"
   },
   {
     "name": "Gourmanché",
@@ -2246,8 +2246,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Lilongwe,Blantyre,Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Chikwaka,Thyolo,Mulanje,Chiradzulu,Mwanza,Nsanje,Phalombe,Mzuzu,Karonga,Chitipa,Rumphi,Nkhata Bay,Livingstonia,Mzimba,Dar es Salaam,Imi,GeedWeen,Karindoolay,Gamey,Kipini,Nyakoe,Bura,Wachile,GarasQod,Bacad,BuuloMarer,Mtwapa,Getembe,Habasiwein,Dudun,Akurwa,Afedla,Akomwa,Apona,Adirwa,Afamwa,Aukna,Anarwa,Adorna,Abolwa,Ametla,Afudwa,Adimna,Abegwa,Afenla,Fanjila,Fanjima,Fanjiwa,Fanjira,Fanjika",
-    "status": "COMPLETE"
+    "b": "Mangochi,Chirombo,Makwempe,Machinga,Zomba,Balaka,Chiradzulu,Blantyre,Mulanje,Ntcheu,Phalombe,Cikonono,Lichinga,Cuamba,Negomano,Gurue,Tunduru,Masasi",
+    "status": "WAITING"
   },
   {
     "name": "Farefare",
@@ -2266,8 +2266,8 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Lilongwe,Blantyre,Zomba,Mangochi,Machinga,Balaka,Nkhotakota,Salima,Ntchisi,Dedza,Chikwaka,Thyolo,Mulanje,Chiradzulu,Mwanza,Nsanje,Phalombe,Mzuzu,Karonga,Chitipa,Rumphi,Nkhata Bay,Livingstonia,Mzimba,Dar es Salaam",
-    "status": "COMPLETE"
+    "b": "Beira,Dondo,Nhamatanda,Machaze,Machanga,Chibabava,Buzi,Mossurize,Mambone,Chimoio,Sussundenga,Chibawawa,Makuyana,Mapungwana,Gwenzi,Chisumbanje,Chipinge,Chimanimani",
+    "status": "WAITING"
   },
   {
     "name": "Douiret",
@@ -2406,7 +2406,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bade-Warji,Warji,Yobe State,Gombe State,Adamawa State,Borno State",
+    "b": "Bauchi,Ganjuwa,Gilliri,Dabe,Tirwun,Kangere",
     "status": "WAITING"
   },
   {
@@ -2416,7 +2416,7 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bade-Warji,Warji,Gera,Gombe State,Adamawa State,Borno State,Yobe State",
+    "b": "Toro,Darazo",
     "status": "WAITING"
   },
   {
@@ -3716,7 +3716,7 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Khénifra,Azrou,Ifrane,Sefrou,El Hajeb,Imouzzer Kandar,Meknes,Fes,Khemiset,Boulemane,Missour,Outat Oulad El Haj,Ribaa,Taza,Taounate,Al Hoceima,Nador,Oujda,Berkane,Figuig,Errachidia,Ouarzazate,Tinghir,Zagora,Tata,Assa,Taroudant,Tafraout,Boumalne,Tizi Ouzou,Béjaïa,Sétif,Bouira,Houmt Souk,Medenine,Tataouine,Beni Mellal,Chefchaouen",
+    "b": "Khénifra,Azrou,Ifrane,Sefrou,El Hajeb,Imouzzer Kandar,Meknes,Fes,Khemiset,Boulemane,Missour,Outat Oulad El Haj,Ribaa,Taza,Errachidia,Beni Mellal,Khenifra,Midelt,Imilchil,Yeffren,Zawiya Sidi Yahya,Dayet er Roumi,Tizi n-Toumlilt,Tizi Melloul,Oued Beth,Moulouya,Tamesna,Tifza,Tinmal,Ras el-Ma,Tounfit,Bin el Ouidane,Bou Iblane,Boutferda,Ait Tamellilt,Ait Mizane,Ait Ouaouzguit",
     "status": "COMPLETE"
   },
   {
@@ -4248,16 +4248,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Antere,Nca,Sardauna LGA,Taraba State",
     "status": "WAITING"
-  },
-  {
-    "name": "Atlas Berber",
-    "i": 200003,
-    "min": 4,
-    "max": 17,
-    "d": "",
-    "m": 0,
-    "b": "Imlil,Aroumd,Megdaz,Asni,Setti Fatma,Tnine Ourika,Ouarzazate,Azrou,Tizi n-Toumlilt,Tizi Melloul,Imilchil,Tafza,Tamesna,Tinmal,Ait Tamellilt,Ait Mizane,Ait Ouaouzguit,Aghbala,Agdz,Arazan,Bin el Ouidane,Bou Iblane,Boutferda,Chefchaouen,Dayet er Roumi,Ifrane,Khenifra,Midelt,Moulouya,Oued Beth,Oued el Abid,Ras el-Ma,Safi,Tiflet,Tounfit,Yeffren,Zawiya Sidi Yahya",
-    "status": "COMPLETE"
   },
   {
     "name": "Bebe",
@@ -5647,16 +5637,6 @@ window.africaNameBases = [
     "d": "",
     "m": 0,
     "b": "Tizi Ouzou,Bejaia,Bouira,Boumerdes,Setif,Bordj Bou Arreridj,Jijel,Algiers,Blida,Medea,Tipaza,Ain Defla,Chlef,Relizane,Oran,Ain Temouchent,Sidi Bel Abbes,Tlemcen,Naama,Saida,El Bayadh,Ghardaia,Ouargla,Illizi,Tamanrasset,Adrar,Bechar,Tindouf",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Standard Moroccan Amazigh",
-    "i": 200177,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 0,
-    "b": "Imlil,Aroumd,Megdaz,Asni,Setti Fatma,Tnine Ourika,Ouarzazate,Azrou,Tizi n-Toumlilt,Tizi Melloul,Imilchil,Tafza,Tamesna,Tinmal,Ait Tamellilt,Ait Mizane,Ait Ouaouzguit,Aghbala,Agdz,Arazan,Bin el Ouidane,Bou Iblane,Boutferda,Chefchaouen,Ifrane,Khenifra,Midelt,Ras el-Ma,Safi,Tiflet,Tounfit",
     "status": "COMPLETE"
   },
   {

@@ -1690,16 +1690,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Bunu",
-    "i": 1392,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Meizhu,Longshao,Dadongzhai,Sanxiangdong,Nongping,Nongteng,Gecong,Nongcheng,Nongxiong,Baoshang,Guzhu,Nonghe,Nongliang,Longhua,Nanzhou,Dajing,Liuxiang,Mengtou,Dadeng,Huangsang,Xincun,Gupu,Zhanger,Liutuan,Luodan,Taohua,Xishan,Fuhou,Hele,Bana,Nongyou,Jia'er,Gancahng,Lalin,Linlan,Kacai,Nongfeng,Nonglie,Nonglin,Polin,Qinlan,Gexian,Sanzhiyang,Longma,Xia'ao,Jiawen,Baya,Huakang,Dachong,Chongshan,Kaqiao,Jiangtuan,Youya,Sanlian,Wenqian,Nongshan,Changdong,Dongbo,Donghong,Lina,Naha,Ana,Pofu,Poling,Dongtang,Balai,Nada,Nasha",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Baoan (Bonan)",
     "i": 1353,
     "min": 4,
@@ -4736,8 +4726,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Masohi,Saumlaki,Ternate,Namlea,Seram,Haruku,Tual,Ambon,Gorom,Tidore,Nusa Laut,Leti,Tanimbar,Amahai,Sofifi,Aru,Wetar,Kai,Piru,Banda,Babar,Kei,Saparua,Dobo,Buru,Watubela,Kelang,Buano,Manipa,Obi,Bacan,Halmahera,Morotai,Tobelo,Galela,Jailolo,Maba,Weda,Buli,Gane,Pati,Loloda,Namrole,Bula,Sanana,Sula,Mangoli,Taliabu,Mangon,Larat,Wonreli,Adaut,Kola,Pulau Banda,Bandanaira,Gunung Api,Neira,Ai,Run,Hatta",
-    "status": "COMPLETE"
+    "b": "Banda Besar,Banda Neira,Bandanaira,Gunung Api,Run,Ai,Hatta,Kei Besar,Kei Kecil",
+    "status": "WAITING"
   },
   {
     "name": "Bankariya",
@@ -6856,7 +6846,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ajmer,Bikaner,Alwar,Kota,Bundi,Chittorgarh,Sikar,Pali,Tonk,Barmer,Jaisalmer,Jhalawar,Karauli,Banswara,Jhunjhunu,Sirohi,Nagaur,Jodhpur,Udaipur,Bharatpur,Sawai Madhopur,Dungarpur,Churu",
+    "b": "Dungarpur,Banswara,Aspur,Kherwara,Sagwara,Sajjangarh,Kushalgarh,Sialderi",
     "status": "WAITING"
   },
   {
@@ -7236,8 +7226,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Liping,Tongdao,Qiuli,Cendun,Dongweng,Zunyi,Anshun,Kaili,Duyun,Fuquan,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Jinping,Jingzhou,Suining,Wushan",
-    "status": "COMPLETE"
+    "b": "Liping,Jinping,Tongdao,Suining,Jingzhou,Rongjiang,Congjiang",
+    "status": "WAITING"
   },
   {
     "name": "Shanghainese",
@@ -7386,8 +7376,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Liping,Zunyi,Anshun,Kaili,Duyun,Fuquan,Leishan,Taijiang,Huangping,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie",
-    "status": "COMPLETE"
+    "b": "Longsheng",
+    "status": "WAITING"
   },
   {
     "name": "Yukjin Korean",
@@ -9496,8 +9486,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Aru,Piru,Saumlaki,Kai,Tanimbar,Sofifi,Masohi,Babar,Saparua,Seram,Nusa Laut,Gorom,Dobo,Tidore,Banda,Leti,Ternate,Tual,Haruku,Ambon,Kei,Amahai,Wetar,Namlea,Buru,Watubela,Kelang,Buano,Manipa,Obi,Bacan,Halmahera,Morotai,Tobelo,Galela,Jailolo,Maba,Weda,Buli,Gane,Pati,Loloda,Namrole,Bula,Sanana,Sula,Mangoli,Taliabu,Mangon,Larat,Wonreli,Adaut,Kola",
-    "status": "COMPLETE"
+    "b": "Ambon,Salahutu,Hila,Saparua,Haruku,Nusa Laut,Buano,Manipa,Kelang,Masohi,Tual,Sofifi",
+    "status": "WAITING"
   },
   {
     "name": "Nagpuri",
@@ -9776,7 +9766,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Liuxiang,Mengtou,Dadeng,Huangsang,Xincun,Gupu,Longhua,Nanzhou,Dajing,Zhanger,Liutuan,Luodan",
+    "b": "Longhua,Nanzhou,Dajin,Liuxiang,Mentou,Gubu,Ludan,Liutian,Chang'e",
     "status": "WAITING"
   },
   {
@@ -10058,5 +10048,25 @@ window.asiaNameBases = [
     "m": null,
     "b": "Ari,Serea",
     "status": "WAITING"
+  },
+  {
+    "name": "Isbukun Bunun",
+    "i": 202405,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Dongpu,Nantou,Mayuan,Hualien,Laipunuk,Yanping,Taitung,Wanrong,Zhuoxi,Haiduan,Namaxia,Taoyuan,Maolin,Xinyi,Ren-ai,Taiwan",
+    "status": "WAITING"
+  },
+  {
+    "name": "Northern and Central Bunun",
+    "i": 202416,
+    "min": 4,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Kantaban,Vogai,Kadu,Kalibuan,Mahavun,Laidazuan,Nehunpu,Takkei,Haitutuan,Tamazuan,Mahowan,Malibasi,Kakacawan,Kohkoh,Dili,Tannan,Wanfeng,Fazhi,Wangxiang,Jiumei,Zhongzheng,Mayuan,Ren'ai,Xinyi,Zhuoxi,Haiduan,Wanrong,Nanxi,Qimei",
+    "status": "COMPLETE"
   }
 ];

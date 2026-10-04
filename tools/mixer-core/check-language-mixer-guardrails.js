@@ -302,6 +302,47 @@ const ALLOWED_REMOVALS = new Set([
     "x-ao-naga",
     "x-sundanese",
     "x-meitei",
+    // Nine more, from the same subset sweep. The dominant failure mode there was
+    // not duplication but SEED-LIST PLAGIARISM - an entry inheriting a sibling's or
+    // an unrelated language's list wholesale, which is what manufactured nearly
+    // every "subset" these detectors found.
+    //   j-kk-kaska, serri, x-j-kk-kaska, x-serri
+    //     Jåkkåkaska and Serri are Lule Sámi DIALECTS named after reindeer-herding
+    //     sameby - Jåkkåkaska sameby is registered in Jokkmokk, Serri is the forest
+    //     dialect around Gällivare. Not separate languages, and Lule's own entry
+    //     had been carrying their sameby names as if they were settlements.
+    //   castrapo
+    //     Not a dialect but a SOCIOLECT: the Galician/Castilian code-switching
+    //     register of Galicia, which the RAG defines as "a variation of the Spanish
+    //     language spoken in Galicia". Repointing it at Galician would claim it is a
+    //     dialect of Galician, which it is not, so the key goes rather than moving.
+    //   standard-moroccan-amazigh
+    //     An IRCAM NORM built in 2011 by blending Tashelhit, Central Atlas Tamazight
+    //     and Tarifit. A standard has no territory of its own.
+    //   bunu, bunun
+    //     "Jiongnai Bunu" is one language, so bunu moved to Kiong Nai - whose twelve
+    //     villages the Bunu entry had absorbed before padding with ~56 Hakka villages
+    //     1,500 km away. `bunun` is a different language again (Itneg, Philippines)
+    //     and had been mis-pointed at the same entry; it is a Formosan family label
+    //     whose two dialects have their own entries, so it is now empty.
+    //   judeo-italian
+    //     A family label with no single territory, seeded with the biggest Italian
+    //     cities, and overlapping its own children. "(Lombardy)", "(Turin)" and
+    //     "(Aragon)" were subdivisions that do not exist - Mantuan is EMILIAN, not
+    //     Lombard, and Turin is Judeo-Piedmontese's principal city rather than a
+    //     subdivision. The Piedmontese entry also held eight seeds that were not
+    //     place names at all, and the Aragonese one held Alcaniz and Alcañiz - the
+    //     same town twice, which is intra-entry so W011 cannot see it.
+    "j-kk-kaska",
+    "serri",
+    "x-j-kk-kaska",
+    "x-serri",
+    "x-judeo-aragonese-aragon",
+    "castrapo",
+    "standard-moroccan-amazigh",
+    "bunu",
+    "bunun",
+    "judeo-italian",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never
