@@ -11345,9 +11345,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "maltese-italian",
-    "bases": [
-      481
-    ]
+    "bases": []
   },
   {
     "iso": "manduriano",
@@ -11593,9 +11591,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "oliventine",
-    "bases": [
-      519
-    ]
+    "bases": []
   },
   {
     "iso": "oltenian",
@@ -12243,9 +12239,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "western-lombard",
-    "bases": [
-      576
-    ]
+    "bases": []
   },
   {
     "iso": "western-sicilian",
@@ -22773,12 +22767,6 @@ globalThis.languageMixerMap = [
     "iso": "x-cri-ana",
     "bases": [
       403
-    ]
-  },
-  {
-    "iso": "x-maltese-italian",
-    "bases": [
-      481
     ]
   },
   {

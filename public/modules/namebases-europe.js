@@ -1066,8 +1066,8 @@ window.europeNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Enna,Catania,Palermo,Messina,Siracusa,Agrigento,Trapani,Cefalù,Taormina,Ragusa,Caltagirone,Piazza Armerina,Nicolosi,Adrano,Belpasso,Leonforte,Centuripe,Regalbuto,Troina,Aidone,Assoro,Barrafranca,Castelluccio Valmaggiore,Gangi,Petralia Sottana,Nicosia,Cerami,Gagliano Castelferrato,Biancavilla,Mazzarino",
-    "status": "COMPLETE"
+    "b": "Enna,Agira,Aidone,Assoro,Barrafranca,Calascibetta,Catenanuova,Centuripe,Cerami,Gagliano Castelferrato,Leonforte,Nicosia,Nissoria,Piazza Armerina,Pietraperzia,Regalbuto,Sperlinga,Troina,Valguarnera Caropepe,Villarosa",
+    "status": "WAITING"
   },
   {
     "name": "Eonavian",
@@ -1236,8 +1236,8 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Matera,Potenza,Melfi,Venosa,Lavello,Avigliano,Grottole,Grassano,Aliano,Craco,Sant'Arcangelo,Tricarico,Tursi,Ferrandina,Pomarico,Scanzano Jonico,Montalbano Jonico,Pisticci,Bernalda,Castelmezzano,Pietrapertosa,Albano di Lucania,Anzi,Trivigno,Forenza",
-    "status": "COMPLETE"
+    "b": "Potenza,Picerno,Tito,Pignola,Vaglio Basilicata,Ruoti,Bella,Avigliano,Cancellara,Trivigno,Trecchina,Rivello,Nemoli,Tortorella,Casaletto Spartano",
+    "status": "WAITING"
   },
   {
     "name": "Gallo-Italic of Sicily",
@@ -1440,16 +1440,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Maltese-Italian",
-    "i": 481,
-    "min": 4,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Valletta,Sliema,Birkirkara,Mosta,Qormi,Żabbar,Senglea,Cospicua,Vittoriosa,Floriana,Gżira,Gudja,Għaxaq,Mqabba,Safi,Kirkop,Żurrieq,Siggiewi,Luqa,Naxxar,San Pawl il-Baħar,Mellieħa,Rabat,Għargħur,Żebbuġ",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Manduriano",
     "i": 482,
     "min": 4,
@@ -1580,16 +1570,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Oliventine",
-    "i": 519,
-    "min": 4,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Olivença,Badajoz,Elvas,Estremoz,Évora,Beja,Portalegre,Castelo Branco,Santarém,Lisboa,Porto,Coimbra,Braga,Guimarães,Vila Real,Bragança,Viseu,Guarda,Leiria,Setúbal,Faro,Santiago do Cacém,Sines,Vila Nova de Santo André,Almodôvar,Ourique,Castro Verde,Mértola,Serpa,Moura,Barrancos,Caminha,Alcácer do Sal,Grândola",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Oltenian",
     "i": 520,
     "min": 4,
@@ -1686,7 +1666,7 @@ window.europeNameBases = [
     "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Pisa,Livorno,Lucca,Firenze,Siena,Arezzo,Pistoia,Prato,Carrara,Viareggio,Forte dei Marmi,Pietrasanta,Camaiore,Barga,Castelnuovo di Garfagnana,Volterra,San Gimignano,Chianciano Terme,Montepulciano,Cortona,San Miniato,Calcinaia,Cascina,Pontedera,Massa",
+    "b": "Pisa,Livorno,Calci,Cascina,Pontedera,Ponsacco,San Giuliano Terme,Vecchiano,Vicopisano,Buti,Bientina,Calcinaia,Collesalvetti,Rosignano Marittimo,Cecina,Bibbona,Suvereto,Sassetta,Castagneto Carducci,Piombino,Campiglia Marittima,Porto Azzurro,Portoferraio,Capoliveri,Campo nell'Elba,Marciana,Marciana Marina,Rio,Casale Marittima",
     "status": "COMPLETE"
   },
   {
@@ -1770,23 +1750,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Western Lombard",
-    "i": 576,
-    "min": 4,
-    "max": 21,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Milano,Brescia,Bergamo,Cremona,Lodi,Pavia,Varese,Lecco,Como,Sondrio,Treviglio,Crema,Romano di Lombardia,Belgioioso,Casalpusterlengo,Sant'Angelo Lodigiano,Vigevano,Codogno,Somma Lombardo,Magenta,Abbiategrasso,Legnano,Busto Arsizio,Gallarate,Saronno,Monza,Seregno,Desio,Lissone,Cesano Maderno,Brugherio,Agrate Brianza,Vimercate,Concorezzo,Arcore,Seveso,Meda,Cinisello Balsamo,Sesto San Giovanni,Cologno Monzese,Rho,Rozzano,Pioltello,Corsico,Parabiago,Busto Garolfo,Magnago,Dairago,Rescaldina,Castano Primo",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Varesino",
     "i": 577,
     "min": 3,
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Varese,Como,Lecco,Bergamo,Brescia,Milano,Pavia,Cremona,Lodi,Mantova,Gallarate,Saronno,Busto Arsizio,Legnano,Rho,Cinisello Balsamo,Sesto San Giovanni,Cologno Monzese,Brugherio,Agrate Brianza,Vimercate,Concorezzo,Arcore,Seveso,Meda,Aaow",
+    "b": "Varese,Vedano Olona,Castiglione Olona,Cislago,Malnate,Fagnano Olona,Gorla Maggiore,Gorla Minore,Solbiate Olona,Olgiate Olona,Carnago,Casale Litta,Galliate Lombardo,Gazzada Schianno,Comerio,Castronno,Cavaria con Premezzo,Morazzone,Gornate Olona,Lozza,Sumirago,Tradate,Lonate Pozzolo,Lonate Ceppino,Azzate,Albizzate,Cairate,Cardano al Campo,Gavirate,Ferrera di Varese,Azzio,Barasso,Casciago",
     "status": "COMPLETE"
   },
   {
@@ -1876,8 +1846,8 @@ window.europeNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Roma,Ostia,Tivoli,Alba Longa,Lavinium,Ardea,Aricia,Tusculum,Praeneste,Velitrae,Nomentum,Fidenae,Crustumerium,Satricum,Antemnae,Collatia,Apiolae,Gabii,Cora,Norba,Setia,Circeii,Tarracina,Privernum,Cerveteri,Tarquinia,Veii,Volsinii,Perusia,Arretium,Volaterrae,Luna,Pisae,Genua,Mediolanium,Augusta Taurinorum,Placentia,Cremona,Mutina,Bononia,Ravenna,Ariminum,Capua,Sicilia,Syracusae,Agrigentum,Lilybaeum,Panormus,Messana,Tarentum,Brundisium,Ancona,Spoletium,Narnia,Interamna,Forum Iulii,Aquileia,Pola,Iulia Concordia,Ostia Antica,Ficulea,Caenina,Ficana,Eretum,Cures,Tibur,Carsioli,Alba Fucens,Marruvium,Corfinium,Sulmo,Aternum,Teate,Histonium,Larinum,Bovianum,Venafrum,Aquinum,Casinum,Fregellae,Interamna Lirenas,Minturnae,Sinuessa,Suessa,Cales,Teanum Sidicinum",
-    "status": "COMPLETE"
+    "b": "Roma,Velletri,Frascati,Grottaferrata,Marino,Castel Gandolfo,Ciampino,Rocca di Papa,Zagarolo,San Gregario Romano,Tivoli,Guidonia Montecelio,Mentana,Monterotondo,Fiano Romano,Riano,Pomezia,Colleferro,Artena,Vallepietra,Palombara Sabina,Genazzano,Cerveteri,Brasciano,Anguillara Sabazia,Campagnano di Roma,Formello,Magliano Romano,Capena,Fara in Sabina",
+    "status": "WAITING"
   },
   {
     "name": "Romanian Daco-Romanian",
@@ -2086,8 +2056,8 @@ window.europeNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Agropoli,Vallo di Lucania,Castelnuovo Cilentano,Padula,Sapri,Torchiara,Polla,Vibonati,Santa Marina,Ispani,Tortorella,Viggiano,Grumento Nova,Moliterno,Sarconi,Spinoso,Montemurro,Paterno,Tramutola,Sala Consilina,Sanza,Pisciotta,Roccagloriosa,San Mauro Cilento,Piaggine",
-    "status": "COMPLETE"
+    "b": "Rofrano,Alfano,Torchiara,Ascea,Centola,Camerota,San Giovanni a Piro,Sapri,Vibonati,Santa Marina,Ispani,Tortorella,Casaletto Spartano,Morigerati,Ogliastro Cilento,Montecorice,Celle di Bulgheria,Stio,Sanza,Monte San Giacomo",
+    "status": "WAITING"
   },
   {
     "name": "Tabarchino",

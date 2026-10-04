@@ -396,6 +396,21 @@ const ALLOWED_REMOVALS = new Set([
     "talian",
     "x-talian",
     "regional-italian",
+    //   oliventine, maltese-italian, x-maltese-italian, western-lombard
+    //     "Oliventine" is the PORTUGUESE variety of Olivenza in the Alentejo, not
+    //     an Italian dialect, and 32 of its 34 seeds were the European Portuguese
+    //     entry's list. "Maltese-Italian" is not a documented variety name and 24 of
+    //     its 25 seeds were the Maltese entry's exact list.
+    //     "Western Lombard" is a dialect GROUP of four sections - lombardo alpino,
+    //     prealpino occidentale, basso-lombardo occidentale, macromilanese - and
+    //     every one already has its own entry here: Milanese, Novarese, Ticinese,
+    //     Varesino, Ossolano, Comasco-Lecchese, Bustocco-Legnanese, Pavese. Keeping
+    //     it means keeping a second copy of all of them. Note it is NOT Ligurian, as
+    //     I first assumed; it is the western branch of Lombard, Glottolog west2343.
+    "oliventine",
+    "maltese-italian",
+    "x-maltese-italian",
+    "western-lombard",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never
