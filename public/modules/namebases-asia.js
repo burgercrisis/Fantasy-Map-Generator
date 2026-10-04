@@ -1696,7 +1696,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Ganhetan,Meipo,Dadun,Gaoli,Dahejia,Liuji,Nianduhu,Guomare,Gasare,Bao'an Xiazhuang,Bao'an Town",
+    "b": "Ganhetan,Meipo,Dadun,Gaoli,Xiaojia,Xietao,Dahejia,Liuji",
     "status": "WAITING"
   },
   {
@@ -9636,7 +9636,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Longwu,Rongwo,Baoan,Tokya,Dowa,Lancai,Zainmo,Hornag,Qokog,Nyaintog,Gyaiwo",
+    "b": "Nianduhu,Guomare,Gasare,Bao'an Xiazhuang,Bao'an Town,Longwu",
     "status": "WAITING"
   },
   {

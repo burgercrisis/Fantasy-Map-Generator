@@ -256,7 +256,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Jokkmokk,Gällivare,Arjeplog,Boden,Luleå,Storbacken,Kvikkjokk,Kåbdalis,Porjus,Vuollerim,Harsprånget,Malmberget,Kaitum,Nikkaluokta,Drag,Hamarøy,Piteå",
+    "b": "Jokkmokk,Gällivare,Boden,Luleå,Storbacken,Kvikkjokk,Kåbdalis,Porjus,Vuollerim,Harsprånget,Malmberget,Kaitum,Nikkaluokta,Drag,Hamarøy",
     "status": "WAITING"
   },
   {
@@ -1336,8 +1336,8 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Chur,Ilanz,Domat/Ems,Felsberg,Flims,Laax,Trimmis,Untervaz,Zizers,Sargans,Bad Ragaz,Maienfeld,Landquart,Davos,Arosa,Klosters,Luzein,Schiers,Seewis,Jenaz,Fideris,Conters,Igis,Mastrils,Walenstadt,Furna,St. Antönien,Grüsch,Fanas,Valzeina,Says",
-    "status": "COMPLETE"
+    "b": "Santa Maria Val Müstair,Tschlin,Vnà",
+    "status": "WAITING"
   },
   {
     "name": "Judeo-Catalan",
@@ -1356,8 +1356,8 @@ window.europeNameBases = [
     "max": 27,
     "d": "lnrt",
     "m": 0,
-    "b": "Bordeaux,Pau,Tarbes,Auch,Biarritz,Bayonne,Dax,Mont-de-Marsan,Aire-sur-l'Adour,Lourdes,Saint-Gaudens,Muret,Blagnac,Tournefeuille,Colomiers,Pessac,Mérignac,Villenave-d'Ornon,Bègles,Talence,Gradignan,Libourne,Arcachon,La Teste-de-Buch,Luchon,Saint-Bertrand-de-Comminges,Condom,Périgueux,Agen,Peyrehorade,Bidache,La Bastide-Clairence,Saint-Jean-de-Luz,Hendaye,Anglet,Orthez,Salies-de-Béarn,Nay,Villeneuve-sur-Lot,Marmande,Langon,Bazas,Captieux,Roquefort,Saint-Sever,Vic-en-Bigorre,Mauléon-Licharre,Oloron-Sainte-Marie,Garlin,Lembeye",
-    "status": "COMPLETE"
+    "b": "Bordeaux,Bayonne,Saint-Esprit,Peyrehorade,Bidache,La Bastide-Clairence",
+    "status": "WAITING"
   },
   {
     "name": "Landese",
@@ -2006,8 +2006,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Chur,Ilanz,Domat/Ems,Felsberg,Flims,Laax,Trimmis,Untervaz,Zizers,Sargans,Bad Ragaz,Maienfeld,Landquart,Davos,Arosa,Klosters,Luzein,Schiers,Seewis,Jenaz,Fideris,Conters,Igis,Mastrils,Walenstadt",
-    "status": "COMPLETE"
+    "b": "Tiefencastel,Alvaschein,Mon,Stierva,Surava,Alvaneu,Brinzauls,Mutten,Obervaz,Lenz,Schmitten,Bergün,Filisur,Savognin,Salouf,Sur,Cunter,Mulegns,Riom-Parsonz,Tinizong-Rona,Bivio,Marmorera,Flond,Sursee",
+    "status": "WAITING"
   },
   {
     "name": "Sursilvan",
@@ -2016,7 +2016,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Disentis,Mustér,Trun,Sumvitg,Breil,Brigels,Tavanasa,Schlans,Camogn,Ruschein,Lumnezia,Vella,Laus,Vrin,Obersaxen,Ilanz,Flims,Laax,Falera,Sagogn,Valendas,Versam,Safien,Tschappina,Tenna,Sufers,Andeer,Rueun,Waltensburg,Vals,Saint Martin,Tujetsch,Sedrun,Surrein,Rueras,Curaglia,Medel",
+    "b": "Disentis,Mustér,Trun,Sumvitg,Breil,Brigels,Tavanasa,Schlans,Camogn,Ruschein,Lumnezia,Vella,Laus,Vrin,Obersaxen,Flims,Laax,Falera,Sagogn,Valendas,Versam,Safien,Tschappina,Tenna,Sufers,Andeer,Rueun,Vals,Saint Martin,Tujetsch,Sedrun,Surrein,Rueras,Curaglia,Medel",
     "status": "COMPLETE"
   },
   {
@@ -2026,8 +2026,8 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Ilanz,Chur,Domat/Ems,Felsberg,Flims,Laax,Trimmis,Untervaz,Zizers,Sargans,Bad Ragaz,Maienfeld,Landquart,Davos,Arosa,Klosters,Luzein,Schiers,Seewis,Jenaz,Fideris,Conters,Igis,Mastrils,Walenstadt,Rueun,Duvin,Siat,Camuns,Tersnaus,Pigniu",
-    "status": "COMPLETE"
+    "b": "Tschiers,Felsberg,Domat,Ems,Bonaduz,Rhäzüns,Ilanz,Waltensburg,Vuorz,Oberschams,Unterschams,Ringelbach,Parpan,Innerferrera,Ausserferrera",
+    "status": "WAITING"
   },
   {
     "name": "Tuatschin",
@@ -2036,8 +2036,8 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Tujetsch,Sedrun,Disentis/Mustér,Ilanz/Glion,Laax,Castrisch,Schluein,Sagogn,Flims,Ladir,Vals,Sumvitg,Breil/Brigels,Trun,Waltensburg/Vuorz,Obersaxen,Surcuolm,Rueun,Duvin,Siat,Reichenau,Tamins,Schwanden,Flums,Valjala",
-    "status": "COMPLETE"
+    "b": "Vals",
+    "status": "WAITING"
   },
   {
     "name": "Vallader",
@@ -2046,8 +2046,8 @@ window.europeNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Ardez,Bever,Celerina,Chamues-ch,Champfèr,Ftan,Guarda,La Punt,Lavin,Madulain,Martina,Pontresina,Ramosch,S-chanf,Samedan,Scuol,Sent,Sils,Silvaplana,St. Moritz,Susch,Tarasp-Vulpera,Tschlin,Zernez,Zuoz,Cinuos-chel,Vulpera",
-    "status": "COMPLETE"
+    "b": "Scuol,Sent,Ardez,Susch,Martina,Lavin,Valsot,Zernez",
+    "status": "WAITING"
   },
   {
     "name": "Standard French",
@@ -2686,8 +2686,8 @@ window.europeNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Petroskoi,Viena,Karjala,Tulemajärvi,Viipuri,Laatokka,Suomenlahti,Maaselkä,Salmi,Suistamo,Impilahti,Korpiselkä,Sortavala,Valamo,Konevitsa,Tervajärvi,Läskelä,Jaakkima,Lahdenpohja,Kurkijoki,Lumivaara,Kuolemajärvi,Käkisalmi,Sakkola,Hiitola,Rautu,Koivisto,Tyry,Pyykölä,Kanneljärvi,Heinjoki,Äyräpää,Vuoksenranta,Jääski,Enso,Koitsanlahti,Antrea,Virolahti,Taavetti,Luumäki,Ruokolahti,Rautjärvi,Punkaharju,Taipalsaari,Savitaipale,Petrozavodsk,Kondopoga,Pitkyaranta,Nurmes,Kostomuksha,Belomorsk,Kem,Kalevala,Louhi,Muezersky,Prionezhsky,Olonets,Juuka,Valtimo",
-    "status": "COMPLETE"
+    "b": "Arkhangelsk,Kholmogory,Mezen,Pustozersk,Totma,Vaga,Pinega,Yarensk,Veliky Ustyug,Solvychegodsk,Onega",
+    "status": "WAITING"
   },
   {
     "name": "Central Erzya",
@@ -3120,16 +3120,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Krasnojarsk Khanty",
-    "i": 2279,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kansk,Lesosibirsk,Taseyevo,Igarka,Dudinka,Norilsk,Turukhansk,Yeniseysk,Sharypovo,Nazarovo,Bogotol,Uzhur,Chernogorsk,Sayansk,Kodinsk",
-    "status": "WAITING"
-  },
-  {
     "name": "Kukkuzi",
     "i": 2288,
     "min": 4,
@@ -3366,8 +3356,8 @@ window.europeNameBases = [
     "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Petrozavodsk,Kondopoga,Pitkyaranta,Sortavala,Lahdenpohja,Nurmes,Kostomuksha,Belomorsk,Kem,Kalevala,Louhi,Muezersky,Prionezhsky,Olonets,Impilahti,Juuka,Valtimo,Petroskoi,Viena,Karjala,Tulemajärvi,Viipuri,Laatokka,Suomenlahti,Maaselkä,Salmi,Suistamo,Korpiselkä,Valamo,Konevitsa,Tervajärvi,Läskelä,Jaakkima,Kurkijoki,Lumivaara,Kuolemajärvi,Käkisalmi,Sakkola,Hiitola,Rautu,Koivisto,Tyry,Pyykölä,Kanneljärvi,Heinjoki,Äyräpää,Vuoksenranta,Jääski,Enso,Koitsanlahti,Antrea,Virolahti",
-    "status": "COMPLETE"
+    "b": "Petrozavodsk,Kondopoga,Olonets,Pryazha,Medvezhyegorsk,Suoyarvi,Segezha,Pudozh,Kestenga,Muezersky,Tulemajärvi,Vytegra,Kalevala,Kostomuksha,Loukhi,Belomorsk,Kem",
+    "status": "WAITING"
   },
   {
     "name": "Maltese",
@@ -3870,16 +3860,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Jällivaara",
-    "i": 200733,
-    "min": 3,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kiruna,Gällivare,Jokkmokk,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Haparanda,Boden,Lule,Pite,Arjeplog,Arvidsjaur,Lycksele,Vilhelmina,Strmsund,Dorotea,Sele,Sorsele,Malå,Norsjö,Skellefte,Byske,Lvanger,Jrn,Vännäs,Umeå,Holmsund,Tfte,Svar,Robertsfors,Bure,Boliden,Skolt,Sevettijärvi,Tromsø,Vadsø,Nuorgam,Näätämö,Kuusamo,Ivalo,Levitunturi,Käsivarsi,Halti,Korvatunturi,Ounasvaara,Pyhäkero,Kvalsund,Lebesby,Gamvik,Berlevåg,Båtsfjord,Nesseby,Sør-Varanger,Nordkapp,Honningsvåg,Kjøllefjord,Mehamn,Kirkenes,Måsøy,Hasvik,Tysfjord,Narvik,Bodø",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Jugan",
     "i": 200734,
     "min": 4,
@@ -4010,16 +3990,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Luokta-Mávas",
-    "i": 200753,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Arjeplog,Arvidsjaur,Jokkmokk,Gällivare,Kiruna,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Skolt,Sevettijärvi,Tromsø,Vadsø,Nuorgam,Näätämö,Kuusamo,Ivalo,Levitunturi,Käsivarsi,Halti,Korvatunturi,Ounasvaara,Pyhäkero,Haparanda,Kvalsund,Lebesby,Gamvik,Berlevåg,Båtsfjord,Nesseby,Sør-Varanger,Nordkapp,Honningsvåg,Kjøllefjord,Mehamn,Kirkenes,Måsøy,Hasvik,Tysfjord,Narvik,Bodø",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Luza-Letka",
     "i": 200754,
     "min": 4,
@@ -4130,16 +4100,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Orodezhi",
-    "i": 200776,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kansk,Lesosibirsk,Taseyevo,Igarka,Dudinka,Norilsk,Turukhansk,Yeniseysk,Sharypovo,Nazarovo,Bogotol,Uzhur,Chernogorsk,Sayansk,Kodinsk,Ilansky,Kansky,Irbeysky,Rybinsky,Sukhobuzimsky,Turuchansk,Bor,Maklakovo,Shushenskoye,Tura",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Päijänne Tavastia",
     "i": 200777,
     "min": 4,
@@ -4186,7 +4146,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Arjeplog,Arvidsjaur,Jokkmokk,Gällivare,Kiruna,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Skolt,Sevettijärvi,Tromsø,Vadsø,Nuorgam,Näätämö,Kuusamo,Ivalo,Levitunturi,Käsivarsi,Halti,Korvatunturi,Ounasvaara,Pyhäkero",
+    "b": "Arjeplog,Järpen,Djupvik,Bunnskog,Grängesmark,Klippen,Storlule,Storavan,Dikanäs,Jäkkvik,Åmmeberg,Rautasjaure,Vassijaure,Björkfjällen",
     "status": "WAITING"
   },
   {
@@ -4216,7 +4176,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Nuorgam,Näätämö,Sevettijärvi,Skolt,Jukkasjärvi,Gällivare,Kiruna,Jokkmokk,Arjeplog,Tromsø,Vadsø,Karesuando,Kuusamo,Ivalo,Levitunturi,Käsivarsi,Halti,Korvatunturi,Ounasvaara,Pyhäkero",
+    "b": "Söderbyn,Luleå,Lövunger,Haparanda",
     "status": "WAITING"
   },
   {
@@ -4248,16 +4208,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Vanakülä,Malaya Arsiya,Bolshaya Arsiya,Volkovo,Mertvitsa,Fedorovka,Variva,Ryzhkovo,Chukhonskaya,Bugene,Finy,Orikovo,Matveevka,Välikülä,Larionovka,Unkurin külä,Boiarka,Staraya Riga,Stary Revel,Viron külä,Gelsingfors,Ruotsin külä,Narva,Suomen külä,Ivanovka,Verkhny Suetuk,Kulunda,Omsk,Tallinn",
     "status": "WAITING"
-  },
-  {
-    "name": "Sirkas",
-    "i": 200794,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Jokkmokk,Gällivare,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Haparanda,Skolt,Sevettijärvi,Kiruna,Arjeplog,Tromsø,Vadsø,Nuorgam,Näätämö,Kuusamo,Ivalo,Levitunturi,Käsivarsi,Halti,Korvatunturi,Ounasvaara,Pyhäkero,Yasny,Kargapolye,Batken,Minkush,Kvarkeno,Arvidsjaur,Kvalsund,Lebesby,Gamvik,Berlevåg,Båtsfjord,Nesseby,Sør-Varanger,Nordkapp,Honningsvåg,Kjøllefjord,Mehamn,Kirkenes,Måsøy,Hasvik,Tysfjord,Narvik,Bodø",
-    "status": "COMPLETE"
   },
   {
     "name": "Skolt Sami",
@@ -4350,16 +4300,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Svaipa",
-    "i": 200808,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Arjeplog,Arvidsjaur,Jokkmokk,Gällivare,Kiruna,Karesuando,Jukkasjärvi,Tärnaby,Överkalix,Kalix,Skolt,Sevettijärvi,Tromsø,Vadsø,Nuorgam,Näätämö,Kuusamo,Ivalo,Levitunturi,Käsivarsi,Halti,Korvatunturi,Ounasvaara,Pyhäkero,Kvarkeno,Haparanda,Kvalsund,Lebesby,Gamvik,Berlevåg,Båtsfjord,Nesseby,Sør-Varanger,Nordkapp,Honningsvåg,Kjøllefjord,Mehamn,Kirkenes,Måsøy,Hasvik,Tysfjord,Narvik,Bodø",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Sygva",
     "i": 200809,
     "min": 3,
@@ -4416,7 +4356,7 @@ window.europeNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kansk,Lesosibirsk,Taseyevo,Igarka,Dudinka,Norilsk,Turukhansk,Yeniseysk,Sharypovo,Nazarovo,Bogotol,Uzhur,Chernogorsk,Sayansk,Kodinsk,Ilansky,Irbeysky,Rybinsky,Sukhobuzimsky,Yemelyanovsky,Balahtinsky,Kuraginsky",
+    "b": "Karasul,Khabar,Mugur-Sargon,Kyzyl,Sayanogorsk,Abakan,Minusinsk,Ust-Abakan,Shushenskoye,Kazachinskoye,Motyg",
     "status": "WAITING"
   },
   {

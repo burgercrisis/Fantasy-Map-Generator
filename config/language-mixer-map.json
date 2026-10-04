@@ -9179,9 +9179,7 @@
   },
   {
     "iso": "j-llivaara",
-    "bases": [
-      200733
-    ]
+    "bases": []
   },
   {
     "iso": "j-mtland",
@@ -9344,12 +9342,6 @@
     ]
   },
   {
-    "iso": "krasnojarsk-khanty",
-    "bases": [
-      2279
-    ]
-  },
-  {
     "iso": "krevinian",
     "bases": [
       2281
@@ -9463,9 +9455,7 @@
   },
   {
     "iso": "luokta-m-vas",
-    "bases": [
-      200753
-    ]
+    "bases": []
   },
   {
     "iso": "luza-letka",
@@ -9672,12 +9662,6 @@
     ]
   },
   {
-    "iso": "orodezhi",
-    "bases": [
-      200776
-    ]
-  },
-  {
     "iso": "p-ij-nne-tavastia",
     "bases": [
       200777
@@ -9822,12 +9806,6 @@
     ]
   },
   {
-    "iso": "sirkas",
-    "bases": [
-      200794
-    ]
-  },
-  {
     "iso": "soikkola",
     "bases": [
       200796
@@ -9959,12 +9937,6 @@
     "iso": "surgut-khanty",
     "bases": [
       2325
-    ]
-  },
-  {
-    "iso": "svaipa",
-    "bases": [
-      200808
     ]
   },
   {
@@ -21374,12 +21346,6 @@
     ]
   },
   {
-    "iso": "x-luokta-m-vas",
-    "bases": [
-      200753
-    ]
-  },
-  {
     "iso": "x-luza-letka",
     "bases": [
       200754
@@ -21548,12 +21514,6 @@
     ]
   },
   {
-    "iso": "x-j-llivaara",
-    "bases": [
-      200733
-    ]
-  },
-  {
     "iso": "x-lower-lozva",
     "bases": [
       200749
@@ -21569,12 +21529,6 @@
     "iso": "x-southern-savonian",
     "bases": [
       200805
-    ]
-  },
-  {
-    "iso": "x-svaipa",
-    "bases": [
-      200808
     ]
   },
   {
@@ -21689,12 +21643,6 @@
     "iso": "x-north-vagilsk",
     "bases": [
       200764
-    ]
-  },
-  {
-    "iso": "x-sirkas",
-    "bases": [
-      200794
     ]
   },
   {

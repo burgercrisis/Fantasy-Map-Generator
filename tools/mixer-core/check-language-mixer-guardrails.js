@@ -343,6 +343,47 @@ const ALLOWED_REMOVALS = new Set([
     "bunu",
     "bunun",
     "judeo-italian",
+    // Six more, found by looking for entries whose seed list is contained in THREE
+    // OR MORE siblings at once - the signature of one generic list copied across a
+    // family rather than each variety owning its area.
+    //   jaellivaara, j-llivaara - "Jällivaara" is the FINNISH name of Gällivare
+    //     (lulesamisk Jiellevárre), and that dialect is the Lule Forest dialect
+    //     already represented at i=231. Serri, its sibling, was retired in the
+    //     previous batch for exactly this reason.
+    //   sirkas   - one of the three NORTHERN Lule Sámi dialects, with Sörkaitum and
+    //     Jåkkåkaska; Jåkkåkaska was already retired.
+    //   luokta-m-vas, svaipa - the northern and southern PITE Sámi dialects.
+    //   krasnojarsk-khanty - no such Khanty dialect exists. Khanty is spoken in the
+    //     Khanty-Mansi and Yamalo-Nenets okrugs and the project's eight Khanty
+    //     entries already cover it; this one's seeds were Krasnoyarsk Krai and
+    //     Taimyr towns containing no Khanty at all.
+    //   orodezhi - not a language. Glottolog 5.3 returns zero results; it is in no
+    //     Uralic tree, no Khanty list and no Forest Nenets dialect inventory. A
+    //     garbled "Oroch", or invented.
+    "jaellivaara",
+    "j-llivaara",
+    "x-jaellivaara",
+    "x-j-llivaara",
+    "x-sirkas",
+    "sirkas",
+    "x-luokta-m-vas",
+    "luokta-m-vas",
+    "x-svaipa",
+    "svaipa",
+    "krasnojarsk-khanty",
+    "orodezhi",
+    "sirkas",
+    "svaipa",
+    //   sirkas and svaipa were briefly repointed at Lule Sámi and Pite Sámi on the
+    //     reasoning that they ARE dialects of those, which is true. They were
+    //     dropped instead: a dialect name is a fine label for a settlement list but
+    //     not for a language key, since the languages are reachable under their own
+    //     names and conflating the two is how the original duplicates arose. The same
+    //     reasoning retired Jåkkåkaska, Serri, Jällivaara and Luokta-Mávas.
+    "krasnojarsk-khanty",
+    "orodezhi",
+    "sirkas",
+    "svaipa",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never

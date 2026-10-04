@@ -11,14 +11,14 @@ Generated: 2026-10-04  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2967 |
-| Marked COMPLETE (>= 25 seeds) | 1755 |
-| Marked WAITING (< 25 seeds) | 1212 |
-| Below seed floor | 1190 |
+| Language entries | 2961 |
+| Marked COMPLETE (>= 25 seeds) | 1742 |
+| Marked WAITING (< 25 seeds) | 1219 |
+| Below seed floor | 1197 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 831 |
+| Map ISOs with no namebase (research backlog) | 833 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -27,7 +27,7 @@ Generated: 2026-10-04  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 686 | 236 | 1 | 27 |
 | asia | 1007 | 539 | 2 | 22 |
-| europe | 611 | 144 | 0 | 30 |
+| europe | 605 | 151 | 0 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 153 | 29 | 0 | 31 |
 | oceania | 288 | 174 | 1 | 19 |
@@ -35,7 +35,7 @@ Generated: 2026-10-04  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1190 entries need authentic settlement names. Ordered by seed count,
+1197 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -58,6 +58,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | asia | 200299 | Jandavra |
 | 1 | asia | 200723 | Younian |
 | 1 | asia | 202585 | Pear |
+| 1 | europe | 638 | Tuatschin |
 | 1 | europe | 757 | Atlym |
 | 1 | northAmerica | 71 | Chipilo Venetian (chipileño) |
 | 1 | northAmerica | 6625 | Ixcatec |
@@ -105,6 +106,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 202620 | Samre |
 | 3 | asia | 202833 | Mo Piu |
 | 3 | asia | 202857 | She |
+| 3 | europe | 453 | Jauer |
 | 3 | europe | 759 | Nizyam |
 | 3 | europe | 200729 | Cingali |
 | 3 | europe | 200734 | Jugan |
@@ -156,6 +158,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | europe | 1852 | Forest Enets |
 | 4 | europe | 200747 | Lower Demjanka |
 | 4 | europe | 200775 | On |
+| 4 | europe | 200787 | Sea Sami |
 | 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
 | 4 | oceania | 756 | Agalega Creole |
@@ -272,7 +275,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | asia | 202630 | Sart Kalmyk |
 | 6 | asia | 202511 | Mankiyali |
 | 6 | asia | 202569 | Önge |
+| 6 | asia | 202698 | Tongren Bonan |
 | 6 | asia | 201250 | Northern Itelmen |
+| 6 | europe | 457 | Judeo-Gascon |
 | 6 | europe | 1094 | Vadey |
 | 6 | europe | 200768 | Northern Ludic |
 | 6 | europe | 200797 | Sörkaitum |
@@ -335,13 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 201207 | Usarufa |
 | 7 | oceania | 1069 | Kárás |
 | 7 | oceania | 202478 | Tifal |
-| 7 | oceania | 202521 | Yipma |
-| 7 | oceania | 202742 | Githabul |
-| 7 | oceania | 202749 | Kunwinjku |
-| 7 | oceania | 203080 | Marind |
-| 7 | oceania | 203083 | Namiae |
 
-_Showing the lowest 300 of 1190. Full queue:_
+_Showing the lowest 300 of 1197. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-831 languages the mixer map offers have no namebase entry
+833 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 831._
+_Showing 150 of 833._
 
 ## How to work on this
 
