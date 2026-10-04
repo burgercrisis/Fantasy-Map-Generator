@@ -10661,9 +10661,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "central-southern-calabrian",
-    "bases": [
-      291
-    ]
+    "bases": []
   },
   {
     "iso": "champenois",
@@ -11349,9 +11347,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "manduriano",
-    "bases": [
-      482
-    ]
+    "bases": []
   },
   {
     "iso": "manx",
@@ -22653,12 +22649,6 @@ globalThis.languageMixerMap = [
     "iso": "x-molisan",
     "bases": [
       200868
-    ]
-  },
-  {
-    "iso": "x-cremun-s",
-    "bases": [
-      402
     ]
   },
   {

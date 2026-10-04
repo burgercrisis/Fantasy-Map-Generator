@@ -11,14 +11,14 @@ Generated: 2026-10-04  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2956 |
-| Marked COMPLETE (>= 25 seeds) | 1730 |
-| Marked WAITING (< 25 seeds) | 1226 |
+| Language entries | 2953 |
+| Marked COMPLETE (>= 25 seeds) | 1721 |
+| Marked WAITING (< 25 seeds) | 1232 |
 | Below seed floor | 1202 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 838 |
+| Map ISOs with no namebase (research backlog) | 840 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -27,7 +27,7 @@ Generated: 2026-10-04  |  Seed floor: 25
 |---|---:|---:|---:|---:|
 | africa | 686 | 236 | 1 | 27 |
 | asia | 1007 | 539 | 2 | 22 |
-| europe | 600 | 156 | 0 | 30 |
+| europe | 597 | 156 | 0 | 30 |
 | northAmerica | 212 | 68 | 0 | 29 |
 | southAmerica | 153 | 29 | 0 | 31 |
 | oceania | 288 | 174 | 1 | 19 |
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-838 languages the mixer map offers have no namebase entry
+840 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 
-_Showing 150 of 838._
+_Showing 150 of 840._
 
 ## How to work on this
 

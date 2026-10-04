@@ -411,6 +411,21 @@ const ALLOWED_REMOVALS = new Set([
     "maltese-italian",
     "x-maltese-italian",
     "western-lombard",
+    //   central-southern-calabrian, manduriano, x-cremun-s
+    //     "Central-Southern Calabrian" is not a dialect name in the literature, and
+    //     Calabro and Central-Southern Calabrian are the same macrolanguage with
+    //     different town picks.
+    //     "Manduriano" is real but its area is the single commune of Manduria - four
+    //     settlements - and it was double-claimed by the Tarantino and Salentino
+    //     entries. A variety whose whole territory is one commune does not need a
+    //     namebase of its own.
+    //     "Cremun-S" is a FABRICATED name: no Wikipedia article, no Glottolog entry,
+    //     no occurrence in the literature. A mangling of Cremunes, whose guess at
+    //     meaning - Soncino/Offida - was wrong on both counts, since Soncino is
+    //     Cremasco and Offida is in Marche.
+    "central-southern-calabrian",
+    "manduriano",
+    "x-cremun-s",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is
     // xpy (Puyo, Quechua) or xpp (Puyo-Paekche); "pyo" was a key invented from
     // the name, and it had been pointing at a Middle Korean entry. It has never
