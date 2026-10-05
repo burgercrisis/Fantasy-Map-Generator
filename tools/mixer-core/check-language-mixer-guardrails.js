@@ -491,6 +491,19 @@ const ALLOWED_REMOVALS = new Set([
     //     duplicate check strips parentheses before normalising, so "Kui (Alor)"
     //     still collided. A non-parenthetical label does not.
     "kui",
+    //   gta -> gaq
+    //     ISO 639-3 `gta` is GUATO, a language isolate of the Brazilian Pantanal with
+    //     two speakers as of 2023. The row described Gataʔ / Didey, a MUNDA language
+    //     of Malkangiri district, Odisha, whose code is gaq - so a Munda name sat on a
+    //     Brazilian isolate's identifier, the same class as the Latin bug.
+    //   sgb
+    //     ISO 639-3 `sgb` is MAG-ANTSI AYTA, an Austronesian language of the
+    //     Philippines. And "Sanga" is not a Shona variety: it is a historic Ndau
+    //     (Guthrie S.15) state and dialect of Mozambique's Sofala hinterland, whose
+    //     Zimbabwean variety is called Garwe. Neither the code nor the name matched
+    //     the row's own Shona classification.
+    "gta",
+    "sgb",
     "torne-valley",
     "x-su",
     "su",

@@ -5836,8 +5836,8 @@
       "family": "Western Pahari"
     },
     {
-      "name": "Gta",
-      "iso": "gta",
+      "name": "Gataʔ (Didey)",
+      "iso": "gaq",
       "region": "Asia",
       "category": "Austroasiatic",
       "family": "Munda"
@@ -26420,7 +26420,10 @@
       "region": "South America",
       "category": "Tacanan",
       "family": "Tacanan",
-      "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tno"
+      "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:tno",
+      "tags": [
+        "extinct"
+      ]
     },
     {
       "name": "Trinitario",
@@ -27763,8 +27766,8 @@
     },
     {
       "iso": "tsz",
-      "name": "Purepecha Expanded",
-      "region": "South America",
+      "name": "Purépecha",
+      "region": "North America",
       "category": "Language isolate",
       "family": "Purepecha"
     },

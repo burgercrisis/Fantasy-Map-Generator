@@ -4562,8 +4562,10 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
-    "iso": "gta",
-    "bases": []
+    "iso": "gaq",
+    "bases": [
+      203334
+    ]
   },
   {
     "iso": "gujarati",
@@ -8189,7 +8191,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "cuk",
-    "bases": []
+    "bases": [
+      203326
+    ]
   },
   {
     "iso": "miskito",
@@ -11199,7 +11203,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "lat",
-    "bases": []
+    "bases": [
+      203323
+    ]
   },
   {
     "iso": "latvian",
@@ -11525,7 +11531,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "ang",
-    "bases": []
+    "bases": [
+      203324
+    ]
   },
   {
     "iso": "old-gallo-romance",
@@ -12681,7 +12689,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "purepecha",
-    "bases": []
+    "bases": [
+      203325
+    ]
   },
   {
     "iso": "qanjobal",
@@ -14167,7 +14177,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "tcb",
-    "bases": []
+    "bases": [
+      203332
+    ]
   },
   {
     "iso": "franco-ontarian",
@@ -17869,7 +17881,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "mzp",
-    "bases": []
+    "bases": [
+      203331
+    ]
   },
   {
     "iso": "cub",
@@ -18101,7 +18115,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "noj",
-    "bases": []
+    "bases": [
+      203329
+    ]
   },
   {
     "iso": "hto",
@@ -18179,7 +18195,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "tna",
-    "bases": []
+    "bases": [
+      203328
+    ]
   },
   {
     "iso": "peruvian-ribere-o",
@@ -18295,7 +18313,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "cas",
-    "bases": []
+    "bases": [
+      203327
+    ]
   },
   {
     "iso": "tav",
@@ -18345,7 +18365,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "mbp",
-    "bases": []
+    "bases": [
+      203330
+    ]
   },
   {
     "iso": "tuo",
@@ -19014,12 +19036,10 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "sgb",
-    "bases": []
-  },
-  {
     "iso": "kck",
-    "bases": []
+    "bases": [
+      203333
+    ]
   },
   {
     "iso": "cdo",
@@ -19073,7 +19093,9 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "tsz",
-    "bases": []
+    "bases": [
+      203325
+    ]
   },
   {
     "iso": "cpx",

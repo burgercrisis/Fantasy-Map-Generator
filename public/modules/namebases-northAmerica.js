@@ -2017,5 +2017,38 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Nuuk,Sisimiut,Ilulissat,Qaqortoq,Aasiaat,Paamiut,Manitsoq,Tasiilaq,Uummannaq,Upernavik,Qaanaaq,Ittoqqortoormiit,Kangerlussuaq,Narsaq,Narsarsuaq,Qasigiannguit,Qeqertarsuaq,Nanortalik,Kullorsuaq,Kangaatsiaq,Kulusuk,Ammassivik,Sarfannguit,Igaliku,Niaqornat,Qeqertat,Kapisillit,Nussuaq",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Purépecha",
+    "i": 203325,
+    "file": "northAmerica",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0.2,
+    "status": "COMPLETE",
+    "b": "Tzintzuntzan,Ihuatzio,Pátzcuaro,Uruapan,Taretan,Cazonci,Capácuaro,Paracho de Verduzco,Nahuatzen,Tingambato,Erongarícuaro,Cherán,Janitzio,Acuitzio,Cupareo,Zitácuaro,Huetamo,Tácambaro,Ario de Rosales,Cotija,Tingüindín,Tocumbo,Peribán,Los Reyes,Nuevoversal"
+  },
+  {
+    "name": "Guna",
+    "i": 203326,
+    "file": "northAmerica",
+    "min": 3,
+    "max": 15,
+    "d": "",
+    "m": 0.2,
+    "status": "COMPLETE",
+    "b": "Gaigirgordub,Yandub-Nargana,Niadub,Digir,Urgandi,Nusadub,Mamardub,Moraggedub,Mirya Ubgigandub,Gardi Muladub,Gardi Sugdub,Gardi Yandub,Gardi Dubbir,Aggwadub,Narbagandub Bibbi,Narbagandub Dummad,Gangandi,Mandiyala,Aridub,Mandi Ubgigandub,Orosdub,Aglidub,Dadargwanne Mammidub,Gorbisgi,Nalunega,Wissubwala,Ubgisuggun-Magebgandi,Aggwanusadub,Uwargandub-Gwebdi,Ailigandi,Irgandi,Aidirgandi,Uggubba,Uggubseni,Usdub,Ogobsuggun,Mammidub,Assudub,Dadnaggwe Dubbir,Armila,Aswemullu,Yansibdiwar,Gannirdub-Goedub,Nubadub,Dubwala,Sasardi Nuevo,Sasardi Muladub,Dubbag,Nabagandi,Mamsuggun,Armali-Puerto Obaldía,Assagandi-La Miel"
+  },
+  {
+    "name": "Tanacross",
+    "i": 203332,
+    "file": "northAmerica",
+    "min": 4,
+    "max": 14,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Taats'altęy,Mendees Cheeg,Kelt'aaddh Menn',Dihthâad,Saages Cheeg,Tanacross,Tok"
   }
 ];

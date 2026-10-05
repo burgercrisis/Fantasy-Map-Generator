@@ -10227,5 +10227,16 @@ window.asiaNameBases = [
     "m": 0,
     "status": "WAITING",
     "b": "Bamustu,Makapa,Pikiwa"
+  },
+  {
+    "name": "Gataʔ (Didey)",
+    "i": 203334,
+    "file": "asia",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Kudumulgumma,Chitrakonda,Khairput,Oringi,Biapada,Orapadar,Kaluguda,Gangapada,Chilipadar,Nilapari,Kaneng,Jantri,Sanyasiguda,Dandarbeda,Muduliguda,Purunagumma,Dabuguda"
   }
 ];

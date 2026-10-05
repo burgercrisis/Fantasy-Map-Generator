@@ -1478,5 +1478,60 @@ window.southAmericaNameBases = [
     "m": 0,
     "b": "San Basilio de Palenque,Mahates,Santa Catalina,Galerazamba,Clemencia,Turbaco,Cartagena,Arjona,Villanueva,San Estanislao,San Cristobal,Calamar,Maria La Baja,Sincerin,El Viso,Rotinet,El Carmen de Bolivar,Zambrano,Cordoba,Soplaviento,San Juan Nepomuceno,San Jacinto,Palenque de Ure,San Jose de Ure,Jacobo Perez Escobar,La Libertad",
     "status": "COMPLETE"
+  },
+  {
+    "name": "Tsimané",
+    "i": 203327,
+    "file": "southAmerica",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0.15,
+    "status": "WAITING",
+    "b": "San Borja,Rurrenabaque,Yucumo,San Ignacio de Moxos,Santa Ana del Yacuma,San Ambrosio,San Salvador,Rosario del Tacuaral,Jorori,Naranjal,Remanso,Socorro,San Antonio,San José de Yaranda,Cosincho,Santa María,El Triunfo,Yaranda,Manguito,Tacuaral del Mato,Maniquisito Alto"
+  },
+  {
+    "name": "Tacana",
+    "i": 203328,
+    "file": "southAmerica",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0.15,
+    "status": "COMPLETE",
+    "b": "Ixiamas,San Buenaventura,Tumupasa,San Silvestre,Macahua,San Pedro,Santa Fe,Carmen Pecha,Santa Rosa de Maravilla,Tahua,Nueva Esperanza,Maravilla,Carmen del Emero,San Miguel,Villa Alcira,Bella Altura,Buena Vista,Capaina,Tres Hermanos,Altamarani,Cachichira,Villa Fátima,Enapurera,Tequeje,Capainayotras"
+  },
+  {
+    "name": "Nonuya",
+    "i": 203329,
+    "file": "southAmerica",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Peña Roja,Villa Azul,Puerto Arica,Puerto Santander,Leticia,El Encanto,La Chorrera,Mocagua"
+  },
+  {
+    "name": "Wiwa",
+    "i": 203330,
+    "file": "southAmerica",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0.15,
+    "status": "WAITING",
+    "b": "Avingüe,Cherúa,Surimena,Ahuyamal,Pozzo de Humo,Siminke,Kuasalamena,Bernaka,Campo Alegre,Rinconal,Naranjal,Marokaso,Potrerito,Marruámaque,Gotsezhi,Kemakumake,Kalabangaga,Wimake,Tolezhi,Rumangaga,El Encanto,Morokoso"
+  },
+  {
+    "name": "Movima",
+    "i": 203331,
+    "file": "southAmerica",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Santa Ana del Yacuma,18 de Noviembre,20 de Enero,Bella Flor,Buen Día,Carmen de Iruyañez,Carnavales,Ipimo,Miraflores,Navidad,El Perú,El Desengaño,San Miguel,Coquinal,Exaltación"
   }
 ];

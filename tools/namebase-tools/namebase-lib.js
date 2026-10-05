@@ -317,8 +317,17 @@ function detectTemplatePadding(entry, opts) {
  * @param {object} entry
  * @returns {string[]} the offending seeds
  */
+// A leading digit is a strong hint of a date, a count or a footnote, but it is not
+// conclusive: Spanish-speaking America has real settlements named after
+// independence days - 18 de Noviembre and 20 de Enero are towns of the Santa Ana del
+// Yacuma province, Bolivia - and Bolivia, Peru and Colombia are heavily
+// represented in this dataset. So the digit test is kept, with the one date-name
+// shape that is genuinely a place recognised, rather than loosened to all digits.
+const SPANISH_DATE_PLACE =
+  /^\s*\d{1,2}\s+de\s+(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s*$/i;
+
 function detectNonPlaceTokens(entry) {
-  return seedsOf(entry).filter(seed => /^\s*\d/.test(seed));
+  return seedsOf(entry).filter((seed) => /^\s*\d/.test(seed) && !SPANISH_DATE_PLACE.test(seed));
 }
 
 /** Seeds repeated inside a single entry. */

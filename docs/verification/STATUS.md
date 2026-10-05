@@ -11,31 +11,31 @@ Generated: 2026-10-05  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2945 |
-| Marked COMPLETE (>= 25 seeds) | 1709 |
-| Marked WAITING (< 25 seeds) | 1236 |
-| Below seed floor | 1203 |
+| Language entries | 2957 |
+| Marked COMPLETE (>= 25 seeds) | 1715 |
+| Marked WAITING (< 25 seeds) | 1242 |
+| Below seed floor | 1209 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 814 |
+| Map ISOs with no namebase (research backlog) | 801 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 687 | 236 | 1 | 27 |
-| asia | 1021 | 545 | 2 | 22 |
-| europe | 589 | 161 | 0 | 30 |
-| northAmerica | 202 | 59 | 0 | 30 |
-| southAmerica | 148 | 28 | 0 | 31 |
+| africa | 688 | 236 | 1 | 27 |
+| asia | 1022 | 546 | 2 | 22 |
+| europe | 591 | 161 | 0 | 30 |
+| northAmerica | 205 | 60 | 0 | 30 |
+| southAmerica | 153 | 32 | 0 | 30 |
 | oceania | 288 | 174 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1203 entries need authentic settlement names. Ordered by seed count,
+1209 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | northAmerica | 1630 | Chicomuceltec |
 | 7 | northAmerica | 2439 | Cuicatec |
 
-_Showing the lowest 300 of 1203. Full queue:_
+_Showing the lowest 300 of 1209. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-814 languages the mixer map offers have no namebase entry
+801 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | ckb | Central Kurdish | undefined |
 | central-selkup | Central Selkup | undefined |
 
-_Showing 150 of 814._
+_Showing 150 of 801._
 
 ## How to work on this
 

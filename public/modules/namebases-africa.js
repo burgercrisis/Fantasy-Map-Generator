@@ -6869,5 +6869,16 @@ window.africaNameBases = [
     "m": 0.3,
     "status": "COMPLETE",
     "b": "Kano,Katsina,Zaria,Daura,Jos,Bauchi,Sokoto,Maiduguri,Gombe,Wuro Gombe,Bajoga,Billiri,Kaltungo,Kumo,Dukku,Deba,Yola,Mubi,Wandali,Kwaya Kusar,Gaidam,Gujba,Bulama Kabi,Yusufari,Masassara,Ningi,Zing,Garin Bako,Garin Korau,Salifawa,Maroua,Garoua,Ngaoundéré,Tibati,Banyo,Kontcha,Rey Bouba,Bibémi,Mindif,Madagali,Domona,Kousséri,Yagoua,Kaélé,Mora,Mokolo,Koza,Waza,Pala,Niamey,Maradi,Zinder,Agadez,Tahoua,Diffa,Dosso,Dogondoutchi,Filingué,Gaya,Say,Kollo,Téra,Damagaram,Tillabéri,Parakou,Nikki,Kandi,Malanville,Karimama,Banikoara,Gogounou,Ségbana,Kalalé,N'Dali,Sinendé,Péréré,New Bussa"
+  },
+  {
+    "name": "Kalanga",
+    "i": 203333,
+    "file": "africa",
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0.15,
+    "status": "COMPLETE",
+    "b": "Plumtree,Tsholotsho,Gwanda,Beitbridge,Rutshuru,Tshabani,Ramokgwebana,Mangwe,Tshuntsho,Dete,Hwange,Nkomo,Lupane,Gwaai,Tshakane,Mapoka,Semitwe,Tutume,Tonota,Maitengwe,Nswazwi,Makalamabedi,Masunga,Mpatane,Mathangwane,Serowe,Mahalapye,Sekoma,Mababe,Mookgwa,Tlokweng,Khame,Leopard's Kopje,Mapungubwe"
   }
 ];

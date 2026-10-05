@@ -5888,5 +5888,27 @@ window.europeNameBases = [
     "m": 0,
     "b": "St. Moritz,Silvaplana,Sils,Pontresina,Celerina,Zuoz,La Punt,Madulain,Bever,Samedan,Ftan,Champfèr,Guarda,S-chanf,Cinuos-chel,Vulpera",
     "status": "WAITING"
+  },
+  {
+    "name": "Latin",
+    "i": 203323,
+    "file": "europe",
+    "min": 4,
+    "max": 14,
+    "d": "Latin",
+    "m": 0.1,
+    "status": "COMPLETE",
+    "b": "Roma,Ostia,Neapolis,Capua,Cumae,Pompeii,Herculaneum,Stabiae,Puteoli,Tarracum,Barcino,Corduba,Gades,Valentia,Narbo,Massilia,Lugdunum,Lutetia,Durovernum,Atrebatum,Rotomagus,Divodurum,Mogontiacum,Vindonissa,Augusta Raurica,Colonia Agrippina,Aquileia,Ravenna,Mediolanum,Mutina,Parma,Patavium,Brixia,Verona,Tarentum,Brundisium,Rhegium,Panormus,Messana,Catana,Syracusae,Vindobona,Carnuntum,Aquincum,Brigetio,Salona,Arelate"
+  },
+  {
+    "name": "Old English",
+    "i": 203324,
+    "file": "europe",
+    "min": 4,
+    "max": 14,
+    "d": "",
+    "m": 0.1,
+    "status": "COMPLETE",
+    "b": "Wintanceaster,Sceaftesbyrig,Wigornaceaster,Hamtún,Scaroburh,Wiltún,Exanceaster,Sandwíc,Hæstingas,Tamaworðig,Stæfford,Wigingamere,Norðhamtún,Tofeceaster,Lichaeceaster,Medeshámstede,Norðwíc,Ðetford,Beodericsworth,Súðbyrig,Eoferwic,Bamburh,Hagustaldeshám,Lindicoln,Egmundesburh,Lundenbyrig,Gleawanceaster,Legaceaster,Wæringawíc,Mæmesceaster,Mealdun,Merantún,Đelweal,Snotingahám,Temesford,Seletún,Hæstenes"
   }
 ];
