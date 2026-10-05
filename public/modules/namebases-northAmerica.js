@@ -376,7 +376,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Accompong,Maroon Town,Flagstaff,Crawford Town,Quick Step,Balaclava,Merrywood,Beecher Town,Leather Lane,Stewart Town,Martha Brae,Rio Bueno,Magotty,Siloah,Alley,Brandon Hill,Bunkers Hill,Cedar Valley,Clarks Town,Fern Gully,Flankers,Gordon Town,Guys Hill,Hector's River,Kendal,Lacovia,Mavis Bank,Moore Town,Nain,Negril,New Nanny Town,Porus,Scott's Hall,Trelawny Town,Cudjoe's Town,Nanny Town,Woodside,Scotts Hall,Hayfield,Bath,Charlestown,Borobridge,Hope Bay",
+    "b": "Accompong,Maroon Town,Flagstaff,Crawford Town,Quick Step,Balaclava,Merrywood,Beecher Town,Leather Lane,Stewart Town,Martha Brae,Rio Bueno,Magotty,Siloah,Alley,Brandon Hill,Bunkers Hill,Cedar Valley,Clarks Town,Fern Gully,Flankers,Gordon Town,Guys Hill,Hector's River,Kendal,Lacovia,Mavis Bank,Moore Town,Nain,Negril,New Nanny Town,Porus,Scott's Hall,Trelawny Town,Cudjoe's Town,Nanny Town,Woodside,Scotts Hall,Hayfield,Bath,Charlestown,Borobridge,Hope Bay,Charles Town,Cudjoe Town,Accompong Town,Mountain River,Ginger Hill,Top Hill,Bunker Hill,Aberdeen,Windsor,Content,Brighton,Orange Hill,Cascade,Walderston",
     "status": "COMPLETE"
   },
   {
@@ -560,16 +560,6 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Inuktitut-English Pidgin (dedicated)",
-    "i": 1951,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Churchill,York Factory,Fort Chimo,Fort George,Great Whale River,Fort Rupert,Moose Factory,Fort Albany,Iqaluit,Pangnirtung,Pond Inlet,Arctic Bay,Resolute,Grise Fiord,Clyde River,Qikiqtarjuaq,Kimmirut,Cape Dorset,Sanikiluaq",
-    "status": "WAITING"
-  },
-  {
     "name": "Isthmus Zapotec",
     "i": 1984,
     "min": 4,
@@ -657,16 +647,6 @@ window.northAmericaNameBases = [
     "m": 2,
     "b": "San Miguel Acatán,San Rafael La Independencia,Cheche,Chenichám I,Chimbán,Coyá,Paiconop Grande,Paiconop Chiquito,Pozá,Tiquisislaj,Yalaj,Copá,K'anmox,Paykonob',Ixkanak' I,Ixkanak' II,Yiink'u,Taataj,Lajcholaj,K'antetaj,Los Molinos,Ixtinajab,Pucpalá,Villa Linda,Yulaja',Ixcanac,Patzlaj,Yulchén",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Labrador Inuit Pidgin French (dedicated)",
-    "i": 2311,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,Battle Harbour,Red Bay,Forteau,L'Anse au Clair,West St. Modeste",
-    "status": "WAITING"
   },
   {
     "name": "Lakota",
@@ -1339,67 +1319,7 @@ window.northAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bocas del Toro Creole (dedicated)",
-    "i": 20110,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bocas del Toro,Bastimentos,Almirante,Changuinola,Chiriqui Grande,El Silencio,Old Bank,Quebrada de Sal,Isla Colon,Isla Bastimentos,Isla Carenero,Isla Solarte,Isla Popa,Cayo Nancy,Cayo Zapatilla,Cayo de Agua",
-    "status": "WAITING"
-  },
-  {
-    "name": "Grenadian Creole English (dedicated)",
-    "i": 20175,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Gouyave,Grenville,Victoria,Sauteurs,Hillsborough,La Tante,St. David,St. Andrew,St. Patrick,St. Mark,St. John,Grand Anse,Woburn,Lance aux Epines,Morne Rouge,Tivoli,Waltham,Concord,Belmont,Mt. Parnassus,Westerhall,Tempe,Woodlands",
-    "status": "WAITING"
-  },
-  {
-    "name": "Leeward Caribbean Creole English (dedicated)",
-    "i": 20176,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "The Valley,St. Johns,All Saints,Boland,Freetown,Carlisle,Parham,Willikies,Swetes,Pigotts,Cedar Grove,Old Road,Urlings,Johnson Point,Falmouth,Codrington,Barbuda,Charlestown,Newcastle,Gingerland,St. Paul,St. James,St. Thomas,St. George,St. Mary,St. Peter,St. John",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Limonese Creole (dedicated)",
-    "i": 20177,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Puerto Limon,Cahuita,Puerto Viejo,Manzanillo,Bri Bri,Sixaola,Guapiles,Siquirres,Matina,Barra del Colorado,Colorado,Tortuguero,Parismina,La Francia,La Geest,La Suiza,La Rita,La Lola,La Perla,La Union,La Esperanza",
-    "status": "WAITING"
-  },
-  {
-    "name": "Miskito Coast Creole (dedicated)",
-    "i": 20178,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bluefields,Puerto Cabezas,Prinzapolka,Rosita,Siuna,Waslala,El Rama,Kukra Hill,El Tortuguero,La Cruz de Rio Grande,El Ayote,La Libertad,San Carlos,San Juan de Nicaragua,El Castillo,San Miguelito,La Esperanza,La Union,San Jose,San Pedro",
-    "status": "WAITING"
-  },
-  {
-    "name": "Montserrat Creole (dedicated)",
-    "i": 20179,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Brades,St. Johns,St. Peters,Salem,Cork Hill,St. Patricks,Lookout,Davy Hill,Weekes,Flemings,Olveston,Woodlands,Geralds,Buddles,Molyneux,Hope,Trants,Farms,Trial,Bethel,Hermitage",
-    "status": "WAITING"
-  },
-  {
-    "name": "Rama Cay Creole (dedicated)",
+    "name": "Rama Cay Creole",
     "i": 20180,
     "min": 4,
     "max": 11,
@@ -1409,7 +1329,7 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Saint Kitts Creole (dedicated)",
+    "name": "Saint Kitts Creole",
     "i": 20181,
     "min": 4,
     "max": 11,
@@ -1419,7 +1339,7 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tobagonian Creole (dedicated)",
+    "name": "Tobagonian Creole",
     "i": 20183,
     "min": 4,
     "max": 11,
@@ -1429,7 +1349,7 @@ window.northAmericaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Trinidadian Creole (dedicated)",
+    "name": "Trinidadian Creole",
     "i": 20184,
     "min": 4,
     "max": 11,
@@ -1437,26 +1357,6 @@ window.northAmericaNameBases = [
     "m": 0,
     "b": "Port of Spain,San Fernando,Arima,Chaguanas,Point Fortin,Princes Town,Penal,Siparia,Couva,Diego Martin,Tunapuna,Arouca,San Juan,Laventille,Morvant,Barataria,St. Joseph,Curepe,St. Augustine,Valsayn,Trincity",
     "status": "WAITING"
-  },
-  {
-    "name": "Jamaican Maroon Creole (dedicated)",
-    "i": 20188,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Accompong,Moore Town,Charles Town,Scotts Hall,Nanny Town,Cudjoe Town,Accompong Town,Mountain River,Quick Step,Ginger Hill,Top Hill,Bunker Hill,Flagstaff,Aberdeen,Windsor,Content,Brighton,Orange Hill,Cascade,Walderston",
-    "status": "WAITING"
-  },
-  {
-    "name": "Jersey Dutch (dedicated)",
-    "i": 20213,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0.26,
-    "b": "Jersey City,Hoboken,Newark,Paterson,Trenton,Princeton,New Brunswick,Somerville,Bridgewater,Morristown,Elizabeth,Union,Plainfield,Summit,Westfield,Cranford,Rahway,Linden,Perth Amboy,Sayreville,Middlesex,South River,Spotswood,Helmetta,Jamesburg,Monroe Township,Manalapan,Freehold,Howell,Brick,Toms River,Lakewood,Jackson,Englishtown",
-    "status": "COMPLETE"
   },
   {
     "name": "Huave",
@@ -1505,7 +1405,7 @@ window.northAmericaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Bocas Town,Almirante,Changuinola,Isla Colon,Isla Bastimentos,Carenero,Old Bank,Isla Popa,Isla Solarte,Ojo de Agua",
+    "b": "Bocas Town,Almirante,Changuinola,Isla Colon,Isla Bastimentos,Carenero,Old Bank,Isla Popa,Isla Solarte,Ojo de Agua,Bocas del Toro,Bastimentos,Chiriqui Grande,El Silencio,Quebrada de Sal,Isla Carenero,Cayo Nancy,Cayo Zapatilla,Cayo de Agua",
     "status": "WAITING"
   },
   {
@@ -1535,7 +1435,7 @@ window.northAmericaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.29,
-    "b": "Puerto Limón,Siquirres,Guápiles,Cahuita,Puerto Viejo,Tortuguero,Bribrí,Sixaola,Gandoca,Batán,Matina,Limona,Westfalia,Penhurst,Olivia,Margarita,Amubri,Fields,Iroquois,Fox Hall,Culpepper,Freehold,Jamaica Town,Sand Box,The Bluff,Old Harbour,Manzanillo,Colorado,Yaki,Ten Switch,Bridgefoot,Cuabre,Hone Creek,Tuba Creek,Monkey Point,Grape Point,Cedar Creek",
+    "b": "Puerto Limón,Siquirres,Guápiles,Cahuita,Puerto Viejo,Tortuguero,Bribrí,Sixaola,Gandoca,Batán,Matina,Limona,Westfalia,Penhurst,Olivia,Margarita,Amubri,Fields,Iroquois,Fox Hall,Culpepper,Freehold,Jamaica Town,Sand Box,The Bluff,Old Harbour,Manzanillo,Colorado,Yaki,Ten Switch,Bridgefoot,Cuabre,Hone Creek,Tuba Creek,Monkey Point,Grape Point,Cedar Creek,Puerto Limon,Bri Bri,Guapiles,Barra del Colorado,Parismina,La Francia,La Geest,La Suiza,La Rita,La Lola,La Perla,La Union,La Esperanza",
     "status": "COMPLETE"
   },
   {
@@ -1545,7 +1445,7 @@ window.northAmericaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0.07,
-    "b": "Bluefields,Bilwi,Prinzapolka,Pearl Lagoon,Corn Islands,Siuna,Bonanza,Rosita,Karawala,Waspán,Ayapal,Tawira,Musawas,Sukat,Bikbila,Prata,Yulu,Alamikangban,Bilsum,Kiabsa,Layasiksa,Nikla,Awaseri,Tasbapauni,Kukalaya,Lawas,Kurinwas,Bana,Bamustak,Raitipura,JoseMariaMorelos,Llanrumney",
+    "b": "Bluefields,Bilwi,Prinzapolka,Pearl Lagoon,Corn Islands,Siuna,Bonanza,Rosita,Karawala,Waspán,Ayapal,Tawira,Musawas,Sukat,Bikbila,Prata,Yulu,Alamikangban,Bilsum,Kiabsa,Layasiksa,Nikla,Awaseri,Tasbapauni,Kukalaya,Lawas,Kurinwas,Bana,Bamustak,Raitipura,JoseMariaMorelos,Llanrumney,Puerto Cabezas,Waslala,El Rama,Kukra Hill,El Tortuguero,La Cruz de Rio Grande,El Ayote,La Libertad,San Carlos,San Juan de Nicaragua,El Castillo,San Miguelito,La Esperanza,La Union,San Jose,San Pedro",
     "status": "COMPLETE"
   },
   {
@@ -1555,7 +1455,7 @@ window.northAmericaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0.27,
-    "b": "Brades,Salem,St. John's,St. Peter's,St. George's Hill,St. Patrick's,Cudjoe Head,Cork Hill,Garibaldi Hill,Frith,Lookout,Woodlands,Olveston,Old Town,Gages,Lee's,Molyneux,Sweeney's,Tuitts,Weekes,Cassava Hill,Davy Hill,Fairy Walk,Farm,Fogarty,Happy Hill,Hermitage,Hope,Judy Piece,Locust Valley,Manjack,Mongo Hill,Peaceful Cottage,Streatham,Windy Hill,Little Bay",
+    "b": "Brades,Salem,St. John's,St. Peter's,St. George's Hill,St. Patrick's,Cudjoe Head,Cork Hill,Garibaldi Hill,Frith,Lookout,Woodlands,Olveston,Old Town,Gages,Lee's,Molyneux,Sweeney's,Tuitts,Weekes,Cassava Hill,Davy Hill,Fairy Walk,Farm,Fogarty,Happy Hill,Hermitage,Hope,Judy Piece,Locust Valley,Manjack,Mongo Hill,Peaceful Cottage,Streatham,Windy Hill,Little Bay,St. Johns,St. Peters,St. Patricks,Flemings,Geralds,Buddles,Trants,Farms,Trial,Bethel",
     "status": "COMPLETE"
   },
   {
@@ -1805,7 +1705,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Iqaluit,Pangnirtung,PondInlet,ClydeRiver,Resolute,Kugaaruk,Inuvik,Tuktoyaktuk,Aklavik,FortMcPherson,NormanWells,Yellowknife,Lutselke,FortSmith,HayRiver,FortResolution,RankinInlet,Arviat,BakerLake,WhaleCove,Nain,HappyValley,Churchill,Labrador,Nunavik,BaffinIsland",
+    "b": "Iqaluit,Pangnirtung,PondInlet,ClydeRiver,Resolute,Kugaaruk,Inuvik,Tuktoyaktuk,Aklavik,FortMcPherson,NormanWells,Yellowknife,Lutselke,FortSmith,HayRiver,FortResolution,RankinInlet,Arviat,BakerLake,WhaleCove,Nain,HappyValley,Churchill,Labrador,Nunavik,BaffinIsland,York Factory,Fort Chimo,Fort George,Great Whale River,Fort Rupert,Moose Factory,Fort Albany,Pond Inlet,Arctic Bay,Grise Fiord,Clyde River,Qikiqtarjuaq,Kimmirut,Cape Dorset,Sanikiluaq",
     "status": "COMPLETE"
   },
   {
@@ -1815,7 +1715,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "StraitsOfBelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador",
+    "b": "StraitsOfBelleIsle,StraitOfBelleIsle,ChateauBay,Quirpon,Quiberon,SouthernLabrador,Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,Battle Harbour,Red Bay,Forteau,L'Anse au Clair,West St. Modeste",
     "status": "WAITING"
   },
   {
@@ -1935,7 +1835,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Grenadian Creole English,Vieux Fort,Brades,St. John's,Five Cays,Kralendijk,Tunapuna,Grenville,Charlestown,Cockburn Harbour,Anegada,Oistins,Salisbury,Hillsborough,Jost Van Dyke,Santa Rosa,Castries,Plymouth,Micoud,Soufrière,Portsmouth,Arima,Saint James,Roseau,All Saints,Ponce,Spanish Town,Camagüey",
+    "b": "Grenadian Creole English,Vieux Fort,Brades,St. John's,Five Cays,Kralendijk,Tunapuna,Grenville,Charlestown,Cockburn Harbour,Anegada,Oistins,Salisbury,Hillsborough,Jost Van Dyke,Santa Rosa,Castries,Plymouth,Micoud,Soufrière,Portsmouth,Arima,Saint James,Roseau,All Saints,Ponce,Spanish Town,Camagüey,Gouyave,Victoria,Sauteurs,La Tante,St. David,St. Andrew,St. Patrick,St. Mark,St. John,Grand Anse,Woburn,Lance aux Epines,Morne Rouge,Tivoli,Waltham,Concord,Belmont,Mt. Parnassus,Westerhall,Tempe,Woodlands",
     "status": "COMPLETE"
   },
   {
@@ -1945,7 +1845,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Leeward Caribbean Creole English,Grenville,Cockburn Harbour,Oistins,Soufrière,Salisbury,St. John's,Jost Van Dyke,Five Cays,Castries,Old Road,Tunapuna,Charlestown,Arima,Anegada,Philipsburg,Victoria,Road Town,Holetown,Sauteurs,Santa Rosa,Oranjestad,Saint-Marc,Santiago de Cuba,Portmore,Chaguanas,Port of Spain,Salt Cay",
+    "b": "Leeward Caribbean Creole English,Grenville,Cockburn Harbour,Oistins,Soufrière,Salisbury,St. John's,Jost Van Dyke,Five Cays,Castries,Old Road,Tunapuna,Charlestown,Arima,Anegada,Philipsburg,Victoria,Road Town,Holetown,Sauteurs,Santa Rosa,Oranjestad,Saint-Marc,Santiago de Cuba,Portmore,Chaguanas,Port of Spain,Salt Cay,The Valley,St. Johns,All Saints,Boland,Freetown,Carlisle,Parham,Willikies,Swetes,Pigotts,Cedar Grove,Urlings,Johnson Point,Falmouth,Codrington,Barbuda,Newcastle,Gingerland,St. Paul,St. James,St. Thomas,St. George,St. Mary,St. Peter,St. John",
     "status": "COMPLETE"
   },
   {

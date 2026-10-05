@@ -480,13 +480,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "B-arnese",
+    "name": "Béarnese",
     "i": 330,
     "min": 3,
-    "max": 19,
+    "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Pau,Oloron-Sainte-Marie,Morlaas,Laruns,Arudy,Sallent-de-Gállego,Billère,Poey-de-Lescar,Lescar,Idron,Gan,Pontiacq-Viellepinte,Salies-de-Béarn,Louvie-Soubiron,Sauveterre-de-Béarn,Bédeille,Navailles-Angos,Orthez,Mauléon-Licharre,Bidos,Bruhoc,Montardon,Saint-Girons,Saint-Boès,Labastide-Clairence,Larressore",
+    "b": "Pau,Oloron-Sainte-Marie,Morlaas,Laruns,Arudy,Sallent-de-Gállego,Billère,Poey-de-Lescar,Lescar,Idron,Gan,Pontiacq-Viellepinte,Salies-de-Béarn,Louvie-Soubiron,Sauveterre-de-Béarn,Bédeille,Navailles-Angos,Orthez,Mauléon-Licharre,Bidos,Bruhoc,Montardon,Saint-Girons,Saint-Boès,Labastide-Clairence,Larressore,Monein,Navarrenx,Lembeye,Morlas,Boeil-Bezing,Abos,Artix,Bézingrand,Cardesse,Castets,Cuqueron,Doazon,Gurs,Lacommande,Lagor,Lahourcade,Lannepla,Lons,Lucq-de-Béarn,Maslacq,Mazres-Lezons,Mourenx,Nabas,Ogenne-Camptort,Os-Marsillon,Pardies,Pietres-Plasence-Moustrou,Prechacq-Navarrenx,Rontignon,Saint-Faust,Saint-Girons-en-Béarn,Saint-Pé-de-Léren,Sallespisse,Sault-de-Navailles,Sauvagnon,Sibuy,Siros,Sus,Uzein,Viellenave-d'Arthez,Viellesgure",
     "status": "COMPLETE"
   },
   {
@@ -950,7 +950,7 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Cri-ana",
+    "name": "Crișana",
     "i": 403,
     "min": 3,
     "max": 21,
@@ -4520,16 +4520,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Béarnese",
-    "i": 200852,
-    "min": 3,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pau,Oloron-Sainte-Marie,Orthez,Monein,Navarrenx,Salies-de-Béarn,Lembeye,Morlas,Gan,Boeil-Bezing,Abos,Artix,Bézingrand,Cardesse,Castets,Cuqueron,Doazon,Gurs,Lacommande,Lagor,Lahourcade,Lannepla,Lons,Lucq-de-Béarn,Maslacq,Mazres-Lezons,Mourenx,Nabas,Navailles-Angos,Ogenne-Camptort,Os-Marsillon,Pardies,Pietres-Plasence-Moustrou,Poey-de-Lescar,Prechacq-Navarrenx,Rontignon,Saint-Boès,Saint-Faust,Saint-Girons-en-Béarn,Saint-Pé-de-Léren,Sallespisse,Sault-de-Navailles,Sauvagnon,Sibuy,Siros,Sus,Uzein,Viellenave-d'Arthez,Viellesgure",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Brianzöö",
     "i": 200853,
     "min": 3,
@@ -4567,16 +4557,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Cremona,Bonemerse,San Daniele Po,Bordolano,San Giovanni in Croce,Casteldidone,Sospiro,Pieve d'Olmi,Stagno Lombardo,Annicco,Cella Dati,Pessina Cremonese,Malagnino,San Martino del Lago,Derovere,Pieve San Giacomo,Pozzaglio ed Uniti,Cappella de' Picenardi,Torre de' Picenardi,Castelverde,Castelvisconti,Ostiano,Volongo,Grontardo,Crotta d'Adda,Cingia de' Botti,Corte de' Cortesi con Cignone,San Bassano,Gadesco-Pieve Delmona,Spinadesco,Formigara,Persico Dosimo,Grumello Cremonese ed Uniti,Sesto ed Uniti,Piadena Drizzona,Rivarolo del Re ed Uniti",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Crișana",
-    "i": 200858,
-    "min": 3,
-    "max": 21,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bucharest,Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Brăila,Galați,Ploiești,Oradea,Arad,Pitești,Sibiu,Bacău,Târgu Mureș,Baia Mare,Buzău,Satu Mare,Botani,Râmnicu Vlcea,Drobeta-Turnu Severin,Focani,Târgoviște,Alba Iulia,Giurgiu,Suceava,Vaslui,Bistrița,Tulcea,Reșița,Slatina,Calafat,Zalău,Sfântu Gheorghe,Turda,Mediaș,Lugoj,Petroani,Târnăveni",
     "status": "COMPLETE"
   },
   {
@@ -4883,10 +4863,10 @@ window.europeNameBases = [
     "name": "Jersey Dutch",
     "i": 200947,
     "min": 4,
-    "max": 11,
+    "max": 15,
     "d": "lnrt",
-    "m": 0,
-    "b": "Bergen,Schraalenburgh,Hackensack,Passaic,Paterson,Hoboken,JerseyCity,Suffern,Ringwood,Albany,Kinderhook,Catskill,Schenectady,Ramapo,Teaneck,Englewood,Paramus,Mahwah,Acquackanonk,Tappan,Communipaw,Pavonia,OldBergen,MidlandPark,ProspectPark,Closter,Demarest,Cresskill,Dumont,Bergenfield,FairLawn,GlenRock,Hawthorne,HoHoKus,Waldwick,Allendale,Wyckoff,FranklinLakes,Oakland,Wanaque,Ridgewood",
+    "m": 0.26,
+    "b": "Bergen,Schraalenburgh,Hackensack,Passaic,Paterson,Hoboken,JerseyCity,Suffern,Ringwood,Albany,Kinderhook,Catskill,Schenectady,Ramapo,Teaneck,Englewood,Paramus,Mahwah,Acquackanonk,Tappan,Communipaw,Pavonia,OldBergen,MidlandPark,ProspectPark,Closter,Demarest,Cresskill,Dumont,Bergenfield,FairLawn,GlenRock,Hawthorne,HoHoKus,Waldwick,Allendale,Wyckoff,FranklinLakes,Oakland,Wanaque,Ridgewood,Jersey City,Newark,Trenton,Princeton,New Brunswick,Somerville,Bridgewater,Morristown,Elizabeth,Union,Plainfield,Summit,Westfield,Cranford,Rahway,Linden,Perth Amboy,Sayreville,Middlesex,South River,Spotswood,Helmetta,Jamesburg,Monroe Township,Manalapan,Freehold,Howell,Brick,Toms River,Lakewood,Jackson,Englishtown",
     "status": "COMPLETE"
   },
   {

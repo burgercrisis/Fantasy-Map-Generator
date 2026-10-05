@@ -10444,7 +10444,7 @@
   {
     "iso": "b-arnese",
     "bases": [
-      200852
+      330
     ]
   },
   {
@@ -10740,7 +10740,7 @@
   {
     "iso": "cri-ana",
     "bases": [
-      200858
+      403
     ]
   },
   {
@@ -20928,7 +20928,7 @@
   {
     "iso": "x-b-arnese",
     "bases": [
-      200852
+      330
     ]
   },
   {
@@ -22008,7 +22008,7 @@
   {
     "iso": "x-cof-n-dedicated",
     "bases": [
-      20189
+      201309
     ]
   },
   {
@@ -22146,7 +22146,7 @@
   {
     "iso": "x-fulni-dedicated",
     "bases": [
-      20190
+      201311
     ]
   },
   {
@@ -22188,7 +22188,7 @@
   {
     "iso": "x-nivacl-dedicated",
     "bases": [
-      20193
+      201325
     ]
   },
   {
@@ -22464,7 +22464,7 @@
   {
     "iso": "x-jersey-dutch-dedicated",
     "bases": [
-      20213
+      200947
     ]
   },
   {
@@ -22890,7 +22890,7 @@
   {
     "iso": "x-limonese-creole-dedicated",
     "bases": [
-      20177
+      200635
     ]
   },
   {
@@ -22914,7 +22914,7 @@
   {
     "iso": "x-labrador-inuit-pidgin-french-dedicated",
     "bases": [
-      2311
+      200949
     ]
   },
   {
@@ -22962,7 +22962,7 @@
   {
     "iso": "x-inuktitut-english-pidgin-dedicated",
     "bases": [
-      1951
+      200944
     ]
   },
   {
@@ -22998,7 +22998,7 @@
   {
     "iso": "x-bocas-del-toro-creole-dedicated",
     "bases": [
-      20110
+      200629
     ]
   },
   {
