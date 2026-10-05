@@ -1266,8 +1266,8 @@ window.southAmericaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Paramaribo,NieuwNickerie,Lelydorp,Moengo,Albina,NieuwAmsterdam,Brownsweg,Groningen,Wageningen,Totness,Onverwacht,Brokopondo,Tamanredjo,Domburg,Meerzorg,Nieuw Nickerie,Nieuw Amsterdam,Saramacca,Coronie,Commewijne,Marowijne,Brokopondo Centrum,Tisco,Arapa,Huaqui,AyoAyo,Occo",
-    "status": "COMPLETE"
+    "b": "Paramaribo,Lelydorp,Nieuw Nickerie,Moengo,Albina,Nieuw-Amsterdam,Mariënburg,Meerzorg,Domburg,Ende,Zanderij,Groningen,Totness,Onverwacht,Wageningen,Brownsweg,Brokopondo,Brokopondo Centrum,Taramana,Pijlstoren,Justicekade,Margaretha,Wonice,Haarlem,Rotterdam,De Vlijt,Baasie,Vried en Hoop,Den Andel",
+    "status": "WAITING"
   },
   {
     "name": "Aluku",

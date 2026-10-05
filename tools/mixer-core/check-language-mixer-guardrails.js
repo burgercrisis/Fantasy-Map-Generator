@@ -424,6 +424,14 @@ const ALLOWED_REMOVALS = new Set([
     //     meaning - Soncino/Offida - was wrong on both counts, since Soncino is
     //     Cremasco and Offida is in Marche.
     "central-southern-calabrian",
+    //   savonlinna, keuruu-evij-rvi
+    //     Neither name is a Finnish variety - both are municipality names used as
+    //     labels, in an existing run of the same pattern (Kemi, Kemijärvi, Savonian).
+    //     i=910's 25 seeds spanned five Finnish dialect regions at once: Savonlinna's
+    //     neighbours, Swedish-speaking coastal towns, Pirkanmaa, Central Finland and
+    //     Kanta-Uusimaa. i=2139 then contained i=910's list plus four more.
+    "savonlinna",
+    "keuruu-evij-rvi",
     "manduriano",
     "x-cremun-s",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is

@@ -536,7 +536,7 @@ window.europeNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Benevento,Sant'Agata de'Goti,Airola,Cerreto Sannita,Cusano Mutri,Faicchio,Pesco Sannita,Pietraroja,Pontelandolfo,San Lorenzello,San Lupo,San Salvatore Telesino,Solopaca,Telese Terme,Castelvenere,Cautano,Morcone,Paupisi,Pietrelcina,San Giorgio del Sannio,San Martino Sannita,San Nicola Manfredi,Sant'Angelo a Cupolo,Torrecuso,San Marco dei Cavoti,Frigento,Paduli,Sant'Arcangelo Trimonte,Circello,Castelpoto",
+    "b": "Airola,Amorosi,Apice,Apollosa,Arpaia,Arpaise,Baselice,Benevento,Bonea,Bucciano,Buonalbergo,Calvi,Campolattaro,Campoli del Monte Taburno,Casalduni,Castelfranco in Miscano,Castelpagano,Castelpoto,Castelvenere,Castelvetere in Val Fortore,Cautano,Ceppaloni,Cerreto Sannita,Circello,Colle Sannita,Cusano Mutri,Dugenta,Durazzano,Faicchio,Foglianise,Foiano di Val Fortore,Forchia,Fragneto l'Abate,Fragneto Monforte,Frasso Telesino,Ginestra degli Schiavoni,Guardia Sanframondi,Limatola,Melizzano,Moiano,Molinara,Montefalcone di Val Fortore,Montesarchio,Morcone,Paduli,Pago Veiano,Pannarano,Paolisi,Paupisi,Pesco Sannita,Pietraroja,Pietrelcina,Ponte,Pontelandolfo,Puglianello,Reino,San Bartolomeo in Galdo,San Giorgio del Sannio,San Giorgio La Molara,San Leucio del Sannio,San Lorenzello,San Lorenzo Maggiore,San Lupo,San Marco dei Cavoti,San Martino Sannita,San Nazzaro,San Nicola Manfredi,San Salvatore Telesino,Sant'Agata de' Goti,Sant'Angelo a Cupolo,Sant'Arcangelo Trimonte,Santa Croce del Sannio,Sassinoro,Solopaca,Telese Terme,Tocco Caudio,Torrecuso,Vitulano",
     "status": "COMPLETE"
   },
   {
@@ -2320,16 +2320,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Savonlinna",
-    "i": 910,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kerimäki,Ristiina,Suomenniemi,Lemi,Savitaipale,Parainen,Sipoo,Nokia,Ylöjärvi,Valkeakoski,Riihimäki,Jämsä,Keuruu,Virrat,Mänttä,Petäjävesi,Kuhmoinen,Luhanka,Jämsänkoski,Orimattila,Artjärvi,Asikkala,Hattula,Hauho,Janakkala",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Danish",
     "i": 916,
     "min": 4,
@@ -2606,7 +2596,7 @@ window.europeNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Saransk,Ruzaevka,Kovylkino,Lyambir,Zubova Polyana,Temnikov,Alatyr,Komsomolsk,Chamzinka,Kadoshkino,Torbeevo,Yavas,Kochkurovo,Staroye Shaygovo,Dublyany,Bolshoye Ignatovo,Atyashevo,Insar,Krasnoslobodsk,Nizhny Novgorod,Arzamas,Serdobsk,Penza,Ichalkovo",
+    "b": "Saransk,Ruzaevka,Temnikov,Atur,Kovylkino,Krasnoslobodsk,Ardatov,Krasnye Barrikady,Insar,Krutaya,Shoksha,Buksunovo,Chembary,Atrub,Romanovo,Krasny Mayak,Yelnya,Sarancheyka,Nizhny Lomov,Zadubkovo,Kochelaevo,Nizhny Bereznyakov,Podolsk,Tartar,Mordash,Kochkurovo,Nizhny Yartsevo,Krasny Kuchak,Bogoyavlensk,Maksatikhino,Ak-Dyur",
     "status": "WAITING"
   },
   {
@@ -2676,8 +2666,8 @@ window.europeNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Saint Helier,Gorey,Saint Aubin,Saint Clement,Trinity,Saint John,Saint Lawrence,Saint Martin,Saint Mary,Saint Ouen,Saint Peter,Saint Saviour,Grouville,Ville à l'Évêque,Les Quennevais,La Moye,La Hougue Bie,St Brelade,St Ouen,St Peter,St Mary,St John,St Lawrence,St Clement,Sark,Alderney",
-    "status": "COMPLETE"
+    "b": "Sark,La Seigneurie,La Seigneurie de",
+    "status": "WAITING"
   },
   {
     "name": "Central Vychegda",
@@ -2726,7 +2716,7 @@ window.europeNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Jõhvi,Kohtla-Järve,Sillamäe,Maardu,Jõgeva,Pärnu,Põlva,Võru,Antsla,Narva-Jõesuu,Elva,Pärnu-Jaagupi,Kunda,Viimsi,Lüganuse,Mustvee",
+    "b": "Jõhvi,Kohtla-Järve,Sillamäe,Kunda,Jõepere,Toolse,Vaivara,Narva-Jõesuu,Sinimäedra,Rannu,Viimsi,Tammiku,Kohtla-Nõmme,Maardu,Kehra,Paldiski,Loksa,Tabula,Illuka,Kelmä,Viru-Jaagupi,Ranna-Jõesuu,Virolahti",
     "status": "WAITING"
   },
   {
@@ -2918,16 +2908,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Kemijärvi,Kuusamo,Ivalo,Pello,Ylitornio,Savukoski,Pelkosenniemi,Sallatunturi,Hirvasvaara,Luiro,Martti,Rautu,Suomu,Synsiöjärvi,Yli-Nuorgam,Kuttura,Sompio,Kerimäki,Ristiina,Suomenniemi,Lemi",
     "status": "WAITING"
-  },
-  {
-    "name": "Keuruu-Evijärvi",
-    "i": 2139,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Keuruu,Evijärvi,Kerimäki,Ristiina,Suomenniemi,Lemi,Savitaipale,Parainen,Sipoo,Nokia,Ylöjärvi,Valkeakoski,Riihimäki,Jämsä,Virrat,Mänttä,Petäjävesi,Kuhmoinen,Luhanka,Jämsänkoski,Orimattila,Artjärvi,Asikkala,Hattula,Hauho,Janakkala,Lammi,Nastola,Tuulos,Vanaja",
-    "status": "COMPLETE"
   },
   {
     "name": "Gaelic",
@@ -4136,8 +4116,8 @@ window.europeNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kingisepp,Luga,Gatchina,Tosno,Lomonosov,Kronstadt,Sosnovy Bor,Sertolovo,Volkhov,Kirishi,Chudovo,Novaya Ladoga,Shapki,Babayevo,Cherepovets,Kirillov,Belozersk,Soikkola,Vistino,Korostel,Luzhitsy,Alekseyevka,KadjiSay,Volosovo,Soltsy,Ulyanovka,Batetsky,Shimsk,Tikhvin,Boksitogorsk,Belovodskoye,Tepokly,Muslyumovo,Ornok,Yuzhnouralsk,Koporye,Yam-Tesovo,Koteshovo,Liubtsy,Novgorod,Staraya Russa,Borovichy,Ustyuzhna,Valday,Demyansk,Kresttsy,Pestovo,Khvoyshcha,Msta,Kobona,Osinovets,Voybokalo,Miikulainen,Rutja,Kattila,Hauho,Ingria,Säkkijärvi,Virojoki,Virolahti,Kobrinka,Järvelä,Lavansaari,Seiskari,Hailuoto,Iso-Ema",
-    "status": "COMPLETE"
+    "b": "Soikkola,Vistino,Korostel,Luzhitsy,Alekseyevka,Koskisenkylä,Kaprio,Moloskovitsa,Terijoki,Ragosta,Jaanila,Koli,Russoala,Sollunturi,Novosolkka,Kirkkoskoe,Mikho,Kotka",
+    "status": "WAITING"
   },
   {
     "name": "Sörkaitum",
@@ -5376,7 +5356,7 @@ window.europeNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Miranda,Sendim,Constantim,Cicouro,DuasIgrejas,Genisio,Ifanes,Paradela,Malhadas,Palacoulo,Picote,Povoa,SanMartinho,Silba,AugasVivas,BilaChana,Barceosa",
+    "b": "Minde,Mira de Aire,Alcanena,Almeirim,Rossio ao Sul do Tejo,Glória do Ribatejo,Granho,Vale de Figueira,Raposa,Almoster,Ericeira de Santarém,São Pedro de Tomar,Pombalinho,Rio Maior,Assumar,Crato,Mora,Montemor-o-Novo,Porto de Mós,Óbidos",
     "status": "WAITING"
   },
   {

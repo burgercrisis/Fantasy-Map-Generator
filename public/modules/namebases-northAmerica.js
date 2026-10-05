@@ -1575,7 +1575,7 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0.2,
-    "b": "San Luis,Poptún,Dolores,Melchor de Mencos,San Antonio,San José Succotz,San José,Santa Cruz,San Román,Santa Rosa,Pueblo Viejo",
+    "b": "San Luis,Poptún,Melchor de Mencos,Dolores,San Antonio,San José Succotz,Santa Cruz,Jordan,San Pedro Columbia,Blue Creek,Indian Creek,San Felipe,Punta Gorda,Santa Elena,San Isidro",
     "status": "WAITING"
   },
   {

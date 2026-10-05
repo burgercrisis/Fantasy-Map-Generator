@@ -9265,9 +9265,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "keuruu-evij-rvi",
-    "bases": [
-      2139
-    ]
+    "bases": []
   },
   {
     "iso": "kiknur",
@@ -9743,9 +9741,7 @@ globalThis.languageMixerMap = [
   },
   {
     "iso": "savonlinna",
-    "bases": [
-      910
-    ]
+    "bases": []
   },
   {
     "iso": "sea-sami",
