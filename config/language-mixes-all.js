@@ -16442,7 +16442,7 @@
       "family": "Italian"
     },
     {
-      "name": "Standard Swedish",
+      "name": "Swedish",
       "iso": "swe",
       "category": "Germanic",
       "region": "Europe",
@@ -16477,17 +16477,6 @@
       "category": "Germanic",
       "family": "West Germanic",
       "wikipedia": "https://en.wikipedia.org/wiki/Swabian_German"
-    },
-    {
-      "name": "Swedish (native-speakers subset)",
-      "iso": "swedish-native-speakers",
-      "category": "Germanic",
-      "region": "Europe",
-      "family": "North Germanic",
-      "tags": [
-        "wikipedia-native-speakers",
-        "subset"
-      ]
     },
     {
       "name": "Swiss German",
@@ -26280,11 +26269,11 @@
     },
     {
       "name": "Sanöma (Sanumá)",
-      "iso": "xsu",
+      "iso": "sanoma",
       "region": "South America",
       "category": "Yanomaman",
       "family": "Yanomaman",
-      "wikipedia": "https://en.wikipedia.org/wiki/ISO_639:xsu"
+      "wikipedia": "https://en.wikipedia.org/wiki/Sanomam_language"
     },
     {
       "name": "Saramaccan",

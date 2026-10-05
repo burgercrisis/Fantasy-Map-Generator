@@ -226,7 +226,7 @@ window.oceaniaNameBases = [
     "max": 9,
     "d": "",
     "m": 0,
-    "b": "Daulo,Asaro,Watabung,Goroka,Gahuku,Mimanalo,Henganofi,Kafentina,Dunantina,Fayantina,Kainantu,Agarabi,Gadsup,Tairora,Lufa,Yagaria",
+    "b": "Lufa,Okapa,Ukarumpa",
     "status": "WAITING"
   },
   {
@@ -490,13 +490,13 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Asaro",
+    "name": "Dano (Upper Asaro)",
     "i": 97976,
     "min": 4,
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Asaro,Watabung,Goroka,Gahuku,Mimanalo,Henganofi,Kafentina,Dunantina,Fayantina,Kainantu,Kamano,Agarabi,Gadsup,Lufa,Yagaria",
+    "b": "Daulo,Asaro,Watabung,Upper Asaro,Lower Asaro",
     "status": "WAITING"
   },
   {
@@ -1670,7 +1670,7 @@ window.oceaniaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Dano ",
+    "name": "Dano",
     "i": 1656,
     "min": 4,
     "max": 11,

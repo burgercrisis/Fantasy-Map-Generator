@@ -220,16 +220,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Shipibo-Conibo Amazonian",
-    "i": 21004,
-    "min": 4,
-    "max": 20,
-    "d": "",
-    "m": 0,
-    "b": "Pucallpa,Yarinacocha,Requena,Contamana,NuevaRequena,Manantay,Masisea,Aguaytía,Tournavista,Shanshococha,PuertoInca,SantaClara,RamónCastilla,Maquía,Neshuya,Sarayacu,Iparia,Panaillo,Lagunas,Nauta,Parinari,Campoverde,Calleria,SanFranciscoDeYarinacocha,NuevaLuz,Jeberos,Chazuta,VillaTierraBlanca,PampaHermosa,SanPabloDeTushmo,LaNuevaEra",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Kallawaya",
     "i": 21005,
     "min": 4,
@@ -493,10 +483,10 @@ window.southAmericaNameBases = [
     "name": "Shipibo-Conibo",
     "i": 201330,
     "min": 5,
-    "max": 19,
+    "max": 20,
     "d": "",
     "m": 0,
-    "b": "Pucallpa,Contamana,Masisea,Yarinacocha,Aguaytía,Tournavista,PuertoInca,SanAlejandro,Caimito,NuevaRequena,Campoverde,Manantay,SantaClara,RamónCastilla,Neshuya,Sarayacu,Iparia,Panaillo,Nauta,Calleria,Honoria,Lagunas,Jeberos,SantaRosaDePichan,Chazuta,Requena,Tahuayo,VillaTierraBlanca,Parinari,SanFrancisco,Paoyhan,NuevoSaposoa,Maquía,Atalaya,Tahuanía,Sepahua,Inahuaya,Curimaná,Raymondi,PuertoEsperanza,Orellana",
+    "b": "Pucallpa,Contamana,Masisea,Yarinacocha,Aguaytía,Tournavista,PuertoInca,SanAlejandro,Caimito,NuevaRequena,Campoverde,Manantay,SantaClara,RamónCastilla,Neshuya,Sarayacu,Iparia,Panaillo,Nauta,Calleria,Honoria,Lagunas,Jeberos,SantaRosaDePichan,Chazuta,Requena,Tahuayo,VillaTierraBlanca,Parinari,SanFrancisco,Paoyhan,NuevoSaposoa,Maquía,Atalaya,Tahuanía,Sepahua,Inahuaya,Curimaná,Raymondi,PuertoEsperanza,Orellana,Shanshococha,SanFranciscoDeYarinacocha,NuevaLuz,PampaHermosa,SanPabloDeTushmo,LaNuevaEra",
     "status": "COMPLETE"
   },
   {

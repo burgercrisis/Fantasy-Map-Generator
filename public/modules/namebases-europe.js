@@ -13,10 +13,10 @@ window.europeNameBases = [
     "name": "French",
     "i": 2,
     "min": 3,
-    "max": 20,
+    "max": 22,
     "d": "lnrm",
     "m": 0,
-    "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims,Le Havre,Saint-Étienne,Toulon,Grenoble,Dijon,Angers,Nîmes,Villeurbanne,Saint-Denis,Le Mans,Aix-en-Provence,Clermont-Ferrand,Limoges,Tours,Amiens,Metz,Besançon,Orléans,Rouen,Caen,Brest,Nancy,Mulhouse,Perpignan,Avignon,Annecy,Chambéry,Poitiers,La Rochelle,Bayonne,Biarritz,Tarbes,Pau,Albi,Carcassonne,Narbonne,Arles,Cannes,Antibes,Grasse,Valence,Bourg-en-Bresse,Thonon-les-Bains,Chamonix,Saint-Malo,Quimper,Lorient,Vannes,Saumur,Cholet,Blois,Chartres,Évreux,Dieppe,Fécamp,Honfleur,Deauville,Cherbourg,Boulogne-sur-Mer,Calais,Dunkerque,Valenciennes,Versailles,Meaux,Melun,Évry,Béziers,Rodez,Aurillac,Mende,Aubenas,Vals-les-Bains,Annonay,Roanne,Vichy,Moulins,Auxerre,Sens,Troyes,Châlons-en-Champagne,Charleville-Mézières,Sedan,Château-Thierry,Soissons,Laon,Saint-Quentin,Abbeville,Arras,Lens,Béthune,Douai,Cambrai,Maubeuge",
+    "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims,Le Havre,Saint-Étienne,Toulon,Grenoble,Dijon,Angers,Nîmes,Villeurbanne,Saint-Denis,Le Mans,Aix-en-Provence,Clermont-Ferrand,Limoges,Tours,Amiens,Metz,Besançon,Orléans,Rouen,Caen,Brest,Nancy,Mulhouse,Perpignan,Avignon,Annecy,Chambéry,Poitiers,La Rochelle,Bayonne,Biarritz,Tarbes,Pau,Albi,Carcassonne,Narbonne,Arles,Cannes,Antibes,Grasse,Valence,Bourg-en-Bresse,Thonon-les-Bains,Chamonix,Saint-Malo,Quimper,Lorient,Vannes,Saumur,Cholet,Blois,Chartres,Évreux,Dieppe,Fécamp,Honfleur,Deauville,Cherbourg,Boulogne-sur-Mer,Calais,Dunkerque,Valenciennes,Versailles,Meaux,Melun,Évry,Béziers,Rodez,Aurillac,Mende,Aubenas,Vals-les-Bains,Annonay,Roanne,Vichy,Moulins,Auxerre,Sens,Troyes,Châlons-en-Champagne,Charleville-Mézières,Sedan,Château-Thierry,Soissons,Laon,Saint-Quentin,Abbeville,Arras,Lens,Béthune,Douai,Cambrai,Maubeuge,Sophia Antipolis",
     "status": "COMPLETE"
   },
   {
@@ -1970,16 +1970,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Standard French",
-    "i": 641,
-    "min": 3,
-    "max": 22,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Paris,Lyon,Marseille,Toulouse,Nice,Nantes,Strasbourg,Montpellier,Bordeaux,Lille,Rennes,Reims,Le Havre,Saint-Étienne,Toulon,Grenoble,Dijon,Angers,Nîmes,Villeurbanne,Saint-Denis,Le Mans,Aix-en-Provence,Clermont-Ferrand,Limoges,Tours,Amiens,Metz,Besançon,Orléans,Rouen,Caen,Brest,Nancy,Mulhouse,Perpignan,Avignon,Annecy,Chambéry,Poitiers,La Rochelle,Bayonne,Biarritz,Tarbes,Pau,Albi,Carcassonne,Narbonne,Arles,Cannes,Antibes,Grasse,Sophia Antipolis,Valence,Bourg-en-Bresse,Thonon-les-Bains,Chamonix,Saint-Malo,Quimper,Lorient,Vannes,Saumur,Cholet,Blois,Chartres,Évreux,Dieppe,Fécamp,Honfleur,Deauville,Cherbourg,Boulogne-sur-Mer,Calais,Dunkerque,Valenciennes,Versailles,Meaux,Melun,Évry,Béziers,Rodez,Aurillac,Mende,Aubenas,Vals-les-Bains,Annonay,Roanne,Vichy,Moulins,Auxerre,Sens,Troyes,Châlons-en-Charlemagne,Charleville-Mézières,Sedan,Château-Thierry,Soissons,Laon,Saint-Quentin,Abbeville,Arras,Lens,Béthune,Douai,Cambrai,Maubeuge",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Standard Italian",
     "i": 642,
     "min": 4,
@@ -2440,16 +2430,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Standard Finnish",
-    "i": 1082,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Helsinki,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Lahti,Pori,Joensuu,Lappeenranta,Vaasa,Kokkola,Seinäjoki,Rovaniemi,Kemi,Tornio,Kajaani,Savonlinna,Mikkeli,Kotka,Hamina,Loviisa,Porvoo,Lohja,Hyvinkää,Nurmijärvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Pietarsaari,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajärvi,Ilomantsi,Lieksa,Isfana,Kazarman,KaraKubur,Kugarchi,Kegen,Semetey,Adamovka,Safakulevo,Khaidarkan,KyzylAdyr,AkYr,Baimak,Tyup,Sokuluk,Adobensk,Akaksk,Aeinsk",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Udora",
     "i": 1083,
     "min": 4,
@@ -2478,16 +2458,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Hämeenlinna,Tampere,Riihimäki,Forssa,Janakkala,Hattula,Hausjärvi,Lammi,Tuulos,Pälkäne,Urjala,Lempäälä,Orivesi,Kangasala,Nokia,Ylöjärvi,Valkeakoski,Jämsä,Virrat,Mänttä,Petäjävesi,Kuhmoinen,Jämsänkoski,Asikkala,Artjärvi,Orimattila,Hollola,Hämeenkoski,Kylmäkoski,Luopioinen,Nastola,Vesilahti,Vanaja,Sysmä",
     "status": "COMPLETE"
-  },
-  {
-    "name": "Tornio",
-    "i": 1086,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Haparanda,Kemijärvi,Kolari,Ylitornio,Pello,Lemmenjoki,Angeli,Kaamanen,Ylläs,Pallas,Pyhä,Levi,Olos,Kerimäki,Ristiina,Suomenniemi,Lemi",
-    "status": "WAITING"
   },
   {
     "name": "Hevaha",
@@ -2796,7 +2766,7 @@ window.europeNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Helsinki,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Lahti,Pori,Joensuu,Lappeenranta,Vaasa,Kokkola,Seinäjoki,Rovaniemi,Kemi,Tornio,Kajaani,Savonlinna,Mikkeli,Kotka,Hamina,Loviisa,Porvoo,Lohja,Hyvinkää,Nurmijärvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Pietarsaari,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajärvi,Ilomantsi,Lieksa,Marja",
+    "b": "Helsinki,Turku,Tampere,Oulu,Jyväskylä,Kuopio,Lahti,Pori,Joensuu,Lappeenranta,Vaasa,Kokkola,Seinäjoki,Rovaniemi,Kemi,Tornio,Kajaani,Savonlinna,Mikkeli,Kotka,Hamina,Loviisa,Porvoo,Lohja,Hyvinkää,Nurmijärvi,Tuusula,Kerava,Kirkkonummi,Vihti,Raseborg,Salo,Rauma,Pietarsaari,Kuhmo,Suomussalmi,Sotkamo,Kitee,Tohmajärvi,Ilomantsi,Lieksa,Semetey,Adamovka,Safakulevo,Khaidarkan,KyzylAdyr,AkYr,Sokuluk",
     "status": "COMPLETE"
   },
   {
@@ -3650,16 +3620,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Swedish",
-    "i": 50005,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Stockholm,Göteborg,Malmö,Uppsala,Västerås,Örebro,Linköping,Norrköping,Helsingborg,Jönköping,Borås,Sundsvall,Umeå,Gävle,Halmstad,Karlstad,Växjö,Luleå,Östersund,Kristianstad,Kalmar,Skellefteå,Uddevalla,Motala,Piteå,Ljungby,Värnamo,Falun",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Rusyn",
     "i": 50006,
     "min": 4,
@@ -4280,16 +4240,6 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Torne Valley",
-    "i": 200818,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Haparanda,Ylitornio,Pello,Kolari,Keminmaa,Tervola,Kemijärvi,Ylläs,Pallas,Pyhä,Levi,Olos,Kvalsund,Nesseby,Sør-Varanger,Nordkapp,Honningsvåg,Kjøllefjord,Mehamn,Gamvik,Berlevåg,Övertorneå,Karesuando,Junosuando,Juoksengi,Kuoksu,Lahtinen,Aavasaksa,Matarengi",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tuorpon",
     "i": 200820,
     "min": 4,
@@ -4710,13 +4660,13 @@ window.europeNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Standard Swedish",
+    "name": "Swedish",
     "i": 200884,
     "min": 3,
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Stockholm,Göteborg,Malmö,Uppsala,Linköping,Örebro,Västerås,Norrköping,Helsingborg,Jönköping,Lund,Umeå,Gävle,Borås,Sundsvall,Eskilstuna,Karlstad,Halmstad,Växjö,Luleå,Trollhättan,Ostersund,Borlänge,Falun,Kalmar,Kristianstad,Skellefteå,Uddevalla,Motala,Varberg,Ängelholm,Liding,Tumba,Valjala",
+    "b": "Stockholm,Göteborg,Malmö,Uppsala,Linköping,Örebro,Västerås,Norrköping,Helsingborg,Jönköping,Lund,Umeå,Gävle,Borås,Sundsvall,Eskilstuna,Karlstad,Halmstad,Växjö,Luleå,Trollhättan,Borlänge,Falun,Kalmar,Kristianstad,Skellefteå,Uddevalla,Motala,Varberg,Ängelholm,Tumba,Östersund,Piteå,Ljungby,Värnamo",
     "status": "COMPLETE"
   },
   {
@@ -4727,16 +4677,6 @@ window.europeNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Stuttgart,Augsburg,Ulm,Reutlingen,Tübingen,Heilbronn,Pforzheim,Göppingen,Esslingen,Nürtingen,Schwäbisch Gmünd,Schwäbisch Hall,Ravensburg,Friedrichshafen,Singen,Konstanz,Villingen-Schwenningen,Rottweil,Balingen,Albstadt,Tuttlingen,Sigmaringen,Hechingen,Weil der Stadt,Böblingen,Leonberg,Waiblingen,Filderstadt,Kirchheim,Nördlingen,Donauwörth,Memmingen,Kempten,Lindau,Wangen,Leutkirch,Isny,Bad Waldsee",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Swedish (native-speakers subset)",
-    "i": 200886,
-    "min": 3,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Stockholm,Göteborg,Malmö,Uppsala,Linköping,Örebro,Västerås,Norrköping,Helsingborg,Jönköping,Lund,Umeå,Gävle,Borås,Sundsvall,Eskilstuna,Karlstad,Halmstad,Växjö,Luleå,Trollhättan,Ostersund,Borlänge,Falun,Kalmar,Kristianstad,Skellefteå,Uddevalla,Motala,Varberg,Ängelholm,Liding,Tumba,Aium",
     "status": "COMPLETE"
   },
   {

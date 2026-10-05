@@ -1450,16 +1450,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Bijiang Bai language",
-    "i": 203195,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tuoluo,Gongxing,Enqi,Jinman,Ega",
-    "status": "WAITING"
-  },
-  {
     "name": "Dali Bai lect",
     "i": 1258,
     "min": 4,
@@ -2406,7 +2396,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Hanyang,Kaegyŏng,Cheongju,Wonju,Gyeongju,Sangju,Busanpo,Gwangju,Hwangju,Anju,Hamhung,Gyeongseong,Chuncheon,Hamhŭng,Hongju,Incheon,Jeju,Kyŏngsŏng,P'yŏngyang,Hoseo,Honam,Yeongnam,Kwanso,Gwandong,Yeongseo,Yeongdong,Kwanbuk,Kwannam,Haeso,Gijeon",
+    "b": "Hanyang,Kaegyŏng,Cheongju,Wonju,Gyeongju,Sangju,Busanpo,Gwangju,Hwangju,Anju,Hamhung,Gyeongseong,Chuncheon,Hamhŭng,Hongju,Incheon,Jeju,Kyŏngsŏng,P'yŏngyang,Hoseo,Honam,Yeongnam,Kwanso,Gwandong,Yeongseo,Yeongdong,Kwanbuk,Kwannam,Haeso,Gijeon,Hanseong,Gaegyeong,Kaesong,Ganghwa,Seogyeong,Pyongyang,Donggyeong,Namgyeong,Seoul,Yangju-mok,Gimhae,Yangju,Hwangju-mok,Haeju-mok,Haeju,Gwangju-mok,Chungju-mok,Chungju,Cheongju-mok,Gongju-mok,Gongju,Jeonju-mok,Jeonju,Naju-mok,Naju,Seungju-mok,Suncheon,Sangju-mok,Jinju-mok,Jinju,Gwannae-do,Seohae-do,Yanggwang-do,Jungwon-do,Hanam-do,Gangnam-do,Haeyang-do,Yeongnam-do,Sannam-do,Yeongdong-do,Sakbang-do,Gyoju-do,Paeseo-do,Donggye,Bukgye,Song'ak,Gaeju,Gaesong-bu,Manwoldae,Goryeogung,Geumsansa,Ssangseong Prefectures,Dongnyeong Prefectures,Liaoyang,Tamna,Uiju",
     "status": "COMPLETE"
   },
   {
@@ -2878,16 +2868,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Tigil,Kovran,Ust-Khairyuzovo,Khairyuzovo,Palana,Sedanka,Voyampolka,Milkovo,Dolinovka,Taiga,Sobolevo,Petropavlovsk-Kamchatsky,Elizovo,Zelyoniy,Bereznyaki,Vilyuchinsk,Tauysk,Ola,Arman,Takhtoyamsk,Yamsk,Evensk,Magadan",
     "status": "WAITING"
-  },
-  {
-    "name": "Joseon Korean Early Modern",
-    "i": 1991,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Hanseong,Gaegyeong,Kaesong,Ganghwa,Seogyeong,Pyongyang,Donggyeong,Gyeongju,Namgyeong,Seoul,Yangju-mok,Gimhae,Yangju,Hwangju-mok,Haeju-mok,Haeju,Gwangju-mok,Gwangju,Chungju-mok,Chungju,Cheongju-mok,Cheongju,Gongju-mok,Gongju,Jeonju-mok,Jeonju,Naju-mok,Naju,Seungju-mok,Suncheon,Sangju-mok,Sangju,Jinju-mok,Jinju,Gwannae-do,Seohae-do,Yanggwang-do,Jungwon-do,Hanam-do,Gangnam-do,Haeyang-do,Yeongnam-do,Sannam-do,Yeongdong-do,Sakbang-do,Gyoju-do,Paeseo-do,Donggye,Bukgye,Song'ak,Gaeju,Gaesong-bu,Manwoldae,Goryeogung,Geumsansa,Ssangseong Prefectures,Dongnyeong Prefectures,Liaoyang,Tamna,Uiju,Anju",
-    "status": "COMPLETE"
   },
   {
     "name": "Joseon Korean Modern",
@@ -3496,17 +3476,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "",
     "m": 0,
-    "b": "Kunashir,Iturup,Urup,Shumshu,Paramushir,Habomai,Kurilsk,Severo-Kurilsk,Yuzhno-Kurilsk,Malokurilskoye,Ust-Bolsheretsky",
-    "status": "WAITING"
-  },
-  {
-    "name": "Kuril dialects",
-    "i": 2296,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Kunashir,Iturup,Urup,Shumshu,Paramushir,Habomai,Kurilsk,Severo-Kurilsk,Yuzhno-Kurilsk,Sakhalin,Hokkaido",
+    "b": "Kunashir,Iturup,Urup,Shumshu,Paramushir,Habomai,Shikotan,Rasshua,Ushishir,Ketoy,Simushir,Chirpoy,Malokurilskoye,Kurilsk,Yuzhno-Kurilsk,Severo-Kurilsk,Ust-Bolsheretsky",
     "status": "WAITING"
   },
   {
@@ -4430,34 +4400,14 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Daman Creole",
-    "i": 203246,
-    "min": 4,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Devka,Kachigam,Marval,Somnath,Calvary,Jampore,Dobas,Kadaiya,Ghogla,Bhimpore,Varki,Nani Daman,Moti Daman,Rudra,Daman,Magarwada",
-    "status": "WAITING"
-  },
-  {
     "name": "Daman and Diu Portuguese Creole",
     "i": 203247,
     "min": 3,
     "max": 10,
     "d": "",
     "m": 0,
-    "b": "Devka,Kachigam,Diu,Ghogla,Vanakbara,Fudam,Bucharvada,Nani Daman,Moti Daman,Marval,Somnath,Calvary,Dobas,Bhimpore,Daman",
-    "status": "WAITING"
-  },
-  {
-    "name": "Diu Creole",
-    "i": 203248,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Diu,Goghla,Vanakbara,Fudam,Bucharvada,Mala,Rodad,Simbhor,Sarasi,Bharvad,Nadergal,Rava,Kimbala,Dudheri,Mandla",
-    "status": "WAITING"
+    "b": "Devka,Kachigam,Diu,Ghogla,Vanakbara,Fudam,Bucharvada,Nani Daman,Moti Daman,Marval,Somnath,Calvary,Dobas,Bhimpore,Daman,Jampore,Kadaiya,Varki,Rudra,Magarwada,Goghla,Mala,Rodad,Simbhor,Sarasi,Bharvad,Nadergal,Rava,Kimbala,Dudheri,Mandla",
+    "status": "COMPLETE"
   },
   {
     "name": "Indo-Portuguese",
@@ -5716,8 +5666,8 @@ window.asiaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Baise,Qinzhou,Guilin,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Longlin,Tianlin,Lingyun,Fengshan,Donglan,Bama,Du'an,Mashan,Longan,Ningming,Pingxiang,Tiandeng",
-    "status": "COMPLETE"
+    "b": "Ronghua,Nalong,Maomei,Debao",
+    "status": "WAITING"
   },
   {
     "name": "Mymensinghi Bengali",
@@ -6916,7 +6866,7 @@ window.asiaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanning,Liuzhou,Guilin,Baise,Qinzhou,Fangchenggang,Chongzuo,Laibin,Hechi,Wuzhou,Guigang,Binyang,Hengzhou,Wuming,Shangsi,Fusui,Napo,Jingxi,Debao,Yulin,Lingshan",
+    "b": "Debao,Jingxi,Napo",
     "status": "WAITING"
   },
   {
@@ -7496,7 +7446,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bijiang,Yangbi,Midu,Xiangyun,Shuanglang,Fengqing,Yongping,Longling,Lanping,Liuku,Pianma,Dali,Lijiang,Weishan,Yunlong,Binchuan,Eryuan,Heqing,Jianchuan,Nanjian,Changning,Gongshan,Fugong,Weixi,Zhongdian,Deqin,Shangri-La,Nujiang,Lushui",
+    "b": "Bijiang,Yangbi,Midu,Xiangyun,Shuanglang,Fengqing,Yongping,Longling,Lanping,Liuku,Pianma,Dali,Lijiang,Weishan,Yunlong,Binchuan,Eryuan,Heqing,Jianchuan,Nanjian,Changning,Gongshan,Fugong,Weixi,Zhongdian,Deqin,Shangri-La,Nujiang,Lushui,Tuoluo,Gongxing,Enqi,Jinman,Ega",
     "status": "COMPLETE"
   },
   {

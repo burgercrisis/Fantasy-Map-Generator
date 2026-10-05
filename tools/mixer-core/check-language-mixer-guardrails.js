@@ -432,6 +432,55 @@ const ALLOWED_REMOVALS = new Set([
     //     Kanta-Uusimaa. i=2139 then contained i=910's list plus four more.
     "savonlinna",
     "keuruu-evij-rvi",
+    // Nine more, all aliases whose catalog label differed from the survivor they
+    // were repointed at. A key only pays off when both names agree - W009 compares
+    // the catalog name against the ENTRY name - so the alias goes and the language
+    // stays reachable under its own key.
+    //   x-asaro                  - rekeyed to `aso`, the real ISO for Dano (Upper
+    //     Asaro); "Asaro" is an alt name of aso, which is what collided it with the
+    //     separate Kainantu-Goroka Dano at i=1656.
+    //   x-torne-valley, x-swedish, x-swedish-native-speakers-subset, diu,
+    //     joseon-early-modern-korean, standard-finnish, standard-french,
+    //     swedish-native-speakers
+    //   kuril-dialects           - a branch label, and factually wrong: Ainu has
+    //     three geographical varieties (Hokkaido, Sakhalin, Kuril) and this list
+    //     held the Kurils PLUS Sakhalin and Hokkaido.
+    //   tornio                    - Tornio is a FINNISH CITY. Its 4 extra seeds are
+    //     South Karelia municipalities 700 km away.
+    "x-asaro",
+    "x-torne-valley",
+    "x-swedish",
+    "x-swedish-native-speakers-subset",
+    "diu",
+    "joseon-early-modern-korean",
+    "standard-finnish",
+    "standard-french",
+    //   swedish-native-speakers
+    //     The catalog row goes with the key. "Swedish (native-speakers subset)"
+    //     appears nowhere in ISO 639-3, Ethnologue or Glottolog, and the entry it
+    //     named was byte-identical to Standard Swedish except for one swapped token -
+    //     Valjala for Aium, Andorra. Same artefact class as the Sundanese subset row
+    //     retired earlier. Left in place it still normalised to "swedish" and collided
+    //     with `swe` in the fuzzy check.
+    "swedish-native-speakers",
+    //   xsu -> sanoma
+    //     The one ISO-squatting key found in this project. ISO 639-3 `xsu` is
+    //     SANTALI, but the catalog row for it was named "Sanoma (Sanuma)" with family
+    //     Yanomaman while carrying the Wikipedia link to ISO_639:xsu - which is the
+    //     Santali page. So the key occupied another language's identifier and resolved
+    //     to a third. It did not strand Santali, which is correctly reachable through
+    //     its real code `sat`; the row was simply wrong in every field. Rekeyed to
+    //     `sanoma` and de-linked. (`san` could not be reused: it is Sanskrit.)
+    "xsu",
+    "kuril-dialects",
+    "torne-valley",
+    "x-su",
+    "su",
+    //   put-r
+    //     A duplicate of putr, differing only in the accent of the catalog name
+    //     ("Puter" vs "Putèr"), which normalises identically.
+    "put-r",
+    "tornio",
     "manduriano",
     "x-cremun-s",
     // "pyo" is not an ISO 639-3 code for the language it was named for. Puyo is

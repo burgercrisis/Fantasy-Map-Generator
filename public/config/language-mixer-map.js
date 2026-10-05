@@ -4342,12 +4342,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "diu",
-    "bases": [
-      203248
-    ]
-  },
-  {
     "iso": "dogri",
     "bases": [
       1794
@@ -5425,12 +5419,6 @@ globalThis.languageMixerMap = [
     "iso": "kuril-ainu",
     "bases": [
       2295
-    ]
-  },
-  {
-    "iso": "kuril-dialects",
-    "bases": [
-      2296
     ]
   },
   {
@@ -6549,12 +6537,6 @@ globalThis.languageMixerMap = [
     "iso": "samre",
     "bases": [
       202620
-    ]
-  },
-  {
-    "iso": "san",
-    "bases": [
-      202621
     ]
   },
   {
@@ -8508,12 +8490,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "joseon-early-modern-korean",
-    "bases": [
-      1991
-    ]
-  },
-  {
     "iso": "joseon-middle-korean",
     "bases": [
       2041
@@ -9924,12 +9900,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "standard-finnish",
-    "bases": [
-      1082
-    ]
-  },
-  {
     "iso": "surgut-khanty",
     "bases": [
       2325
@@ -10008,16 +9978,8 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "torne-valley",
-    "bases": [
-      200818
-    ]
-  },
-  {
     "iso": "tornio",
-    "bases": [
-      1086
-    ]
+    "bases": []
   },
   {
     "iso": "transylvanian-plain",
@@ -11734,12 +11696,6 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
-    "iso": "put-r",
-    "bases": [
-      203302
-    ]
-  },
-  {
     "iso": "regional-italian",
     "bases": []
   },
@@ -11976,12 +11932,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "standard-french",
-    "bases": [
-      641
-    ]
-  },
-  {
     "iso": "standard-italian",
     "bases": [
       642
@@ -12015,12 +11965,6 @@ globalThis.languageMixerMap = [
     "iso": "swabian-german",
     "bases": [
       200885
-    ]
-  },
-  {
-    "iso": "swedish-native-speakers",
-    "bases": [
-      200886
     ]
   },
   {
@@ -18260,12 +18204,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "xsu",
-    "bases": [
-      201328
-    ]
-  },
-  {
     "iso": "saramaccan",
     "bases": [
       201329
@@ -19111,12 +19049,6 @@ globalThis.languageMixerMap = [
     "iso": "jv",
     "bases": [
       10017
-    ]
-  },
-  {
-    "iso": "su",
-    "bases": [
-      200506
     ]
   },
   {
@@ -20950,12 +20882,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-swedish-native-speakers-subset",
-    "bases": [
-      200886
-    ]
-  },
-  {
     "iso": "x-wymysorys",
     "bases": [
       200893
@@ -21121,12 +21047,6 @@ globalThis.languageMixerMap = [
     "iso": "x-sz-kely",
     "bases": [
       200810
-    ]
-  },
-  {
-    "iso": "x-torne-valley",
-    "bases": [
-      200818
     ]
   },
   {
@@ -21946,12 +21866,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-su",
-    "bases": [
-      200506
-    ]
-  },
-  {
     "iso": "x-torwali",
     "bases": [
       200548
@@ -22476,7 +22390,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-swedish",
     "bases": [
-      50005
+      200884
     ]
   },
   {
@@ -22578,7 +22492,7 @@ globalThis.languageMixerMap = [
   {
     "iso": "x-shipibo-conibo-amazonian",
     "bases": [
-      21004
+      201330
     ]
   },
   {
@@ -23080,7 +22994,7 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "x-asaro",
+    "iso": "aso",
     "bases": [
       97976
     ]
@@ -23912,6 +23826,18 @@ globalThis.languageMixerMap = [
     "iso": "putr",
     "bases": [
       203302
+    ]
+  },
+  {
+    "iso": "sanoma",
+    "bases": [
+      201328
+    ]
+  },
+  {
+    "iso": "san",
+    "bases": [
+      202621
     ]
   }
 ];

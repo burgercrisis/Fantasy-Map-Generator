@@ -11,10 +11,10 @@ Generated: 2026-10-05  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2937 |
-| Marked COMPLETE (>= 25 seeds) | 1706 |
-| Marked WAITING (< 25 seeds) | 1231 |
-| Below seed floor | 1198 |
+| Language entries | 2925 |
+| Marked COMPLETE (>= 25 seeds) | 1699 |
+| Marked WAITING (< 25 seeds) | 1226 |
+| Below seed floor | 1193 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -26,16 +26,16 @@ Generated: 2026-10-05  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 686 | 236 | 1 | 27 |
-| asia | 1007 | 539 | 2 | 22 |
-| europe | 595 | 162 | 0 | 30 |
+| asia | 1002 | 535 | 2 | 23 |
+| europe | 589 | 161 | 0 | 30 |
 | northAmerica | 202 | 59 | 0 | 30 |
-| southAmerica | 149 | 28 | 0 | 31 |
+| southAmerica | 148 | 28 | 0 | 31 |
 | oceania | 288 | 174 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1198 entries need authentic settlement names. Ordered by seed count,
+1193 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -102,6 +102,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 200305 | Jogi |
 | 3 | asia | 200312 | Kalkoti |
 | 3 | asia | 200325 | Khetrani |
+| 3 | asia | 200580 | Yang Zhuang |
 | 3 | asia | 200720 | Yeheni |
 | 3 | asia | 202620 | Samre |
 | 3 | asia | 202833 | Mo Piu |
@@ -114,6 +115,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 200811 | Tagil |
 | 3 | europe | 1503 | Hinuq |
 | 3 | northAmerica | 6624 | Chochotec |
+| 3 | oceania | 1918 | Gimi |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202371 | Nduga |
 | 3 | oceania | 202738 | Dhuwal |
@@ -148,6 +150,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200280 | Ghera |
 | 4 | asia | 200332 | Kurumba |
 | 4 | asia | 200337 | Longsang Zhuang |
+| 4 | asia | 200387 | Myang Zhuang |
 | 4 | asia | 200451 | Ra'ong |
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
@@ -194,7 +197,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 1149 | Badeshi |
 | 5 | asia | 1156 | Fuyu Kyrgyz |
 | 5 | asia | 1168 | Pa Di |
-| 5 | asia | 203195 | Bijiang Bai language |
 | 5 | asia | 1661 | Darkhad |
 | 5 | asia | 1891 | Southern Ghale |
 | 5 | asia | 1982 | Pathiya |
@@ -221,6 +223,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
 | 5 | oceania | 1851 | Fore |
+| 5 | oceania | 97976 | Dano (Upper Asaro) |
 | 5 | oceania | 200973 | Papuan Pidgin English |
 | 5 | oceania | 201113 | Nedebang |
 | 5 | oceania | 202464 | Suganga |
@@ -337,11 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | northAmerica | 200906 | Itza' |
 | 7 | oceania | 1827 | Grass Koiari |
 | 7 | oceania | 97974 | Huli |
-| 7 | oceania | 201207 | Usarufa |
-| 7 | oceania | 1069 | Kárás |
-| 7 | oceania | 202478 | Tifal |
 
-_Showing the lowest 300 of 1198. Full queue:_
+_Showing the lowest 300 of 1193. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
