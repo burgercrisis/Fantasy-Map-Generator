@@ -2681,8 +2681,8 @@
       "family": "Chadic"
     },
     {
-      "name": "Nǁng",
-      "iso": "nng",
+      "name": "ǂKhomani",
+      "iso": "ngh",
       "region": "Africa",
       "category": "Tuu",
       "family": "Tuu"
@@ -5049,7 +5049,7 @@
       "iso": "bmj",
       "region": "Asia",
       "category": "Indo-Aryan",
-      "family": "Unclassified Indo-Aryan"
+      "family": "Indo-Aryan"
     },
     {
       "name": "Bouhin",
@@ -20788,7 +20788,7 @@
     {
       "name": "Babuza",
       "iso": "bzg",
-      "region": "Pacific",
+      "region": "Asia",
       "category": "Austronesian",
       "family": "Formosan",
       "wikipedia": "https://en.wikipedia.org/wiki/Babuza_language"
@@ -20865,7 +20865,7 @@
     {
       "name": "Basay",
       "iso": "byq",
-      "region": "Pacific",
+      "region": "Asia",
       "category": "Austronesian",
       "family": "Formosan",
       "wikipedia": "https://en.wikipedia.org/wiki/Basay_language"
@@ -22010,7 +22010,7 @@
     {
       "name": "Kapauri",
       "iso": "khp",
-      "region": "Pacific",
+      "region": "Asia",
       "category": "Papuan",
       "wikipedia": "https://en.wikipedia.org/wiki/Kapori_language",
       "family": "Kwerbic"
@@ -22123,7 +22123,7 @@
       "family": "Kiwaian"
     },
     {
-      "name": "Ketagalan",
+      "name": "Luilang",
       "iso": "kae",
       "region": "Pacific",
       "category": "Austronesian",
@@ -22304,8 +22304,8 @@
       "family": "East Strickland"
     },
     {
-      "name": "Kui Alor-Pantar",
-      "iso": "kui",
+      "name": "Alor Kui",
+      "iso": "kvd",
       "region": "Pacific",
       "category": "Papuan",
       "family": "Alor–Pantar"
@@ -27119,14 +27119,14 @@
     },
     {
       "iso": "fub",
-      "name": "Adamawa Fulfulde",
+      "name": "Fulfulde",
       "region": "Africa",
       "category": "Niger-Congo",
       "family": "Atlantic-Congo"
     },
     {
       "iso": "fue",
-      "name": "Borgu Fulfulde",
+      "name": "Fulfulde",
       "region": "Africa",
       "category": "Niger-Congo",
       "family": "Atlantic-Congo"
@@ -27140,14 +27140,14 @@
     },
     {
       "iso": "fui",
-      "name": "Bagirmi Fulfulde",
+      "name": "Fulfulde",
       "region": "Africa",
       "category": "Niger-Congo",
       "family": "Atlantic-Congo"
     },
     {
       "iso": "fuv",
-      "name": "Nigerian Fulfulde",
+      "name": "Fulfulde",
       "region": "Africa",
       "category": "Niger-Congo",
       "family": "Atlantic-Congo"
@@ -29197,6 +29197,16 @@
       "family": "Romance",
       "tags": [
         "Indo-European"
+      ]
+    },
+    {
+      "name": "Fulfulde",
+      "iso": "ful",
+      "region": "Africa",
+      "category": "Niger-Congo",
+      "family": "Atlantic-Congo",
+      "tags": [
+        "macrolanguage"
       ]
     }
   ];

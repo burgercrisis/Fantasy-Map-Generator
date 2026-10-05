@@ -10106,5 +10106,126 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Ailan,Wunioulanshe Auran,Neisha,Liyu Lake,Dashe,Anli,Ailan Presbyterian Church,Shoucheng,Danan,Wugung,Niouwei,Nioumien,Puli,Nantou,Fengyuan,Da'an,Shengang,Houli,Daya,Tanzi",
     "status": "WAITING"
+  },
+  {
+    "name": "Basay",
+    "i": 203312,
+    "file": "asia",
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Tamsui,Bali,Shimen,Jinshan,Wanli,Gongliao,Shuangxi,Ruifang,Keelung,Zhuangwei,Lin'ao,Chongde"
+  },
+  {
+    "name": "Babuza",
+    "i": 203313,
+    "file": "asia",
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Favorlang,Mao'erkang,Erlin,Mazhilian,Assoeck,Babariangh,Dawujun,Dobalibaiou,Meili,Dobalibaota,Goumol,Talibu,Babuza"
+  },
+  {
+    "name": "Bintulu",
+    "i": 203314,
+    "file": "asia",
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "COMPLETE",
+    "b": "Bintulu,Kidurong,Kampung Masjid,Kampung Sinong,Kampung Datuk,Kampung Sibiew,Kampung Baru,Kampung Jepak,Kampung Sebuan,Kampung Batu Sepuluh,Kampung Kuala Tatau,Kampung Segan,Kampung Asyakirin,Began,Silas,Sepadok,Pendan,Labang,Tubau,Tatau,Sual,Sebauh,Niah,Bekenu,Subis,Kampung Pandan,Kampung Hulu,Kampung Hilir,Kampung Maskat,Kampung Sebubun"
+  },
+  {
+    "name": "Muna",
+    "i": 203315,
+    "file": "asia",
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "COMPLETE",
+    "b": "Raha,Tongkuno,Lohia,Waara,Oempu,Kabawo,Bente,Bone Tondo,Katobu,Lawa,Lambelu,Lambiku,Gala,Lapadaku,Sidamangura,Lasiwa,Maligano,Wasilomata,Bombonawulu,Talaga Satu,Nepa Mekar,Todanga,Watumotobe,Lipu,Boneoge,Kioko,Lawela,Katobengke,Topa,Sulaa,Kaimbulawa,Lowu-Lowu,Burukene,Laompo,Busoa"
+  },
+  {
+    "name": "Chilisso",
+    "i": 203316,
+    "file": "asia",
+    "min": 3,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Dasu,Gujjar Banda,Jalkot,Mahirin"
+  },
+  {
+    "name": "Kurmali",
+    "i": 203317,
+    "file": "asia",
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "COMPLETE",
+    "b": "Bundu,Barenda,Sonahatu,Rahe,Silli,Tamar,Torpa,Sisai,Angarabari,Banabira,Barkuli,Diyankel,Ermere,Hotor,Husir,Icha,Jariya,Kajurda,Kamra,Kanakloiya,Kasmar,Keyondtoli,Kokeya,Kuari,Kulda,Marcha,Nawatoli,Nichitpur,Paira,Patpur,Raisimla,Roykera,Saradkela,Sarangloya,Satal,Sonpurgarh,Sundari,Tapkara,Tati,Turigara,Ubka,Urikel"
+  },
+  {
+    "name": "Bote",
+    "i": 203318,
+    "file": "asia",
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "status": "COMPLETE",
+    "b": "Bamgha,Baireni,Kumaltari,Dumsi,Patan,Dodeni,Galbu,Beithumbi,Pathra Ghat,Sati Ghat,Dev Ghat,Batoule,Pipal Tar,Jharkhane,Saranga Ghat,Madhuvan,Barhaghare,Baskattha,Jayamangala,Ghaila Ghari,Jitpur,Bankatta,Pandav Nagar,Krishna Nagar,Govinda Basti,Bandar Jhula,Pohari,Beluwa,Kanchi Bagai,Bairath Jhula,Agyouli,Rajahar,Bardaghat,Dibya Nagar,Kyoureni,Koluha,Daldale,Gaidakot,Chormara,Tamsariya,Bandagaun,Simara,Bote Tole,Paschim Tar"
+  },
+  {
+    "name": "Alor Kui",
+    "i": 203319,
+    "file": "asia",
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Lerabaing,Wakapsir,Wakapsir Timur,Tribur,Bombaru,Buraga,Moru,Kikilai"
+  },
+  {
+    "name": "Kapauri",
+    "i": 203320,
+    "file": "asia",
+    "min": 3,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Pagai,Kamikaru,Makri"
+  },
+  {
+    "name": "Guriaso",
+    "i": 203321,
+    "file": "asia",
+    "min": 3,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Guriaso,Maragin,Wuraboi,Ekas,Mafuara"
+  },
+  {
+    "name": "Dibiyaso",
+    "i": 203322,
+    "file": "asia",
+    "min": 3,
+    "max": 11,
+    "d": "",
+    "m": 0,
+    "status": "WAITING",
+    "b": "Bamustu,Makapa,Pikiwa"
   }
 ];

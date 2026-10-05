@@ -11,22 +11,22 @@ Generated: 2026-10-05  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2933 |
-| Marked COMPLETE (>= 25 seeds) | 1704 |
-| Marked WAITING (< 25 seeds) | 1229 |
-| Below seed floor | 1196 |
+| Language entries | 2945 |
+| Marked COMPLETE (>= 25 seeds) | 1709 |
+| Marked WAITING (< 25 seeds) | 1236 |
+| Below seed floor | 1203 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 830 |
+| Map ISOs with no namebase (research backlog) | 814 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 686 | 236 | 1 | 27 |
-| asia | 1010 | 538 | 2 | 23 |
+| africa | 687 | 236 | 1 | 27 |
+| asia | 1021 | 545 | 2 | 22 |
 | europe | 589 | 161 | 0 | 30 |
 | northAmerica | 202 | 59 | 0 | 30 |
 | southAmerica | 148 | 28 | 0 | 31 |
@@ -35,7 +35,7 @@ Generated: 2026-10-05  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1196 entries need authentic settlement names. Ordered by seed count,
+1203 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -108,6 +108,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 202620 | Samre |
 | 3 | asia | 202833 | Mo Piu |
 | 3 | asia | 202857 | She |
+| 3 | asia | 203320 | Kapauri |
+| 3 | asia | 203322 | Dibiyaso |
 | 3 | europe | 453 | Jauer |
 | 3 | europe | 759 | Nizyam |
 | 3 | europe | 1488 | Sercquiais |
@@ -159,6 +161,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 1062 | Nuoxi Naxi Yao |
 | 4 | asia | 202574 | Paha |
 | 4 | asia | 203077 | Kanakanavu |
+| 4 | asia | 203316 | Chilisso |
 | 4 | europe | 1852 | Forest Enets |
 | 4 | europe | 200747 | Lower Demjanka |
 | 4 | europe | 200775 | On |
@@ -216,6 +219,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 200571 | Wadiyara Koli |
 | 5 | asia | 1481 | Central Min |
 | 5 | asia | 202477 | Thao |
+| 5 | asia | 203321 | Guriaso |
 | 5 | europe | 1480 | Central Mansi |
 | 5 | europe | 2378 | Northern Selkup |
 | 5 | europe | 200746 | Lipsha |
@@ -336,12 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | northAmerica | 1198 | Tlicho |
 | 7 | northAmerica | 1630 | Chicomuceltec |
 | 7 | northAmerica | 2439 | Cuicatec |
-| 7 | northAmerica | 8055 | Chontal Maya |
-| 7 | northAmerica | 200906 | Itza' |
-| 7 | oceania | 1827 | Grass Koiari |
-| 7 | oceania | 97974 | Huli |
 
-_Showing the lowest 300 of 1196. Full queue:_
+_Showing the lowest 300 of 1203. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-830 languages the mixer map offers have no namebase entry
+814 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -390,7 +390,6 @@ created from research. Nothing here is guessed at.
 | abon | Abon | undefined |
 | aboriginal-pidgin-english | Aboriginal Pidgin English | undefined |
 | abui | Abui | undefined |
-| fub | Adamawa Fulfulde | undefined |
 | adang | Adang | undefined |
 | adnyamathanha | Adnyamathanha | undefined |
 | african-romance | African Romance | undefined |
@@ -436,11 +435,9 @@ created from research. Nothing here is guessed at.
 | awin-pa | Awin-Pa | 2737 |
 | aym | Aymara Names | 20088 |
 | baarin | Baarin Mongol | 5632 |
-| bzg | Babuza | undefined |
 | babylonian | Babylonian | undefined |
 | bade-language | Bade alias | 1338 |
 | baghdadi-arabic | Baghdadi Arabic | undefined |
-| fui | Bagirmi Fulfulde | undefined |
 | baham | Baham | 202776 |
 | bhj | Bahing | 50003 |
 | bahrani-arabic | Bahrani Arabic | undefined |
@@ -458,7 +455,6 @@ created from research. Nothing here is guessed at.
 | barikanchi-pidgin | Barikanchi Pidgin | undefined |
 | baruga | Baruga | undefined |
 | basap | Basap | undefined |
-| byq | Basay | undefined |
 | bak | Bashkir Names | 20153 |
 | eus2 | Basque Expanded 2 | 20014 |
 | bata | Bata | undefined |
@@ -484,7 +480,6 @@ created from research. Nothing here is guessed at.
 | binahari | Binahari | 200010 |
 | binandere | Binandere | 200010 |
 | binanderean | Binanderean | 200010 |
-| bny | Bintulu | undefined |
 | binumarien | Binumarien | undefined |
 | bipim | Bipim | undefined |
 | bislama | Bislama | undefined |
@@ -509,8 +504,6 @@ created from research. Nothing here is guessed at.
 | bonin-english | Bonin English | undefined |
 | bono-nigeria | Bono Nigeria | undefined |
 | borgarm-let | Borgarmålet | undefined |
-| fue | Borgu Fulfulde | undefined |
-| bmj | Bote | undefined |
 | bouhin | Bouhin | undefined |
 | bourbonnais-creole | Bourbonnais Creole | 350 |
 | bre2 | Breton Expanded 2 | 20015 |
@@ -533,8 +526,15 @@ created from research. Nothing here is guessed at.
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
 | camtho | Camtho | undefined |
 | canaano-akkadian | Canaano-Akkadian | undefined |
+| carolinian | Carolinian | undefined |
+| castilian | Castilian Spanish | 286 |
+| cat2 | Catalan Expanded 2 | 20012 |
+| ceb2 | Cebuano Expanded 2 | 2667 |
+| cebuano-lang | Cebuano native-speakers subset | 2667 |
+| ckb | Central Kurdish | undefined |
+| central-selkup | Central Selkup | undefined |
 
-_Showing 150 of 830._
+_Showing 150 of 814._
 
 ## How to work on this
 

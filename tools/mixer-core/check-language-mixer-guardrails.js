@@ -473,6 +473,24 @@ const ALLOWED_REMOVALS = new Set([
     //     `sanoma` and de-linked. (`san` could not be reused: it is Sanskrit.)
     "xsu",
     "kuril-dialects",
+    //   nng -> ngh
+    //     Not a rename for tidiness. ISO 639-3 `nng` is Maring Naga, a Tibeto-Burman
+    //     language of Assam. The Taa language the row actually described is `ngh`
+    //     (the ǂKhomani), and it is effectively extinct - declared so in 1973, ~20-25
+    //     heritage speakers found in the 1990s, one remembered by 2023 - with no
+    //     documented settlement list, only Bleek's ecological zones. The row now
+    //     names the language it meant, and stays empty because there is nothing to
+    //     seed. Batches here that delete or rename a catalogued language need the same
+    //     allowance.
+    "nng",
+    //   kui -> kvd
+    //     ISO 639-3 `kui` is Kuikuro-Kalapalo, a Mura language of BRAZIL. The
+    //     Alor-Pantar language the row meant is kvd, endonym Masin Lak,
+    //     Glottolog kuii1253. Rekeyed, and the entry renamed "Alor Kui" because
+    //     kxu is a different language also called "Kui (India)" - and the fuzzy
+    //     duplicate check strips parentheses before normalising, so "Kui (Alor)"
+    //     still collided. A non-parenthetical label does not.
+    "kui",
     "torne-valley",
     "x-su",
     "su",
