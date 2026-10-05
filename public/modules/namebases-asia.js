@@ -66,7 +66,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Hong Kong,Guangzhou,Shenzhen,Macau,Zhuhai,Jiangmen,Huizhou,Zhaoqing,Yunfu,Shantou,Maoming,Yangjiang,Meizhou,Chaozhou,Jieyang,Shanwei,Taishan,Kaiping,Gaoyao,Sihui,Foshan,Dongguan,Zhongshan,Shaoguan,Qingyuan,Heyuan,Zhanjiang,Xinhui,Enping,Heshan,Huidong,Boluo,Zijin,Lufeng,Haifeng,Nanxiong,Wengyuan,Yingde,Lianzhou,Yangshan,Huaiji,Fengkai,Deqing,Gaoming,Nanhai,Shunde,Chanchen,Haojiang,Jinping,Longhu,Chenghai,Chaoyang,Chaonan,Chao'an,Raoping,Jiedong,Jiexi,Huilai,Puning,Luhe,Heping,Longchuan,Lianping,Xinfeng,Ruyuan,Liannan,Lianshan,Qingxin,Fogang,Nanning,Wuzhou,Beihai,Qinzhou,Fangchenggang,Yulin,Guigang,Hezhou,Chongzuo,Guiping,Cenxi,Tengxian,Cangwu,Beiliu,Rongxian,Luchuan,Bobai,Xingye,Pubei,Hepu,Conghua,Zengcheng,Huadu,Panyu",
+    "b": "Hong Kong,Guangzhou,Shenzhen,Macau,Zhuhai,Jiangmen,Huizhou,Zhaoqing,Yunfu,Maoming,Yangjiang,Meizhou,Shanwei,Taishan,Kaiping,Gaoyao,Sihui,Foshan,Dongguan,Zhongshan,Shaoguan,Qingyuan,Heyuan,Zhanjiang,Xinhui,Enping,Heshan,Huidong,Boluo,Zijin,Lufeng,Haifeng,Nanxiong,Wengyuan,Yingde,Lianzhou,Yangshan,Huaiji,Fengkai,Deqing,Gaoming,Nanhai,Shunde,Chanchen,Haojiang,Jinping,Longhu,Chenghai,Chaonan,Luhe,Heping,Longchuan,Lianping,Xinfeng,Ruyuan,Liannan,Lianshan,Qingxin,Fogang,Nanning,Wuzhou,Beihai,Qinzhou,Fangchenggang,Yulin,Guigang,Hezhou,Chongzuo,Guiping,Cenxi,Tengxian,Cangwu,Beiliu,Rongxian,Luchuan,Bobai,Xingye,Pubei,Hepu,Conghua,Zengcheng,Huadu,Panyu",
     "status": "COMPLETE"
   },
   {
@@ -8186,7 +8186,7 @@ window.asiaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Kulon,Kulonling,Fengshukeng,Xinlukeng",
+    "b": "Kulonling,Fengshukeng,Xinlukeng",
     "status": "WAITING"
   },
   {
@@ -10018,5 +10018,93 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kantaban,Vogai,Kadu,Kalibuan,Mahavun,Laidazuan,Nehunpu,Takkei,Haitutuan,Tamazuan,Mahowan,Malibasi,Kakacawan,Kohkoh,Dili,Tannan,Wanfeng,Fazhi,Wangxiang,Jiumei,Zhongzheng,Mayuan,Ren'ai,Xinyi,Zhuoxi,Haiduan,Wanrong,Nanxi,Qimei",
     "status": "COMPLETE"
+  },
+  {
+    "file": "asia",
+    "name": "Min Nan",
+    "i": 203303,
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0.2,
+    "b": "Xiamen,Quanzhou,Zhangzhou,Kinmen,Siming,Haicang,Huli,Jimei,Tong'an,Xiang'an,Gulangyu,Neicuo,Licheng,Fengze,Luojiang,Quangang,Shishi,Jinjiang,Nan'an,Hui'an,Anxi,Yongchun,Dehua,Xiangcheng,Longwen,Longhai,Changtai,Yunxiao,Zhangpu,Zhao'an,Dongshan,Nanjing,Pinghe,Hua'an,Shima,Xinluo,Zhangping",
+    "status": "COMPLETE"
+  },
+  {
+    "file": "asia",
+    "name": "Min Dong",
+    "i": 203304,
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0.2,
+    "b": "Fuzhou,Gulou,Taijiang,Cangshan,Mawei,Minhou,Changle,Lianjiang,Luoyuan,Minqing,Yongtai,Pingtan,Fuqing,Ningde,Jiaocheng,Xiapu,Gutian,Pingnan,Fuan,Fuding,Shouning,Zhouning,Zherong,Taishun,Cangnan,Matsu,Lienchiang,Zhongshan,Dachong,Shaxi,Nanlang",
+    "status": "COMPLETE"
+  },
+  {
+    "file": "asia",
+    "name": "Boro",
+    "i": 203305,
+    "min": 4,
+    "max": 13,
+    "d": "",
+    "m": 0.2,
+    "b": "Kokrajhar,Gossaigaon,Parbatjhora,Dotma,Bhowraguri,Bagribari,Fakiragram,Serfanguri,Kachugaon,Kazigaon,Salakati,Chapar,Bongaigaon,Chirang,Kajalgaon,Bijni,Sidli,Baksa,Mushalpur,Salbari,Tamulpur,Barama,Rangia,Udalguri,Odalguri,Tangla,Rowta,Mazbat,Kalaigaon,Harisinga,Paneri,Khairabari,Bhergaon,Goalpara,Lakhimpur,Dhemaji,Sonitpur,Tezpur,Darrang,Mangaldoi,Dhubri,Cooch Behar,Jalpaiguri,Alipurduar",
+    "status": "COMPLETE"
+  },
+  {
+    "file": "asia",
+    "name": "Nuosu (Yi)",
+    "i": 203306,
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0.2,
+    "b": "Xichang,Yanyuan,Dechang,Huili,Huidong,Ningnan,Puge,Butuo,Jinyang,Zhaojue,Xide,Mianning,Yuexi,Ganluo,Meigu,Leibo,Muli,Shimian,Ebian,Jionglong,Lugu,Hebian,Manshuiwan,Lizhou,Yuehua,Mianshan,Ninglang,Yongsheng,Huaping,Lijiang,Jianchuan,Yongshan,Qiaojia",
+    "status": "COMPLETE"
+  },
+  {
+    "file": "asia",
+    "name": "Kusunda",
+    "i": 203307,
+    "min": 3,
+    "max": 12,
+    "d": "",
+    "m": 0,
+    "b": "Ghorahi,Lamahi,Tulsipur,Sakhi,Sandhikharka,Gurbhakot,Dharna,Tehrakilo,Ambapur,Budhicaur,Surkhet,Pyuthan,Dang",
+    "status": "WAITING"
+  },
+  {
+    "file": "asia",
+    "name": "Amis",
+    "i": 203308,
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0.2,
+    "b": "Kaliyawan,Kalingko,Pokpok,Natawran,Miyamay,Mafuwakay,Keliw,Fanaw,Rinahem,Cihafayan,Cirakayan,Cingaloan,Cirihan,Kalotongan,Fata'an,Tafalong,Kiwit,Ma'ifor,Lingacay,Satefo,Kohkoh,Mancelan,Makotaay,Lidaw,Tomay,Ciwidian,Karoroan,Paterongan,Mararoong,Tingalaw,Faliyol,Fakong,Kudic,Koladot,Tapwaray,Makrahay,Ciwkangan,Mornos,Pakara'ac,Pasongan,Kinanoka,Cidatayay,Sa'aniwan,Tokar,Takoliyaw,Posko,Afih,Harawan,Angcoh,Malingpo,Talampo,Cilamitay,Alapawan,Takofan,Palayapay,Dikidiki,Ining,Arapanay,Tomiyac,Pisirian,Madawdaw,Cilikesay,Kahciday,Kanalatip,Paongong,Torik,Fafokod,Kaningafar,Pa'anifong,Atolan,Falangaw,Posong,Matang",
+    "status": "COMPLETE"
+  },
+  {
+    "file": "asia",
+    "name": "Siraya",
+    "i": 203309,
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "Sinckan,Mattau,Soulang,Bacloan,Tavokan,Tevorang,Backeroan,Tafalan,Tifalukan,Teopang,Madou,Jiali,Shanhua,Xinshi,Xinhua,Houbi,Soulangh Cultural Park,Jibeishua,Koupi,Tsozhen,Chiou Chen Lin,Jheng Sin",
+    "status": "WAITING"
+  },
+  {
+    "file": "asia",
+    "name": "Pazeh",
+    "i": 203310,
+    "min": 3,
+    "max": 13,
+    "d": "",
+    "m": 0,
+    "b": "Ailan,Wunioulanshe Auran,Neisha,Liyu Lake,Dashe,Anli,Ailan Presbyterian Church,Shoucheng,Danan,Wugung,Niouwei,Nioumien,Puli,Nantou,Fengyuan,Da'an,Shengang,Houli,Daya,Tanzi",
+    "status": "WAITING"
   }
 ];

@@ -11,14 +11,14 @@ Generated: 2026-10-05  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2925 |
-| Marked COMPLETE (>= 25 seeds) | 1699 |
-| Marked WAITING (< 25 seeds) | 1226 |
-| Below seed floor | 1193 |
+| Language entries | 2933 |
+| Marked COMPLETE (>= 25 seeds) | 1704 |
+| Marked WAITING (< 25 seeds) | 1229 |
+| Below seed floor | 1196 |
 | Zero seeds | 4 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 838 |
+| Map ISOs with no namebase (research backlog) | 830 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
@@ -26,7 +26,7 @@ Generated: 2026-10-05  |  Seed floor: 25
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
 | africa | 686 | 236 | 1 | 27 |
-| asia | 1002 | 535 | 2 | 23 |
+| asia | 1010 | 538 | 2 | 23 |
 | europe | 589 | 161 | 0 | 30 |
 | northAmerica | 202 | 59 | 0 | 30 |
 | southAmerica | 148 | 28 | 0 | 31 |
@@ -35,7 +35,7 @@ Generated: 2026-10-05  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1193 entries need authentic settlement names. Ordered by seed count,
+1196 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -104,6 +104,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | asia | 200325 | Khetrani |
 | 3 | asia | 200580 | Yang Zhuang |
 | 3 | asia | 200720 | Yeheni |
+| 3 | asia | 203265 | Kulon |
 | 3 | asia | 202620 | Samre |
 | 3 | asia | 202833 | Mo Piu |
 | 3 | asia | 202857 | She |
@@ -154,7 +155,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200451 | Ra'ong |
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
-| 4 | asia | 203265 | Kulon |
 | 4 | asia | 202614 | Sa-och |
 | 4 | asia | 1062 | Nuoxi Naxi Yao |
 | 4 | asia | 202574 | Paha |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 7 | oceania | 1827 | Grass Koiari |
 | 7 | oceania | 97974 | Huli |
 
-_Showing the lowest 300 of 1193. Full queue:_
+_Showing the lowest 300 of 1196. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-838 languages the mixer map offers have no namebase entry
+830 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -410,7 +410,6 @@ created from research. Nothing here is guessed at.
 | amh2 | Amharic Expanded 3 | 20031 |
 | amh3 | Amharic Expanded 4 | 20031 |
 | amharic-argobba | Amharic-Argobba | 20031 |
-| ami | Amis | undefined |
 | ammonite | Ammonite | undefined |
 | amorite | Amorite | undefined |
 | ancient-egyptian | Ancient Egyptian | undefined |
@@ -511,7 +510,6 @@ created from research. Nothing here is guessed at.
 | bono-nigeria | Bono Nigeria | undefined |
 | borgarm-let | Borgarmålet | undefined |
 | fue | Borgu Fulfulde | undefined |
-| brx | Boro (Bodo) | undefined |
 | bmj | Bote | undefined |
 | bouhin | Bouhin | undefined |
 | bourbonnais-creole | Bourbonnais Creole | 350 |
@@ -533,8 +531,10 @@ created from research. Nothing here is guessed at.
 | bua | Buryat Names | 20112 |
 | busa | Busa | undefined |
 | cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
+| camtho | Camtho | undefined |
+| canaano-akkadian | Canaano-Akkadian | undefined |
 
-_Showing 150 of 838._
+_Showing 150 of 830._
 
 ## How to work on this
 

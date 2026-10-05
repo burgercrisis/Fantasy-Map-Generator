@@ -5038,7 +5038,7 @@
       "family": "Baoanic"
     },
     {
-      "name": "Boro (Bodo)",
+      "name": "Boro",
       "iso": "brx",
       "region": "Asia",
       "category": "Sino-Tibetan",
@@ -27553,7 +27553,7 @@
     },
     {
       "iso": "iii",
-      "name": "Yi Names",
+      "name": "Nuosu (Yi)",
       "region": "Asia",
       "category": "Sino-Tibetan",
       "family": "Tibeto-Burman"
