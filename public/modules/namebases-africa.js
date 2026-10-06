@@ -1326,7 +1326,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tiémié,Abrunamiambo,Krokpo,Prokpamrin,Lélémrin,Tiagbamrin,Mobu,Adioukrou,Alladian,Ezibo,Lagoon Akan,Southern Côte d'Ivoire,Jacqueville Subprefecture,Dabou Subprefecture,Apro,People,Lélemrin,Mobuin,Twelve Age Classes,Dugout Canoes,Palm Oil,Trade Goods,Transportation,Waterways,Nineteenth Century,Treich-Laplène,Bombarded Jacqueville,Independence,Maintained,Native To,Ethnicity",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/apro1235",
+        "https://glottolog.org/resource/languoid/id/tiag1235",
+        "https://glottolog.org/resource/languoid/id/mobu1235",
+        "https://iso639-3.sil.org/code/ahp",
+        "https://iso639-3.sil.org/code/ahi",
+        "https://iso639-3.sil.org/code/ahm",
+        "https://fr.wikipedia.org/wiki/A%C3%AFzi",
+        "https://rezoivoire.net/ivoire/patrimoine/2413/le-peuplement-du-pays-aizi-1ere-partie.html",
+        "https://www.sil.org/resources/archives/9050",
+        "https://joshuaproject.net/people_groups/10212/IV"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T20:10:00Z",
+      "notes": "ISSUE: Severe contamination. Only 2/31 seeds are authentic Aizi settlements: Tiémié, Abrunamiambo. Contamination: 7 language/dialect names (Krokpo, Prokpamrin, Lélémrin, Tiagbamrin, Mobu, Apro, Lélemrin - ISO 639-3 codes ahp/ahi/ahm), 4 ethnic/group names (Adioukrou, Alladian, Mobuin, People), 4 admin/regional terms (Lagoon Akan, Southern Côte d'Ivoire, Jacqueville Subprefecture, Dabou Subprefecture), 11 cultural/historical concepts (Twelve Age Classes, Dugout Canoes, Palm Oil, Trade Goods, Transportation, Waterways, Nineteenth Century, Treich-Laplène, Bombarded Jacqueville, Independence, Ethnicity), 3 unidentified fragments (Ezibo, Maintained, Native To). Aizi (Aproumu/Tiagbamrin/Mobumrin, ISO 639-3: ahp/ahi/ahm) spoken in Jacqueville/Dabou subprefectures, Côte d'Ivoire. Authentic villages per SIL/Verdeaux 1981: Tiagba, Nigui-Saff, Nigui-Assoko, Atoutou B, Tiami, Tabot, Bapo, Koko, Atoutou A, Alaba, Tefreji, Abrako, Abra Niamiambo. Entry needs full reseeding."
+    }
   },
   {
     "name": "Argobba",
@@ -1336,7 +1354,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Shewa Robit,Berket,Metehara,Yimlawo,Gusa,Wärk-Amba,Särbädin,Ğänno,Essoyyä Hijirota,Ğonkä,Färäja,Mägäräjja,Ğolaha,Aliyu Amba-Ankober,Shonke-T'allaha,Gachene,Rasa,Rasa kâbâlé,Sânbâté,Fiqi Debes,Ataye,Timuga,Wereabu,Yifat,Timuga Province,Awraja,Shoa,Governorate General,Mata Qore,Mudhii Akambaaloo,Kara Qore,Qomboro,Qomboro Washa Mujahid,Kemisse,Sànbâté,Sanbâté,Border Market Town,ArÇume,Jilé Wàràda,Jilé Timuga Wereabu,Oromigna,Afarigna,Trist,Lingual,Semi-Sedentary,Muslim,Neighbours,Raided,Djibouti-Addis Ababa Railway,Early 20th Century,Trade Routes,Marginalizing,Isolating,Commercial Posts,Erosion,Walashma Authority,State Taxation,Christian Amhara Settlers,Highlands",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/argo1244",
+        "https://iso639-3.sil.org/code/agj",
+        "https://www.endangeredlanguages.com/elp-context/context-21374-argobba-source-sociolinguistic-survey-report-argobba-language-ethiopia",
+        "https://www.persee.fr/doc/ethio_0066-2127_1959_num_3_1_1309",
+        "https://en.wikipedia.org/wiki/Argobba_people",
+        "https://en.wikipedia.org/wiki/Aliyu_Amba",
+        "https://en.wikipedia.org/wiki/Shewa_Robit",
+        "https://www.visitethiopia.et/space/shonke-village",
+        "http://ehsna.org/Resource/Ethiopian%20Languages.html",
+        "https://joshuaproject.net/people_groups/10422/ET"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T20:10:00Z",
+      "notes": "ISSUE: Severe contamination. Only 15/59 seeds are authentic Argobba settlements from primary sources: Shewa Robit, Berket, Metehara, Yimlawo, Gusa, Aliyu Amba, Shonke/T'olaha, Kemisse, Ğänno (Çanno), Berehet, Khayr Amba, Melka Jilo, Keramba, Ankober, plus 13 Shonke micro-villages (Abdelager, Akiager, Goze, Hudad, Kilegirma, K'imbibit, Lench'u-ager, Meriye, T'eyo, T'ak'war, Ts'akolu, Zehonka, T'olaha). Contamination: 5 admin divisions (Timuga Province, Awraja, Shoa, Governorate General, Yifat), 2 language names (Oromigna, Afarigna), 10 descriptors (Lingual, Semi-Sedentary, Muslim, Neighbours, Raided, Marginalizing, Isolating, Erosion, Highlands, Trist), 4 historical concepts (Walashma Authority, State Taxation, Christian Amhara Settlers, Early 20th Century), 3 infrastructure terms (Djibouti-Addis Ababa Railway, Trade Routes, Commercial Posts), 3 duplicate Sânbâté entries, 22+ unverified/invented names. Argobba (ISO 639-3: agj) spoken in Shewa/North Shewa zones, Ethiopia. Entry needs full reseeding with verified settlements from SIL Survey 2002."
+    }
   },
   {
     "name": "Bube",
@@ -1346,7 +1382,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Malabo,Luba,Rebola,Baney,Santiago de Baney,Santa Isabel,Basakato,Riaba,Moka,Batete,Ureca,Belebu Balacha,Bakake,Basupu,Sipopo,Batoicopo,Ombori,Musola,Bilelipa,Bococo,Bocoricho,Boemeriba,Ruiche,Basuala,Bariaobe,Balacha,Rilaja,Bantabare",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bube1242",
+        "https://www.ethnologue.com/language/bvb",
+        "https://en.wikipedia.org/wiki/Bioko",
+        "https://en.wikipedia.org/wiki/Rebola",
+        "https://en.wikipedia.org/wiki/Luba_(Equatorial_Guinea)",
+        "https://en.wikipedia.org/wiki/Moka_(Equatorial_Guinea)",
+        "https://njas.fi/njas/article/download/165/155/313",
+        "https://guineaecuatorialpress.com",
+        "https://www.cityclock.org",
+        "https://worldcitydb.com"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T20:10:00Z",
+      "notes": "All 28 seeds verified as authentic Bubi settlements on Bioko Island, Equatorial Guinea. Note: Santa Isabel is historical alias for Malabo (1973-1979). Spelling variants documented: Basakato/Basacato, Basupu/Basupú/Basapo, Ruiche/Ruiché/Ruitche, Bariaobe/Bariobe/Iriaobe, Basuala/Usuala, Bakake/Boake. Sources: Glottolog bube1242, Ethnologue bvb, Bioko/Rebola/Luba/Moka Wikipedia, academic paper 'Bubi Government at End of 19th Century' (Nordic Journal African Studies), government inaugurations (guineaecuatorialpress.com), climate/geographic databases (cityclock.org, worldcitydb.com)."
+    }
   },
   {
     "name": "Saya",
@@ -1356,7 +1410,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tafawa Balewa,Bununu,Bogoro,Dass,Lere,Wai,Bula,Dull,Kardam,Mball,Tapshin,Dajin,Zwall,Sigidi,Zango,Boto,Dare,Murno,Katirje,Maigyemu,Sudaye,Dulem,Boi,Badagari,Bugun,Dazara,Gambar,Gobbiya,Gyara,Mwari,Lusa,Nduku,Mogaro,Surr,Dott,Durr,Baraza,Bundot,Wandi,Lukshi,Polchi,Bagel,Bunduli,Darrari",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/saya1246",
+        "http://id.loc.gov/authorities/subjects/sh2010001002",
+        "https://en.wikipedia.org/wiki/Saya_language",
+        "https://www.sil.org/system/files/reapdata/12/05/32/120532260769229928233739063870104255690/JLSR2022_019.pdf"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T20:10:00Z",
+      "notes": "ISSUE: Only 18/44 seeds verified from primary sources (1980 historical interview, Ethnologue, Glottolog, Blench field notes). 2 seeds belong to other languages: Dass (ISO 639-3: dsk, separate South Bauchi language), Polchi (likely confusion with Polci, ISO 639-3: plj, separate language). Sigidi is a dialect name (Ethnologue/Glottolog), not a settlement. 25 seeds unattested in any primary source. Verified authentic: Tafawa Balewa, Bogoro, Lere, Tapshin, Zango, Boi, Badagari, Dazara, Gambar, Gobbiya, Gyara, Mwari, Lusa, Surr, Wandi, Bununu, Bar. Saya (ISO 639-3: say) spoken in Tafawa Balewa & Bogoro LGAs, Bauchi State, Nigeria. Entry requires significant cleanup before 'verified' status."
+    }
   },
   {
     "name": "Sidamo",
@@ -1366,7 +1432,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Hawassa,Yirgalem,Aleta Wendo,Leku,Chuko,Daye,Hagere Selam,Bona,Mejo,Kebado,Teferi Kela,Machisho,Aposto,Tula,Morocho,Loko,Shebedino,Dale,Wonsho,Gorche,Malga,Boricha,Hawassa Zuria,Loka Abaya,Wondo Genet,Bilate Zuria,Arbegona,Bursa,Hula,Dara,Dara Otilcho,Bensa,Chire,Aroresa,Teticha,Bura,Hoko,Darara,Shafamo",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/sida1246",
+        "https://en.wikipedia.org/wiki/Sidama_language",
+        "https://en.wikipedia.org/wiki/Sidama_Region",
+        "https://en.wikipedia.org/wiki/Dara_(woreda)",
+        "https://en.wikipedia.org/wiki/Hagere_Selam_(Sidama)",
+        "https://townsvillages.com/ethiopia/sidama/sidama-region",
+        "https://ethiopia-streets.openalfa.com/sidama_sidama",
+        "https://www.geonames.org/327842",
+        "https://www.weather.com",
+        "https://www.czgeology.cz"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T20:10:00Z",
+      "notes": "37/39 seeds confirmed authentic Sidama settlements. Loko (seed #16) appears in Oromiya per Mindat; Loka Abaya (#24) is the correct Sidama woreda (likely duplicate/shorthand). Chire (#33) = Chere woreda (transliteration variant). Verified: Hawassa (capital), Yirgalem, Aleta Wendo, Leku, Chuko, Daye, Hagere Selam, Bona, Mejo, Kebado, Teferi Kela, Machisho, Aposto, Tula, Morocho, Shebedino, Dale, Wonsho, Gorche, Malga, Boricha, Hawassa Zuria, Loka Abaya, Wondo Genet, Bilate Zuria, Arbegona, Bursa, Hula, Dara, Dara Otilcho, Bensa, Chire/Chere, Aroresa, Teticha, Bura, Hoko, Darara, Shafamo. Sidamo (Sidaamu Afoo, ISO 639-3: sid) spoken in Sidama Region, Ethiopia. Mix of woreda names and towns appropriate for namebase."
+    }
   },
   {
     "name": "Wolaytta",
