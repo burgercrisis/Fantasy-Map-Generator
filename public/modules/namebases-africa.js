@@ -3508,7 +3508,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kabala,Bafodea,Kamakwie,Binkolo,Kamabai,Madina,Fadugu,Kamasasa,Mabonto,Kamasigi,Bumbuna,Yagala,Gbawuria,Kakoya,Sakuta,Kambalia,Kamagbembe,Kamadendena,Kamabungu,Kakonso,Kayago,Kasongo,Kamankay,Kasokira,Kamasaypayna,Kagbumbo,Bonaia,Manlokoko,Kawere,Masasa,Makombon,Matunko,Mateli,Mabunko,Mankorokoro,Kamaron,Katanta,Kagbankona,Bunbande,Kadagbana,Kasompona,Magbengbe,Kamaranka,Bumban,Kathanta,Kayimbor,Manonkoh,Magbonkoni,Kamankoh,Mafure,Kasasi,Manke,Kodala,Kamaseh,Kathombo,Kapendiyoko",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/limb1267",
+        "https://www.ethnologue.com/language/lia",
+        "https://www.sierra-leone.org/chiefdoms.html",
+        "https://fallingrain.net/world/SL/",
+        "https://en.wikipedia.org/wiki/Kamabai"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T21:45:00Z",
+      "notes": "38/56 seeds verified. 18 unverified: 13 Kamabai cluster villages from single secondary source; 5 from Falling Rain; 2 potential duplicates (Kathanta/Katanta). 18/56 unverified (32%) exceeds verification threshold. Major Limba towns verified: Kabala, Bafodea, Kamakwie, Binkolo, Kamabai, Madina, Fadugu, Gbawuria, Kamaranka."
+    }
   },
   {
     "name": "Wushi",
@@ -3518,7 +3531,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bamenda,Nkambe,Wum,Mfundi,Babanki,Kom,Oku,Bafoussam,Bangante,Bandjoun,Baham,Bamendjou,Batcham,Bana,Bafou,Batoufam,Bamougoum,Bamessingue,Bangangté,Bafang,Bangwa,Bamunka,Bambalang,Bambui,Bambili,Bamukumbit,Bamum",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/wush1238",
+        "https://www.ethnologue.com/language/bse/",
+        "https://mairies-du-cameroun.org/sites/default/files/2021-04/17_CDP_BABESSI.pdf",
+        "https://www.sil.org/resources/archives/88399",
+        "https://www.sil.org/resources/archives/99147"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T21:50:00Z",
+      "notes": "0/27 seeds are authentic Wushi settlements. All seeds contaminated: Bamenda/Nkambe/Wum/Mfundi (wrong regions), Babanki/Kom/Oku (separate Ring languages), Bafoussam/Bangante/Bandjoun/Baham/Bamendjou/Batcham/Bana/Bafou/Batoufam/Bamougoum/Bamessingue/Bangangté/Bafang (Bamileke languages, West Region), Bangwa (Southwest Region, Bangwa language), Bamunka/Bambalang/Bambui/Bambili/Bamukumbit (separate Ndop Plain languages), Bamum (West Region, Bamum language). Wushi spoken only in Babessi Council (Baba I, Babungo, Bangolan, Babessi) on Ndop Plain. Entry completely contaminated; should be demoted to WAITING."
+    }
   },
   {
     "name": "Yulu",
@@ -3528,7 +3554,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Yambio,Nzara,Tambura,Bangassou,Bria,Doruma,Gambo,Obo,Birao,Bambouti,Dembo,Kapoeta,Torit,Juba,Bor,Nimule,Lafon,Pibor,Boma,Mundri,Lainya,Raja,Akobo,Wau,Yei,Maridi,Ezo,Nagero",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/yulu1243",
+        "https://www.ethnologue.com/language/yul/",
+        "https://en.wikipedia.org/wiki/Yulu_language",
+        "https://en.wikipedia.org/wiki/Yulu_people"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T21:55:00Z",
+      "notes": "Severely contaminated: 27/28 seeds not in Yulu language area. Only Raja (Raga) verified per 2013 survey (Dem Jalab Boma, Ringi Payam, Raja County). Seeds are generic South Sudan/CAR border towns: Azande towns (Yambio, Nzara, Tambura, Bangassou, Ezo), Eastern Equatoria (Kapoeta, Torit, Nimule, Lafon), Jonglei (Bor, Pibor, Boma, Akobo), CAR prefecture capitals (Bangassou, Bria, Birao, Obo, Bambouti, Gambo), national capitals (Juba, Wau). Actual Yulu settlements: CAR (Ouanda Djallé, Ouadda), South Sudan (Raja County: Dem Jalab Boma, Ringi Payam)."
+    }
   },
   {
     "name": "Air Tamajeq",
@@ -3538,7 +3576,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Agadez,Arlit,Tchirozerine,In-Gall,Aïr Mountains,Agadez Region,Zinder Region,Tahoua Region,Maradi Region,Azelik,Azelik-Agadez,Bagzane,Birik,Bilma,Chinargane,Dabaga,Dogo,Douék,Dénga,Elhadj Dérog,Eliki,Falki,Fezou,Frezou,Gama,Garin,Gazelle,Gidan,Gogore,Gougaram,Gourma,Iferouane,Ifrigh,In Tadjest,In Tchouzou,In Ziza,Inach,Ineggen,Inferri,Inakor,Inzerki,Iouloulem,Issagar,Issakan,Kao,Kawar,Kebi,Keita,Kel Ewe Kelair,Kel Tin-Tabaraden,Tatilit,Temerit,Tesker,Tichagar,Tiguidit,Tillaberi,Tin-Tabaraden,Toudou,Zinder",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tawa1286",
+        "https://glottolog.org/resource/languoid/id/tama1365",
+        "https://en.wikipedia.org/wiki/Tuareg_languages",
+        "https://en.wikipedia.org/wiki/Kel_Ayr",
+        "https://en.wikipedia.org/wiki/Agadez_Region",
+        "http://fallingrain.net/world/NG/",
+        "https://assets.publishing.service.gov.uk/media/690dd8ca43f8a163237298bd/Niger_Toponymic_Factfile.pdf"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T22:05:00Z",
+      "notes": "Entry severely contaminated: only 16/59 seeds verified as authentic Air Tamajeq (Kel Ayr) settlements in Niger: Agadez, Arlit, Tchirozerine, In-Gall, Bilma, Iferouane, Gougaram, Tesker, Gouré, Tabelot, Tchintabaraden, Timia, Aouderas, In Azaoua, In Dourdour, Inegen. 43 contaminated: 5 admin regions (Agadez Region, Zinder Region, Tahoua Region, Maradi Region, Tillaberi), 3 geographic features (Aïr Mountains, Bagzane, Kawar), 3 clan names (Kel Ewe Kelair, Kel Tin-Tabaraden, Tin-Tabaraden), 1 foreign location (In Ziza - Algeria), 10 unverified 'In' prefixed names, 27 unverified obscure names. Recommend cleaning to 16 verified seeds and downgrading to WAITING."
+    }
   },
   {
     "name": "Mundu",
@@ -3548,7 +3601,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0.1,
     "b": "Ras Wullu,Ibba,Yei,Amaki,E'di,Mundu,Adio,Tore,Mboroko,Aba,Faradje,Mundri,Tambura,Landili,Mambe,Western Equatoria,Bahr el Ghazal,South Sudan,DRC,Congo,Yambio,Nzara,Ezo,Tombura,Nagero,Mvolo,Mundri East,Mundri West,Mvolo East,Mvolo West,Yei River,Ibba County,Maridi County,Mundri County,Tambura County,Nagero County,Ezo County,Yambio County,Nzara County,Maridi,Kozi,Ngamunde",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/mund1326",
+        "https://www.ethnologue.com/language/muh/",
+        "https://kups.ub.uni-koeln.de/5090/1/The_Mundu10.pdf",
+        "https://en.wikipedia.org/wiki/Mundri_West_County",
+        "https://en.wikipedia.org/wiki/Maridi_County",
+        "https://csrf-southsudan.org/counties/",
+        "https://iom.int/dtm/south-sudan",
+        "https://reliefweb.int/country/ssd",
+        "https://joshuaproject.net/people_groups/13501/SS"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T22:10:00Z",
+      "notes": "26/42 verified authentic Mundu settlements. 16 contaminated: 5 countries/states/regions (Western Equatoria, Bahr el Ghazal, South Sudan, DRC, Congo), 10 counties (Mundri East, Mundri West, Mvolo East, Mvolo West, Yei River, Ibba County, Maridi County, Mundri County, Tambura County, Nagero County, Ezo County, Yambio County, Nzara County), 2 fabricated (Mvolo East, Mvolo West), 1 obsolete (Mundri County). Verified: Ras Wullu, Ibba, Yei, Amaki, E'di, Mundu, Adio, Tore, Mboroko, Aba, Faradje, Mundri, Tambura, Landili, Mambe, Yambio, Nzara, Ezo, Tombura, Nagero, Mvolo, Maridi, Kozi, Ngamunde (plus Aba/Faradje in DRC)."
+    }
   },
   {
     "name": "Mandinka",
