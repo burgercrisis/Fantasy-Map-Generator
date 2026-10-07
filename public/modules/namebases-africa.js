@@ -1808,7 +1808,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mogadishu,Hargeisa,Bosaso,Kismayo,Baidoa,Beledweyne,Galkayo,Burao,Erigavo,Laascaanod,Armo,Qardho,El Bua,Dhusamareb,Adado,Wanlaweyn,Afgooye,Marka,Barawa,Brava,Merka,Jowhar,Balcad,Cagaaran,Ufeyn,Dinsor,Kimilili,Garsen,Shilabo,Jasiira,Ngao,Ekerenyo,Garissa,Farlibaax,Dhalwo",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/soma1255",
+        "https://www.ethnologue.com/language/som",
+        "https://iso639-3.sil.org/code/som",
+        "https://en.wikipedia.org/wiki/Somali_language",
+        "https://en.wikipedia.org/wiki/List_of_cities_in_Somalia_by_population",
+        "https://www.geonames.org"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T23:30:00Z",
+      "notes": "ISSUE: Severe contamination. Only 25/35 seeds authentic; 3 duplicates (Marka=Merka, Barawa=Brava), 5 invalid seeds outside Somali Sprachraum: Kimilili (Kenya-Bungoma, Bukusu area), Garsen (Kenya-Tana River, Pokomo area), Ngao (surname/org, not settlement), Ekerenyo (Kenya-Nyamira, Gusii area), Farlibaax (unverified). 2 unverified: El Bua (possible El Buur confusion), Farlibaax. Effective unique authentic seeds: 25. Somali (ISO 639-3: som) core area: Somalia, Somaliland, Puntland, Somali Region Ethiopia, Garissa County Kenya. Requires cleanup: remove invalid, deduplicate."
+    }
   },
   {
     "name": "Bambara",
@@ -1818,7 +1832,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ségou,Nyamina,Sansanding,Markala,Dioro,Cinzana,Konodimini,Sakoïba,Sébougou,Pelengana,Katiéna,Bla,Diaramana,Konobougou,Sanando,Tamani,Boidié,Kolokani,Massantola,Tioribougou,Nossombougou,Ouolodo,Sagabala,Banamba,Kiban,Toubakoro,Sirakorola,Koula,Tienfala,Massigui,Wacoro,Nangola,Fana,Dialakoroba,Sanankoroba,Ouélessébougou,Kambila,Neguela,Kalifabougou,Dombila",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://iso639-3.sil.org/code/bam",
+        "https://glottolog.org/resource/languoid/id/bamb1269",
+        "https://www.ethnologue.com/language/bam/",
+        "https://en.wikipedia.org/wiki/Bambara_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T23:35:00Z",
+      "notes": "All 40 seeds verified as real settlements in Mali within the Bambara/Bamanankan language area (Ségou, Koulikoro regions). No contamination: no synthetic seeds, duplicates, self-references, or non-settlements. Geographic distribution: Ségou Region (17 seeds: Ségou, Nyamina, Sansanding, Markala, Dioro, Cinzana, Konodimini, Sakoïba, Sébougou, Pelengana, Katiéna, Bla, Diaramana, Konobougou, Sanando, Tamani, Boidié) and Koulikoro Region (23 seeds: Kolokani, Massantola, Tioribougou, Nossombougou, Ouolodo, Sagabala, Banamba, Kiban, Toubakoro, Sirakorola, Koula, Tienfala, Massigui, Wacoro, Nangola, Fana, Dialakoroba, Sanankoroba, Ouélessébougou, Kambila, Neguela, Kalifabougou, Dombila). Sources: ISO 639-3 bam, Glottolog bamb1269, Ethnologue, Wikipedia Bambara language, individual settlement Wikipedia pages."
+    }
   },
   {
     "name": "Kambaata",
@@ -1828,7 +1854,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Durame,Angacha,Shinshicho,Hadero,Damboya,Doyogena,Marre,Holeta,Kedida,Omo Sheleko,Kacha Bira,Wacha,Shishinda,Garbo,Danot,Alduba,Durame Town,Angacha Woreda,Hadero Tunto,Tambaro,Alaba,K'abeena,Xambaaro,T'ambaaro,Timbaro,Central Ethiopia Regional State,Southern Nations,Nationalities,Peoples Region",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kamb1316",
+        "https://www.ethnologue.com/language/ktb/",
+        "https://en.wikipedia.org/wiki/Kambaata_language",
+        "https://en.wikipedia.org/wiki/Kembata_Zone"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T23:40:00Z",
+      "notes": "ISSUE: Severe contamination. Only 12/28 seeds authentic Kambaata settlements/woredas: Durame, Angacha, Shinshicho, Hadero, Damboya, Doyogena, Marre, Kedida Gamela, Kacha Bira, Hadero Tunto, Tambaro, Alaba. Contamination: 4 wrong-region seeds (Holeta in Oromia, Wacha in Keffa, Danot in Somali Region, Shishinda in Addis Ababa); 4 admin units misclassified as settlements (Central Ethiopia Regional State, SNNP Region, Kambaata-Tembaro Zone, Omo Sheleko historical woreda); 4 language/dialect names (K'abeena, Xambaaro, T'ambaaro, Timbaro); 2 duplicates (Durame Town, Angacha Woreda); 1 unverified (Alduba); 1 historical (Omo Sheleko dissolved 2007); 1 uncertain (Garbo). Authentic Kambaata area: Kembata Zone (Durame, Angacha, Shinshicho, Hadero, Damboya, Doyogena, Marre, Kedida, Kacha Bira, Hadero Tunto) + Tambaro Special Woreda + Alaba. Sources: Glottolog kamb1316, Ethnologue ktb, Wikipedia Kambaata, 1994/2007 census data."
+    }
   },
   {
     "name": "Beli",
@@ -1838,7 +1876,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Wulu,Rumbek,Mvolo,Lakes State,Western Equatoria,Bahr Gel,Billing,Bogri,Woko,Bahr Girindi,Yirol,Maridi,Mundri West,Mundri East,Central Equatoria,Terekeka,Wulu County,Mvolo County,Rumbek East County,Yirol West County,Juba,Central African Republic,Sopi,Bahri Girinti,Wulu Dialect,Jur Modo,Bongo,Morokodo,Mo'da,Nyamusa,Bongo-Baka Group,Sudanic",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/beli1257",
+        "https://www.ethnologue.com/language/blm",
+        "https://en.wikipedia.org/wiki/Beli_language_(South_Sudan)",
+        "https://joshuaproject.net/people_groups/10776/OD",
+        "https://www.omniglot.com/writing/beli.htm",
+        "https://reliefweb.int/report/south-sudan/hunger-mvolo-yeri-bahr-el-girindi-counties"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T23:45:00Z",
+      "notes": "ISSUE: Severe contamination. Only 10/32 seeds are authentic Beli settlements: Wulu, Rumbek, Mvolo, Bahr Gel, Billing, Bogri, Woko, Bahr Girindi, Yirol, Terekeka. Contamination: 9 admin divisions (Lakes State, Western Equatoria, Central Equatoria, Terekeka, Wulu County, Mvolo County, Rumbek East County, Yirol West County, Mundri West/East); 8 language/dialect names (Sopi, Bahri Girinti, Wulu Dialect, Jur Modo, Bongo, Morokodo, Mo'da, Nyamusa); 2 language classifications (Bongo-Baka Group, Sudanic); 1 national capital (Juba); 1 country (Central African Republic); 1 town outside area (Maridi). ISO code note: modules/namebases-research.js incorrectly uses 'mobilian-jargon' instead of 'blm' or 'beli'. Beli (ISO 639-3: blm) spoken in Lakes/Western Equatoria States, South Sudan."
+    }
   },
   {
     "name": "Nobiin",
@@ -1848,7 +1900,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Dongola,Karima,Merowe,Al Dabbah,Korti,Wadi Halfa,Sai,Abu Simbel,New Halfa,Kosha,Delgo,Kom Ombo,Firka,Ghor,Aswan,Mahas,Fadija,Halfawi,Sukkotawi,Wadi Halfa Resettlement,Nasr al-Nuba,Old Nubia,Nile Valley,Sudan,Egypt",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nobi1240",
+        "https://www.ethnologue.com/language/fia/",
+        "https://www.lddjournal.org/article/id/1214/",
+        "https://en.wikipedia.org/wiki/Nobiin_language",
+        "https://en.wikipedia.org/wiki/Northern_State_(Sudan)"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-06T23:50:00Z",
+      "notes": "ISSUE: Severe contamination. Only 11/25 seeds authentic Nobiin settlements: Karima, Merowe, Korti, Wadi Halfa, Sai, Abu Simbel, New Halfa, Kosha, Delgo, Kom Ombo, Firka. Contamination: 3 wrong-language (Dongola/Al Dabbah = Dongolawi, Aswan = Mattoki/Kenzi); 4 dialect/ethnic names (Mahas, Fadija, Halfawi, Sukkotawi); 4 geographic/political entities (Old Nubia, Nile Valley, Sudan, Egypt); 1 admin district (Nasr al-Nuba); 1 event description (Wadi Halfa Resettlement); 1 unverified (Ghor). Nobiin (ISO 639-3: fia) dialect area: Mahas (Karima to Delgo), Fadija (Wadi Halfa, Kom Ombo, New Halfa), Sukkot (Sai island). Dongola/Al Dabbah are Dongolawi area; Aswan is Mattoki/Kenzi. Requires cleanup and additional research to reach ≥25 authentic seeds."
+    }
   },
   {
     "name": "Bila",
