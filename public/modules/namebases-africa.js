@@ -2538,7 +2538,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Hiré-Ouatta,Fresco,Sassandra,Guéyo,Vavoua,Gagnoa,Jacqueville,Godie,Djiboua,Gôgnoa,Godié,Abou,Vata,Lozoua,Lozwa,Divo Varieties,Prestige Variety,Gaɓogbo,Guébié,Gebye,dic,gie,yoco1235,lako1244,gabo1234,Kru",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/dida1245",
+        "https://glottolog.org/resource/languoid/id/lako1244",
+        "https://glottolog.org/resource/languoid/id/yoco1235",
+        "https://glottolog.org/resource/languoid/id/gabo1234",
+        "https://glottolog.org/resource/languoid/id/gueb1239",
+        "https://en.wikipedia.org/wiki/Dida_language",
+        "https://en.wikipedia.org/wiki/Dida_people",
+        "https://www.ird.fr/fr/focus-publication/horizon-documentation-irf-2015",
+        "https://www.rezoivoire.net/ivoire/patrimoine/2413/le-peuplement-du-pays-dida-1ere-partie.html",
+        "https://www.mairie-lakota.ci/histoire"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T03:55:00Z",
+      "notes": "ISSUE: Severe contamination. Only 6/26 seeds verified authentic Dida settlements: Hiré-Ouatta (Hiré-Watta), Fresco, Sassandra, Guéyo, Gnagbodougnoa (Gôgnoa), Lauzoua (Lozoua). 19 contaminated: 5 ISO/Glottolog codes (dic, gie, yoco1235, lako1244, gabo1234), 5 dialect/variety names (Djiboua, Abou, Vata, Gaɓogbo, Guébié/Gebye), 3 linguistic terms (Divo Varieties, Prestige Variety, Lozwa), 1 language family (Kru), 3 wrong-area/non-Dida (Gagnoa=Bété, Jacqueville=Avikam, Godie/Godié=neighboring Kru group), 1 unverified (Vavoua). Verified via Glottolog, Ethnologue, Wikipedia, IRD documentation, Rezo-Ivoire, Mairie de Lakota. Only 6 verified < 25 threshold — status should be WAITING. Requires cleanup."
+    }
   },
   {
     "name": "Diri",
@@ -2548,7 +2566,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Dir Village,Baram Dutse,Dingis,Diryawa,Diriya,Dirya,Sago,Tsagu,Diryanci,Buwane,Darazo LGA,Bade-Warji,North Bauchi Languages,Ajawa,Warji District,Jigawa State,Birnin Kudu LGA,Miya Town,Hamlets,Kariya Wuro,Serzakwai,Sirzakwai,Sar,Sarawa,Vene Mi,Miyawa,Languages Darazo LGA,Deno,Ngamo,Afro-Asiatic Chadic West Chadic North Bauchi,Proto-North Bauchi,Geographic Distribution,Ningi LGAs,North Bauchi,Languages Bauchi State Listed LGA,Dulbu,Galambu,Ju,Kir-Balar,Luri,Mangas,Mbat,Shiki,Tala,Zangwal,Dukku,Karekare,Jimi,Kubi,Bure,Fulato/Borno,Shuwa,Kanuri,Sur,Vaghat-Ya-Bijim-Legeri,Gwak,Geji,Gwa,Gyem,Iguta,Jere,Lame,Lemoro,Mawa,Panawa,Sanga,Saya,Shau,Tunzuii,Zeem,Ziriya,Bade,Heterogeneous State,Predominant Tribes,Jarawa,Waja,Balewa,Sayawa,Tarewa,Itas-Gadau,Shira,Emirates,Bauchi Emirate,Katagum Emirate,Azare,Misau Emirate,Ningi Emirate,Jama'are Emirate,Dass Emirate,Bur Emirate,Bur,Dambam Emirate,Dambam,Darazo Emirate,Duguri Emirate,Yuli,Gam Emirate,Gam,Giade Emirate,Toro Emirate,Warji Emirate,Katangar Warji,Ari Emirate,Gadar Maiwa,Itas/Gadau,Jama'a Emirate,Nabardo,Lame Emirate,Gumau,Bununu Emirate,Bununu,Lere Emirate,Lere,Zaar Chiefdom,Mhrim",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/diri1259",
+        "https://en.wikipedia.org/wiki/Diri_language",
+        "https://en.wikipedia.org/wiki/North_Bauchi_languages",
+        "https://iso639-3.sil.org/code/dwa",
+        "https://www.sil.org/resources/publications/entry/94228"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T03:55:00Z",
+      "notes": "ISSUE: Severe contamination. 0/115 seeds verified as Diri settlements. 52% other language names (Warji, Miya, Kariya, Deno, Ngamo, 30+ South Bauchi languages), 22% admin divisions (LGAs, emirates, districts, states), 9% generic terms, 6% Diri language endonyms/exonyms (Sago, Tsagu, Buwane, Diryawa, Diriya, Dirya, Diryanci) misused as place names, 4% ethnic groups, 2% actual villages unconfirmed as Diri. Blench (2019) only gives LGA-level location (Ningi, Darazo). No primary source lists specific Diri villages. Status should be WAITING pending fieldwork data."
+    }
   },
   {
     "name": "Doko",
@@ -2568,7 +2599,26 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Dongo,Ndele,Mindou,Kaga-Doumba,Goz Amar,Yangou Birlo,Rokone al Arab,Kouya Koundou,Bavoko I,Manegoto,Bavoko II,Yangou Ndarsa,Mbolo Abetlanga,Mbolo,Assoukoumba,Bagolo,Bambari,Logode,Goubango,Kongo,Bremoundjou,Kapabanga,Dangaote,Bagava,Maliouaka,Delango,Iparapa,Bissiamba,Dango,Greko,Marago,Komble,Kateyo,Diapondji,Boyoba,Bouchia,Boussemba,Belou,Boumoroto,Singa,Tapourou,Bambelo,Gozolo,Ano,Wando,Beina-Wayo,Soumo,Madougou,Zabo,Ancien Beina Wayo,Dario,Ancien Bambelo,Ancien Tapourou,Boukere,Wapo,Mada,Komangue,Wakpo,Damonou,Bakoumbelepe,Bangambala,Angola,Ngagoua,Dadigba,Dagofo",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/dong1290",
+        "https://www.ethnologue.com/language/doo/",
+        "https://en.wikipedia.org/wiki/Dongo_language",
+        "https://en.wikipedia.org/wiki/Bamingui-Bangoran",
+        "http://www.fallingrain.com/world/CT/01/Dongo.html",
+        "https://www.getamap.net/maps/central_african_republic/bamingui-bangoran/_dongo/",
+        "http://www.fallingrain.com/world/CT/11/Bambari.html",
+        "http://www.fallingrain.net/world/CT/00/Gozolo.html",
+        "https://www.fallingrain.com/world/CT/00/Komangue.html",
+        "https://www.getamap.net/maps/central_african_republic/central_african_republic_(general)/_komangue/",
+        "https://places-in-the-world.com/central-african-republic/bambari/7732062"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T04:00:00Z",
+      "notes": "ISSUE: Severe geographic contamination. Only 14/65 seeds (21.5%) from authentic Dongo area (Bamingui-Bangoran, Ndele sub-prefecture): Dongo, Ndele, Mindou, Kaga-Doumba, Goz Amar, Yangou Birlo, Rokone al Arab, Kouya Koundou, Bavoko I, Manegoto, Bavoko II, Yangou Ndarsa, Mbolo Abetlanga, Mbolo. 51/65 seeds (78%) contaminated from 3 other prefectures: 16 in Ouaka (Bambari area: Assoukoumba, Bagolo, Bambari, Logode, Goubango, Kongo, Bremoundjou, Kapabanga, Dangaote, Bagava, Maliouaka, Delango, Iparapa, Bissiamba, Dango, Greko); 25 in Mambere-Kadei/Lobaye (Berberati/Mbaiki area: Marago, Komble, Kateyo, Diapondji, Boyoba, Bouchia, Boussemba, Belou, Boumoroto, Singa, Tapourou, Bambelo, Gozolo, Ano, Wando, Beina-Wayo, Soumo, Madougou, Zabo, Ancien Beina Wayo, Dario, Ancien Bambelo, Ancien Tapourou, Boukere, Wapo); 10 in Haute-Kotto (Bria area: Mada, Komangue, Wakpo, Damonou, Bakoumbelepe, Bangambala, Angola, Ngagoua, Dadigba, Dagofo). Dongo language (doo) is in DRC (Haut-Uele), not CAR. Requires complete reseed from primary sources."
+    }
   },
   {
     "name": "Dugwor",
@@ -2608,7 +2658,31 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Khenifra,Azrou,Ifrane,Midelt,Errachidia,El Hajeb,Ain Leuh,Ras El Ma,Zaouiat Oued Ifrane,Timahdite,Jebel Fazzaz,Aguelmame Azigza,Lake Ouiouane,Afrennourir,Tifounassine,Amghas,N'Douit,Miaammi,Itzer,M'Rirt,Beni Mellal,Azilal,El Kbab,Jebel Bououzzal,Jebel Ayachi,Agelmam Laaziza,Foum Kheneg,Oued Beth,Mrirt,Guigou,Imouzzer Kandar,Imouzzer Marmoucha,Boulemane,El Menzel,Sefrou,Tahla,Mkansa,Moulay Yacoub,Sebt Jahjouh,Oued Amlil,Bhalil,Agourai,Ain Aicha,Ain Taoujdate,Aknoul,Bouhouda",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/east2803",
+        "https://en.wikipedia.org/wiki/Eastern_Middle_Atlas_Berber",
+        "https://en.wikipedia.org/wiki/Ifrane_Province",
+        "https://en.wikipedia.org/wiki/El_Hajeb_Province",
+        "https://en.wikipedia.org/wiki/Boulemane_Province",
+        "https://en.wikipedia.org/wiki/Taza_Province",
+        "https://en.wikipedia.org/wiki/Sefrou_Province",
+        "https://www.britannica.com/place/Khenifra",
+        "https://en.wikipedia.org/wiki/Timahdite",
+        "https://en.wikipedia.org/wiki/Imouzzer_Kandar",
+        "https://en.wikipedia.org/wiki/Imouzzer_Marmoucha",
+        "https://en.wikipedia.org/wiki/Aguelmam_Azegza",
+        "https://en.wikipedia.org/wiki/Lake_Ouiouane",
+        "https://en.wikipedia.org/wiki/Ifrane_National_Park",
+        "https://en.wikipedia.org/wiki/M%27rirt",
+        "https://en.wikipedia.org/wiki/Itzer"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T04:05:00Z",
+      "notes": "ISSUE: Significant contamination. 30/46 seeds verified authentic Eastern Middle Atlas Zenati settlements. 6 non-settlement features: Jebel Fazzaz (mountain), Lake Ouiouane, Afrennourir, Tifounassine (lakes), Jebel Bououzzal, Jebel Ayachi (mountains). 7 unverified/phantom: Aguelmame Azigza, Agelmam Laaziza, Foum Kheneg, Oued Beth, Amghas, N'Douit, Miaammi. 3 out-of-area: Azilal (Central Atlas Tamazight), Jebel Ayachi (High Atlas), Foum Kheneg (Algeria). 1 duplicate: M'Rirt/Mrirt. Valid unique settlements = 30. Zenati dialect area = Ait Seghrouchen, Ait Warayn, Marmoucha, Ait Alaham, Ait Youb, Ait Mourghi tribes (Boulemane, Taza, Sefrou, El Hajeb, Ifrane, Khenifra eastern provinces). Requires cleanup."
+    }
   },
   {
     "name": "Eastern Morocco Zenati",
@@ -2618,7 +2692,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Oujda,Berkane,Taourirt,Figuig,Ahfir,Saidia,Tafoughalt,Aklim,Sidi Slimane Echcharraa,Boughriba,Zegzel,Ain Erreggada,Madargh,Laatamna,Tiztoutine,Midar,Driouch,Ben Taieb,Temamane,Tsaft,Zaio,Arekmane,Al Aaroui,Bni Chiker,Zeghanghane,Selouane,Bouarg,Beni Ensar,Nador,El Aioun Sidi Mellouk,Jerada,Ain Bni Mathar,Guenfouda,Touissit,Bouarfa,Bni Tadjite,Tendrara,Bni Guil,Ain Chair,Lkhal,Bouanane,Mechraa Bsara,Isly,Ras-El-Ma",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eastern_Morocco_Zenati",
+        "https://en.wikipedia.org/wiki/Oriental_(Morocco)",
+        "https://www.hcp.ma/region-oriental/docs/Atlas/025.pdf",
+        "https://www.hcp.ma/region-oriental/docs/Atlas/003.pdf",
+        "https://codepostal.ma/search_carte.aspx?keyword=62",
+        "https://glottolog.org/resource/languoid/id/tari1263",
+        "https://www.ethnologue.com/subgroup/41",
+        "https://en.wikipedia.org/wiki/Tafoughalt",
+        "https://en.wikipedia.org/wiki/Temsamane"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T04:10:00Z",
+      "notes": "All 44 seeds verified as authentic settlements in the Oriental region of Morocco (provinces: Berkane, Driouch, Figuig, Guercif, Jerada, Nador, Oujda-Angad, Taourirt). Language area matches Eastern Morocco Zenati dialects (Jerada to Berkane provinces, tribes: Beni Bouzegou, Haddiyin, Mgeder, Beni Ya'la, Zkara, Bekhata, Meharez, At Iznasen, Rwaba'). No contamination: no duplicates, no synthetic seeds, no self-references, no non-settlements. ISO 639-3: mis (uses Tarifit/rif). Glottolog: Tari1263 (Tarifit). All spellings match standard French/Arabic transliterations from official Moroccan sources (HCP Atlas, postal codes)."
+    }
   },
   {
     "name": "Fali of Mubi",
