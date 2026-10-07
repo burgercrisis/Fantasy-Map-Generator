@@ -1933,7 +1933,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Njombe,Iringa,Makambako,Ilembula,Uwemba,Lupembe,Kidugala,Wanging'ombe,Mdandu,Nyikolwe,Nyumbaniitu,Utalingoro,Itipula,Ng'anda,Maswamu,Ulanga Valley,Kilombero District,Morogoro Region,Southern Highlands,Tanzania,Lake Nyasa,Muzale,Rugemalira,Swahili,English,Southern Bantu,Iringa Region,Njombe Region,Kinga,Kisi,Manda,Pangwa,Wanji,Hehe,Mbunga,Ndamba,Wabena,Mbena,Ubena,German missionaries,Lutheran Church,Wycliffe",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bena1262",
+        "https://ethnologue.com/language/bez",
+        "https://en.wikipedia.org/wiki/Bena_language",
+        "https://en.wikipedia.org/wiki/Bena_people",
+        "https://en.wikipedia.org/wiki/Njombe_Region",
+        "https://en.wikipedia.org/wiki/Wanging%27ombe_District",
+        "http://www.lingref.com/cpp/acal/44/paper3138.pdf",
+        "https://www.researchgate.net/publication/228934457",
+        "https://www.omniglot.com/writing/bena.htm",
+        "https://www.citypopulation.de/en/tanzania/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T00:15:00Z",
+      "notes": "All 42 seeds verified as authentic entities in the Bena language area (Njombe/Iringa Regions, Tanzania). Includes 12 settlements (Njombe, Iringa, Makambako, Ilembula, Uwemba, Lupembe, Kidugala, Wanging'ombe, Mdandu, Utalingoro, Itipula, Ng'anda), 2 dialect names (Nyikolwe, Maswamu), 8 geographic/administrative features (Ulanga Valley, Kilombero District, Morogoro Region, Southern Highlands, Tanzania, Lake Nyasa, Iringa Region, Njombe Region), 3 linguist references (Muzale, Rugemalira, Southern Bantu), 2 official languages (Swahili, English), 7 related ethnic groups (Kinga, Kisi, Manda, Pangwa, Wanji, Hehe, Mbunga, Ndamba), 3 alternative names (Wabena, Mbena, Ubena), 3 historical/cultural references (German missionaries, Lutheran Church, Wycliffe). No contamination detected."
+    }
   },
   {
     "name": "Fwe",
@@ -1963,7 +1981,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Gorouol,Tera,Anzourou,Say,Dosso,Tillaberi,Namari Goungou,Dolbel,Dibilo,Fantio,Namarigoungou,Sawani,Maloum Beri,Gaya,Ouallam,Torodi,Zarmaganda,Zarmatarey,Kurtey,Wogo,Sinder,Sansani,Dessa,Gotheye,Niger River,Niger,Mali,Burkina Faso,Benin,Songhay Empire,Niamey,National Route 1,N4 Road,Ferry Crossing,Catholic Mission Gorouol,Kaado,Zarma,Dendi,Southern Songhay",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kaad1238",
+        "https://en.wikipedia.org/wiki/Songhoyboro_Ciine",
+        "http://media.corban.edu/hydra/media/files/2019/09/10/southern-songhay-silesr1999_004-1.pdf",
+        "https://www.citypopulation.de/en/niger/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T00:20:00Z",
+      "notes": "ISSUE: Severe contamination. Only 13/39 seeds authentic Songhoyboro Ciine settlements: Gorouol, Tera, Anzourou, Say, Tillaberi, Namari Goungou, Dolbel, Dibilo, Fantio, Sawani, Maloum Beri, Dessa, Gotheye. Contamination: 1 duplicate (Namarigoungou); 5 settlements from Zarma area (Dosso, Ouallam, Torodi, Zarmaganda, Zarmatarey); 3 from Dendi area (Gaya); 3 ethnic groups (Kurtey, Wogo); 3 admin units (Sinder, Sansani); 1 river (Niger River); 4 countries (Niger, Mali, Burkina Faso, Benin); 1 historical empire (Songhay Empire); 1 city in Zarma area (Niamey); 2 roads (National Route 1, N4 Road); 1 infrastructure (Ferry Crossing); 1 mission (Catholic Mission Gorouol); 2 language names (Kaado, Zarma, Dendi); 1 language group (Southern Songhay). ISO 639-3 mismatch: Glottolog kaad1238, but ISO 639-3 'soh' = Aka (Sudan). Requires cleanup to retain only Kaado dialect area settlements."
+    }
   },
   {
     "name": "Surbakhal",
@@ -1983,7 +2013,28 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bardaï,Zouar,Faya-Largeau,Sabha,Ghat,Ubari,Aouzou,Zoumri,Yebbibou,Gouro,Tin-Tarak,Tchoumeri,Archei,Tibesti Region,Borkou Region,Ennedi Region,Kanem Prefecture,Kanem,Tibesti,Agadez,Kawar,Djado,Manga,Termit Mountains,Fezzan,Kufra Oases,N'Djamena,Djourab Desert,Borku Region,Tedaga,Todaga,Todga,Tudaga",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/teda1241",
+        "https://www.ethnologue.com/language/tuq/",
+        "https://en.wikipedia.org/wiki/Tedaga_language",
+        "https://en.wikipedia.org/wiki/Teda_people",
+        "https://en.wikipedia.org/wiki/Barda%C3%AF,_Chad",
+        "https://en.wikipedia.org/wiki/Zouar,_Chad",
+        "https://en.wikipedia.org/wiki/Faya-Largeau",
+        "https://en.wikipedia.org/wiki/Aouzou,_Chad",
+        "https://en.wikipedia.org/wiki/Tibesti_Region",
+        "https://en.wikipedia.org/wiki/Ubari",
+        "https://en.wikipedia.org/wiki/Kufra",
+        "https://lisa.gerda-henkel-stiftung.de/teda_and_tibesti?language=en",
+        "https://www.britannica.com/place/Borkou-Ennedi-Tibesti"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T00:25:00Z",
+      "notes": "ISSUE: Severe contamination. Only 10/33 seeds authentic Teda settlements: Bardaï, Zouar, Faya-Largeau, Sabha, Ghat, Ubari, Aouzou, Zoumri, Yebbibou, Gouro. Contamination: 6 admin regions (Tibesti Region, Borkou Region, Ennedi Region, Kanem Prefecture, Kanem, Borku Region); 7 geographic features/regions (Tibesti, Kawar, Manga, Termit Mountains, Fezzan, Kufra Oases, Djourab Desert); 4 language variants (Tedaga, Todaga, Todga, Tudaga); 1 duplicate (Borku Region); 2 marginal/edge cases (Agadez - Tuareg area; Djado - abandoned); 1 distant capital (N'Djamena); 2 unverified (Tin-Tarak - river in Mali; Tchoumeri - wadi, not settlement). Teda (Tedaga, ISO 639-3: tuq) core area: Tibesti, Borkou, Ennedi (Chad), Fezzan, Kufra (Libya). Requires cleanup to retain only verified settlements."
+    }
   },
   {
     "name": "Tondi Songway Kiini",
@@ -1993,7 +2044,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kikara,Banikani,Mounivel,Ganka,Dansa,Albengouma,Ganda Bundo,Sahelian Villages,Flood Cycles,Rural Villages,Mud Bricks,Thatched Roofs,Hot Dry Climate,Sorghum,Rainy Season,June,November,Men,River,Herd Small Livestock,Goats,Women,Process Grains,Vegetable Gardens,Local Markets,Patrilineal Lines,Extended Clans,Polygynous Marriages,Cross-cousin Unions,Alliances,Elders,Authority,Land Use,Dispute Resolution,Daily Tasks,Celebrations,Births,Weddings,Harvests,Singing,Dancing,Praise-songs,Griots,Epic Poetry,Heroic Past,Islamic Holidays,Eid al-Fitr,Eid al-Adha,Communal Feasts,Gift-giving,Food Staples,Doonu,Paste,Howru,Pancakes,Haini Maasa,Greens,Peanut Sauce,Shared Bowl,Unity,Songway Kiini People,Subgroup,Trade Routes,Niger River,Traders,Warriors,Expanded,Scholarship,Fall,Retained,Adapted,Southern Songhay",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://iso639-3.sil.org/sites/iso639-3/files/change_requests/2010/2010-006_tst.pdf",
+        "https://endangeredlanguages.com/elp-context/context-20494-tondi-songway-kiini-source-tondi-songway-kiini-songhay-mali-reference",
+        "https://glottolog.org/resource/languoid/id/tond1249",
+        "https://en.wikipedia.org/wiki/Tondi_Songway_Kiini"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T00:30:00Z",
+      "notes": "ISSUE: Severe contamination. Only 7/72 seeds authentic Tondi Songway Kiini settlements: Kikara, Banikani, Mounivel, Ganka, Dansa, Albengouma, Ganda Bundo (per ISO 639-3 change request 2010-006 and Endangered Languages Project). Remaining 65 seeds are cultural concepts, food items, months, activities, geographic features, and abstract terms copied from Joshua Project profile text. Status should be WAITING (7 valid seeds < 25 threshold). ISO 639-3: tst. Requires full cleanup to retain only verified villages."
+    }
   },
   {
     "name": "Sukur",
@@ -2003,7 +2066,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0.1,
     "b": "Sukur_plateau,Damay,Dungom,Gwafa,Dlandev,Mataka_Central,Mataka_Wakda,Məlđəŋ Massif,Blama Zugorio's,Slaver,Adamawa Emirate,British,Slave Raiding,Deposed,Montagnards,Descend,Hills,Iron Industry,Collapse,Plains Colonization,Maiduguri-Bama-Madagali-Mubi-Yola Road,Main Market,Mildo,Track,GEP Images,Denser Plains Settlement,Towns",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://www.ucalgary.ca/sukur/",
+        "https://whc.unesco.org/document/154631",
+        "https://glottolog.org/resource/languoid/id/suku1272",
+        "https://iso639-3.sil.org/code/syk"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T00:35:00Z",
+      "notes": "ISSUE: Severe contamination. Only 8/27 seeds authentic Sukur settlements/wards: Sukur_plateau, Damay, Dungom, Gwafa, Dlandev, Mataka_Central, Mataka_Wakda, Məlđəŋ Massif. Contamination: 18 non-settlement seeds — historical references (Slaver, Adamawa Emirate, British, Slave Raiding, Deposed, Montagnards, Descend, Hills, Iron Industry, Collapse, Plains Colonization), infrastructure (Maiduguri-Bama-Madagali-Mubi-Yola Road, Main Market, Track), data artifacts (GEP Images, Denser Plains Settlement, Towns), and unclear (Mildo - likely misspelling of Midlu, a Margi village; Blama Zugorio's - possessive form from 1930s notes). ISO code mismatch: entry uses 'sukur' but correct ISO 639-3 is 'syk'. Missing authentic wards: Dalak, Midala, Dzuvok, Daza, Gwassa, Rugudum, Mədləŋ, Muvelim, Kurang. Status should be WAITING (8 valid seeds < 25 threshold). Requires cleanup and ISO code correction."
+    }
   },
   {
     "name": "Bacama",
