@@ -8710,16 +8710,6 @@ window.asiaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Katua",
-    "i": 202471,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Mak Kam Sui",
     "i": 202500,
     "min": 4,
@@ -8847,16 +8837,6 @@ window.asiaNameBases = [
     "d": "",
     "m": 0,
     "b": "Muong Chang,Phong Tho,Son La,Than Uyen,Muong Luon,Chieng Son,Na Sang,Muong Muon,Muong Loi,Na Son,Dien Bien Dong,Dien Bien",
-    "status": "WAITING"
-  },
-  {
-    "name": "Turung",
-    "i": 202704,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
     "status": "WAITING"
   },
   {

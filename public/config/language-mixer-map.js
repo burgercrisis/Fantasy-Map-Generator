@@ -1890,12 +1890,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "miler",
-    "bases": [
-      200097
-    ]
-  },
-  {
     "iso": "miltu",
     "bases": [
       200098
@@ -5076,12 +5070,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "katua-bahnaric",
-    "bases": [
-      202471
-    ]
-  },
-  {
     "iso": "kayong-bahnaric",
     "bases": [
       200321
@@ -7200,12 +7188,6 @@ globalThis.languageMixerMap = [
     ]
   },
   {
-    "iso": "turung",
-    "bases": [
-      202704
-    ]
-  },
-  {
     "iso": "tuvan",
     "bases": [
       1154
@@ -7706,12 +7688,6 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
-    "iso": "umr",
-    "bases": [
-      202763
-    ]
-  },
-  {
     "iso": "upper-arrernte",
     "bases": [
       202764
@@ -8193,12 +8169,6 @@ globalThis.languageMixerMap = [
     "iso": "cuk",
     "bases": [
       203326
-    ]
-  },
-  {
-    "iso": "miskito",
-    "bases": [
-      2576
     ]
   },
   {
@@ -21765,12 +21735,6 @@ globalThis.languageMixerMap = [
     "iso": "x-rengao",
     "bases": [
       202610
-    ]
-  },
-  {
-    "iso": "x-turung",
-    "bases": [
-      202704
     ]
   },
   {

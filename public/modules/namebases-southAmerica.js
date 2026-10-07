@@ -1190,16 +1190,6 @@ window.southAmericaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Miskito",
-    "i": 2576,
-    "min": 4,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bluefields,Bilwi,Waspam,PuertoCabezas,Prinzapolka,Awasbila,Tuara,Krukira,Haulover,Karawala,SandyBay,Lamlaya,Tasbapauni,Kakabila,Siuna,Rosita,Bonanza,Puerto Cabezas,Sandy Bay,La Cruz Grande,Bismuna,Awas Tingni,Layasiksa,Dakura,Karata,Walpasiksa,Sinsin,Ubu,Tuapi,Krinkrin,San Jeronimo,Santa Marta,San Carlos,San Juan Coco",
-    "status": "COMPLETE"
-  },
-  {
     "name": "Tikuna",
     "i": 2580,
     "min": 4,

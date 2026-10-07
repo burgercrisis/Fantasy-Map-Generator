@@ -2230,16 +2230,6 @@ window.oceaniaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Umbugarla",
-    "i": 202763,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "",
-    "status": "WAITING"
-  },
-  {
     "name": "Upper Arrernte",
     "i": 202764,
     "min": 4,
