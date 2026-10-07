@@ -2719,7 +2719,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mubi,Mararaba Mubi,Gombi,Garkida,Guyaku,Lala,Tawa,Boga,Dingai,Duwa,Gabun,Yang,Gella,Chaba,Duvu,Girburum,Gude,Kwaja,Lamorde,Yadafa,Mujara,Nassarawo,Nduku,Mugulbu,Bahuli,Digil,Didif,Kelluje,Kwa,Besto,Gyumbula,Kamnda,Marcho-Bani,Muchalla,Mobu,Cha,Jerengol Kotirde,Duda,Koma,Kiriya,Maskoka,Miza,Mujilu,Mukta,Pawi,Ribawa,Vimtim,Baagira,Hildi,Maki,Mubbula,Hong",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fali1285",
+        "https://iso639-3.sil.org/code/fli",
+        "https://ethnologue.com/language/fli/",
+        "https://en.wikipedia.org/wiki/Fali_of_Mubi",
+        "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/04_IOM_DTM_Assessed_Nigeria_Wards_List_R2.pdf",
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Adamawa_State",
+        "https://www.isdsnet.com/ijds-v3n6-5.pdf",
+        "https://grokipedia.com/page/mararaba_mubi"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T10:23:00Z",
+      "notes": "ISSUE: Only 22/52 seeds verified in core Fali area (Mubi N/S, Michika). 11 seeds from adjacent Gombi/Hong LGAs with different languages. 19 seeds unverified (Dingai, Didif, Kelluje, Kwa, Besto, Gyumbula, Kamnda, Mobu, Cha, Jerengol Kotirde, Duda, Koma, Kiriya, Maskoka, Miza, Mukta, Pawi, Ribawa, Mubbula). Kwa is language in Lamurde LGA; Koma tribe in Jada LGA; Kiriya likely Kirya-Konzəl language. Dialect names (Bahuli, Vimtim, Baagira, Muchalla) used as seeds. Requires cleanup."
+    }
   },
   {
     "name": "Fang",
@@ -2729,7 +2745,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bata,Ebebiyin,Mongomo,Evinayong,Aconibe,Micomeseng,Bitica,Cogo,Rio Campo,Acurenam,Ayene,Niefang,Kogo,Akonibe,Acalayong,Mbini,Rio Muni,Malabo,Corisco,Bioko,Annobon,Libreville,Port-Gentil,Franceville,Oyem,Bitam,Minvoul,Mitzic,Medouneu,Mekambo,Makokou,Lastoursville,Koulamoutou,Mouila,Tchibanga,Gamba,Mayumba,Omboue,Fougamou,Ogooue River,Ogooue Estuary,Ivindo River,Woleu River,Ntem River,Kom River,Muni River,Mbini River,Kie River,Wele Nzas Province,Centro Sur Province,Kie-Ntem Province,Woleu-Ntem Province,Ogooue-Ivindo Province,Ogooue-Lolo Province,Ogooue-Maritime Province,Haut-Ogooue Province,Ngounie Province,Nyanga Province,Mongomo District,Ebebiyin District,Akonibe District,Kogo District,Bata District",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fang1246",
+        "https://www.ethnologue.com/language/fan",
+        "https://en.wikipedia.org/wiki/Fang_language",
+        "https://en.wikipedia.org/wiki/Fang_people",
+        "https://en.wikipedia.org/wiki/Woleu-Ntem_Province",
+        "https://en.wikipedia.org/wiki/Oyem",
+        "https://en.wikipedia.org/wiki/Bitam",
+        "https://geoplace.org/en/gabon/minvoul-09-ga",
+        "https://2009-2017.state.gov/outofdate/bgn/equatorialguinea/35731.htm"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T10:30:00Z",
+      "notes": "SEVERE CONTAMINATION: 39/63 seeds invalid. Valid: 24 authentic Fang settlements in Equatorial Guinea mainland (Río Muni) and Gabon Woleu-Ntem Province + Franceville. Removed: 4 islands (Malabo, Corisco, Bioko, Annobon), 10 non-Fang Gabon cities, 9 rivers/estuaries, 10 provinces, 5 districts, 1 region name. After cleaning: 24 seeds -> status should be WAITING. Makokou retained as marginal (mixed Kota/Fang, Baka bilingual in Fang)."
+    }
   },
   {
     "name": "Tetuani",
@@ -2738,8 +2771,27 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tetouan,Martil,Oued Laou,El Jebha,Fnideq,Mdiq,Cabo Negro,Chefchaouen,Tanaqoub,Derdara,Bab Taza,Ajdir,Al Hoceima,Targuist,Bni Bouayach,Imzouren,Ouezzane,Larache,Tangier,Asilah,Ksar El Kebir,Arbaoua,Sidi Allal El Bahraoui,Sidi Yamani,Beni Mellal,Mdiq-Fnideq,Fahs-Anjra,Anjera,Gherzoim,Ka'ala mountain,Ghomara,Ghazaoua,Tamuda Bay,Martil Valley",
-    "status": "COMPLETE"
+    "b": "Tetouan,Martil,Oued Laou,El Jebha,Fnideq,Mdiq,Cabo Negro,Chefchaouen,Tanaqoub,Derdara,Bab Taza,Ajdir,Al Hoceima,Targuist,Bni Bouayach,Imzouren,Ouezzane,Larache,Tangier,Asilah,Ksar El Kebir,Arbaoua,Anjera",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/jebl1238",
+        "https://en.wikipedia.org/wiki/Jebli_Arabic",
+        "https://en.wikipedia.org/wiki/El_Jebha",
+        "https://en.wikipedia.org/wiki/Chefchaouen_Province",
+        "https://en.wikipedia.org/wiki/Ajdir",
+        "https://en.wikipedia.org/wiki/Anjra",
+        "https://en.wikipedia.org/wiki/Targuist",
+        "https://en.wikipedia.org/wiki/Bni_Bouayach",
+        "https://en.wikipedia.org/wiki/Imzouren",
+        "https://simple.wikipedia.org/wiki/List_of_cities_in_Morocco",
+        "https://www.citypopulation.de/en/morocco/tangertetouanalhoceima/al_hoce%c3%afma/05101070__targuist"
+      ],
+      "verified_by": "linguistic-verification-agent",
+      "verified_at": "2026-10-07T10:36:11Z",
+      "notes": "Verified 23 authentic settlements in Jebli/Tetuani language area (Tanger-Tetouan-Al Hoceima region). Removed 11 problematic entries: Sidi Allal El Bahraoui (Rabat-Salé-Kénitra, not Jebli area), Sidi Yamani (no primary source found), Beni Mellal (Béni Mellal-Khénifra, not Jebli area), Mdiq-Fnideq (prefecture not settlement), Fahs-Anjra (province not settlement), Gherzoim (no primary source found), Ka'ala mountain (mountain not settlement), Ghomara (tribal confederation not settlement), Ghazaoua (no primary source found), Tamuda Bay (resort area not settlement), Martil Valley (geographic valley not settlement). Seed count reduced from 34 to 23, status changed from COMPLETE to WAITING (<25 seeds)."
+    }
   },
   {
     "name": "Fula",
@@ -2749,7 +2801,29 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Labe,Pita,Mamou,Dalaba,Kaedi,Matam,Podor,Bandiagara,Mopti,Dori,Gorom-Gorom,Djibo,Birnin Kebbi,Katsina,Gombe,Yola,Digil,Jalingo,Bauchi,Misau,Jamaare,Mayo Belwa,Mubi,Maroua,Ngaoundere,Azare,Dukku,Kumo,Girei,Damaturu,Bertoua,Garoua,Velingara,Diafabe,Timbo,Fugumba,Kollade,Thionkeless,Selouba,Diongoka,Konkore,Bantako,Kudanfeba,Bafode,Labena,Medina Gounass",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fula1264",
+        "https://glottolog.org/resource/languoid/id/pula1262",
+        "https://iso639-3.sil.org/code/fuf",
+        "https://iso639-3.sil.org/code/fuc",
+        "https://iso639-3.sil.org/code/ffm",
+        "https://iso639-3.sil.org/code/fuv",
+        "https://iso639-3.sil.org/code/fub",
+        "https://ethnologue.com/language/fuf/",
+        "https://geo-ref.net/guinea/census/2014",
+        "https://whc.unesco.org/en/list/1678/",
+        "https://www.britannica.com/place/Fouta-Djallon",
+        "https://fr.wikipedia.org/wiki/Diw%C3%A9s_du_Fouta_Djalon",
+        "https://en.wikipedia.org/wiki/Communes_of_Senegal",
+        "https://fallingrain.com/world/ML/06/Diafarabe.html"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T10:35:00Z",
+      "notes": "Seed list copied from Wikipedia 'Fula people' article verbatim. 39/46 seeds verified against primary sources (Glottolog, Ethnologue, censuses, UNESCO, Britannica, French Wikipedia). 7 seeds lack primary source verification: Digil, Selouba, Diongoka, Konkore, Bantako, Kudanfeba, Bafode, Labena. Kolda duplicate in namebases-research.js. Spelling variants: Thionkeless/Thionthian, Diafabe/Diafarabé, Fugumba/Fougoumba, Kollade/Kollaade. Requires field research for unverified seeds."
+    }
   },
   {
     "name": "Furu",
@@ -2759,7 +2833,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kusu,Nzanga,Kombo,Buma,Maso,Kakpo,Bawule,Vunga,Ngoligbi,Nganza,Ngayi,Ngoyi,Dula,Bagaembo,Bwamase,Kungu,Linginda,Komenga-Moke,Bonduburu,Mobaye,Molegbe,Businga,Gemena,Bagero,Bagiro,Baguiero,Baguiro,Haut-Uele,Dungu River,Meri Refugee Site,Darfur,Ubangi River,Cassava,Peanuts,Native Grasses,Roofing Material,Houses,Creator God,Nzapa,Intermediary Spirits,Kwara Tree,Nafe,Health,Good Luck,Good Harvests,Zuga,Hunt,Living Ancestors,Dead Ancestors,Fear,Rituals,Savior,Freedom,Peace,Abundant Life,Scripture,Translation Project,MP3 Audio Scripture,Pastors,Teaching,Preaching,Choirs,Songs,Music,Central Sudanic,Bongo-Bagirmi,Kara,Equateur Province,Mobaye Territories",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/furu1242",
+        "https://joshuaproject.net/people_groups/11780/CT",
+        "https://en.wikipedia.org/wiki/Furu_language",
+        "https://www.persee.fr/doc/jafr_0399-0346_1990_num_60_1_2295",
+        "https://www.sil.org/resources/publications/entry/69473",
+        "https://en.wikipedia.org/wiki/Joshua_Project"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T10:40:00Z",
+      "notes": "SEVERE CONTAMINATION: Only ~18/69 seeds are authentic Furu-area settlements/language alternates. 51 contaminated: 29 cultural concepts (Creator God, Nzapa, Intermediary Spirits... copied from Joshua Project description), 5 agricultural terms (Cassava, Peanuts...), 3 language classifications (Central Sudanic, Bongo-Bagirmi, Kara), 2 admin (Equateur Province, Mobaye Territories), 2 rivers (Dungu River, Ubangi River), 3 regions (Haut-Uele, Darfur, Meri Refugee Site), 8 misplaced settlements (Kusu in Kasai-Oriental, Kombo in Ombella-M'Poko, Vunga in Sankuru, Ngayi in Cuvette-Ouest, Ngoyi in Kasai, Bonduburu in India, etc.). Valid unique settlements = ~14 (<25 threshold). Should be WAITING. Requires complete reseed from primary sources."
+    }
   },
   {
     "name": "Igbo",
