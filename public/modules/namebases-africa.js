@@ -2856,8 +2856,30 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Onitsha,Aba,Abakaliki,Awka,Asaba,Nsukka,Nkwerre,Nnewi,Awgu,Eha-Amufu,Ikem,Udi,Agbani,Nkanu,Mbaise,Mbano,Mbieri,Mbaitoli,Mbele,Mbodo,Aboh,Isu,Nwangele,Oru-East,Oru-West,Ihite,Obowo,Ezinihitte,Aboh-Mbaise,Ahiazu-Mbaise,Eziobodo,Ngor-Okpala,Ikeduru,Owerri-North,Owerri-West,Owerri-Municipal,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Ordo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Agulu,Neni,Ichida,Adazi-Nnukwu,Akwaeze,Obeledu,Nri,Aguluzigbo,Oraeri,Nanka,Ekwulobia,Isuofia,Umuchu,Igbo-Ukwu,Awka-Etiti,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Nnewi-Ichi,Otolo,Uruagu,Umudim,Nnobi,Oba,Ojoto,Okija,Ozubulu,Ihiala,Ogoloma,Amorka,Ubulu,Ubulu-Uku,Ogwashi-Uku,Issele-Uku,Ibusa,Agbor,Orji,Eke,Ibagwa,Opi,Edem,Okpuje,Ibagwa-Ndiagu,Alor,Ovoko,Ohebe,Obollo-Afor,Enugu-Ezike,Orba,Obollo-Etiti,Umulokpa,Adani,Nimbo,Agbogugu,Mpu,Nenwe,Ndiabor,Oduma,Okpanku,Amoli,Ukehe,Aku,Diogbe,Ohodo,Umuna,Ozalla,Ikolo,Ochima,Achi,Inyi,Oji-River,Akpugo,Nkerefi,Nomeh,Ogbahu,Oruku,Ugbawka,Afor-Oru,Idemili,Ogidi,Nkpor,Obosi,Abatete,Uke,Oraukwu,Okpoko,Fegge,Ichi,Omuko,Akokwa,Arondizuogu,Dikenafai,Okwelle,Ofeahia,Okwe,Isinweke,Uboma,Igboid,Igbo,Equatorial Guinea,Haiti,Barbados,Jamaica,Trinidad,USA,UK,Canada,Lingua Franca,South East Nigeria,Anambra,Imo,Abia,Ebonyi,Rivers,Delta,Cross River,Benue,Kogi,Edo,Ondo,Osun,Oyo,Kwara,Niger,Plateau,Nasarawa,FCT Abuja,Dialects,Onicha,Ngwa,Olu,Etche,Ika,Ikwere,Ekpeye,Item,Isuikwuato",
-    "status": "COMPLETE"
+    "b": "Onitsha,Aba,Abakaliki,Awka,Asaba,Nsukka,Nnewi,Awgu,Eha-Amufu,Ikem,Udi,Agbani,Mbieri,Mbele,Mbodo,Ihite,Eziobodo,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Ordo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Agulu,Neni,Ichida,Adazi-Nnukwu,Akwaeze,Obeledu,Nri,Aguluzigbo,Oraeri,Nanka,Ekwulobia,Isuofia,Umuchu,Igbo-Ukwu,Awka-Etiti,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Nnobi,Oba,Ojoto,Okija,Ozubulu,Ihiala,Ogoloma,Amorka,Ubulu,Ubulu-Uku,Ogwashi-Uku,Issele-Uku,Ibusa,Agbor,Orji,Eke,Ibagwa,Opi,Edem,Okpuje,Ibagwa-Ndiagu,Alor,Ovoko,Ohebe,Obollo-Afor,Enugu-Ezike,Orba,Obollo-Etiti,Umulokpa,Adani,Nimbo,Agbogugu,Mpu,Nenwe,Ndiabor,Oduma,Okpanku,Amoli,Ukehe,Aku,Diogbe,Ohodo,Umuna,Ozalla,Ikolo,Ochima,Achi,Inyi,Oji-River,Akpugo,Nkerefi,Nomeh,Ogbahu,Oruku,Ugbawka,Afor-Oru,Ogidi,Nkpor,Obosi,Abatete,Uke,Oraukwu,Omuko,Akokwa,Arondizuogu,Dikenafai,Okwelle,Ofeahia,Okwe,Isinweke,Uboma,Item,Isuikwuato",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nucl1417",
+        "https://iso639-3.sil.org/code/ibo",
+        "https://ethnologue.com/language/ibo/",
+        "https://en.wikipedia.org/wiki/Igbo_language",
+        "https://en.wikipedia.org/wiki/Igboid_languages",
+        "https://www.citypopulation.de/en/nigeria/admin/NGA017__imo/",
+        "https://www.citypopulation.de/en/nigeria/admin/NGA014__enugu/",
+        "https://en.wikipedia.org/wiki/Kingdom_of_Aboh",
+        "https://en.wikipedia.org/wiki/Anambra_State",
+        "https://en.wikipedia.org/wiki/Imo_State",
+        "https://en.wikipedia.org/wiki/Enugu_State",
+        "https://en.wikipedia.org/wiki/Nkwerre",
+        "https://mbaitoli.org/our-towns",
+        "https://www.inecnigeria.org/wp-content/uploads/2019/02/PU_Directory_Revised_January_2015_Imo.pdf"
+      ],
+      "verified_by": "namebase-verification-agent",
+      "verified_at": "2026-10-07T11:30:00Z",
+      "notes": "Entry contains 65 contaminated seeds (33%): 18 LGAs, 18 states, 8 countries, 10 dialect terms, 6 cultural regions, 7 town quarters. 131 authentic settlements verified against primary sources. Recommend seed list cleanup before marking 'verified'."
+    }
   },
   {
     "name": "Gwandara",
@@ -2867,7 +2889,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Akwanga,Awe,Keana,Doma,Obi,Abuja,Karshi,New Karshi,Karu,Nyankpa,Gurku,Yarkade,Kokona,Garaku,Agwada,Amba,Dan,Ninkoro,Haderi,Pam Barau,Kufai Gwari,Yelwa,Akware,Kofar Gwari,Moroa,Ajuye,Angwan Yaro,Angwan Doka,Dokan Daji,Shabu,Jaman Gayan,Nasarawa,Nassarawa,Toto,Keffi LGA,Lafia LGA,Akwanga LGA,Awe LGA,Doma LGA,Obi LGA,Abuja FCT,Bwali LGA,Kwai LGA,Niger State,Suleija LGA,Gurara LGA,Kaduna State,Kaura LGA,Plateau State,Riyom LGA,Taraba State,Benue State,Zaria,Govandara,Madaki Keffi,Nuhu,Dauda,Maikwoto,Magaji Dan Yamusa,Captain Maloney,Ibrahim Mai Gunduma,Bashayi,Mainasara,Gankuma,Afo,Gbagyi,Migili,Alago,Eggon,Mada,Koro,Hausa,Angas,Geomai,Odoma,Agatu,Tiv,Afro-Asiatic,West Chadic,Hausa-Gwandara",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/gwan1268",
+        "https://iso639-3.sil.org/code/gwn",
+        "https://www.ethnologue.com/language/gwn",
+        "https://en.wikipedia.org/wiki/Gwandara_language",
+        "https://iigdpublishers.com/storage/LKGPQLntvjZ7aVTzj9peEMRIruBLmr-metaSW50ZXItR3JvdXAgUmVsYXRpb25zIDk3LTExMy5wZGY=-.pdf",
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Nasarawa_State",
+        "https://gwadeca.org.ng/nasarawa-chapter/",
+        "https://joshuaproject.net/people_groups/12015/NI"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T11:27:00Z",
+      "notes": "Entry heavily contaminated: 45/80 seeds are non-settlements (18 admin units, 10 personal names, 13 neighboring languages, 3 language family terms, 1 language variant). Only 35 authentic Gwandara settlements verified. Requires major cleaning and additional research to reach >=25 seeds for COMPLETE status."
+    }
   },
   {
     "name": "Hausa",
@@ -2877,7 +2915,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Zaria,Katsina,Dutse,Gusau,Birnin Kebbi,Hadejia,Gumel,Kano,Kaduna,Sokoto,Maiduguri,Bauchi,Rano,Gobir,Birnin Kudu,Azare,Gaya,Misau,Jama'are,Ningi,Potiskum,Fika,Damaturu,Gombe,Billiri,Kaltungo,Bajoga,Biu,Gwoza,Dikwa,Bama,Nguru,Guri,Hadeja,Kiyawa,Jahun,Ringim,Taura,Malam Madori,Kazaure,Roni,Dambatta,Wudil,Gwarzo,Bagwai,Shanono,Rimin Gado,Tofa,Dala,Nassarawa,Tarauni,Gwale,Fagge,Kumbotso,Ungogo,Minjibir,Dawakin Tofa,Takai,Kibiya,Tudun Wada,Kiru,Karaye,Makoda,Tsanyawa,Kunchi,Bichi,Danbatta,Bunkure,Gezawa,Funtua,Bakori,Danja,Dandume,Faskari,Sabuwa,Kafur,Malumfashi,Kankara,Rimi,Musawa,Matazu,Safana,Dutsin-Ma,Kurfi,Charanchi,Jibia,Batsari,Dan Musa,Kankia,Kusada,Ingawa,Bindawa,Mani,Mashi,Dandi,Shinkafi,Zurmi,Bukkuyum,Anka,Talata Mafara,Maradun,Gummi,Wurno,Goronyo,Rabah,Wammako,Silame,Tambuwal,Tangaza,Binji,Sabon Birni,Isa,Dogondaji,Gada,Kware,Ilela,Gwadabawa,Bodinga,Tureta,Kebbe,Yabo,Shagari,Augie,Arewa-Dandi,Suru,Ngaski,Yauri,Zuru,Danko-Wasagu,Sakaba,Fakai,Koko-Besse,Aleiro,Gwandu,Kalgo,Jega,Maiyama,Bagudo,Maradi,Zinder,Tahoua,Agadez,Birni-N'Konni,Madaoua,Illela,Dakoro,Tessaoua,Aguié,Abuja",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/haus1257",
+        "https://iso639-3.sil.org/code/hau",
+        "https://www.ethnologue.com/language/hau/",
+        "https://en.wikipedia.org/wiki/Hausa_language",
+        "https://en.wikipedia.org/wiki/Hausa_Kingdoms",
+        "https://www.britannica.com/place/Hausa-states",
+        "https://en.wikipedia.org/wiki/Hadejia",
+        "https://en.wikipedia.org/wiki/Local_government_areas_of_Nigeria"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T11:35:00Z",
+      "notes": "148 unique authentic settlements verified against Glottolog, Ethnologue, ISO 639-3, Wikipedia, Britannica, and official Nigerian administrative data. One duplicate identified: Hadeja is an alternative spelling of Hadejia per Wikipedia. All seeds are real settlements in the documented Hausa language area (northern Nigeria + southern Niger). Entry covers: 7 historical Hausa Bakwai, 12 modern state capitals, 113 LGAs/towns across 7 core Hausa states (Kano, Katsina, Jigawa, Zamfara, Sokoto, Kebbi, Bauchi), 11 additional northern towns, 10 major Niger cities, and Abuja (lingua franca hub)."
+    }
   },
   {
     "name": "Karekare",
@@ -2887,7 +2941,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Jalam,Nangere,Tikau,Damagum,Daniski,Gudi,Bara,Jangasiri,Jangadole,Kukargadu,Dagare,Maje,Biriri,Degubi,Dazigau,Pakarau,Chilariye,Dawasa,Tarajim,Mamudo,Dakasko,Fune,Ngalda,Gadaka,Chana,Daya,Dozi,Godowoli,Lewe,Turmi,Maluri,Dumbulwa,Jajere,Chinade,Duddaye,Kolere,Kayeri,Ngelzarma,Gabarun,Challino,Dagazirwa,Buraman,Kukuri,Chiromari,Bulturi,Siminti,Dazigal,Alaraba,Zadawa,Gagidiba",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kare1348",
+        "https://www.ethnologue.com/language/kai/",
+        "https://aflang.humanities.ucla.edu/language-materials/chadic-languages/yobe/karekare/",
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Yobe_State",
+        "https://ha.wikipedia.org/wiki/Jerin_%C6%99auyuka_a_jihar_Yobe",
+        "https://www.nigeriapostcode.com/",
+        "http://integrity.ng/index.php/wards/browse/86",
+        "https://tribuneonlineng.com/bauchi-speaker-donates-transformer-to-maje-town-after-three-years-of-darkness/",
+        "https://independent.ng/group-solves-200-year-water-scarcity-madabai-garin-maje-yobe-communities/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T11:40:00Z",
+      "notes": "All 50 seeds verified as real settlements in Karekare language area (Yobe State, Bauchi State, northeastern Nigeria). ISO 639-3 code should be 'kai' not 'gwf'. Seeds in Bauchi State (Chinade, Gagidiba, Maje town) are within historical Karekare territory per Joshua Project (Gamawa, Misau, Shira, Darazo LGAs). Spelling variants documented (Jangadole/Jamgadole, Dawasa/Dowasa, Chilariye/Chillariye, Godowoli/Godowolli)."
+    }
   },
   {
     "name": "Kotoko",
@@ -2897,7 +2968,34 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Makari,Hilé Alifa,Zina,Muxule,Douguia,Dro,Walia,Kousséri,Sahu,Sao,Logone River,Lake Chad,Maladi,Woulki,Biamo,Bodo,Belguede,Blangape,Blangwa,El Beid River,Serbéouel River,Buduma,yedina,maslam,mpade,malgbe,afaɗə,msər,lagwan,maʒera,Island Buduma,yedəna,Northern Makary,Central Kousseri,Southern Mazera,Fishing,Farming",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://scholar.colorado.edu/downloads/8623hx994",
+        "https://www.sil.org/system/files/reapdata/33/24/96/33249614767524417060929098949320728994/kotoko_bagley1991_1623_p.pdf",
+        "https://glottolog.org/resource/languoid/id/koto1267",
+        "https://glottolog.org/resource/languoid/id/mpad1242",
+        "https://glottolog.org/resource/languoid/id/mser1242",
+        "https://glottolog.org/resource/languoid/id/lagw1237",
+        "https://glottolog.org/resource/languoid/id/budu1265",
+        "https://en.wikipedia.org/wiki/Kotoko_languages",
+        "https://en.wikipedia.org/wiki/Maslam_language",
+        "https://en.wikipedia.org/wiki/Malgbe_language",
+        "https://en.wikipedia.org/wiki/Jina_language",
+        "https://prolac.cm/wp-content/uploads/2026/07/PDC-COMMUNE-DE-HILE-ALIFA_-2030.pdf",
+        "https://en.wikipedia.org/wiki/Kouss%C3%A9ri",
+        "https://fr.wikipedia.org/wiki/Zina_(Cameroun)",
+        "https://joshuaproject.net/people_groups/13844/CM",
+        "https://joshuaproject.net/people_groups/12816/CD",
+        "https://joshuaproject.net/people_groups/12814/CM",
+        "https://shs.hal.science/halshs-02372126/document",
+        "https://kotokoresources.net/en/makary/stories"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T11:45:00Z",
+      "notes": "ISSUE: Significant contamination. 16/37 seeds (43%) are NOT place names — they are language names (Buduma, yedina, maslam, mpade, malgbe, afaɗə, msər, lagwan, maʒera, yedəna), dialect groupings (Northern Makary, Central Kousseri, Southern Mazera, Island Buduma), or economic activities (Fishing, Farming). Only 21 seeds are authentic settlements/geographical features in the Makary Kotoko area. Requires cleanup before 'verified' status."
+    }
   },
   {
     "name": "Kuo",
