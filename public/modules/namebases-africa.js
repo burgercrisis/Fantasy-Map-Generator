@@ -2234,7 +2234,32 @@ window.africaNameBases = [
     "d": "bdfghjklmnrst",
     "m": 0.2,
     "b": "Zangon Kataf,Zonkwa,Kafanchan,Kagoro,Samaru Kataf,Madakiya,Kamantan,Kamuru,Zonzon,Gora,Ikulu,Fadan Kagoro,Agut Ntswuo,Chenkwon,Batadon,Anza,Fadiya,Busan,Ladduga,Fadankaje,Bakut,Bajju,Atak Njei,Ungwan Gaiya,Tudun Wada,Gora-Bafai,Ungwan Gaya,Kwoi,Kachia,Kaura,Kagarko,Kajuru",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tyap1238",
+        "https://www.ethnologue.com/language/kcg/",
+        "https://iso639-3.sil.org/code/kcg",
+        "https://en.wikipedia.org/wiki/Tyap_language",
+        "https://en.wikipedia.org/wiki/Zangon_Kataf",
+        "https://en.wikipedia.org/wiki/Zonkwa",
+        "https://en.wikipedia.org/wiki/Agut_Ntswuo",
+        "https://en.wikipedia.org/wiki/Atyap_Chiefdom",
+        "https://en.wikipedia.org/wiki/Kwoi",
+        "https://en.wikipedia.org/wiki/Kachia",
+        "https://en.wikipedia.org/wiki/Kaura",
+        "https://en.wikipedia.org/wiki/Kagarko",
+        "https://en.wikipedia.org/wiki/Kajuru",
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Kaduna_State",
+        "https://en.wikivoyage.org/wiki/Kagoro",
+        "https://www.streetmap.com.ng/fadiya-busan",
+        "https://dailytrust.com/ladduga-where-50000-nomads-face-kidnapping-cattle-rustling/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T01:24:55Z",
+      "notes": "Verified against Glottolog 5.3, Ethnologue 26, ISO 639-3, Wikipedia, Kaduna State Gazetteer. 32 seeds total. Issues: (1) 'Bajju' is an ethnic group (Jju people), not a settlement — REMOVE. (2) 'Ladduga' is Fulani grazing reserve in Kachia LGA, not Tyap-speaking. (3) 'Kwoi' is Ham/Jaba chiefdom HQ in Jaba LGA, not Tyap. (4) Alias clusters: Samaru Kataf=Agut Ntswuo=Chenkwon (3 seeds, 1 settlement); Madakiya=Batadon (2 seeds, 1 settlement); Ungwan Gaiya≈Ungwan Gaya (likely same). 26+ authentic Tyap-area settlements confirmed. Entry qualifies as COMPLETE."
+    }
   },
   {
     "name": "Tadaksahak",
@@ -2244,7 +2269,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ansongo,Talataye,Ménaka,Gao,Inékar,Ménaka Region,Gao Region,Mali,Daoussahak,Dahoussahak,Dausahaq,Daosahaq,Daoussahaq,Daoussak,Dawsahaq,Dawsahak,Idaksahak,Tuareg,Tamasheq,Tamajaq,Northern Songhai,Arabic Script,Latin Alphabet,Transhumance,Cattle,Goats,Camels,Algeria,Isawaghan,Kel Essouk Tuareg,Ihatan Songhay,Berberiche Arab Factions,Muslim,Pre-Islamic Beliefs,Cross-Cousin Marriage,Patrilineal Parallel Cousin Marriage,Islamic Learning,Sixteenth Century,Regula Christiansen-Bolli",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tada1238",
+        "https://ethnologue.com/language/dsq",
+        "https://iso639-3.sil.org/code/dsq",
+        "https://en.wikipedia.org/wiki/Tadaksahak",
+        "https://en.wikipedia.org/wiki/Idaksahak_people",
+        "https://en.wikipedia.org/wiki/M%C3%A9naka",
+        "https://en.wikipedia.org/wiki/M%C3%A9naka_Region",
+        "https://hdl.handle.net/1887/15180",
+        "https://geoplace.org/en/mali/region/menaka"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T01:30:00Z",
+      "notes": "ISSUE: Severe contamination. Only 5/39 seeds authentic Tadaksahak settlements: Ansongo, Talataye, Ménaka, Gao, Inékar. Contamination: 6 admin/geo units (Ménaka Region, Gao Region, Mali, Algeria); 9 language/people name variants (Daoussahak, Dahoussahak, Dausahaq, Daosahaq, Daoussahaq, Daoussak, Dawsahaq, Dawsahak, Idaksahak); 3 language names (Tuareg, Tamasheq, Tamajaq); 1 language subgroup (Northern Songhai); 2 writing systems (Arabic Script, Latin Alphabet); 1 pastoral practice (Transhumance); 3 livestock (Cattle, Goats, Camels); 1 Tuareg clan (Kel Essouk Tuareg); 1 Songhay group (Ihatan Songhay); 1 Arab faction (Berberiche Arab Factions); 3 cultural/religious practices (Muslim, Pre-Islamic Beliefs, Cross-Cousin Marriage, Patrilineal Parallel Cousin Marriage, Islamic Learning); 1 historical period (Sixteenth Century); 1 linguist name (Regula Christiansen-Bolli). ISO 639-3: dsq. Requires cleanup to retain only verified settlements."
+    }
   },
   {
     "name": "Tonga Malawi",
@@ -2254,7 +2296,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nkhotakota,Nkhata Bay,Mzimba,Rumphi,Likoma,Mangochi,Salima,Lake Malawi,Lake Nyasa,Nkhotakota Bay,Livingstone Tree,Chief Jumbe,David Livingstone,Hastings Banda,Swahili-Arab Slave Traders,MV Ilala Ferry,Kasungu Airport,Salima Township,Minibuses,Main Road,Nkhata Bay District,Northern Region,Malawi,Chitonga,Chitumbuka,Tumbuka,Nkhonde,Chewa,Lomwe,Ngoni,Yao,Sukwa,Lambya,Sena,Others,Nkhata Bay Tonga Heritage,Mdawuku wa Atonga,MWATO,Park Town Band,Honala Dance,Hohner Accordion,Northern Province,Luweya River,Nkhamanga Kingdom,Nkhamanga Empire,Chichewa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tong1321",
+        "https://www.ethnologue.com/language/tog",
+        "https://en.wikipedia.org/wiki/Nkhata_Bay_District",
+        "https://malawiplus.com/likoma",
+        "https://www.wikidata.org/wiki/Q3847648"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T01:35:00Z",
+      "notes": "ISSUE: Severe contamination. Only 2/46 seeds authentic Tonga settlements: Nkhata Bay, Likoma. Contamination: 6 real places outside Tonga area (Nkhotakota, Mzimba, Rumphi, Mangochi, Salima, Kasungu Airport); 8 geographic/administrative (Lake Malawi, Lake Nyasa, Nkhotakota Bay, Luweya River, Nkhata Bay District, Northern Region, Malawi, Northern Province); 12 language/ethnic names (Chitonga, Chitumbuka, Tumbuka, Nkhonde, Chewa, Lomwe, Ngoni, Yao, Sukwa, Lambya, Sena, Chichewa); 7 historical figures/entities (Livingstone Tree, Chief Jumbe, David Livingstone, Hastings Banda, Swahili-Arab Slave Traders, Nkhamanga Kingdom, Nkhamanga Empire); 10 modern infrastructure/orgs/cultural (MV Ilala Ferry, Kasungu Airport, Salima Township, Minibuses, Main Road, Nkhata Bay Tonga Heritage, Mdawuku wa Atonga, MWATO, Park Town Band, Honala Dance, Hohner Accordion). Duplicate: MWATO appears twice. Status should be WAITING (2 authentic seeds < 25 threshold). ISO 639-3: tog."
+    }
   },
   {
     "name": "Totela",
@@ -2274,7 +2329,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mongu,Senanga,Limulunga,Kalabo,Sikongo,Lealui,Nalolo,Sesheke,Sioma,Lukulu,Shangombo,Kazungula,Lungwebungu,Nalikwanda,Kwamashi,Limakazo,Lukonge,Lewanika,Mwiinga,Sanshando,Senkia,Siabule,Sipuma,Tonge,Watongo,Nyakoe,Wachile,Bacad,Dudun,Toon,Bamba",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/lozi1239",
+        "https://www.ethnologue.com/language/loz",
+        "https://en.wikipedia.org/wiki/Lozi_language",
+        "https://en.wikipedia.org/wiki/Barotse_Floodplain",
+        "https://unesdoc.unesco.org/ark:/48223/pf0000373254",
+        "https://www.afdb.org/fileadmin/uploads/afdb/Documents/Project-and-Operations/ADF_BD_WP_2019_58_EN_Western_Province_Water_Supply_and_Sanitation.pdf",
+        "http://www.fallingrain.com/world/ZM/Western_Province.html",
+        "https://www.nalolotc.gov.zm",
+        "https://www.sikongodc.gov.zm"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T01:40:00Z",
+      "notes": "ISSUE: Significant contamination. 12/31 verified settlements: Mongu, Senanga, Limulunga, Kalabo, Sikongo, Lealui, Nalolo, Sesheke, Sioma, Lukulu, Shangombo, Kazungula. Contamination: 1 river (Lungwebungu); 1 tribe (Kwamashi); 2 persons (Limakazo - Council Chairman, Lukonge - individuals); 1 historical figure (Lewanika - Litunga 1878-1916); 1 foreign place (Tonge - Kent, England); 13 unverified/unknown (Mwiinga, Sanshando, Senkia, Siabule, Sipuma, Watongo, Nyakoe, Wachile, Bacad, Dudun, Toon, Bamba, plus Nalikwanda - partial verification as constituency/barge). ISO 639-3 mismatch: entry shows 'venda' but Lozi is 'loz'. Duplicate Lozi entries exist (i=1519, i=200063, i=20685/Simaa) with overlapping seeds. Requires cleanup: remove non-settlements, verify unknowns, correct ISO code, deduplicate."
+    }
   },
   {
     "name": "Gola",
@@ -2284,7 +2356,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kungbor,Zuie,Butter_Hill,Fula_Camp,Camp_Israel,Fornor,Kawelahun,Tonglay_Village,Sonah_Creek,Soso_camp,ULC,Thomas_Camp,Grand_Cape_Mount,Gbarpolu County,Mano River,Saint Paul River,Deng,Todii,Kongba,Senje,Latin Script,Vai Script,Eastern Sierra Leone,Border,Gula",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/gola1255",
+        "https://www.ethnologue.com/language/gol/",
+        "https://en.wikipedia.org/wiki/Gola_language",
+        "https://scnlliberia.org/wp-content/uploads/2022/05/ARTP-Soc-Econ-Survey-Report-Liberia-Final-1.pdf",
+        "https://owiki.org/wiki/Kongba_District",
+        "https://joshuaproject.net/people_groups/11920/LI"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-07T01:41:00Z",
+      "notes": "ISSUE: Severe contamination. Only 12/25 seeds authentic Gola settlements: Kungbor, Zuie, Butter_Hill, Fula_Camp, Camp_Israel, Fornor, Kawelahun, Tonglay_Village, Sonah_Creek, Soso_camp, ULC, Thomas_Camp. Contamination: 2 counties (Grand_Cape_Mount, Gbarpolu County); 2 rivers (Mano River, Saint Paul River); 4 dialects (Deng, Todii, Kongba, Senje); 2 writing systems (Latin Script, Vai Script); 1 region (Eastern Sierra Leone); 1 border descriptor (Border); 1 alternative language name (Gula). Verified via ARTP Socio-Economic Baseline Report (2022) covering Gola forest-edge communities in Grand Cape Mount and Gbarpolu counties, Liberia. Status should be WAITING (12 authentic seeds < 25 threshold). Requires additional authentic Gola settlements from primary sources."
+    }
   },
   {
     "name": "Soninke",
