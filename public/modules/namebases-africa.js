@@ -5275,7 +5275,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Song,Chukkol,Gben,Loko,Mbilla,Zumo,Boloko,Holma,Karahi,Kilange Hirna,Lappae,Zuno,Dirma,Dumne,Waltadi,Mboi,Gudu,Ditera,Yola,Mubi,Madagali,Michika,Hong,Gombi,Garkida",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/gudu1250",
+        "https://iso639-3.sil.org/code/gdu",
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Adamawa_State",
+        "https://en.wikipedia.org/wiki/Gudu_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:01:00Z",
+      "notes": "18/25 seeds verified against Wikipedia village list (NIPOST/INEC sourced) for Song LGA. 7 seeds contaminated: Yola, Mubi, Madagali, Michika, Hong, Gombi, Garkida are LGAs/major towns elsewhere in Adamawa State, not in Gudu language area (Song LGA). Recommend removing contaminated seeds and re-researching for authentic Song LGA settlements."
+    }
   },
   {
     "name": "Guduf-Gava",
@@ -5285,7 +5297,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Gwoza,Gava,Cikide,Cineni,Dikwa,Ngala,Zelidva,Dughwede,Kusarha,Pulka,Wize,Uvagha,Lamang,Hambagda,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Mgangani,Karungu,Dida,Kakuma,Garsale,Jowhaar,Farlibaax,Pongwe,Anamfa,Alitra,Alerra,Amobfa,Anugma,Abisfa,Anusma,Adusfa,Amubra,Abufa,Apulma,Amekra,Akora,Apirfa,Akisfa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/gudu1252",
+        "https://www.ethnologue.com/language/gdf",
+        "https://en.wikipedia.org/wiki/Guduf-Gava_language",
+        "https://en.wikipedia.org/wiki/Gwoza",
+        "https://en.wikipedia.org/wiki/Cineni",
+        "https://en.wikipedia.org/wiki/Dghwede_language",
+        "https://en.wikipedia.org/wiki/Lamang_language",
+        "https://en.wikipedia.org/wiki/Kakuma",
+        "https://en.wikipedia.org/wiki/Jowhar",
+        "https://en.wikipedia.org/wiki/Adado"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:04:00Z",
+      "notes": "SEVERE CONTAMINATION: 30/55 seeds (54.5%) are either East African (Kenya/Somalia) or synthetic constructions. Only 8 seeds verified in Guduf-Gava area (Gwoza LGA). Language names (Dughwede, Lamang, Cineni, Cikide) incorrectly included as settlements. 13 Nigerian towns from wrong region (Adamawa/Lake Chad). Entry status COMPLETE invalid — only ~8 authentic seeds. Recommend WAITING status after cleanup."
+    }
   },
   {
     "name": "Guinea-Bissau Creole",
@@ -5295,7 +5325,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bissau,Gabú,Bafatá,Cacheu,Bolama,Farim,Mansôa,Buba,Quebo,Catió,Canchungo,Bissorã,Quinhámel,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/uppe1455",
+        "https://www.ethnologue.com/language/pov",
+        "https://en.wikipedia.org/wiki/Guinea-Bissau_Creole",
+        "https://en.wikipedia.org/wiki/Bissau",
+        "https://en.wikipedia.org/wiki/Gab%C3%BA_(town)",
+        "https://en.wikipedia.org/wiki/Bafat%C3%A1",
+        "https://en.wikipedia.org/wiki/Cacheu",
+        "https://en.wikipedia.org/wiki/Bolama_(town)",
+        "https://en.wikipedia.org/wiki/Farim"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:12:00Z",
+      "notes": "SEVERE CONTAMINATION: 12/25 seeds are Nigerian settlements (Adamawa State) copied from other namebase entries. Only 13 authentic Guinea-Bissau seeds verified. Entry must be cleaned and expanded to ≥25 authentic seeds before marking verified."
+    }
   },
   {
     "name": "Gurara",
@@ -5315,7 +5362,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mokolo,Hina,Maroua,Mora,Koza,Mozogo,Mogode,Gazawa,Soulede-Roua,Bourha,Guiziga,Mafa,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/mina1276",
+        "https://www.ethnologue.com/language/hna",
+        "https://en.wikipedia.org/wiki/Hina_language",
+        "https://en.wikipedia.org/wiki/Mayo-Tsanaga",
+        "https://www.joshuaproject.net/people_groups/12105/CM"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:15:00Z",
+      "notes": "Only 7/25 seeds verified authentic Hina settlements in Mayo-Tsanaga, Cameroon. 2 language names (Guiziga/Giziga, Mafa) incorrectly used as seeds. 13 Nigerian settlements (Adamawa State) completely outside Hina language area (Cameroon only). 3 Cameroonian towns outside Hina area (Maroua, Mora, Gazawa). Only 7 authentic seeds < 25 floor → should be WAITING."
+    }
   },
   {
     "name": "Ghomara",
@@ -5325,7 +5385,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Chefchaouen,Tetouan,Tangier,Asilah,Larache,Ksar el-Kebir,Al Hoceima,Ouezzane,Rissani,Fnideq,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Jada,Accra,Kumasi,Abidjan,Lomé,Cotonou,Lagos,Kano,Ibadan,Abuja,Tamale,Bouaké",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/ghom1257",
+        "https://iso639-3.sil.org/code/gho",
+        "https://en.wikipedia.org/wiki/Ghomara_language",
+        "https://en.wikipedia.org/wiki/Chefchaouen",
+        "https://en.wikipedia.org/wiki/T%C3%A9touan",
+        "https://en.wikipedia.org/wiki/Fnideq"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:20:00Z",
+      "notes": "Only 3/36 seeds verified authentic Ghomara settlements in Morocco (Chefchaouen, Tetouan, Fnideq). 7 other Moroccan cities outside Ghomara area. 15 Nigerian cities (Adamawa State) — copied from other entries. 11 West African major cities across 5 countries (Ghana, Côte d'Ivoire, Togo, Benin, Nigeria). 33/36 seeds contaminated (91.7%). Entry requires complete seed replacement."
+    }
   },
   {
     "name": "Gidar",
