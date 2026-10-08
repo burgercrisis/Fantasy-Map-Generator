@@ -5409,7 +5409,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Guider,Kaélé,Moutourwa,Maroua,Mora,Mokolo,Amchidé,Oulo,Mango,Meme,Garoua,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Godinlabe",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/gida1247",
+        "https://www.ethnologue.com/language/gid",
+        "https://en.wikipedia.org/wiki/Gidar_language",
+        "https://joshuaproject.net/people_groups/11886/CM",
+        "https://en.wikipedia.org/wiki/North_Region_(Cameroon)",
+        "https://en.wikipedia.org/wiki/Far_North_Region_(Cameroon)"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:35:00Z",
+      "notes": "SEVERE CONTAMINATION: Only 3/26 seeds (Guider, Kaélé, Moutourwa) are authentic Gidar settlements per primary sources (Glottolog gida1247, Ethnologue gid, Wikipedia, Joshua Project). Gidar language area: Cameroon North Region (Mayo-Louti: Guider, Figuil) and Far North Region (Mayo-Kani: Kaélé, Moutourwa arrondissements). 14 seeds are Nigerian Adamawa State towns (Yola, Mubi, Madagali, Michika, Hong, Gombi, Song, Garkida, Guyaku, Boga, Numan, Demsa, Jimeta, Ganye) — cross-contaminated into Kilba, Hun-Saare, Hwana entries. 4 seeds in wrong Cameroonian regions (Mora, Mokolo, Amchidé, Garoua). 1 seed (Meme) is a Southwest Region department. 3 seeds unverified (Oulo, Mango, Godinlabe). Entry requires complete seed replacement with authentic Gidar villages from Mayo-Louti and Mayo-Kani departments. Status should be WAITING until ≥25 authentic seeds compiled."
+    }
   },
   {
     "name": "Kilba",
@@ -5419,7 +5433,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Hong,Pella,Gwaja,Kulinyi,Garaha,Bangshika,Mijili,Miljili,Ndlang,Hyema,Hyama,Kinging,Motaku,Kwapor,Zah,Zivi,Uding,Udong,Mothol,Dagza,Buzza,Dzumah,Midillah,Ngalbi,Zhedinyi,Dabna,Daku,Dazal,Kuddah,Mbanga,Mugwalar,Shashau,Washim,Kwaprey,Dulmava,Dulwachira,Garavi,Kubtava,Kwakwa'ah,Kwambula,Kwatau,Mbalwaha,Mbulagyeng,Mombol,Kwarhi,Migzil,Mukuving,Njerri,Dzakwa,Gashala,Gaya-Jaba,Gaya-Maki,Gaya-Skalmi,Gaya-Gou,Gaya-Fa'a,Gaya-Jabba,Daksiri,Hildi,Uba,Mugwahi,Mayolope,Muffa,Yadul,Shangui,Krama Hong",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/huba1236",
+        "https://en.wikipedia.org/wiki/Kilba_people",
+        "https://townsvillages.com/ng/hong",
+        "https://en.wikipedia.org/wiki/Hong,_Nigeria",
+        "https://joshuaproject.net/people_groups/12683/NI"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:40:00Z",
+      "notes": "46/65 seeds (71%) have primary source support (38 exact + 8 spelling variants). 19 seeds (29%) unverified: Udong, Mothol, Kuddah, Mugwalar, Washim, Garavi, Mukuving, Mugwahi, Muffa, Yadul, Krama Hong. Duplicate/near-duplicate pairs: Mijili/Miljili, Hyema/Hyama, Kinging/Kinking, Zah/Za, Dulwachira/Dilwachira, Mbulagyeng/Mblagyang, Njerri/Njairi, Mayolope/Mayo Lope. Synthetic compound: Krama Hong. Status should be WAITING after deduplication (<25 unique verified). Verified unique: 38 settlements."
+    }
   },
   {
     "name": "Hun-Saare",
@@ -5429,7 +5456,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mahuta,Fakai,Birnin Kebbi,Argungu,Jega,Bunza,Kalgo,Gwandu,Aleiro,Augie,Yola,Mubi,Madagali,Michika,Hong,Gombi,Song,Garkida,Guyaku,Boga,Numan,Demsa,Jimeta,Ganye,Saint-Louis,Zuru",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/huns1239",
+        "https://en.wikipedia.org/wiki/Hun-Saare_language",
+        "https://iso639-3.sil.org/code/dud",
+        "https://wp1.inecnigeria.org/wp-content/uploads/2024/04/KEBBI-STATE.pdf"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:43:00Z",
+      "notes": "SEVERE CONTAMINATION: 0/26 seeds in actual Hun-Saare area (Wasagu/Danko, Yauri LGAs in Kebbi; Rijau LGA in Niger). 10 seeds from non-target Kebbi LGAs, 14 seeds from Adamawa State (~800km away, different language families), 1 seed from Senegal (Saint-Louis). ISO 639-3 code 'dud' deprecated 2019 (split into uth/uss). Entry status COMPLETE but zero authentic seeds."
+    }
   },
   {
     "name": "Hwana",
@@ -5439,7 +5478,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Hona,Gombi,Hong,Song,Shani,Garkida,Guyaku,Boga,Dingai,Fotta,Duwa,Riji,Kiro,Jere,Dahra,Jaraboi,Ganji,Gir,Lubu,Mbewa,Merja,Pirfa,Pirkasa,Sosai,Tofa,Vurgwi,Wuyaku,Dongo,Bebe,Demna,Kurara,Kwari,Yola,Mubi,Madagali,Michika,Gombi LGA,Hong LGA,Song LGA,Shani LGA,Adamawa State,Borno State,Pella,Kulinyi,Garaha,Bangshika,Mijili,Miljili,Ndlang,Hyema,Hyama,Kinging,Motaku,Kwapor,Zah,Zivi,Uding,Udong,Mothol,Dagza",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/hwan1240",
+        "https://www.ethnologue.com/language/hwo",
+        "https://iso639-3.sil.org/code/hwo",
+        "https://en.wikipedia.org/wiki/Hwana_language",
+        "https://en.wikipedia.org/wiki/Kilba_people",
+        "https://en.wikipedia.org/wiki/Hong,_Nigeria"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T21:50:00Z",
+      "notes": "Only 14/60 seeds verified: 7 major towns/LGAs (Gombi, Hong, Song, Shani, Yola, Mubi, Madagali, Michika) + 7 Hong LGA wards/districts (Bangshika, Garaha, Kulinyi, Pella, Uding, Hyema, Shangui). 1 self-reference (Hona = language autonym). 13+ seeds are Kilba (Həba) mountain communities from Hong LGA (Pella, Kulinyi, Garaha, Bangshika, Mijili/Miljili, Ndlang, Hyema/Hyama, Kinging/Kinking, Motaku, Kwapor, Zah/Za, Zivi, Udong/Uding). 25 seeds lack any primary source. Should be WAITING status (14 verified < 25 floor)."
+    }
   },
   {
     "name": "Hya",
@@ -5479,7 +5532,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Serengeti,Mwiba,Makao,Ngorongoro,Maswa,Bukoba,Mwanza,Musoma,Shinyanga,Tabora,Arusha,Dodoma,Manyara,Simanjiro,Kiteto,Babati,Hanang,Handeni,Kilindi,Korogwe,Lushoto,Mkinga,Monduli,Njombe,Rungwe",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Omaio_language",
+        "https://glottolog.org/resource/languoid/id/kake1234",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4270238/",
+        "https://www.birdlife.org/datazone/site/18400"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T22:00:00Z",
+      "notes": "SEVERE CONTAMINATION: Only 1/25 seeds (Mwiba) has Omaio connection (3 rememberers found there in 2014 per Peterson field notes). 5 seeds are protected areas (Serengeti, Makao, Ngorongoro, Maswa, Mwiba), not settlements. 19 seeds are major Tanzanian cities/regions across the country (Bukoba, Mwanza, Musoma, Shinyanga, Tabora, Arusha, Dodoma, Manyara, Simanjiro, Kiteto, Babati, Hanang, Handeni, Kilindi, Korogwe, Lushoto, Mkinga, Monduli, Njombe, Rungwe) with no Omaio connection. Omaio was a tiny hunter-gatherer group (3 rememberers in 2014) expelled from Serengeti in 1950s. Entry requires complete seed replacement."
+    }
   },
   {
     "name": "Judeo-Berber",
