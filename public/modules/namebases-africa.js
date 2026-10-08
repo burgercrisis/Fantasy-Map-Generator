@@ -4957,7 +4957,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bolgatanga,Bawku,Garu,Paga,Sisala,Tumu,Kandiga,Bongo,Nabango,Sherigu,Nangodi,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Murcanyo,Buqda,Galkacyo,Elwak,Mkonumbi,Isebania,Maikona,Cagare,Anetbwe,Alogla,Alibla,Aikbwe,Afegla,Apunna,Akusla,Adobwe,Apudla,Aulna,Afigbwe,Anunbwe,Adisla,Alorla,Afakla",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fare1241",
+        "https://www.ethnologue.com/language/gur",
+        "https://iso639-3.sil.org/code/gur",
+        "https://en.wikipedia.org/wiki/Farefare_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T17:02:00Z",
+      "notes": "Only 9/55 seeds verified authentic Farefare settlements in Upper East Region, Ghana. 46 contaminated: 1 Sisaala language seed (Sisala), 1 Upper West Region seed (Tumu), 14 Tanzanian cities, 14 Somali/Kenyan locations, 16 synthetic Farefare-like names. Authentic: Bolgatanga, Bawku, Garu, Paga, Kandiga, Bongo, Nabango, Sherigu, Nangodi. Status should be WAITING (9 < 25 floor)."
+    }
   },
   {
     "name": "Ndau",
@@ -4977,7 +4989,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tunis,Sfax,Sousse,Kairouan,Monastir,Mahdia,Bizerte,Gabes,Medenine,Tozeur,Gafsa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Ruvuma,Touba,Ségou,Sikasso,Mopti,Timbuktu,Gao,Bobo-Dioulasso",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/doui1234",
+        "https://en.wikipedia.org/wiki/Douiret_language",
+        "https://en.wikipedia.org/wiki/Douiret",
+        "https://en.wikipedia.org/wiki/Languages_of_Tunisia"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T17:08:00Z",
+      "notes": "SEVERE CONTAMINATION: 0/32 seeds authentic. Seeds 1-11: major Tunisian cities outside Douiret language area. Seeds 12-25: Tanzanian cities (copied from Nyamwezi entry i=10883). Seeds 26-32: West African cities (Senegal, Mali, Burkina Faso). Authentic Douiret-area settlements per Glottolog/Wikipedia/place-db: Douiret, Chenini, Kebili, Douz, Souk Lahad, El Golaa, Faouar, Bir Zar, Bir Soltane, Douar el Haj, El Mdou, Bni Mhira, Oued Zit, Ain Zerga, Kriz, Steftimi (15 settlements). Entry must be rebuilt from scratch. Status should be WAITING (<25 authentic seeds)."
+    }
   },
   {
     "name": "Kwanyama",
@@ -4987,7 +5011,27 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Oshakati,Ondangwa,Rundu,Katima Mulilo,Omuthiya,Outapi,Oshikuku,Ombalantu,Ongwediva,Oshigambo,Okahao,Oniipa,Dar es Salaam,Dodoma,Arusha,Mwanza,Tanga,Mbeya,Songea,Kigoma,Tabora,Morogoro,Iringa,Shinyanga,Kagera,Haraale,Salkaxo,Garowe,Janaale,Kaloleni,Masige,ArchersPost,RasKamboni,Deynile,Hobyo,Kudhaa,Shimba,Tabaka,Marsabit,Afesbwe,Adola,Alisbwe,Akurna,Aubla,Anombwe,Alunna,Amebla,Aibwe,Apegbwe,Apanbwe,Apasla,Audna,Abegbwe,Akutna,Ewondola,Ewondoma,Ewondowa,Ewondora,Ewondoka,ElDera",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kuan1247",
+        "https://iso639-3.sil.org/code/kua",
+        "https://en.wikipedia.org/wiki/Kwanyama",
+        "https://en.wikipedia.org/wiki/Oshakati",
+        "https://en.wikipedia.org/wiki/Ondangwa",
+        "https://en.wikipedia.org/wiki/Rundu",
+        "https://en.wikipedia.org/wiki/Katima_Mulilo",
+        "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+        "https://en.wikipedia.org/wiki/Garoowe",
+        "https://en.wikipedia.org/wiki/Archers_Post",
+        "https://en.wikipedia.org/wiki/Marsabit",
+        "https://en.wikipedia.org/wiki/Adola"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T17:15:00Z",
+      "notes": "Only 10/60 seeds verified authentic Kwanyama settlements in Ovamboland (Namibia). 13 Tanzanian cities, 11+ Somali/Kenyan/Ethiopian settlements, 20+ synthetic A*/Ewondo* patterns. 2 seeds (Rundu, Katima Mulilo) in Namibia but outside Kwanyama area. Status should be WAITING (10 verified < 25 floor)."
+    }
   },
   {
     "name": "Ewondo Populaire",
@@ -5007,7 +5051,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Gyaazi,Bichiki,Sakani,Zaranda,Byeru,Haɗobilang,Pakimi,Beddare,Balla,Megang,Dawa,Gumau,Rishi,Badiko,Tafawa-Balewa,Toro,Bununu,Dass,Jos,Dar es Salaam,Dodoma,Arusha,Mwanza,Nzérékoré,Kuru",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Geji_language",
+        "https://glottolog.org/resource/languoid/id/geji1246",
+        "https://iso639-3.sil.org/code/gyz",
+        "https://en.wikipedia.org/wiki/Bauchi_State"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T17:20:00Z",
+      "notes": "Only 6/25 seeds verified authentic Geji settlements: Zaranda, Byeru, Haɗobilang, Pakimi, Beddare, Balla. 2 variety names (Gyaazi, Megang), 7 unverified, 4 admin centers, 5 wrong-country (Tanzania, Guinea), 3 other wrong. Authentic Mәgang villages missing: Baking Kura, Bәm Mәgang, Makyera. Only 6 verified < 25 floor → should be WAITING."
+    }
   },
   {
     "name": "Fe-fe",
@@ -5027,7 +5083,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Cotonou,Porto-Novo,Abomey,Godomey,Abomey-Calavi,Bohicon,Parakou,Ouidah,Djougou,Nikki,Savalou,Come,Grand-Popo,Lokossa,Dangbo,Ouinhi,Agbangnizoun,Tchaourou,Tanguiéta,N'Dali,Pobè,Savé,Sèmè-Kpodji,Dar es Salaam,Dodoma",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fonn1241",
+        "https://iso639-3.sil.org/code/fon",
+        "https://ethnologue.com/language/fon/",
+        "https://en.wikipedia.org/wiki/Fon_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T17:25:00Z",
+      "notes": "14/25 verified authentic Fon settlements in southern Benin (Littoral, Atlantique, Ouémé, Mono, Zou). 2 Tanzanian cities (Dar es Salaam, Dodoma) - wrong country. 7 northern Benin settlements (Parakou, Djougou, Nikki, Tchaourou, Tanguiéta, N'Dali, Savalou) in Bariba/Dendi/Yom/Ditammari areas. 4 transition zone seeds (Savalou, Savé, Pobè, Come). Come should be Comé. Only 14 verified Fon-area seeds."
+    }
   },
   {
     "name": "Fyer",
