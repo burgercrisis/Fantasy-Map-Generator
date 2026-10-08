@@ -4530,7 +4530,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0.1,
     "b": "Fadan Ayu,Ungwar Nungu,Agamati,Amantu,Ambel,Anka,Arau,Digel,Gwade,Ikwa,Kongon,Tayu,Alan,Chambwa,Gbaku,Gbuzhi,Jege,Kanjan,Kimba,Kpaji,Kpoto,Marinjo,Ninyu,Takpe,Unzahu,Ayaba,Challa,Dariya,Mantur,Nungu Bokana,Sansani,Bokana,Mayir,Agas,Ankub,Awgon,Balawes,Gokwi,Iden,Sankwai,Yabme,Boyi,Fatu,Timis,Tela",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "http://www.ogmios.org/ogmios_files/206.htm",
+        "https://glottolog.org/resource/reference/id/34888",
+        "https://en.wikipedia.org/wiki/Ayu_language",
+        "https://glottolog.org/resource/languoid/id/ayuu1242",
+        "https://townsvillages.com/ng/sanga",
+        "https://joshuaproject.net/people_groups/print/10525/NI",
+        "https://lingweb.eva.mpg.de/channumerals/Ayu.htm"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T07:20:00Z",
+      "notes": "Only 20/45 seeds verified against primary sources (Blench 2001/2006 fieldwork, Ethnologue, Wikipedia, Sanga LGA gazetteer). 25 seeds unverified — many follow Bantu phonological patterns suggesting algorithmic generation. Core 10 villages from Ethnologue/Blench are present. Fadan Ayu and Ungwar Nungu are primary reference settlements. Mayir is a synonym for Ikwa per Blench. 5 additional Sanga LGA settlements verified via INEC records."
+    }
   },
   {
     "name": "Baba",
@@ -4540,7 +4555,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Vemgang,Mboghombam,Mbanka,Mbawart,Ngomesingong,Mbakwa,Membeh,Ndumunkwi,Kwepessi,Kingang,Ndwikam,Konyiart,Kungoh,Meya,Mechacha,Mbanghanga,Nqwimendzen,Njipiak,Mbawat,Quebessi,Njikwert,Motem,Kamendui,Nchunkum,Femefom,Njiwoh,Momeyam,Komue,Kegang,Metuoh,Mbwitchenterh,Mbwingong,Nchunguoh",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://www.pndp.org/documents/17_CDP_BABESSI.pdf",
+        "https://fr.wikipedia.org/wiki/Baba_I",
+        "https://armp.cm/details?id_publication=50909&type_publication=AO",
+        "https://armp.cm/details?id_publication=32176&type_publication=AO",
+        "https://exa.ai/library/publication/n76wfqwyn6t",
+        "https://www.237online.com/cameroun-le-cardinal-christian-tumi-et-les-11-enseignants-enleves-a-kumbo-sont-libres/",
+        "https://glottolog.org/resource/languoid/id/baba1264",
+        "https://en.wikipedia.org/wiki/Baba_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T07:25:00Z",
+      "notes": "Only 18/33 seeds verified against official Babessi Council Development Plan and ARMP government tenders. 15 seeds unverified: Mbawat (wrong location), Quebessi (news only, not in official plan), Njikwert (West Region, not Ngoketunjia), and 12 fabricated/surname seeds (Motem, Kamendui, Nchunkum, Femefom, Njiwoh, Momeyam, Komue, Kegang=surname, Metuoh, Mbwitchenterh, Mbwingong, Nchunguoh). Ngwi Centre (official 14th quarter) missing from entry. Only 18 verified < 25 threshold → should be WAITING."
+    }
   },
   {
     "name": "Bacama alias",
@@ -4550,7 +4581,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Numan,Lamurde,Demsa,Opalo,Waduku,Imburu,Gyawana,Kodomti,Bolki,Vulpi,Gamadio,Bare,Tingno,Hadiyo,Rigange,Dubwangun,Suwa,Lafiya,Ngbakowo,Mgbebongun,Kwah,Farai,Bollore,Mamsire,Salti,Gyemun,Byemti,Bolon,Fare,Dong,Lawaru,Kikan,Pullum,Shafforon,Nzoruwe,Bulkun,Ngbalang,Kwapuke,Mbemun,Gon,Zangun,Nzumoso,Bwei,Kanti,Yanga,Tabongo,Pude,Bunari,Dullum,Lassun,Goh,Zekun,Shemun,Kowei",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Adamawa_State",
+        "https://dtm.iom.int/sites/g/files/tmzbdl1461/files/reports/04_IOM_DTM_Assessed_Nigeria_Wards_List_R2.pdf",
+        "https://inecnigeria.org/wp-content/uploads/2023/01/PVC-Collection-centers-for-Ward-level-1.pdf",
+        "https://openadmindata.org/ng/wards/",
+        "https://www.nigeriapostcode.com/adamawa-numan-vulpi-bwei.html",
+        "https://kanaritrends.com.ng/neglected-and-forgotten-dong-to-vulpi-villages-cry-out-for-road-infrastructure/",
+        "https://tgnews.com.ng/breakingsuspected-herdsmen-in-adamawa-attacked-gonbolki-villages/",
+        "https://blueprint.ng/50-houses-burnt-2-die-in-fulani-bachama-youth-clash-in-adamawa/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T07:27:00Z",
+      "notes": "52/54 seeds directly match official ward/village gazetteers (postal codes, IOM DTM wards, INEC polling units). 2 seeds (Bollore→Bolere, Mamsire→Mamsirme) are confirmed orthographic variants in same ward. Lassun maps to Lassandi in Ganye LGA (adjacent, non-core Bacama area) — minor uncertainty. No contamination, synthetic seeds, or self-references detected. Entry accurately represents Bacama (Bwatiye) settlement topology across Numan, Lamurde, Demsa LGAs."
+    }
   },
   {
     "name": "Barambu",
@@ -4560,7 +4607,29 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0.1,
     "b": "Bangile Bipala,Bautse,Bodo,Bope,Efu,Maya,Mazurulu,Zongbaya,Maka,Belisipiano,Yadiko,Momokandi,Ngama,Kuge,Mabodi,Zoza,Lome,Nganzi,Bagbala,Gowole,Diangele,Gamu,Eliwa,Babuede,Yengeyime,Konzo-Gwali,Atsiango,Lugula,Ongane,Bandu,Yangala,Kanga,Zopia,Zolo,Sambloma,Bieme,Loko,Baloyo,Titule,Manonga",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bara1361",
+        "https://www.ethnologue.com/language/brm/",
+        "https://en.wikipedia.org/wiki/Barambu_language",
+        "https://en.wikipedia.org/wiki/Barambu_people",
+        "https://en.wikipedia.org/wiki/Poko_(territory)",
+        "https://en.wikipedia.org/wiki/Titul%C3%A9",
+        "https://reliefweb.int/attachments/ec87efe7-eb75-3a78-bcf1-f698815eeb40/COD_HLT_Bas-Uele_A0L_191216.pdf",
+        "https://reliefweb.int/attachments/a4fc964f-6be7-4992-828d-d59ce3bb2c3f/Niangara_%28Haut-Uele%29.pdf",
+        "https://condev.tamu.edu/wp-content/uploads/2025/09/Cartographie20des20Conflits20dans20la20Province20de20Bas-Uele2028229_1.pdf",
+        "http://fallingrain.com/world/CG/09/",
+        "https://www.congovirtuel.com/page_province_bas_uele.php",
+        "https://fr.scribd.com/doc/35735886/",
+        "https://www.nona.net/feature/707122",
+        "https://eu.aimint.org/needsseptember2020/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T07:30:00Z",
+      "notes": "All 40 seeds verified as authentic Barambu settlements in Bas-Uélé Province, DRC (Poko, Buta, Ango, Niangara territories) via UNOCHA administrative maps, ReliefWeb health maps, provincial CONDEV documents, Fallingrain/WorldPlaces gazetteers, Scribd maps, scientific collection records. No contamination, duplicates, or synthetic seeds. ISO 639-3 brm matches Glottolog bara1361."
+    }
   },
   {
     "name": "Beni Snous",
@@ -4580,7 +4649,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Weyto,Key Afer,Luqa,Diziaman,Sitemba,Anesonda,Argo,Shaba,Gurdo,Sile,Chali,Shalla,Gone,Ollo,Dulayko,Guyayo,Guralla,Oro Dangere,Basa,Besh,Bodi,Chabi,Dara,Dima,Doko,Gala,Guba,Hara,Jaba,Kaka,Kela,Kola,Lala,Maka,Mela,Naka,Ola,Pala,Qola,Rala,Saba,Taka,Uka,Waka,Yaka,Zaka,Zela,Zima,Karo",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tsamai_people",
+        "https://en.wikipedia.org/wiki/Bena_Tsemay",
+        "https://glottolog.org/resource/languoid/id/tsam1247",
+        "https://grokipedia.com/page/tsamai_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T07:35:00Z",
+      "notes": "Only 3/49 seeds verified: Weyto (main town per Wikipedia), Key Afer (admin center per Wikipedia), Luqa (northern village per Savà 2005). Grokipedia citing Savà 2005 documents only 16 Tsamai villages. 44/49 seeds lack primary source attestation; many appear synthetic (repeated -a, -o, -ko, -ka endings). 'Karo' is a separate ethnic group. Entry requires reconstruction from Savà 2005 fieldwork and Ethiopian census gazetteers. Status should be WAITING (3 verified < 25 threshold)."
+    }
   },
   {
     "name": "Makonde",
