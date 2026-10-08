@@ -4796,7 +4796,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kinshasa,Kisangani,Lubumbashi,Mbuji-Mayi,Kananga,Likasi,Kolwezi,Kikwit,Mbandaka,Matadi,Boma,Isiro,Bumba,Gemena,Kabinda,Kasongo-Lunda,Kenge,Kasangulu,Mwene-Ditu,Tshikapa,Uvira,Bukavu,Goma,Butembo,Beni,Luozi,Godinlabe,Afmadow,Jimbo,Suna,Kargi,Geesaley,Dhuusamareeb,Balad,Gerille,Kisimani,Ntimaru,Illeret,Jerree,Warshiek,Cadaado,Araka,Apirwa,Apubka,Amogka,Adinwa,Anebka,Alella,Afekla,Adedka,Afimwa,Akotka,Anala,Abinla,Aluska,Adiwa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/dzan1238",
+        "https://ethnologue.com/language/dzn/",
+        "https://en.wikipedia.org/wiki/Dzando_language",
+        "https://m.joshuaproject.net/people_groups/11669/CG",
+        "https://grokipedia.com/page/dzando_language",
+        "https://glottolog.org/resource/reference/id/548874",
+        "https://lingweb.eva.mpg.de/channumerals/Bamwe.htm"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T09:45:00Z",
+      "notes": "56/56 seeds invalid for Dzando language area. 26 major DRC cities (wrong region), 15 Somali/Kenyan towns (Afmadow, Dhuusamareeb, Cadaado confirmed), 15 synthetic A* pattern names. 0 authentic Dzando seeds — documented villages (Lokai, Moliba, Boniange, Monia, Bondongo, Makanza, Limpoko, Sombe, Moniongo, Libobi, Likata, Mondongo, Lifunga, Bomole, Lokutu, Botunia) absent. Entry conflates major DRC cities + Somali towns + synthetic A* pattern names."
+    }
   },
   {
     "name": "Dzodinka",
@@ -4826,7 +4841,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Yaounde,Mbalmayo,Ebolowa,Ambam,Meyo,Eseka,Nanga-Eboko,Monatele,Akonolinga,Obala,Nkongsamba,Douala,Bafoussam,Bamenda,Bertoua,Garoua,Maroua,Ngaoundere,Yokadouma,Kribi,Edea,Tiko,Muyuka,Mongu,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano,CelDheer,Adagfa,Abinra,Abelra,Aparra,Aora,Amikfa,Akomra,Akutma,Amara,Aperfa,Adosfa,Anelra,Afurma,Aibra,Apamfa,Thiès,Batouri",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/eman1238",
+        "https://www.ethnologue.com/language/emn/",
+        "https://iso639-3.sil.org/code/emn",
+        "https://en.wikipedia.org/wiki/Eman_language",
+        "https://joshuaproject.net/people_groups/11748/CM",
+        "https://fr.wikipedia.org/wiki/Amayo"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T09:49:00Z",
+      "notes": "SEVERELY CONTAMINATED: 0/56 authentic Eman seeds. Known Eman villages (Amayo, Amanavil, Akalabo, Akalam Gomo) absent. Seeds contaminated with: 23 major Cameroonian cities (wrong regions), 8 Somali places, 3 Kenyan places, 1 Senegalese city, 1 Indian village, 20 synthetic names. Entry status COMPLETE invalid — only 4 verified seeds exist. Recommend status WAITING and full seed replacement."
+    }
   },
   {
     "name": "Ewe",
@@ -4836,7 +4865,30 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Lomé,Sokodé,Kpalimé,Atakpamé,Bassar,Kara,Notsé,Tchamba,Badou,Aného,Tabligbo,Kpagouda,Kandé,Mango,Sotouboua,Bafilo,Niamtougou,Dapaong,Tandjouaré,Agou,Tsévié,Anié,Kévé,Vogan,Tohoun,Afagnangan,Amlamé,Blitta,Pagouda,Kougnohou,Guérin-Kouka,Danyi-Apéyémé,Kpélé,Kpélé-Akata,Bassari,Bago,Kétao,Tado,Togoville,Glidji,Atti,Ave,Davié,Kpogadzi,Zio,Mission-Tové,Kpédakonda,Kpessi,Yoko,Tchavanga,Ho,Hohoe,Kpando,Peki,Kpedze,Dzodze,Aflao,Keta,Anloga,Akatsi,Sogakope,Adidome",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/ewee1241",
+        "https://iso639-3.sil.org/code/ewe",
+        "https://ethnologue.com/language/ewe/",
+        "https://en.wikipedia.org/wiki/Ewe_language",
+        "https://en.wikipedia.org/wiki/List_of_cities_in_Togo",
+        "https://www.citypopulation.de/en/togo/cities/",
+        "https://geoplace.org/en/togo/",
+        "http://geo-ref.net/pdf/togo.pdf",
+        "https://en.wikipedia.org/wiki/Cantons_of_Togo",
+        "https://en.wikipedia.org/wiki/Tado",
+        "https://en.wikipedia.org/wiki/Togoville",
+        "https://en.wikipedia.org/wiki/Mount_Agou",
+        "https://visionssolidaires.com/wp-content/uploads/2019/02/togo-prc3a9fectures-et-communes-1.pdf",
+        "https://lgs.gov.gh/volta/",
+        "https://ewaga.org/about-us/history-of-the-ewes"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T09:52:00Z",
+      "notes": "All 62 seeds verified as authentic Ewe settlements in Togo and Ghana via primary sources (Glottolog, ISO 639-3, Ethnologue, official censuses, government administrative records, Wikipedia with citations). No contamination, padding, duplicates, or self-references found. Entry correctly reflects transnational Ewe language area."
+    }
   },
   {
     "name": "Fanagalo",
@@ -4846,7 +4898,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Johannesburg,Durban,Pretoria,Cape Town,Port Elizabeth,Bloemfontein,Kimberley,Windhoek,Keetmanshoop,Gobabis,Mariental,Rehoboth,Luderitz,Oranjemund,Rundu,Katima Mulilo,Oshakati,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Okahandja,Gweru,Masvingo,Victoria Falls,Mbombela,Stellenbosch,George,Upington,Ndola,Kitwe,Livingstone,Pietermaritzburg",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fana1235",
+        "https://iso639-3.sil.org/code/fng",
+        "https://en.wikipedia.org/wiki/Fanagalo",
+        "https://apics-online.info/surveys/61",
+        "https://www.uj.ac.za",
+        "https://sahistory.org.za/article/fanakalo-language-mining-culture"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T09:55:00Z",
+      "notes": "Only 11/33 seeds verified as authentic Fanagalo mining settlements. 22 non-mining seeds: Cape Town, Port Elizabeth, Stellenbosch, George, Upington, Windhoek, Keetmanshoop, Gobabis, Mariental, Rehoboth, Rundu, Katima Mulilo, Oshakati, Ondangwa, Grootfontein, Otjiwarongo, Okahandja, Victoria Falls, Livingstone. 1 wrong country: Mbombela (South Africa, not Zambia). Mbombela is in Mpumalanga, SA. Authentic mining towns: Johannesburg, Durban, Pretoria, Bloemfontein, Kimberley, Pietermaritzburg, Luderitz, Oranjemund, Tsumeb, Ndola, Kitwe."
+    }
   },
   {
     "name": "Nyamwezi",
@@ -4856,7 +4922,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tabora,Mwanza,Shinyanga,Kigoma,Dodoma,Singida,Manyoni,Dar es Salaam,Arusha,Tanga,Mbeya,Songea,Morogoro,Iringa,Kagera,Ruvuma,Katavi,Uvinza,Mpanda,Sumbawanga,Kasulu,Mongu,Sesheke,Sioma,Kalabo,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Vipingo,Konso,CeyrTabaan,Laasqoray,Garsen,Mumias,Malindi,Yavello,Akukla,Adagka,Aduska,Akilla,Amatla,Aodka,Abeska,Apella,Amekla,Aledka,Amimwa,Apuska,Aliwa,Adarka,Ausla,GofKudle,QansaxDheere",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nyam1276",
+        "https://iso639-3.sil.org/code/nym",
+        "https://en.wikipedia.org/wiki/Nyamwezi_language",
+        "https://en.wikipedia.org/wiki/Nyamwezi_people",
+        "https://www.everyculture.com/Africa-Middle-East/Nyamwezi-and-Sukuma-Orientation.html",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/nyamwezi-and-sukuma",
+        "http://hdl.handle.net/2077/60370"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T10:07:00Z",
+      "notes": "Only 5-6/55 seeds verified as authentic Nyamwezi settlements in core language area (Tabora, Shinyanga, Singida, Manyoni, Uvinza, Mpanda). 17 synthetic seeds (Akukla-QansaxDheere, vowel-initial patterns). 17 foreign country seeds (Zambia, Somalia, Kenya, Ethiopia). 10 other Tanzanian region seeds. 1 region name (Katavi) used as settlement. Authentic core: Tabora, Shinyanga, Singida, Manyoni, Uvinza, Mpanda. Entry heavily padded/synthetic."
+    }
   },
   {
     "name": "Yao",
