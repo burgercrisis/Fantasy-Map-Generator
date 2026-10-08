@@ -5554,7 +5554,18 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tinghir,Ouijjane,Asaka,Imini,Draa,Demnate,Ait Bou Oulli,Oufrane,Tiznit,Illigh,Al Hoceima,Ouezzane,Rissani,Ksar Sghir,Moulay Bousselham,Sidi Ifni,Tarfaya,Laayoune,Smara,Dakhla,Azrou,Ifrane,Khenifra,Midelt,Azilal,Imilchil,Tinerhir,Ouarzazate,Zagora,Agadir",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Judeo-Berber_language",
+        "https://glottolog.org/resource/languoid/id/jude1262",
+        "https://iso639-3.sil.org/code/jbe"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T22:19:00Z",
+      "notes": "Only 10/30 seeds verified against Galand-Pernet & Zafrani 1970:2 (cited by Wikipedia). 19 unverified seeds + 1 duplicate (Tinerhir=Tinghir). Seeds 11-30 are generic Moroccan towns not documented as Judeo-Berber communities. Recommend reducing to 10 verified seeds and status WAITING."
+    }
   },
   {
     "name": "Tonga",
@@ -5564,7 +5575,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Kazungula,Senanga,Lealui,Liteta,Nalolo,Imusho,Lufubu,Luena,Lupingu,Ngoma,Nzubo,Watongo,Kabanga,Litenge,Lukonde,Lunge,Mwandi",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tong1318",
+        "https://ethnologue.com/language/toi",
+        "https://en.wikipedia.org/wiki/Tonga_language_(Zambia_and_Zimbabwe)",
+        "https://en.wikipedia.org/wiki/Western_Province,_Zambia",
+        "https://en.wikipedia.org/wiki/Lozi_Kingdom",
+        "http://fallingrain.net/world/ZA/",
+        "https://www.mongucouncil.gov.zm/",
+        "https://www.nalolocouncil.gov.zm/",
+        "https://www.limulungacouncil.gov.zm/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T22:22:00Z",
+      "notes": "17/25 seeds verified as real settlements in Western/Southern Province. 8 seeds contaminated: Kwamashi (ethnonym), Limakazo (surname), Liteta (Central Province), Lupingu/Nzubo/Watongo/Litenge/Lunge (not found in any gazetteer). Entry mixes Lozi (Western) and Tonga (Southern) areas. Requires cleanup before verified status."
+    }
   },
   {
     "name": "Ron",
@@ -5574,7 +5602,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bokkos,Daffo,Butura,Shagawu,Hottom,Maiduna,Hurum,Fanga,Kandik,Faram,Mandung,Mayi,Josho,Mahurum,Hurti,Gwande,Dambwash,Karfa,Mangu,Pankshin,Tambas,Fyer,Sha,Mundat,Kulere,Richa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ron_language",
+        "https://en.wikipedia.org/wiki/Bokkos",
+        "https://en.wikipedia.org/wiki/Ron_languages",
+        "https://www.sil.org/resources/publications/entry/91554",
+        "https://www.webonary.org/ron",
+        "https://glottolog.org/resource/languoid/id/ronn1241"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T22:26:00Z",
+      "notes": "14 villages explicitly confirmed in Blench 2019 via Wikipedia. 7 seeds are dialect/language names (Shagawu, Tambas, Fyer, Mundat, Kulere, plus borderline Richa). Mangu is wrong LGA (should be Manguna). Pankshin is LGA not village. Only ~18 authentic settlements. COMPLETE status invalid — should be WAITING."
+    }
   },
   {
     "name": "Venda",
@@ -5584,7 +5626,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Thohoyandou,Makhado,Musina,Tshipise,Vuwani,Nzhelele,Sibasa,Dzanani,Malamulele,Tshimbupfe,Tshiluvhi,Tshiendeulu,Maniini,Muledane,Shayandima,Maungani,Tshisahulu,Duthuni,Ngovhela,Vondwe,Phiphidi,Itsani,Tswinga,Manamani,Makwarela,Modimolle,Mutale,Tshikundamalema,Tshifulanani,Ha-Masia,Mutshindudi,Dopeni,Bungeni,Tshikundu,Lwamondo,Madala,Ha-Matsa,Ga-Matlala,Gilead,Tshikundamulomo,Tshikundamutomo,Xigalo,Maebane,Tshikundani,Ka-Matimu,Ka-Mukumbane,Ka-Muswane,Makuleke,Shingwidzi,Ngulukudzi,Ka-Magoro,Ka-Mubavini,Ka-Ngulukudzi,Ka-Maphata,Matshena,Ka-Mulaba,Ka-Nkomo,Ka-Davhana,Ka-Mushayandebele,Ka-Mashingo,Ka-Tshikundamulomo,Ka-Tshikundamalema,Vhulaudzi,Fondwe,Mushasha,Makumbani,Ka-Matshena,Ka-Mashau,Ka-Mitwa,Ka-Mphahuli,Ka-Mulenzhe,Ka-Mpheni,Ka-Mushasha,Ka-Nyavani,Ka-Mphambo,Mamvuka,Nkavele,Ka-Mboni,Luvhimbi,Ha-Mutshedzi,Ka-Senthimula,Lenyenye",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/vend1245",
+        "https://iso639-3.sil.org/code/ven",
+        "https://en.wikipedia.org/wiki/Venda_language",
+        "https://en.wikipedia.org/wiki/Vhembe_District_Municipality",
+        "https://en.wikipedia.org/wiki/Thulamela_Local_Municipality",
+        "https://en.wikipedia.org/wiki/Makhado_Local_Municipality",
+        "https://en.wikipedia.org/wiki/Collins_Chabane_Local_Municipality",
+        "https://en.wikipedia.org/wiki/Modimolle",
+        "https://en.wikipedia.org/wiki/Gilead"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T22:31:00Z",
+      "notes": "35 seeds confirmed via South African census data (2001/2011) for Vhembe District municipalities. 2 confirmed contaminations (Modimolle, Gilead). 6 likely duplicate Tshikunda* variants. Remaining 39 seeds follow authentic Venda naming patterns but need individual census verification."
+    }
   },
   {
     "name": "Tuareg Berber",
@@ -5594,7 +5653,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Timbuktu,Gao,Kidal,Agadez,Niamey,Tamanrasset,Ghardaïa,Ouargla,Arlit,In-Gall,Tahoua,Abalak,Akoubounou,Tessalit,Taoudénit,Araouane,Boghassa,Tinzalane,Tin Zaouaten,Azawad,Niafunké,Goundam,Nara,Nioro du Sahel,Sokolo,Cadaado",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tuar1240",
+        "https://iso639-3.sil.org/code/tmh",
+        "https://en.wikipedia.org/wiki/Tuareg_language",
+        "https://en.wikipedia.org/wiki/Tuareg_people"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-08T22:45:00Z",
+      "notes": "19/26 seeds verified as authentic Tuareg settlements across Mali, Niger, Algeria. 7 contaminated: Azawad (region, not settlement), Tinzalane/Tin Zaouaten (duplicate of Tinzaouaten), Azawad (region), Cadaado (Somalia), Nara/Sokolo (Bambara area, not Tuareg), Goundam verified. Should be WAITING after cleanup (would drop to ~20 authentic)."
+    }
   },
   {
     "name": "Ndebele",
