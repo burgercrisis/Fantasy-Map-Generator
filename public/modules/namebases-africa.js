@@ -250,7 +250,7 @@ window.africaNameBases = [
     "b": "Ebolowa,Sangmélima,Kribi,Ambam,Meyomessala,Meyomessi,Mintom,Oveng,Bengbis,Djoum,Zoétélé,Campo,Lolodorf,Mvengue,Niete,Campo Ma'an,Lokundje,Mengong,Mvangane,Ngoulemakong,Biwong-Bane,Biwong-Bulu,Efoulan",
     "status": "WAITING"
   },
-{
+  {
     "name": "Basaa",
     "i": 247,
     "min": 3,
@@ -445,7 +445,7 @@ window.africaNameBases = [
     "b": "San Antonio de Pale,Mabana,San Pedro,Aual,Anganchi,Bioko Island,Annobon Island,Malabo,Equatorial Guinea,Lung'Ie,Gulf of Guinea,Sao Tome Island,Principe Island,Ano Bom,Pagalu,Fa d'Ambu,Falar de Ano Bom,San Antonio de Palé",
     "status": "WAITING"
   },
-{
+  {
     "name": "Forro Creole",
     "i": 475,
     "min": 3,
@@ -487,7 +487,7 @@ window.africaNameBases = [
       "notes": "ISSUE: Severe contamination. Principense (Lunguyê, ISO 639-3: pre) is spoken ONLY on Príncipe Island (~200 speakers). Actual settlements on Príncipe: Santo António (capital), Sundy, Porto Real, Neves, Roça Sundy. Contamination: islets (Ilhéu Bom Bom, Ilhéu Caroço, Tinhosa Grande, Tinhosa Pequena), mountain (Pico do Principe), admin units (Pague District, Autonomous Region of Principe), country names (Sao Tome and Principe, Gulf of Guinea, Cameroon Line, Equatorial Guinea, Portugal), island names (Sao Tome Island, Principe Island, Annobon Island, Bioko Island), OTHER LANGUAGES (Lunguye = Principense autoglossonym, Forro, Angolar, Fa d'Ambô, Kabuverdianu). Entry needs cleaning to retain only 5-6 authentic Príncipe settlements."
     }
   },
-{
+  {
     "name": "Shilluk",
     "i": 500,
     "min": 3,
@@ -518,7 +518,7 @@ window.africaNameBases = [
     "b": "Kenyi,Gindu,Fei,Gigemso,Gidam,Gidum Dutse,Gyeng,Taha,Kongo,Fogyang,Hogyeng,Foyour",
     "status": "WAITING"
   },
-{
+  {
     "name": "Zhoa",
     "i": 526,
     "min": 3,
@@ -549,7 +549,7 @@ window.africaNameBases = [
     "b": "Haykota,Bisha,Tokombia,Shambuqo,Tessenei,Haikota,Agordat,Akurdet,Western Eritrea,Barea,Nara-Bana,Eastern Sudanic,Northern Eastern",
     "status": "WAITING"
   },
-{
+  {
     "name": "Sucite",
     "i": 543,
     "min": 3,
@@ -590,7 +590,7 @@ window.africaNameBases = [
     "b": "Gathuk,Gandok,Garong,Nuba Hills,South Kordofan,Sudan,Saraf Aj-Jaamous,Moro Hills,Janub Kurdufan,Talodi,Nuba Mountains,Garme,Asheron,Aceron,Achurun,Um Sirdiba,Kologoi,Angulo,Tullushi",
     "status": "WAITING"
   },
-{
+  {
     "name": "Adara",
     "i": 546,
     "min": 3,
@@ -611,7 +611,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (kada1284, ISO 639-3: kad), Wikipedia Adara language article, and SIL Sociolinguistic Survey (2011) of Kachia, Kajuru, Paikoro, Munya LGAs. Wikipedia Adara people article explicitly documents communities: Magunguna, Idazo, Ungwan Galadima, Ungwan Guza, Etissi, Ungwan Ma'aji, Ungwan Dantata, Ungwan Araha. Seed list includes major towns (Kachia, Kajuru, Kasuwan Magani) and villages across Kaduna/Niger States. All 30 seeds are authentic Adara (Kadara) settlements."
     }
   },
-{
+  {
     "name": "Aghem",
     "i": 566,
     "min": 3,
@@ -684,7 +684,7 @@ window.africaNameBases = [
       "notes": "ISSUE: Severe contamination. Doghose (Dogosé, ISO 639-3: dos) spoken in SW Burkina Faso (Cascades, Hauts-Bassins, Sud-Ouest regions). Joshua Project lists Dogose villages: Dandougou, Torokoro, Sokoura, Bondokoro, Tolandougou, Sakédougou, Sidéradougou, Ouo, Kouere, Koro, Sirakoro. Seed list contamination: major cities (Bobo-Dioulasso, Dédougou, Boromo, Nouna - not Doghose), region name (Southwest Burkina Faso), and 15 seeds are LANGUAGE/DIALECT VARIANTS not places: Dorosie, Dorhosye, Dokhosié, Doghosié, Doro Doghosié, Dokhobe, Dorobé, Doghose, Dorhossié, Dorossé, Klamaasise, Mesise, Lutise, Gbeyãse, Sukurase, Gbogorose (per Joshua Project: all alternate names for Dogose/Doghose dialects). Only ~8-10 seeds might be authentic Doghose villages; ~22 contaminated."
     }
   },
-{
+  {
     "name": "Eton",
     "i": 583,
     "min": 3,
@@ -736,7 +736,7 @@ window.africaNameBases = [
       "notes": "ISSUE: Severe contamination. Afar (ISO 639-3: aar, Glottolog: afar1241) spoken in Afar Region (Ethiopia), Djibouti, Eritrea. Actual towns per Wikipedia: Asayta, Logiya, Mille, Awash, Gewane, Chifra, Bure Mudaytu, Gulina, Yalo, Abala, Dubti, Semera (capital), Dalifagi, Date Bahri, Derayitu, Dichoto, Eliwuha, Hadeleala, Keliwan, Kifil Sost, Konaba, Kumame, Lakora, Lile, Manda, Melka Sedi, Melka Werer, Mile, Namelafen, Sa'ala, Sabure. Contamination: admin zones (Awsi Rasu, Gabi Rasu, Hari Rasu, Fanti Rasu, Kilbet Rasu, Administrative Zone 1), regions (Amhara Region), rivers (Mille River, Logiya River), highway (Awash–Asseb Highway), lakes (Lake Abbe, Lake Abhe Bad, Salt Lakes, Lake Gummare), geographic features (Gargori, Laitali, Gummare, Bario), capital terms (Capital, New Capital, Planned Settlement), wildlife (Flamingos), directions (East, Lowland), other languages (Saho-Afar, Latin Script), generic (Final Destination). Only ~28 seeds are authentic Afar towns; ~26 contaminated."
     }
   },
-{
+  {
     "name": "Bura",
     "i": 586,
     "min": 3,
@@ -778,7 +778,7 @@ window.africaNameBases = [
       "notes": "ISSUE: Severe contamination. Bure (Bubbure, ISO 639-3: bvh) is critically endangered, spoken ONLY in Bure village (~500 people) and 2-3 small nearby settlements in Kirfi LGA, Bauchi State. Actual Bure settlement: Bure (Bubbure). Contamination: admin units (Kirfi District, Kirfi LGA, Bauchi State), neighboring languages (Hausa, Gera, Giiwo, Deno, Bole-Tangale, Bole, Karekare), geographic features (Gongola River Area, Bade-Nguru Wetlands, Jos Plateau), distant cities (Mubi, Yola, Gombe, Maiduguri, Darazo, Ningi, Tafawa Balewa, Alkaleri), titles (Sarki, Emir, Buba, Bade). Only 1-2 authentic Bure seeds; 29+ contaminated. Entry needs complete rewrite with only authentic Bure village names."
     }
   },
-{
+  {
     "name": "Buwal",
     "i": 588,
     "min": 3,
@@ -819,7 +819,7 @@ window.africaNameBases = [
       "notes": "ISSUE: WRONG LOCATION. Cakfem-Mushere (ISO 639-3: cky) spoken in BOKKOS LGA, PLATEAU STATE (central Nigeria) with ~13 villages (Tim main settlement per Blench 2019). Seed list contains 50 settlements ALL in BORNO STATE (northeastern Nigeria): Maiduguri (capital), Konduga, Bama, Gwoza, Dikwa, Chibok, Biu, etc. - hundreds of km from Plateau State. This seed list appears to be for Kanuri/Shuwa Arabic area, NOT Cakfem-Mushere. Complete mismatch. Entry needs full replacement with authentic Plateau State Cakfem-Mushere villages (Tim, etc.)."
     }
   },
-{
+  {
     "name": "Bukusu",
     "i": 590,
     "min": 3,
@@ -840,7 +840,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (buku1249, ISO 639-3: bxk), Wikipedia Bukusu dialect/tribe articles. Bukusu (Lubukusu) spoken in Bungoma, Trans Nzoia, Kakamega, Busia counties (western Kenya). Three dialects: north of Kimilili (Kitale area), west of Webuye (Bungoma area), east of Webuye (Kakamega/Lugari). All 44 seeds are authentic Bukusu towns/locations: major towns (Bungoma, Kitale, Webuye, Kakamega, Busia, Kimilili), sub-county centers (Sirisia, Malakisi, Chwele, Tongaren, Mbakalo), and numerous villages across the Bukusu heartland."
     }
   },
-{
+  {
     "name": "Yemba",
     "i": 610,
     "min": 3,
@@ -861,7 +861,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (yemb1246, ISO 639-3: ybb), Wikipedia Yemba language article, and Eveil Yemba cultural site documenting Menoua Division village groups. Yemba (Yɛmba, Bamiléké Dschang) spoken in Menoua Division, West Region, Cameroon around Dschang. All 30 seeds are authentic towns in the Yemba area: Dschang (capital), Santchou, Fokoue, Fongo-Tongo, Penka-Michel, and surrounding Bamileke towns across Menoua, Bamboutos, Haut-Nkam, Ndé divisions."
     }
   },
-{
+  {
     "name": "Zande",
     "i": 611,
     "min": 3,
@@ -903,7 +903,7 @@ window.africaNameBases = [
       "notes": "ISSUE: Severe contamination. Wannu (Abinsi, ISO 639-3: jub) spoken in Benue/Taraba States along Benue River. Joshua Project: Benue State: Makurdi LGA, Iharev district, Abinsi town. Academic paper (2025) documents riverine Jukun Awannu: Abinsi, Ibi, Numa, Jimetu, Mayo, Narewa, Tella, Sheka, Nwonyo, Wuryo, Uka, Wurbo. Contamination: major cities (Lokoja, Argungu - far downstream/other states), rivers (Benue River, Niger River), historical entities (Kwararafa Kingdom, Gongola Hawal, Upper Benue Basin, Lake Chad), language names (Jukun Wapan, Kororofa, Jukunoid, Benue-Congo), admin units (Gassol LGA, Makurdi LGA, Iharev District, Abinsi Town, Benue State, Nasarawa State), economic activities (Riverine Communities, Fishing, Farming, Canoe Construction), crops (Yams, Millet, Maize). Only ~12 authentic seeds; ~27 contaminated."
     }
   },
-{
+  {
     "name": "Yalunka",
     "i": 613,
     "min": 3,
@@ -924,7 +924,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (yalu1240, ISO 639-3: yal), Wikipedia Yalunka language/people articles. Yalunka (Jalonke/Dialonke) spoken in Futa Jallon region (Guinea, Sierra Leone, Mali, Senegal). Falaba was capital of Solimana Yalunka state. All 37 seeds are authentic Yalunka villages in Guinea (Faranah, Kouroussa area) and northeastern Sierra Leone."
     }
   },
-{
+  {
     "name": "Yamba",
     "i": 614,
     "min": 3,
@@ -945,7 +945,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (yamb1251, ISO 639-3: yam), Wikipedia Yamba language article, and Gufler (Yamba Spider Divination) citing 1973 Donga-Mantung Gazetteer of 17 Yamba villages: Bom, Fam, Gamfe, Gom, Gwembe, Kwak, Mbem, Mfe, Ngung, Nkot, Ntim, Ntong, Nwa, Rom, Saam, Sih, Yang. All 17 main villages present in seeds. Additional 19 seeds are authentic hamlets/quarters (e.g., Mulip, Nchak, Nkwi = Gom quarters per Gufler). Yamba spoken in Nwa Subdivision, Donga Mantung Division, NW Cameroon."
     }
   },
-{
+  {
     "name": "Yela-Kela",
     "i": 615,
     "min": 3,
@@ -966,7 +966,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (yela1238, ISO 639-3: yel/kel), Wikipedia Yela-Kela language article, Joshua Project. Yela spoken in Equateur Province (Bokungu Territory), Kela in Kasai-Oriental. All 41 seeds are authentic Yela/Kela villages in DRC with characteristic Mongo/Bantu naming patterns (Yalo-, Lokole-, Bok-, Ikom- prefixes)."
     }
   },
-{
+  {
     "name": "Nama",
     "i": 631,
     "min": 3,
@@ -1008,7 +1008,7 @@ window.africaNameBases = [
       "notes": "ISSUE: Conceptual mismatch. Kru Pidgin English (KPE, ISO 639-3: lir/kolokwa) is a CREOLE LINGUA FRANCA of Kru mariners/migrant workers, not a language with a specific contiguous settlement area. It was spoken along the Kru Coast (Grand Kru, Sinoe, Maryland counties) and diaspora ports (Freetown, Lagos, Cape Coast, etc.). Seed list severely contaminated: counties (Margibi, Lofa, Bong, Nimba, Sinoe, Grand Kru, Maryland, Grand Gedeh), industry (Firestone Rubber Plantation), geographic features (Coastal Lagoons, Surf Waters), ships (British Merchant Ships, War Ships, Canoes), countries (Liberia, Ivory Coast, Nigeria, Britain, Americas, Gold Coast, Liverpool), ethnic groups (Grebos, Kru Tribes, Jlao Kru, Bété, Guéré, Dida, Jabo), historical terms (Oral Tradition, James Connelly, Mid Nineteenth Century), generic terms (Interior, Coast, Poor River, Salt, Town). Only ~10 seeds are authentic Kru Coast villages (Nana Kru, Settra Kru, Grand Cess, Barclayville, Garraway, Pleebo, King Williams Town, King Weah Town, Picaninny Cess, Kabor). Entry conceptually cannot have 'Kru Pidgin settlements'."
     }
   },
-{
+  {
     "name": "Liberian Pidgin English",
     "i": 667,
     "min": 3,
@@ -1029,7 +1029,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (libe1240, ISO 639-3: lir), Wikipedia Liberian Kreyol (Kolokwa) article, Singler (1997) on Liberia's Englishes. Liberian Pidgin English (Liberian Kreyol/Kolokwa) is an English-based creole lingua franca spoken nationwide. All 46 seeds are authentic Liberian towns/cities across 15 counties: coastal (Monrovia, Buchanan, Harper, Greenville, Robertsport, Barclayville), interior county capitals (Gbarnga, Ganta, Sanniquellie, Voinjama, Zwedru, Tubmanburg, Bopolu, Fish Town, River Cess), and other settlements. Note: As a national lingua franca, it lacks a single 'homeland' but these are real Liberian settlements where Kolokwa is spoken."
     }
   },
-{
+  {
     "name": "Fur",
     "i": 696,
     "min": 3,
@@ -1050,7 +1050,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (furr1244, ISO 639-3: fvr), Wikipedia Fur language article, and UND thesis (2012) on Fur language use in Darfur. Fur spoken in Darfur region (western Sudan, 5 states). Major towns: El Fasher (North Darfur capital), Nyala (South Darfur capital), El Geneina (West Darfur capital), Zalingei (Central Darfur capital). All 33 seeds are authentic Fur towns in Darfur states and adjacent Chad (Sila region). Archaeological study confirms traditional Fur settlements: Mukjar, Dor, Shoba near Jebel Marra."
     }
   },
-{
+  {
     "name": "Gumuz",
     "i": 701,
     "min": 3,
@@ -1071,7 +1071,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (gumu1244, ISO 639-3: guk), Wikipedia Gumuz language article, and Ahland (2012) PhD grammar documenting Northern/Southern Gumuz dialects. Gumuz spoken in Benishangul-Gumuz Region (Metekel, Kamashi zones) and Amhara Region (Metemma). Seed list contains authentic weredas and towns: Guba, Wenbera, Mandura, Dibate, Kamashi, Yaso, Mankush, Asosa, Menge, Sherkole, Bulen, Bambasi, Kurmuk, Pawe, Manbuk, Debre Zeyit, Genete Mariam, Gilgil Beles. All 30 seeds are authentic Gumuz settlements in western Ethiopia/south-eastern Sudan border area."
     }
   },
-{
+  {
     "name": "Gwari",
     "i": 702,
     "min": 3,
@@ -1092,7 +1092,7 @@ window.africaNameBases = [
       "notes": "Verified against Glottolog 5.3 (gbag1256, ISO 639-3: gbr/gby), Wikipedia Gwari language and Gbagyi people articles. Gwari (Gbari/Gbagyi) spoken in Niger, Kaduna, FCT Abuja, Nasarawa states. Wikipedia explicitly documents significant towns: Minna, Karu, Kuta, Kwakuti, Kwali, Gawu, Yelwa, Toto, Araba, Rubochi, Abaji, Guni, Ushafa, Bwari, Suleja, Shiroro, Diko, Alawa, Paiko, Lambata, Nuku, Gwagwalada, Kuje, Zuba, Kachia. All 33 seeds are authentic Gwari/Gbagyi settlements in central Nigeria."
     }
   },
-{
+  {
     "name": "Gyong",
     "i": 703,
     "min": 3,
@@ -3865,7 +3865,7 @@ window.africaNameBases = [
       "notes": "Only 29/55 seeds verified against primary sources (Wikipedia woreda pages, HRW reports, UN documents, Grain.org). 26 seeds lack primary source verification. Elia/Ilia appear to be duplicates. Recommend removal of unverified seeds or further field research."
     }
   },
-{
+  {
     "name": "Angas",
     "i": 3256,
     "min": 4,
@@ -6514,7 +6514,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Port Harcourt,Warri,Benin City,Calabar,Abuja,Ibadan,Aba,Enugu,Onitsha,Asaba,Ogoja,Yenagoa,Sapele,Effurun,Ughelli,Owerri,Awka,Nsukka,Abakaliki,Umuahia,Ozoro,Okene,Lokoja,Ado-Ekiti,Akure,Ilesha,Ondo,Osogbo,Ikorodu,Epe,Shagamu,Saki,Ogbomoso,Iseyin,Offa,Oyo,Ilorin,Makurdi,Jos,Bauchi,Gombe,Yola,Sokoto,Birnin Kebbi,Zaria,Kaduna,Kano,Maiduguri,Damaturu,Lagos,Uyo,Ikot Ekpene,Abraka,Agbor",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nige1257",
+        "https://iso639-3.sil.org/code/pcm",
+        "https://en.wikipedia.org/wiki/Nigerian_Pidgin",
+        "https://en.wikipedia.org/wiki/List_of_populated_places_in_Nigeria"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T18:56:56Z",
+      "notes": "Verified against Glottolog 5.3 (nige1257, ISO 639-3: pcm), Wikipedia Nigerian Pidgin article documenting dialect areas (South West: Lagos, Ibadan; South Central: Abraka, Warri, Sapele, Agbor; Cross River: Calabar, Uyo, Ikot Ekpene; Eastern: Port Harcourt, Onitsha, Owerri, Aba; Northern: Kaduna, Kano, Maiduguri, Jos), and Wikipedia List of populated places in Nigeria confirming all 54 seeds as authentic Nigerian settlements. Nigerian Pidgin is a lingua franca spoken across Nigeria; all seeds are real cities/towns where it is widely used."
+    }
   },
   {
     "name": "Fanti",
@@ -6524,7 +6536,31 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Cape Coast,Saltpond,Elmina,Sekondi-Takoradi,Agona Swedru,Mankessim,Winneba,Shama,Apam,Komenda,Kasoa,Anomabo,Effutu,Assin Foso,Abura-Dunkwa,Jomoro,Esiama,Aiyinase,Ankobra,Bekwai,Dixcove,Busua,Axim,Half Assini,New Edubiase",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/fant1241",
+        "https://en.wikipedia.org/wiki/Fante_dialect",
+        "https://en.wikipedia.org/wiki/Fante_people",
+        "https://iso639-3.sil.org/code/fat",
+        "https://www.ethnologue.com/language/aka/",
+        "https://mofep.gov.gh/sites/default/files/composite-budget/2021/CR/Mfantseman.pdf",
+        "https://en.wikipedia.org/wiki/Abura-Dunkwa",
+        "https://en.wikipedia.org/wiki/Assin_Fosu",
+        "https://jma.gov.gh/the-assembly",
+        "https://en.wikipedia.org/wiki/Essiama",
+        "https://www.graphic.com.gh/news/general-news/new-mini-hospital-for-aiyinase.html",
+        "https://www.britannica.com/place/Ankobra",
+        "https://en.wikipedia.org/wiki/Bekwai",
+        "https://en.wikipedia.org/wiki/New_Edubiase",
+        "https://en.wikipedia.org/wiki/Dixcove",
+        "https://en.wikipedia.org/wiki/Busua"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:00:00Z",
+      "notes": "21/25 seeds verified as authentic Fante settlements in Central/Western Regions. 4 contaminated: Effutu (language, not settlement), Ankobra (river), Bekwai & New Edubiase (Ashanti Region, Asante Twi area). Entry should be cleaned to 21 seeds (WAITING) or expanded with additional Central/Western Region Fante towns."
+    }
   },
   {
     "name": "Annobonese Creole",
@@ -6544,17 +6580,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bongo,Ganok,Nkos,Buyabatug,Kélendé Mbat,Kélendé Mɔma,Nibieg,Bati,Sanaga-Maritime,Yaoundé,Douala,Bafoussam,Bamenda,Bertoua,Ebolowa,Garoua,Maroua,Ngaoundéré,Touboro,Fundong,Mora,Mayo-Darlé,Mayo-Rey,Mayo-Banyo,Fontem",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bangala",
-    "i": 203224,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Yakoma,Libenge,Mobayi,Mbala,Kananga,Tshikapa,Matadi,Kinshasa,DRC,Congo,Central African Republic,South Sudan,Congo River,Mongala River,Aketa,Bondo,Basoko,Opala,Ingende",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nuba1241",
+        "https://en.wikipedia.org/wiki/Baca_language",
+        "https://en.wikipedia.org/wiki/Bokito,_Cameroon",
+        "https://en.wikipedia.org/wiki/Mbam-et-Inoubou",
+        "https://www.sil.org/resources/archives/47950",
+        "https://endangeredlanguages.com/elp-language/556",
+        "https://iso639-3.sil.org/code/baf"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:10:00Z",
+      "notes": "Only 1/25 seeds verified (Bongo). 24/25 seeds are non-Baca: 4 departments (Sanaga-Maritime, Mayo-Darlé, Mayo-Rey, Mayo-Banyo), 17 major Cameroonian cities far from Bokito, 3 unverified names, 1 different language (Bati). Only Bongo verified in Bokito subdivision. Status should be WAITING (1 authentic seed)."
+    }
   },
   {
     "name": "Cape Verdean Creole",
@@ -6564,7 +6605,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Praia,Mindelo,Espargos,Assomada,Sal Rei,Rabil,Nova Sintra,Furna,Cova Joana,São Filipe,Santa Maria,São Miguel,Tarrafal,Santa Cruz,São Domingos,Baía das Gatas,Lameirão,Salamansa,São Pedro,Calhau,Ribeira Julião,Norte da Baia,Monte Verde,Cidade Velha,Porto Novo,Ponta do Sol,Ribeira Brava,Tarrafal de São Nicolau,Vila do Corvo,Santa Catarina,Pedra Badejo,Caldeira,Porto Inglês,João Teves,Palmeira,Santa Monica,Pico da Antónia,Ribeira Grande",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kabu1256",
+        "https://iso639-3.sil.org/code/kea",
+        "https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Cape_Verde",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Vicente,_Cape_Verde",
+        "https://en.wikipedia.org/wiki/Brava,_Cape_Verde",
+        "https://en.wikipedia.org/wiki/Ch%C3%A3_das_Caldeiras",
+        "http://www.geonames.org/CV/administrative-division-cape-verde.html"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:14:00Z",
+      "notes": "33/38 seeds verified as authentic Cape Verdean settlements. 5 issues: 1 critical Azores contamination (Vila do Corvo), 4 non-settlement geographical features (Monte Verde, Pico da Antónia, Santa Monica beach, Caldeira). Requires cleanup before 'verified' status."
+    }
   },
   {
     "name": "Avokaya",
@@ -6767,14 +6823,31 @@ window.africaNameBases = [
     "status": "COMPLETE"
   },
   {
-    "name": "Bangolan",
-    "i": 20324,
+    "name": "Bangala",
+    "i": 203224,
     "min": 3,
-    "max": 11,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bangolan,Ndop,Babessi,Bamunka,Bamali,Bamunkumbit,Balikumbat,Bamessing,Baba I,Babungo,Baligashu,Nso,Kom,Ngoketunjia,Mendenkye,Bafut,Batibo,Bamum,Bandjoun,Banso,Nkwen,Santa,Pinyin,Oku,Wum,Fundong,Kumbo,Ndu,Nkambe,Benakuma,Menchum,Ntarinkon,Bombe,Bazhi,Agah,Ntamecheh,Mbekunyam,Nsoka,Muala,Mbamba,Shisong,Fombi,Ntadiambo",
-    "status": "COMPLETE"
+    "b": "Mongala,Uele,Arua,Koboko,Bumba,Lisala,Gemena,Budjala,Buta,Businga,Isiro,Likasi,Mbandaka,Luebo,Mweka,Aketi,Bafwasende,Basankusu,Bikoro,Bolomba,Bomongo,Bongandanga,Kisangani,Yakoma,Libenge,Mobayi,Mbala,Kananga,Tshikapa,Matadi,Kinshasa,DRC,Congo,Central African Republic,South Sudan,Congo River,Mongala River,Aketa,Bondo,Basoko,Opala,Ingende",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bang1353",
+        "https://en.wikipedia.org/wiki/Bangala_language",
+        "https://en.wikipedia.org/wiki/Mongala_River",
+        "https://en.wikipedia.org/wiki/Uele_River",
+        "https://simple.wikipedia.org/wiki/Bas-U%C3%A9l%C3%A9",
+        "https://simple.wikipedia.org/wiki/Haut-U%C3%A9l%C3%A9",
+        "https://simple.wikipedia.org/wiki/Mongala",
+        "https://wikiland.org/fr/List_of_cities_and_towns_in_the_Democratic_Republic_of_the_Congo",
+        "https://clearglobal.org/language-data-for-the-democratic-republic-of-congo-drc/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:10:00Z",
+      "notes": "Only 16/42 seeds in Bangala area (NE DRC: Mongala, Bas-Uele, Haut-Uele, Tshopo + western Uganda). 19 in western/central/southern DRC (Lingala, Ngbandi, Luba, Kongo). 4 countries, 2 rivers. Actual Bangala area: Mongala, Bas-Uele, Haut-Uele, Tshopo + Arua/Koboko. Should be WAITING."
+    }
   },
   {
     "name": "Baldemu",
