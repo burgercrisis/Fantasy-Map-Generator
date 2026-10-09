@@ -5988,7 +5988,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Abalak,Tahoua,Agadez,Arlit,In-Gall,Tamaya,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Tamatlokko,Kel Amdid,Abargan,Tarbun,Kel Illoko,Ibaroogan,Zinder,Maradi,Niamey,Goure,Kolo,TulaNaga,Niger,Mali,Algeria,Libya,Western Songhay",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tagd1238",
+        "https://www.ethnologue.com/language/tda",
+        "https://hdl.handle.net/1887/3240577",
+        "https://joshuaproject.net/people_groups/15177/NG"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T07:51:00Z",
+      "notes": "Entry heavily contaminated: 11/26 seeds are non-settlements (sub-groups, language variety, countries, language group); 5/26 are real settlements outside Tagdal area; 3/26 unverifiable. Only 7 authentic Tagdal-area settlements (Abalak, Tahoua, Agadez, Arlit, In-Gall, Tamaya, Tiguirwit). Should not be COMPLETE."
+    }
   },
   {
     "name": "Talodi",
@@ -5998,7 +6010,31 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Talodi,Kadugli,Dilling,Lagawa,Rashad,Abu Jebha,Bara,Bendisi,Damaras,Dibis,El Fasher,Gallabat,Gara,Habila,Jebel Dango,Jebel Kujur,Kaduqli,Karkang,Kassara,Kauda,Kebkabiya,Khampion,Koltogola,Kosi,Kotilonga,Koya,Kurmuk,Lado,Leila,Lugra,Magan,Manawashi,Marla,Matna,Mideir,Mirmi,Mogola,Muglad,Murtah,Narma,Nukhn,Rizeigat,Rubatab,Rufa a,Sawarda,Sindi,Sirba,Tabat,Tafei,Taiba,Tandalti,Tegale,Tidi,Tingideis,Tinja,Tireis,Tolubi,Tongeren,Torit,Tulluk",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/talo1250",
+        "https://iso639-3.sil.org/code/tlo",
+        "https://en.wikipedia.org/wiki/Talodi_language",
+        "https://en.wikipedia.org/wiki/Talodi_people",
+        "https://en.wikipedia.org/wiki/Kadugli",
+        "https://en.wikipedia.org/wiki/Dilling,_South_Kordofan",
+        "https://en.wikipedia.org/wiki/El_Fasher",
+        "https://en.wikipedia.org/wiki/Tongeren",
+        "https://en.wikipedia.org/wiki/Torit",
+        "https://en.wikipedia.org/wiki/Kabkabiya_District",
+        "https://en.wikipedia.org/wiki/Kurmuk",
+        "https://en.wikipedia.org/wiki/Rizeigat_tribe",
+        "https://en.wikipedia.org/wiki/Rubatab_tribe",
+        "https://en.wikipedia.org/wiki/Rufa%27a_people",
+        "https://en.wikipedia.org/wiki/Gallabat",
+        "https://en.wikipedia.org/wiki/Lado_Enclave"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T07:55:00Z",
+      "notes": "SEVERE CONTAMINATION: 49/60 seeds are outside Talodi language area (South Kordofan Nuba Mountains). Includes: 3 Arab tribal names (not settlements), 1 Belgian city (Tongeren), 9 seeds from South Sudan, 8 from Darfur, 2 from Blue Nile, 1 from Al Qadarif. Actual Talodi villages Tasomi and Tata (per Ethnologue) are MISSING. Entry has 60 seeds but only ~11 authentic. Status should be WAITING (<25 seeds) after cleanup."
+    }
   },
   {
     "name": "Tegali",
@@ -6008,7 +6044,37 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Rashad,Tegali,Al-Abbasiya,Umm Ruwaba,Kadugli,Dilling,Lagawa,Abu Jebha,Talodi,Tagoi,Tarjok,Gom,Tingal,Kajakja,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Dhalwo,Aqable,Jariiban,Garbaharey,Geza,Uriri,Bubisa,Kumbare,Sheikh,GalCad,Ngei,Takawiri,Nyangusu,Loyangalani,Caano",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tega1236",
+        "https://ethnologue.com/language/ras",
+        "https://en.wikipedia.org/wiki/Tegali_language",
+        "https://en.wikipedia.org/wiki/Rashad,_South_Kordofan",
+        "https://en.wikipedia.org/wiki/Tagoi_language",
+        "https://www.sil.org/resources/publications/entry/91554",
+        "https://joshuaproject.net/people_groups/15619/SU",
+        "https://en.wikipedia.org/wiki/Umm_Ruwaba",
+        "https://en.wikipedia.org/wiki/El_Obeid",
+        "https://en.wikipedia.org/wiki/El_Fasher",
+        "https://en.wikipedia.org/wiki/El_Geneina",
+        "https://en.wikipedia.org/wiki/El_Obeid",
+        "https://en.wikipedia.org/wiki/Wad_Medani",
+        "https://en.wikipedia.org/wiki/Sennar",
+        "https://en.wikipedia.org/wiki/Kassala",
+        "https://en.wikipedia.org/wiki/Al-Damazin",
+        "https://en.wikipedia.org/wiki/Atbara",
+        "https://en.wikipedia.org/wiki/Dongola",
+        "https://en.wikipedia.org/wiki/Nyala",
+        "https://en.wikipedia.org/wiki/Garbaharey",
+        "https://en.wikipedia.org/wiki/Galcayo",
+        "https://en.wikipedia.org/wiki/Loyangalani"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T08:00:00Z",
+      "notes": "Only 3/39 seeds verified as authentic Tegali-area settlements (Rashad, Tagoi, Tarjok). 1 self-reference (Tegali). 3 dialect names as seeds (Gom, Tingal, Kajakja). 7 South Kordofan wrong area. 10 major Sudanese cities far from Tegali area. 4 Somali towns (Garbaharey, GalCad, Jariiban, Caano). 1 Kenyan town (Loyangalani). 9 unverified. Should be WAITING."
+    }
   },
   {
     "name": "Tegem",
@@ -6018,7 +6084,29 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Jebel Tekeim,Talodi,Kadugli,Dilling,Lagawa,Rashad,Abu Jebha,Eliri,Amira,Karkang,Kurmuk,Torongei,Kassala,El Geneina,El Obeid,Wad Medani,El Fasher,Nyala,Kauda,Kebkabiya,Koltogola,Lado,Leila,Manawashi,Jebel Tima,KaTima",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/jebe1249",
+        "https://ethnologue.com/language/laf",
+        "https://en.wikipedia.org/wiki/Tegem_language",
+        "https://en.wikipedia.org/wiki/Nuba_Mountains",
+        "https://en.wikipedia.org/wiki/Kadugli",
+        "https://en.wikipedia.org/wiki/Dilling,_South_Kordofan",
+        "https://en.wikipedia.org/wiki/El_Fasher",
+        "https://en.wikipedia.org/wiki/Nyala",
+        "https://en.wikipedia.org/wiki/El_Obeid",
+        "https://en.wikipedia.org/wiki/Wad_Medani",
+        "https://en.wikipedia.org/wiki/El_Geneina",
+        "https://en.wikipedia.org/wiki/Kassala",
+        "https://en.wikipedia.org/wiki/Kurmuk",
+        "https://en.wikipedia.org/wiki/Lado_Enclave"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T08:10:00Z",
+      "notes": "Only 11/26 seeds verified as authentic Tegem-area settlements (Jebel Tekeim, Talodi, Kadugli, Dilling, Lagawa, Rashad, Abu Jebha, Eliri, Amira, Kauda, Jebel Tima). 10 contaminated (Kurmuk, Kassala, El Geneina, El Obeid, Wad Medani, El Fasher, Nyala, Kebkabiya, Lado, Manawashi). 5 unverified/unknown (Karkang, Torongei, Koltogola, Leila, KaTima). Leila appears to be a person name. Should be WAITING."
+    }
   },
   {
     "name": "Tima",
@@ -6028,7 +6116,29 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Katla,Lagawa,Kadugli,Dilling,Talodi,Rashad,Abu Jebha,Tima,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kauda,Kebkabiya,Koltogola,Kurmuk,Lado,Leila,Manawashi,KaTima",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tima1241",
+        "https://www.ethnologue.com/language/tms",
+        "https://en.wikipedia.org/wiki/Tima_language",
+        "https://en.wikipedia.org/wiki/Tima_people",
+        "https://joshuaproject.net/people_groups/15490/SU",
+        "https://dobes.mpi.nl/projects/tima",
+        "https://en.wikipedia.org/wiki/Katla",
+        "https://en.wikipedia.org/wiki/Lagawa,_Sudan",
+        "https://en.wikipedia.org/wiki/Kadugli",
+        "https://en.wikipedia.org/wiki/Dilling,_South_Kordofan",
+        "https://en.wikipedia.org/wiki/Talodi",
+        "https://en.wikipedia.org/wiki/Rashad,_South_Kordofan",
+        "https://en.wikipedia.org/wiki/Abu_Jubaiha",
+        "https://en.wikipedia.org/wiki/Kauda"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T08:14:00Z",
+      "notes": "Only 9/26 seeds verified as authentic Tima-area settlements (Katla, Lagawa, Kadugli, Dilling, Talodi, Rashad, Abu Jebha, Tima, Kauda). 17 contaminated: El Fasher, El Geneina, El Obeid, Wad Medani, Sennar, Kassala, Al-Damazin, Atbara, Dongola, Nyala, Kebkabiya, Koltogola, Kurmuk, Lado, Leila, Manawashi, KaTima. Only 9 authentic < 25 floor. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Tembo",
