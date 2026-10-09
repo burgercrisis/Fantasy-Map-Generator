@@ -5675,7 +5675,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bulawayo,Gwanda,Lupane,Beitbridge,Plumtree,Esigodini,Filabusi,Insiza,Kezi,Victoria Falls,Harare,Mutare,Gweru,Kwekwe,Kadoma,Chinhoyi,Karoi,Kariba,Hurungwe,Muzarabani,Mount Darwin,Bindura,Shamva,Marondera,Murewa,Mutoko,Chitungwiza,Epworth,Seke,Chivhu,Featherstone,Beatrice,Mashava,Masvingo,Zaka,Bikita,Nyika,Ndanga,Gutu,Chatsworth,Fort Rixon,Inyathi,Umguza,Magwegwe,Pumula,Luveve,Njube,Mzilikazi,Barbourfields,Hammanskraal,Atteridgeville,Mamelodi,Soshanguve,Pretoria North,Mabopane,Ga-Rankuwa,Winterveld,Refilwe,Cullinan,Rayton,Roodeplaat,Pretoria East,Witbank,Middelburg,Standerton,Secunda,eMbalenhle,KwaNdebele,Bronkhorstspruit,Zimbabwe,South Africa,Botswana,Mozambique",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nort2795",
+        "https://glottolog.org/resource/languoid/id/sout2808",
+        "https://www.ethnologue.com/language/nde/",
+        "https://www.ethnologue.com/language/nbl/",
+        "https://iso639-3.sil.org/code/nde",
+        "https://iso639-3.sil.org/code/nbl",
+        "https://www.zimstat.co.zw/wp-content/uploads//Census/2022_Population_Distribution_by_District_Ward_SexandHouseholds_23012023.pdf",
+        "https://census2011.adrianfrith.com/",
+        "https://en.wikipedia.org/wiki/Northern_Ndebele_language",
+        "https://en.wikipedia.org/wiki/Southern_Ndebele_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T03:44:00Z",
+      "notes": "CRITICAL: Entry conflates two distinct ISO 639-3 languages (Northern Ndebele nde, Southern Ndebele nbl). 30/73 seeds are Shona-speaking area contamination (Harare, Mutare, Gweru, etc.). 4 seeds are country names (Zimbabwe, South Africa, Botswana, Mozambique). 1 seed is a former bantustan region (KwaNdebele). Only 19 authentic Northern Ndebele seeds (Matabeleland) and 16 authentic Southern Ndebele seeds (Gauteng/Mpumalanga). Both below 25-seed COMPLETE threshold. Recommend split into two entries and demote to WAITING."
+    }
   },
   {
     "name": "Kikuyu",
@@ -5685,7 +5703,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nyeri,Nanyuki,Embu,Meru,Thika,Murang'a,Kiambu,Gatundu,Karatina,Nairobi,Kisumu,Eldoret,Nakuru,Kitale,Kakamega,Bungoma,Busia,Machakos,Kisii,Nyamira,Siaya,Migori,Kericho,Kikuyu,Githunguri,Kabete",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kiku1240",
+        "https://iso639-3.sil.org/code/kik",
+        "https://www.ethnologue.com/language/kik",
+        "https://en.wikipedia.org/wiki/Kikuyu_language",
+        "https://en.wikipedia.org/wiki/Embu_language",
+        "https://en.wikipedia.org/wiki/Meru_language",
+        "https://glottolog.org/resource/languoid/id/embu1241",
+        "https://glottolog.org/resource/languoid/id/meru1245",
+        "https://en.wikipedia.org/wiki/Nakuru"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T03:45:00Z",
+      "notes": "Only 11/26 seeds verified as authentic Kikuyu settlements (Nyeri, Nanyuki, Thika, Murang'a, Kiambu, Gatundu, Karatina, Nairobi, Kikuyu, Githunguri, Kabete). 14 seeds from other language areas: Embu (ebu), Meru (mer), Kisumu (Luo), Eldoret (Kalenjin), Kitale (Kalenjin/Luhya), Kakamega (Luhya), Bungoma (Luhya), Busia (Luhya/Teso), Machakos (Kamba), Kisii (Gusii), Nyamira (Gusii), Siaya (Luo), Migori (Luo), Kericho (Kalenjin). Nakuru is cosmopolitan with partial Kikuyu presence. Only 11-12 authentic Kikuyu seeds < 25 COMPLETE threshold. Status should be WAITING."
+    }
   },
   {
     "name": "Zenaga",
@@ -5695,7 +5730,24 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mederdra,Rosso,Kaédi,Zenaga,Mauritania,Sahara,Trarza,Brakna,Gorgol,Guidimaka,Assaba,Hodh El Gharbi,Hodh Ech Chargui,Adrar,Tagant,Tiris Zemmour,Inchiri,Nouadhibou,Zouerate,Akjoujt,Oualata,Tichitt,Tidjikja,Ayoun El Atrous,Kobeni,Magta Lahjar,Monguel,Kediet",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/zena1248",
+        "http://ethnologue.com/language/zen",
+        "https://en.wikipedia.org/wiki/Zenaga_language",
+        "https://en.wikipedia.org/wiki/Trarza_region",
+        "https://en.wikipedia.org/wiki/Mederdra",
+        "https://simple.wikipedia.org/wiki/Rosso",
+        "http://geo-ref.net/en/mrt.htm",
+        "https://www.elararchive.org/dk0586",
+        "https://joshuaproject.net/people_groups/11621/MR"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T03:54:00Z",
+      "notes": "SEVERE CONTAMINATION: Only 2/28 seeds (Mederdra, Rosso) are authentic settlements in Zenaga language area (Trarza region). Seeds include: 1 language self-reference, 1 country name, 1 desert name, 12 region names (wilayas), 11 settlements from other Mauritanian regions, 1 mountain. Entry needs complete seed list replacement with Trarza-region settlements only."
+    }
   },
   {
     "name": "Luo",
@@ -5705,7 +5757,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kisii,Awendo,Kisumu West,Awang,Mathare,Nakuru,Busia,Rachuonyo,Suba,Nyando,Muhuroni,Chemelil,Nandi Hills,Kapsabet,Eldoret,Kakamega,Vihiga,Malava,Mumias,Matungu,Butere,Khwisero,Shinyalu,Ikolomani,Lurambi,Kwanza,Saboti,Cherangany,Kaiti,Ndori,Asembo,Luanda,Rangala,Maseno,Chulaimbo,Port Victoria,Sega,Usenge,Bumala,Funyula,Nambale,Malakisi,Kimilili,Kapsokwony,Kitale,Kapenguria,Makutano,Lodwar,Lokichoggio,Maralal,Baragoi,Borabu,Keroka,Nyansiongo,Nyangusu,Kendu Bay,Mbita,Ndhiwa,Rangwe,Rodi,Kopany,Gulu,Lira,Soroti,Arua,Kitgum,Moyo,Adjumani,Pakwach,Masindi,Hoima,Nebbi,Kenya,Tanzania,Uganda,Sudan,South Sudan,Nilotic,Western Nilotic,Kisumu,Siaya,Homa Bay,Migori",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/luo1254",
+        "https://iso639-3.sil.org/code/luo",
+        "https://www.ethnologue.com/language/luo/",
+        "https://en.wikipedia.org/wiki/Luo_language",
+        "https://en.wikipedia.org/wiki/Luo_people"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:10:00Z",
+      "notes": "SEVERE CONTAMINATION: 31/83 seeds verified as authentic Luo settlements (Awendo, Kisumu West, Rachuonyo, Suba, Nyando, Muhuroni, Chemelil, Ndori, Asembo, Luanda, Rangala, Maseno, Chulaimbo, Port Victoria, Sega, Usenge, Bumala, Funyula, Nambale, Kendu Bay, Mbita, Ndhiwa, Rangwe, Rodi, Kopany, Kisumu, Siaya, Homa Bay, Migori, Awang, Kaiti). 34 seeds from non-Luo Kenyan areas (Gusii, Luhya, Kalenjin, Turkana, Samburu). 11 Ugandan towns (Acholi, Lango, Alur, Teso, Madi, Bunyoro) with distinct ISO codes. 7 non-settlements (countries, language labels). Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Kunda",
@@ -5735,7 +5800,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Tarime,Musoma,Mwanza,Rorya,Nyancha,Mongu,Sesheke,Sioma,Kalabo,Lukulu,Shangombo,Kwamashi,Limakazo,Kazungula,Senanga,Maputo,Nampula,Beira,Quelimane,Chimoio,Tete,Gondola,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu,Kiunga,Kibish,Wanleweyn,Dolow,Gongoni,Bondo,Luo-Imbo,HomaBay,GofKudle",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suba-Simbiti_language",
+        "https://glottolog.org/resource/languoid/id/suba1252",
+        "https://iso639-3.sil.org/code/ssc",
+        "https://www.ethnologue.com/language/ssc",
+        "https://joshuaproject.net/people_groups/18960/TZ",
+        "https://en.wikipedia.org/wiki/Suba_people_(Tanzania)"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:05:00Z",
+      "notes": "MAJOR CONTAMINATION: 33/38 seeds from Zambia (10), Mozambique (7), Kenya non-Mara (9), Somalia (5), unknown (1). Only 5 authentic seeds in Mara Region, Tanzania (Tarime, Musoma, Rorya, Nyancha, Luo-Imbo). Status should be WAITING (5 < 25). Entry appears to conflate multiple unrelated language areas."
+    }
   },
   {
     "name": "Kiga",
