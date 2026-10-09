@@ -5824,7 +5824,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kabale,Kisoro,Kanungu,Rubanda,Ntungamo,Mbarara,Kampala,Entebbe,Jinja,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Mityana,Bushenyi,Isingiro,Ibanda,Kamwenge,Kyegegwa,Kiruhura,Mitoma,Mitooma,Rubirizi,Sheema,Rukungiri",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/chig1238",
+        "https://www.ethnologue.com/language/cgg",
+        "https://en.wikipedia.org/wiki/Kiga_language",
+        "https://www.omniglot.com/writing/kiga.htm",
+        "https://en.wikipedia.org/wiki/Nkore_language",
+        "https://toorokingdom.org/about-tooro-kingdom"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:35:00Z",
+      "notes": "Only 4/29 seeds verified as authentic Kiga area (Kabale, Kisoro, Kanungu, Rubanda). 23 seeds contaminated: Mbarara, Kampala, Entebbe, Jinja, Gulu, Lira, Mbale, Tororo, Fort Portal, Hoima, Masindi, Soroti, Mityana, Bushenyi, Isingiro, Ibanda, Kamwenge, Kyegegwa, Kiruhura, Mitoma, Mitooma, Rubirizi, Sheema are Nkore (Ankole), Rutooro (Tooro), Nyoro (Bunyoro), Luganda, Lusoga, Acholi, Lango, Lugisu, Adhola, or Teso. Ntungamo and Rukungiri are borderline (Nkore primary with Kiga border presence). Rukiga District (core Kigezi) missing. Entry should be WAITING (4 verified < 25)."
+    }
   },
   {
     "name": "Kongo",
@@ -5834,7 +5848,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kinshasa,Matadi,Boma,Muanda,Soyo,Cabinda,Luanda,Kikwit,Bandundu,Basankusu,Bolomba,Bomongo,Mbanza Ngungu,Lisala,Kalemie,Kikumba,Kamina,Kinga,Kipushi,Kilisuku,Likasi,Luebo,Madimba,Maji,Mangala,Nsona-Mpangu",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kiko1234",
+        "https://glottolog.org/resource/languoid/id/kiko1235",
+        "https://iso639-3.sil.org/code/kon",
+        "https://en.wikipedia.org/wiki/Kongo_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:34:00Z",
+      "notes": "Only 12/26 seeds in Kongo language area (Kinshasa, Matadi, Boma, Muanda, Soyo, Cabinda, Luanda, Kikwit, Bandundu, Mbanza Ngungu, Madimba, Mangala). 14 seeds outside Kongo area: Équateur/Mongala (Basankusu, Bolomba, Bomongo, Lisala — Lingala/Lomongo); Katanga/Tanganyika/Haut-Lomami/Haut-Katanga (Kalemie, Kikumba, Kamina, Kipushi, Likasi — Swahili); Kasai/Lomami (Luebo — Luba/Tshiluba). Minor/unverified: Kinga, Kilisuku, Maji, Nsona-Mpangu. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Kituba",
@@ -5864,7 +5890,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Jinja,Iganga,Buyende,Kamuli,Luuka,Mayuge,Namayingo,Namutumba,Busembatia,Kampala,Entebbe,Mbarara,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Kabale,Mityana,Lusoga,Buvuma,Kaliro",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/soga1244",
+        "https://www.ethnologue.com/language/xog",
+        "https://en.wikipedia.org/wiki/Soga_language",
+        "https://en.wikipedia.org/wiki/Busoga_sub-region",
+        "https://en.wikipedia.org/wiki/Busembatya,_Uganda",
+        "https://en.wikipedia.org/wiki/Buvuma_District",
+        "https://en.wikipedia.org/wiki/Buyende_District",
+        "https://en.wikipedia.org/wiki/Namutumba,_Uganda"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:38:00Z",
+      "notes": "MAJOR CONTAMINATION: 13/25 seeds are non-Lusoga settlements from other Ugandan regions (Buganda, Ankole, Acholi, Lango, Bugisu, Teso, Tooro, Bunyoro, Kigezi). Seed 'Lusoga' is language autonym, not a settlement. Only 11 seeds verified in Busoga sub-region. Status COMPLETE is incorrect - should be WAITING (<25 authentic seeds). Missing Bugiri and Bugweri districts. Buvuma is borderline (Central Region administratively, but Soga dialects historically spoken on Buvuma Island). Entry needs cleanup before verification."
+    }
   },
   {
     "name": "Tetserret",
@@ -5874,7 +5916,35 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Abalak,Akoubounou,Shadwanka,Agadez,Tahoua,Arlit,In-Gall,Tamaya,Mazababu,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Araouane,Bilma,Fachi,SofOmar,Hadud,Bereeda,Shalambood,Kilifi,Rioma,Habaswein,Sarweyne,Koorma,Xarardheere,Mariakani",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tets1235",
+        "https://en.wikipedia.org/wiki/Tetserret_language",
+        "https://iso639-3.sil.org/code/tez",
+        "https://en.wikipedia.org/wiki/Akoubounou",
+        "https://en.wikipedia.org/wiki/Abalak",
+        "https://en.wikipedia.org/wiki/Agadez",
+        "https://en.wikipedia.org/wiki/Tahoua",
+        "https://en.wikipedia.org/wiki/Arlit",
+        "https://en.wikipedia.org/wiki/In-Gall",
+        "https://en.wikipedia.org/wiki/Tamaya,_Niger",
+        "https://en.wikipedia.org/wiki/Tchin-Tabaraden",
+        "https://en.wikipedia.org/wiki/Bilma",
+        "https://en.wikipedia.org/wiki/Fachi",
+        "https://en.wikipedia.org/wiki/Araouane",
+        "https://en.wikipedia.org/wiki/Kilifi",
+        "https://en.wikipedia.org/wiki/Habaswein",
+        "https://en.wikipedia.org/wiki/Harardhere",
+        "https://en.wikipedia.org/wiki/Mariakani",
+        "https://en.wikipedia.org/wiki/Bereeda",
+        "https://en.wikipedia.org/wiki/Sof_Omar_Caves"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:42:00Z",
+      "notes": "SEVERE CONTAMINATION: 26 seeds but only 11 authentic Niger settlements. 7 seeds from Kenya/Somalia/Ethiopia (Kilifi, Habaswein, Xarardheere, Mariakani, Bereeda, Shalambood, SofOmar), 1 from Mali (Araouane), 3 unverifiable (Mazababu, Tiguirwit, Tofabayogh), 2 non-geographic (Hadud=Hudud Islamic law, Koorma=Kurma avatar). Core Tetserret area per Lux 2011 is Abalak-Akoubounou-Shadwanka triangle. Entry requires complete seed list replacement."
+    }
   },
   {
     "name": "Tasawaq",
@@ -5884,7 +5954,31 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "In-Gall,Teguidda-n-Tessoumt,Agadez,Abalak,Tahoua,Arlit,Tchirozerine,Akoubounou,Shadwanka,Azeye,Tabalak,Tamaya,Tiguirwit,Tofabayogh,Tchin-Tabaredene,Inecal,Ilalo,Kolo,Bouza,ElKere,Niger,Mali,Algeria,Libya,Western Songhay",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tasa1240",
+        "https://iso639-3.sil.org/code/twq",
+        "https://en.wikipedia.org/wiki/Tasawaq_language",
+        "https://en.wikipedia.org/wiki/In-Gall",
+        "https://en.wikipedia.org/wiki/Tegguiada_In_Tessoum",
+        "https://en.wikipedia.org/wiki/Agadez",
+        "https://en.wikipedia.org/wiki/Abalak",
+        "https://en.wikipedia.org/wiki/Tahoua",
+        "https://en.wikipedia.org/wiki/Arlit",
+        "https://en.wikipedia.org/wiki/Tchirozerine",
+        "https://en.wikipedia.org/wiki/Akoubounou",
+        "https://en.wikipedia.org/wiki/Azeye",
+        "https://en.wikipedia.org/wiki/Tabalak",
+        "https://en.wikipedia.org/wiki/Tamaya,_Niger",
+        "https://en.wikipedia.org/wiki/Tchintabaraden",
+        "https://en.wikipedia.org/wiki/Bouza"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T04:45:00Z",
+      "notes": "Only 2/25 seeds verified as authentic Tasawaq settlements: In-Gall and Teguidda-n-Tessoumt. Agadez had extinct Emghedeshie dialect. 9 real Nigerien towns outside Tasawaq area (Abalak, Tahoua, Arlit, Tchirozerine, Akoubounou, Azeye, Tabalak, Tamaya, Tchin-Tabaredene, Bouza). 6 unverified/likely fabricated (Shadwanka, Tiguirwit, Tofabayogh, Inecal, Kolo, ElKere). 1 wrong continent (Ilalo = Ecuador volcano). 5 non-settlements (4 countries + Western Songhay language group). Only 2-3 authentic Tasawaq seeds. Should be WAITING."
+    }
   },
   {
     "name": "Tagdal",
