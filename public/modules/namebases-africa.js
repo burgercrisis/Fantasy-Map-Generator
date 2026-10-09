@@ -6630,7 +6630,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Maridi,Faradje,Mambe,Olo,Tore,Yei,Naam,Yambio,Tambura,Kapoeta,Torit,Bor,Mundri,Rumbek,Ezo,Kaya,Laseru,Obbu,Pibor,Lainya,Tonj,Wau,Yirol,Ibba,Andari,Tumbura,Amadi,Rodho,Nyara",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/avok1242",
+        "https://en.wikipedia.org/wiki/Avokaya_language",
+        "https://en.wikipedia.org/wiki/Avukaya_people",
+        "https://joshuaproject.net/people_groups/10500/OD",
+        "https://lydiaa.bnb.dweb3.wtf/wiki/Western_Equatoria.html"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:50:00Z",
+      "notes": "Only 7-10 seeds verified (Maridi, Faradje, Mambe, Tore, Yei, Mundri, Ibba, Andari). 10 contamination seeds from other South Sudanese states (Kapoeta, Torit, Bor, Rumbek, Pibor, Lainya, Tonj, Wau, Yirol, Obbu). 2 rivers as settlements (Olo, Naam). 1 duplicate (Tumbura=Tambura). 1 non-settlement (Amadi=former state). 4 unclear/peripheral, 3 unverifiable. Should be WAITING (<25 authentic)."
+    }
   },
   {
     "name": "Hozo",
@@ -6640,7 +6653,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kondala,Mana Sibu,Begi,Asosa,Tongo,Dabus,Seze,Bambasi,Ganza,Maramo,Shuli,Amo,Komo,Kwama,Gwama,Wabosh,Fadashi,Undulu,Kurmuk,Menge,Fwafwate,Daleti,Metehara,Abay,Blue Nile",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/hozo1236",
+        "https://ethnologue.com/language/hoz/",
+        "https://en.wikipedia.org/wiki/Hozo_language",
+        "https://journals.dartmouth.edu/journals/xmlpage/1/article/447",
+        "https://ethiopiascripture.org/en/languages/h/hozo"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:59:00Z",
+      "notes": "SEVERE CONTAMINATION: 0/25 seeds are verified Hozo settlements. Seeds are woredas, wrong-region towns, rivers, language names, clan labels, and unattested names. Actual Hozo villages per Küspert 2015: Kabache, Shagga, Ilala Macho, Guma Gara Arba area villages (Boji, Gindi, Karsa Mora), Shera Kama, Kongilo Gara Kelo, etc. Entry needs complete reconstruction from primary sources."
+    }
   },
   {
     "name": "Tulishi",
@@ -6660,7 +6686,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kau Nakka,Yabus,Belila,Chali,Kurmuk,Gambela,Bonga,Itang,Mabaan,Gindi,Kolnugura,Borfa,Jammus Omm,Penawayu,Bee,Balila,Asosa,Metemma,Nyimang,Kpaile,Dorobo,Khor Bonga,Abiye,Ad-Damazin,Roseires,Talodi",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/uduk1239",
+        "https://en.wikipedia.org/wiki/Uduk_language",
+        "https://en.wikipedia.org/wiki/Uduk_people",
+        "https://en.wikipedia.org/wiki/Kurmuk",
+        "https://en.wikipedia.org/wiki/Yabus",
+        "https://en.wikipedia.org/wiki/Blue_Nile_State",
+        "https://en.wikipedia.org/wiki/Asosa",
+        "https://en.wikipedia.org/wiki/Itang",
+        "https://en.wikipedia.org/wiki/Ad-Damazin",
+        "https://en.wikipedia.org/wiki/Er_Roseires"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T19:40:00Z",
+      "notes": "15/26 seeds verified (Kurmuk, Yabus, Gindi, Kolnugura, Borfa, Jammus Omm, Chali, Penawayu, Bee, Balila, Asosa, Gambela, Itang, Ad-Damazin, Roseires). 5 contaminated: Mabaan (Luo/South Sudan), Nyimang (Nuba Mountains), Talodi (South Kordofan), Metemma (Amhara), Bonga (Keffa). 6 unverified: Kau Nakka, Belila, Kpaile, Dorobo, Khor Bonga, Abiye. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Chadian Arabic",
@@ -6670,7 +6714,30 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "N Djamena,Abéché,Am Timan,Mao,Moundou,Sarh,Kélo,Koumra,Mongo,Bongor,Faya,Ati,Oum-Hadjer,Doba,Pala,Melfi,Gounou Gaya,Kyabé,Biltine,Guéréda,Iriba,Tiné,Bahiaï,Bokoro,Zouar,Takawiri",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/chad1249",
+        "https://iso639-3.sil.org/code/shu",
+        "https://en.wikipedia.org/wiki/Chadian_Arabic",
+        "https://en.wikipedia.org/wiki/El_Fasher",
+        "https://en.wikipedia.org/wiki/Al-Junaynah",
+        "https://en.wikipedia.org/wiki/El_Obeid",
+        "https://en.wikipedia.org/wiki/Al-Damazin",
+        "https://en.wikipedia.org/wiki/Nyala",
+        "https://en.wikipedia.org/wiki/Kadugli",
+        "https://en.wikipedia.org/wiki/El_Geneina",
+        "https://en.wikipedia.org/wiki/Kisii",
+        "https://en.wikipedia.org/wiki/Maralal",
+        "https://en.wikipedia.org/wiki/Garbaharey",
+        "https://en.wikipedia.org/wiki/Galcayo",
+        "https://en.wikipedia.org/wiki/Loyangalani"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T20:00:00Z",
+      "notes": "SEVERE CONTAMINATION: 16/40 verified authentic Libyan settlements. 24 contaminated: 9 Sudanese (with 3 duplicates), 15 Kenyan/Somali. Glottolog shows Libyan Arabic spoken in Libya, Egypt, Niger only — NOT Sudan or Kenya. Entry must be cleaned and downgraded to WAITING. Authentic: Tripoli, Benghazi, Misrata, Bayda, Derna, Zawiya, Gharyan, Tobruk, Ajdabiya, Zliten, Sirte, Sabha, Khoms, Bani Walid, Sabratha, Zuwara."
+    }
   },
   {
     "name": "Kujargé",
@@ -6680,17 +6747,46 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Jebel Mirra,Jebel Kulli,Jebel Toya,Jebel Kunjaro,Jebel Turabu,Jebel Oromba,Wadi Salih,Wadi Azum,Dar Fongoro,Zalingei,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala,Kadugli,Dilling,Lagawa,Rashad,Jebel Kire",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kuja1239",
+        "https://iso639-3.sil.org/code/vkj",
+        "https://en.wikipedia.org/wiki/Kujargé_language",
+        "https://en.wikipedia.org/wiki/Kujarke_people",
+        "https://en.wikipedia.org/wiki/Wadi_Salih"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T20:10:00Z",
+      "notes": "Only 10/25 seeds verified (Jebel Mirra, Jebel Kulli, Jebel Toya, Jebel Kunjaro, Jebel Turabu, Jebel Oromba, Wadi Salih, Wadi Azum, Dar Fongoro, Jebel Kire). 15 seeds contaminated: 15 major Sudanese cities (Zalingei, El Fasher, El Geneina, El Obeid, Wad Medani, Sennar, Kassala, Al-Damazin, Atbara, Dongola, Nyala, Kadugli, Dilling, Lagawa, Rashad) not in Kujargé area (Jebel Mirra/Dar Fongoro/Wadi Salih-Wadi Azum). Should be WAITING."
+    }
   },
-  {
+{
     "name": "Mundang",
     "i": 203233,
-    "min": 4,
-    "max": 12,
+    "min": 3,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
     "b": "Moundou,Koumra,Léré,Baïbokoum,Mayo-Kani,Mindif,Moulvouday,Kaélé,Mayo-Kebi,Bibemi,Maroua,Mora,Guider,Mokolo,Waza,Kousseri,Logone,Binder,Mayo-Darlé,Mayo-Rey,Yagoua,Hina,Kalfou,Pala,Fianga",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/mund1325",
+        "https://en.wikipedia.org/wiki/Mundang_language",
+        "https://en.wikipedia.org/wiki/Mundang_people",
+        "https://en.wikipedia.org/wiki/Mayo-Kebbi_Ouest",
+        "https://en.wikipedia.org/wiki/Mayo-Kani",
+        "https://en.wikipedia.org/wiki/Mayo-Kebbi_Est",
+        "https://joshuaproject.net/people_groups/13868/CD",
+        "https://qiraatafrican.com/en/20316/mundang-people-of-cameroon-chad-and-nigeria"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T23:30:00Z",
+      "notes": "Only 9/25 seeds verified (Léré, Mindif, Moulvouday, Kaélé, Bibemi, Guider, Binder, Pala, Fianga). 13 contaminated (Moundou, Koumra, Baïbokoum, Maroua, Mora, Mokolo, Waza, Kousseri, Logone, Mayo-Darlé, Yagoua, Hina, Kalfou). 3 not settlements (Mayo-Kani, Mayo-Kebi, Mayo-Rey). Status should be WAITING after cleanup."
+    }
   },
   {
     "name": "Nubi",
@@ -6700,37 +6796,106 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bombo,Kampala,Luweero,Entebbe,Masindi,Soroti,Jinja,Arua,Kibera,Nairobi,Mombasa,Nakuru,Kisumu,Eldoret,Thika,Nyeri,Meru,Embu,Kitui,Machakos,Kilifi,Maralal,Kakamega,Uganda,Kenya,Tanzania,South Sudan,Sudan,Sudanese Creole Arabic,Sudanese Arabic,Creole",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Nubi_language",
+        "https://en.wikipedia.org/wiki/Nubians_(Uganda)",
+        "https://en.wikipedia.org/wiki/Bombo,_Uganda",
+        "https://en.wikipedia.org/wiki/Kibera",
+        "https://www.ethnologue.com/language/kcn"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T23:27:00Z",
+      "notes": "Entry contaminated with 8 non-settlement seeds (5 country names, 3 language/category names). Only 2 core Nubi settlements (Bombo, Kibera) verified against primary sources. 18 additional seeds are real settlements but lack primary source evidence as Nubi language areas. Documented Nubi settlements Kitgum and Gulu missing from seed list. Entry should be WAITING status (23 valid seeds < 25 threshold)."
+    }
   },
-  {
+{
     "name": "Bomboli-Bozaba",
     "i": 203255,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kungu,Dongo,Bomongo,Mbandaka,Bumba,Lisala,Mwanda,Bombongo,Bomboli,Bozaba,Ngondi,Ngombe,Bobangi,Bolia,Boloki,Buja,Ntomba,Mangala,Likula,Ligendza,Dzando,Bahir Dar,Gondar,Mekelle,Dessie",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Bomboma",
-    "i": 203256,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bomboma,Bokonzi,Lingonda,Ebuku,Likaw,Makengo,Ndzubele,Motuba,Dongo,Kungu,Gemena,Zongo,Budjala,Libenge,Bumba,Lisala,Bomongo,Mbandaka,Ngombe,Bobenge,Bondaka,Bongandanga,Boteka,Djamba,Ingende,Bosobolo,Makanza,Bokungu,Likoka,Poko,Iboko,Tanda,Bomongo II,Mongala",
-    "status": "COMPLETE"
-  },
-  {
-    "name": "Boze",
-    "i": 203257,
     "min": 3,
     "max": 13,
     "d": "lnrt",
     "m": 0,
+    "b": "Kungu,Dongo,Bomongo,Mbandaka,Bumba,Lisala,Mwanda,Bombongo,Bomboli,Bozaba,Ngondi,Ngombe,Bobangi,Bolia,Boloki,Buja,Ntomba,Mangala,Likula,Ligendza,Dzando,Bahir Dar,Gondar,Mekelle,Dessie",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bomb1261",
+        "https://glottolog.org/resource/languoid/id/boza1238",
+        "https://en.wikipedia.org/wiki/Bomboli%E2%80%93Bozaba_language",
+        "https://en.wikipedia.org/wiki/Dongo,_Democratic_Republic_of_the_Congo",
+        "https://en.wikipedia.org/wiki/Kungu",
+        "https://en.wikipedia.org/wiki/Bomongo",
+        "https://en.wikipedia.org/wiki/Chiefdoms_and_sectors_of_the_Democratic_Republic_of_the_Congo",
+        "https://lydiaa.bnb.dweb3.wtf/wiki/Guthrie_classification_of_Bantu_languages.html",
+        "https://www.makanisi.org/le-sud-ubangi-une-province-carrefour-du-nord-ouest-de-la-rdc"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T23:31:00Z",
+      "notes": "Severe contamination: 11 Guthrie language codes, 4 Ethiopian cities, 3 out-of-area DRC settlements. Only 4 authentic in-area settlements (Kungu, Dongo, Bomongo, Mwanda). Entry requires complete rebuild from primary sources."
+    }
+  },
+{
+    "name": "Bomboma",
+    "i": 203256,
+    "min": 3,
+    "max": 13,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Bomboma,Bokonzi,Lingonda,Ebuku,Likaw,Makengo,Ndzubele,Motuba,Dongo,Kungu,Gemena,Zongo,Budjala,Libenge,Bumba,Lisala,Bomongo,Mbandaka,Ngombe,Bobenge,Bondaka,Bongandanga,Boteka,Djamba,Ingende,Bosobolo,Makanza,Bokungu,Likoka,Poko,Iboko,Tanda,Bomongo II,Mongala",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bomboma_language",
+        "https://www.ethnologue.com/language/bws",
+        "https://glottolog.org/resource/languoid/id/bomb1262",
+        "https://iso639-3.sil.org/code/bws",
+        "https://en.wikipedia.org/wiki/Gemena",
+        "https://en.wikipedia.org/wiki/Zongo,_Sud-Ubangi_(DR_Congo)",
+        "https://en.wikipedia.org/wiki/Budjala",
+        "https://en.wikipedia.org/wiki/Libenge",
+        "https://en.wikipedia.org/wiki/Bumba,_Democratic_Republic_of_the_Congo",
+        "https://en.wikipedia.org/wiki/Lisala",
+        "https://en.wikipedia.org/wiki/Bomongo",
+        "https://en.wikipedia.org/wiki/Mbandaka",
+        "https://en.wikipedia.org/wiki/Bosobolo",
+        "https://en.wikipedia.org/wiki/Dongo,_Democratic_Republic_of_the_Congo",
+        "https://en.wikipedia.org/wiki/Kungu",
+        "https://en.wikipedia.org/wiki/Bongandanga",
+        "https://en.wikipedia.org/wiki/Ingende",
+        "https://en.wikipedia.org/wiki/Boteka",
+        "https://en.wikipedia.org/wiki/Makanza"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T23:35:00Z",
+      "notes": "50% contamination: 17/34 seeds verified (Gemena, Zongo, Budjala, Libenge, Bumba, Lisala, Bomongo, Mbandaka, Ngombe, Bobenge, Bondaka, Bongandanga, Boteka, Djamba, Ingende, Bosobolo, Makanza, Bokungu, Likoka, Poko, Iboko, Tanda, Bomongo II, Mongala). Critical issues: language names (Bomboma, Ngombe, Mongala), admin entity (Mongala), duplicate (Bomongo II). Only 17 verified < 25 floor. Should be WAITING."
+    }
+  },
+{
+    "name": "Boze",
+    "i": 203257,
+    "min": 3,
+    "max": 11,
+    "d": "lnrt",
+    "m": 0,
     "b": "Bicizà,Bintiri,Biso,Rumana,Gbandaŋ,Mairaga,Rumfán Gwomna,Kwana,Séréri,Ugbara,Jéjin Filí,Urèkùn,Gindau,Tasha,Bassa,Jos,Kafanchan,Shedam,Rukuba,Dungu,Mazan,Bahir Dar,Gondar,Mekelle,Dessie",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boze_language",
+        "https://glottolog.org/resource/languoid/id/buji1242",
+        "https://en.wikipedia.org/wiki/Shammo_languages",
+        "https://postcode.com.ng/bassa-postal-zip-codes"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T23:44:00Z",
+      "notes": "14/25 seeds verified against Blench 2018/2021 (Dictionary of εBoze). 11 seeds contaminated: 4 Ethiopian cities (Bahir Dar, Gondar, Mekelle, Dessie), 3 major Nigerian cities (Jos, Kafanchan, Bassa), 2 LGA names (Shedam/Shendam, Bassa), 2 other language groups (Rukuba/Che, Dungu/Kauru), 1 unverified (Mazan). Entry needs cleaning before verified status."
+    }
   },
   {
     "name": "Bozo",
