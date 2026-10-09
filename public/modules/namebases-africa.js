@@ -6304,7 +6304,26 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Gboko,Makurdi,Katsina-Ala,Vandeikya,Zaki Biam,Otukpo,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Tarka,Gwer,Lafia,Awe,Doma,Nassarawa,Jalingo,Zing,Numan,Jen,Mayo-Belwa,Karim Lamido,Songo",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tivv1240",
+        "https://en.wikipedia.org/wiki/Tiv_language",
+        "https://en.wikipedia.org/wiki/Tivoid_languages",
+        "https://en.wikipedia.org/wiki/Benue_State",
+        "https://en.wikipedia.org/wiki/Nasarawa_State",
+        "https://en.wikipedia.org/wiki/Taraba_State",
+        "http://www.iambenue.com/benue-state/ethnic-composition/the-tiv-people-of-benue-state",
+        "https://en.wikipedia.org/wiki/Otukpo",
+        "https://en.wikipedia.org/wiki/Jalingo",
+        "https://en.wikipedia.org/wiki/Karim_Lamido",
+        "https://simple.wikipedia.org/wiki/Jen_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T09:23:00Z",
+      "notes": "CRITICAL: Entry has 7 non-Tiv seeds (Otukpo=Idoma, Jalingo=Fulani/Mumuye, Zing=Mumuye, Numan=Bachama, Jen=Jenjo/Dza, Mayo-Belwa=Mumuye, Karim Lamido=Jenjo). After cleanup: 19 verified Tiv seeds (<25 COMPLETE threshold). Status should be WAITING. SEVERE CROSS-CONTAMINATION: Nyabwa (i=14134, Ivorian Kru language) contains 15 stolen Tiv seeds. Mumuye (i=14136) contains 14 stolen Tiv seeds + Kenyan/Ethiopian/Somali place names. Both entries need full audit."
+    }
   },
   {
     "name": "Nyabwa",
@@ -6364,7 +6383,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Hosaena,Shone,Gimbichu,Badawacho,Leemo,Soro,Kembata,Angacha,Durame,Mudula,Buee,Sodo,Yirgalem,Araba Minch,Wondo Genet,Dilla,Bati,Bonga,Butajira,Alaba Kulito,Bokicha,Marako,Gubre,Tiye,Ethiopia,SNNPR",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/hadi1240",
+        "https://iso639-3.sil.org/code/hdy",
+        "https://en.wikipedia.org/wiki/Hadiyya_language",
+        "https://en.wikipedia.org/wiki/Hadiya_Zone",
+        "https://en.wikipedia.org/wiki/Hadiya_people"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T09:36:00Z",
+      "notes": "Only 6/26 seeds verified (Hosaena, Shone, Gimbichu, Badawacho, Leemo, Soro). 14 seeds from neighboring zones (Kembata, Angacha, Durame, Mudula, Buee, Sodo, Yirgalem, Araba Minch, Wondo Genet, Dilla, Bati, Bonga, Butajira, Alaba Kulito). 3 non-settlements (Ethiopia, SNNPR, Tiye - ancient Egyptian queen). 3 unverified (Bokicha, Marako, Gubre). Status should be WAITING after cleanup."
+    }
   },
   {
     "name": "Sidama",
@@ -6374,7 +6406,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Hawassa,Yirgalem,Wondogenet,Chuko,Hula,Bona,Bursa,Bensa,Aleta Wendo,Dara,Teticha,Arbegona,Irgalem,Bona Zuria,Hula Zuria,Bensa Zuria,Yirgalem Zuria,Wondo Genet,Chuko Zuria,Shebedino,Dale,Awasa,Boko,Bokocho,Bira",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/sida1246",
+        "https://iso639-3.sil.org/code/sid",
+        "https://en.wikipedia.org/wiki/Sidama_Region",
+        "https://en.wikipedia.org/wiki/Sidama_language",
+        "https://en.wikipedia.org/wiki/Dayne_Mountain"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T08:41:00Z",
+      "notes": "Only 18/25 unique verified seeds (duplicates: Irgalem=Yirgalem, Wondo Genet=Wondogenet, Awasa=Hawassa). 4 invented 'Zuria' woredas (Hula Zuria, Bensa Zuria, Yirgalem Zuria, Chuko Zuria). 3 unverifiable (Boko, Bokocho, Bira). 18 effective verified seeds < 25 floor. Should be WAITING."
+    }
   },
   {
     "name": "Bench",
@@ -6394,7 +6439,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Al Kurumik,Penishuba,Yabeldigis,Asosa,Tugubele,Korbum,Darsoma,Yeshkab,Yamasala,Ganza,Benishangul-Gumuz,Ethiopia,Sudan Border,Bambasi,Assosa,Mengi,Sirba,Abay,Blue Nile,Didessa,Dabus,Yabus,Asosa Zone,Asosa Woreda,Asosa Region,Bambasi Woreda,Bambasi Town",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/ganz1246",
+        "https://en.wikipedia.org/wiki/Ganza_language",
+        "https://en.wikipedia.org/wiki/Al_Kurumik_District",
+        "https://en.wikipedia.org/wiki/Asosa_Zone"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T17:55:00Z",
+      "notes": "70% contamination: 19/27 seeds are administrative divisions, rivers, countries, borders, self-references, duplicates, or unverified settlements. Only 8 authentic settlement seeds confirmed. Requires cleanup before verification."
+    }
   },
   {
     "name": "Sango",
@@ -6404,7 +6461,27 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bangui,Bimbo,Berberati,Bambari,Bouar,Bangassou,Mbaiki,Bossangoa,Sibut,Kaga-Bandoro,Nola,Mobaye,Zemio,Ouadda,Alindao,Gambo,Bria,Bakouma,Birao,Carnot,Gamboula,Rafaï,Obo,Berbérati,Boubou",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/sang1328",
+        "https://www.ethnologue.com/language/sag",
+        "https://iso639-3.sil.org/code/sag",
+        "https://en.wikipedia.org/wiki/Sango_language",
+        "http://geo-ref.net/en/caf.htm",
+        "https://www.britannica.com/place/Central-African-Republic/Settlement-patterns",
+        "https://www.unocha.org/publications/report/central-african-republic/central-african-republic-situation-report-no-75-7-july-2026",
+        "https://www.ipinst.org/wp-content/uploads/2020/12/CAR-Case-Study.pdf",
+        "http://fallingrain.net/world/CT/a/B/o/u/b",
+        "https://en.wikipedia.org/wiki/Ouadda",
+        "https://en.wikipedia.org/wiki/Gambo,_Central_African_Republic",
+        "https://en.wikipedia.org/wiki/Bimbo,_Central_African_Republic"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T17:56:00Z",
+      "notes": "All 24 unique seeds verified as real settlements in CAR (Sango language area). One duplicate: Berberati/Berbérati. Unique seed count = 24 (<25 COMPLETE floor). Recommend removing duplicate and adding one more verified CAR settlement (e.g., Boali, Dekoa, or Bakala) to restore COMPLETE status."
+    }
   },
   {
     "name": "Ghanaian Pidgin English",
@@ -6414,7 +6491,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Accra,Kumasi,Tamale,Sekondi-Takoradi,Cape Coast,Koforidua,Sunyani,Ho,Bolgatanga,Wa,Obuasi,Teshie,Tema,Takoradi,Winneba,Swedru,Apam,Mankessim,Elmina,Shama,Axim,Asankragwa,Bibiani,Enchi,West Africa,Ghanaian Pidgin,Kroo,Kru English,Liberian English,Nigerian Pidgin,Cameroonian Pidgin,Sierra Leonean Krio,English Creole",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/ghan1244",
+        "https://www.ethnologue.com/language/gpe",
+        "https://en.wikipedia.org/wiki/Ghanaian_Pidgin_English",
+        "https://apics-online.info/contributions/16",
+        "https://doi.org/10.1075/veaw.g24"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T18:02:00Z",
+      "notes": "Severe contamination: 9/33 seeds are non-settlements (regions, language names, other languages). 1 duplicate (Takoradi). 4 northern settlements outside core southern area. Only 19 core + 4 peripheral = 23 authentic settlements. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Nigerian Pidgin",
