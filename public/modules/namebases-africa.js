@@ -7028,7 +7028,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Awing-Bambaluwe,Bamenda,Mezam,Bambui,Bafut,Nso,Kom,Oku,Mankon,Pinyin,Ngemba,Tubah,Babanki,Tungo,Fontem,Fontem South,Awing,Nkwen,Bangwa,Fontem Southwest,Bamessingue,Bamali,Bamum,Banso,Batcha,Fotouni,Kekpo,Kumba,Loum,Bamena,Bati,Bazou,Kouoptamo,Maga",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/awin1248",
+        "https://ethnologue.com/language/azo/",
+        "https://joshuaproject.net/people_groups/10508/CM",
+        "https://www.silcam.org/resources/archives/9106",
+        "https://en.wikipedia.org/wiki/Ndong_Awing",
+        "https://en.wikipedia.org/wiki/Communes_of_Cameroon"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T04:55:00Z",
+      "notes": "Severe contamination: 21/34 seeds from wrong regions (West, Southwest, Far North) and different language families. Only 2 seeds represent actual Awing-speaking village (Awing-Bambaluwe). Entry should be WAITING status with ~10 authentic Northwest Region seeds or rebuilt with Awing-Bambaluwe quarters."
+    }
   },
   {
     "name": "Beba",
@@ -7038,7 +7052,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Beba,Nsoka,Mbekunyam,Ntadiambo,Muala,Mbamba,Shisong,Fombi,Agah,Widikum,Bamenda,Mbengwi,Ntamecheh,Menchum,Benakuma,Ntarinkon,Bombe,Bazhi,Bebadji,Mubadji,Bahir Dar,Gondar,Mekelle,Dessie,Adwa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/beba1238",
+        "https://en.wikipedia.org/wiki/Beba_Village_Community_in_Cameroon",
+        "https://www.arcjournals.org/pdfs/ijhcs/v6-i2/4.pdf",
+        "https://pndp.org/documents/03_CDP_Benakuma1.pdf",
+        "https://www.sil.org/resources/archives/9024",
+        "https://fr.wikipedia.org/wiki/Beba_(Benakuma)"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T04:57:00Z",
+      "notes": "Entry contains 5 Ethiopian city names (Bahir Dar, Gondar, Mekelle, Dessie, Adwa) — clear contamination. 3 seeds are language aliases (Bazhi, Bebadji, Mubadji). 2 are administrative divisions (Menchum, Benakuma). 1 settlement (Bombe) is in wrong region (South West vs North West). 5 seeds are historical migration stops, not current settlements. Only 9 authentic Beba settlements verified. Entry should be WAITING status with 9 seeds."
+    }
   },
   {
     "name": "Amira",
@@ -7048,7 +7076,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Lafofa,Nuba Hills,Kadugli,Dilling,Lagawa,Rashad,Talodi,Abu Jebha,Eliri,Amira,Tegem,Tingal,Kajakka,Gom,Rashad Hills,El Fasher,El Geneina,El Obeid,Wad Medani,Sennar,Kassala,Al-Damazin,Atbara,Dongola,Nyala",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/amir1234",
+        "https://en.wikipedia.org/wiki/Amira_language",
+        "https://en.wikipedia.org/wiki/Lafofa_languages",
+        "https://en.wikipedia.org/wiki/Kadugli",
+        "https://en.wikipedia.org/wiki/Talodi",
+        "https://en.wikipedia.org/wiki/Rashad_District",
+        "https://www.iom.int/sites/g/files/tmzbdl486/files/jahia/webdav/shared/shared/mainsite/media/docs/reports/villages_assessment_skordofan.pdf",
+        "https://www.iom.int/sites/g/files/tmzbdl1606/files/documents/EET_Al%20Lagowa%20_West%20Kordofan_001_1.pdf"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T04:58:00Z",
+      "notes": "Entry heavily contaminated: 9/26 seeds verified as authentic Amira-area settlements. 17 seeds are geographic regions, language names, unverified names, or distant major cities (Darfur, North Kordofan, Al Jazirah, Blue Nile, River Nile, Northern State). Recommend status change to WAITING pending cleanup and additional seed research."
+    }
   },
   {
     "name": "Babanki",
@@ -7058,7 +7102,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kejom Ketinguh,Kejom Keku,Bamenda,Kom,Bafut,Nso,Oku,Bafoussam,Bangwa,Bali,Bafang,Fontem,Fundong,Mundu,Dschang,Jouni,Kumbo,Menjang,Morom,Ndiop,Awing,Kekpo,Mbiame,Nkwen,Bangwa Fontem",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Babanki_language",
+        "https://iso639-3.sil.org/code/bbk",
+        "https://www.ethnologue.com/language/bbk",
+        "https://en.wikipedia.org/wiki/Northwest_Region_(Cameroon)",
+        "https://en.wikipedia.org/wiki/Kumbo",
+        "https://en.wikipedia.org/wiki/Mbiame"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T05:10:00Z",
+      "notes": "Only 2/25 seeds verified authentic (Kejom Ketinguh, Kejom Keku). 15 seeds contaminated: neighboring languages (Kom, Bafut, Nso, Oku, Awing, Bangwa, Bali), major cities (Bamenda, Bafoussam, Dschang, Bafang, Kumbo, Fundong), and unverified names. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Amkoe",
@@ -7068,7 +7126,18 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Motokwe,Khekhenye,Tswane,Dutlwe,Salajwe,Mathibatsela,Shorilatholo,Dibete,Poloka,Bokaa,Paje,Serowe,Mmadinare,Orapa,Palapye,Selebi-Phikwe,Mochudi,Molepolole,Bokong,Tlokweng,Lobatse,Kanye,Mahalapye,Otse,Goodhope",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/ǂʼAmkoe_language",
+        "https://iso639-3.sil.org/code/huc",
+        "https://www.ethnologue.com/language/huc"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T05:08:00Z",
+      "notes": "Only 9/25 seeds verified as authentic Amkoe settlements per Wikipedia ǂʼAmkoe language article (citing Collins, Gerlach, Gruber fieldwork). 16 seeds are major Tswana towns from Central/Kgatleng/South-East/Southern Districts + Bokong (Lesotho). Entry contaminated with general Botswana towns list. Status must be WAITING (<25 seeds)."
+    }
   },
   {
     "name": "Bangi",
