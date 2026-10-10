@@ -6333,17 +6333,42 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Zoukougbeu,Ibogué,Zaïbo,Dania,Buyo,Daloa,Issia,Vavoua,Soubré,Makurdi,Gboko,Otukpo,Katsina-Ala,Zaki Biam,Vandeikya,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Tarka,Gwer,Lafia,Kachoda,Mkokoni,Kehancha,Sibiloi,Waamo,Giohar,Guriceel,Selina,Sindo,Galole,Kalokol,Harardera,Mahaday,Yeed,Kidimu",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nyab1255",
+        "https://www.ethnologue.com/language/nwb",
+        "https://en.wikipedia.org/wiki/Nyabwa_language",
+        "https://www.omniglot.com/writing/nyabwa.htm",
+        "https://iso639-3.sil.org/code/nwb"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-09T23:51:00Z",
+      "notes": "SEVERE CONTAMINATION: 31/40 seeds from Nigeria (Benue State LGAs) and Kenya/Somalia. Only 9 seeds in actual Nyabwa area (Bas-Sassandra & Sassandra-Marahoué districts, Côte d'Ivoire). Entry copied from multiple unrelated administrative lists."
+    }
   },
-  {
+{
     "name": "Mumuye",
     "i": 14136,
-    "min": 4,
-    "max": 12,
+    "min": 3,
+    "max": 10,
     "d": "lnrt",
     "m": 0,
     "b": "Jalingo,Zing,Monkin,Pantisawa,Bali,Karim Lamido,Yorro,Fufore,Ganye,Mayo Belwa,Numan,Yola,Makurdi,Gboko,Otukpo,Katsina-Ala,Zaki Biam,Vandeikya,Ukum,Kwande,Logo,Konshisha,Guma,Buruku,Ushongo,Ngomoni,Oyugis,Shella,Turmi,Janaale",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nucl1240",
+        "https://joshuaproject.net/people_groups/13865/ni",
+        "https://en.wikipedia.org/wiki/Mumuye_language",
+        "http://www.mumuye.com/html/english.html"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T00:05:00Z",
+      "notes": "Only 12/30 seeds verified against primary sources. 13 seeds from Benue State (Tiv/Idoma area) — wrong language group. 5 seeds from East Africa (Kenya, Ethiopia, Somalia) — wrong continent. 12 authentic Mumuye seeds: Jalingo, Zing, Monkin, Pantisawa, Bali, Karim Lamido, Yorro, Fufore, Ganye, Mayo Belwa, Numan, Yola. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Wolaitta",
@@ -6363,7 +6388,28 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Keren,Agordat,Barentu,Massawa,Assab,Tessenai,Adi Teklezan,Habab,Mensa,Semhar,Bahir Dar,Gondar,Mekelle,Dessie,Adwa,Aksum,Lalibela,Debre Berhan,Debre Markos,Adama,Nazret,Awasa,Jimma,Baco,Adigrat,Haraale,Mareerey,Carane,Wanlaweyn,Berdale,Lafaduun,Wachile,Marka,Qardho,Balad,Dirin,Qoryoley,Xuddur,Harardheere,RasKamboni",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tigre_language",
+        "https://en.wikipedia.org/wiki/Tigre_people",
+        "https://en.wikipedia.org/wiki/Keren,_Eritrea",
+        "https://en.wikipedia.org/wiki/Agordat",
+        "https://en.wikipedia.org/wiki/Barentu,_Eritrea",
+        "https://en.wikipedia.org/wiki/Massawa",
+        "https://en.wikipedia.org/wiki/Assab,_Eritrea",
+        "https://en.wikipedia.org/wiki/Bahir_Dar",
+        "https://en.wikipedia.org/wiki/Gondar",
+        "https://en.wikipedia.org/wiki/Mekelle",
+        "https://en.wikipedia.org/wiki/Merka",
+        "https://en.wikipedia.org/wiki/Ras_Kamboni",
+        "https://glottolog.org/resource/languoid/id/tigr1270"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T00:15:00Z",
+      "notes": "Only 7/40 seeds verified authentic Tigre settlements in Eritrea (Keren, Agordat, Barentu, Massawa, Tessenai, Adi Teklezan). 3 dialect names (Habab, Mensa, Semhar), 14 Ethiopian cities (Amharic/Tigrinya/Oromo), 15 Somali towns, 1 wrong Eritrean area (Assab - Afar). Only 7/40 authentic. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Geez",
@@ -6373,7 +6419,34 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Keren,Agordat,Barentu,Massawa,Assab,Tessenai,Adi Teklezan,Habab,Mensa,Semhar,Asmara,Mendefera,Adi Keyh,Adi Quala,Elabered,Gala,Forto,Mogolo,Antalla,Adi Nebrid,Adi Hageray,Adi Yaqob,Adi Ghebru,Adi Tsetser,Adi Abune,Adi Gebru,Adi Tekelie,Adigrat",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/geez1241",
+        "https://ethnologue.com/language/gez",
+        "https://en.wikipedia.org/wiki/Geez_language",
+        "https://en.wikipedia.org/wiki/List_of_cities_in_Eritrea",
+        "https://en.wikipedia.org/wiki/Subregions_of_Eritrea",
+        "https://en.wikipedia.org/wiki/Tigre_people",
+        "https://en.wikipedia.org/wiki/Semhar",
+        "https://en.wikipedia.org/wiki/Adigrat",
+        "https://en.wikipedia.org/wiki/Teseney",
+        "https://en.wikipedia.org/wiki/Adi_Tekelezan",
+        "https://en.wikipedia.org/wiki/Antalla",
+        "https://en.wikipedia.org/wiki/Barentu,_Eritrea",
+        "https://en.wikipedia.org/wiki/Keren,_Eritrea",
+        "https://en.wikipedia.org/wiki/Mogolo_subregion",
+        "https://shabait.com/2019/08/17/a-glimpse-of-adi-keyh-sub-zone",
+        "https://www.unocha.org/publications/report/eritrea/eritrea-humanitarian-update-feb-mar-2006",
+        "https://www.getamap.net/maps/eritrea/eritrea_(general)/_aditsetser",
+        "https://geokeo.com/database/town/er",
+        "https://reliefweb.int/report/eritrea/eritrea-reforestation-program-underway-10-villages-gala-nefhi-sub-zone"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T00:05:00Z",
+      "notes": "Entry contains 4 contaminated seeds (ethnic groups/province/wrong country) and 6 unverified Adi-* settlements. Only 17/28 seeds verified as authentic Eritrean settlements. Entry should be WAITING status after cleanup."
+    }
   },
   {
     "name": "Hadiyya",
@@ -6925,7 +6998,27 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nandom,Lawra,Jirapa,Kaleo,Nadowli,Daffiama,Wechiau,Hamile,Wa,Bogda,Babile,Tuna,Gwollu,Dorongo,Nadowli West,Jirapa East,Kaleo West,Nandom East,Lawra West,Daffiama Bussie,Issa,Kussi,Dagbani,Mampruli,Nanun",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://iso639-3.sil.org/code/dgi",
+        "https://en.wikipedia.org/wiki/Dagaare_language",
+        "https://en.wikipedia.org/wiki/Nandom",
+        "https://en.wikipedia.org/wiki/Lawra",
+        "https://en.wikipedia.org/wiki/Jirapa,_Ghana",
+        "https://en.wikipedia.org/wiki/Kaleo,_Ghana",
+        "https://en.wikipedia.org/wiki/Nadowli",
+        "https://en.wikipedia.org/wiki/Wechiau",
+        "https://en.wikipedia.org/wiki/Hamile",
+        "https://en.wikipedia.org/wiki/Wa,_Ghana",
+        "https://en.wikipedia.org/wiki/Gwollu",
+        "https://en.wikipedia.org/wiki/Issa,_Ghana"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T00:08:00Z",
+      "notes": "Entry i=203260 (Dagaare) has 25 seeds but only 10 are authentic Dagaare settlements in Upper West Region, Ghana. Major contamination: Bogda (Romania), Babile (Ethiopia), Dagbani (language), Mampruli (language). Six seeds are administrative subdivisions not settlements (Nadowli West, Jirapa East, Kaleo West, Nandom East, Lawra West, Daffiama Bussie). Four seeds unverifiable (Dorongo, Tuna, Kussi, Nanun). Recommend reducing to 10 verified seeds and marking WAITING."
+    }
   },
   {
     "name": "Awing",
