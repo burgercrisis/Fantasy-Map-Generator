@@ -7455,7 +7455,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nikki,Parakou,Kandi,Natitingou,Borgu,Baruten,Saki West,Gwanara,Bankubu,Boriya,Ilesha Baruba,Bussa,New Bussa,Kaiama,Cotonou,Djougou,Savé,Sakété,Pobè,Kétou,Abomey,Lokossa,Dassa-Zoumé,Benin,Gur",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://iso639-3.sil.org/code/bba",
+        "https://glottolog.org/resource/languoid/id/baat1238",
+        "https://en.wikipedia.org/wiki/Bariba_language",
+        "https://www.britannica.com/topic/Bariba",
+        "https://www.eduweb.com.ng/baruten-wards-new-and-exsiting-polling-unit",
+        "https://www.citypopulation.de/en/benin/cities/",
+        "https://en.wikipedia.org/wiki/New_Bussa",
+        "https://en.wikipedia.org/wiki/Kwara_State"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T19:38:00Z",
+      "notes": "Severe contamination: 14/25 seeds are non-settlements, wrong ethno-linguistic area, or administrative units. Only 11 seeds verified as authentic Bariba settlements per Welmers (1952) and primary sources. Entry status should be WAITING, not COMPLETE."
+    }
   },
   {
     "name": "Bassari",
@@ -7465,7 +7481,32 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kédougou,Tambacounda,Salémata,Edun,Bokore,Gaoual,Labé,Boké,Youkounkoun,Dindefelo,Mako,Sinthiou Malème,Kédougou Region,Tamba,Dialakoto,Bandafassi,Etyolo,Salemata,Bedick,Fongolimbi,Moudéry,Bounkiling,Goudiry,Senegal,Guinea,Tenda",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bassari_language",
+        "https://en.wikipedia.org/wiki/Bassari_people",
+        "https://whc.unesco.org/en/list/1407/",
+        "https://en.wikipedia.org/wiki/K%C3%A9dougou",
+        "https://en.wikipedia.org/wiki/Sal%C3%A9mata",
+        "https://en.wikipedia.org/wiki/Dindefelo",
+        "https://en.wikipedia.org/wiki/Bandafassi",
+        "https://en.wikipedia.org/wiki/Fongolimbi_Arrondissement",
+        "https://en.wikipedia.org/wiki/Gaoual",
+        "https://en.wikipedia.org/wiki/Lab%C3%A9",
+        "https://en.wikipedia.org/wiki/Bok%C3%A9",
+        "https://en.wikipedia.org/wiki/Youkounkoun",
+        "https://en.wikipedia.org/wiki/Bedick_people",
+        "https://en.wikipedia.org/wiki/Tenda_people",
+        "https://en.wikipedia.org/wiki/Moud%C3%A9ry",
+        "https://en.wikipedia.org/wiki/Bounkiling",
+        "https://en.wikipedia.org/wiki/Goudiry"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T19:43:00Z",
+      "notes": "Severe contamination: 15/26 seeds are non-settlements or outside Bassari area. Only 4 seeds verified as authentic Bassari-area settlements. Entry requires major cleanup before verification."
+    }
   },
   {
     "name": "Batu",
@@ -7475,7 +7516,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Manda,Amanda-Afi,Kamino,Angwe,Sardauna,Yola,Ngaoundéré,Banyo,Tibati,Rey,Garoua,Dolo,Mandara,Numan,Song,Fufore,Jimeta,Demsa,Mbororo,Maroua,Guider,Kaélé,Mokolo,Waza,Kousseri,Logone,Binder,Mayo-Darlé,Mayo-Rey,Yagoua,Hina,Kalfou,Gashaka,Gashinge,Godowoli,Gurijaji,Jaga,Jamgadole,Jangarsiri,Kadi,Karem,Lewe,Maiduwa,Maluri,Mazawun,Mubi,Ngalda,Paiono,Shembire,Shoye,Turmi,Yelwa,Zei,Bakari Bata,Babongo,Meiganga,Bouar,Garoua Boulai,Bétaré Oya,Ndélélé,Moloundou,Yokadouma,Touboro,Kontcha,Beka,Gashiga,Dir,Djohong",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Batu_language",
+        "https://en.wikipedia.org/wiki/Tivoid_languages",
+        "https://iso639-3.sil.org/code/btu",
+        "https://www.ethnologue.com/language/btu"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T19:58:00Z",
+      "notes": "Wrong ISO code (entry uses 'batu', should be 'btu'). Severe contamination: 64/68 seeds from Bata language area (Adamawa State, Nigeria / North Cameroon), not Batu (btu) which is spoken in Taraba State, Nigeria. 40+ seeds from Bata area, 15+ from northern Cameroon, 2 from CAR, 1 from Ethiopia. 4 dialect names used as seeds. Should be WAITING with complete rebuild from DRC primary sources."
+    }
   },
   {
     "name": "Bayot",
@@ -7485,7 +7538,18 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Nyassia,Ziguinchor,Cacheu,Bissine,Bassèré,Bagame,Boulome,Adéane,Marsassoum,Bandial,Agnack Grand,Kugere,Essin,Arame,Gubaare,Kuxinge,Edamme,Njambalaan,Tambacoumba,Goudomp,Kolda,Keniane,Mlomp,Diouloulou,Elinkine,Oussouye,Sindian,Tenghory,Niaguis,Coubalan,Enampore,Maoudé,Boutoupa",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://fr.wikipedia.org/wiki/Bayot_(langue)",
+        "https://en.wikipedia.org/wiki/Bayot_language",
+        "https://iso639-3.sil.org/code/bda"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T19:57:00Z",
+      "notes": "Severely contaminated: only 3/33 seeds are authentic Bayot villages. 6 dialect names misused as settlements. Major cities and other Jola language villages included. Entry should be WAITING status with 3 verified seeds. Requires complete seed list replacement."
+    }
   },
   {
     "name": "Beja",
@@ -7495,7 +7559,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Port Sudan,Kassala,Gedaref,Tokar,Atrun,Bayuda,Hala'ib,Aswan,Bisharin,Hadendoa,Amarar,Beni-Amer,Shalatin,Abidiya,Ad-Damazin,Al-Fashir,Atbara,Shendi,Dongola,Halfa,Abu Hamed,Merowe,Karima,Sudan,Egypt,Eritrea",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://iso639-3.sil.org/code/bej",
+        "https://www.ethnologue.com/language/bej",
+        "https://glottolog.org/resource/languoid/id/beja1238",
+        "https://en.wikipedia.org/wiki/Beja_language",
+        "https://en.wikipedia.org/wiki/Beja_people",
+        "https://en.wikipedia.org/wiki/Bayuda_Desert",
+        "https://en.wikipedia.org/wiki/Halaib_Triangle",
+        "https://en.wikipedia.org/wiki/Shalatin"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T19:55:00Z",
+      "notes": "Only 6/26 seeds verified authentic Beja settlements. 13/26 seeds are not settlements (4 tribal names, 3 country names, 1 desert region, 5 settlements outside Beja area). Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bembe (Congo)",
