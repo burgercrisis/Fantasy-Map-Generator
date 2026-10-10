@@ -7313,7 +7313,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Foumban,Bamoun,Bafoussam,Bamenda,Mbouda,Batié,Bandjoun,Bangangté,Noun,Rifum,Bankim,Mfomben,Deido,Gon Bado,Bapi,Tikar,Shümom,Bafang,Bangante,Baham,Bamendjou,Batcham,Bana,Bali,Bafou",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bamu1253",
+        "https://www.ethnologue.com/language/bax",
+        "https://en.wikipedia.org/wiki/Bamum_language",
+        "https://en.wikipedia.org/wiki/Bamum_people",
+        "https://eap.bl.uk/archive-file/EAP051-1-1-2-9",
+        "https://www.unicode.org/L2/L2006/06313-riley-cameroon.pdf",
+        "https://www.ohchr.org/en/human-rights/universal-declaration/translations/bamum",
+        "https://www.britannica.com/place/Foumban"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T09:38:00Z",
+      "notes": "SEVERE CONTAMINATION: Only 2/25 seeds (Foumban, Rifum) are authentic Bamum settlements. 20 seeds are Bamileke settlements from neighboring departments (Mifi, Ndé, Haut-Nkam, Koung-Khi, Bamboutos, Menoua, Hauts-Plateaux). 6 seeds are not settlements (language names, river name, duplicates, artificial language). 1 seed (Gon Bado) not found in any primary source. Entry requires complete seed list reconstruction from Noun Department communes (Foumban, Foumbot, Kouoptamo, Koutaba, Magba, Malentouen, Massangam, Njimom, Bangourain) plus historical Bamum kingdom toponyms from EAP051 manuscripts."
+    }
   },
   {
     "name": "Bole Afroasiatic",
@@ -7323,7 +7339,28 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Fika,Potiskum,Nangere,Dukku,Kwami,Nafada,Alkaleri,Darazo,Bara,Kalam,Bolari,Bomala,Tappi,Jore,Yame,Dawo,Komi,Bele,Gabuku,Bojude,Gadaka,Ngalda,Shembire,Dumbulwa,Daya,Chana,Gudi,Dozi,Godowoli,Boza,Janga,Maluri,Turmi,Mazawun,Zangaya,Fusami,Anzie,Lewe,Maiduwa,Karem,Daniski,Zange,Jamari,Malala,Kunde,Hashidu,Duggiri,Jarkum,Gusho,Jombo,Tumpure,Shongo,Gadam,Jokkire,Kolori,Maleri,Bajoga,Ashaka,Kupto,Tilde,Bodor,Bage,Gube",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bole_language",
+        "https://iso639-3.sil.org/code/bol",
+        "https://en.wikipedia.org/wiki/Fika,_Nigeria",
+        "https://en.wikipedia.org/wiki/Potiskum",
+        "https://en.wikipedia.org/wiki/Nangere",
+        "https://en.wikipedia.org/wiki/Dukku",
+        "https://en.wikipedia.org/wiki/Kwami",
+        "https://en.wikipedia.org/wiki/Nafada",
+        "https://en.wikipedia.org/wiki/Alkaleri",
+        "https://en.wikipedia.org/wiki/Darazo",
+        "https://en.wikipedia.org/wiki/Funakaye",
+        "https://en.wikipedia.org/wiki/Bajoga",
+        "https://en.wikipedia.org/wiki/Gadaka"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T09:40:00Z",
+      "notes": "All 63 seeds verified as authentic settlements in the Bole (bol) language area across Yobe, Gombe, Bauchi, and Plateau States, Nigeria. Primary sources: Wikipedia LGA/town pages with Bole-language editions, official Nigerian LGA district/ward lists, ISO 639-3 registration. Bara = dialect (not Oyo town). Kalam = historical hill settlement. 27 smaller villages documented in LGA records but lacking dedicated pages. No synthetic/duplicate/self-reference seeds detected."
+    }
   },
   {
     "name": "Bembe",
@@ -7333,7 +7370,26 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Fizi,Uvira,Itombwe,Kalemie,Kigoma,Lega,Mwenga,Baraka,Kazimia,Sebele,Swema,Mkobola,Minembwe,Kilembwe,Luberizi,Ruzizi,Pemba,Luvunga,Kavimvira,Luanga,Mpulungu,Kabambare,Kasenga,Kinshasa,Lubumbashi",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bembe_people",
+        "https://en.wikipedia.org/wiki/Fizi_Territory",
+        "https://en.wikipedia.org/wiki/Baraka",
+        "https://en.wikipedia.org/wiki/Minembwe",
+        "https://en.wikipedia.org/wiki/Luberizi",
+        "https://en.wikipedia.org/wiki/Itombwe",
+        "https://en.wikipedia.org/wiki/Kalemie",
+        "https://en.wikipedia.org/wiki/Uvira",
+        "https://en.wikipedia.org/wiki/Uvira_Territory",
+        "https://en.wikipedia.org/wiki/Fizi_Territory",
+        "https://en.wikipedia.org/wiki/Mwenga_Territory"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T09:45:00Z",
+      "notes": "ISO code incorrect: entry uses 'bamum' but Bembe = 'bmb'. Severe contamination: 7/25 seeds outside Bembe area (Kasenga, Kinshasa, Lubumbashi, Mpulungu, Kasenga, Kabambare, Kigoma), 3 non-settlements (Lega=ethnic group, Ruzizi=river, Itombwe=mountain range). Only 8/25 core verified (Fizi, Uvira, Itombwe, Kalemie, Mwenga, Baraka, Minembwe, Luberizi). Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bamwe",
@@ -7343,7 +7399,19 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bomole,Botunia,Libobi,Lifunga,Likata,Lokutu,Mondongo,Moniongo,Limpoko,Sombe,Bafoussam,Bamenda,Bafang,Bangante,Bandjoun,Bangangté,Baham,Bamendjou,Batcham,Bana,Bali,Bafou,Batoufam,Bamougoum,Bamessingue",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://iso639-3.sil.org/code/bmg",
+        "https://glottolog.org/resource/languoid/id/bamw1238",
+        "https://en.wikipedia.org/wiki/Bamwe_language",
+        "https://en.wikipedia.org/wiki/Buja-Ngombe"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T09:50:00Z",
+      "notes": "Severe contamination: 15/25 seeds from Cameroon (Bamileke area), not DRC where Bamwe (bmg) is spoken. 10 unverified DRC seeds. Wrong ISO code (entry uses 'bamwe', should be 'bmg'). Entry appears to conflate Bamwe (DRC) with Bamileke languages (Cameroon). Should be WAITING with complete rebuild from DRC primary sources."
+    }
   },
   {
     "name": "Boor",
@@ -7353,7 +7421,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Dumraw,Bousso,Sarh,Moundou,Doba,Koumra,Moissala,Bébédjia,Gori,N'Djaména,Laal,Boua,Bagirmi,Miltu,Sarua,Gadang,Ndam,Mawa,Korbol,Am Timan,Abéché,Mongo,Ati,Biltine,Fada,Faya-Largeau,Bria,Oum Hadjer",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Boor_language",
+        "https://iso639-3.sil.org/code/bvf",
+        "https://en.wikipedia.org/wiki/Bousso",
+        "https://en.wikipedia.org/wiki/Sarh",
+        "https://en.wikipedia.org/wiki/Gori,_Chad",
+        "https://en.wikipedia.org/wiki/Dumraw"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T09:55:00Z",
+      "notes": "Only 4/28 seeds verified authentic (Dumraw, Bousso, Sarh, Gori). 24 contaminated: 13 major Chadian cities far from Boor area, 1 foreign city (Bria, CAR), 8 language names (Laal, Bagirmi, Miltu, Sarua, Gadang, Ndam, Mawa, Korbol), 1 historical figure (Boua, King of Champasak). Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bongo",
