@@ -7147,7 +7147,32 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bolobo,Yumbi,Bomongo,Cuvette,Kinshasa,Ouesso,Pikounda,Likouala,Sangha,Impfondo,Epena,Makotimpoko,Liranga,Bokuma,Boteka,Bondaka,Bongandanga,Djamba,Lukolela,Bokonzi,Zongo,Bomboma,Lingonda,Ebuku,Likaw,Makengo,Ndzubele,Motuba,Nganza,Bobenge,Bikoro,Basankusu,Befale,Bokote,Bolomba,Bosobolo,Lolanga,Lolua,Lulonga,Makanza,Mongala,Ngombe",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://www.ethnologue.com/language/bni",
+        "https://en.wikipedia.org/wiki/Bangi_language",
+        "https://en.wikipedia.org/wiki/Bolobo",
+        "https://en.wikipedia.org/wiki/Yumbi",
+        "https://en.wikipedia.org/wiki/Bomongo",
+        "https://en.wikipedia.org/wiki/Lukolela",
+        "https://en.wikipedia.org/wiki/Basankusu",
+        "https://en.wikipedia.org/wiki/Bikoro",
+        "https://en.wikipedia.org/wiki/Befale",
+        "https://en.wikipedia.org/wiki/Ou%C3%A9sso",
+        "https://en.wikipedia.org/wiki/Impfondo",
+        "https://en.wikipedia.org/wiki/Epena",
+        "https://en.wikipedia.org/wiki/Cuvette_Department",
+        "https://en.wikipedia.org/wiki/Likouala_Department",
+        "https://en.wikipedia.org/wiki/Sangha_Department_(Republic_of_the_Congo)",
+        "https://en.wikipedia.org/wiki/Pikounda_District",
+        "https://en.wikipedia.org/wiki/Makotimpoko_District"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T06:55:00Z",
+      "notes": "Only 10/42 seeds verified as authentic Bangi settlements. 6 administrative divisions (Cuvette, Likouala, Sangha, Pikounda, Makotimpoko, Liranga*), 2 rivers (Lulonga, Mongala), 1 major city outside area (Kinshasa), 1 language name (Ngombe), 22 unverified. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bangala",
@@ -7184,7 +7209,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Balda,Bogo,Kaélé,Diamaré,Mundang,Giziga,Mofu Duvangar,Mofu Gudur,Maroua,Mora,Mokolo,Mayo Tsanaga,River Mayo,Mbazlam,Baldare,Biu-Mandara,Blangoua,Dargala,Djafga,Goulfey,Kousséri,Logone-Birni,Waza,MayoLouti,MayoOulo",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://www.ethnologue.com/language/bdn/",
+        "https://iso639-3.sil.org/code/bdn",
+        "https://en.wikipedia.org/wiki/Baldemu_language",
+        "https://en.wikipedia.org/wiki/Bogo,_Cameroon",
+        "https://en.wikipedia.org/wiki/Ka%C3%A9l%C3%A9",
+        "https://en.wikipedia.org/wiki/Maroua",
+        "https://en.wikipedia.org/wiki/Dargala",
+        "https://en.wikipedia.org/wiki/Mundang_language"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T06:30:00Z",
+      "notes": "Only 2/25 seeds verified authentic (Balda, Bogo). 23 contaminated: 5 language names (Mundang, Giziga, Mofu Duvangar, Mofu Gudur, Biu-Mandara), 2 departments (Diamaré, Mayo Tsanaga), 3 rivers (River Mayo, MayoLouti, MayoOulo), 2 alt language names (Mbazlam, Baldare), 11 towns in other depts. Should be WAITING."
+    }
   },
   {
     "name": "Balo",
@@ -7194,7 +7235,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Alunfa,Alunti,Batebi,Manta,Busam,Osatu,Akwaya,Manyu,Fontem,Mamfe,Ekondo-Titi,Ndian,Mundemba,Buea,Kribi,Mutengene,Muyuka,Limbé,Douala,Bafoussam,Bamenda,Bali,Nkambe,Mbengwi,Fundong,Bafut,Befang,Kumbo,Ndu,Oku,Jakiri,Wum,Ngie,Bafmen,Bamenyam,Bamessing,Bangolan,Bamali,Bamunkumbit,Balikumbat,Bafanji,Bambalang,Bamun,Nso,Kom,Ngoketunjia,Mendenkye,Bamban,Bamukumbat,Banyang,Batibo,Bawo,Bilali,Binan",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://iso639-3.sil.org/code/bqo",
+        "https://www.ethnologue.com/language/bqo",
+        "https://en.wikipedia.org/wiki/Balo_language",
+        "https://de.wikipedia.org/wiki/Balo",
+        "https://www.wikidata.org/wiki/Q34865"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T06:35:00Z",
+      "notes": "SEVERE CONTAMINATION: 37/54 seeds (69%) are not Balo settlements. Seeds include: major Cameroonian cities (Douala, Buea, Bamenda, etc.), administrative divisions (Manyu, Ndian, Ngoketunjia), other language names (Bamun, Nso, Kom, Bafanji, Bambalang, Banyang, Oku, Befang, Bamali, Bamunkumbit, Balikumbat), towns in wrong regions. Balo is spoken in Manyu Dept, NW Cameroon (~2,230 speakers). Only Alunfa mentioned in literature as dialect. No primary source confirms any seed as Balo settlement. Duplicates: Bamessing (x2), Bamunkumbit/Bamukumbat. Osatu [ost] is separate language."
+    }
   },
   {
     "name": "Bamali",
@@ -7204,17 +7258,52 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bamali,Bafoussam,Bamenda,Dschang,Mbouda,Batié,Bandjoun,Bangangté,Ndop,Bambalang,Bamunka,Bafanji,Bamunkumbit,Mangeh,Ngoketunjia,Baham,Bali,Bafou,Fontem,Fundong,Kumbo,Menjang,Morom,Ndiop,Awing,Kejom Ketinguh,Babanki Tungo,Big Babanki,Bamessingue",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bama1251",
+        "https://en.wikipedia.org/wiki/Bamali_language",
+        "https://en.wikipedia.org/wiki/Bamali",
+        "https://en.wikipedia.org/wiki/Ndop,_Cameroon",
+        "https://en.wikipedia.org/wiki/Bamessing",
+        "https://en.wikipedia.org/wiki/Bambalang_(village)",
+        "https://en.wikipedia.org/wiki/Bamunka",
+        "https://en.wikipedia.org/wiki/Ngoketunjia",
+        "https://mapy.com/en/en?id=15037894"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T06:47:00Z",
+      "notes": "Only 7/29 seeds verified authentic (Bamali, Ndop, Bambalang, Bamunka, Bafanji, Bamunkumbit, Bamessingue). 22 contaminated: 8 West Region Bamileke cities, 7 other NW languages, 3 admin/non-settlements, 3 phantom names. Should be WAITING after cleanup."
+    }
   },
-  {
+{
     "name": "Bambalang",
     "i": 20505,
     "min": 4,
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Bambalang,Ndop,Bamendjin,Mbissa,Nkeshie,Mbefekhu,Bafanji,Bamali,Bamun,Bangolan,Bangwa,Bafoussam,Bamenda,Batoufam,Baham,Bali,Bana,Bawwa,Befou,Bekwa,Fontem,Fundong,Kumbo,Menjang,Bafang,Nkwen",
-    "status": "COMPLETE"
+    "b": "Bambalang,Ndop,Bamendjin,Mbissa,Nkeshie,Mbefekhu,Kouoro,Danderesso,Koumankou,M'Pessoba,Koungoba,Kapolondougou,Sanzana,Kliela,Zakoro,Samogohiri,Kouroulamine,Bougoula,Farako,Fama,Faragouaran,Finkolo Banan,Kongasso,Kora,Koury,M'Pessoba Sud",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bambalang_language",
+        "https://en.wikipedia.org/wiki/Ndop,_Cameroon",
+        "https://en.wikipedia.org/wiki/Bamessing",
+        "https://en.wikipedia.org/wiki/Bamali",
+        "https://en.wikipedia.org/wiki/Bamunka",
+        "https://en.wikipedia.org/wiki/Kouoro",
+        "https://en.wikipedia.org/wiki/Danderesso",
+        "https://en.wikipedia.org/wiki/Koumankou",
+        "https://en.wikipedia.org/wiki/Kl%C3%A9la",
+        "https://iso639-3.sil.org/code/bmo"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T06:47:00Z",
+      "notes": "SEVERE CONTAMINATION: 17/26 seeds from Mali (Sikasso Region), not Cameroon. Only 3 seeds (Bambalang, Ndop, Bamendjin) confirmed in Bambalang language area. Seed list appears contaminated with Manding language (Bambara/Jula) place names. Entry requires complete seed list reconstruction from ALCAM/Ethnologue primary sources for Northwest Cameroon."
+    }
   },
   {
     "name": "Bamum",
