@@ -7842,7 +7842,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Garango,Gomboussougou,Zabré,Tenkodogo,Boudry,Bawku,Nima,Ouagadougou,Barka,Lebir,Lere,Sapouy,Koudougou,Banfora,Ziniaré,Kongoussi,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Burkina Faso,Ghana,Togo,Gur",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bissa_language",
+        "https://en.wikipedia.org/wiki/Bissa_people",
+        "https://iso639-3.sil.org/code/bib",
+        "https://en.wikipedia.org/wiki/Zorgho",
+        "https://en.wikipedia.org/wiki/Bittou",
+        "https://en.wikipedia.org/wiki/Bouss%C3%A9",
+        "https://en.wikipedia.org/wiki/Bawku"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T23:24:00Z",
+      "notes": "Severe contamination: 3 dialect names used as seeds (Barka, Lebir, Lere), 11 settlements outside Bissa area (Sapouy, Koudougou, Banfora, Ziniaré, Kongoussi, Kaya, Fada N'Gourma, Gorom-Gorom, Yako, Gayeri, Ouagadougou). Only 10 verified authentic Bissa settlements. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bitare",
@@ -7862,7 +7877,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bobo-Dioulasso,Banfora,Dédougou,Houndé,Orodara,Tenkodogo,Koudougou,Ouagadougou,Boura,Sia,Borodougou,Solenzo,Nouna,Toma,Boussé,Zorgho,Kombissiri,Boromo,Diébougou,Sindou,Gayéri,Pama,Ouargaye,Koupéla,Batié,Dano,Kongoussi,Tansila,N'Dorola,Koloko,Koti,Koumbia,Béréba,Boni,Fô,Founzan,Kangala,Karangasso-Sambla",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bobo1253",
+        "https://www.ethnologue.com/language/bwq",
+        "https://joshuaproject.net/people_groups/10902/UV",
+        "https://en.wikipedia.org/wiki/Bobo_language",
+        "https://en.wikipedia.org/wiki/Bobo_people",
+        "https://fr.wikipedia.org/wiki/Kangala_(d%C3%A9partement)"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T23:16:00Z",
+      "notes": "17/38 seeds (45%) are outside Bobo language area (Mossi, Birifor, Senoufo, Gourmanchéma, Lobi areas). Sia is Bobo endonym for Bobo-Dioulasso, not separate settlement. Authentic Bobo seeds: 21. Should be WAITING."
+    }
   },
   {
     "name": "Boga",
@@ -7872,7 +7901,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mubi,Gombi,Song,Fufore,Yola,Demsa,Numan,Ganye,Hong,Madagali,Mayo-Belwa,Gwashi,Nzanye,Lamurde,Jimeta,Girei,Mayo-Ine,Michika,Teacheri,Mutum Biyu,Maiha,Uba,Kona,Barde,Yola North,Yola South",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/boga1251",
+        "https://joshuaproject.net/people_groups/19514/NI",
+        "https://en.wikipedia.org/wiki/Boga_language",
+        "https://townsvillages.com/ng/gombi",
+        "https://www.geonames.org/"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T23:20:00Z",
+      "notes": "Severe contamination: 25/26 seeds are not in Boga language area (Gombi LGA). 20 seeds are Adamawa LGA HQs. 1 seed (Nzanye) references different language (Nzanyi). 1 seed (Mutum Biyu) in wrong state (Taraba). 1 seed (Teacheri) non-existent. Only Gombi town is authentic. Actual Boga village and Dingai missing from seeds."
+    }
   },
   {
     "name": "Boko",
@@ -7882,7 +7924,27 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Segbana,Kalalé,Borgu,Bagudo,Baruten,Bussa,Illo,Senji,Kenugbe,Kaoje,Demmo,Swalla,Karalé,Borgou,Alibori,Abuja,Nikki,Parakou,Kandi,Natitingou,Djougou,Sakété,Pobè,Kétou,Benin,Gur",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/boko1266",
+        "https://iso639-3.sil.org/code/bqc",
+        "https://joshuaproject.net/people_groups/10907/NI",
+        "https://www.omniglot.com/writing/boko.htm",
+        "https://en.wikipedia.org/wiki/Boko_language",
+        "https://en.wikipedia.org/wiki/Bussa,_Nigeria",
+        "https://en.wikipedia.org/wiki/Nikki,_Benin",
+        "https://en.wikipedia.org/wiki/Parakou",
+        "https://en.wikipedia.org/wiki/Natitingou",
+        "https://en.wikipedia.org/wiki/Djougou",
+        "https://en.wikipedia.org/wiki/K%C3%A9tou,_Benin",
+        "https://www.britannica.com/place/Borgu-emirate-Nigeria"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T23:50:00Z",
+      "notes": "Entry contaminated: 8 non-settlement seeds (Benin, Gur, Borgu, Borgou, Alibori, Abuja, Swalla, Karalé). Only 18 verified authentic Boko settlements. Karalé appears to be duplicate of Kalalé. Swalla has no primary source evidence. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bolon",
@@ -7892,7 +7954,26 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bobo-Dioulasso,Dédougou,Banfora,Houndé,Orodara,Nouna,Solenzo,Tougan,Di,Gomboro,Kassoum,Kiembara,Lanfiéra,Lankoué,Toéni,Sindou,Diébougou,Gaoua,Loropéni,Nako,Batié,Pô,Manga,Ziniaré,Ouagadougou,Koudougou,Tenkodogo,Kaya,Ouahigouya,Dori",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bolon_language",
+        "https://www.ethnologue.com/language/bof",
+        "https://iso639-3.sil.org/code/bof",
+        "https://en.wikipedia.org/wiki/Bobo-Dioulasso",
+        "https://en.wikipedia.org/wiki/Banfora",
+        "https://en.wikipedia.org/wiki/Orodara",
+        "https://en.wikipedia.org/wiki/Di%C3%A9bougou",
+        "https://en.wikipedia.org/wiki/Gaoua",
+        "https://en.wikipedia.org/wiki/Lorop%C3%A9ni",
+        "https://en.wikipedia.org/wiki/Lanfi%C3%A9ra",
+        "https://en.wikipedia.org/wiki/Hound%C3%A9"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T23:55:00Z",
+      "notes": "Only 6-7 verified in Bolon area (Bobo-Dioulasso, Banfora, Orodara, Diébougou, Gaoua, Loropéni, Lanfiéra). 13 major cities from all over Burkina Faso, 10 unverifiable small villages. Only ~8 authentic seeds. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bomitaba",
