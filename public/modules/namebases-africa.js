@@ -7585,9 +7585,32 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Sibiti,Kingoué,Bouenza,Pool,Dolisie,Pointe-Noire,Lékoumou,Madingou,Komono,Mbinda,Ntamo,Poumou,Yamba,Loandjika,Likombo,Likanou,Linzolo,Londéla-Kayes,Mayoko,Mfilou,Ngamo,Nkabou,Nsatou,Tchibatché,Accra,Brazzaville",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bembe_language_(Kibembe)",
+        "https://en.wikipedia.org/wiki/Beembe_tribe_(Kongo)",
+        "https://www.ethnologue.com/language/beq",
+        "https://en.wikipedia.org/wiki/Sibiti",
+        "https://en.wikipedia.org/wiki/Kingou%C3%A9",
+        "https://en.wikipedia.org/wiki/Dolisie",
+        "https://en.wikipedia.org/wiki/Pointe-Noire",
+        "https://en.wikipedia.org/wiki/Madingou",
+        "https://en.wikipedia.org/wiki/Komono",
+        "https://en.wikipedia.org/wiki/Mbinda",
+        "https://en.wikipedia.org/wiki/Loandjili",
+        "https://en.wikipedia.org/wiki/Loud%C3%A9la-Kayes",
+        "https://en.wikipedia.org/wiki/Mayoko",
+        "https://en.wikipedia.org/wiki/Mfilou",
+        "https://en.wikipedia.org/wiki/Brazzaville"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T20:40:00Z",
+      "notes": "Only 13/26 seeds are authentic settlements in the Beembe language area. 3 seeds are departments (not settlements), 6 seeds have no primary source evidence, 3 seeds are contamination (Accra=Ghana, Ntamo=Kinshasa/DRC, Ngamo=language in Nigeria), 1 typo (Loandjika→Loandjili). Should be WAITING after cleanup."
+    }
   },
-  {
+{
     "name": "Bembe (DRC)",
     "i": 20556,
     "min": 4,
@@ -7595,7 +7618,33 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Uvira,Fizi,Itombwe,Kalemie,Mwenga,Baraka,Kazimia,Swema,Sebele,Makobola,Minembwe,Kilembwe,Lulimba,Kasongo,Lubilo,Misisi,Kaziba,Luberizi,Ruzizi,Malemba,Kabambare,Kongolo,Lusambo,Bembek,Bembet,Bembep,Bembem,Bemben,Bembes,Bember,Bembel",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bemb1255",
+        "https://www.ethnologue.com/language/bmb/",
+        "https://iso639-3.sil.org/code/bmb",
+        "https://en.wikipedia.org/wiki/Bembe_language_(Ibembe)",
+        "https://en.wikipedia.org/wiki/Bembe_people",
+        "https://en.wikipedia.org/wiki/Fizi_Territory",
+        "https://en.wikipedia.org/wiki/Uvira",
+        "https://en.wikipedia.org/wiki/Kalemie",
+        "https://en.wikipedia.org/wiki/Mwenga_Territory",
+        "https://en.wikipedia.org/wiki/Baraka,_Democratic_Republic_of_the_Congo",
+        "https://en.wikipedia.org/wiki/Minembwe",
+        "https://en.wikipedia.org/wiki/Itombwe_Mountains",
+        "https://en.wikipedia.org/wiki/Ruzizi_River",
+        "https://en.wikipedia.org/wiki/Luberizi",
+        "https://en.wikipedia.org/wiki/Kasongo",
+        "https://en.wikipedia.org/wiki/Kabambare",
+        "https://en.wikipedia.org/wiki/Kongolo,_Tanganyika",
+        "https://en.wikipedia.org/wiki/Lusambo"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T21:00:00Z",
+      "notes": "Major contamination: 8 synthetic seeds (Bembek, Bembet, Bembep, Bembem, Bemben, Bembes, Bember, Bembel), 2 geographic features (Itombwe mountains, Ruzizi river), 1 wrong-location (Lusambo), 5 unverified. Only 16 authentic settlements verified. Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bhaca",
@@ -7605,7 +7654,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mount Frere,Ixopo,Umzimkhulu,Bulwer,Underberg,Mzimkhulu,Harding,Umzinto,Umzumbe,Flagstaff,Mount Ayliff,Umzimvubu,Mbizana,Tabankulu,Lusikisiki,Qumbu,Tsolo,Cofimvaba,Engcobo,Idutywa,Willowvale,Butterworth,Centane,South Africa,Lesotho",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bhaca_language",
+        "https://en.wikipedia.org/wiki/Bhaca_people",
+        "https://glottolog.org/resource/languoid/id/bhac1238",
+        "https://www.omniglot.com/writing/bhaca.htm",
+        "https://census2011.adrianfrith.com/place/799023",
+        "https://census2011.adrianfrith.com/place/799072"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T20:00:00Z",
+      "notes": "Only 9/25 seeds verified authentic Bhaca settlements. Duplicate: Mzimkhulu/Umzimkhulu. Non-settlements: Umzimvubu (municipality/river), South Africa, Lesotho. 13 seeds from Xhosa territory (Flagstaff, Mbizana, Tabankulu, Lusikisiki, Qumbu, Tsolo, Cofimvaba, Engcobo, Idutywa, Willowvale, Butterworth, Centane, Umzimvubu). Should be WAITING after cleanup."
+    }
   },
   {
     "name": "Bidiya",
@@ -7615,7 +7678,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mongo,Abou Telfane,Niergui,Kafila,Tchakor,Kofilo,Tounkoul,Zerli,Bitkun,Bigawguno,Garawkino,Jekkino,Ngalguno,Oboyguno,Migami,Moussoro,Biltine,Am Timan,Ati,Abeche,Goz Beida,Koro,Lai,Moundou,N'Djamena",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bidiyo_language",
+        "https://en.wikipedia.org/wiki/Gu%C3%A9ra_Region",
+        "https://en.wikipedia.org/wiki/Mongo,_Chad",
+        "https://en.wikipedia.org/wiki/Niergui",
+        "https://en.wikipedia.org/wiki/Bitkine",
+        "https://en.wikipedia.org/wiki/Moussoro",
+        "https://en.wikipedia.org/wiki/Am_Timan",
+        "https://en.wikipedia.org/wiki/Ati,_Chad",
+        "https://en.wikipedia.org/wiki/Ab%C3%A9ch%C3%A9",
+        "https://en.wikipedia.org/wiki/N%27Djamena"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T20:55:00Z",
+      "notes": "Major contamination: 10/25 seeds are regional capitals outside Guéra Region (Bidiya language area). Only 9 seeds verified in Bidiya area. 5 seeds are dialect names, not settlements. 6 seeds unverifiable. Should be WAITING."
+    }
   },
   {
     "name": "Birgit",
@@ -7625,7 +7706,21 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Moubi Goz,Kouka Margni,Moubi Zarga,Mangalmé,Abgue,Agrab,Duguri,Biltine,Abéché,Adré,Am Timan,Ati,Goz Beïda,Iriba,Guéréda,Haraze,Faya-Largeau,Baïbokoum,Bardaï,Bébédjia,Béboto,Beinamar,Bénoye,Béré,Bitkine,Bokoro,Bol,Bongor,Bousso,Fada,Fianga,Goré,Goundi,Gounou Gaya,Guélengdeng,Kélo,Koro Toro,Koumra,Kyabé",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Birgit_language",
+        "https://iso639-3.sil.org/code/btf",
+        "https://en.wikipedia.org/wiki/Bousso",
+        "https://en.wikipedia.org/wiki/Sarh",
+        "https://en.wikipedia.org/wiki/Gori,_Chad",
+        "https://en.wikipedia.org/wiki/Dumraw"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T21:10:00Z",
+      "notes": "Only 12/39 seeds verified authentic (7 in Guéra core area, 5 in listed regions). 24 seeds contaminated: 14 major Chadian cities far from Birgit area, 3 dialect names as seeds, 7 unverified. Should be WAITING."
+    }
   },
   {
     "name": "Boghom",
