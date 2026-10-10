@@ -7730,7 +7730,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Kanam,Wase,Jos,Pankshin,Shendam,Langtang,Mangu,Bokkos,Daffo,Tambas,Riyom,Du,Kwalla,Gindiri,Barakin Ladi,Vom,Lamingo,Ngabo,Barkin Ladi,Buruku,Ankpa,Otukpo,Duguri,Mangu Town,Jos Town",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bogh1241",
+        "https://en.wikipedia.org/wiki/Boghom_language",
+        "https://en.wikipedia.org/wiki/Wase,_Nigeria",
+        "https://en.wikipedia.org/wiki/Kanam,_Nigeria",
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Plateau_State",
+        "https://facts.ng/nigerian-states/plateau/lgas/kanam",
+        "https://facts.ng/nigerian-states/plateau/lgas/wase",
+        "https://www.sil.org/resources/archives/88591",
+        "https://joshuaproject.net/people_groups/11630/NI",
+        "https://www.britannica.com/place/Vom"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T22:30:00Z",
+      "notes": "Critical contamination: only 2/25 seeds (Kanam, Wase) are in the Boghom language area. 23 seeds are other Plateau State LGAs, Benue/Kogi State LGAs, or unrelated settlements. Entry status COMPLETE is invalid — should be WAITING with authentic Boghom seeds only."
+    }
   },
   {
     "name": "Bokoto",
@@ -7740,7 +7758,20 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bangui,Bambari,Bouar,Berberati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Kaga,Bimbo,Boali,Berbérati,Central African Republic",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/boko1261",
+        "https://iso639-3.sil.org/code/bdt",
+        "https://joshuaproject.net/people_groups/10909/CT",
+        "https://en.wikipedia.org/wiki/Bokoto_language",
+        "https://www.wikidata.org/wiki/Q378970"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T22:33:00Z",
+      "notes": "Severe contamination: 22/25 seeds outside documented Bokoto language area (per Ethnologue 2016 via Joshua Project). Only Bozoum, Carnot, Boda are in Bokoto subprefectures. Duplicates: Kaga (truncated Kaga-Bandoro), Berbérati (accented Berberati). Country name 'Central African Republic' included as seed. Missing actual Bokoto centers: Baoro, Yaloke. Entry appears to be generic CAR prefecture capitals list, not linguistic namebase."
+    }
   },
   {
     "name": "Binza",
@@ -7750,7 +7781,23 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bolongo,Bondongo,Nzenze,Bobaka,Bongoi,Moteki,Liketa,Bonianga,Ubangi,Mongala,Bumba,Lisala,Ingende,Makanza,Businga,Boteka,Bokuma,Djombo,Senge,Bwamanda,Basankusu,Bongandanga,Mbandaka,Kano,Ngiri",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Binza_language",
+        "https://fr.wikipedia.org/wiki/Libinza",
+        "https://iso639-3.sil.org/code/liz",
+        "https://en.wikipedia.org/wiki/Ngiri_River",
+        "https://fr.wikipedia.org/wiki/Bomongo_(territoire)",
+        "https://fr.wikipedia.org/wiki/Mankanza_(territoire)",
+        "https://en.wikipedia.org/wiki/Makanza",
+        "https://en.wikipedia.org/wiki/Bomongo"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T22:35:00Z",
+      "notes": "Only 1/25 seeds verified (Makanza). 20 seeds are rivers, distant towns, or unverifiable. Entry severely contaminated — requires complete reseeding from Bomongo/Makanza territory village lists."
+    }
   },
   {
     "name": "Birri",
@@ -7760,7 +7807,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Rafaï,Obo,Deim Zubeir,Mboto,Munga,Bria,Bangassou,Bambari,Yambio,Maridi,Wau,Aweil,Rumbek,Torit,Juba,Yei,Kapoeta,Nimule,Ezo,Bagasi,Sofe,Sakure,Nzara,Dembia,Mohoro,Borabu",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Birri_language",
+        "https://en.wikipedia.org/wiki/Rafa%C3%AF",
+        "https://en.wikipedia.org/wiki/Obo",
+        "https://en.wikipedia.org/wiki/Deim_Zubeir",
+        "https://en.wikipedia.org/wiki/Dembia",
+        "https://iso639-3.sil.org/code/bvq",
+        "https://www.ethnologue.com/language/bvq"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T22:40:00Z",
+      "notes": "Entry heavily contaminated: only 4/26 seeds are verifiable Birri settlements (Rafaï, Obo, Deim Zubeir, Dembia). Mboto and Munga are dialect names, not settlements. 16+ seeds are major cities across South Sudan/CAR outside Birri area (Haut-Mbomou prefecture + Deim Zubeir). Recommend WAITING status with 4 verified seeds."
+    }
   },
   {
     "name": "Biseni",
