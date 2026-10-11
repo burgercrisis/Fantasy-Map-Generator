@@ -7983,7 +7983,26 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Epena,Likouala-aux-Herbes,Impfondo,Ouesso,Enyele,Bondongo,Mbonzo,Dibole,Bongili,Ngondi,Matoki,Leke,Likouala,CAR,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Makokou,Brazzaville,Congo,DRC,Central African Republic",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bomitaba_language",
+        "https://en.wikipedia.org/wiki/Epena",
+        "https://en.wikipedia.org/wiki/Likouala-aux-Herbes",
+        "https://en.wikipedia.org/wiki/Impfondo",
+        "https://en.wikipedia.org/wiki/Ou%C3%A9sso",
+        "https://en.wikipedia.org/wiki/Bonjo_language",
+        "https://en.wikipedia.org/wiki/Bole_language_(Bantu)",
+        "https://en.wikipedia.org/wiki/Bongili_language",
+        "https://en.wikipedia.org/wiki/Ngondi_language",
+        "https://en.wikipedia.org/wiki/Eastern_Pwo_language",
+        "https://en.wikipedia.org/wiki/Likouala_Department"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-10T23:55:00Z",
+      "notes": "ISO code error (should be 'zmx', not 'bomitaba'). Glottolog code error (should be 'bomi1238', not 'bomi1248'). Severe contamination: 6 seeds are related language names (Enyele, Bondongo, Mbonzo, Dibole, Bongili, Ngondi). 1 geographic feature (Likouala-aux-Herbes). 4 administrative divisions (Likouala, CAR). 10 distant/incorrect cities. 4 country names. 1 cross-continent contamination (Leke = Karen language in Myanmar). ISO code error: should be 'zmx' not 'bomitaba'. Should be WAITING."
+    }
   },
   {
     "name": "Bomu",
@@ -7993,17 +8012,50 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "San,Tominian,Mandiakuy,Sialo,Dahanmu,Dwemu,Bobo-Dioulasso,Ouagadougou,Dedougou,Banfora,Koudougou,Kaya,Fada N'Gourma,Gorom-Gorom,Yako,Gayeri,Zorgho,Bittou,Boussé,Kouka,Mogtédo,Rambo,Yargo,Burkina Faso,Mali,Gur",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bomu_language",
+        "https://en.wikipedia.org/wiki/Bwa_people",
+        "https://en.wikipedia.org/wiki/Bwa_languages",
+        "https://iso639-3.sil.org/code/bmq",
+        "https://www.ethnologue.com/language/bmq",
+        "https://en.wikipedia.org/wiki/D%C3%A9dougou",
+        "https://en.wikipedia.org/wiki/San,_Mali",
+        "https://en.wikipedia.org/wiki/Tominian",
+        "https://en.wikipedia.org/wiki/Mandiakuy"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-11T00:05:00Z",
+      "notes": "Only 4 authentic Bomu seeds verified (San, Tominian, Mandiakuy, Dedougou). 2 dialect names as seeds (Dahanmu, Dwemu). 13 major cities from all over Burkina Faso. 2 country names (Burkina Faso, Mali). 1 language family name (Gur). 1 non-existent settlement (Sialo). Should be WAITING after cleanup."
+    }
   },
-  {
+{
     "name": "Bongili",
     "i": 20601,
     "min": 3,
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Brazzaville,Congo,DRC,Central African Republic",
-    "status": "COMPLETE"
+    "b": "Pikounda,Ouesso,Liouesso,Sangha River,Sangha Department,Likouala,Cuvette,Bomitaba,Ngondi,Bokiba,Bongwili,Mbomotaba,Dibole,Bogongo,Pande,Mbati,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Brazzaville,Congo,DRC,Central African Republic",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bong1284",
+        "https://ethnologue.com/language/bui",
+        "https://www.webonary.work/bongili/overview/introduction?lang=en",
+        "https://www.sil.org/resources/publications/entry/9226",
+        "https://en.wikipedia.org/wiki/Pikounda",
+        "https://en.wikipedia.org/wiki/Ouesso",
+        "https://en.wikipedia.org/wiki/Liouesso",
+        "https://en.wikipedia.org/wiki/Owando"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-11T00:15:00Z",
+      "notes": "Only 4/28 seeds verified authentic (Pikounda, Ouesso, Liouesso, Owando). 9 language names, 4 admin divisions, 10 distant settlements, 3 country names, 1 river, 1 dialect variant. Should be WAITING."
+    }
   },
   {
     "name": "Margi",
@@ -8013,7 +8065,25 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Lassa,Gulak,Uba,Damboa,Izge,Mulgwai,Madube,Madagali,Duhu,Askira,Gwoza,Midlu,Mussa,Ngohi,Chul,Rumirgo,Dille,Huyum,Kuhi,Gegombi,Uvu,Uda,Wamdeo,Giwi,Husara,Tampul,Multhafu,Kopa,Njoma,Bagiau,Jimbulumu,Kauthlama,Uwotaku,Yimirali,Gwahi,Yimurgo,Mughal,Thulbwa,Kidlindila,Kirchinga,Shuwa,Pallam,Magar,Hyambula,Vapura,Magga,Kwamda,Lumadu,Kuda,Mubi,Hong,Gombi,Michika",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/List_of_villages_in_Borno_State",
+        "https://en.wikipedia.org/wiki/Margi_language",
+        "https://en.wikipedia.org/wiki/Marghi_people",
+        "https://en.wikipedia.org/wiki/Askira/Uba",
+        "https://en.wikipedia.org/wiki/Damboa",
+        "https://en.wikipedia.org/wiki/Madagali",
+        "https://en.wikipedia.org/wiki/Mubi_(town)",
+        "https://en.wikipedia.org/wiki/Hong,_Nigeria",
+        "https://en.wikipedia.org/wiki/Gombi",
+        "https://www.ethnologue.com/language/mrt"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-11T00:20:00Z",
+      "notes": "44/53 seeds verified against NIPOST village lists (Borno) and Wikipedia settlement pages (Adamawa). 9 seeds (Duhu, Midlu, Kirchinga, Pallam, Magar, Hyambula, Vapura, Magga, Lumadu) not found in primary sources — removed. Madube retained as documented Margi dialect with eponymous settlement potential."
+    }
   },
   {
     "name": "Bonjo",
@@ -8023,7 +8093,22 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Impfondo,Likouala,Mbonzo,Bomitaba,Enyele,Bondongo,Ouesso,Sangha,Cuvette,Bokiba,Bongili,Ngondi,Lingala,Bangui,Pointe-Noire,Dolisie,Madingou,Gamboma,Kindamba,Owando,Mossendjo,Mbinda,Brazzaville,Congo,DRC,Central African Republic",
-    "status": "COMPLETE"
+    "status": "COMPLETE",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/bonj1234",
+        "https://ethnologue.com/language/bok",
+        "https://iso639-3.sil.org/code/bok",
+        "https://en.wikipedia.org/wiki/Bonjo_language",
+        "https://en.wikipedia.org/wiki/Impfondo",
+        "https://en.wikipedia.org/wiki/Likouala_Department",
+        "https://joshuaproject.net/people_groups/10943/CF"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-11T00:40:00Z",
+      "notes": "Only 1/26 seeds verified (Impfondo). 5 language names (Mbonzo, Bomitaba, Enyele, Bondongo, Bongili, Ngondi, Lingala), 4 admin divisions (Likouala, Sangha, Cuvette), 1 river (Bokiba), 10 distant settlements, 3 country names. Should be WAITING."
+    }
   },
   {
     "name": "Bono Ghana-Ivory Coast",
