@@ -583,21 +583,23 @@ window.southAmericaNameBases = [
     "name": "Ayoreo",
     "i": 201308,
     "min": 4,
-    "max": 28,
+    "max": 27,
     "d": "",
     "m": 0,
-    "b": "CampoLoro,Ebetogué,Tunucojnai,Gaai,Jesudi,Jogasui,Ijnapui,Arocojnadí,Chaidi,Cucaani,GuidaiIchai,Tiogai,Atapi,PalmarDeLasIslas,Chovoreca,CarmeloPeralta,PozoColorado,MariscalEstigarribia,Filadelfia,LomaPlata,PuertoPinasco,IslaAlta,Esquina,AguaDulce,Djocoidai,Guiqué,Pojejhai,Tubtudi",
+    "b": "CampoLoro,Ebetogué,Tunucojnai,Gaai,Jesudi,Jogasui,Ijnapui,Arocojnadí,Chaidi,Cucaani,GuidaiIchai,Tiogai,Atapi,PalmarDeLasIslas,CarmeloPeralta,PozoColorado,MariscalEstigarribia,Filadelfia,LomaPlata,PuertoPinasco,IslaAlta,Esquina,AguaDulce,Djocoidai,Guiqué,Pojejhai,Tubtudi",
     "status": "COMPLETE",
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Ayoreo_language",
-        "https://en.wikipedia.org/wiki/List_of_national_parks_of_Paraguay",
-        "https://iso639-3.sil.org/code/ayo"
+        "https://iwgia.org/images/publications/The_case_of_the_ayoreo.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/8134769/",
+        "https://iso639-3.sil.org/code/ayo",
+        "http://glottolog.org/resource/languoid/id/ayor1240",
+        "https://en.wikipedia.org/wiki/Ayoreo_people"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.539Z",
-      "notes": "Language: Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), Zamucoan language spoken in the Paraguayan Chaco (Alto Paraguay Department) and Bolivia (Santa Cruz Department, Cordillera Province). Confirmed via Wikipedia that Ayoreo live in areas including Médanos del Chaco National Park, Defensores del Chaco National Park, and Chovoreca. Removed DefensoresDelChaco and MédanosDelChaco: both are national parks/protected areas in Paraguay (confirmed by List of national parks of Paraguay), not settlements. Chovoreca is referenced as an Ayoreo area on the Wikipedia page. Remaining seeds include verifiable Paraguayan Chaco towns (Filadelfia, Loma Plata, Puerto Pinasco, Mariscal Estigarribia, Pozo Colorado, Carmelo Peralta, Campo Loro) plus Ayoreo community names (Ebetogué, Tunucojnai, Gaai, Jesudi, Jogasui, Ijnapui, Arocojnadí, Chaidi, Cucaani, GuidaiIchai, Tiogai, Atapi, PalmarDeLasIslas, IslaAlta, Esquina, AguaDulce, Djocoidai, Guiqué, Pojejhai, Tubtudi) that are not individually verifiable from primary sources accessible. Insufficient sources to verify all seeds."
+      "verified_at": "2026-10-20T19:48:18Z",
+      "notes": "Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), spoken in the Paraguayan Chaco (Alto Paraguay) and Bolivia (Santa Cruz, Gran Chaco Province/Cordillera). Language and continent confirmed via Ethnologue/Glottolog/IWGIA. Chovoreca removed: Wikipedia lists Chovoreca as an area alongside Medanos del Chaco and Defensores del Chaco National Parks, not as a discrete settlement; removed as region/area per prior determination. Confirmed settlements (primary source: IWGIA/Iniciativa Amotocodie 'The Case of the Ayoreo' documents 19 Ayoreo settlements): Campo Loro, Ebetogue, Tunucojnai, Gaai, Esquina, Jesudi, Jogasui, Ijnapui, Arocojnadi, Chaidi (Central Chaco); Cucaani, Isla Alta, Guidai Ichai, Tiogai, Atapi (Paraguay River banks). Also confirmed as real places in the Ayoreo area: Paraguayan Chaco towns Filadelfia, Loma Plata, Mariscal Estigarribia, Puerto Pinasco, Carmelo Peralta, Pozo Colorado; plus Palmar de las Islas and Agua Dulce (documented Ayoreo area locations north of Defensores del Chaco NP). NOT verifiable against any primary source: Djocoidai, Guique, Pojejhai, Tubtudi. None appear in IWGIA's 19 documented settlements, UNAP/Amotocodie materials, GeoNames, or academic literature (PubMed, ethnographic papers). Multiple web searches returned no hits. Entry remains UNVERIFIED because not all seeds are confirmed as real settlements in the Ayoreo area."
     }
   },
   {
