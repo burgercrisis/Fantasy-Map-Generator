@@ -11500,12 +11500,6 @@ globalThis.languageMixerMap = [
     "bases": []
   },
   {
-    "iso": "ang",
-    "bases": [
-      203324
-    ]
-  },
-  {
     "iso": "old-gallo-romance",
     "bases": []
   },
@@ -14732,12 +14726,6 @@ globalThis.languageMixerMap = [
   {
     "iso": "bima",
     "bases": []
-  },
-  {
-    "iso": "bny",
-    "bases": [
-      203314
-    ]
   },
   {
     "iso": "bimin",

@@ -541,27 +541,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Zhoa",
-    "i": 526,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Fungom Subdivision,Menchum Division,Zhoa,Mekaf,Kumfutu,Small Mekaf,Cha a,Biya,Kung,Yemge,Weh,Fungom,Abar,Mundabili,Marshi,Koshin,Buu,Misong,Mumfu,Ngun,Munken,Aju Mbu,Bafmen,Kuk,Nyos,Ise,Ipalim,Akang,Imo",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/zhoa1238",
-        "https://en.wikipedia.org/wiki/Zhoa_language",
-        "https://exa.ai/library/publication/lhq1t2rpnp5"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-06T08:48:00Z",
-      "notes": "ISSUE: Contamination with admin units (Fungom Subdivision, Menchum Division). Zhoa (ISO 639-3: zhw, Glottolog: zhoa1238) spoken in Fungom Subdivision, Menchum Division, NW Cameroon. Rapid appraisal survey (Mbongue et al. 1999) documents villages: Zhoa, Mekaf, Small Mekaf, Abar, Bu, Fang, Missong, Mashi, Mundabli, Koshin, Mufu, Mbu, Munken, Ngun, Yemge, Weh, Fungom, Kumfutu, Biya, Kung, Cha a, Marshi, Aju Mbu, Bafmen, Kuk, Nyos, Ise, Ipalim, Akang, Imo. Zhoa council has 26 villages. Need to verify which seeds are Zhoa-proper vs. neighboring Western Beboid languages (Naki, Bu, Missong, Koshin, Fang, Mbu). Contaminated: Fungom Subdivision, Menchum Division (admin units, not settlements)."
-    }
-  },
-  {
     "name": "Nara",
     "i": 530,
     "min": 3,
@@ -780,26 +759,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-06T09:03:00Z",
       "notes": "Verified against Glottolog 5.3 (bura1292, ISO 639-3: bwr), Wikipedia Bura language article, and semiological study of Bura-Pabir settlements (Mshelia et al. 2024). Bura spoken in Biu, Hawul, Kwaya Kusar, Shani, Bayo, Askira/Uba LGAs (Borno), Garkida (Adamawa), Bularafa (Yobe), Yamaltu Deba (Gombe). All 25 seeds are authentic Bura-Pabir settlements on Biu Plateau."
-    }
-  },
-  {
-    "name": "Bure",
-    "i": 587,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Jakkul,Tudun Wada,Kilo,Kirfi District,Kirfi Local Government Area,Bauchi State,Bubbure,Hausa,Gera,Giiwo,Deno,Bole-Tangale,Gongola River Area,Bole,Karekare,Sarki,Emir,Buba,Bade,Bade-Nguru Wetlands,Kirfi,Bauchi,Jos Plateau,Mubi,Yola,Gombe,Maiduguri,Darazo,Ningi,Tafawa Balewa,Alkaleri",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Bure_language",
-        "https://www.ethnologue.com/language/bvh"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Bure (bvh) is an endangered Afro-Asiatic (West Chadic, Bole-Tangale) language of Kirfi Local Government Area, Bauchi State, Nigeria, Glottolog bure1242, Ethnologue 25th ed. Entry cannot be verified: numerous seeds are not settlements in the Bure area: 'Kirfi District', 'Kirfi Local Government Area', 'Bauchi State' (administrative divisions); 'Bole-Tangale', 'Hausa', 'Bade', 'Karekare' (language names); 'Sarki', 'Emir' (titles, not places); 'Gongola River Area', 'Bade-Nguru Wetlands' (geographic features); 'Jos Plateau' (plateau in Plateau State, wrong state); 'Gombe', 'Yola', 'Maiduguri' (cities in Gombe, Adamawa, Borno states respectively, not Bauchi); 'Darazo', 'Ningi', 'Tafawa Balewa', 'Alkaleri' (LGAs, admin divisions). Only ~10 of 31 seeds appear to be actual settlements (Jakkul, Tudun Wada, Kilo, Kirfi, Bubbure, Gera, Giiwo, Deno, Bole, Buba), which is below the 25-seed floor."
     }
   },
   {
@@ -1246,28 +1205,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Southeast Ijo",
-    "i": 711,
-    "min": 3,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Yenagoa,Odi,Kolokuma,Okordia,Brass,Nembe,Ogbia,Sagbama,Ekeremor,Amassoma,Oloibiri,Gbarantoru,Agbere,Ogu,Olodiama,Okumbiri,Kaiama,Otuoke,Twon-Brass,Akassa,Bassambiri,Angiama,Opuama,Peremabiri,Ekowe,Amatu",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/sout2774",
-        "https://iso639-3.sil.org/code/ijs",
-        "https://en.wikipedia.org/wiki/Southeast_Ijo",
-        "https://www.ethnologue.com/language/ijs/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Pre-existing verification confirmed: Southeast Ijo [ijs] = Nembe + Akassa dialects in Brass/Nembe/Ogbia/Southern Ijaw LGAs (Bayelsa State, Nigeria). Severe contamination: 12/26 seeds belong to NEIGHBORING Ijoid languages - Yenagoa/Odi/Okordia/Gbarantoru/Agbere/Ogu/Okumbiri/Kaiama (Central Izon/Epie), Sagbama/Ekeremor (Western Izon/Okodia), Amatu (Ekeremor/Izon). 'Kolokuma' is a clan/dialect name, not a settlement. Only 14 authentic SE Ijo seeds: Brass, Nembe, Ogbia, Twon-Brass, Akassa, Bassambiri, Amassoma, Oloibiri, Otuoke, Olodiama, Opuama, Peremabiri, Ekowe, Angiama. Removing contaminated/non-settlement seeds leaves 14 < 25 seeds, so entry remains unverified per the <25-remain rule. No JS file modified."
-    }
-  },
-  {
     "name": "Susu",
     "i": 713,
     "min": 4,
@@ -1700,51 +1637,6 @@ window.africaNameBases = [
     }
   },
   {
-    "name": "Sakata",
-    "i": 980,
-    "min": 3,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kutu,Oshwe,Bokoro,Semendua,Vanga,Kikwit,Idiofa,Kwamouth,Bolobo,Yumbi,Kiri,Cuvette centrale congolaise,Congo River Basin,Lukenie River,Kamtsha River,Kwilu Province,West-Coastal Bantu,Kinshasa,Kwango River,Kwilu River,Kasai Rivers,Biboko Island,King Leopold II,Rubber Plantations,Ivory Resources,Continued,Leopold II,Patronage,Rubber,Ivory",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/saka1287",
-        "https://www.ethnologue.com/language/skt/",
-        "https://iso639-3.sil.org/code/skt",
-        "https://en.wikipedia.org/wiki/Sakata_language",
-        "https://en.wikipedia.org/wiki/Sakata_people",
-        "https://www.ic.nanzan-u.ac.jp/JINRUIKEN/publication/pdf/kenkyuronshu_03/09_Munsi.pdf",
-        "https://joshuaproject.net/people_groups/14650/CG",
-        "https://map.swordshare.com/skt"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "PREVIOUSLY RESEARCHED (2026-10-06). ISSUE: Severe contamination. Only 8/30 seeds are authentic Sakata settlements: Kutu, Oshwe, Bokoro, Semendua, Kwamouth, Bolobo, Yumbi, Kiri. 3 seeds are real towns but in Kwilu Province (Vanga, Kikwit, Idiofa) — Kikongo/Pende/Mbuun area, not Sakata. 19 seeds are non-settlements: regions (Cuvette centrale congolaise, Congo River Basin, Kwilu Province, West-Coastal Bantu), rivers (Lukenie River, Kamtsha River, Kwango River, Kwilu River, Kasai Rivers), capital (Kinshasa), island (Biboko Island), person (King Leopold II x2), commodities (Rubber, Ivory x2, Rubber Plantations, Ivory Resources), concepts (Patronage, Continued). Entry appears to extract text from Munsi (2003/2015) academic paper. Requires full reseeding with authentic Mai-Ndombe settlements (Inongo, Nioki, Mushie, Mabie, Mbamushie, Mbantin, Lenvia Nord, Batere, Lenvia-Sud, Nduele chiefdoms). Language: Sakata (ISO 639-3: skt, Glottolog: saka1287), a Bantu language of DRC (Mai-Ndombe province)."
-    }
-  },
-  {
-    "name": "Southern Ndebele",
-    "i": 988,
-    "min": 4,
-    "max": 30,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pretoria,Johannesburg,Ekurhuleni,Mamelodi,Soshanguve,Tembisa,Daveyton,Germiston,Springs,Brakpan,Nigel,Benoni,Emalahleni,Delmas,Ogies,Phola,Secunda,Evander,Leandra,Kinross,Trichardt,Atteridgeville,KwaThema,Boksburg,Middelburg,KwaMhlanga,Siyabuswa,Kwaggafontein,Ekangala,Bronkhorstspruit",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Southern_Ndebele_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "ISO 639-3 nbl = South Ndebele confirmed. Glottolog sout2808 (existing verification notes incorrectly cite sout3270). Region: Mpumalanga, Gauteng, Limpopo, North West (South Africa). Core Southern Ndebele areas: former KwaNdebele homeland (KwaMhlanga, Siyabuswa, Kwaggafontein), Pretoria area townships (Mamelodi, Soshanguve, Atteridgeville), Mpumalanga towns (Middelburg, Emalahleni, etc.). Clear invalid seeds: Groblersdal, Dennilton, Marble Hall (all in Sekhukhune District, Limpopo - Northern Sotho/Sepedi area, not Southern Ndebele core). Uncertain seeds: Pretoria, Johannesburg (cosmopolitan cities, not specifically Ndebele); Secunda, Evander, Leandra, Kinross, Trichardt (Mpumalanga Highveld mining/industrial towns, not specifically Ndebele). Seeds: Pretoria,Johannesburg,Ekurhuleni,Mamelodi,Soshanguve,Tembisa,Daveyton,Germiston,Springs,Brakpan,Nigel,Benoni,Emalahleni,Delmas,Ogies,Phola,Secunda,Evander,Leandra,Kinross,Trichardt,Atteridgeville,KwaThema,Boksburg,Middelburg,KwaMhlanga,Siyabuswa,Kwaggafontein,Ekangala,Bronkhorstspruit,Groblersdal,Dennilton,Marble Hall."
-    }
-  },
-  {
     "name": "Sumayela Ndebele",
     "i": 989,
     "min": 4,
@@ -1852,28 +1744,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-06T23:35:00Z",
       "notes": "All 40 seeds verified as real settlements in Mali within the Bambara/Bamanankan language area (Ségou, Koulikoro regions). No contamination: no synthetic seeds, duplicates, self-references, or non-settlements. Geographic distribution: Ségou Region (17 seeds: Ségou, Nyamina, Sansanding, Markala, Dioro, Cinzana, Konodimini, Sakoïba, Sébougou, Pelengana, Katiéna, Bla, Diaramana, Konobougou, Sanando, Tamani, Boidié) and Koulikoro Region (23 seeds: Kolokani, Massantola, Tioribougou, Nossombougou, Ouolodo, Sagabala, Banamba, Kiban, Toubakoro, Sirakorola, Koula, Tienfala, Massigui, Wacoro, Nangola, Fana, Dialakoroba, Sanankoroba, Ouélessébougou, Kambila, Neguela, Kalifabougou, Dombila). Sources: ISO 639-3 bam, Glottolog bamb1269, Ethnologue, Wikipedia Bambara language, individual settlement Wikipedia pages."
-    }
-  },
-  {
-    "name": "Kambaata",
-    "i": 1114,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Durame,Angacha,Shinshicho,Hadero,Damboya,Doyogena,Marre,Holeta,Kedida,Omo Sheleko,Kacha Bira,Wacha,Shishinda,Garbo,Danot,Alduba,Durame Town,Angacha Woreda,Hadero Tunto,Tambaro,Alaba,K'abeena,Xambaaro,T'ambaaro,Timbaro,Central Ethiopia Regional State,Southern Nations,Nationalities,Peoples Region",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/kamb1316",
-        "https://www.ethnologue.com/language/ktb/",
-        "https://en.wikipedia.org/wiki/Kambaata_language",
-        "https://en.wikipedia.org/wiki/Kembata_Zone"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-06T23:40:00Z",
-      "notes": "ISSUE: Severe contamination. Only 12/28 seeds authentic Kambaata settlements/woredas: Durame, Angacha, Shinshicho, Hadero, Damboya, Doyogena, Marre, Kedida Gamela, Kacha Bira, Hadero Tunto, Tambaro, Alaba. Contamination: 4 wrong-region seeds (Holeta in Oromia, Wacha in Keffa, Danot in Somali Region, Shishinda in Addis Ababa); 4 admin units misclassified as settlements (Central Ethiopia Regional State, SNNP Region, Kambaata-Tembaro Zone, Omo Sheleko historical woreda); 4 language/dialect names (K'abeena, Xambaaro, T'ambaaro, Timbaro); 2 duplicates (Durame Town, Angacha Woreda); 1 unverified (Alduba); 1 historical (Omo Sheleko dissolved 2007); 1 uncertain (Garbo). Authentic Kambaata area: Kembata Zone (Durame, Angacha, Shinshicho, Hadero, Damboya, Doyogena, Marre, Kedida, Kacha Bira, Hadero Tunto) + Tambaro Special Woreda + Alaba. Sources: Glottolog kamb1316, Ethnologue ktb, Wikipedia Kambaata, 1994/2007 census data."
     }
   },
   {
@@ -3652,29 +3522,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-07T23:11:00Z",
       "notes": "54/56 seeds verified as authentic Bété settlements in Côte d'Ivoire (Sassandra-Marahoué, Gôh-Djiboua, Bas-Sassandra districts). Two seeds (Madoua, Labazubia) not found in primary sources - recommend removal. All verified seeds are populated places within the documented Bété language area (Daloa, Gagnoa, Soubré, Issia, Guibéroua regions)."
-    }
-  },
-  {
-    "name": "Hamer",
-    "i": 3125,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0.1,
-    "b": "Turmi,Dimeka,Shanko,Lala,Simbale,Zogola,Dambaiti,Angude,Kolakeja,Worro,Asile,Wungabaino,Gedback,Kufur,Boriya,Cherkoka,Gonderba,Umbule,Kaissa,Minogelti,Gabo,Kizo,Worbasha,Achi Musa,Shanko Kelema,Shanko Wolfo,Achi Algone,Dimeka Zuriya",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Hamer_people",
-        "https://en.wikipedia.org/wiki/Turmi",
-        "https://en.wikipedia.org/wiki/Dimeka",
-        "https://glottolog.org/resource/languoid/id/hame1241",
-        "https://www.ethnologue.com/language/amf/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Hamer (Hamar) is a South Omotic language of southwestern Ethiopia, South Omo Zone, South Ethiopia Regional State; Hamar Woreda administrative centre is Dimeka and Turmi is the largest settlement in Hamer woreda (Wikipedia: Hamar people, Turmi, Dimeka). Linguistic classification: Glottolog hame1241, ISO 639-3 amf (Ethnologue). Only ~11 of 29 seeds confirmable as real settlements in the Hamer area: Turmi, Dimeka, Shanko, Lala, Simbale, Zogola, Dambaiti, Umbule, Kaissa, Dimeka Zuriya (per prior review cross-checked against Wikipedia geography). 'Beshada' is a non-settlement: Bashada/Beshada is a neighbouring ethnic group, not a town -> removed. Remaining seeds (Angude, Kolakeja, Worro, Asile, Wungabaino, Gedback, Kufur, Boriya, Cherkoka, Gonderba, Minogelti, Gabo, Kizo, Worbasha, Achi Musa, Shanko Kelema, Shanko Wolfo, Achi Algone) lack primary-source confirmation; several are compound names (Achi Musa, Shanko Kelema, Shanko Wolfo, Achi Algone) that appear constructed rather than authentic toponyms. Confirmable seeds (<=11) < 25 -> unverified."
     }
   },
   {
@@ -6262,27 +6109,6 @@ window.africaNameBases = [
     }
   },
   {
-    "name": "Avokaya",
-    "i": 203226,
-    "min": 3,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Maridi,Faradje,Mambe,Olo,Tore,Yei,Yambio,Tambura,Kapoeta,Torit,Bor,Mundri,Rumbek,Ezo,Kaya,Laseru,Obbu,Pibor,Lainya,Tonj,Wau,Yirol,Ibba,Andari,Tumbura,Rodho,Nyara",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Avokaya_language",
-        "https://glottolog.org/resource/languoid/id/avok1242",
-        "https://www.ethnologue.com/language/avu/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Avokaya is a Central Sudanic language spoken in southern South Sudan (West Equatoria) and parts of the DRC (Haut-Uele); main centres are Maridi (South Sudan) and Faradje (Congo). A 2013 IOM Village Assessment Survey lists ethnic Avukaya bomas: Mambe Boma and Olo Boma (Mambe Payam, Maridi County) and Avokaya Boma (Tore Payam, Yei County) (Wikipedia: Avokaya language). Linguistic classification: Glottolog avok1242, ISO 639-3 avu (Ethnologue). ~6 seeds confirmable: Maridi, Faradje, Mambe, Olo, Tore, Yei. 'Naam' is a river (Naam/Era river), not a settlement -> removed. 'Amadi' is a former state/admin unit, not a settlement -> removed. The remaining seeds (Yambio, Tambura, Mundri, Ezo, Kaya, Laseru, Obbu, Ibba, Andari, Rodho, Nyara) either fall in other South Sudanese states/counties (Kapoeta, Torit, Bor, Rumbek, Pibor, Lainya, Tonj, Wau, Yirol = contamination) or lack primary-source confirmation as Avokaya-area settlements. Confirmable seeds (~6) < 25 -> unverified."
-    }
-  },
-  {
     "name": "Hozo",
     "i": 203227,
     "min": 3,
@@ -6449,28 +6275,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:35.767Z",
       "notes": "Bomboli-Bozaba (Bantu, ISO bml/bzo, Glottolog bomb1261) is spoken in Kungu and Dongo (Sud-Ubangi, DRC) on a canal into the Ngiri river, north of Bomongo; Bozaba in Kungu territory, Mwanda collectivité (Wikipedia, citing Ethnologue). Only 4 of 25 seeds are authentic in-area settlements: Kungu, Dongo, Bomongo, Mwanda. Removed 21 seeds: Bomboli/Bozaba/Bombongo are language names/aliases; Ngondi/Ngombe/Bobangi/Bolia/Boloki/Buja/Ntomba/Mangala/Likula/Ligendza/Dzando are Bantu language names (Guthrie zone C); Mbandaka/Bumba/Lisala are major out-of-area cities; Bahir Dar/Gondar/Mekelle/Dessie are Ethiopian cities. 4 kept < 25 seed floor -> unverified, requires complete rebuild from primary sources."
-    }
-  },
-  {
-    "name": "Bomboma",
-    "i": 203256,
-    "min": 3,
-    "max": 30,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bokonzi,Lingonda,Ebuku,Likaw,Makengo,Ndzubele,Motuba,Dongo,Kungu,Gemena,Zongo,Budjala,Libenge,Bumba,Lisala,Bomongo,Mbandaka,Bobenge,Bondaka,Bongandanga,Boteka,Djamba,Ingende,Bosobolo,Makanza,Bokungu,Likoka,Poko,Iboko,Tanda",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/bws",
-        "https://www.ethnologue.com/language/bws",
-        "https://glottolog.org/resource/languoid/id/bomb1262",
-        "https://en.wikipedia.org/wiki/Bomboma_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Previously verified as unverified. Bomboma [bws] is an endangered indigenous language of DRC (Sud-Ubangi/Mongala provinces), Niger-Congo family. Critical issues: language names used as seeds (Bomboma, Ngombe, Mongala), admin entity used as seed (Mongala province), duplicate seed (Bomongo II). Only 17/34 seeds confirmed as authentic settlements (Gemena, Zongo, Budjala, Libenge, Bumba, Lisala, Bomongo, Mbandaka, Bobenge, Bondaka, Bongandanga, Boteka, Djamba, Ingende, Bosobolo, Makanza, Poko). 17 < 25 floor. Entry should be WAITING."
     }
   },
   {
@@ -6726,27 +6530,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T06:22:00Z",
       "notes": "Verified 54 unique Balo settlements in DRC."
-    }
-  },
-  {
-    "name": "Bamali",
-    "i": 20504,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Bafoussam,Bamenda,Dschang,Mbouda,Batié,Bandjoun,Bangangté,Ndop,Bambalang,Bamunka,Bafanji,Bamunkumbit,Mangeh,Baham,Bali,Bafou,Fontem,Fundong,Kumbo,Menjang,Morom,Ndiop,Awing,Kejom Ketinguh,Babanki Tungo,Big Babanki,Bamessingue",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Bamali",
-        "https://glottolog.org/resource/languoid/id/bama1251",
-        "https://www.ethnologue.com/language/bam/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Bamali is a language of the Northwest Region, Cameroon; Bamali village is in Ngoketunjia division, Ndop Central sub division (Wikipedia: Bamali; coordinates ~5.9525 N, 10.4375 E). The Mangeh family villages are Bambalang, Bamunka, Bamali, Bafanji and Bamunkumbit. Linguistic classification: Glottolog bama1251, ISO 639-3 bam (Ethnologue). ~6 seeds confirmable as authentic Bamali-area settlements: Bamali, Ndop, Bambalang, Bamunka, Bafanji, Bamunkumbit, Bamessingue. 'Bamali' as a seed is the language's own name (self-reference) -> removed per guardrails. 'Ngoketunjia' is a department/division (admin unit), not a settlement -> removed. The remaining seeds are towns in other Cameroonian language areas/regions: West Region Bamileke cities (Bafoussam, Dschang, Mbouda, Batié, Bandjoun, Bangangté, Baham, Bafou), Mezam division (Bamenda, Bali, Awing, Kejom Ketinguh, Babanki Tungo, Big Babanki), Lebialem/Southwest (Fontem), Boyo/Bui (Fundong, Kumbo), and unclear/phantom names (Mangeh, Menjang, Morom, Ndiop). Confirmable seeds (~6) < 25 -> unverified."
     }
   },
   {
@@ -7584,27 +7367,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Caka",
-    "i": 20631,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Asaka,Batanga,Basaka,Akwaya,Adzu Balaka,Adzu Batanga,Batomo,Boduma,Ekondo Titi,Eman,Esimbi,Fontem,Ipulo,Kakwumba,Keti,Kumba,Limbe,Mamfe,Mbakwa,Mundemba,Nguti,Tiko,Tinto,Tombel,Wabane,Buea,Dschang",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Caka_language",
-        "https://www.ethnologue.com/language/ckx",
-        "https://glottolog.org/resource/languoid/id/caka1240"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Caka is a Tivoid language of Cameroon (dialects: Batanga and Asaka; ISO 639-3 ckx; Glottolog caka1240; Ethnologue ckx). Ethnologue describes Caka as an endangered indigenous language of Cameroon, but no source consulted documents the precise settlements/area where Caka is spoken. Because the language's documented settlement area is not established in the primary sources available, none of the 29 seeds can be confirmed as real settlements in Caka's documented area. Clear invalid seeds: 'Ikom' is in Nigeria (Cross River State), outside Cameroon -> removed; 'Ndian' is a division/admin unit in Southwest Region, not a settlement -> removed. The remaining seeds are mostly Southwest Region towns (Kumba, Mamfe, Limbe, Buea, Mundemba, Nguti, Tiko, Tinto, Tombel, Wabane, Ekondo Titi, Fontem) but these belong to other language groups (Bakweri/Fako, Oroko/Ndian, Bangwa/Lebialem, etc.) and are not documented as Caka settlements. Esimbi is a Northwest Region language/area. Confirmable seeds (0) < 25 -> unverified."
-    }
-  },
-  {
     "name": "Cebaara",
     "i": 20660,
     "min": 4,
@@ -7654,96 +7416,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-16T04:03:00Z",
       "notes": "Verified 37 unique Central Atlas Tamazight settlements in Morocco."
-    }
-  },
-  {
-    "name": "Chopi",
-    "i": 20665,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Quissico,Zavala,Inhambane,Maxixe,Inharrime,Chidenguele,Maputo,Zandamela,Manjacaze,Jangamo,Funhalouro,Govuro,Homoine,Inhassoro,Mabote,Massinga,Morrumbene,Panda,Vilanculos,Tofo,Vilankulo,Gaza,Chibuto,Xai-Xai,Limpopo,Matola,Beira",
-    "status": "WAITING",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Zavala_District",
-        "https://en.wikipedia.org/wiki/Inharrime_District",
-        "https://en.wikipedia.org/wiki/Jangamo_District",
-        "https://en.wikipedia.org/wiki/Homoine_District",
-        "https://en.wikipedia.org/wiki/Massinga_District",
-        "https://en.wikipedia.org/wiki/Morrumbene_District",
-        "https://en.wikipedia.org/wiki/Panda_District",
-        "https://en.wikipedia.org/wiki/Vilanculos_District",
-        "https://en.wikipedia.org/wiki/Funhalouro_District",
-        "https://en.wikipedia.org/wiki/Govuro_District",
-        "https://en.wikipedia.org/wiki/Manjacaze_District",
-        "https://en.wikipedia.org/wiki/Inhassoro_District",
-        "https://en.wikipedia.org/wiki/Mabote_District",
-        "https://en.wikipedia.org/wiki/Chibuto_District",
-        "https://en.wikipedia.org/wiki/Xai-Xai",
-        "https://www.omniglot.com/writing/chopi.htm",
-        "https://joshuaproject.net/people_groups/11368/MZ",
-        "https://glottolog.org/resource/languoid/id/chop1243",
-        "https://www.ethnologue.com/language/cce",
-        "https://translatorswithoutborders.org/wp-content/uploads/2019/04/Mozambique-Inhambane-Province-Language-Map.pdf"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-11T21:30:00Z",
-      "notes": "17 authentic Chopi settlements verified in Inhambane Province and coastal Gaza Province. 10 contaminated seeds removed. 17 authentic seeds < 25 floor -> WAITING."
-    }
-  },
-  {
-    "name": "Tigrinya",
-    "i": 20667,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Asmara,Mendefera,Adi Quala,Keren,Massawa,Dekemhare,Axum,Mekelle,Adigrat,Adi Keyh,Debub,Halhal,Bisha,Shire,Adwa,Adi Nebrid,Elabered,Gala,Forto,Hamelmalo,Mogolo,Antalla,Adi Yaqob,Adi Ghebru,Adi Tsetser,Garanwa",
-    "status": "WAITING",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Regions_of_Eritrea",
-        "https://en.wikipedia.org/wiki/Anseba_Region",
-        "https://en.wikipedia.org/wiki/Southern_region_(Eritrea)",
-        "https://en.wikipedia.org/wiki/Gash-Barka_region",
-        "https://en.wikipedia.org/wiki/Northern_Red_Sea_region",
-        "https://en.wikipedia.org/wiki/Maekel_Region",
-        "https://en.wikipedia.org/wiki/Tigray_Region",
-        "https://en.wikipedia.org/wiki/List_of_districts_in_the_Tigray_Region",
-        "https://en.wikipedia.org/wiki/Economy_of_Eritrea",
-        "https://iso639-3.sil.org/code/tir",
-        "https://www.ethnologue.com/language/tir",
-        "https://glottolog.org/resource/languoid/id/tigr1271"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-11T21:45:00Z",
-      "notes": "17 authentic Tigrinya settlements verified across Eritrea and Ethiopia. Debub is a region, not a settlement. Bisha verified via Economy of Eritrea. 8 unverified Adi pattern seeds need primary source verification. 17 authentic seeds < 25 floor -> WAITING."
-    }
-  },
-  {
-    "name": "Qwara",
-    "i": 20668,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Gelegu,Tewodros Ketema,Metemma,Takusa,Alefa,Chilga,Ayikel,Seraba,Wohni,Dembiya,Lay Armachiho,Tach Armachiho,Gondar,Dabat,Debark,Gorgora,Addi Arkay,Beyeda,Jan Amora,Mirab Armachiho,Wegera,Tselemt,Tegeda,Dengel Ber,Manu,Acsera,Metebiya,Uadi Mena",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/hwar1238",
-        "https://en.wikipedia.org/wiki/Qwara_%28dialect%29",
-        "https://en.wikipedia.org/wiki/Qwara_%28woreda%29",
-        "https://en.wikipedia.org/wiki/Agaw_languages"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Qwara is a nearly extinct Agaw (Central Cushitic) dialect of Qimant, spoken by the Beta Israel in the Qwara area, Semien Gondar Zone, Amhara Region, Ethiopia (Qwara woreda, near Lake Tana / Sudan border). Glottocode hwar1238; no ISO 639-3 code (dialect of Qimant). Confirmed real settlements in/near Qwara woreda and Semien Gondar: Gelegu (Qwara woreda administrative centre), Tewodros Ketema (Qwara woreda settlement), Metemma, Takusa, Alefa, Chilga, Dembiya, Lay Armachiho, Tach Armachiho, Gondar, Dabat, Debark (Debarq), Gorgora, Addi Arkay, Beyeda, Jan Amora, Mirab Armachiho, Wegera, Dengel Ber (town on SW Lake Tana, Alefa woreda). Removed seeds that are regions/provinces, not settlements: Simien (Semien mountain range), Lasta (historic region), Begemder (historic province). 9 seeds could not be confirmed against primary sources consulted: Ayikel, Seraba, Wohni, Tselemt, Tegeda, Manu, Acsera, Metebiya, Uadi Mena. In addition, several confirmed towns (e.g. Gondar, Debark, Dabat, Jan Amora, Beyeda, Wegera) lie east of Qwara woreda, the documented Qwara language area, so not all kept seeds are within the language's documented area. Insufficient primary sources to confirm every seed -> unverified."
     }
   },
   {
@@ -7882,28 +7554,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T06:05:00Z",
       "notes": "Verified 58 unique Goji settlements in Nigeria (Bauchi)."
-    }
-  },
-  {
-    "name": "Sebat Bet",
-    "i": 20693,
-    "min": 3,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cheha,Meskan,Ezhana Wolene,Gumer,Geta,Enemorina Eaner,Muher,Addis Ababa,Emdibir,Agenna,Gura Megenase,Wirir,K'abul,K'want'e,Ch'eza,Endegegn,Mesmes,Soddo,Silt'e,Wolane,Zay,Kistane,Butajira,Wolkite,Hosaina,Ambo,Shashamane,Ziway,Melkassa,Wonji",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Sebat_Bet_Gurage_language",
-        "https://www.ethnologue.com/language/sgw",
-        "https://glottolog.org/languoid/seba1251",
-        "https://iso639-3.sil.org/languages/sgw"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Sebat Bet Gurage is an Ethio-Semitic language, ISO 639-3 sgw, Glottolog seba1251, spoken in the West Gurage Zone, Ethiopia; dialects include Chaha (Cheha), Ezha (Ezhana Wolene), Gumer, Geta, Muher, Inor (Enemorina Eaner), Endegegn. The seed list is heavily polluted: six seeds are names of OTHER Gurage languages/dialects rather than settlements (Mesmes, Soddo, Silt'e, Zay, Kistane, Wolane), and six are cities outside the Sebat Bet/West Gurage area (Addis Ababa - national capital; Ambo - West Shewa; Shashamane - Oromia; Hosaina - Hadiya zone; Melkassa, Wonji - Adama area). Because a large share of seeds are language names or out-of-area cities and the remaining seeds cannot each be confirmed against a primary-source gazetteer, the entry cannot be marked verified. Requires re-research of each seed against an Ethiopian gazetteer before verification."
     }
   },
   {
@@ -8336,28 +7986,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Naro Click (Kalahari East)",
-    "i": 22000,
-    "min": 4,
-    "max": 13,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ghanzi,D'Kar,East Hanahai,West Hanahai,Bere,Charles Hill,Dekar,Grootelaagte,Kanagas,Karakobis,Kuke,Makunda,New Kanagas,Tshobokwane,Kang,Kacgae,Tlokweng,Paje,Metsemantsho,Gantsi,Kgalagadi,Ngamiland,Orapa,Sehithwa,Selebi-Phikwe,Mochudi,Mokatse,Palapye,Serowe,Tonota",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Naro_language",
-        "https://www.ethnologue.com/language/nhr",
-        "https://glottolog.org/languoid/naro1249",
-        "https://iso639-3.sil.org/languages/nhr"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Naro is a Khoe (Kalahari) language, ISO 639-3 nhr, Glottolog naro1249, spoken in Ghanzi District, Botswana and eastern Namibia; the Naro Language Project is based at D'Kar (Gantsi). The seed list contains duplicates ('Gantsi' = Ghanzi; 'Dekar' = D'Kar; 'New Kanagas' = Kanagas), seeds that are regions rather than settlements ('Ngamiland', 'Kgalagadi'), and numerous towns outside the Naro/Ghanzi area ('Tlokweng', 'Mochudi', 'Palapye', 'Serowe', 'Tonota', 'Orapa', 'Selebi-Phikwe'). Because duplicates, region names, and out-of-area towns are present and the remaining seeds cannot each be confirmed against a primary-source gazetteer, the entry cannot be marked verified. Requires de-duplication and re-research of each seed against a Botswana/Namibia gazetteer."
-    }
-  },
-  {
     "name": "Sandawe Click (Central Tanzania)",
     "i": 22001,
     "min": 4,
@@ -8644,28 +8272,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Juǀʼhoan",
-    "i": 200041,
-    "min": 3,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Tsumkwe, Nokaneng, Nyae Nyae, Gam, ≠Om!o!o, Djxokhoe, Xamsa, N!omdi, N≠ama, //Xa/oba, De≠hua, !'Obaha, !Ukxoarama, G!o'aguru, ≠'Otcaqkxai, ≠Aqabace, /Aotcha, N||hoq'ma, Nhoma, Dobe, Qangwa, |Kae|Kae, //Xai//Xai, !Kangwa, N!umsi, ≠Gam, //Auru, N!aqmtjoha, N!hoq'oma",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ju%C7%80%CA%BChoan_language",
-        "https://www.ethnologue.com/language/ktz/",
-        "https://iso639-3.sil.org/code/ktz",
-        "https://glottolog.org/resource/languoid/id/juho1239"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: JuÀʼhoan (ISO 639-3: ktz, Glottolog: juho1239), Kx'a family, spoken in NE Namibia (Tsumkwe district, Nyae Nyae) and NW Botswana. Dialects: Epukiro, Tsumãkwe, Rundu, Omatako, ˂Kxˇauˇein. Confirmed seeds matching documented JuÀʼhoan settlements: Tsumkwe, Nokaneng, Dobe, Xamsa, Gam, !Kangwa, N!omdi, //Xai//Xai, Nhoma, Nyae Nyae (~10). NOT verified: 6 seeds use the non-standard click character '≠' which is NOT valid JuÀʼhoan orthography (standard clicks are ǀ/ǁ/ǃ/˂): ≠Om!o!o, N≠ama, De≠hua, ≠'Otcaqkxai, ≠Aqabace, ≠Gam. Remaining ~13 seeds (Djxokhoe, !'Obaha, !Ukxoarama, G!o'aguru, /Aotcha, N||hoq'ma, Qangwa, |Kae|Kae, N!umsi, //Auru, N!aqmtjoha, N!hoq'oma) could not be verified against primary sources. Glottolog page (juho1239) blocks direct fetch. Cannot verify every seed against primary source → unverified."
-    }
-  },
-  {
     "name": "Kabalai",
     "i": 200042,
     "min": 3,
@@ -8674,27 +8280,6 @@ window.africaNameBases = [
     "m": 0.1,
     "b": "Laï,Noungou,Taba,Tagbian,Draye Ngolo,Draye Mala,Tchoglo,Messéré,Misséré,Draï Ngolo,Draï Mala,Dray Mbassa,Goundo Bengli,Goundo Nongom,Goundo Ylla,Boumou,Besmé,Dara,Soumoul",
     "status": "WAITING"
-  },
-  {
-    "name": "Kajakse",
-    "i": 200043,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Abdourta, Alilé, Alo, Amkachawaye, Amtalata, Amtchakena, Amtchilili, Ardebé, Bara, Binédir, Chamir, Choukhara, Dabkaraye, Dirété, Djoukha, Gaddoum, Gana, Goufo, Haouich, Makakou, Matabgué, Nabgaye, Sangafout, Taffé, Wiziné",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Kajakse_language",
-        "https://glottolog.org/resource/languoid/id/kaja1254",
-        "https://iso639-3.sil.org/code/ckq"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Kajakse (Kadjakse/Kujarke), East Chadic language of eastern Chad (Ouaddai and Sila regions), ISO 639-3 ckq (active, living), Glottolog kaja1254 (Ethnologue 18 via Wikipedia). The 25 seeds (Abdourta, Alile, Alo, Amkachawaye, Amtalata, Amtchakena, Amtchilili, Ardebe, Bara, Binedir, Chamir, Choukara, Dabkaraye, Direte, Djoukha, Gaddoum, Gana, Goufo, Haouich, Makakou, Matabgue, Nabgaye, Sangafout, Taffe, Wizine) are eastern-Chadian place names consistent with Kajakse country/region, but none could be individually confirmed as Kajakse-area settlements against primary sources - no village list, gazetteer, or academic source located for these specific names. No seed is obviously invalid (no countries, language names, administrative units). 0 removed; 25 kept but unconfirmed -> unverified due to insufficient primary sources."
-    }
   },
   {
     "name": "Kamwe",
@@ -8996,27 +8581,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Lele language (Chad)",
-    "i": 200062,
-    "min": 5,
-    "max": 18,
-    "d": "",
-    "m": 0.1,
-    "b": "Krim-Krim,Bémangra,Bologo,Dafra,Tchérébaouel,Tchérédjé,Tchérédondo,Tchere Dondo,Tchere Maïla,Tchere Mbawol,Djing-Gling,Mouroum,Guelkoura,Maihoungou,Djarabe,Doulao,Mekabra,Kay Kiro,Kaikourou,Gueldi,Ngodje,Hollo,Kakoudje,Mabourouka,Djalingo,Guélouel,Karpaye,Ambassatna Karpaye,Manbagay",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Lele_language_(Chad)",
-        "https://iso639-3.sil.org/code/lln",
-        "https://glottolog.org/resource/languoid/id/lele1276"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Lele (Chad) (ISO 639-3: lln, Glottolog: lele1276), East Chadic (Nancere A.2.1), spoken in Tandjilé Region, Tandjilé Ouest department, south of Kélo, Chad. Sources: Wikipedia Lele language (Chad), Ethnologue 18, Frajzyngier (2001) Grammar of Lele, Cope (2010) Dictionnaire lélé-français. Wikipedia article documents the language's region and grammar but does NOT list specific settlement/town names in the Lele area. None of the 29 seeds (Krim-Krim, Bémangra, Bologo, Dafra, Tchérébaouel, Tchéréjé, Tchérédondo, Tchere Dondo, Tchere Maïla, Tchere Mbawol, Djing-Gling, Mouroum, Guelkoura, Maihoungou, Djarabe, Doulao, Mekabra, Kay Kiro, Kaikourou, Gueldi, Ngodje, Hollo, Kakoudje, Mabourouka, Djalingo, Guélouel, Karpaye, Ambassatna Karpaye, Manbagay) could be verified against primary sources as real settlements in the Lele-speaking area. Glottolog page (lele1276) blocks direct fetch. → unverified."
-    }
-  },
-  {
     "name": "Maaka",
     "i": 200064,
     "min": 4,
@@ -9035,28 +8599,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Oulek,Katch,Amdjaména,Arga,Mambire,Guéra Province",
     "status": "WAITING"
-  },
-  {
-    "name": "Mada",
-    "i": 200066,
-    "min": 4,
-    "max": 8,
-    "d": "",
-    "m": 0,
-    "b": "Akwanga,Kagba,Rija,Gbin,Ancho,Ncacun,Anjagwa,Gbugyar,Bohar,Ningo,Nunku,Nunkucun,Anjida,Andaha,Numa,Nidan,Mante,Nighaan,Gwanje,Gbuncu,Kambre,Mochu,Katanza,Gwadi,Kwandar,Ntsakpe,Goho,Gbaja,Gbumkpan,Nzan",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mada_language_(Nigeria)",
-        "https://www.ethnologue.com/language/mda",
-        "https://glottolog.org/languoid/mada1282",
-        "https://iso639-3.sil.org/languages/mda"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Mada is a Plateau language of Nigeria, ISO 639-3 mda, Glottolog mada1282, spoken in Nasarawa and southern Kaduna States (Akwanga and Kokona local governments). Documented dialects/places per source: Akwanga, Rija, Ancho, Anjagwa, Gbugyar, Bohar (Buhar), Nunku. The remaining 23 seeds (Kagba, Gbin, Ncacun, Ningo, Nunkucun, Anjida, Andaha, Numa, Nidan, Mante, Nighaan, Gwanje, Gbuncu, Kambre, Mochu, Katanza, Gwadi, Kwandar, Ntsakpe, Goho, Gbaja, Gbumkpan, Nzan) could not be confirmed as Mada-area settlements against any accessible primary source (no gazetteer access; Wikipedia has no pages for these villages). Because most seeds lack primary-source confirmation, the entry cannot be marked verified. Requires re-research of each seed against a Nigeria/Nasarawa gazetteer."
-    }
   },
   {
     "name": "Mafa",
@@ -9209,28 +8751,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Hildi,Wamdiu,Borno State,Adamawa State",
     "status": "WAITING"
-  },
-  {
-    "name": "Masa North",
-    "i": 200079,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Vélé,Guémé,Guéméré,Agolla,Yaraye,Kartoua,Douang,Guia,Dabaye,Kouromokdei,Widigué,Gandjam,Gabaraye,Merengue,Widi,Yagoua,Vounaloum,Vormounoun,Djokoydi,Tcherféké,Kirsidi,Masgaya,Miogoye,Zébé,Marao,Zoulla,Toukou,Hounou,Bagarao",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Massa_language",
-        "https://en.wikipedia.org/wiki/Yagoua",
-        "https://iso639-3.sil.org/code/mcn",
-        "https://glottolog.org/resource/languoid/id/masa1322"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Masa / Massa / Masana (ISO 639-3: mcn, Glottolog: masa1322), Chadic Masa (North) branch, spoken in southern Chad and northern Cameroon. Distribution (ALCAM 2012 via Wikipedia): Mayo-Danay department, Far North Region, Cameroon, arrondissements of Yagoua, Kalfou, Wina, Yele, Guéré. Varieties: Yagwa (around Yagoua), Domo (Domo village), Walya, Buguëum, Gizay (around Guéré), Viri/Wina. CONFIRMED seeds via Yagoua Wikipedia page (lists localities of Yagoua commune): Yagoua, Bagarao, Djokoydi, Hounou, Kirsidi, Masgaya, Miogoye, Tcherféké, Toukou, Vormounoun, Vounaloum, Zébé, Marao (via Zébé Marao), Zoulla = 14/29 seeds confirmed as real localities in Yagoua commune (Mayo-Danay, Far North Cameroon, Masa area). NOT verified: Vélé, Guémé, Guéméré, Agolla, Yaraye, Kartoua, Douang, Guia, Dabaye, Kouromokdei, Widigué, Gandjam, Gabaraye, Merengue, Widi (15 seeds). Glottolog page (masa1322) blocks direct fetch. → unverified (partial)."
-    }
   },
   {
     "name": "Masa South",
@@ -9511,27 +9031,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Mofu-Gudur",
-    "i": 200102,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mokong,Goudour,Zidim,Gouloua,Katamsa,Kilwo,Mowo,Mosso,Mingliya,Gadalao,Momboi,Tsoukefs,Tchoumpel,Mbever,Tsembi,Moudal,Kokom,Migaza,Thadang,Ribidis,Mbanane,Kide,Walamai,Ldarbak,Maskaï,Diméo,Djeleng,Massakal,Hossom",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mofu-Gudur_language",
-        "https://iso639-3.sil.org/code/mif",
-        "https://glottolog.org/resource/languoid/id/mofu1248"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Mofu-Gudur / South Mofu (ISO 639-3: mif, Glottolog: mofu1248), Chadic South (c), spoken in northern Cameroon (Far North Province). Dialects: Dimeo, Gudur, Massagal, Mokong, Njeleng, Zidim. Spoken in massifs south of Tsanaga River as far as Mayo-Louti (Mokong and Mofou cantons of Mokolo commune, Mayo-Tsanaga department; Gawaza commune, Diamaré department). CONFIRMED: Mokong (dialect + canton), Goudour (Gudur dialect), Zidim (dialect), Diméo (Dimeo dialect) = 4/29 seeds. NOT verified: Gouloua, Katamsa, Kilwo, Mowo, Mosso, Mingliya, Gadalao, Momboi, Tsoukefs, Tchoumpel, Mbever, Tsembi, Moudal, Kokom, Migaza, Thadang, Ribidis, Mbanane, Kide, Walamai, Ldarbak, Maskaï, Djeleng, Massakal, Hossom (25 seeds). Glottolog page (mofu1248) blocks direct fetch. → unverified."
-    }
-  },
-  {
     "name": "Mogum",
     "i": 200103,
     "min": 4,
@@ -9605,29 +9104,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Mpade",
-    "i": 200108,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Makary,Woulki,Bodo,Biamo,Digam,Mani,Fotokol,Hile-Alifa,Mada,Mbarma,Naïra,Kassibé,Massio,Grélié,Yik,Kaoussé,Kokio,Maladi,Hédré,Soulfa,Gueillala,Treboulo,Sagmé,Mblamé,Mafoufou,Blangafé,Madaïk,Kaloué,Tchika",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mpade_language",
-        "https://en.wikipedia.org/wiki/Makary,_Cameroon",
-        "https://en.wikipedia.org/wiki/Fotokol",
-        "https://iso639-3.sil.org/code/mpi",
-        "https://glottolog.org/resource/languoid/id/mpad1242"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Mpadə / Mpade / Makary Kotoko (ISO 639-3: mpi, Glottolog: mpad1242), Chadic Biu-Mandara Kotoko North (B.1), spoken in northern Cameroon (Far North Province, Logone-et-Chari department) and southwestern Chad. Dialects: Bodo, Biamo, Digam, Mpade (Makari), Shoe (Shewe), Woulki. Distribution: northern end of Logone-et-Chari, centered on Makari, Fotokol, Hilé Alifa, northern Goulfey arrondissement, adjacent to Lake Chad. CONFIRMED: Makary (Makari town, Mpade spoken there), Fotokol (commune in Logone-et-Chari), Hile-Alifa (Hilé Alifa commune), Bodo (village near Makary + dialect), Biamo (village near Makary + dialect), Digam (dialect), Woulki (dialect) = 7/29 seeds confirmed. NOT verified: Mani, Mada, Mbarma, Naïra, Kassibé, Massio, Grélié, Yik, Kaoussé, Kokio, Maladi, Hédré, Soulfa, Gueillala, Treboulo, Sagmé, Mblamé, Mafoufou, Blangafé, Madaïk, Kaloué, Tchika (22 seeds). Glottolog page (mpad1242) blocks direct fetch. → unverified."
-    }
-  },
-  {
     "name": "Mpre",
     "i": 200109,
     "min": 4,
@@ -9659,28 +9135,6 @@ window.africaNameBases = [
     }
   },
   {
-    "name": "Mubi",
-    "i": 200111,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mangalmé,Kouka Margni,Bitchotchi,Mongo,Baro,Bitkine,Niergui,Melfi,Mokofi,Am-Dam,Bokoro,Aboudéïa,Bang-Bang,Oum Hadjer,Amchédiré,Saraf Abuzbah,Moussoro,Massakory,N'Gouri,Bol,Bahr Signaka,Ati,Biltine,Guéréda,Iriba,Am Timan,Mao,Moundou,Sarh,Kélo",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mubi_language",
-        "https://www.ethnologue.com/language/mub",
-        "https://glottolog.org/languoid/mubi1246",
-        "https://iso639-3.sil.org/languages/mub"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Mubi is an East Chadic language of central Chad, ISO 639-3 mub, Glottolog mubi1246; Mubi speakers form the majority of Mangalmé Department (Guéra region). Only three seeds are confirmed in the documented Mubi area: Mangalmé (Mubi heartland), Mongo (Guéra capital), Bitkine (Guéra). 'Bahr Signaka' is a river/wadi, not a settlement. The remaining seeds are cities spread across Chad outside the Mubi/central-Chad area (Moussoro, Massakory, N'Gouri, Bol, Ati, Mao, Moundou, Sarh, Kélo, Biltine, Guéréda, Iriba, Am Timan) or unconfirmed (Kouka Margni, Bitchotchi, Baro, Niergui, Melfi, Mokofi, Am-Dam, Bokoro, Aboudéïa, Bang-Bang, Oum Hadjer, Amchédiré, Saraf Abuzbah). Because most seeds are outside the language's documented area and cannot be confirmed against primary sources, the entry cannot be marked verified. Requires re-research of each seed against a Chad gazetteer focused on Guéra/Mangalmé."
-    }
-  },
-  {
     "name": "Mundat",
     "i": 200112,
     "min": 4,
@@ -9689,28 +9143,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Mundat,Bokkos LGA,Plateau State",
     "status": "WAITING"
-  },
-  {
-    "name": "Musey",
-    "i": 200113,
-    "min": 4,
-    "max": 29,
-    "d": "",
-    "m": 0.1,
-    "b": "Gounou Gaya,Gaskala,Makadi,Tamboursou,Tagal,Djodo Gassa,Djodo Bissara,Djodo Yakoumba,Karoual,Neyedergue,Djarao,Boro Baye,Bayedou,Guirou,Houlougou,Lara,Kondore,Gaya Gambi,Berem,Domo,Domo Goira,Guidimi,Fegue,Bamdi,Go Valna,Mogo Kourondi,Tiene,Landou,Balian",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/mse",
-        "https://glottolog.org/resource/languoid/id/muse1242",
-        "https://en.wikipedia.org/wiki/Musey_language",
-        "https://en.wikipedia.org/wiki/Mayo-Kebbi_Est"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Musey (Museyna/Moussey), ISO 639-3 mse, Glottocode muse1242. Chadic (Masa group) language of Chad and Cameroon: southern Chad (Mayo-Kebbi Est, Mayo-Kebbi Ouest, Tandjile regions) and Cameroon Far North (Mayo-Danay commune, Danay department, east of Guere). Confirmed real settlements in the Musey area (Mayo-Kebbi Est, Chad): Gounou Gaya (capital of Kabbia department), Djodo Gassa, Berem (both listed as settlements of Kabbia department in the Mayo-Kebbi Est article). 28 seeds could not be confirmed as real settlements against primary sources consulted: Gaskala, Makadi, Tamboursou, Waraye, Tagal, Djodo Bissara, Djodo Yakoumba, Karoual, Neyedergue, Djarao, Boro Baye, Bayedou, Guirou, Houlougou, Lara, Kondore, Gaya Gambi, Domo, Domo Goira, Guidimi, Fegue, Bamdi, Go Valna, Mogo Kourondi, Tiene, Landou, Balian, Bereo Gamba. No duplicates, self-names, labels or non-place tokens. Insufficient primary sources to confirm every seed -> unverified."
-    }
   },
   {
     "name": "Musgu",
@@ -9775,28 +9207,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-16T05:04:00Z",
       "notes": "Verified 35 unique Mwaghavul settlements in Nigeria (Plateau)."
-    }
-  },
-  {
-    "name": "Nafusi",
-    "i": 200119,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0.1,
-    "b": "Nalut,Jadu,Yafran,Kabaw,Zintan,Gharyan,Qotros,Al-Qawalish,Wazzin,Kikla,Tarmisa,Al-Galaa,Rahibat,Rujban,Ayn al Ghazaya,Asabaa,Zuwara,Forsatta,Qasr al-Hajj,Tighrinna,Temezda,Ulad Mahamud,Tamzin,Zarizera,Amzir",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nafusi_language",
-        "https://glottolog.org/resource/languoid/id/nafu1238",
-        "https://iso639-3.sil.org/code/jbn",
-        "https://en.wikipedia.org/wiki/Jebel_Nafusa"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Nafusi (Maziɣ/Tanfusit), Berber language of the Nafusa Mountains, northwestern Libya, ISO 639-3 jbn (active, living), Glottolog nafu1238. Wikipedia (Nafusi language): primary speaker communities around Jadu, Nalut (Lalut) and Yafran; indigenous to Jabal al Gharbi, Nalut and Tripoli districts (Wikidata). Nafusa Mountains towns (Wikipedia Jebel Nafusa; reporting on Al-Qawalish; Interpeace on Tamzin) include Gharyan, Yafran, Zintan, Qotros, Jadu, Kabaw, Al-Qawalish, Nalut, Wazzin, Kikla, Tarmisa, Al-Galaa, Rujban, Qasr al-Hajj, Tamzin (~15 of the 25 seeds are documented Nafusa Mountains towns). The remaining seeds (Rahibat, Ayn al Ghazaya, Asabaa, Forsatta, Tighrinna, Temezda, Ulad Mahamud, Zarizera, Amzir) lack primary-source confirmation as Nafusi settlements, and Zuwara is a coastal town whose own Berber (Zuwarah) is treated as a distinct dialect/edge case. Could not confirm 25 seeds as Nafusi-area settlements against primary sources -> unverified."
     }
   },
   {
@@ -9927,29 +9337,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Ngizim",
-    "i": 200129,
-    "min": 4,
-    "max": 30,
-    "d": "",
-    "m": 0,
-    "b": "Potiskum,Ngojin,Badejo,Damagum,Dakasku,Bubaram,Danchuwa,Fune,Jumma'a,Mamudo,Gadaka,Gandabura,Marke,Cana,Mazagune,Ngelkafaje,Gurbana,Jangasiri,Kayauri,Gwayabuna,Ciromaday,Dagaudu,Shinginjelan,Madeniye,Mashama,Daya,Yandiski,Shana,Fadawa,Dogo",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/ngi",
-        "https://glottolog.org/resource/languoid/id/ngiz1242",
-        "https://en.wikipedia.org/wiki/Ngizim_language",
-        "https://en.wikipedia.org/wiki/Ngizim_people",
-        "https://en.wikipedia.org/wiki/Gashaka"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Ngizim (Ngizmawa/Ngezzim), ISO 639-3 ngi, Glottocode ngiz1242. West Chadic (Bade) language spoken by the Ngizim people in Yobe State, Nigeria, around Potiskum and to the south and east; Potiskum was originally a Ngizim town and the traditional ruler is the Mai Potiskum. Confirmed real settlements in Yobe State (Ngizim area): Potiskum, Ngojin, Damagum, Fune (LGA), Ngelkafaje, Jangasiri, Kayauri. Removed seed Gashaka: it is a Local Government Area in Taraba State, Nigeria (headquarters Serti; home of Gashaka-Gumti National Park), outside Ngizim's documented Yobe State / Potiskum area. 23 remaining seeds could not be confirmed as real settlements against primary sources consulted: Badejo, Dakasku, Bubaram, Danchuwa, Jumma'a, Mamudo, Gadaka, Gandabura, Marke, Cana, Mazagune, Gurbana, Gwayabuna, Ciromaday, Dagaudu, Shinginjelan, Madeniye, Mashama, Daya, Yandiski, Shana, Fadawa, Dogo. No duplicates, self-names, labels or non-place tokens. Insufficient primary sources to confirm every seed -> unverified."
-    }
-  },
-  {
     "name": "Ngwaba",
     "i": 200130,
     "min": 4,
@@ -9979,27 +9366,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-16T04:00:00Z",
       "notes": "Verified 38 unique Nkore settlements in Uganda."
-    }
-  },
-  {
-    "name": "North Giziga",
-    "i": 200132,
-    "min": 5,
-    "max": 15,
-    "d": "",
-    "m": 0.1,
-    "b": "Tchéré,Mogazang,Djebe,Goulmoyo,Katchounga,Mambang,Godola Hossere,Zala Guiziga,Kakata,Houloum Guiziga,Madentéré,Kodjoleo,Gada I,Boutoum Fedem,Magawa,Hadaoure,Moundour,Petodje,Tchabawol,Winde Ganki,Ndiam Tcholli,Mayel Ndadi,Dogba Alhadji,Bilguim,Dourga Bamguel,Mbalewa,Mozogoye,Zakalliao,Hodouvou",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/gis",
-        "https://en.wikipedia.org/wiki/North_Giziga_language",
-        "https://www.geonames.org/search.html?q=Tch%C3%A9r%C3%A9&country=CM"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "ISO 639-3 gis = North Giziga (Active, Individual, Living). Glottolog nort3047 (from Wikipedia). Spoken in Far North Region of Cameroon, Diamare department, Meri commune, in Tchere, Godola, and Mambang cantons north of Maroua (Wikipedia). GeoNames confirms Tchere as a populated place in Cameroon Far North. Wikipedia confirms Tchere, Mogazang, Dogba, Godola, Mambang as specific locations in the North Giziga area. Remaining 24 seeds (Djebe, Goulmoyo, Katchounga, Kakata, Houloum Guiziga, Madentere, Kodjoleo, Gada I, Boutoum Fedem, Magawa, Hadaoure, Moundour, Petodje, Tchabawol, Winde Ganki, Ndiam Tcholli, Mayel Ndadi, Dogba Alhadji, Bilguim, Dourga Bamguel, Mbalewa, Mozogoye, Zakalliao, Hodouvou) could not be verified against primary sources (Ethnologue behind paywall, Glottolog not accessible, GeoNames searches returned no matches). Cannot mark verified without primary-source confirmation of every seed."
     }
   },
   {
@@ -10188,29 +9554,6 @@ window.africaNameBases = [
     }
   },
   {
-    "name": "Pichinglis",
-    "i": 200148,
-    "min": 4,
-    "max": 20,
-    "d": "",
-    "m": 0,
-    "b": "Malabo,Luba,Bata,Sampaca,Fiston,Basupú,Barrio las Palmas,Rebola,Baney,Sipopo,Santiago de Baney,Moka,Belebu,Concepción,Riaba,Santa Isabel,San Antonio de Ureca,Ureka,Ilachi,Batete,Basile,Moraka,Bilelipa,Bakake,Basakato,Musola,Balueri",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/fpe",
-        "https://en.wikipedia.org/wiki/Pichinglis",
-        "https://en.wikipedia.org/wiki/Bioko",
-        "https://en.wikipedia.org/wiki/List_of_cities_in_Equatorial_Guinea",
-        "https://en.wikipedia.org/wiki/Moka,_Equatorial_Guinea"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language = Pichi / Fernando Po Creole English [fpe], an English-lexicon creole spoken on Bioko Island, Equatorial Guinea (ISO 639-3 fpe = Fernando Po Creole English, active/living; Glottolog fern1234 per Wikipedia). Pichi is spoken in Malabo and in villages/towns along the Bioko coast including Sampaca, Fiston, Basupú, Barrio las Palmas and Luba, and by a sizable community in Bata (mainland). Bioko's 2015 census districts are Malabo, Baney, Luba, Riaba; Ureka (south beaches) and Moka (Moka Falls) also confirmed. Confirmed seeds: Malabo, Luba, Bata, Sampaca, Fiston, Basupú, Barrio las Palmas, Rebola, Baney, Riaba, Moka, Ureka, Santa Isabel (former name of Malabo), San Antonio de Ureca (Ureca area). Not individually confirmable from reachable primary sources: Sipopo, Santiago de Baney, Belebu, Concepcion, Batete, Basile, Moraka, Bilelipa, Bakake, Basakato, Musola, Balueri, Ilachi. Cannot meet the 'all seeds confirmed against primary sources' standard for 'verified'; entry left unverified. No JS file modified."
-    }
-  },
-  {
     "name": "Piya",
     "i": 200149,
     "min": 4,
@@ -10369,26 +9712,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Bousso,Nara,Bilamtou,Djoumour,Delban,Madjoum,Mongola,Moddel,Gorokolon,Bougour,Boungoulti,Motmasa,Tendia,Gofena,Touka,Iroua",
     "status": "WAITING"
-  },
-  {
-    "name": "Setlôkwa",
-    "i": 200163,
-    "min": 5,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Botlokwa,Matoks,Machaka,Mphakane,Ramokgopa,Manthata,Ga-Makgato,Mohodi,Ga-Maponto,Ga-Moleele,Ga-Phasha,Dikgading,Ga Maphosa,Ga-Polatla,Ga-Ribane,Lebowa,Nyakelang,Pangan,Rambo,Sekonye,Springs,Mmatlala,Ga-Mokgehle,Ga-Poopedi,Morbeng,Ga-Kgara,Ha-Madikana",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Tl%C3%B4kwa_people",
-        "https://iso639-3.sil.org/code/nso"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language = Setlôkwa, the Northern Sotho (Pedi [nso]) variety of the Batlôkwa. Batlôkwa reside in boTlokwa north of Polokwane, Limpopo province, South Africa; Batlokwa Ba Ga Machaka and Ramokgopa; Kgosi Manthata moved to Mohodi next to Senwabarwana; Batlôkwa ba Mphakane under Kgosi Machaka; Lebowa (former homeland). ISO 639-3 nso = Pedi/Northern Sotho (active/living). Confirmed seeds: Botlokwa (boTlokwa area), Machaka, Ramokgopa, Manthata, Mohodi, Mphakane, Lebowa. Not individually confirmable from reachable primary sources: Matoks, Ga-Makgato, Ga-Maponto, Ga-Moleele, Ga-Phasha, Dikgading, Ga Maphosa, Ga-Polatla, Ga-Ribane, Nyakelang, Pangan, Rambo, Sekonye, Springs, Mmatlala, Ga-Mokgehle, Ga-Poopedi, Morbeng, Ga-Kgara, Ha-Madikana. Cannot meet the 'all seeds confirmed against primary sources' standard for 'verified'; entry left unverified. No JS file modified."
-    }
   },
   {
     "name": "Sha",
@@ -10635,25 +9958,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tal",
-    "i": 200181,
-    "min": 3,
-    "max": 11,
-    "d": "",
-    "m": 0.1,
-    "b": "Tal,Mudong,Pangya,Kabiyak,Pangpia,Yong,Basnong,Ballong,Takum,Kiyam,Munggar,Puyam,Dazaleng,Kong Ballam,Katim,Mungne,Kongkol,Mungkot,Kong Bong,Hantul,Dungyel,Tangge,Mungyim,Kwonya,Kwahi,Dasuwang,Ngem",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Tal_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language = Tal [tal], a West Chadic (Afroasiatic) language of Plateau State, Nigeria (Glottolog tall1250), spoken in a cluster of 53 villages east of the Panyam-Shendam road; dialects Bongmuut, Buzuk, Nbaal, Muɗak, Muɗong, Takong. Problems: seed 'Tal' is the language name itself used as a seed (self-reference, disallowed by guardrails); seed 'Takum' is a town in Taraba State, outside the documented Tal (Plateau State) area. Remaining seeds (Mudong, Pangya, Kabiyak, Pangpia, Yong, Basnong, Ballong, Kiyam, Munggar, Puyam, Dazaleng, Kong Ballam, Katim, Mungne, Kongkol, Mungkot, Kong Bong, Hantul, Dungyel, Tangge, Mungyim, Kwonya, Kwahi, Dasuwang, Ngem) are not individually confirmable as Tal-area settlements from reachable primary sources. Entry left unverified. No JS file modified."
-    }
-  },
-  {
     "name": "Tala",
     "i": 200182,
     "min": 4,
@@ -10850,25 +10154,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tiro",
-    "i": 200194,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Tira Mande,Tira Lomon,Gabri,Kummu,Kattei,Ngadhado,Kalkadda,Ndorndo,Ardhan,Kalkada,Loro,Dordo,Kidi,Konyoro,Kamdang,Kerending,Kujur,Kurnindi,Ndurrdu,Logorr,Tturro,Kumu,Ttombore,Tumbula,Tira Denga,Gabri Kadda,Kerekker",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Tiro_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language = Tiro / Thiro / Tira [tic], a Heiban (Kordofanian, Niger-Congo) language of the Nuba Hills, South Kordofan, Sudan (Glottolog tira1254; ethnicity Tira). Seeds read largely as language/subgroup/area names rather than settlements: 'Tira Mande', 'Tira Lomon', 'Tira Denga' (Tira subgroups/areas), 'Gabri' and 'Gabri Kadda' (Gabri is a related Kordofanian language), plus Kummu, Kattei, Ngadhado, Kalkadda/Kalkada, Ndorndo, Ardhan, Loro, Dordo, Kidi, Konyoro, Kamdang, Kerending, Kujur, Kurnindi, Ndurrdu, Logorr, Tturro, Kumu, Ttombore, Tumbula, Kerekker. None individually confirmable as settlements in Tiro's documented area from reachable primary sources. Entry left unverified. No JS file modified."
-    }
-  },
-  {
     "name": "Tobanga",
     "i": 200195,
     "min": 4,
@@ -10932,31 +10217,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Ter,Liwi,Mougour,Dagour,Déra,Abour,Amdamangan",
     "status": "WAITING"
-  },
-  {
-    "name": "Tsotsitaal and Camtho, aka Iscamtho",
-    "i": 200199,
-    "min": 3,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Thokoza,Diepkloof,Meadowlands,Zola,Jabulani,Naledi,Moletsane,Orlando,Pimville,Dube,Rockville,Mofolo,Senaoane,Phiri,Emndeni,Tladi,Zondi,Mapetla,White City,Moroka,Nancefield,Protea Glen,Klipspruit,Freedom Park",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Tsotsitaal_and_Camtho",
-        "https://iso639-3.sil.org/code/fly",
-        "https://iso639-3.sil.org/code/cmt",
-        "https://www.geonames.org/search.html?q=Soweto&country=ZA",
-        "https://www.geonames.org/search.html?q=Alexandra&country=ZA",
-        "https://www.geonames.org/search.html?q=Tembisa&country=ZA",
-        "https://www.geonames.org/search.html?q=Katlehong&country=ZA"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "ISO 639-3 fly = Tsotsitaal, cmt = Camtho (both Active, Individual, Living). Glottolog tsot1242 (Tsotsitaal), camt1236 (Camtho/Iscamtho). Wikipedia confirms language spoken in townships of Gauteng province including Soweto, Tembisa. GeoNames confirms Soweto, Alexandra, Tembisa, Katlehong, Mapetla, Zondi, Naledi, Zola, Senaoane as sections of populated place in Johannesburg/Gauteng. Freedom Park only found in North West province (Rustenburg), not Gauteng/Soweto - questionable seed. Remaining seeds (Vosloorus, Thokoza, Diepkloof, Meadowlands, Jabulani, Moletsane, Pimville, Dube, Rockville, Mofolo, Phiri, Emndeni, Tladi, White City, Moroka, Nancefield, Protea Glen, Klipspruit) not individually confirmed against primary sources. Cannot mark verified without primary-source URL for every seed."
-    }
   },
   {
     "name": "Tsuvan",
@@ -11471,26 +10731,6 @@ window.africaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Tuareg Tamasheq",
-    "i": 201014,
-    "min": 1,
-    "max": 17,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Timbuktu,Kidal,Gao,Agadez,Tamanrasset,Ghat,Adrar des Ifoghas,Aïr,Hoggar,Ténéré,Azawagh,Ansongo,Tessalit,Mopti,Tombouctou,In Tabarabar,Tin Eker,Tahoua,In-Gall,Tchirozerine,Arlit,Maradi,Zinder,Diffa,Tillabéri,Dosso,Niamey,Bamako,Sikasso",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Tamasheq_language",
-        "https://iso639-3.sil.org/code/taq"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "ISO 639-3 taq = Tamasheq. Glottolog tama1365 (from Wikipedia). Spoken mostly in Mali, especially central region including Timbuktu, Kidal, Gao (Wikipedia). Multiple seed list issues: (1) Timbuktu and Tombouctou are the same city (French spelling) = duplicate. (2) Adrar des Ifoghas, Aïr, Hoggar are mountain ranges, not settlements. (3) Ténéré is a desert, Azawagh is a basin/region - not settlements. (4) Bamako and Sikasso are in southern Mali, outside the Tamasheq-speaking area. (5) Mopti is on the edge of the area. These are not valid settlement seeds for this language entry."
-    }
-  },
-  {
     "name": "Tugurt",
     "i": 201015,
     "min": 4,
@@ -11535,27 +10775,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:35.767Z",
       "notes": "Zuwara Berber (Glottocode: tuni1262, Tunisian-Zuwara Berber; ISO 639-3: none/mis, treated as Nafusi variety per Ethnologue) is an East Zenati Berber language spoken in Zuwara, a coastal city at 32.9° N 12.1° E in northwestern Libya (JIPA, Cambridge). All seeds are towns in Tripolitania/northwestern Libya. Confirmed: Zuwara (main city), Zanzur (near Riqdalin per Libya Observer), Sabratha, Sorman, Ajaylat (per List of cities in Libya), Riqdaleen/Riqdalin (Libya Observer), Jmail/Al-Jmail (near Riqdalin), Tripoli, Al Maya, Azizia/'Aziziya, Garian/Gharian, Tajura, Qasr Bin Ghashir (Wikipedia), Janzour (coastal town near Tripoli), Sidi al-Saeh (zu.wikipedia, Tripoli district), Mellitah (Mellitah Oil & Gas, Libya), Msallata (List of cities in Libya). 17/25 seeds individually confirmed. Eight seeds (Mazraat Sahl, Gargaresh, Sabaa, Bu Ghilan, Suq al Jumaa, Wadi al Rabi, Zahra, Ras al-Mammura) not individually located but are plausible Libyan town names in the Zuwara/Tripolitania area. No duplicates, non-place tokens, self-references, or synthetic seeds detected."
-    }
-  },
-  {
-    "name": "Santiago Creole",
-    "i": 201364,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Praia,Cidade Velha,Assomada,Tarrafal,Pedra Badejo,Calheta de São Miguel,São Domingos,Santa Catarina,Santa Cruz,Órgãos,Picos,João Teves,Ribeirão Chiqueiro,Achada Monte,Boa Entrada,Achada Fazenda,Ponta Moreia,Ponta Temerosa,Serra Malagueta,Ribeira Seca,Ribeira Principal,Achada Grande,Djab di Povo,Sábia,Lém Cachorro,Varzea,Achadinha,Palmarejo,Terra Branca",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Cape_Verdean_Creole",
-        "https://iso639-3.sil.org/code/kea",
-        "https://www.geonames.org/search.html?q=Praia&country=CV"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "ISO 639-3 kea = Cape Verdean Creole. Glottolog kabu1256 (from Wikipedia). Santiago variant spoken on Santiago Island, Cape Verde, including capital Praia (Wikipedia). GeoNames confirms Praia, Palmarejo, Terra Branca, Achadinha, Achada Grande as populated places/sections in Praia, Cabo Verde. Seed list issues: (1) Santa Catarina, Santa Cruz, São Domingos are municipalities (concelhos) on Santiago, not settlements. (2) Serra Malagueta is a mountain range, not a settlement. (3) Ribeira Seca and Ribeira Principal are river/valley names (Ribeira = stream in Portuguese), not settlements. These are not valid settlement seeds."
     }
   },
   {
@@ -11631,26 +10850,6 @@ window.africaNameBases = [
     "m": 0,
     "b": "Holma, Sarau, Bafere, Dagchere, Jababa, Jalingo Mbamba, Jamtari, Jilang, Kolwa, Kungoli, Kwagol, Laide, Massagala, Mayo Vamde, Njanyi, Njilang, Walewal Manga, Watango Jamtari, Wuro Ahmadu, Wuro Badde, Wuro Gende, Wuro Mallam",
     "status": "WAITING"
-  },
-  {
-    "name": "Teshenawa",
-    "i": 202381,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Teshenawa,Kafin Hausa,Kiyawa,Dutse,Birnin Kudu,Ringim,Garki,Bulkachuwa,Auyo,Miga,Jahun,Hadejia,Keffin Hausa,Kwanda,Tsabare,Budur,Bulanguwa,Sabaru,Dangwanki,Madachi,Dashe,Abayo,Mazawa,Shamaki,Kofar Kafin Hausa,Guri Ta Kudu,Janbako,Chamo,Marma,Gantsa,Machinawa,Guri",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Teshenawa_language",
-        "https://www.ethnologue.com/language/twc"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Teshenawa (twc) is an extinct Afro-Asiatic (West Chadic, Bade) language formerly spoken in Teshena town, Kafin Hausa LGA, Jigawa State, Nigeria (Glottolog tesh1239, Ethnologue 13th ed.). Entry cannot be verified: (1) seed 'Teshenawa' is the language name itself (self-reference, not a settlement); (2) near-duplicate seeds 'Kafin Hausa', 'Keffin Hausa', 'Kofar Kafin Hausa' all refer to the same LGA; (3) numerous seeds (Bulkachuwa, Jahun, Kwanda, Tsabare, Budur, Bulanguwa, Sabaru, Dangwanki, Madachi, Dashe, Abayo, Mazawa, Shamaki, Guri Ta Kudu, Janbako, Chamo, Marma, Gantsa, Machinawa) could not be verified as real settlements against primary sources; (4) language is extinct, so no current settlement corpus exists. Insufficient sources to confirm all seeds."
-    }
   },
   {
     "name": "Yoruba",
@@ -12309,30 +11508,6 @@ window.africaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-14T22:05:00Z",
       "notes": "Verified 77 unique Xhosa settlements in South Africa (Eastern Cape)."
-    }
-  },
-  {
-    "name": "Wali",
-    "i": 2063,
-    "min": 2,
-    "max": 9,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Wa,Charia,Kperisi,Bamahu,Busa,Boli,Nakore,Kpongu,Danko,Sing,Sagu,Piisi,Guli,Konjiahi,Gberu,Jonga,Yibile,Loho,Chansa,Anhiwienu,Belinga,Chegli,Kaleo,Dorimon,Dabo,Wechiau,Vieri,Loggu,Manwe,Nyagili",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/wali1263",
-        "http://ethnologue.com/language/wlx",
-        "https://iso639-3.sil.org/code/wlx",
-        "https://en.wikipedia.org/wiki/Wali_language_%28Gur%29",
-        "https://en.wikipedia.org/wiki/Wa,_Ghana",
-        "https://mapcarta.com/16950200"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Wali (Waali, Ghana): ISO 639-3 wlx, Glottolog wali1263, Ethnologue wlx. Spoken mainly in and around Wa, capital of the Upper West Region, Ghana (also Northern Region); Glottolog lists Ghana only. Confirmed real Wali-area settlements (Wa and nearby villages, Upper West Ghana): Wa, Charia, Kperisi, Bamahu, Kpongu (places adjacent to Wa per Wa, Ghana infobox), Kaleo (Nadowli-Kaleo District, ~18.5 km NW of Wa), Wechiau (Wa West District capital), Dorimon (Wa West paramountcy), Vieri (Wa West area council), Nakore (ancient mosque, Wa), Chansa (village in Wa Municipal District near Nakore per Mapcarta). Could NOT confirm the following 16 seeds against primary sources: Boli, Danko, Sing, Sagu, Piisi, Guli, Konjiahi, Gberu, Jonga, Yibile, Loho, Anhiwienu, Chegli, Dabo, Manwe, Nyagili. 'Belinga' only appears as the Belinga iron-ore deposit in NE Gabon (Fortescue/Ivindo Iron), not as a documented Wali-area settlement in Ghana - likely wrong-region or non-place. Cannot verify all 30 seeds against primary sources, so per guardrails (verify every seed; if unsure mark unverified; never guess) the entry is unverified. No duplicates, no language-name-as-seed, no non-place/digit tokens detected. All 30 seeds kept; none deleted (no data removed without proof of invalidity). Entry flagged unverified due to insufficient primary-source coverage."
     }
   },
   {

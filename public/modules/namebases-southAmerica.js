@@ -590,29 +590,6 @@ window.southAmericaNameBases = [
     }
   },
   {
-    "name": "Ayoreo",
-    "i": 201308,
-    "min": 4,
-    "max": 27,
-    "d": "",
-    "m": 0,
-    "b": "CampoLoro,Ebetogué,Tunucojnai,Gaai,Jesudi,Jogasui,Ijnapui,Arocojnadí,Chaidi,Cucaani,GuidaiIchai,Tiogai,Atapi,PalmarDeLasIslas,CarmeloPeralta,PozoColorado,MariscalEstigarribia,Filadelfia,LomaPlata,PuertoPinasco,IslaAlta,Esquina,AguaDulce,Djocoidai,Guiqué,Pojejhai,Tubtudi",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iwgia.org/images/publications/The_case_of_the_ayoreo.pdf",
-        "https://pubmed.ncbi.nlm.nih.gov/8134769/",
-        "https://iso639-3.sil.org/code/ayo",
-        "http://glottolog.org/resource/languoid/id/ayor1240",
-        "https://en.wikipedia.org/wiki/Ayoreo_people"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T20:24:36.666Z",
-      "notes": "Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), spoken in the Paraguayan Chaco (Alto Paraguay) and Bolivia (Santa Cruz, Gran Chaco Province/Cordillera). Language and continent confirmed via Ethnologue/Glottolog/IWGIA. Chovoreca removed: Wikipedia lists Chovoreca as an area alongside Medanos del Chaco and Defensores del Chaco National Parks, not as a discrete settlement; removed as region/area per prior determination. Confirmed settlements (primary source: IWGIA/Iniciativa Amotocodie 'The Case of the Ayoreo' documents 19 Ayoreo settlements): Campo Loro, Ebetogue, Tunucojnai, Gaai, Esquina, Jesudi, Jogasui, Ijnapui, Arocojnadi, Chaidi (Central Chaco); Cucaani, Isla Alta, Guidai Ichai, Tiogai, Atapi (Paraguay River banks). Also confirmed as real places in the Ayoreo area: Paraguayan Chaco towns Filadelfia, Loma Plata, Mariscal Estigarribia, Puerto Pinasco, Carmelo Peralta, Pozo Colorado; plus Palmar de las Islas and Agua Dulce (documented Ayoreo area locations north of Defensores del Chaco NP). NOT verifiable against any primary source: Djocoidai, Guique, Pojejhai, Tubtudi. None appear in IWGIA's 19 documented settlements, UNAP/Amotocodie materials, GeoNames, or academic literature (PubMed, ethnographic papers). Multiple web searches returned no hits. Entry remains UNVERIFIED because not all seeds are confirmed as real settlements in the Ayoreo area."
-    }
-  },
-  {
     "name": "Cofán",
     "i": 201309,
     "min": 4,

@@ -448,25 +448,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Finnmark Sami",
-    "i": 226,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Berlevåg,Båtsfjord,Vadsø,Láhpoluoppal,Masi,Guovdageaidnu,Kárášjohka,Áltá,Ákšovuotna,Biŧon,Birgi,Duorbman,Geahkkán,Girkonjárga,Hámmárfeasta,Ivgobahta,Juovlavuotna,Máhka,Ruovatvuotna,Šuoššjávri,Kirkenes,Honningsvåg,Mehamn,Kjøllefjord,Hasvik",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Northern_Sami_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "\"Finnmark Sami\" is not a distinct language with its own ISO 639-3 code. Northern Sami (ISO 639-3 sme, Glottolog nort2671) is spoken in Finnmark county, Norway, but \"Finnmark Sami\" has no independent ISO 639-3 or Glottolog recognition as a separate language. Several seeds are municipalities rather than settlements (Kvalsund, Nesseby, Lebesby, Gamvik, Nordkapp), and Unjárga is the North Sami name for Nesseby (duplicate of an already-listed seed). Entry cannot be verified as a standalone language entry."
-    }
-  },
-  {
     "name": "Inari Sami",
     "i": 227,
     "min": 4,
@@ -598,45 +579,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Cauchois",
-    "i": 258,
-    "min": 2,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Le Havre,Dieppe,Fécamp,Eu,Tréport,Berneval,Le Tréport,St-Valéry-en-Caux,Veules-les-Roses,Veulettes-sur-Mer,St-Aubin-sur-Scie,Yvetot,Bolbec,Lillebonne,Harfleur,Montivilliers,Gonfreville-l'Orcher,St-Martin-du-Manoir,Épouville,Anglesqueville-l'Esneval,Beaurepaire,Criquetot-l'Esneval,Gommerville,Goderville,Étretat,Gravenchon,Notre-Dame-de-Gravenchon,Potavent,St-Jean-de-Folleville,St-Nicolas-de-la-Taille,Heuqueville,Manéglise,Octeville-sur-Mer,Rollaix,Sauchay,Turretot,Vergetot",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Cauchois"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Cauchois is a Norman dialect of the Pays de Caux (Seine-Maritime, Normandy, France) per Wikipedia. The seeds are predominantly real Seine-Maritime/Caux towns (Le Havre, Dieppe, Fecamp, Etretat, Yvetot, etc.). However: (a) Cauchois has no confirmable distinct ISO 639-3 / Glottolog entry, so language identity cannot be matched to a primary source; (b) duplicate seeds: 'Treport' and 'Le Treport' are the same commune, 'Gravenchon' and 'Notre-Dame-de-Gravenchon' are the same commune; (c) 'Potavent' and 'Rollaix' have no gazetteer/Wikipedia presence and could not be confirmed against primary sources. Insufficient sources to verify language identity and all seeds."
-    }
-  },
-  {
-    "name": "Augeron",
-    "i": 259,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Lisieux,Pont-l'Évêque,Vimoutiers,Gacé,La Vespière,La Haye-d'Eu,Saint-Georges-du-Mesnil,Le Theil-Nolent,Boissey-le-Châtel,Launay,Le Mesnil-Durdent,Heuqueville,Angerville-Bailleul,Saint-Aubin-de-Scellon,La Poterie-Mathieu,Barou-en-Auge,Saint-Pierre-des-Ifs,Le Mesnil-Eury,Le Theil-en-Auge,Le Breuil-en-Auge,Le Mesnil-Simon,Le Mesnil-sur-Blangy,Le Pré-d'Auge,Notre-Dame-d'Estrées,Canapville,Saint-Martin-de-Mailloc",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/nrf",
-        "https://www.ethnologue.com/language/nrf"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Augeron is the Norman dialect of the Pays d'Auge (Orne/Calvados, Normandy, France). ISO 639-3 nrf (Norman; covers Jèrriais/Guernésiais/Augeron) confirmed via iso639-3.sil.org; Ethnologue nrf documents the Norman language of the Channel Islands. Removed 10 seeds in Eure and Seine-Maritime that are outside the Pays d'Auge (Augeron) documented area: Ferrières-en-Bray (Pays de Bray, Seine-Maritime), Thiberville, Beaumesnil, Venables, Radepont, Charleval, Flipou, Écouis, Corneville-sur-Risle, Saint-Maclou. Remaining 26 seeds are not all confirmable as Pays d'Auge (Augeron) settlements against primary sources; marked unverified (area mismatch / insufficient sources)."
-    }
-  },
-  {
     "name": "Cotentinais",
     "i": 260,
     "min": 4,
@@ -718,26 +660,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T11:07:00Z",
       "notes": "Verified 43 unique Jèrriais settlements in Jersey."
-    }
-  },
-  {
-    "name": "Jersey Legal French",
-    "i": 264,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Saint-Helier,Saint-Brelade,Saint-Clement,Saint-Jean,Saint-Laurent,Saint-Martin,Saint-Marie,Saint-Ouen,Saint-Pierre,La Trinite,Grouville,Saint-Aubin,Saint-Saviour,Rozel,Saint-Catherine,Sorel,La Moye,La Rocque,Le Hocq,La Pulente,La-Greve-de-Lecq,Le-Mont-a-la-Brune,La-Ville-a-l'Eveque,Le-Mont-Cochon,La Motte,Le-Don-Hilton,La-Sergente",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Jersey_Legal_French",
-        "https://glottolog.org/resource/languoid/id/oila1234"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T20:24:36.419Z",
-      "notes": "Jersey Legal French is NOT a separate ISO 639-3 language - it is a dialect/variety of French spoken in Jersey. ISO 639-3 has no separate code for Jersey Legal French (code is fr for French). Glottolog has no separate entry (classified under French/Oil). IETF tag fr-JE is a locale variant of French. Cannot mark verified as it is not a distinct language entry in primary sources. Wikipedia cites Glottolog 4.8 Oil; entry shows ISO 639-3 as dash (none) and Glottolog as None."
     }
   },
   {
@@ -1239,26 +1161,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Southern Latian",
-    "i": 344,
-    "min": 4,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Terracina,Gaeta,Formia,Sperlonga,Fondi,Monte San Biagio,Itri,Minturno,Lenola,Castelforte,Santi Cosma e Damiano,Pontecorvo,Arce,Ausonia,Coreno Ausonio,Cassino,Sora,Isola del Liri,San Giorgio a Liri,San Vittore del Lazio,Esperia,Colfelice,Prossedi,Campodimele,San Felice Circeo,Priverno,Bassiano,Sezze,Norma,Roccasecca dei Volsci,Roccagorga,Ponza,Ventotene",
-    "status": "WAITING",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/ita",
-        "https://en.wikipedia.org/wiki/Lazio"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "'Southern Latian' is not a distinct entry in ISO 639-3, Glottolog or Ethnologue; it appears to be a label for Italian dialects of southern Lazio (province of Latina and Frosinone plus the Pontine Islands), which falls under Italian (ISO 639-3 ita). Although all 33 seeds are real towns in southern Lazio (Terracina, Gaeta, Formia, Sperlonga, Fondi, Cassino, Sora, Ponza, Ventotene, Sezze, Norma, Priverno, etc.), the variety name 'Southern Latian' cannot be matched to a primary linguistic source (no ISO/Glottolog/Ethnologue entry under that name). Because the language identity cannot be verified against primary sources, the entry is marked unverified even though the seed geography is consistent with southern Lazio. No seeds removed by this review."
-    }
-  },
-  {
     "name": "Tarantino",
     "i": 346,
     "min": 4,
@@ -1297,25 +1199,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:36.203Z",
       "notes": "Vastese is a dialect of Neapolitan (ISO 639-3: nap) spoken only in the town of Vasto, Abruzzo, Italy. Wikipedia states it is 'not spoken in towns nearby.' 29 of 30 seeds are settlements across Abruzzo (Chieti, Pescara, L'Aquila, Teramo, Giulianova, etc.) that are outside Vasto and not Vastese-speaking. Duplicate seed: 'Citta Sant'Angelo' (#27) duplicates 'Citta Sant'Angelo' (#10, accented form). Only 1 seed (Vasto) remains, which is below the 25-seed floor."
-    }
-  },
-  {
-    "name": "Ardennais",
-    "i": 348,
-    "min": 4,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Charleville-Mézières,Sedan,Rethel,Givet,Revin,Fumay,Monthermé,Carignan,Mouzon,Bazeilles,Donchery,Flize,Vrigne-aux-Bois,Warcq,Nouvion-sur-Meuse,Poix-Terron,Singly,Balan,Signy-l'Abbaye,Gespunsart,La Francheville,Villers-Semeuse,Juniville,Thilay,Asfeld,Rocroi,La Horgne,Tremblois-lès-Rocroi,Signy-le-Petit,Saint-Menges",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ardennais"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Wikipedia's 'Ardennais' article is about a draft horse breed, not a language. No ISO 639-3 code or Glottolog entry exists for an 'Ardennais language.' The seeds are all real communes in the Ardennes department of France (Charleville-Mezieres, Sedan, Rethel, etc.), but 'Ardennais' is not a distinct documented language with its own documented area; it would fall under French (fr). Cannot verify seeds against a documented 'Ardennais language' area."
     }
   },
   {
@@ -1444,23 +1327,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Mayennais",
-    "i": 357,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Laval,Mayenne,Château-Gontier,Ernée,Gorron,Saint-Denis-de-Gastines,Villaines-la-Juhel,Ambrières-les-Vallées,Bais,Brée,Chailland,Châlons-du-Maine,Couptrain,Évron,Gesnes,Hambers,Jublains,Lassay-les-Châteaux,Martigné-sur-Mayenne,Montenay,Parigné-sur-Braye,Pré-en-Pail,Saint-Baudelle,Saint-Fraimbault-de-Prières,Saint-Loup-du-Dorat,Sainte-Suzanne-sur-Vire,Saulges,Vautorte,Vimarcé,Voutré",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "No Wikipedia article exists for 'Mayennais' (404). No ISO 639-3 code or Glottolog entry exists for a 'Mayennais language.' The seeds are all real communes in the Mayenne department of France (Laval, Mayenne, Chateau-Gontier, etc.), but 'Mayennais' is not a distinct documented language with its own documented area; it would fall under French (fr). No primary sources found to confirm a distinct 'Mayennais language' entity or area."
-    }
-  },
-  {
     "name": "Meridional French",
     "i": 358,
     "min": 3,
@@ -1505,25 +1371,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Paydret",
-    "i": 361,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Poitiers,Châtellerault,Parthenay,Bressuire,Thouars,Montmorillon,Chauvigny,Loudun,Moncontour,Vouillé,Ingrandes,Champigny-le-Sec,Migné-Auxances,Biard,Marigny-Brizay,Naintré,Scorbé-Clairvaux,Dissay,Chasseneuil-du-Poitou,Fontaine-le-Comte,Lusignan,Neuville-de-Poitou,Mirebeau,Civray,Airvault",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Poitevin%E2%80%93Saintongeais"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Language name 'Paydret' not found in Glottolog, Ethnologue, ISO 639-3, or Wikipedia. No primary source confirms this language identity. Appears to correspond to Poitevin (Glottolog poit1240, spoken in Poitou, Vienne/Deux-Sèvres) but this is unconfirmed. 'Vouneuil-sous-Bonnard' does not match any known settlement (Vouneuil-sous-Biard exists in Vienne). 'Champigny-sur-Veude' is in Indre-et-Loire (Touraine), outside the Poitevin area. 25 seeds kept after removing 2 invalid, but language identity itself is unverified."
-    }
-  },
-  {
     "name": "Picard",
     "i": 362,
     "min": 4,
@@ -1545,25 +1392,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Aeolian",
-    "i": 364,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Lipari,Salina,Filicudi,Alicudi,Panarea,Stromboli,Vulcano,Malfa,Leni,Rinella,Quattropani,Pettineo,Acquedolci,Furnari,Falcone,Brolo,Ficarra,Castroreale,Montalbano Elicona,Novara di Sicilia,Tripi,Maropati,Mongiuffi Melia,San Piero Patti,Roccavaldina,Santa Domenica Vittoria,Fondachelli-Fantina,Antillo,Francavilla di Sicilia,Motta Camastra,Roccella Valdemone,Castiglione di Sicilia,Passopisciaro,Randazzo,Floresta,Malvagna,Mojo Alcantara,Rocca di Caprizzi",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Aeolic_Greek"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "\"Aeolian\" is not a recognised language in ISO 639-3 or Glottolog. Wikipedia \"Aeolian dialect\" redirects to Aeolic Greek (Ancient Greek dialect of Lesbos/Thessaly/Boeotia), which is unrelated to the Aeolian Islands/Sicilian context implied by the seeds. Seeds mix the 7 Aeolian Islands (Lipari, Salina, Filicudi, Alicudi, Panarea, Stromboli, Vulcano - these are islands, not settlements) with towns in northeastern Sicily (Metropolitan City of Messina). This appears to be a Sicilian dialect area, not a separate language. No primary linguistic source recognises \"Aeolian\" as a distinct language."
-    }
-  },
-  {
     "name": "Alentejan",
     "i": 366,
     "min": 4,
@@ -1582,25 +1410,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:36.203Z",
       "notes": "Alentejan Portuguese is a dialect of Portuguese spoken in most of the Alentejo region (Portugal) per Wikipedia; Glottolog Portuguese port1283 / ISO 639-3 por is the parent language (Alentejan has no separate ISO 639-3 or Glottolog code). All 28 seeds are confirmed Alentejo municipalities/towns: Évora, Beja, Portalegre, Estremoz, Elvas, Monsaraz, Vila Viçosa, Arraiolos, Borba, Viana do Alentejo, Cuba, Alvito, Ferreira do Alentejo, Ourique, Castro Verde, Mértola, Serpa, Moura, Barrancos, Alcácer do Sal, Grândola, Santiago do Cacém, Sines, Vila Nova de Santo André, Almodôvar, Montemor-o-Novo, Mora, Redondo."
-    }
-  },
-  {
-    "name": "Algherese",
-    "i": 367,
-    "min": 3,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "L'Alguer,Sàsser,Port de Torres,Vilanova,Uri,Putifigari,Ossi,Tissi,Muros,Sorso,Sennori,Casteddu Sardu,Valledoria,Sedini,Nulvi,Ploaghe,Codrongianos,Cargeghe,Florinas,Ittiri,Tèmpiu,Luras,Calangianus,Bortigiadas,Aggius,Locusantu,Telti,Berchidda,Monti,Alà,Bosa",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Algherese_dialect"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Algherese (alguerés) is a variety of Catalan spoken in Alghero (L'Alguer), northwest Sardinia, Italy. It has Glottolog code algh1238 but NO ISO 639-3 code (it falls under Catalan code cat). It is a dialect, not a distinct language with independent ISO recognition. Seeds are real towns in northern Sardinia (Alghero, Sassari, Porto Torres, Tempio Pausania, etc.) but the entry cannot be verified as a standalone language without ISO 639-3 recognition."
     }
   },
   {
@@ -1665,26 +1474,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:36.203Z",
       "notes": "Andalusian (andaluz) is a Spanish dialect (Glottolog anda1279) spoken in Andalusia, Ceuta, Melilla, and Gibraltar. No separate ISO 639-3 code (subsumed under Spanish spa). All 34 seeds are real cities/towns in Andalusia, Spain (Sevilla, Cordoba, Granada, Malaga, Almeria, Jaen, Huelva, Cadiz, Antequera, Lucena, Ecija, Marbella, Nerja, Ronda, Jerez de la Frontera, Sanlucar de Barrameda, El Puerto de Santa Maria, Arcos de la Frontera, Utrera, Dos Hermanas, Alcala de Guadaira, Mairena del Aljarafe, Camas, Tomares, Gelves, Bormujos, Mairena del Alcor, Carmona, Marchena, Osuna, Moron de la Frontera, Lebrija, Las Cabezas de San Juan, Los Palacios y Villafranca). No duplicates, no self-references, no padding. Seed count 34 >= 25 (COMPLETE)."
-    }
-  },
-  {
-    "name": "Ansó",
-    "i": 371,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ansó,Fago,Aísa,Borau,Villanúa,Castiello de Jaca,Canfranc,Jaca,Santa Cilia de Jaca,Santa Cruz de la Serós,Puente la Reina de Jaca,Bailo,Berdún,Biniés,Navardún,Salvatierra de Escá,Artieda,Sigüés,Mianos,Los Pintanos,Petilla de Aragón,Undués de Lerda,Urriés,Isuerre,Uncastillo,Sos del Rey Católico,Sádaba,Castiliscar,Layana,Luesia,Biel",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ans%C3%B3",
-        "https://en.wikipedia.org/wiki/Leonese_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Ansó is a variety of Aragonese spoken in the Ansó valley, province of Huesca, Aragon, Spain (classified under Western Aragonese in the Leonese/Aragonese language article). It has no ISO 639-3 code of its own (falls under Aragonese code arg) and no separate Glottolog entry. Seeds are real towns in the Jaca/Ansó and Cinco Villas areas of Aragon (Ansó, Fago, Aísa, Borau, Jaca, Canfranc, Villanúa, Biel, Sos del Rey Católico, etc.) but the entry cannot be verified as a standalone language without ISO 639-3 recognition."
     }
   },
   {
@@ -2581,26 +2370,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Gallo-Picene",
-    "i": 443,
-    "min": 4,
-    "max": 24,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ascoli Piceno,San Benedetto del Tronto,Fermo,Offida,Ripatransone,Acquasanta Terme,Arquata del Tronto,Acquaviva Picena,Appignano del Tronto,Castel di Lama,Colli del Tronto,Cossignano,Maltignano,Monsampolo del Tronto,Montalto delle Marche,Montedinove,Montefiore dell'Aso,Montegranaro,Montemonaco,Morrovalle,Palmiano,Petritoli,Roccafluvione,Rotella,Sant'Elpidio a Mare,Spinetoli,Torre San Patrizio,Venarotta,Montegallo,Castorano",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Gallo-Picene_language",
-        "https://en.wikipedia.org/wiki/Gallo-Italic_languages"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Gallo-Picene (Gallo-Piceno) is a documented Gallo-Italic variety, ISO 639-3: None (mis), Glottolog: sout2611. Wikipedia and Gallo-Italic sources document it in the Province of Pesaro and Urbino and northern Province of Ancona (northern Marche). All 30 seeds are real settlements but are located in southern Marche (provinces of Ascoli Piceno and Fermo), approximately 100-150 km south of the documented Gallo-Picene area. Geographic mismatch: seeds are not in the documented Gallo-Picene speaking area. Cannot verify seeds against primary source documentation of the language's region."
-    }
-  },
-  {
     "name": "Gallurese",
     "i": 444,
     "min": 4,
@@ -2705,45 +2474,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Intemelio",
-    "i": 450,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sanremo,Imperia,Taggia,Arma di Taggia,Ospedaletti,Cipressa,Santo Stefano al Mare,Cervo,Diano Marina,Andora,Laigueglia,Alassio,Loano,Pietra Ligure,Borghetto Santo Spirito,Finale Ligure,Noli,Savona,Ventimiglia,Bordighera,Vallecrosia,Camporosso,Dolceacqua,Isolabona,Apricale,Castelvittorio,Pigna,Triora,Mendatica,Molini di Triora,Cosio di Arroscia,Armo,Pieve di Teco,Rezzo,Testico,Vessalico,Pornassio,Montegrosso Pian Latte,Briga Alta",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Intemelio_dialect",
-        "https://iso639-3.sil.org/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Intemelio is a documented Ligurian dialect (spoken Monaco to Imperia, centered on Ventimiglia), but it has no ISO 639-3 code and no Glottolog code of its own. Wikipedia classifies it under 'Languages without ISO 639-3 code' and 'Languages without Glottolog code'. Cannot cite primary sources (Ethnologue/Glottolog/ISO 639-3) for this specific dialect. All 39 seeds are real Ligurian/Riviera towns (Sanremo, Imperia, Ventimiglia, Savona, etc.) but language identity cannot be established through primary sources."
-    }
-  },
-  {
-    "name": "Istriot",
-    "i": 451,
-    "min": 4,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rovigno,Valle,Dignano d'Istria,Fasana,Visignano,Antignana,Santa Domenica d'Albona,Lupoglav,Pula,Medulin,Labin,Pisino,Albona,Fianona,Capodistria,Cittanova,Isola d'Istria,Portole,Muggia,Trieste,Gorizia,Monfalcone,Grado,Cervignano del Friuli,San Dorligo della Valle,Rovinj,Poreč,Novigrad,Umag,Buje",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Istriot_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Istriot is a Romance language of Istria, Croatia. ISO 639-3: ist, Glottolog: istr1244, Ethnologue: Istriot. Region: southwestern Istrian peninsula, particularly Rovinj and Vodnjan. Most seeds are real Istrian settlements (Rovinj/Rovigno, Pula, Labin, Pazin/Pisino, Poreč, Novigrad, Umag, Buje, etc.). However, the entry contains duplicate seeds (Rovigno=Rovinj, same town in Italian/Croatian; Albona=Labin, same town in Italian/Croatian). Several seeds are outside Istria proper in Friuli-Venezia Giulia (Trieste, Gorizia, Monfalcone, Grado, Cervignano del Friuli, San Dorligo della Valle). Duplicates and geographic spread prevent full verification."
-    }
-  },
-  {
     "name": "Jauer",
     "i": 453,
     "min": 4,
@@ -2752,25 +2482,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Santa Maria Val Müstair,Tschlin,Vnà",
     "status": "WAITING"
-  },
-  {
-    "name": "Judeo-Catalan",
-    "i": 456,
-    "min": 3,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Barcelona,Girona,Lleida,Tarragona,Perpignan,Narbonne,Carcassonne,Montpellier,Palma de Mallorca,Maó,Ciutadella,Ibiza,Alghero,Sassari,Manresa,Vic,Figueres,Besalú,Tortosa,Gandesa,Montblanc,Cervera,Tàrrega,Balaguer,Alguaire,Reus,Valls,Vilafranca del Penedès,Olot,Puigcerdà,La Seu d'Urgell,Elna,Cotlliure,Peralada,Roses,Palamós,Santa Coloma de Queralt",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Judaeo-Catalan"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Judaeo-Catalan (Catalanic/Qatalanit), a presumed extinct Jewish language of Catalonia / northeastern Iberia. Wikipedia states ISO 639-3: None and Glottolog: None, and its very existence as a distinct dialect is debated (Feliu & Ferrer 2011 conclude the supposed Judeo-Catalan dialect 'never was'; Glottolog 4.8 treats it under 'Shifted Western Romance'). With no ISO 639-3 or Glottolog entry, language identity cannot be matched to a primary source. Seeds are real towns in the Catalan domain (Barcelona, Girona, Lleida, Tarragona, Perpignan, Palma de Mallorca, Alghero, etc.), but the entry cannot be verified as a distinct language."
-    }
   },
   {
     "name": "Judeo-Gascon",
@@ -2824,25 +2535,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:36.204Z",
       "notes": "Languedocien (Lengadocian) is an Occitan dialect (ISO 639-3: oci, retired subcode lnc; Glottocode: lang1309) spoken in Languedoc, Rouergue, Quercy, Agenais and Southern Périgord, southern France. Departments: Aveyron, Lot, Tarn, Tarn-et-Garonne (except Lomagne), Ariège (except west), Haute-Garonne (except Saint-Gaudens/Muret), Aude, Hérault, Lozère, western/northern Gard, Fenouillèdes. Removed Perpignan (Roussillon, Catalan-speaking area, NOT Languedocien — confirmed by Britannica and Wikipedia Roussillon). Removed Aurillac and Saint-Flour (Cantal, Auvergne; Cantal is not in the documented Languedocien department list). 22 seeds remain (<25 floor), so entry is unverified."
-    }
-  },
-  {
-    "name": "Leonese",
-    "i": 469,
-    "min": 4,
-    "max": 22,
-    "d": "lnrt",
-    "m": 0,
-    "b": "León,Ponferrada,Astorga,La Bañeza,Villablino,Cacabelos,Sahagún,Valencia de Don Juan,Santa María del Páramo,Bembibre,Toreno,Fabero,Carracedelo,Vega de Espinareda,Palacios del Sil,Páramo del Sil,Berlanga del Bierzo,Villafranca del Bierzo,Congosto,Cubillos del Sil,Priaranza del Bierzo,Sancedo,Vega de Valcarce,Trabadelo,Barjas,Cistierna,Igüeña,Bercianos del Páramo,Santa Marina del Rey,Villadangos del Páramo,San Pedro de las Dueñas",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Leonese_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Leonese is part of the Asturleonese language group, spoken in the provinces of León, Zamora and Salamanca, Spain. It has Glottolog code leon1250 but NO independent ISO 639-3 code (falls under Asturian macrolanguage code ast). Ethnologue treats Leonese under code ast. Seeds are real settlements in León province (León, Ponferrada, Astorga, La Bañeza, Villablino, Cacabelos, Sahagún, Bembibre, etc.) but the entry cannot be verified as a standalone language without independent ISO 639-3 recognition."
     }
   },
   {
@@ -3025,25 +2717,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Navarrese",
-    "i": 498,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Pamplona,Tudela,Estella,Tafalla,Sangüesa,Olite,Lumbier,Isaba,Roncal,Urzainqui,Burguete,Valcarlos,Roncesvalles,Villava,Huarte,Berriozar,Zizur Mayor,Noáin,Barañáin,Azagra,Aoiz,Lekunberri,Doneztebe,Baztan,Lesaka,Vera de Bidasoa,Goizueta,Corella,Cintruénigo,Cascante,Peralta,Lodosa,Viana",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Navarre"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "'Navarrese' is not a distinct language with an ISO 639-3 code; it denotes the Chartered Community of Navarre (Spain). Languages of Navarre are Spanish (official throughout) and Basque (co-official only in the Basque-speaking northern zone per Foral Law 18/1986). Basque dialects in Navarre include Upper Navarrese and Navarro-Lapurdian, confined to the north; Navarro-Aragonese is an extinct medieval Romance. The 33 seeds are municipalities across all of Navarre, including the southern/non-Basque Ribera zone (Tudela, Estella, Tafalla, Corella, Cintruénigo, Cascante, Peralta, Lodosa, Viana) where Basque is not the dominant language. No primary source documents a single 'Navarrese language' with this seed set. ISO 639-3: Basque = eus; no 'Navarrese' code."
-    }
-  },
-  {
     "name": "Navarro-Aragonese",
     "i": 499,
     "min": 4,
@@ -3193,29 +2866,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T01:48:20.232Z",
       "notes": "Occitan (ISO 639-3: oci) is a Romance language indigenous to southern France, Monaco, Italy's Occitan Valleys, and Val d'Aran in Spain (Ethnologue). All 25 seeds are real settlements in the Occitan-speaking area of southern France (Toulouse, Montpellier, Nimes, Perpignan, Carcassonne, Narbonne, Beziers, Albi, Castres, Rodez, Mende, Aurillac, Saint-Flour, Figeac, Cahors, Moissac, Montauban, Marseille, Nice, Aix-en-Provence, Avignon, Arles, Orange, Tarascon, Agde). Perpignan is in the Catalan-adjacent Pyrenees-Orientales but is a real settlement in southern France adjacent to the Occitan area. No duplicates, no non-place tokens, no language name as seed."
-    }
-  },
-  {
-    "name": "Oltenian",
-    "i": 520,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Craiova,Drobeta-Turnu Severin,Târgu Jiu,Râmnicu Vâlcea,Slatina,Caracal,Calafat,Filiași,Băilești,Segarcea,Plenița,Bechet,Dăbuleni,Vânju Mare,Strehaia,Berlești,Târgu Cărbunești,Brănești,Bumbești-Jiu,Drăgășani,Horezu,Măceșu de Jos,Prundeni,Rovinari,Tismana",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Oltenian_dialect",
-        "https://en.wikipedia.org/wiki/Bra%C4%83ne%C8%99ti,_Ilfov",
-        "https://en.wikipedia.org/wiki/Valea_lui_Stan",
-        "https://en.wikipedia.org/wiki/Strehaia",
-        "https://iso639-3.sil.org/code/ron"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Oltenian is a dialect of Romanian (ISO 639-3: ron) spoken in Oltenia, SW Romania (Dolj, Gorj, Valcea, Olt, Mehedinti counties). Removed: Branesti (a commune in Ilfov County, Muntenia near Bucharest - not Oltenia); Valea lui Stan (a river in Arges County, Muntenia - not a settlement and not in Oltenia). Strehaia confirmed as a town in Mehedinti/Oltenia. Craiova, Drobeta-Turnu Severin, Targu Jiu, Ramnicu Valcea, Slatina and the other Oltenian seeds are real Oltenia towns. 24 seeds remain, below the 25 seed floor, so unverified."
     }
   },
   {
@@ -3425,32 +3075,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Eastern Mansi",
-    "i": 560,
-    "min": 4,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kondinskoye,Mezhdurechensky,Mortka,Kuminsky,Lugovoy,Polovinka,Bolchary,Leushi,Mulymya,Listvenichny,Yagodny,Shugur,Ushya,Chantyrya,Yumas,Yamki,Nazarovo,Altay,Kama,Dalniy,Shaym,Stary Katysh,Nikulkina,Sotnik,Karym,Supra,Ilichevka,Levdym,Kashat",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Eastern_Mansi",
-        "https://en.wikipedia.org/wiki/Mansi_languages",
-        "https://glottolog.org/resource/languoid/id/east2879",
-        "https://en.wikipedia.org/wiki/Kondinsky_District",
-        "https://en.wikipedia.org/wiki/Kondinskoye,_Khanty-Mansi_Autonomous_Okrug",
-        "https://en.wikipedia.org/wiki/Mortka",
-        "https://en.wikipedia.org/wiki/Leushi",
-        "https://www.hmn.ru/next/en/Russia/Khanty-Mansiysk%20Autonomous%20Okrug%20%E2%80%93%20Ugra/Bolchary_Kondinsky%20District_/uvi"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Eastern Mansi (Konda Mansi) is an extinct dialect of Mansi spoken in the Khanty-Mansi Autonomous Okrug, Russia, around the Konda river (Kondinsky District). ISO 639-3: none (dialect of mns). Glottolog: east2879. Only 7 of 29 seeds confirmed as real settlements in the Kondinsky District/Eastern Mansi area: Kondinskoye, Mezhdurechensky, Mortka, Kuminsky, Lugovoy, Leushi, Bolchary. The remaining 22 seeds are generic Russian names (e.g., Altay, Kama, Dalniy, Nazarovo, Yamki, Ilichevka, Polovinka) that cannot be verified as settlements in the Eastern Mansi area. Removing unverifiable seeds would leave only 7 < 25, so entry is unverified."
-    }
-  },
-  {
     "name": "Western Mansi",
     "i": 561,
     "min": 4,
@@ -3609,44 +3233,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T03:17:09.192Z",
       "notes": "Ribagorçan is a transitional Aragonese-Catalan dialect of Ribagorza/Ribagorça and La Litera (Huesca, Aragon) and Alta Ribagorça (Lleida, Catalonia), Spain (Wikipedia). It is treated as Eastern Aragonese; Aragonese ISO 639-3 arg (Ethnologue). Ribagorçan has no separate ISO 639-3 or Glottolog code. Kept: Benasque, Campo, Graus, Estadilla, Capella, Fonz, Arén, Secastilla, Sopeira, Peraltilla (10, all real municipalities in Ribagorza, Huesca). Removed: Monzón (Cinca Medio), Barbastro (Somontano de Barbastro), Almudévar (Hoya de Huesca), Tierz (Hoya de Huesca), La Sotonera (reservoir area, not a confirmed settlement), Robres (Monegros), Monflorite (unconfirmed), Lupiñén-Ortilla (Hoya de Huesca), Albero Alto (unconfirmed), Nueno (Hoya de Huesca), Puertolas (Sobrarbe), El Grado (Somontano de Barbastro), Chía (unconfirmed), Aínsa (Sobrarbe), Jaca (Jacetania) — all outside the Ribagorçan area (Ribagorza/La Litera/Alta Ribagorça) or not confirmed settlements. 10 of 25 seeds remain, below the 25-seed floor, so the entry cannot be verified."
-    }
-  },
-  {
-    "name": "Riberan",
-    "i": 594,
-    "min": 3,
-    "max": 23,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Aranda de Duero,Roa,Peñafiel,Valladolid,Burgos,Soria,Segovia,Ávila,Salamanca,Zamora,Palencia,Medina del Campo,Tordesillas,Peñaranda de Bracamonte,Cuéllar,Sepúlveda,Ayllón,El Burgo de Osma,San Esteban de Gormaz,Langa de Duero,Simancas,Tudela de Duero,Quintanilla de Onésimo,La Aguilera,Gumiel de Izán,Caleruega,Pezuela de las Torres,Olmedo,Iscar,Mojados,Portillo",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Riberan is not a recognized language or dialect in ISO 639-3, Glottolog, or Ethnologue. No primary source documents a 'Riberan' language variety. Spanish dialects documented in Spain do not include 'Riberan'. Seeds are generic Castilian Spanish towns spread across all of Castilla y Leon (including provincial capitals Valladolid, Burgos, Salamanca, Zamora, Segovia, Avila, Palencia, Soria), not a specific Ribera del Duero dialect area. Cannot verify seeds as belonging to an undocumented language. Checked Ethnologue, Glottolog, ISO 639-3; no match for 'Riberan'."
-    }
-  },
-  {
-    "name": "Riojan",
-    "i": 595,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Logroño,Calahorra,Arnedo,Haro,Santo Domingo de la Calzada,Nájera,San Millán de la Cogolla,Lardero,Villamediana de Iregua,Alfaro,Cervera del Río Alhama,Tudelilla,Ausejo,Murillo de Río Leza,Pradejón,Autol,Quel,Arnedillo,Santa Eulalia Bajera,Navarrete,Ventosa,Badarán,Alesanco,San Asensio,Baños de Río Tobía,Bobadilla,Manjarrés",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/La_Rioja_(Spain)",
-        "https://en.wikipedia.org/wiki/Navarro-Aragonese",
-        "https://en.wikipedia.org/wiki/Medinaceli"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "\"Riojan\" is not a distinct language: La Rioja's official language is Spanish (Wikipedia: La Rioja), and \"Old Riojan\" is an extinct Navarro-Aragonese dialect with no ISO 639-3 code and no Glottolog entry (Wikipedia: Navarro-Aragonese), so ISO 639-3/Ethnologue/Glottolog cannot be cited for a separate Riojan language. One seed, Medinaceli, is a town in Soria province (Castile and León), not La Rioja (Wikipedia: Medinaceli) and was removed. The remaining 27 seeds are real La Rioja municipalities (incl. Bobadilla, confirmed in La Rioja), but the entry cannot be verified as a distinct language with primary sources."
     }
   },
   {
@@ -3902,43 +3488,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Southeast Metafonetica",
-    "i": 626,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ragusa,Modica,Scicli,Comiso,Vittoria,Ispica,Acate,Pozzallo,Santa Croce Camerina,Chiaramonte Gulfi,Giarratana,Monterosso Almo,Siracusa,Noto,Pachino,Avola,Rosolini,Sortino,Palazzolo Acreide,Francofonte,Melilli,Buccheri,Buscemi,Cassaro,Ferla,Canicattini Bagni,Priolo Gargallo,Portopalo di Capo Passero,Lentini,Carlentini,Floridia,Solarino,Augusta",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "'Southeast Metafonetica' is not a recognized language or dialect. No ISO 639-3 code, no Glottolog entry, no Ethnologue entry, and the Wikipedia article returns 404 (does not exist). 'Metafonetica' (metaphony) is a phonological feature found in some southern Italian / Sicilian dialects, not a language name, and it does not define a documented speaking area. The 33 seeds are real comuni of south-eastern Sicily (Ragusa and Siracusa provinces: Ragusa, Modica, Scicli, Comiso, Vittoria, Ispica, Acate, Pozzallo, Santa Croce Camerina, Chiaramonte Gulfi, Giarratana, Monterosso Almo, Siracusa, Noto, Pachino, Avola, Rosolini, Sortino, Palazzolo Acreide, Francofonte, Melilli, Buccheri, Buscemi, Cassaro, Ferla, Canicattini Bagni, Priolo Gargallo, Portopalo di Capo Passero, Lentini, Carlentini, Floridia, Solarino, Augusta), but they cannot be attributed to a verifiable language named 'Southeast Metafonetica' because no such language is documented in primary sources. No primary sources available to cite."
-    }
-  },
-  {
-    "name": "Southern Aragonese",
-    "i": 627,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Teruel,Alcañiz,Calamocha,Monreal del Campo,Mora de Rubielos,Valderrobres,Calanda,Alcorisa,Híjar,Calaceite,Valdealgorfa,La Puebla de Híjar,Samper de Calanda,Castellote,Ariño,Alloza,Oliete,Muniesa,Albalate del Arzobispo,Alacón,Salcedillo,Crivillén,Gargallo,Villarluengo,Villarroya de los Pinares",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/arg",
-        "https://www.ethnologue.com/language/arg"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Language is Aragonese (ISO 639-3 arg), an endangered indigenous language of Spain; Ethnologue documents Aragonese in Spain (endangered), primarily associated with the northern Aragonese Pyrenees (Huesca), not specifically Teruel province. Seed 'Andorra' is not a Teruel settlement (it is a sovereign country, and also a Teruel comarca/mountain-range name) and was removed. The remaining 25 seeds are real Teruel municipalities (Teruel, Alcaniz, Calamocha, Monreal del Campo, Mora de Rubielos, Valderrobres, Calanda, Alcorisa, Hijar, Calaceite, Valdealgorfa, La Puebla de Hijar, Samper de Calanda, Castellote, Arino, Alloza, Oliete, Muniesa, Albalate del Arzobispo, Alacon, Crivillen, Gargallo, Villarluengo, Villarroya de los Pinares), but the Southern Aragonese seed-to-language-area match and seed 'Salcedillo' cannot be confirmed against primary sources with confidence. 25 seeds remain (>=25 floor) but entry is not marked verified pending primary-source confirmation of the language area. No duplicates detected; no language-name self-reference."
-    }
-  },
-  {
     "name": "Surmiran",
     "i": 635,
     "min": 4,
@@ -4087,27 +3636,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Carloforte,San Pietro,Calasetta,Sant'Antioco,Porto Pino,Palmas,Masainas,Teulada,Tratalias,Giba,Portoscuso,Fluminimaggiore,San Pietro Isola,Cabras",
     "status": "WAITING"
-  },
-  {
-    "name": "Transylvanian",
-    "i": 649,
-    "min": 4,
-    "max": 21,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Cluj-Napoca,Timișoara,Iași,Constanța,Craiova,Brașov,Galați,Ploiești,Oradea,Brăila,Arad,Sibiu,Târgu Mureș,Baia Mare,Botoșani,Satu Mare,Drobeta-Turnu Severin,Râmnicu Vâlcea,Suceava,Piatra Neamț,Târgoviște,Focșani,Buzău,Tulcea,Reșița,Slatina,Alba Iulia,Vaslui,Roman,Zalău,Tecuci,Deva,Hunedoara,Sighișoara,Mediaș",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Transylvanian_varieties_of_Romanian",
-        "https://en.wikipedia.org/wiki/Romanian_(language)",
-        "https://glottolog.org/resource/languoid/id/roma1327"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Transylvanian is not a distinct ISO 639-3 language; it is a dialect/variety of Romanian (ISO 639-3: ron, Glottolog: roma1327). Glottolog lists 'Transylvanian Romanian' (tran1277) and 'Transylvanian Landler' (land1263, a German dialect) but no standalone Transylvanian language. Many seeds are cities outside Transylvania (Iași in Moldavia, Constanța on the Black Sea, Craiova in Oltenia), confirming the seed list does not match a coherent Transylvanian dialect area."
-    }
   },
   {
     "name": "Tuscia",
@@ -4324,28 +3852,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T00:19:00Z",
       "notes": "Verified 60 unique Wallachian settlements in Romania."
-    }
-  },
-  {
-    "name": "Welche",
-    "i": 663,
-    "min": 4,
-    "max": 20,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Colmar,Mulhouse,Sélestat,Haguenau,Saverne,Strasbourg,Molsheim,Wissembourg,Thann,Guebwiller,Cernay,Masevaux,Saint-Louis,Huningue,Altkirch,Delle,Belfort,Montbéliard,Lure,Vesoul,Gray,Champlitte,Langres,Chaumont,Vittel,Neufchâteau,Mirecourt,Épinal,Saint-Dié-des-Vosges",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Lorrain_language",
-        "https://de.zxc.wiki/wiki/Welche",
-        "https://en.wikipedia.org/wiki/Vosges",
-        "https://glottolog.org/resource/languoid/id/lorr1242"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Welche (Vosgien) is a Gallo-Roman dialect of the Langues d'oïl group, a sub-dialect of Lorrain spoken in a very localized area of the Vosges mountains in western Alsace - specifically the valley of the Weiss around Lapoutroie, the valley of the Liepvrette (Sainte-Marie-aux-Mines area), and parts of the Bruche valley. ISO 639-3: none. Glottolog: lorr1242 (for Lorrain). None of the 29 seeds are in the Welche-speaking area. The seeds include major cities like Strasbourg, Colmar, Mulhouse, Haguenau, Saverne, etc. which are in the Germanic Alsatian-speaking area, not the Welche/Romance-speaking area. Even Vosges department towns like Epinal and Saint-Die-des-Vosges are outside the tiny Welche-speaking zone. Entry cannot be verified."
     }
   },
   {
@@ -5048,26 +4554,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Peräpohjola",
-    "i": 1091,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Haparanda,Kemijärvi,Kolari,Ylitornio,Pello,Lemmenjoki,Angeli,Kaamanen,Pyhä,Levi,Olos,Keminmaa,Tervola,Kvalsund,Nesseby,Honningsvåg,Kjøllefjord,Mehamn,Gamvik,Berlevåg,Övertorneå,Karesuando,Junosuando,Juoksengi,Kuoksu,Lahtinen,Matarengi",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/pera1253.bigmap.html",
-        "https://en.wikipedia.org/wiki/Per%C3%A4pohjola_dialects"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Peräpohjola is a group of Finnish dialects traditionally spoken in Lapland (Finland), Norrbotten (Sweden) and Finnmark (Norway). It has no ISO 639-3 code (dialect of Finnish); Glottolog pera1253 classifies it under Finnish. Removed 5 seeds that are not settlements: Ylläs, Pallas, Aavasaksa (fells/mountains), Sør-Varanger and Nordkapp (municipalities). Remaining 27 seeds are real towns in northern Finland/Norway/Sweden but could not all be confirmed against primary sources; entry cannot be marked verified."
-    }
-  },
-  {
     "name": "Fingelska",
     "i": 1092,
     "min": 4,
@@ -5263,27 +4749,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Chusovaya",
-    "i": 1611,
-    "min": 3,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Perm,Berezniki,Solikamsk,Kizel,Chernushka,Kungur,Krasnoufimsk,Arya,Overyata,Dobryanka,Osa,Nytva,Gornozavodsk,Lysva,Chusovoy,Kuvandyk,Alexandrovsk,Bolkhov,Yayva,Okhansk,Ochyor,Barda,Yanaul,Ozersk,JalalAbad,Orlovka,Boguchaky,Aznakayevo,Zharma,Avletim,Shadrinsk,Gubakha,Gremyachinsk,Chaykovsky,Krasnokamsk,Usolye",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Chusovaya",
-        "https://iso639-3.sil.org/",
-        "https://glottolog.org/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Chusovaya is NOT a documented language. It is a 592 km river in the Urals (Chelyabinsk Oblast, Sverdlovsk Oblast, Perm Krai, Russia), a left tributary of the Kama, whose name derives from Komi-Permyak. No ISO 639-3 code exists for a language called Chusovaya; no Glottolog entry; no Ethnologue entry. Because there is no language, there is no documented language area, so no seed can be verified as belonging to a 'Chusovaya language' area. Several seeds lie far outside the Chusovaya basin (JalalAbad in Kyrgyzstan, Zharma in Kazakhstan, Aznakayevo in Tatarstan, Shadrinsk in Kurgan Oblast, Bolkhov in Oryol Oblast), indicating the list is not a coherent toponym set for any documented language area. Entry cannot be verified at the language level."
-    }
-  },
-  {
     "name": "Crimean Tatar",
     "i": 1642,
     "min": 4,
@@ -5430,27 +4895,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Potapovo,Dudinka,Karaul,Norilsk",
     "status": "WAITING"
-  },
-  {
-    "name": "Gällivare",
-    "i": 1858,
-    "min": 3,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Gällivare,Kiruna,Jokkmokk,Arjeplog,Luleå,Piteå,Älvsbyn,Boden,Skellefteå,Arvidsjaur,Dorotea,Vilhelmina,Strömsund,Östersund,Sveg,Hammarstrand,Åre,Krokom,Bräcke,Ockelbo,Sandviken,Gävle,Hudiksvall,Ljusdal,Söderhamn,Bollnäs,Ovanåker,Nordanstig,Järvsö,Åsele,Ånge,Vännäs,Sollefteå,Lycksele,Sorsele",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/G%C3%A4llivare_dialects",
-        "https://glottolog.org/resource/languoid/id/gall1277",
-        "https://glottolog.org/resource/languoid/id/torn1244"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.204Z",
-      "notes": "Gällivare is not a distinct ISO 639-3 language. Gällivare Finnish (Glottolog: gall1277) is a dialect of Meänkieli (ISO 639-3: fit, Glottolog: torn1244), spoken around Gällivare, Killivaara, and Nattavaara. The 35 seeds span an enormous area of northern Sweden (from Gällivare/Kiruna in Lapland to Hudiksvall/Söderhamn in Hälsingland, covering Norrbotten, Västerbotten, Jämtland, and Gävleborg counties), far beyond the Meänkieli/Gällivare Finnish area. Many seeds (e.g. Gävle, Hudiksvall, Söderhamn, Östersund) are in purely Swedish-speaking regions with no Meänkieli connection."
-    }
   },
   {
     "name": "Gagauz",
@@ -6861,29 +6305,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Benasquese (Benasque Valley)",
-    "i": 23004,
-    "min": 4,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Benasque,Campo,Graus,Estadilla,Capella,Fonz,Monzón,Barbastro,Almudévar,Tierz,La Sotonera,Robres,Monflorite,Lupiñén-Ortilla,Albero Alto,Nueno,Puertolas,El Grado,Arén,Secastilla,Sopeira,Chía,Peraltilla,Laspuña,Chistau",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Benasquese_dialect",
-        "https://en.wikipedia.org/wiki/Aragonese_language",
-        "https://en.wikipedia.org/wiki/La_Sotonera",
-        "https://en.wikipedia.org/wiki/Ch%C3%ADa,_Aragon",
-        "https://en.wikipedia.org/wiki/Benasque"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Benasquese is a recognized dialect of Aragonese (or transitional Catalan-Aragonese) spoken in the Benasque Valley, Huesca, Aragon, Spain. No separate ISO 639-3 code (part of Aragonese arg, Glottolog: arag1245); no separate Glottolog entry. Wikipedia confirms region: Ribagorza, Campo, Estadilla, Graus; Chía is in Ribagorza/Benasque Valley area with patués (Aragonese) spoken there. However, 10 seeds are clear stem-padding: 'Benasquese' + single letters (k,t,p,m,n,s,r,l,d,g). These are not real settlements and were removed. After removal, 25 seeds remain (exactly at the SEED_FLOOR of 25), all confirmed as real municipalities/towns in Huesca province, Aragon, Spain: Benasque, Campo, Graus, Estadilla, Capella, Fonz, Monzón, Barbastro, Almudévar, Tierz, La Sotonera, Robres, Monflorite, Lupiñén-Ortilla, Albero Alto, Nueno, Puertolas, El Grado, Arén, Secastilla, Sopeira, Chía, Peraltilla, Laspuña, Chistau. Marked 'partial' because seeds were removed; the remaining 25 are at the floor and all verified."
-    }
-  },
-  {
     "name": "Molisan (Molise)",
     "i": 23011,
     "min": 4,
@@ -7475,27 +6896,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Salaca Livonian",
-    "i": 200786,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Kolka,Mazirbe,Skrags,Vaide,Pitrags,Kosrags,Lielirbe,Miktornis,Salaca,Riga,Dundaga,Talsi,Tukums,Jurmala,Sigulda,Cesis,Valmiera,Limbazi,Aizkraukle,Jekabpils,Ludza,Rezekne,Valka,Smiltene,Strenci,Aluksne,Gulbene,Madona,Cesvaine,Lubna,Varaklani,Vilaka,Baltinava,Karsava,Zilupe",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Salaca_Livonian",
-        "https://en.wikipedia.org/wiki/Livonian_language",
-        "https://glottolog.org/resource/languoid/id/livv1244"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Salaca Livonian is a recognized extinct dialect of Livonian (Glottolog: east2326; Livonian ISO 639-3: liv, Glottolog: livv1244), spoken along the Salaca River in northern Latvia. However, the 35 seeds cover all of Latvia (Riga, Tukums, Jūrmala, Cēsis, Valmiera, Ludza, Rēzekne, Valka, Alūksne, Gulbene, Madona, etc.), not just the Salaca Livonian area. The Livonian Coast villages listed (Kolka, Mazirbe/Irē, Sīkrags, Vaide, Pitrags, Košrags, Lūžņa/Lielirbe) are Courland Livonian, not Salaca Livonian. Riga and most other seeds are far outside the historical Salaca Livonian region."
-    }
-  },
-  {
     "name": "Sea Sami",
     "i": 200787,
     "min": 4,
@@ -7504,27 +6904,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Söderbyn,Luleå,Lövunger,Haparanda",
     "status": "WAITING"
-  },
-  {
-    "name": "Sernur-Morkin",
-    "i": 200789,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zvenigovo,Sernur,Orshanka,Kilemary,Sovetsky,Morki,Paranga,Yurino,Mari-Turek,Kuzhener,Novy Toryal,Medvedevo,Krasnooktyabrsky,Kiknur,Tuzha,Kozlan,Yunger,Lipsha,Yaran,Kozymodemyan,Alekseyevka,Kozmodemyansk,Volzhsk,Santala,Shoybulatovo,Troitsky,Mariets,Semyonovka",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/mrj",
-        "https://iso639-3.sil.org/code/mhr",
-        "https://en.wikipedia.org/wiki/Mari_El_Republic"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Sernur-Morkin refers to a Mari language variety (Western Mari mrj / Eastern Mari mhr) spoken in Sernur and Morki districts, Mari El Republic, Russia. ISO 639-3 confirms mrj (Western Mari) and mhr (Eastern Mari) as active languages in the Mari macrolanguage. Wikipedia Mari El Republic confirms Mari is spoken in Mari El Republic along the Volga. 6 seeds removed: (1) KadjiSay — confirmed via Wikipedia as a village in Issyk-Kul Region, Kyrgyzstan, NOT in Mari El or Russia; (2) Sernur-Morkin — self-referential seed (language name used as its own seed, violates guardrail); (3) Tonshaevo — town in Nizhny Novgorod Oblast, not Mari El Republic; (4) Yaransk — town in Kirov Oblast, not Mari El Republic; (5) Mariinsky Posad — town in Chuvash Republic, not Mari El Republic; (6) Vasilsursk — town in Nizhny Novgorod Oblast, not Mari El Republic. Remaining 28 seeds are settlements in Mari El Republic (Zvenigovo, Sernur, Orshanka, Kilemary, Sovetsky, Morki, Paranga, Yurino, Mari-Turek, Kuzhener, Novy Toryal, Medvedevo, Krasnooktyabrsky, Kiknur, Tuzha, Kozlan, Yunger, Lipsha, Yaran, Kozymodemyan, Alekseyevka, Kozmodemyansk, Volzhsk, Santala, Shoybulatovo, Troitsky, Mariets, Semyonovka). Some less-common rural settlements (Kozlan, Yunger, Lipsha, Yaran, Kozymodemyan, Santala, Shoybulatovo, Troitsky, Mariets, Semyonovka) could not be individually verified against primary sources but are consistent with Mari El rural locality naming."
-    }
   },
   {
     "name": "Seto",
@@ -7674,27 +7053,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Southern Tavastian",
-    "i": 200806,
-    "min": 4,
-    "max": 32,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hämeenlinna,Lahti,Hollola,Orimattila,Artjärvi,Asikkala,Hattula,Hauho,Kärkölä,Lammi,Nastola,Tuulos,Vanaja,Vesilahti,Ypäjä,Jämsä,Jämsänkoski,Kuhmoinen,Luhanka,Orivesi,Toivakka,Kangasala,Lempäälä,Nokia,Pirkkala,Ylöjärvi,Hämeenkoski,Kylmäkoski,Luopioinen,Pälkäne,Urjala,Valkeakoski",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/H%C3%A4me_dialects",
-        "https://fi.wikipedia.org/wiki/Hauho",
-        "https://fi.wikipedia.org/wiki/Janakkala"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Southern Tavastian is a dialect of Finnish (ISO 639-3: fin), Glottolog code hame1240. Area: Southern Tavastia (Etelä-Häme), Finland — Päijät-Häme, Kanta-Häme, Pirkanmaa regions per Wikipedia Häme dialects article. 2 seeds removed: (1) Jankkala — not found on Finnish Wikipedia or other primary sources; may be a variant of Janakkala (which appears in the separate Tavastian entry i=1085, not here) but cannot be independently verified; (2) Haukkavaara — not found on Finnish Wikipedia or other primary sources; could not be verified as a real settlement. Remaining 32 seeds are real Finnish towns/municipalities in Southern Tavastia: Hämeenlinna, Lahti, Hollola, Orimattila, Artjärvi, Asikkala, Hattula, Hauho, Kärkölä, Lammi, Nastola, Tuulos, Vanaja, Vesilahti, Ypäjä, Jämsä, Jämsänkoski, Kuhmoinen, Luhanka, Orivesi, Toivakka, Kangasala, Lempäälä, Nokia, Pirkkala, Ylöjärvi, Hämeenkoski, Kylmäkoski, Luopioinen, Pälkäne, Urjala, Valkeakoski. Hauho confirmed via Finnish Wikipedia (former municipality in Kanta-Häme, now part of Hämeenlinna). No duplicates, no self-references, no non-place tokens among kept seeds."
-    }
-  },
-  {
     "name": "Sygva",
     "i": 200809,
     "min": 3,
@@ -7735,25 +7093,6 @@ window.europeNameBases = [
     "m": 0,
     "b": "Verkh-Tur,Shaytanskaya,Kuzyayeva",
     "status": "WAITING"
-  },
-  {
-    "name": "Tartu",
-    "i": 200812,
-    "min": 3,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Otepää,Elva,Nõo,Rannu,Kambja,Tõrva,Puka,Sangaste,Luunja,Kõrcala,Ilumetsa,Kiidjärve,Alatskivi,Vastseliina,Räpina,Alutaguse,Ambla,Kõue,Kuusnõmme,Tagaküla,Roosna-Alliku,Kaiu,Kärkjas,Märjamaa,Tabivere",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/tart1244"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Tartu is a South Estonian dialect (Glottolog tart1244); ISO 639-3 assigns no code, so it is not a separate language. Seed 'Tartu' is self-referential (the language name used as its own seed) and was removed. The remaining seeds span multiple Estonian counties beyond Tartumaa (e.g. Valga, Polva, Voru, Jarva, Harju, Rapla, Ida-Viru), so they are not confined to the documented Tartu dialect area. Cannot verify as a distinct language entry with these seeds."
-    }
   },
   {
     "name": "Tavda",
@@ -8281,27 +7620,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Italo-Australian",
-    "i": 200863,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Melbourne,Sydney,Adelaide,Perth,Brisbane,Canberra,Leichhardt,Carlton,Brunswick,Coburg,Preston,Essendon,Oakleigh,Haberfield,Fitzroy,Myrtleford,Woollongong,Newcastle,Dorrigo,Kyogle,Pomona,Woodburn,Richmond (NSW),Fremantle,Glebe",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Italo-Australian_dialect",
-        "https://glottolog.org/resource/languoid/id/ital1282",
-        "https://ethnologue.com/subgroup/259"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Italo-Australian is a dialect of Italian spoken in Australia, not a distinct language: ISO 639-3 is unassigned (–) and it has no Glottolog entry of its own (Wikipedia: 'Language articles missing Glottolog code'). Ethnologue classifies it under Italian (ita). Entry is filed under Europe but all 25 seeds are Australian cities (Melbourne, Sydney, Adelaide, Perth, Brisbane, Canberra, etc.), i.e. Oceania toponyms — a continent-file mismatch. One seed, 'Woollongong', is a misspelling of Wollongong. Because the entry is not a distinct European language and is continent-misplaced, it cannot be verified as a Europe namebase entry. No seeds were removed (all are real Australian settlements in the language's actual area); the blocker is language status + continent assignment, not seed authenticity."
-    }
-  },
-  {
     "name": "Judeo-Aragonese",
     "i": 200864,
     "min": 4,
@@ -8417,27 +7735,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:36.205Z",
       "notes": "Moselle Romance is an extinct Gallo-Romance (langue d'oïl) dialect, extinct by the 11th century, spoken along the Moselle River near Trier, Germany. It has NO ISO 639-3 code and NO Glottolog entry. Ethnologue does not list it as a living language. All 30 seeds are modern towns in France's Moselle department (Metz, Thionville, Forbach, Sarreguemines, Saint-Avold, Bitche, Sarrebourg, etc.), which is outside the language's documented area (German Moselle valley near Trier). No seed can be confirmed as a Moselle Romance settlement. All 30 seeds removed for being outside the documented language area; 0 remain (<25)."
-    }
-  },
-  {
-    "name": "Paḷḷuezu",
-    "i": 200874,
-    "min": 3,
-    "max": 18,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Oviedo,Gijn,Avils,Langreo,Mieres,Sama,Luanco,Cangas del Narcea,Cudillero,Llanes,Ribadesella,Villaviciosa,Cangas de Ons,Arriondas,Infiesto,Pola de Lena,Pola de Laviana,Pola de Aller,Moreda,Turon,Riao,Cabaaquinta,Boar,Sahagn,Len,Ponferrada,Astorga,La Baeza,Benavente,Zamora,Salamanca,Ciudad Rodrigo,Alcaices,Puebla de Sanabria",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/ast",
-        "https://www.ethnologue.com/language/ast",
-        "https://glottolog.org/resource/languoid/id/astu1245"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.205Z",
-      "notes": "Paḷḷuezu is the Eastern Asturian variety of Piloña (Asturias, Spain). It is not separately coded in ISO 639-3 or Glottolog; it is subsumed under Asturian (ast / astu1245), documented by Ethnologue and ISO 639-3 as spoken in the Principality of Asturias (with the Asturleonese domain reaching parts of León and Zamora). The seed list contains numerous towns outside the Asturian-speaking area: Salamanca and Ciudad Rodrigo (Salamanca province, Castile and León, outside the Asturleonese domain), plus Zamora, Ponferrada, Astorga, Benavente, Alcañices and Puebla de Sanabria (León/Zamora provinces). Because Paḷḷuezu has no independent primary-source code and many seeds fall outside its documented area (Piloña/eastern Asturias), the entry and its full seed set cannot be verified against primary sources. Marked unverified; no seeds removed by this review."
     }
   },
   {
@@ -8911,64 +8208,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Missingsch",
-    "i": 200960,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hamburg,Bremen,Hannover,Rostock,Berlin,Lubeck,Kiel,Flensburg,Neumuenster,Elmshorn,Pinneberg,Norderstedt,Wedel,Ahrensburg,Reinbek,Glinde,Schwarzenbek,Molln,Ratzeburg,Stade,Buxtehude,Cuxhaven,Bremerhaven,Wilhelmshaven,Emden,Oldenburg,Delmenhorst,Leer,Aurich,Norden,Itzehoe,Heide,Brunsbuettel,Helgoland,Seevetal,Bergedorf,Altona,Harburg,Wandsbek",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Missingsch"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Missingsch is a German Low-German-coloured sociolect/dialect of northern Germany (Wikipedia). It has NO ISO 639-3 code and NO Glottolog entry - it is not recognised as a separate language in primary linguistic sources (Ethnologue, Glottolog, ISO 639-3). All 39 seeds are real cities/towns in northern Germany (Hamburg, Bremen, Hannover, Rostock, Berlin, Lubeck, Kiel, Flensburg, etc.) within the documented Missingsch area, and Wikipedia names Hamburg, Bremen, Flensburg, Berlin as Missingsch centres. However, the language itself cannot be verified against primary sources (no ISO/Glottolog recognition), so the entry cannot be marked verified."
-    }
-  },
-  {
-    "name": "Mohawk Dutch",
-    "i": 200961,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Albany,Buffalo,Rochester,Syracuse,Utica,Watertown,Massena,Malone,Plattsburgh,NewYork,Newark,Paterson,Trenton,Princeton,Elizabeth,NewBrunswick,Burlington,Camden,FortHunter,Canajoharie,Amsterdam,Scotia,Glenville,Niskayuna,Troy,Cohoes,Watervliet,Kingston,Saugerties,Catskill,Hudson,FortPlain,PalatineBridge,StJohsville,Her_kimer,LittleFalls,Johnstown,Gloversville",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mohawk_Dutch"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Mohawk Dutch is an extinct Dutch-based creole of New Netherland, spoken mainly during the 17th century west of Albany, New York, in the area around the Mohawk River (Native to: New Netherland / North America). Wikipedia explicitly lists NO ISO 639-3 code and NO Glottolog code for Mohawk Dutch ('Languages with neither ISO nor Glottolog code'), so Ethnologue/Glottolog/ISO primary sources cannot be cited for the language. The entry is filed under continent europe but the documented language area is North America (New York / Mohawk Valley) -- a continent mismatch. Although the seeds are real New York / New Jersey settlements, several lie outside the documented Mohawk Valley core (e.g. Buffalo, Rochester, Syracuse, Watertown, Massena, Malone, Plattsburgh; Newark, Paterson, Trenton, Princeton, Elizabeth, New Brunswick, Burlington, Camden). Mohawk Dutch is a poorly documented extinct creole. Insufficient primary sources to verify the language or its seeds against Ethnologue/Glottolog/ISO; marked unverified per guardrails (no primary-source citations possible, continent mismatch). All 38 seeds retained pending reassignment/research; none removed because each is a real settlement, but they cannot be verified against primary language sources."
-    }
-  },
-  {
-    "name": "Nootka Jargon",
-    "i": 200969,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Victoria,Vancouver,PortAlberni,Nanaimo,CampbellRiver,PowellRiver,Sechelt,Squamish,Whistler,PortHardy,Kitimat,Smithers,BurnsLake,Vanderhoof,Quesnel,WilliamsLake,BellaCoola,NootkaSound,Yuquot,Kyuquot,Tahsis,GoldRiver,Ucluelet,Tofino,Bamfield,PortRenfrew,Sooke,AlertBay,PortSimpson,BellaBella,OceanFalls,PortMcNeill",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Nootka_Jargon",
-        "https://en.wikipedia.org/wiki/Nuu-chah-nulth_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Nootka Jargon is a pidgin based on Nuu-chah-nulth (Nootka), used for trade on the Pacific Northwest Coast (Vancouver Island, British Columbia, CANADA). It has NO ISO 639-3 code and NO Glottolog entry. It is a historical pidgin with no native speakers. It is NOT a European language and is misfiled in the europe continent file. Seeds are real settlements in British Columbia (Victoria, Vancouver, Nanaimo, Tofino, Ucluelet, etc.) but Nootka Sound is a body of water, not a settlement. Entry cannot be verified as a European language."
-    }
-  },
-  {
     "name": "Russenorsk",
     "i": 200985,
     "min": 4,
@@ -9028,26 +8267,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T07:15:00Z",
       "notes": "Verified 49 unique Law French settlements in France."
-    }
-  },
-  {
-    "name": "Somontanoés",
-    "i": 625,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Barbastro,Adahuesca,AlbalateDeCinca,AlberuelaDeTubo,Alcanadre,AlcoleaDeCinca,Fuenes,Laluenga,Ponzano,SalasAltas,SalasBajas,TorresDeBarbués,Bierge,CastejonDelPuente,CoscojuelaDeFantova,ElGrado,Estada,Estadilla,HozDeBarbastro,Ilche,Monzon,Binaced,Fraga,Albalate,Castejon,Azara,Azlor,Caldearenas,Angues,Antillon,Blecua,Alerre",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Aragonese_language",
-        "https://en.wikipedia.org/wiki/Somontano_de_Barbastro"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Somontanoés is not a distinct language with its own ISO 639-3 code or Glottolog entry. It appears to be a local variety/dialect of Aragonese (ISO arg, Glottolog arag1245) spoken in the Somontano de Barbastro comarca, Province of Huesca, Aragon, Spain. Seeds are real towns in Somontano de Barbastro and surrounding comarcas (Barbastro, Adahuesca, Albalate de Cinca, Alberuela de Tubo, Alcanadre, Alcolea de Cinca, Bierge, Castejón del Puente, Coscojuela de Fantova, El Grado, Estada, Estadilla, Hoz de Barbastro, Ilche, Laluenga, Ponzano, Salas Altas, Salas Bajas, Torres de Barbués, Fraga, Monzón, Azara, Azlor, Caldearenas, Angüés, Antillón, Blecua, Alerre). Some seeds may be truncated/duplicate forms (Albalate vs Albalate de Cinca; Castejón vs Castejón del Puente). Cannot verify as a standalone language entry without ISO/Glottolog recognition."
     }
   },
   {
@@ -9758,45 +8977,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Pomeranian",
-    "i": 203026,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Stolp,Culpino,Mulkenthin,Wulckow,Stargrod,Belgrod,Belgroensem,Zitarigroda,Dargozlaw,Dergschlaff,Oboy,Obrita,Zarno,Perlow,Czernekowe,Kolbrzega,Kresyn,Crossin,Gressin,Grossin,Romptzke,Rumpske,Grumbckow,Prebbentow,Schmentzin,Pepelow,Dentzick,Clemme,Gumethow,Teterow,Petervitz,Cusserowe,Sedel,Drenow,Corlin,Corlyn,Bandergowe,Berenslauu",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Pomeranian_language",
-        "https://iso639-3.sil.org/code/pum"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Pomeranian (Lechitic, West Slavic; Pomerania, Poland/Germany) has NO ISO 639-3 code (pum = Puma, Nepal) and NO Glottolog code per Wikipedia, so language identity cannot be matched to a primary source. Seed 'Belgrod' corresponds to Belgorod, a city in Russia, not a Pomeranian settlement. Several remaining seeds are obscure historical/Germanized forms that could not be confirmed against primary sources. Per guardrail, never guess: marked unverified."
-    }
-  },
-  {
-    "name": "Bozal Spanish",
-    "i": 200936,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Havana,Matanzas,SantiagodeCuba,Trinidad,Cienfuegos,Camaguey,PinarDelRio,SanctiSpiritus,VillaClara,CiegoDeAvila,LasTunas,Holguin,Granma,Guantanamo,Artemisa,Mayabeque,ElPerico,PedroBetancourt,UnionDeReyes,Jibacoa,Guanabacoa,Regla,Marianao,Cerro,HabanaDelEste,SanMiguelDelPadron,Cotorro,LaLisa,Playa,PlazaDeLaRevolucion,ArroyoNaranjo,Boyeros,Montevideo,BuenosAires",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Bozal_Spanish"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Bozal Spanish is an extinct/attested Spanish-based pidgin or creole last documented in Cuba (~1850), also attested in Uruguay and other parts of South and Central America (Wikipedia: Bozal Spanish). It has NO ISO 639-3 code and NO Glottolog code (Wikipedia categorizes it under 'Languages without Glottolog code' and 'Languages with neither ISO nor Glottolog code'). The entry is filed under 'europe' but its seeds are predominantly Cuban cities plus Montevideo (Uruguay) and Buenos Aires (Argentina) — outside Cuba — and several Cuban provinces (Villa Clara, Granma, Artemisa, Mayabeque) rather than settlements. Because the language cannot be verified against any primary linguistic source (no ISO/Glottolog code) and the seed geography does not match a single documented area, the entry cannot be verified. Marked unverified; no seeds removed by this review."
-    }
-  },
-  {
     "name": "Minderico",
     "i": 212000,
     "min": 4,
@@ -10232,27 +9412,6 @@ window.europeNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Banat",
-    "i": 378,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Timișoara,Arad,Lugoj,Reșița,Caransebeș,Deta,Făget,Lipova,Sânnicolau Mare,Nădlac,Pecica,Sebiș,Sântana,Vinga,Gurahonț,Șiria,Ineu,Becicherecu Mic,Cenad,Sânmartin,Lovrin,Buziaș,Jimbolia,Biled,Ciacova,Dudeștii Noi",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Banat_Bulgarian_dialect",
-        "https://oeaw.ac.at/vlach/collections/bulgarian-varieties/banat-bulgarian",
-        "https://glottolog.org/resource/languoid/id/bana1308"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "'Banat' is a historical region, not a language with an ISO 639-3 code. The associated variety Banat Bulgarian has NO ISO 639-3 code (Glottolog bana1308 only). Banat Bulgarian speaker villages (e.g. Dudeștii Vechi, Vinga) differ from these urban seeds. Four seeds lie outside Banat in Crișana: Oradea (Bihor), Satu Mare (Satu Mare county), Săcueni (Bihor), Chișineu-Criș (Arad, Crișul Alb). These four were removed. Remaining Banat-region towns (Timișoara, Arad, Lugoj, Reșița, etc.) cannot be tied to a verifiable language code because 'Banat' is not an ISO 639-3 language. Cannot verify as a language namebase. 26 seeds remain (>=25) but entry is unverified due to unresolved language identity."
-    }
-  },
-  {
     "name": "Csángó",
     "i": 200730,
     "min": 3,
@@ -10566,29 +9725,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Andi",
-    "i": 200644,
-    "min": 4,
-    "max": 29,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Andi,Gunkha,Gagatl,Ashali,Rikvani,Chanko,Zilo,Kvanxidatl,Munin,Bichonni,Rushukha,Tsibilda,Tlisi,Chirkata,Gimali,Tsumada,Kvanada,Akhalchi,Sogratl,Oboda,Kizhani,Gakvari,Tadiyal,Maali,Khvered,Tlondoda,Gagar,Dzilebki,Koroda",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/ani",
-        "https://glottolog.org/resource/languoid/id/andi1255",
-        "https://en.wikipedia.org/wiki/Andi_language",
-        "https://en.wikipedia.org/wiki/Andi,_Republic_of_Dagestan",
-        "https://arhiiv.eki.ee/books/redbook/andis.shtml"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Andi [ani], Glottolog andi1255, ISO 639-3 ani; Northeast Caucasian (Avar-Andic) language spoken in Botlikhsky District, western Dagestan. The Andi language article confirms Andi-speaking villages: Andi, Gunkha, Gagatl, Ashali, Rikvani, Chanko, Zilo, Kvanxidatl; the Botlikhsky District navbox confirms Andi, Ashali, Chanko, Gunkha, Muni (=Munin), Rikvani, Rushukha, Kizhani, Zilo. Kvanada (Tsumada District), Tsumada, Tlondoda (Tlarata District), Gakvari (Nizhneye Gakvari, Tsumadinsky District) and Koroda are real Dagestan villages. ~17 of 30 seeds confirmed as real Andi-area settlements. Koisu is the Andi-Koisu river, not a settlement - removed. Remaining seeds (Bichonni, Tsibilda, Tlisi, Chirkata, Gimali, Akhalchi, Oboda, Tadiyal, Maali, Khvered, Gagar, Dzilebki) not confirmed against primary sources. Confirmed settlements (~17) < 25 floor. Entry cannot be verified."
-    }
-  },
-  {
     "name": "Bezhta",
     "i": 200645,
     "min": 4,
@@ -10626,26 +9762,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:36.206Z",
       "notes": "Kabardian (East Circassian, Northwest Caucasian): ISO 639-3 kbd = Kabardian (Active, Individual, Living; Ethnologue/Glottolog/Wikipedia), Glottolog kaba1278. Region: North Caucasus, native to Kabardino-Balkaria and Karachay-Cherkessia (Russia), official in those republics. All 38 seeds are real settlements in Kabardino-Balkaria and adjacent North Caucasus republics (Stavropol Krai, Krasnodar Krai, Adygea): Nalchik (capital), Baksan, Prokhladny, Mozdok, Nartan, Terek (town, admin centre of Tersky District, Kabardino-Balkaria), Kislovodsk, Piatigorsk, Essentuki, Zheleznovodsk, Cherkessk, Maykop, Adygeisk, Giaginskaya, Khadyzhensk, Apsheronsk, Krasnodar, Armavir, Nevinnomyssk, Stavropol, Georgiyevsk, Budyonnovsk, Blagodarny, Izobilny, Neftekumsk, Ust-Dzheguta, Teberda, Dombay, Terskol, Verkhnyaya Balkariya, Zolskoye, Psygansu, Kashkhatau, Aushiger, Kenzhe, Staraya Krepost, Islamey, Kyzburun. No duplicates, no self-reference, no non-place tokens."
-    }
-  },
-  {
-    "name": "Kubachi",
-    "i": 200649,
-    "min": 4,
-    "max": 31,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Amuzgi,Shari,Sulevkent,Mamedkala,Turag,Khurik,Mezhgyul,Kondik,Tinit,Sirtich,Khanag,Eteg,Dureb,Shilyagi,Kirki,Mugarty,Chakhimakhi,Gdym,Tsirkhe,Kala,Mukrakari,Khamam,Gimi,Kullar,Chinar,Rukel,Karbuchimakhi,Gergemli,Zizik,Madzhalis,Basly",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/ugh",
-        "https://en.wikipedia.org/wiki/Kubachi_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Kubachi (ISO 639-3 ugh, code created 2022-01-20; Glottolog kuba1248) is a Dargin dialect/language documented as spoken in Kubachi village, Dakhadayevsky District, Dagestan, Russia (~7,000 speakers, 2020; single-village area); Ethnologue lists it as a separate language. The seed list spans all Dagestan, not the Kubachi area. Removed 6 seeds clearly outside Kubachi/Dakhadayevsky District: Derbent (major city), Dagestanskiye Ogni, Tabasaran (ethnonym/district, not a Kubachi settlement), Khuchni (Tabasaran district centre), Kasumkent, Urkarakh (Laksky District, Lak people). Remaining 31 seeds cannot be confirmed as Kubachi-area settlements against primary sources; fewer than 25 Kubachi-area seeds confirmed. Marked unverified (insufficient sources / area mismatch)."
     }
   },
   {
@@ -10787,30 +9903,6 @@ window.europeNameBases = [
     }
   },
   {
-    "name": "Balkar",
-    "i": 24756,
-    "min": 4,
-    "max": 12,
-    "d": "",
-    "m": 0,
-    "b": "Kashkhatau,Aushiger,Babugent,Verkhnyaya Balkariya,Bezengi,Zhemtala,Verkhnyaya Zhemtala,Gerpegizh,Zaragizh,Karasu,Nizhniy Chegem,Khushto-Syrt,Yanikoy,Eltyubyu,Bulungu,Chegem Vtoroy,Shalushka,Baksan,Baksanok,Kishpek,Zayukovo,Islamey,Kurkuzhin,Dyugulybgey,Kuba,Kuba-Taba,Psykhurey,Psychokh,Atazhukino,Zhanhoteko",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/krc",
-        "https://glottolog.org/resource/languoid/id/kara1465",
-        "https://www.ethnologue.com/language/krc/",
-        "https://en.wikipedia.org/wiki/Karachay-Balkar_language",
-        "https://en.wikipedia.org/wiki/Kabardino-Balkaria",
-        "https://www.56ok.com/zipcode_RU/kabardino-balkar/baksansky-district.html"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Karachay-Balkar [krc], Glottolog kara1465, ISO 639-3 krc; Turkic language spoken in Kabardino-Balkaria and Karachay-Cherkessia, Russia. Balkar heartland is the upper Baksan and Chegem river valleys. Confirmed as real Kabardino-Balkaria settlements via locality/postal-code lists (Baksansky District) and Wikipedia: Atazhukino, Baksan, Baksanenok (=Baksanok), Islamey, Kishpek, Kuba, Kuba-Taba, Nizhny Kurkuzhin (=Kurkuzhin), Psychokh, Psykhurey, Zayukovo, Zhankhoteko (=Zhanhoteko), Dugulubgey (=Dyugulybgey), Chegem Vtoroy, Shalushka, Kashkhatau (Chereksky District), Aushiger, Bezengi, Nizhniy Chegem, Eltyubu (=El-Tubu) = 20 seeds. 10 seeds not confirmed against primary sources: Babugent, Verkhnyaya Balkariya (likely a region name 'Upper Balkaria', not a settlement), Zhemtala, Verkhnyaya Zhemtala, Gerpegizh, Zaragizh, Karasu, Khushto-Syrt, Yanikoy, Bulungu. Confirmed settlements (20) < 25 floor. Entry cannot be verified."
-    }
-  },
-  {
     "name": "Garfagnana",
     "i": 203300,
     "min": 4,
@@ -10861,26 +9953,6 @@ window.europeNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T10:09:00Z",
       "notes": "Verified 47 unique Latin settlements in Italy and Vatican City."
-    }
-  },
-  {
-    "name": "Old English",
-    "i": 203324,
-    "file": "europe",
-    "min": 4,
-    "max": 36,
-    "d": "",
-    "m": 0.1,
-    "status": "COMPLETE",
-    "b": "Wintanceaster,Sceaftesbyrig,Wigornaceaster,Hamtún,Scaroburh,Wiltún,Exanceaster,Sandwíc,Hæstingas,Tamaworðig,Stæfford,Wigingamere,Norðhamtún,Tofeceaster,Lichaeceaster,Medeshámstede,Norðwíc,Ðetford,Beodericsworth,Súðbyrig,Eoferwic,Bamburh,Hagustaldeshám,Lindicoln,Egmundesburh,Lundenbyrig,Gleawanceaster,Legaceaster,Wæringawíc,Mæmesceaster,Mealdun,Merantún,Đelweal,Snotingahám,Temesford,Seletún",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://iso639-3.sil.org/code/ang"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.206Z",
-      "notes": "Old English (ISO 639-3 ang, historical, ca. 450-1100) of England; not listed as a living language on Ethnologue. Seeds are Old English place-name forms of English towns (e.g. Wintanceaster=Winchester, Wigornaceaster=Worcester, Lundenbyrig=London). Unable to verify each Old English form against primary place-name sources (e.g. EPNS/Oxford Dictionary of English Place-Names) in this review. Removed Hæstenes — duplicate of Hæstingas (both denote Hastings). Not all Old English forms confirmable as settlements against primary sources; marked unverified (insufficient sources)."
     }
   }
 ];

@@ -275,26 +275,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Papuan Malay",
-    "i": 112,
-    "min": 4,
-    "max": 26,
-    "d": "",
-    "m": 0,
-    "b": "Jayapura,Abepura,Sentani,Manokwari,Sorong,Biak,Serui,Merauke,Timika,Fakfak,Kaimana,Nabire,Sarmi,Ransiki,Agats,Tanahmerah,Wasior,Genyem,Nimboran,Kokonao,Kepi,Mindiptana,Ayamaru,Supiori,Numfor,Waropen",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Papuan_Malay",
-        "https://www.ethnologue.com/language/pmy"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Papuan Malay (Irian Malay) ISO 639-3: pmy, Glottolog: papu1250. A Malay-based creole spoken in coastal areas of Western New Guinea (Papua, Indonesia). Four dialects: Bird's Head Malay, North Papua Malay, Serui Malay, South Coast Malay (Kluge 2017; Wikipedia). It is primarily a coastal lingua franca. Highland towns outside the coastal Papuan Malay area: Wamena (Jayawijaya), Oksibil (Pegunungan Bintang), Enarotali (Paniai), Dekai (Yahukimo), Karubaga (Tolikara), Bokondini (Tolikara), Mulia (Puncak Jaya) - these are highland settlements where indigenous Papuan languages predominate, not Papuan Malay settlements. Removing these 7 highland seeds leaves 26, but remaining seeds include some that cannot be individually confirmed as Papuman Malay settlements from available primary sources. Marked unverified due to insufficient sources for all seeds and highland seeds outside documented coastal area."
-    }
-  },
-  {
     "name": "Serui Malay",
     "i": 113,
     "min": 4,
@@ -379,25 +359,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:35.976Z",
       "notes": "Verified against Wikipedia Mah Meri people (major settlements list) and Selangor State Assembly official Orang Asli village list (dewan.selangor.gov.my). All 28 seeds are real settlements in Mah Meri territory: Pulau Carey and Kuala Langat/Sepang coastal areas of Selangor, Malaysia. Confirmed Kampung Orang Asli villages: Sungei Kurau, Sungei Judah, Sungei Bumbun, Sungei Jugra, Kepau Laut, Sg Rambai, Bukit Bangkong, Tanjung Sepat. Towns confirmed: Sungai Pelek, Tanjung Sepat, Morib, Jugra, Kuala Langat, Banting, Batu Laut, Sepang, Bagan Lalang, Pantai Jengkok, Ulu Chucoh, Sungai Belankan, Telok Panglima Garang, Jenjarom, Klang, Port Klang, Sijangkang, Telok Datok, Telok Gong. ISO 639-3: mhe, Glottolog: besi1244."
-    }
-  },
-  {
-    "name": "Semai",
-    "i": 118,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0.1,
-    "b": "Tapah,Parit,Batang Padang,Behrang Ulu,Gorang,Kampar,Redang Punggor,Perak Selatan,Pos Gedong,Tanah Rata,Kuala Lipis,Raub,Telimau,Bukit Terang,Kampung Sat,Kuala Kangsar,Hilir Perak,Bagan Datuk,Kinta,Manjung,Teluk Intan,Tanjung Malim,Sungkai,Trolak,Behrang,Bagan Datoh,Hutan Melintang,Slim River,Bidor,Sitiawan",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Semai_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Semai (ISO 639-3: sea, Glottolog: sema1266) is an Aslian Austroasiatic language spoken in Perak, Peninsular Malaysia per Wikipedia/Ethnologue. All 30 seeds are places in Perak/Pahang, Malaysia. However, individual seeds could not be verified against primary sources with accessible URLs. Potential issues: Bagan Datuk and Bagan Datoh are alternative spellings of the same place (possible duplicate); Perak Selatan and Manjung refer to the same district (renamed); several seeds are district names rather than individual settlements (Kinta, Manjung, Hilir Perak, Perak Selatan, Batang Padang); Tanah Rata, Kuala Lipis, and Raub are in Pahang, not Perak. Needs primary-source verification of each seed."
     }
   },
   {
@@ -578,25 +539,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T05:19:00Z",
       "notes": "Verified 68 unique Minangkabau settlements in Indonesia (West Sumatra)."
-    }
-  },
-  {
-    "name": "Alor Malay",
-    "i": 169,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Kalabahi,Moru,Kalunan,Tribur,Apui,Maritaing,Bukapiting,Peitoko,Wolibang,Kokar,Alim Mebung,Alemba,Bolamelang,Binongko,Nusa Kenari,Welai Barat,Welai Timur,Mutiara,Wetabua,Lendola,Fanating,Motongbang,Air Kenari,Teluk Kenari,Adang Buom,Baranusa,Kabir,Bakalang,Marisa,Maliang",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Alor_Malay"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Alor Malay (no ISO 639-3 code, Glottolog: calor1252) is a Malay-based creole spoken in the Alor Archipelago, Indonesia per Wikipedia. Individual seeds could not be verified against primary sources. Clear issue: 'Binongko' is an island in Wakatobi, Southeast Sulawesi - NOT in the Alor Archipelago. Many seed names could not be confirmed as real settlements in Alor. Needs primary-source verification of each seed; Binongko should be removed."
     }
   },
   {
@@ -830,46 +772,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Achhami Doteli",
-    "i": 414,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Achham,Mangalsen,Sanfebagar,Bayalu,Chaurapani,Dhakari,Bannigadi,Jupu,Panchadewal,Basti,Lamatoli,Sera,Bhageshwar,Marku,Dungeshwor,Thanti,Dipayal,Silgadhi,Kamalbazar,Patalkot,Srikot,Babala,Batulasen,Turmakhand,Ramaroshan,Kalagaun,Riwantar,Chandika,Mira,Masthamandau",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Doteli_language",
-        "https://en.wikipedia.org/wiki/Achham_District"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Achhami Doteli is a dialect of Doteli (ISO 639-3: dty, Glottolog: doty1234) spoken in Achham District, Sudurpashchim Province, Nepal per Wikipedia. Doteli has four main dialects: Baitadeli, Achhami, Bajhangi Nepali, Darchuli/Darchuleli, and Doteli. Per the Achham District Wikipedia page (citing Nepal Census 2011/2021), confirmed Achham District local units: Mangalsen, Kamalbazar, Sanfebagar, Panchadewal Binayak, Ramaroshan, Chaurpati, Turmakhand, Mellekh, Dhakari, Bannigadi Jayagad. Of 30 seeds, ~8 confirmed in Achham District (Mangalsen, Sanfebagar, Dhakari, Panchadewal, Kamalbazar, Turmakhand, Ramaroshan, Bannigadi). Several seeds are from neighboring districts: Dipayal (Doti District), Silgadhi (Dadeldhura District). Many seeds (Bayalu, Chaurapani, Jupu, Basti, Lamatoli, Sera, Bhageshwar, Marku, Dungeshwor, Thanti, Patalkot, Srikot, Babala, Batulasen, Kalagaun, Riwantar, Chandika, Mira, Masthamandau) could not be confirmed as settlements in Achham District. Needs primary-source verification."
-    }
-  },
-  {
-    "name": "Baitadeli Doteli",
-    "i": 415,
-    "min": 4,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Baitadi,Dadeldhura,Darchula,Kailali,Dipayal,Silgadhi,Saileswori,Badikedar,Dhangadhi,Mangalsen,Sanfebagar,Achham,Bajhang,Bajura,Kanchanpur,Amargadhi,Jaya Prithvi,Patan,Dasharath,Maharudra,Dogdi,Pancheswor,Shivanath,Dilasaini,Kalikot,Gokuleshwar,Khodpe,Sripur,Bhumeshwar,Ritha Chaumala",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Doteli_language",
-        "https://en.wikipedia.org/wiki/Baitadi_District"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Baitadeli Doteli is a dialect of Doteli (ISO 639-3: dty, Glottolog: doty1234) spoken in Baitadi District, Sudurpashchim Province, Nepal per Wikipedia. Baitadeli is spoken by 39.4% of Baitadi District population (2021 census). Per the Baitadi District Wikipedia page (citing Nepal Census 2011/2021), confirmed Baitadi District local units: Dasharathchand, Patan, Melauli, Purchaudi, Sunarya, Sigas, Shivanath, Pancheshwor, Dogdakedar, Dilasaini. Former VDCs include: Gokuleshwar, Bhumeshwar, Maharudra, etc. Of 30 seeds, ~9 confirmed in Baitadi District (Patan, Dasharath/Dasharathchand, Maharudra, Dogdi/Dogdakedar, Pancheswor/Pancheshwor, Shivanath, Dilasaini, Gokuleshwar, Bhumeshwar). Many seeds are from OTHER districts: Dadeldhura (Dadeldhura, Silgadhi, Amargadhi, Saileswori), Darchula, Kailali (Dhangadhi), Doti (Dipayal), Achham (Mangalsen, Sanfebagar, Achham), Bajhang (Bajhang, Jaya Prithvi), Bajura, Kanchanpur, Kalikot. Needs primary-source verification; many seeds are district names rather than settlements."
-    }
-  },
-  {
     "name": "Bajhangi Doteli",
     "i": 416,
     "min": 4,
@@ -1001,28 +903,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Al-Azdi dialect",
-    "i": 737,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0.85,
-    "b": "Muscat,Nizwa,Sur,Salalah,Sohar,Saham,Ibri,Buraimi,Haima,Duqm,Mirbat,Taqah,Sadah,Rakhyut,Dhofar,Batinah,Adam,Al Ashkharah,Al Hamra,Al Suwaiq,Bahla,Barka,Bidbid,Bidiya,Ibra,Izki,Jabrin,Khasab,Rustaq,Muttrah",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Oman",
-        "https://iso639-3.sil.org/",
-        "https://www.ethnologue.com/",
-        "https://glottolog.org/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "No 'Al-Azdi dialect' entry found in Ethnologue / Glottolog / ISO 639-3. 'Al-Azdi' (al-Azdi) is a tribal nisba of the al-Azd tribal grouping, long recorded in Oman, not a documented language/dialect with a defined toponymy or a standalone ISO 639-3 / Glottolog entry. The 30 seeds are real Omani places spanning the whole country (Muscat, Nizwa, Sur, Salalah, Sohar, Saham, Ibri, Buraimi, Haima, Duqm, Mirbat, Taqah, Sadah, Rakhyut, Dhofar, Batinah, Adam, Al Ashkharah, Al Hamra, Al Suwaiq, Bahla, Barka, Bidbid, Bidiya, Ibra, Izki, Jabrin, Khasab, Rustaq, Muttrah), including Dhofar (Salalah, Mirbat, Taqah, Rakhyut, Sadah) which is a distinct Arabic dialect zone, and region names (Dhofar, Batinah) rather than settlements. Cannot establish a documented language area; seeds cannot be verified against primary sources for this entry."
-    }
-  },
-  {
     "name": "A Ou",
     "i": 740,
     "min": 3,
@@ -1031,71 +911,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Hongfeng,Bigong,Maocaozhai,Jindi,Lannigou,Shawo,Xintian,Longjia,Qiaoshang,Houzitian",
     "status": "WAITING"
-  },
-  {
-    "name": "Achang",
-    "i": 745,
-    "min": 4,
-    "max": 29,
-    "d": "",
-    "m": 0.82,
-    "b": "Mangshi,Ruili,Lianghe,Yingjiang,Longchuan,Dehong,Husa,Zhedao,Xiandaozhai,Meng'ezhai,Nongzhang,Jiemao,Jiangdong,Dachang,Xiangsong,Mangmian,Mangxian,Baoshan,Luxi,Namhkam,Bhamo,Muse,Lashio,Kutkai,Hsenwi,Namtu,Kyaukme,Namhsan,Momeik",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Achang_language",
-        "https://www.ethnologue.com/25/language/acn",
-        "https://glottolog.org/resource/languoid/id/acha1252"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Achang (ISO 639-3: acn; Glottolog: acha1252) is a Tibeto-Burman (Burmish) language spoken in Dehong Prefecture, Yunnan, China, and northern Myanmar per Wikipedia citing Ethnologue 25. Documented China locations: Longchuan County (Husa), Lianghe County (Zhedao, Xiangsong, Dachang), Luxi/Mangshi City (Jiangdong), Longling County (Baoshan prefecture), Yingjiang County (Xiandaozhai, Meng'ezhai); dialects Longchuan, Lianghe, Mangshi. Of 30 seeds: Shweli is a river (Nam Ti/Shweli River), not a settlement - non-place token. Dehong is a prefecture, not a settlement. Baoshan is a prefecture city; Achang is confirmed in Longling County (within Baoshan prefecture) but Baoshan city itself is not confirmed as an Achang site. Ruili and the Myanmar towns (Namhkam, Bhamo, Muse, Lashio, Kutkai, Hsenwi, Namtu, Kyaukme, Namhsan, Momeik) are not confirmed as Achang-speaking settlements in the sources consulted. Only ~16 seeds are confirmable in Dehong/Yunnan (Mangshi, Lianghe, Yingjiang, Longchuan, Husa, Zhedao, Xiandaozhai, Meng'ezhai, Nongzhang, Jiemao, Jiangdong, Dachang, Xiangsong, Mangmian, Mangxian, Luxi), which is below the 25-seed floor. Insufficient primary sources to verify each seed against the documented area."
-    }
-  },
-  {
-    "name": "Adi",
-    "i": 748,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Pasighat,Boleng,Yingkiong,Tuting,Riga,Komsing,Geku,Mariyang,Pangin,Komlighat,Borguli,Yagrung,Likor,Jengging,Mebo,Rumgong,Kaying,Payum,Pugging,Bomdo,Millang,Ramsing,Bishing,Monigong,Kebang,Gette,Moying,Gobuk,Puging,Simong",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Adi_people",
-        "https://iso639-3.sil.org/",
-        "https://www.ethnologue.com/",
-        "https://glottolog.org/"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Adi (ISO 639-3: adi; Glottolog: adii1247) is a Tani language spoken by the Adi people primarily in Arunachal Pradesh, India per Wikipedia. The 30 seeds are places in the Siang district / Adi homeland (Pasighat, Yingkiong, Tuting, Bomdo, Mariyang, Pangin, Rumgong, Millang, Ramsing, Bishing, Monigong, Geku, Jengging, Likor, Yagrung, Mebo, Kebang, Simong, Borguli, Payum, Gobuk, Riga, Komsing) and others (Komlighat, Kaying, Pugging, Gette, Moying, Puging). These appear to be genuine Arunachal Pradesh Siang-district places, but each seed could not be individually confirmed against primary sources with accessible URLs (no census village directory or academic source listing these specific villages was accessible). Obscure seeds (Komlighat, Kaying, Pugging, Gette, Moying, Puging) could not be verified. Insufficient primary sources to verify every seed against the documented Adi area."
-    }
-  },
-  {
-    "name": "Aer",
-    "i": 751,
-    "min": 4,
-    "max": 29,
-    "d": "",
-    "m": 0.83,
-    "b": "Tharparkar,Nagarparkar,Mithi,Islamkot,Diplo,Chachro,Chelhar,Kaloi,Dahli,Mirpur Khas,Umerkot,Jamesabad,Kunri,Kot Ghulam Muhammad,Jikrio Goth,Deh 333,Tando Allahyar,Badin,Tando Adam,Nawabshah,Sanghar,Thatta,Jamshoro,Matiari,Hala,Tando Muhammad Khan,Digri,Samaro,Pangrio",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Aer_language",
-        "https://staging.ethnologue.com/language/aeq/",
-        "https://glottolog.org/resource/languoid/id/aerr1238",
-        "https://iso639-3.sil.org/code/aeq"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "ISO 639-3 aeq; Glottolog aerr1238. Aer is an endangered Indo-Aryan language of Sindh, Pakistan (also Gujarat, India). Primary sources document speakers only in specific southern-Sindh localities: Hyderabad, Kot Ghulam Muhammad, Kunri, Deh 333 (near Hyderabad), and reportedly Shaheed Benazirabad (Wikipedia/Aer). The seed list spans all of Sindh, including northern Sindh towns (Khairpur, Sukkur, Larkana) and central-Sindh towns that are not documented as Aer-speaking localities. Cannot confirm that all (or even a reliable >=25) seeds fall within the documented Aer area; insufficient primary-source coverage to mark verified."
-    }
   },
   {
     "name": "Ahom",
@@ -1789,28 +1604,6 @@ window.asiaNameBases = [
     "m": 1,
     "b": "Hunza,Yasin,Gilgit,Baltit,Altit,Ganesh,Hari Parbat,Gupis,Ghizer,Karakoram,Shimshal,Passu,Gulkin,Chilas,Astore,Skardu,Rama,Pharping,Nagar,Srinagar,Ishkoman,Ataabad,Nagarkot,Sikandarabad",
     "status": "WAITING"
-  },
-  {
-    "name": "Hindko, Northern",
-    "i": 994,
-    "min": 4,
-    "max": 26,
-    "d": "tt,bb,ff",
-    "m": 4,
-    "b": "Mansehra,Torghar,Peshawar,Nowshera,Akora Khattak,Swabi,Kohat,Attock,Rawalpindi,Murree,Shangla,Buner,Swat,Dir,Chitral,Charsadda,Mingora,Matta,Kabal,Parachinar,Abbottabad,Haripur,Muzaffarabad,Battagram,Mardan,Talagang",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://www.ethnologue.com/language/hno",
-        "https://en.wikipedia.org/wiki/Hazara_Division",
-        "https://en.wikipedia.org/wiki/Pothohar_Plateau",
-        "https://en.wikipedia.org/wiki/Galyat"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Language confirmed: Northern Hindko (hno), spoken in Pakistan (Khyber Pakhtunkhwa) per Ethnologue. However, multiple seeds are administrative regions, not settlements: Hazara (division), Pothohar (plateau), Galyat (hill tract), Neelum (district/river), Kurram (district/agency), Kaghan (valley). Per guardrails, seeds must be actual settlements. Removing these 6 leaves 26 seeds (>=25), but remaining seeds cannot all be verified against primary sources. Status: unverified due to insufficient source verification for individual seeds."
-    }
   },
   {
     "name": "Korku",
@@ -3194,23 +2987,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Kip",
-    "i": 1566,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Aresh,Bhawang,Budagaun,Dhawang,Dubidanda,Dubring,Gajul,Gaurigaun,Ghartigaun,Ghodagaun,Gumchal,Harjang,Hwama,Iriwang,Jailwang,Jaimakasala,Jangkot,Jedwang,Jhenam,Jinawang,Jungar,Karchawang,Kareti,Khumel,Khungri,Kotgaun,Kureli,Masina,Mijhing,Mirul,Nuwagaun,Pachhawang",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Language 'Kip' NOT found in any primary source: not in Ethnologue, not in Glottolog, not in ISO 639-3 code tables, not in Wikipedia's list of languages of Nepal (124 mother tongues from 2021 census). Not in the project's language-mixes.json catalog either. The 32 seeds appear to be Nepali village names (-gaun, -wang, -kot, -danda suffixes), but without a confirmed language, the seeds cannot be verified as belonging to a 'Kip' language area. Marked unverified due to unconfirmed language identity."
-    }
-  },
-  {
     "name": "Drq",
     "i": 1567,
     "min": 4,
@@ -3287,25 +3063,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Chinese Korean",
-    "i": 1589,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Mingdong Village,Jindalai Village,Bailong Village,Fangchuan Village,Hongqi Village,Sandaohe Village,Guangdong Village,Yan'an Village,Lishu Village,Longshan Village,Piyan Village,Xingcheng Village,Qinglong Village,Yanfeng Village,Longping Village,Longxin Village,Jiangbei Community,Jiangnan Community,Zhongxing Village,Chengzhong Village,Mingdong Village Helong,Zhixin Town,Xicheng Town,Yueqing Town,Fangchuan Town,Toudao Town,Xialuhe Korean Ethnic Township,Yongjeong,Longjing Village,Bazijie,Toudougou,Baichaogou",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Yanbian_Korean_Autonomous_Prefecture"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Language area confirmed: Chinese Korean (Chaoxianzu/Koryo-saram) spoken in Yanbian Korean Autonomous Prefecture, Jilin Province, China (Wikipedia). Yanbian has 6 county-level cities (Yanji, Tumen, Dunhua, Hunchun, Longjing, Helong) and 2 counties (Wangqing, Antu), divided into 642 villages. Entry seeds include village names (Mingdong Village, Jindalai Village, Bailong Village, Fangchuan Village, etc.) and town names (Zhixin Town, Xicheng Town, Yueqing Town, Fangchuan Town, Toudao Town) consistent with Yanbian. Fangchuan is a known border village in Hunchun. Longjing is a city in Yanbian. However, individual village seeds cannot all be verified against primary sources (no detailed gazetteer of Yanbian villages accessible). Marked unverified due to insufficient primary source coverage for all 32 seeds."
-    }
-  },
-  {
     "name": "Chittagonian",
     "i": 1593,
     "min": 4,
@@ -3346,26 +3103,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Ban Khlong Phlu,Ban Nam Khun,Ban Takhian Thong,Ban Cham Khloh,Ban Chankhlem,Ban Krathing,Ban Thung Saphan,Ban Thung Ta-In,Ban Phang Kalaeng,Ban Wang Kraphrae,Khlong Saeng Village,Samre of Pursat,Phumi Chhak Rokar,Tanyong river around Phum Pra Moi,Phum Tasanh",
     "status": "WAITING"
-  },
-  {
-    "name": "Chrau Bahnaric",
-    "i": 1597,
-    "min": 4,
-    "max": 15,
-    "d": "",
-    "m": 1,
-    "b": "Ấp Lý Lịch,Ấp Chợ,Ấp Trung Sơn,Ấp Bình Hòa,Ấp Thọ Trung,Ấp 3,Ấp Suối Sóc,Ấp 4,Ấp Xuân Thiện,Ấp 9/4,Ấp Nhân Hòa,Ấp Ruộng Lớn,Ấp 6,Ấp Tân Thuận,Ấp Cầu Ri,Ấp 1,Thôn Tân Ro,Ấp Bàu Hàm,Xuân Bình,Xuân Trường,Xuân Thọ,Xuân Phú,Xuân Vinh,Xuân Hòa,Bầu Chinh,Long Tân,Sông Xoài,Hắc Dịch,Châu Pha,Tân Lâm,Trà Tân",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Chrau_language",
-        "https://pangloss.cnrs.fr/corpus/Chrau"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Chrau (ISO 639-3: crw, Glottolog: chra1238) is a South Bahnaric Austroasiatic language spoken in southern Vietnam, primarily in Đồng Nai, Bà Rịa-Vũng Tàu, and Bình Thuận provinces (also Bình Dương, Bình Phước, Lâm Đồng). All 31 seeds are generic Vietnamese hamlet/village names using 'Ấp' (hamlet) or 'Thôn' (village) prefixes (Ấp Lý Lịch, Ấp Chợ, Ấp Trung Sơn, Ấp Bình Hòa, Ấp Thọ Trung, Ấp 3, Ấp Suối Sóc, Ấp 4, Ấp Xuân Thiện, Ấp 9/4, Ấp Nhân Hòa, Ấp Ruộng Lớn, Ấp 6, Ấp Tân Thuận, Ấp Cầu Ri, Ấp 1, Thôn Tân Ro, Ấp Bàu Hàm, Xuân Bình, Xuân Trường, Xuân Thọ, Xuân Phú, Xuân Vinh, Xuân Hòa, Bầu Chinh, Long Tân, Sông Xoài, Hắc Dịch, Châu Pha, Tân Lâm, Trà Tân). None could be individually verified against primary sources as Chrau-speaking settlements. These are common Vietnamese place names found in many provinces; no source links them specifically to Chrau-speaking areas. Entry cannot be verified."
-    }
   },
   {
     "name": "Christian Urmi Neo-Aramaic",
@@ -4728,28 +4465,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Jiri,Sikri,Kot,Ratmate,Kharayoban,Yarsa,Jungu,Chhetrapa,Jhyaku,Paldung,Jugu,Sindhupalchok,Darjeeling",
     "status": "WAITING"
-  },
-  {
-    "name": "Khmu",
-    "i": 201377,
-    "min": 4,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "b": "Sop Cop,Dom Cang,Sam Kha,Muong Leo,Pung Banh,Nam Lanh,Muong Va,Muong Lan,Banh Han,Cang,Cang On,Cap Ven,Co Duca,Hoc Mot,Hua Lanh,Hua Muong,Huoi Ai,Huoi Ca,Huoi Duong,Huoi Hia,Huoi Lau,Huoi Nieng,Huoi Pot,Keo Vai,Na Dia,Na Khoang,Na Loc,Na Lua,Nghe Ven,No Sai",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/khmu1256",
-        "https://iso639-3.sil.org/code/kjg",
-        "http://ethnologue.com/language/kjg",
-        "https://en.wikipedia.org/wiki/Khmu_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Khmu (ISO 639-3: kjg, Glottolog: khmu1256, Ethnologue: kjg) is an Austroasiatic language of northern Laos (Luang Namtha, Udomxai, Bokeo, Sayaboury, Phongsali, Luang Prabang, Xieng Khouang provinces; a few villages near Vientiane), also Vietnam, Thailand and China. Primary sources confirm the language and its documented area. However, none of the 30 seed village names (Sop Cop, Dom Cang, Sam Kha, Muong Leo, Pung Banh, Nam Lanh, Muong Va, Muong Lan, Banh Han, Cang, Cang On, Cap Ven, Co Duca, Hoc Mot, Hua Lanh, Hua Muong, Huoi Ai, Huoi Ca, Huoi Duong, Huoi Hia, Huoi Lau, Huoi Nieng, Huoi Pot, Keo Vai, Na Dia, Na Khoang, Na Loc, Na Lua, Nghe Ven, No Sai) could be verified as real settlements in the documented Khmu area against primary sources; web searches found no matching settlements. Per the verification standard (verify every seed against a primary source; never guess), the entry cannot be verified."
-    }
   },
   {
     "name": "Kuy",
@@ -6291,28 +6006,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Konyak",
-    "i": 2480,
-    "min": 3,
-    "max": 14,
-    "d": "",
-    "m": 0,
-    "b": "Mon,Longwa,Tobu,Chenloisho,Sheanghah,Wakching,Hongphoi,Nagan,Yannu,Möngkholong,Chen,Shangnyu,Tizit,Phomching,Angjangyang,Aboi,Monyakshu,Nagainimora,Oting,Chui,Shakchi,Kongon,Lampongsheanghah,Jaboka,Lannyu,Laokhun,Wangla,Pongkong,Tang,Mopong,Hunta",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Konyak_language",
-        "https://en.wikipedia.org/wiki/Mon_district",
-        "https://iso639-3.sil.org/code/nbe",
-        "https://glottolog.org/resource/languoid/id/kony1248"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Language confirmed: Konyak Naga, ISO 639-3 nbe, Glottolog kony1248. Documented area: Mon district, Nagaland, India (and adjacent Myanmar), per Wikipedia citing Ethnologue 25th ed. (2022) and 2011 India Census. Konyak language article lists dialects that double as village names (Mon, Longwa/Longching, Wakching, Hongphoi, Chen, Tang, Kongon/Tableng 'Angwangku, Kongon, Mohung, Wakching'). Mon district article confirms Konyak-speaking villages: Chi, Mon, Shangnyu, Lungwa/Longwa, Sheanghah Chingnyu, Jaboka, Nagainimora/Naganimora subdivision. ~12 of 31 seeds individually confirmed against primary sources. Remaining seeds (Tobu, Chenloisho, Nagan, Yannu, Möngkholong, Tizit, Phomching, Angjangyang, Aboi, Monyakshu, Oting, Chui, Shakchi, Lampongsheanghah, Lannyu, Laokhun, Wangla, Pongkong, Mopong, Hunta) are plausible Konyak village names but could not be individually verified against an accessible primary source (2011 Census village directory for Mon district not accessible). <25 seeds confirmed, so entry cannot be marked verified."
-    }
-  },
-  {
     "name": "Tangkhulic",
     "i": 2481,
     "min": 4,
@@ -6827,26 +6520,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Tungusic",
-    "i": 9480,
-    "min": 4,
-    "max": 18,
-    "d": "",
-    "m": 0,
-    "b": "Khabarovsk,Vladivostok,Blagoveshchensk,Tongjiang,Komsomolsk-on-Amur,Bikin,Lesozavodsk,Dalnerechensk,Dolinsk,Yuzhno-Sakhalinsk,Ulan-Ude,Chita,Amursk,Artyom,Ussuriysk,Partizansk,Spassk-Dalny,Luchegorsk,Dalnegorsk,Kavalerovo,Vanino,Chernyshevsky,Neryungri,Tygda,Mogocha,Ulaanbaatar,Erdenet,Darkhan,Choibalsan,Khovd,Bayan-Olgii,Bulgan,Murun,Ulaangom,Harbin,Qiqihar,Heihe,Fuyuan",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Tungusic_languages",
-        "https://glottolog.org/resource/languoid/id/tung1282"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Tungusic is a LANGUAGE FAMILY (ISO 639-5: tuw, Glottolog: tung1282), not a single language. There is no ISO 639-3 code for Tungusic as a single language. Seeds span the entire family area (Russian Far East: Khabarovsk, Vladivostok; Mongolia: Ulaanbaatar; China: Harbin, Qiqihar; plus Siberian towns). This is a macro-entry using a family name as a single language entry. Cannot verify as a single language namebase."
-    }
-  },
-  {
     "name": "Kar",
     "i": 13491,
     "min": 4,
@@ -6895,25 +6568,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:35.977Z",
       "notes": "Japanese Pidgin English (incl. Bamboo English / Yokohama Pidgin Japanese context) has NO ISO 639-3 code (listed as mis) and NO Glottolog entry for 'Japanese Pidgin English' as a single language (Bamboo English: Glottolog None; Yokohama Pidgin yoko1234 limited to Yokohama). There is no primary language source documenting a single 'Japanese Pidgin English' with a defined area. Documented use: Yokohama, Kobe, Nagasaki (19th-c. Yokohama Pidgin Japanese) and US military bases in occupied Japan, most widely in Okinawa (post-WWII Bamboo English). The seed list spans cities across Japan (Tokyo, Yokohama, Okinawa, Sasebo, Iwakuni, Zama, Misawa, Yokota, Kadena, Futenma, Naha, Camp Foster, Osaka, Kyoto, Nagoya, Sapporo, Kobe, Fukuoka, Kawasaki, Hiroshima, Sendai, Ginowan, Yomitan, Uruma, Chatan, Kin, Camp Hansen, Camp Schwab, Camp Courtney, Torii Station). Removed Osaka, Kyoto, Nagoya, Sapporo, Fukuoka, Hiroshima, Sendai - major cities with no documented JPE/US-base presence. 23 seeds remain (<25)."
-    }
-  },
-  {
-    "name": "Korean Bamboo English",
-    "i": 20008,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Seoul,Daegu,Daejeon,Gwangju,Incheon,Uijeongbu,Pyeongtaek,Suwon,Cheongju,Jeonju,Andong,Pohang,Mokpo,Yeongju,Busan,Ulsan,Changwon,Gyeongju,Jeju,Chuncheon,Gangneung,Gunsan,Camp Humphreys,Camp Casey,Camp Red Cloud,Camp Stanley,Camp Carroll,Osan Air Base,Kunsan Air Base",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Bamboo_English"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "No ISO 639-3 code (listed as 'None / mis'), no Glottolog entry. Bamboo English is an English-based pidgin/jargon used between US military personnel and local populations in occupied Japan and during the Korean War in South Korea. Not a language with its own documented toponymy; no primary source (Ethnologue, Glottolog, ISO 639-3) establishes it as a language with a settlement list. US military camps (Camp Humphreys, Camp Casey, etc.) are military installations, not settlements in the traditional toponymic sense. Cannot verify seeds against primary sources. Marked unverified."
     }
   },
   {
@@ -6967,28 +6621,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T20:00:00Z",
       "notes": "Verified 43 unique Lotha Naga settlements in India (Nagaland)."
-    }
-  },
-  {
-    "name": "Daman and Diu Portuguese Creole",
-    "i": 203247,
-    "min": 3,
-    "max": 10,
-    "d": "",
-    "m": 0,
-    "b": "Devka,Kachigam,Diu,Ghogla,Vanakbara,Fudam,Bucharvada,Nani Daman,Moti Daman,Marval,Somnath,Calvary,Dobas,Bhimpore,Daman,Jampore,Kadaiya,Varki,Rudra,Magarwada,Goghla,Mala,Rodad,Simbhor,Sarasi,Bharvad,Nadergal,Rava,Kimbala,Dudheri,Mandla",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Daman_and_Diu_Portuguese_Creole",
-        "https://en.wikipedia.org/wiki/Diu_district",
-        "https://en.wikipedia.org/wiki/Daman,_India",
-        "https://glottolog.org/resource/languoid/id/dama1278"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Language confirmed: Daman and Diu Portuguese Creole, Glottolog dama1278, no ISO 639-3 code (uncoded). Documented area: Daman, Diu (and Silvassa), Dadra and Nagar Haveli and Daman and Diu, India, per Wikipedia citing Cardoso (2006, 2009, 2010) and 2011 India Census. Diu district article (citing Census 2011) lists settlements: Diu town, Fudam (Podamo), Bucharwada (Bunxivará), Vanakbara (Brancavará), Ghogholá/Ghogla. Daman India article confirms Daman city split into Nani-Daman and Moti-Daman, plus Devka Beach and Jampore Beach. ~10 of 31 seeds confirmed: Diu, Fudam, Bucharwada, Vanakbara, Ghogla, Daman, Nani Daman, Moti Daman, Devka, Jampore. Remaining seeds (Kachigam, Marval, Somnath, Calvary, Dobas, Bhimpore, Kadaiya, Varki, Rudra, Magarwada, Goghla, Mala, Rodad, Simbhor, Sarasi, Bharvad, Nadergal, Rava, Kimbala, Dudheri, Mandla) could not be individually verified against accessible primary sources. <25 seeds confirmed."
     }
   },
   {
@@ -7711,52 +7343,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Chamling",
-    "i": 200262,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Khotang,Halesi,Ratanchha,Balamta,Jubing,Meral,Namchi,Ravangla,Pelling,Gyalshing,Soreng,Rhenock,Singtam,Rangpo,Rolep,Assam Lingzey,Ranka,Chujachen,Sungdung,Pam,Martam,Rumtek,Khamdong,West Pendam,Lungchok,Lokdata,Gnathang Machong,Rorathang",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/caml1239",
-        "https://iso639-3.sil.org/code/rab",
-        "https://www.ethnologue.com/language/rab",
-        "https://en.wikipedia.org/wiki/Chamling_language",
-        "https://portal.tu.edu.np/downloads/Chamling_2023_09_30_11_16_55.pdf"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: rab. Glottolog: caml1239. Spoken in eastern Nepal (Khotang, Udayapur districts) and Sikkim, Darjeeling, Kalimpong (India). Dudhkoshi is a river, not a settlement. Jubing is in Solukhumbu district (not in the core Khotang/Udayapur Chamling area per Ethnologue and the Tribhuvan University sociolinguistic survey). Several smaller seeds (Meral, Rolep, Sungdung, Pam, Lungchok, Lokdata) could not be confirmed against primary sources as settlements in the Chamling area. Cannot verify all seeds against primary sources. Marked unverified."
-    }
-  },
-  {
-    "name": "Chepang (ISO)",
-    "i": 200263,
-    "min": 2,
-    "max": 25,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hetauda,Raksirang,Manahari,Bakaiya,Daman,Kulekhani,Markhu,Chitlang,Bhimphedi,Palung,Bharatpur,Shaktikhor,Dhading Besi,Sinthali,Hattibang,Jyandala,Gadi,Hugdi,Gorkha,Sunaula Bazar,Tasarphu,Tipling,Thakre,Bagarchhap,Gaidhabari",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/chep1245",
-        "https://iso639-3.sil.org/code/cdm",
-        "https://ethnologue.com/language/cdm/",
-        "https://en.wikipedia.org/wiki/Chepang_language",
-        "https://omniglot.com/writing/chepang.htm"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Language identity confirmed via primary sources: ISO 639-3 cdm (Chepang), Glottolog chep1245, Ethnologue cdm; spoken in Dhading, Chitwan, Makwanpur and southern Gorkha districts, central Nepal. Seed audit: removed 'Tripureshwar' (a Kathmandu neighbourhood, outside the Chepang area). The remaining 25 seeds are settlements in Chepang districts but could not each be source-confirmed as Chepang settlements against primary sources. Not enough verified evidence for verified status."
-    }
-  },
-  {
     "name": "Chrau",
     "i": 200264,
     "min": 4,
@@ -8001,28 +7587,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Hindko, Southern",
-    "i": 200289,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Peshawar,Kohat,Attock,Rawalpindi,Haripur,Abbottabad,Mansehra,Muzaffarabad,Chakwal,Jhelum,Gujar Khan,Fateh Jang,Hasan Abdal,Talagang,Chakri,Wah Cantt,Taxila,Dhudial,Basali,Mirpur,Hazro,Chhoi,Lawrencepur,Domel,Bagh,Kotli,Rawalakot",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/sout2668",
-        "http://www.ethnologue.com/language/hnd",
-        "https://iso639-3.sil.org/code/hnd",
-        "https://en.wikipedia.org/wiki/Hindko_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: hnd. Glottocode: sout2668. Spoken in Khyber Pakhtunkhwa (Peshawar, Kohat, Hazara Division) and Punjab (Attock, Rawalpindi, Chakwal, Jhelum) provinces of Pakistan, and Azad Kashmir. Duplicate seeds: 'Hasan Abdal' and 'Hassan Abdal' are the same city; 'Campbellpur' is the former name of Attock (1967-1978). Several smaller seeds (Chakri, Dhudial, Basali, Chhoi, Lawrencepur, Domel) could not be confirmed against primary sources as settlements in the Southern Hindko area. Cannot verify all seeds against primary sources. Marked unverified."
-    }
-  },
-  {
     "name": "Hokchiu",
     "i": 200292,
     "min": 4,
@@ -8191,25 +7755,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kalkot,Upper Dir,Panjkora Valley",
     "status": "WAITING"
-  },
-  {
-    "name": "Kaloeng",
-    "i": 200313,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0,
-    "b": "SakonNakhon,NakhonPhanom,Mukdahan,Muanglai,BanBua,SaenPhan,NonSangSi,ChoengChum,Kurukhu,Khamtoei,NaSok,PhaWang,NongHoi,NongBok,KhaYu,KongLo,Hinboun,Yommalath,ThaUthen,PhonSawan,NaKae,Kutakai,PlaPak,DonPueai,DongPhakPue,NaYo,DongMafai,PraSong",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Kaloeng_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Kaloeng (Kalerng/Kaleung) is a Southwestern Tai language of Thailand (Sakon Nakhon, Nakhon Phanom, Mukdahan provinces) and Laos (Khammouan Province), per Wikipedia citing Trongdee 2016. Wikipedia lists ISO 639-3 as '–' (none) and categorizes the article as 'missing Glottolog code' and 'without language codes' - Kaloeng has no ISO 639-3 code and no Glottolog entry. With no primary language source (ISO/Glottolog/Ethnologue), Kaloeng cannot be verified against primary sources. Additionally, Khammouan and Borikhamxai are Laos provinces (regions; capitals are Thakhek and Paksan respectively; Borikhamxai is not even in the documented area per Wikipedia, which lists only Khammouan for Laos) - removed as non-settlement / out-of-area tokens. 28 seeds remain (>=25) but the entry is unverified due to the absence of any primary language source."
-    }
   },
   {
     "name": "Kamviri",
@@ -8384,28 +7929,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Larantuka,Lewoleba,Wailiti,Wairotin,Waturia,Wodong,Bola,Kabor,Lela,Mbelling,Nangalimang,Napunggire,Ola,Pajama,Pau,Riang Kemie,Riawolo,Roja,Sikka,Tanjung Bunga,Waiblaki,Watugere,Wolowae",
     "status": "WAITING"
-  },
-  {
-    "name": "Lasi",
-    "i": 203139,
-    "min": 3,
-    "max": 14,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Uthal,Bela,Hub,Gadani,Dureji,Lakhra,Liari,Sonmiani,Kanraj,Windar,Keti Bandar,Shahbandar,Welpat,Kanrai,Chhor,Lakhara,Kathore,Khanwari,Allahabad,Baroot,Gadore,Kahore,Khenwari,Lohi,Pathra,Sheh,Wayara,Welpat Shumali,Welpat Janobi,Ormara,Winder",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Lasi_language",
-        "https://en.wikipedia.org/wiki/Lasbela_District",
-        "https://iso639-3.sil.org/code/lss",
-        "https://glottolog.org/resource/languoid/id/lasi1242"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Language confirmed: Lasi (Sindhi dialect), ISO 639-3 lss, Glottolog lasi1242, per Wikipedia citing Ethnologue 27th ed. (2024). Documented area: Lasbela, Hub and Gwadar districts, Balochistan, and Kirthar region of Karachi/Thatta/Jamshoro, Sindh, Pakistan. Lasbela District article (citing Pakistan Bureau of Statistics 2023 census) confirms headquarters Uthal and tehsils/union councils: Uthal, Wayara, Kenwari/Khenwari, Sheh; Lakhra; Bela, Welpat Shumali, Welpat Junubi/Janobi, Kathor/Kathore, Gador/Gadore; Kanraj; Liari; plus union councils Allahabad, Baroot, Lohi, Pathra. ~16 seeds confirmed as Las Bela settlements: Uthal, Bela, Lakhra, Liari, Kanraj, Sheh, Wayara, Khenwari, Welpat Shumali, Welpat Janobi, Kathore, Gadore, Allahabad, Baroot, Lohi, Pathra. Several seeds appear outside Lasbela proper or are non-settlement tokens: Keti Bandar and Shahbandar are in Thatta district, Sindh; Chhor is in Umerkot district, Sindh; Ormara is in Gwadar district; Hub was carved out as a separate district (2022); Winder is a river (Winder River) not a settlement. 'Dureji', 'Sonmiani', 'Kanrai', 'Lakhara', 'Kahore' not individually confirmed. <25 seeds confirmed within the documented Las Bela area."
-    }
   },
   {
     "name": "Lhowa (Lhopa)",
@@ -8635,28 +8158,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Manda",
-    "i": 200357,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "ThuamulRampur,Bhawanipatna,Kathakura,Pokra,Koshabora,Godra,Dakuta,Moska,Birikot,Gopalpur,Darla,Ranipodar,Kumarkani,Domerpodar,Kosavora,Bolangi,Mutachova,Semelpodar,Ramganji,Tesiguda,Dabriguda,Champichuva,IndiraColony,Kanigma,Jamguda,Duliguda",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Manda_language_(India)",
-        "https://en.wikipedia.org/wiki/Kalahandi_district",
-        "https://glottolog.org/resource/languoid/id/mand1413",
-        "https://iso639-3.sil.org/code/mha"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: mha. Glottolog: mand1413. Manda is a Dravidian language of Odisha, spoken in the highlands of Thuamul Rampur block of Kalahandi district (~60 villages). Of 28 seeds: 'Kalahandi' is a district name, not a settlement. 'Bissamgiri' is in Rayagada district, not Kalahandi/Manda area. 'ThuamulRampur' (Thuamul Rampur block) and 'Bhawanipatna' (district HQ) are confirmed real settlements in Kalahandi district. The remaining 24 seeds (Kathakura, Pokra, Koshabora, Godra, Dakuta, Moska, Birikot, Gopalpur, Darla, Ranipodar, Kumarkani, Domerpodar, Kosavora, Bolangi, Mutachova, Semelpodar, Ramganji, Tesiguda, Dabriguda, Champichuva, IndiraColony, Kanigma, Jamguda, Duliguda) are small villages that cannot be verified against primary sources - Wikipedia only states 'around 60 villages' without naming them."
-    }
-  },
-  {
     "name": "Mangghuer",
     "i": 200358,
     "min": 4,
@@ -8774,28 +8275,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Mewati",
-    "i": 200369,
-    "min": 4,
-    "max": 26,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Alwar,Dausa,Bayana,Kherli,Deeg,Nadbai,Weir,Lachhmangarh,Rajgarh,Behrod,Lalsot,Sikrai,Bharatpur,Kaman,Nagar,Tijara,Kishangarh Bas,Ramgarh,Laxmangarh,Govindgarh,Kathumar,Mundawar,Bansur,Thanagazi,Neemrana,Shahjahanpur",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/mewa1250",
-        "https://www.ethnologue.com/language/wtm",
-        "https://en.wikipedia.org/wiki/Mewati_language",
-        "https://en.wikipedia.org/wiki/Mewat"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: wtm; Glottolog: mewa1250. Documented area: Mewat region of India - Alwar, Bharatpur and Dholpur districts of Rajasthan; Mewat (Nuh) and Palwal districts of Haryana (per Wikipedia Mewati language and Mewat region). Kept 26 seeds in documented area: Alwar district (Alwar, Kherli, Lachhmangarh, Rajgarh, Behrod, Tijara, Kishangarh Bas, Ramgarh, Laxmangarh, Govindgarh, Kathumar, Mundawar, Bansur, Thanagazi, Neemrana, Shahjahanpur) and Bharatpur district (Bayana, Deeg, Nadbai, Weir, Kaman, Nagar, Bharatpur) and Dausa district (Dausa, Lalsot, Sikrai - Dausa district is partially in Mewat region per Wikipedia Mewat article). Removed 6 seeds outside the documented Mewati area or unconfirmed: Karauli and Hindaun (Karauli district, not in documented Mewati area), Bamanwas, Sawai Madhopur, Gangapur (Sawai Madhopur district, not in documented Mewati area), Murukherla (location unconfirmed, could not be verified as a real settlement in the Mewati area). 26 kept >= 25 floor, so entry remains substantiated but cannot be marked fully verified. No duplicates, no self-reference, no synthetic/template padding, no non-place tokens among kept seeds."
-    }
-  },
-  {
     "name": "Mnong",
     "i": 200372,
     "min": 3,
@@ -8840,70 +8319,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:35.977Z",
       "notes": "Mongghul (Huzhu Monguor) is a Mongolic language of Huzhu and Datong counties, Qinghai (ISO 639-3 mjg = Tu; Glottolog tuuu1240 for Monguor). 21 seeds confirmed as real settlements in Huzhu/Datong via official admin division lists (Huzhu: Weiyuan, Danma, Nanmenxia, Jiading, Tangchuan, Wushi, Wufeng, Gaozhai, Taizi, Xishan, Hongyazigou, Halazhigou, Dongshan; Datong: Qiaotou, Chengguan, Tar, Huangjiazhai, Changning, Jingyang, Duolin, Xinzhuang). 13 seeds could not be verified as Mongghul-area settlements and were removed: Dara, Zhaxilung, Kêsangnyagkai, Daglung, Sêrzü (Tibetan names in Tibetan townships, not Mongghul), Qutan (in Ledu District, not Huzhu), Nianbo, Yurun, Shoule, Gaomiao, Hongshui, Gaodian, Pachi (unconfirmed). 21 kept < 25 -> unverified."
-    }
-  },
-  {
-    "name": "Monom",
-    "i": 200378,
-    "min": 4,
-    "max": 10,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Krong Pa,Ayun Pa,Ia Pa,Phu Thien,Dak Doa,Mang Buk,Ia Grai,Dak Po,Kbang,Song Hinh,Son Hoa,Phu Hoa,Tuy An,Dong Hoa,Tam Nong,Cheo Reo,Ba Tri,Duc Co,Chu Se,Chu Prong,Kon Tum,Pleiku,An Khe,Phuoc An,Dak Song,Dak Rlap,Dak Mil",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://ethnologue.com/language/moo",
-        "https://en.wikipedia.org/wiki/Monom_language",
-        "https://glottolog.org/resource/languoid/id/mono1268"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Monom (ISO 639-3: moo; Glottolog mono1268) confirmed as Austroasiatic (Bahnaric) language of Vietnam, spoken mostly in Kon Plong District, Kon Tum Province (Wikipedia: Le et al. 2014). However, many seeds are outside the Central Highlands/Kon Tum area: Tam Nong (Dong Thap, Mekong Delta), Ba Tri (Ben Tre, Mekong Delta), Phuoc An (Khanh Hoa, south central coast), Song Hinh/Son Hoa/Phu Hoa/Tuy An/Dong Hoa (Phu Yen/Binh Dinh, south central coast). If these ~8 outside-area seeds are removed, only ~19 remain (<25 floor). Cannot verify all seeds are in the documented Monom area."
-    }
-  },
-  {
-    "name": "Moyfaw",
-    "i": 200379,
-    "min": 4,
-    "max": 10,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Ziyun,Wangmo,Ceheng,Xingren,Pu'an,Qinglong,Anlong,Zhenfeng,Guiding,Changshun,Luodian,Huishui,Pingtang,Dushan,Duyun,Sandu,Rongjiang,Congjiang,Jinping,Tian'e,Hechi,Yizhou,Nandan,Donglan,Bama,Du'an,Fengshan",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Longsang_Zhuang_language",
-        "https://en.wikipedia.org/wiki/Kam%E2%80%93Sui_languages"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Moyfaw NOT found in ISO 639-3, Glottolog, or Ethnologue as a language. Moyfaw appears only as a village name in Longsang Township, Debao County, Guangxi, China (listed in Wikipedia Longsang Zhuang article alongside other village names). Cannot identify what language this entry represents or verify seeds against a documented language area. All 27 seeds are real counties in Guizhou/Guangxi, China, but the language itself is undocumented in primary sources."
-    }
-  },
-  {
-    "name": "Muduga",
-    "i": 200380,
-    "min": 4,
-    "max": 28,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Attapadi,Agali,Mannarkkad,Palakkad,Chittur,Alathur,Ottapalam,Perinthalmanna,Nilambur,Wandoor,Edakkara,Thrissur,Kodungallur,Kunnamkulam,Valanchery,Ponnani,Tirur,Kottakkal,Malappuram,Cherpulassery,Pattambi,Shoranur,Kuttippuram,Tiruvegappura,Vengara,Kondotty,Areekode,Manjeri",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/mudu1239",
-        "https://ethnologue.com/language/udg/",
-        "https://iso639-3.sil.org/code/udg",
-        "https://en.wikipedia.org/wiki/Muduga_language",
-        "http://find.bible/languages/udg"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: udg. Glottocode: mudu1239. Spoken by Muduga tribes in the Attappady valley south of the Nilgiris in Palakkad district, Kerala, India. Maniyur is in Kozhikode district, far from the Attappady core area. Several seeds are from Thrissur and Malappuram districts, outside the core Muduga speaking area. Tiruvegappura confirmed as a village in Palakkad district. Cannot verify all seeds against primary sources as settlements in the Muduga-speaking area. Marked unverified."
     }
   },
   {
@@ -9265,26 +8680,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Northern Tungusic",
-    "i": 200406,
-    "min": 4,
-    "max": 19,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Khabarovsk,Komsomolsk-on-Amur,Nikolayevsk-on-Amur,Tynda,Zeya,Svobodny,Shimanovsk,Magdagachi,Skovorodino,Tygda,Mogocha,Chara,Ust-Nera,Oymyakon,Tommot,Lensk,Vilyuysk,Nerungri,Chulman,Aldan,Yakutsk,Mirny,Neryungri,Ust-Maya,Ust-Yansk",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ewenic_languages",
-        "https://glottolog.org/resource/languoid/id/nort3147"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Northern Tungusic (Ewenic) is a LANGUAGE FAMILY/subgroup (Glottolog nort3147) of Far East Russia and northeastern China comprising Even, Evenki, Negidal, Oroqen, Kili — it is NOT a single ISO 639-3 individual language, so there is no single language code/area to verify seeds against. Several seeds lie in Sakha (Yakut) Republic territory — Yakutsk, Mirny, Neryungri, Oymyakon, Tommot, Lensk, Vilyuysk — which is Turkic (Sakha/Yakut) speaking, not Tungusic-speaking. Cannot verify this entry as a single-language namebase."
-    }
-  },
-  {
     "name": "Nung Tai",
     "i": 200407,
     "min": 4,
@@ -9420,28 +8815,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Pahari-Pothwari",
-    "i": 200425,
-    "min": 4,
-    "max": 30,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Rawalpindi,Murree,Chakwal,Jhelum,Gujar Khan,Kahuta,Talagang,Wah Cantonment,Taxila,Attock,Hasan Abdal,Fateh Jang,Pindi Gheb,Kallar Kahar,Choa Saidan Shah,Dina,Sohawa,Kotli Sattian,Mirpur,Kotli,Bhimber,Bagh,Rawalakot,Muzaffarabad,Hattian Bala,Haveli,Palandri,Rajouri,Poonch,Abbottabad",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/paha1251",
-        "https://www.ethnologue.com/language/phr/",
-        "https://en.wikipedia.org/wiki/Pothohari",
-        "https://www.sil.org/resources/publications/entry/9130"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: phr; Glottolog: paha1251. Documented area: northern half of Pothohar Plateau in Punjab, Pakistan; most of Azad Kashmir; western areas of Indian-administered Jammu and Kashmir (Poonch, Rajouri) (per Wikipedia Pahari-Pothwari). Kept 30 seeds in documented area: Pothohar/Rawalpindi (Rawalpindi, Murree, Gujar Khan, Kahuta, Wah Cantonment, Taxila, Kotli Sattian), Chakwal (Chakwal, Talagang, Kallar Kahar, Choa Saidan Shah), Jhelum (Jhelum, Dina, Sohawa), Attock (Attock, Hasan Abdal, Fateh Jang, Pindi Gheb), Azad Kashmir (Mirpur, Kotli, Bhimber, Bagh, Rawalakot, Muzaffarabad, Hattian Bala, Haveli, Palandri), western J&K (Rajouri, Poonch), Abbottabad (listed as Pahari-Potwari research location in Lothers & Lothers 2010 SIL sociolinguistic survey). Removed 2 seeds outside documented area: Srinagar and Baramulla (Kashmir Valley - Kashmiri-speaking region, not Pahari-Pothwari; Pahari-Pothwari is spoken in western J&K i.e. Poonch/Rajouri, not the Kashmir Valley). 30 kept >= 25 floor. No duplicates, no self-reference, no synthetic/template padding, no non-place tokens among kept seeds."
-    }
-  },
-  {
     "name": "Pakistani English",
     "i": 200426,
     "min": 4,
@@ -9556,27 +8929,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Kandahar,Quetta,Pishin,Mastung,Kalat,Khuzdar,Dera Ismail Khan,Tank,Loralai,Duki,Muslim Bagh,Sibi,Chagai,Chaman,Spin Boldak,Killa Abdullah,Musa Khel,Sanjavi,Sherani,Musakhel",
     "status": "WAITING"
-  },
-  {
-    "name": "Pattapu",
-    "i": 200433,
-    "min": 4,
-    "max": 15,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Nellore,Kavali,Kovur,Kavur,Atmakur,Gudur,Buchireddipalem,Sangam,Jaladanki,Chejarla,Podalakur,Marripadu,Seetharamapuram,Vakadu,Momidi,Rapur,Venkatagiri,Sullurpeta,Naidupeta,Balayapalli,Allur,Kodavalur,Dagadarthi,Chejerla,Manubolu",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/patt1247",
-        "https://ethnologue.com/language/ptq",
-        "https://en.wikipedia.org/wiki/Pattapu_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Pattapu (ISO ptq, Glottolog patt1247) is a Dravidian language of Andhra Pradesh, India, spoken in Nellore, Prakasam and Bapatla districts. All 25 seeds are Nellore district towns/mandals. However, seed 'Kavur' could not be confirmed as a separate settlement from 'Kovur' (both in list), and 'Chejarla' may be a variant spelling/duplicate of 'Chejerla' (also in list). Insufficient primary-source confirmation for every seed; entry remains unverified."
-    }
   },
   {
     "name": "Phake",
@@ -10516,27 +9868,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Vietnamese Hue",
-    "i": 200566,
-    "min": 4,
-    "max": 27,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Hue,Huong Tra,Huong Thuy,Phu Vang,Phu Loc,A Luoi,Nam Dong,Phong Dien,Quang Dien,Lang Co,Thuan An,Chan May,Phu Bai,Kim Long,Phu Hoi,Vy Da,Thuy Bieu,Xuan Phu,Phu Hau,Phu Nhuan,Vinh Ninh,Thuan Hoa,Phu Xuan,Huong Long,Huong So,An Cuu,Phu Binh",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Hu%E1%BA%BF",
-        "https://en.wikipedia.org/wiki/B%E1%BA%A1ch_M%C3%A3_National_Park",
-        "https://en.wikipedia.org/wiki/Ph%C3%B9_C%C3%A1t_district"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Vietnamese (Kinh) language; documented area = Thua Thien Hue province, central Vietnam (province has 21 wards and 19 communes; Vietnamese is spoken throughout the province). Verified 27 seeds as real districts/wards/towns of Thua Thien Hue: Hue city; districts Huong Tra, Huong Thuy, Phu Vang, Phu Loc, A Luoi, Nam Dong, Phong Dien, Quang Dien; towns Lang Co, Thuan An, Chan May, Phu Bai; Hue city wards/communes Kim Long, Thuan Hoa, Phu Xuan, Huong Long, Huong So, An Cuu, Vy Da, Thuy Bieu, Xuan Phu, Phu Hoi, Phu Nhuan, Vinh Ninh, Phu Binh. Removed Bach Ma (Bach Ma National Park, a protected area, not a settlement), Phu Cat (a district of Binh Dinh province, South Central Coast - outside Thua Thien Hue), and Phu Da, Sia, Khe Tre (could not be confirmed as settlements in Thua Thien Hue against primary sources). 27 seeds kept >= 25 seed floor maintained, so entry remains substantiated but cannot be marked fully verified due to removals. No duplicates, no self-reference, no synthetic/template padding, no non-place tokens among kept seeds."
-    }
-  },
-  {
     "name": "Vietnamese Northern",
     "i": 200567,
     "min": 4,
@@ -11138,26 +10469,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Raojia",
-    "i": 200703,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Baixing,Heba,Majiang,Zunyi,Anshun,Kaili,Duyun,Fuquan,Rongjiang,Congjiang,Leishan,Taijiang,Huangping,Shibing,Sandu,Pingtang,Luodian,Huishui,Wengan,Xifeng,Xiuwen,Kaiyang,Qingzhen,Zhijin,Nayong,Weining,Dafang,Liupanshui,Tongren,Bijie,Mengla,Wenshan,Longshan",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Raojia_language",
-        "https://en.wikipedia.org/wiki/Huishui_Miao_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "No ISO 639-3 code, no Glottolog code. Spoken by ~5,000 people in 3 villages (including Baixing) of Heba Township, Majiang County, Guizhou, China (Wikipedia). Closely related to Huishui Miao. 33 seeds are mostly prefecture-level cities and counties across Guizhou and Yunnan (Zunyi, Anshun, Kaili, Duyun, Fuquan, Rongjiang, Congjiang, Leishan, Taijiang, Huangping, Shibing, Sandu, Pingtang, Luodian, Huishui, Wengan, Xifeng, Xiuwen, Kaiyang, Qingzhen, Zhijin, Nayong, Weining, Dafang, Liupanshui, Tongren, Bijie, Mengla, Wenshan, Longshan) that are not in the documented Raojia-speaking area (3 villages of Heba Township). Only 'Baixing' matches one of the 3 documented villages; 'Heba' is the township; 'Majiang' is the county. Even keeping all 3, seed count (3) is below the 25-seed floor."
-    }
-  },
-  {
     "name": "Sanqiao",
     "i": 200704,
     "min": 4,
@@ -11205,28 +10516,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-20T08:07:35.977Z",
       "notes": "She Chinese (Shanke, 山客话) is a Sinitic/Hakka variety spoken by She people in Fujian, Zhejiang, Jiangxi, Guangdong, Anhui (You 2002; ISO 639-3 none/uncoded). Distinct from the Hmongic She language (ISO shx, Guangdong). 24 seeds are major Chinese cities outside the documented She area (Xi'an, Changsha, Nanchang, Hangzhou, Xiamen, Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu, Nanjing, Wuhan, Kunming, Lanzhou, Taiyuan, Shijiazhuang, Changchun, Zhengzhou, Hefei, Ningbo, Suzhou, Tianjin, Xining, Yinchuan). Only 10 authentic seeds remain < 25 -> unverified."
-    }
-  },
-  {
-    "name": "Small Flowery",
-    "i": 200710,
-    "min": 4,
-    "max": 11,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Zhenning,Renhuai,Yuqing,Fenggang,Daozhen,Zheng'an,Suiyang,Tongzi,Puding,Pingba,Ziyun,Pu'an,Zunyi,Anshun,Kaili,Duyun,Fuquan,Nayong,Shuicheng,Guanling,Hezhang,Bijie,Weining,Zhijin,Qianxi,Dafang,Jinsha,Xishui,Chishui,Meitan,Wuchuan,Xiuwen,Qingzhen",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/smal1236",
-        "https://iso639-3.sil.org/code/sfm",
-        "http://ethnologue.com/language/sfm/",
-        "https://en.wikipedia.org/wiki/Gha-Mu_language"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "ISO 639-3: sfm, Glottolog: smal1236. Spoken in Nayong, Shuicheng, Zhenning, Guanling, and Hezhang counties of western Guizhou, China (Wikipedia Gha-Mu language; Ethnologue; Find a Bible). Only 5 of 33 seeds match the documented area: Zhenning, Nayong, Shuicheng, Guanling, Hezhang. The remaining 28 seeds are cities/counties across Guizhou province (Renhuai, Yuqing, Fenggang, Daozhen, Zheng'an, Suiyang, Tongzi, Puding, Pingba, Ziyun, Pu'an, Zunyi, Anshun, Kaili, Duyun, Fuquan, Bijie, Weining, Zhijin, Qianxi, Dafang, Jinsha, Xishui, Chishui, Meitan, Wuchuan, Xiuwen, Qingzhen) that are not specifically in the Small Flowery-speaking area. Keeping only 5 seeds would fall below the 25-seed floor."
     }
   },
   {
@@ -14331,28 +13620,6 @@ window.asiaNameBases = [
     "status": "WAITING"
   },
   {
-    "name": "Dai Zhuang",
-    "i": 1653,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Bamei,Liancheng,Babao,Nanping,Zhujie,Nasa,Zhulin,Zhuilijie,Xigu,Walong,Gumu,Pingba,Matang,Dehou,Xiaojie,Bozu,Xinhua,Guichao,Boai,Lida,Tianpeng,Muyang,Xisa,Xingjie,Fadou,Dongma,Lianhua,Benzhai,Gela",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Dai_Zhuang_language",
-        "https://en.wikipedia.org/wiki/Wenshan_Zhuang_and_Miao_Autonomous_Prefecture",
-        "https://iso639-3.sil.org/code/zhd",
-        "https://glottolog.org/resource/languoid/id/daiz1235"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Dai Zhuang is a Tai language spoken in Wenshan Prefecture, Yunnan, China (and northern Vietnam as Thu Lao). ISO 639-3: zhd, Glottolog: daiz1235. Some seeds correspond to real places in Wenshan (Liancheng is the seat of Guangnan County; Nanping is a town in Xichou County), but the majority of the 29 seeds could not be individually verified against primary sources as real settlements in Wenshan Prefecture. Several seeds (e.g., Gela) are primarily known as places outside the documented area (Gela is a city in Sicily, Italy). Insufficient source coverage to confirm all seeds. Marked unverified per accuracy-over-speed guardrail."
-    }
-  },
-  {
     "name": "En Kra",
     "i": 1061,
     "min": 3,
@@ -14523,51 +13790,6 @@ window.asiaNameBases = [
     "m": 0,
     "b": "Bantva,Kutiyanah,Dhoraji,Jetpur,Gondal,Vanthli,Veraval,Jamnagar,Junagadh,Porbandar,Upleta,Halari,Okha Port",
     "status": "WAITING"
-  },
-  {
-    "name": "Mewahang",
-    "i": 845,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Khandbari,Chainpur,Num,Madi,Tamku,Barmaga,Tumlingtar,Yaphu,Bala,Chirkhuwa,Yamdang,Chhoyang,Sisuwakhola,Pathibhara,Diding,Matsepokhari,Shitalpati,Dhupu,Keurepani,Mulpani,Papung,Nepaledanda,Dobhane,Khatamma,Kulung",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/west2422",
-        "https://glottolog.org/resource/languoid/id/east2357",
-        "https://ethnologue.com/language/raf/",
-        "https://en.wikipedia.org/wiki/Mewahang_language",
-        "https://www.elararchive.org/dk0499",
-        "https://en.wikipedia.org/wiki/Sankhuwasabha_district"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Mewahang (ISO 639-3: raf Western, emg Eastern; Glottolog: west2422, east2357) is a Kiranti language spoken in Sankhuwasabha District, Koshi Province, Nepal. Primary sources (Wikipedia Mewahang language, ELDP dk0499, Wikipedia Sankhuwasabha district) confirm these settlements: Khandbari, Chainpur, Tamku, Yaphu, Bala, Chirkhuwa, Yamdang, Chhoyang (Chhoyeng/Choyang), Sisuwakhola (Sisuwa/Sishuwakhola), Madi (10 settlements). The remaining 15 seeds (Num, Barmaga, Tumlingtar, Pathibhara, Diding, Matsepokhari, Shitalpati, Dhupu, Keurepani, Mulpani, Papung, Nepaledanda, Dobhane, Khatamma, Kulung) could not be verified against primary sources. Kulung is also the name of a neighboring Kiranti language. Cannot mark verified without primary source confirmation of all seeds."
-    }
-  },
-  {
-    "name": "Mewari",
-    "i": 202519,
-    "min": 4,
-    "max": 29,
-    "d": "",
-    "m": 0,
-    "b": "Udaipur,Chittorgarh,Bhilwara,Rajsamand,Pratapgarh,Nathdwara,Banswara,Dungarpur,Shahpura,Bari Sadri,Bhindar,Dhariawad,Gogunda,Kanor,Baansi,Bhadoo,Nai,Bichri,Gosunda,Kapasan,Rashmi,Railmagra,Bhopalsagar,Nimbahera,Harnathpura,Turkiya Khurd,Dovani,Bheemgarh,Pandoli",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mewari_language",
-        "https://iso639-3.sil.org/code/mtr",
-        "https://en.wikipedia.org/wiki/Mewar"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Mewari is a real language (ISO 639-3 mtr, Glottolog mewa1249) of the Mewar region, Rajasthan, India (Wikipedia; Census 2011). Confirmed real Rajasthan/Mewar settlements (24): Udaipur, Chittorgarh, Bhilwara, Rajsamand, Pratapgarh, Nathdwara, Banswara, Dungarpur, Shahpura, Bari Sadri, Bhindar, Dhariawad, Gogunda, Kanor, Baansi, Nai, Kapasan, Rashmi, Railmagra, Bhopalsagar, Nimbahera, Harnathpura, Bheemgarh, Pandoli. NOT verified against primary sources: 'Dindoli' is a town in Surat, Gujarat (Wikipedia) - NOT in Rajasthan/Mewar, removed; 'Dovani', 'Turkiya Khurd', 'Bhadoo', 'Bichri', 'Gosunda' not found in the Rajasthan Census village directory (rajasthan.villagecodes.in) and have no Wikipedia entry - unverifiable. Cannot confirm all seeds against primary sources."
-    }
   },
   {
     "name": "Nuoxi Naxi Yao",
@@ -14885,27 +14107,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Southern Khalkha",
-    "i": 202648,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Uliastai,Tosontsengel,Shiree,Tegsh,Oygon,Khungiy,Chandman,Nuga,Altanbulag,Tsavdan,Ovogdiy,Bayan-Ukhaa,Asgat,Aldarkhaan,Zavkhanmandal,Sharbulag,Kharkhiraa,Tarialan,Bugat,Tsalgar,Naranbulag,Khar-Us,Bayshint,Mondookhoo,Khavtsal,Namir,Tooromt,Kharmod,Dorvoljin,Erdenekhairkhan",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Mongolian_language",
-        "https://en.wikipedia.org/wiki/Zavkhan_Province",
-        "https://handwiki.org/wiki/Social:Khalkha_Mongolian"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Southern Khalkha is a real Khalkha dialect of Outer Mongolia (Janhunen, Mongolian, via HandWiki: Khalkha dialects include Central Khalkha Proper, Northern Khalkha, Southern Khalkha). Khalkha is spoken throughout Mongolia. Confirmed real Zavkhan aimag sums (Wikipedia Zavkhan Province): Uliastai (capital), Tosontsengel, Asgat, Aldarkhaan, Zavkhanmandal, Erdenekhairkhan, Dorvoljin (=Dörvöljin). Also real: Chandman, Altanbulag, Khar-Us (other Mongolian aimags). ~20 seeds (Shiree, Tegsh, Oygon, Khungiy, Nuga, Tsavdan, Ovogdiy, Bayan-Ukhaa, Sharbulag, Kharkhiraa, Tarialan, Bugat, Tsalgar, Naranbulag, Bayshint, Mondookhoo, Khavtsal, Namir, Tooromt, Kharmod) not individually verifiable against primary sources. Cannot confirm all seeds."
-    }
-  },
-  {
     "name": "Tangut",
     "i": 202682,
     "min": 4,
@@ -15019,29 +14220,6 @@ window.asiaNameBases = [
     }
   },
   {
-    "name": "Alyutor",
-    "i": 862,
-    "min": 4,
-    "max": 11,
-    "d": "",
-    "m": 0,
-    "b": "Vyvenka,Tilichiki,Ilpyrsky,Tymlat,Khailino,Olyutorka,Kultushnoye,Vetvey,Anapka,Kichiga,Ossora,Rekinniki,Podkagernaya,Pustoretsk,Palana,Lesnaya,Kinkil,Kakhtana,Voyampolka,Karaga,Ivashka,Dranka,Uka,Khaylyulya,Ozernoye",
-    "status": "WAITING",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://glottolog.org/resource/languoid/id/alut1245",
-        "https://ethnologue.com/language/alr/",
-        "https://en.wikipedia.org/wiki/Alutor_language",
-        "https://en.wikipedia.org/wiki/Olyutorsky_District",
-        "https://en.wikipedia.org/wiki/Tilichiki"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Alyutor/Alutor (ISO 639-3: alr, Glottolog: alut1245) is a Chukotko-Kamchatkan language spoken in northern Kamchatka Peninsula, Russia, primarily in Olyutorsky District. Primary sources (Wikipedia Alyutor language, Wikipedia Olyutorsky District, Wikipedia Tilichiki) confirm these settlements: Vyvenka (chief Alutor village), Tilichiki (district administrative center), Khailino, Olyutorka (former Alyutor settlement), Kultushnoye (former Alyutor settlement), Anapka (former Alyutor settlement) (6 settlements). The remaining 19 seeds (Ilpyrsky, Tymlat, Vetvey, Kichiga, Ossora, Rekinniki, Podkagernaya, Pustoretsk, Palana, Lesnaya, Kinkil, Kakhtana, Voyampolka, Karaga, Ivashka, Dranka, Uka, Khaylyulya, Ozernoye) could not be verified against primary sources as settlements in the Alyutor-speaking area. Cannot mark verified without confirming all seeds."
-    }
-  },
-  {
     "name": "Taishanese",
     "i": 866,
     "min": 4,
@@ -15115,27 +14293,6 @@ window.asiaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-15T18:10:00Z",
       "notes": "Verified 45 unique Tat settlements in Azerbaijan and Russia (Dagestan)."
-    }
-  },
-  {
-    "name": "Ubykh",
-    "i": 200657,
-    "min": 3,
-    "max": 12,
-    "d": "lnrt",
-    "m": 0,
-    "b": "Sochi,Tuapse,Gelendzhik,Novorossiysk,Krasnodar,Lazarevskoye,Khosta,Matsesta,Dagomys,Adler,Kudepsta,Mzymta,Psou,Shahe,Khamysh,AkhinTam,Akhun,Pehu,Psesh,Psezuapse,Bziy,Nabze,Hadzhyko,Shakhe,Kodori,Bzyb,Gumista,Psirtskha,Mokvi,Otkhara,Duripsh,Lykhny,Gudauta,Sukhum,Gagra,Pitsunda,Bichvinta,Gulripshi,Ochamchire",
-    "status": "COMPLETE",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Ubykh_language",
-        "https://iso639-3.sil.org/code/uby",
-        "https://glottolog.org/glottolog/ubyk1235"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Language confirmed: ISO 639-3 uby, Glottolog ubyk1235. Ubykh is an EXTINCT Northwest Caucasian language (last fluent speaker Tevfik Esenç died 7 Oct 1992), originally spoken around Sochi on the eastern Black Sea coast; community deported to Turkey in 1864. Cannot verify seeds against primary sources: language is extinct, no current settlement data. Multiple seeds are clearly NOT settlements: rivers (Mzymta, Psou, Psirtskha, Gumista, Kodori, Bzyb, Shakhe, Psezuapse, Psesh, Bziy) and a mountain (Akhun/Mount Akhun). Duplicate: Bichvinta = Pitsunda. Some cities (Krasnodar, Novorossiysk, Gelendzhik) lie outside the documented Ubykh area; Abkhaz towns (Sukhum, Gagra, Gudauta, Ochamchire, etc.) are in Abkhaz, not Ubykh, territory. Insufficient primary sources to confirm any seed as a Ubykh-area settlement."
     }
   },
   {
@@ -15765,28 +14922,6 @@ window.asiaNameBases = [
     "m": 0,
     "status": "WAITING",
     "b": "Favorlang,Mao'erkang,Erlin,Mazhilian,Assoeck,Babariangh,Dawujun,Dobalibaiou,Meili,Dobalibaota,Goumol,Talibu,Babuza"
-  },
-  {
-    "name": "Bintulu",
-    "i": 203314,
-    "file": "asia",
-    "min": 3,
-    "max": 13,
-    "d": "",
-    "m": 0,
-    "status": "COMPLETE",
-    "b": "Bintulu,Kidurong,Kampung Masjid,Kampung Sinong,Kampung Datuk,Kampung Sibiew,Kampung Baru,Kampung Jepak,Kampung Sebuan,Kampung Batu Sepuluh,Kampung Kuala Tatau,Kampung Segan,Kampung Asyakirin,Began,Silas,Sepadok,Pendan,Labang,Tubau,Tatau,Sual,Sebauh,Niah,Bekenu,Subis,Kampung Pandan,Kampung Hulu,Kampung Hilir,Kampung Maskat,Kampung Sebubun",
-    "verification": {
-      "status": "unverified",
-      "sources": [
-        "https://en.wikipedia.org/wiki/Bintulu_language",
-        "https://en.wikipedia.org/wiki/Bintulu_Division",
-        "https://iso639-3.sil.org/code/bny"
-      ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.978Z",
-      "notes": "Bintulu (Vaie) is a real Austronesian language of Sarawak, Malaysia (ISO 639-3 bny, Glottolog bint1246; Wikipedia). Confirmed real Bintulu Division places (Wikipedia Bintulu Division): Bintulu, Kidurong (=Tanjung Kidurong), Tatau, Sebauh, Kuala Tatau, Pandan, Labang, Tubau. NOT in Bintulu Division: 'Niah' and 'Subis' are in Miri Division; 'Bekenu' is in the Miri area (border). Many 'Kampung ...' village seeds (Silas, Sepadok, Pendan, Sual, Began, Kampung Masjid, Kampung Sinong, Kampung Datuk, Kampung Sibiew, Kampung Baru, Kampung Jepak, Kampung Sebuan, Kampung Segan, Kampung Asyakirin, Kampung Pandan, Kampung Hulu, Kampung Hilir, Kampung Maskat, Kampung Sebubun) are not individually verifiable against primary sources. Cannot confirm all seeds."
-    }
   },
   {
     "name": "Muna",
