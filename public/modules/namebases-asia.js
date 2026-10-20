@@ -2029,22 +2029,26 @@ window.asiaNameBases = [
     "name": "Waneci",
     "i": 1110,
     "min": 4,
-    "max": 30,
+    "max": 27,
     "d": "",
     "m": 0,
-    "b": "Harnai,Saddar Harnai-I,Saddar Harnai-II,Babihan-I,Babihan-II,Nakus-I,Nakus-II,Shahrig,Khost,Sanjawi,Chawter,Choutair,Regorah,Poi,Poi Shareef,Baghaw,Saddar Samalan,Uzhlaiz,Chelaiz Khalil,Chalez Khalil,Viallah Aghbarg,Tand Wani,Shinlaiz,Thanda Wani,Faran Tangi,Kach,Kawas,Sandman Tangi,Wam,Zandra",
+    "b": "Harnai,Saddar Harnai-I,Saddar Harnai-II,Babihan-I,Babihan-II,Nakus-I,Nakus-II,Shahrig,Khost,Sanjawi,Chawter,Choutair,Regorah,Poi,Poi Shareef,Baghaw,Saddar Samalan,Uzhlaiz,Chelaiz Khalil,Tand Wani,Shinlaiz,Faran Tangi,Kach,Kawas,Sandman Tangi,Wam,Zandra",
     "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Wanetsi_(Pashto_dialect)",
+        "https://en.wikipedia.org/wiki/Wanetsi",
         "https://en.wikipedia.org/wiki/Harnai_District",
-        "https://en.wikipedia.org/wiki/Sanjawi",
-        "http://www.geonames.org/"
+        "https://en.wikipedia.org/wiki/Sinjawi_Tehsil",
+        "https://en.wikipedia.org/wiki/Saddar_Samalan",
+        "https://en.wikipedia.org/wiki/Khost,_Pakistan",
+        "https://en.wikipedia.org/wiki/Harnai",
+        "https://www.electionpakistani.com/balochistan-local-government-2022/harnai.html",
+        "https://pakistanalmanac.com/balochistan-ziarat/"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Waneci/Wanetsi (ISO 639-3: wne, Glottolog wane1241), a Pashto dialect/language spoken mainly in Harnai District and the Chawter area of Sanjawi, northern Balochistan, Pakistan. Wikipedia confirms the language area (Harnai District + Chawter/Sanjawi) and Harnai District tehsils Harnai, Shahrigh and Khost; Sanjawi article lists Wanetsi as spoken there and its 'Populated places in Ziarat District' navbox lists Baghaw, Choutair, Faran Tangi, Kach, Kawas, Poi, Regorah, Saddar Samalan, Sandman Tangi, Sanjawi, Wam, Zandra. Chawter confirmed as a Wanetsi subdialect area. Independently confirmable seeds: Harnai, Shahrig/Shahrigh, Khost/Khoast, Sanjawi, Chawter, Choutair, Regorah, Poi, Baghaw, Saddar Samalan, Faran Tangi, Kach, Kawas, Sandman Tangi, Wam, Zandra (~16). Even accepting prior research's '21 confirmed' plus Chawter and Poi Shareef (=23), the 25-seed verification floor is not reached. Uncertain seeds Uzhlaiz, Shinlaiz, Chelaiz/Chalez Khalil and Thanda Wani return NO GeoNames results; Viallah Aghbarg not found (only ambiguous generic 'Aghbarg' entries elsewhere in Balochistan); Tand Wani is a tangi/pass. Per guardrails, no seed may be counted without primary-source confirmation and the entry cannot be marked verified below 25 seeds. Non-settlement seeds removed: Zarghoon Ghar (mountain), Aghbarg (not confirmed in Wanetsi area), Kazha (not a Pakistani settlement)."
+      "verified_at": "2026-10-20T09:51:21.655Z",
+      "notes": "Waneci/Wanetsi (ISO 639-3: wne, Glottolog wane1241) is a Pashto dialect/language spoken primarily in Harnai District and the Chawter area of Sanjawi, northern Balochistan, Pakistan (Wikipedia: Wanetsi, Harnai District; Sinjawi Tehsil cites Hallberg 1992 'Pashto, Waneci, Ormuri', Sociolinguistic Survey of Northern Pakistan). Entry holds 30 seeds in field b (not 33 as previously assumed; max=30). Verified each seed against primary/Wikipedia sources. Confirmed real settlements in the Waneci area: Harnai (town/district HQ; Wikipedia Harnai, Harnai District); Shahrig/Shahrag (tehsil; Wikipedia Harnai District); Khost (town+UC; Wikipedia Khost Pakistan, Dawn); Sanjawi (tehsil HQ; Wikipedia Sinjawi Tehsil); Chawter (Wanetsi area/village; Wikipedia Wanetsi, Sinjawi Tehsil); Choutair/Chotair (Saddar Samalan/Ziarat navbox; Sinjawi Tehsil), Regorah/Regora (Sinjawi Tehsil village), Baghaw/Bghaow (Sinjawi Tehsil village; Saddar Samalan navbox), Poi (Saddar Samalan/Ziarat navbox), Poi Shareef (Sinjawi Tehsil village), Saddar Samalan (town+UC Ziarat District/Sanjawi Tehsil; Wikipedia Saddar Samalan), Uzhlaiz (Sinjawi Tehsil village), Chelaiz Khalil (Sinjawi Tehsil village), Tand Wani (Sinjawi Tehsil village; pakistanalmanac Ziarat), Shinlaiz (Sinjawi Tehsil village), Wam/Tor Waam (Sinjawi Tehsil village; Saddar Samalan navbox), Faran Tangi, Kach, Kawas, Sandman Tangi, Zandra (Saddar Samalan/Ziarat navbox; pakistanalmanac Ziarat). Harnai District Union Councils Saddar Harnai-I/II, Babihan-I/II, Nakus-I/II confirmed by Balochistan LG election 2022 results; Babihan/Nakus are towns (Wikipedia). Removed 3 unconfirmed/duplicate seeds: Chalez Khalil (not independently confirmed; spelling variant/duplicate of confirmed Chelaiz Khalil), Thanda Wani (variant of confirmed Tand Wani; not independently confirmed), Viallah Aghbarg ('Viallah' prefix unconfirmed; Aghbarg itself confirmed but not under this name). 27 confirmed seeds >= 25 floor -> verified."
     }
   },
   {
