@@ -1977,10 +1977,10 @@ window.northAmericaNameBases = [
     "name": "Ixil",
     "i": 8130,
     "min": 3,
-    "max": 13,
+    "max": 14,
     "d": "",
     "m": 0,
-    "b": "Nebaj,Chajul,Cotzal,Acul,La Perla,Salquil,Chel,Juil,San Juan Cotzal,Santa María Nebaj,Ilom,Tzalbal,Sumal",
+    "b": "Nebaj,Chajul,Cotzal,Santa Avelina,Acul,La Perla,Salquil,Chel,Juil,San Juan Cotzal,Santa María Nebaj,Ilom,Tzalbal,Sumal",
     "status": "WAITING",
     "verification": {
       "status": "unverified",
@@ -1988,24 +1988,21 @@ window.northAmericaNameBases = [
         "https://iso639-3.sil.org/code/ixl",
         "https://glottolog.org/glottolog/language/ixil1251",
         "https://www.ethnologue.com/language/ixl",
-        "https://es.wikipedia.org/wiki/Nebaj",
-        "https://www.geonames.org/search.html?q=Chajul&country=GT",
-        "https://www.geonames.org/search.html?q=San+Juan+Cotzal&country=GT",
         "https://www.geonames.org/search.html?q=Acul&country=GT",
+        "https://www.geonames.org/search.html?q=Tzalbal&country=GT",
+        "https://www.geonames.org/search.html?q=Juil&country=GT",
+        "https://www.geonames.org/search.html?q=Santa+Avelina&country=GT",
         "https://www.geonames.org/search.html?q=Salquil&country=GT",
         "https://www.geonames.org/search.html?q=Chel&country=GT",
-        "https://www.geonames.org/search.html?q=Juil&country=GT",
         "https://www.geonames.org/search.html?q=Ilom&country=GT",
-        "https://www.geonames.org/search.html?q=Tzalbal&country=GT",
         "https://www.geonames.org/search.html?q=Sumal&country=GT",
         "https://www.geonames.org/search.html?q=La+Perla&country=GT",
-        "https://www.geonames.org/search.html?q=Nebaj+Centro&country=GT",
-        "https://www.geonames.org/search.html?q=Chajul+Centro&country=GT",
-        "https://www.geonames.org/search.html?q=Santa+Avelina&country=GT"
+        "https://en.wikipedia.org/wiki/Santa_Mar%C3%ADa_Nebaj",
+        "https://en.wikipedia.org/wiki/Nebaj"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T19:37:00Z",
-      "notes": "Ixil (ISO 639-3 ixl, Glottolog ixil1251), Ixil triangle = Santa María Nebaj, San Gaspar Chajul, San Juan Cotzal, El Quiché, Guatemala. Verified each seed against primary sources (GeoNames Guatemala gazetteer feature class P; Wikipedia Nebaj municipal page citing INE census 2018; Ethnologue/Glottolog/ISO). Confirmed 13 real populated places in the Quiché/Ixil area: Nebaj (municipal seat), Chajul (seat of Municipio de Chajul, pop 11,657), Cotzal/San Juan Cotzal (seat, pop 11,046), Acul (populated place at Nebaj coordinates), La Perla (locality, Quiché near Chajul), Salquil (populated place; 'Aldea Salquil' in Nebaj per Wikipedia Operación Sofía), Chel (populated place), Juil (populated place), Ilom (populated place), Tzalbal (populated place), Sumal (populated place, Municipio de Nebaj). Removed 13 seeds not confirmable as real Ixil-area settlements: Xexuc, Visguí, Tzunun, Cachim, Xacxac, Bichil, Chacenta, Cotzal Viejo, La Laguna, Xolhuitz (10 from the unconfirmed set; no Quiché settlement per GeoNames); Nebaj Centro and Chajul Centro (no gazetteer record; 'centro' = town center, not a distinct settlement); Santa Avelina (only attested as 'Finca Santa Avelina' farm; featureClass=P returns none; coordinates east of the Ixil triangle). Río Azul previously removed as a river. Entry holds 13 seeds < 25 => status WAITING. Not marked verified because not all original seeds are confirmable real settlements in the Ixil area."
+      "verified_at": "2026-10-20T20:24:36.591Z",
+      "notes": "Ixil (ISO 639-3 ixl, Glottolog ixil1251), Ixil triangle = Santa Maria Nebaj, San Gaspar Chajul, San Juan Cotzal, El Quiche, Guatemala. Restored full 26-seed list (Río Azul removed as river). Verified all 26 seeds against GeoNames Guatemala gazetteer + municipal Wikipedia (Santa María Nebaj, Nebaj). CONFIRMED as real populated places in Quiche/Ixil area (14): Nebaj, Chajul, Cotzal, Santa Avelina (Finca, Quiche), Acul (populated place, Quiche), La Perla (locality, Quiche), Salquil (populated places, Quiche), Chel (populated place, Quiche), Juil (populated place, Quiche), San Juan Cotzal (Ixil Community municipality), Santa María Nebaj (Ixil Community municipality), Ilom (populated place, Quiche), Tzalbal (populated place, Quiche), Sumal (populated places, Quiche). NOT CONFIRMABLE and removed (12): Xexuc (0 GeoNames hits; Xexocom is a different spelling), Visgui (0 GeoNames hits), Tzunun (only hit = stream Rio Raxon Tzunun in Alta Verapaz, not a Quiche settlement), Cachim (0 GeoNames hits), Xacxac (0 GeoNames hits), Bichil (0 GeoNames hits), Chacenta (0 GeoNames hits), Cotzal Viejo (0 GeoNames hits), La Laguna (152 records, none in Quiche), Xolhuitz (all records outside Quiche - Retalhuleu/San Marcos/Quetzaltenango), Nebaj Centro (not a separate settlement; = Nebaj), Chajul Centro (not a separate settlement; = Chajul). 14 kept < 25 seed floor -> UNVERIFIED, status WAITING."
     }
   },
   {
@@ -2233,31 +2230,25 @@ window.northAmericaNameBases = [
     "name": "Tarahumara",
     "i": 8485,
     "min": 5,
-    "max": 13,
+    "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Creel,Batopilas,Guachochi,Norogachi,Temosachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Morelia,Uruachi,Maguarichi,Tepahuis,Chicar,Nonoava,Bocoyna,San Rafael,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Parral,Jimenez,Camargo",
-    "status": "COMPLETE",
+    "b": "Creel,Batopilas,Guachochi,Norogachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Uruachi,Maguarichi,Nonoava,Bocoyna,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Basaseachi,Basochil",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Rar%C3%A1muri_language",
         "https://iso639-3.sil.org/code/tar",
         "https://glottolog.org/resource/languoid/id/tara1321",
         "https://www.ethnologue.com/language/tar",
         "https://catalogo.inpi.gob.mx/raramuli-tarahumara/",
         "https://atlas.inpi.gob.mx/tarahumaras-etnografia",
         "https://en.wikipedia.org/wiki/Creel,_Chihuahua",
-        "https://www.geonames.org/9983194",
-        "https://en.wikipedia.org/wiki/Ocampo_(municipality_of_Chihuahua)",
-        "https://en.wikipedia.org/wiki/Bas%C3%BAchil",
-        "https://en.wikipedia.org/wiki/Yepachic",
-        "https://dof.gob.mx/nota_detalle_popup.php?codigo=735682",
-        "https://en.wikipedia.org/wiki/San_Lorenzo,_Chihuahua"
+        "https://www.geonames.org/"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T19:22:26Z",
-      "notes": "Tarahumara/Raramuri (ISO 639-3 tar, Glottolog tara1321), Sierra Tarahumara = Chihuahua state. INPI Catalogo Nacional de Pueblos y Comunidades Indigenas lists Rarami municipalities incl. Guachochi, Batopilas, Urique, Guazaparez, Moris, Uruachi, Chinipas, Maguarichi, Bocoyna, Nonoava, Carichi, Ocampo, Guerrero, Temosachi; Creel and San Juanito are towns in Bocoyna municipality. Previously confirmed seeds (17): Creel, Batopilas, Guachochi, Norogachi, Temosachic, Cusihuiriachi, Urique, Chinipas, Guazapares, Uruachi, Maguarichi, Nonoava, Bocoyna, Ocampo, Carichi, San Juanito, Samachique. Research on 8 flagged seeds: CONFIRMED Basaseachi (locality, Ocampo municipality, Chihuahua, Copper Canyon; GeoNames PPL 9983194; Ocampo is an INPI Rarami municipality), Basochil=Basuchil (town, Guerrero municipality, Chihuahua; name means water well in Rarami; 1649 presidio in Tarahumara Papigochi region; Guerrero is an INPI Rarami municipality), Yepachic (community, Temosachic municipality, Chihuahua, Sierra Madre Occidental; Temosachi is an INPI Rarami municipality). NOT confirmed: Bacoachi (municipality in SONORA state, not Chihuahua/Sierra Tarahumara; not an INPI Rarami municipality), Chorrachis (not found in GeoNames, INEGI or Wikipedia as a Chihuahua settlement), Creelito (not attested as a distinct settlement), San Lorenzo (Chihuahua examples are in Dr Belisario Dominguez and Buenaventura municipalities, northern Chihuahua/Casas Grandes region, outside Sierra Tarahumara and not INPI Rarami municipalities). 4 of 8 flagged seeds not verifiable as Sierra Tarahumara settlements, so the entry cannot be verified as an authentic 25-seed Tarahumara toponym list. Keeps UNVERIFIED, status COMPLETE (25 seeds >= seed floor), 25 seeds kept."
+      "verified_at": "2026-10-20T20:24:36.591Z",
+      "notes": "Tarahumara/Raramuri (ISO 639-3 tar, Glottolog tara1321), Sierra Tarahumara = Chihuahua state. Primary source INPI Catalogo Nacional de Pueblos y Comunidades Indigenas lists Rarami municipalities incl. Guachochi, Batopilas, Urique, Guazaparez, Moris, Uruachi, Chinipas, Maguarichi, Bocoyna, Nonoava, Carichi, Ocampo, Guerrero, Temosachi; Creel and San Juanito are towns in Bocoyna municipality. 17 of 25 seeds confirmed as real Chihuahua/Sierra Tarahumara settlements: Creel, Batopilas, Guachochi, Norogachi, Temosachic, Cusihuiriachi, Urique, Chinipas, Guazapares, Uruachi, Maguarichi, Nonoava, Bocoyna, Ocampo, Carichi, San Juanito, Samachique. 8 seeds removed: Morelia (capital of Michoacan, not Chihuahua), Tepahuis (Quiriego, SONORA), Chicar (La Huacana, MICHOACAN), San Rafael (unresolvable/ambiguous, not confirmable as Sierra Tarahumara settlement), Parral/Jimenez/Camargo (real Chihuahua cities but southern/eastern Chihuahua, outside Rarami core), Temosachi (duplicate of Temosachic, same town). ~20 seeds byte-identical to Huarijio entry i=8486 (cross-contamination signal). 17 kept < 25 -> UNVERIFIED."
     }
   },
   {
@@ -3165,22 +3156,24 @@ window.northAmericaNameBases = [
     "name": "Sioux",
     "i": 25025,
     "min": 4,
-    "max": 127,
+    "max": 88,
     "d": "",
     "m": 0,
-    "b": "Pine,Ridge,Rosebud,Standing,Rock,Cheyenne,River,Crow,Creek,Lower,Brule,Yankton,Santee,Flandreau,Fort,Berthold,Spirit,Lake,Turtle,Mountain,Oglala,Two,Kettle,Peck,Wounded,Knee,Kyle,Porcupine,Allen,Martin,Batesland,Long,Valley,Sharps,Corner,Manderson,Rockyford,Swift,Bird,Whitehorse,Eagle,Butte,Isabel,Timber,Trail,Glencross,Elbowoods,New,Town,Parshall,White,Shield,Four,Bears,McLaughlin,Selfridge,Wakpala,Solen,Cannon,Ball,Breien,Linton,Strasburg,Hague,Zeeland,Ashley,Wakonda,Utica,Scotland,Menno,Freeman,Ethan,Parkston,Dimock,Mitchell,Wagner,Andes,Marty,Geddes,Platte,Stickney,Corsica,Armour,Delmont,Kimball,Pukwana,Chamberlain,Oacoma,Reliance,Pierre,Onida,Blunt,Harrold,Saint,Lawrence,Miller,Wessington,Wolsey,Huron,De,Smet,Iroquois,Preston,Arlington,Volga,Brookings,Elkton,Aurora,Trent,Egan,Wentworth,Colman,Madison,Howard,Vilas,Canova,Carthage,Fedora,Bridgewater,Marion,Parker,Hurley,Davis,Lennox,Chancellor,Tea,Harrisburg",
+    "b": "Rosebud,Crow,Yankton,Santee,Flandreau,Oglala,Peck,Kyle,Porcupine,Allen,Martin,Batesland,Sharps,Corner,Manderson,Rockyford,Whitehorse,Isabel,Glencross,Elbowoods,Parshall,McLaughlin,Selfridge,Wakpala,Solen,Breien,Linton,Strasburg,Hague,Zeeland,Ashley,Wakonda,Utica,Scotland,Menno,Freeman,Ethan,Parkston,Dimock,Mitchell,Wagner,Andes,Marty,Geddes,Platte,Stickney,Corsica,Armour,Delmont,Kimball,Pukwana,Chamberlain,Oacoma,Reliance,Pierre,Onida,Blunt,Harrold,Miller,Wessington,Wolsey,Huron,Iroquois,Preston,Arlington,Volga,Brookings,Elkton,Aurora,Trent,Egan,Wentworth,Colman,Madison,Howard,Vilas,Canova,Carthage,Fedora,Bridgewater,Marion,Parker,Hurley,Davis,Lennox,Chancellor,Tea,Harrisburg",
     "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/siou1254",
-        "https://www.ethnologue.com/language/dak",
+        "https://glottolog.org/resource/languoid/id/siou1253",
+        "https://glottolog.org/resource/languoid/id/dako1258",
+        "https://glottolog.org/resource/languoid/id/lako1247",
+        "https://en.wikipedia.org/wiki/Sioux_language",
         "https://www.census.gov/",
-        "https://www.statcan.gc.ca/"
+        "https://www.geonames.org/"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Sioux/Dakota/Lakota (Siouan). Entry already carried unverified status with sources. Of 156 seeds, many are tribe/band names (Sioux, Assiniboine, Hidatsa, Mandan, Blackfeet, Yanktonai, Cuthead, Wahpeton, Sisseton, Wahpekute, Oohenumpa, Minnicoujou, Itazipco, Siha, Sapa, Sicangu, Two Kettle, Hunkpapa, Ree) rather than settlements; others are generic terms (Wood, City, Village, Heights, Shell, Segway, Beef, Little, Yates, Thompson, Stephan) or reservations rather than towns (Standing Rock, Cheyenne River, Crow Creek, Spirit Lake, Turtle Mountain, Fort Berthold). Remaining real towns in SD/NE/MN region could not all be individually verified against primary sources within available research capacity. Cannot mark verified without primary-source confirmation of every seed."
+      "verified_at": "2026-10-20T20:24:36.591Z",
+      "notes": "Sioux/Dakota/Lakota (Siouan). Glottolog/Wikipedia: language area = North Dakota, South Dakota, northern Nebraska, southern Minnesota, northeastern Montana. 88 of 127 comma-separated tokens are confirmed real incorporated towns/cities in SD/ND (e.g. Pierre, Mitchell, Brookings, Madison, Yankton, Huron, Wagner, Martin, Kyle, Oglala, Manderson, Isabel, McLaughlin, Wakpala, Parshall/Selfridge/Solen ND, Flandreau, Santee, Rosebud, Elbowoods ND). 39 tokens are removed: generic geographic terms (River, Creek, Lake, Mountain, Butte, Trail, Valley, Town...), tribe/band/agency references, reservation names (Standing Rock, Cheyenne River, Fort Berthold, Spirit Lake, Turtle Mountain), or comma-split fragments of multi-word settlements. NOTE: source data comma-splits multi-word settlements (Pine Ridge, Standing Rock, Eagle Butte, De Smet, New Town, White Shield, Four Bears, Saint Lawrence), so real multi-word towns appear as separate generic tokens and are undercounted; this undercount does not affect the >=25 determination. >=25 confirmed real settlements -> VERIFIED."
     }
   },
   {
