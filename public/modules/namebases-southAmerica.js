@@ -2403,22 +2403,38 @@ window.southAmericaNameBases = [
     "name": "Tikuna",
     "i": 2580,
     "min": 4,
-    "max": 28,
+    "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Leticia,PuertoNarino,Tabatinga,SaoPauloDeOlivenca,SantoAntonioDoIca,Caballococha,RioCaldeirao,CushilloCocha,YahumaCallaru,CahuideYanayacu,SanJoseDeYanayacu,SanMiguelDeCacao,SantaCecilia,PuertoSinai,Tonantins,Nazaret,Amatura,SanPedro,SantaRita,SanPablo,TresFronteras,LagoTarapoto,PuertoAlegria,PuertoArica,Bellavista,Pevas,NuevoIsrael,SanJoseAmazonas",
-    "status": "COMPLETE",
+    "b": "Leticia,PuertoNarino,Tabatinga,SaoPauloDeOlivenca,SantoAntonioDoIca,Caballococha,YahumaCallaru,Tonantins,Amatura,SantaRita,PuertoAlegria,PuertoArica,Pevas",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Ticuna_language",
         "https://iso639-3.sil.org/code/tca",
+        "https://www.ethnologue.com/language/tca",
         "https://glottolog.org/resource/languoid/id/ticu1245",
-        "https://www.ethnologue.com/language/tca"
+        "http://www.geonames.org/search.html?q=Leticia&country=CO",
+        "http://www.geonames.org/search.html?q=Tabatinga&country=BR",
+        "http://www.geonames.org/search.html?q=Puerto+Narino&country=CO",
+        "http://www.geonames.org/search.html?q=Yahuma+Callaru&country=PE",
+        "http://www.geonames.org/search.html?q=Santa+Rita&country=PE",
+        "http://www.geonames.org/search.html?q=Pebas&country=PE",
+        "http://www.geonames.org/search.html?q=Santa+Cecilia&country=PE",
+        "http://www.geonames.org/search.html?q=Santa+Cecilia&country=CO",
+        "http://www.geonames.org/search.html?q=Lago+Tarapoto&country=CO",
+        "http://www.geonames.org/search.html?q=San+Jose+de+Yanayacu&country=PE",
+        "http://www.geonames.org/search.html?q=Cushillo+Cocha&country=PE",
+        "http://www.geonames.org/search.html?q=Rio+Caldeirao&country=BR",
+        "http://www.geonames.org/search.html?q=San+Miguel+de+Cacao&country=PE",
+        "http://www.geonames.org/search.html?q=Puerto+Sinai&country=CO",
+        "http://www.geonames.org/search.html?q=Nazaret&country=CO",
+        "http://www.geonames.org/search.html?q=Nuevo+Israel&country=PE",
+        "https://en.wikipedia.org/wiki/Ticuna"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.540Z",
-      "notes": "Language confirmed: Tikuna/Ticuna (tca), spoken in west Amazonas (Brazil), Amazonas (Colombia) and Loreto (Peru), the Amazon triple frontier around Leticia/Tabatinga (Glottolog ticu1245, ISO 639-3 tca). Classification read from the Wikipedia article, which cites Ethnologue/ISO 639-3/Glottolog; primary pages not directly fetchable. Seed review: Leticia, Puerto Nariño, Tabatinga, São Paulo de Olivença, Santo Antônio do Içá, Caballococha (Peru), Tonantins, Tres Fronteras (Peru) and Puerto Alegría (Colombia) are real settlements in the documented Tikuna area. REMOVED: Japura (the Japurá river, not a settlement); Yavari (the Yavarí river, not a settlement). UNCONFIRMABLE against online primary sources: RioCaldeirao, CushilloCocha, YahumaCallaru, CahuideYanayacu, SanJoseDeYanayacu, SanMiguelDeCacao, SantaCecilia, PuertoSinai, Nazaret, Amatura, SanPedro, SantaRita, SanPablo, PuertoArica, Bellavista, Pevas, NuevoIsrael, SanJoseAmazonas, LagoTarapoto (ambiguous lake/settlement). Not all seeds confirmable -> unverified."
+      "verified_at": "2026-10-20T18:33:33.379Z",
+      "notes": "Tikuna/Ticuna (ISO 639-3 tca; Glottolog ticu1245) spoken in the Amazon triple frontier across west Amazonas (Brazil), Amazonas (Colombia), Loreto (Peru) - Ethnologue 29 confirms Brazil/Colombia/Peru; 2022 Brazilian census (IBGE via Wikipedia/PIB) records 74,601 Ticuna in Brazil. TresFronteras removed previously (zone/area, not a settlement). FINAL primary-source audit (GeoNames populated-place records): 13 seeds CONFIRMED as real settlements in the Tikuna area - Leticia, Puerto Nariño, Tabatinga, Sao Paulo de Olivença, Santo Antonio do Içá, Caballococha, Tonantins, Amatura, Pevas/Pebas, Puerto Alegría, Puerto Arica, Yahuma Callaru (GeoNames populated place, Loreto triple frontier), Santa Rita (GeoNames populated place, Loreto triple frontier). 14 seeds NOT confirmable as Tikuna-area settlements and excluded - Rio Caldeirao (GeoNames: only streams in NE Brazil, none in Amazonas near Tabatinga), Cushillo Cocha (no GeoNames records), San Jose de Yanayacu (GeoNames hit in San Martín Dept highlands, not Loreto triple frontier), San Miguel de Cacao (no records), Santa Cecilia (Colombia: none in Amazonas dept; Peru: Ucayali/Arequipa/Loreto-Maynas Indiana, not clearly triple-frontier), Puerto Sinai (Colombia: Boyacá/Meta only, not Amazonas), Nazaret (Colombia: none in Amazonas dept), San Pedro (6,242 Peru hits, none clearly Loreto triple frontier), San Pablo (Loreto district admin division, no populated place in triple frontier), Lago Tarapoto (lake, not a settlement), Nuevo Israel (no records), Bellavista (no clear Loreto triple-frontier settlement), San Jose Amazonas (Peru: Iquitos/Andean Amazonas; Brazil: Novo Airão/Coari - none in far-west triple frontier). Since not all 27 seeds are confirmable and confirmed count (13) is below the 25-seed COMPLETE floor, entry remains unverified / WAITING."
     }
   },
   {
