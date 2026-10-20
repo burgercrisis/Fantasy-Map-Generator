@@ -1977,24 +1977,35 @@ window.northAmericaNameBases = [
     "name": "Ixil",
     "i": 8130,
     "min": 3,
-    "max": 26,
+    "max": 13,
     "d": "",
     "m": 0,
-    "b": "Nebaj,Chajul,Cotzal,Santa Avelina,Acul,La Perla,Salquil,Chel,Xexuc,Juil,Nebaj Centro,Chajul Centro,San Juan Cotzal,Santa María Nebaj,Visguí,Ilom,Tzalbal,Tzunun,Cachim,Xacxac,Bichil,Chacenta,Sumal,Cotzal Viejo,La Laguna,Xolhuitz",
-    "status": "COMPLETE",
+    "b": "Nebaj,Chajul,Cotzal,Acul,La Perla,Salquil,Chel,Juil,San Juan Cotzal,Santa María Nebaj,Ilom,Tzalbal,Sumal",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://iso639-3.sil.org/code/ixl",
-        "https://en.wikipedia.org/wiki/Ixil_language",
+        "https://glottolog.org/glottolog/language/ixil1251",
+        "https://www.ethnologue.com/language/ixl",
         "https://es.wikipedia.org/wiki/Nebaj",
-        "https://es.wikipedia.org/wiki/Chajul",
-        "https://es.wikipedia.org/wiki/San_Juan_Cotzal",
-        "https://en.wikipedia.org/wiki/Nebaj"
+        "https://www.geonames.org/search.html?q=Chajul&country=GT",
+        "https://www.geonames.org/search.html?q=San+Juan+Cotzal&country=GT",
+        "https://www.geonames.org/search.html?q=Acul&country=GT",
+        "https://www.geonames.org/search.html?q=Salquil&country=GT",
+        "https://www.geonames.org/search.html?q=Chel&country=GT",
+        "https://www.geonames.org/search.html?q=Juil&country=GT",
+        "https://www.geonames.org/search.html?q=Ilom&country=GT",
+        "https://www.geonames.org/search.html?q=Tzalbal&country=GT",
+        "https://www.geonames.org/search.html?q=Sumal&country=GT",
+        "https://www.geonames.org/search.html?q=La+Perla&country=GT",
+        "https://www.geonames.org/search.html?q=Nebaj+Centro&country=GT",
+        "https://www.geonames.org/search.html?q=Chajul+Centro&country=GT",
+        "https://www.geonames.org/search.html?q=Santa+Avelina&country=GT"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Ixil (ISO 639-3 ixl, Glottolog ixil1251). Mayan language of the Ixil triangle in El Quiché, Guatemala: Santa María Nebaj, San Gaspar Chajul, San Juan Cotzal. Confirmed 13 of 27 seeds against primary/secondary sources (Wikipedia municipal pages citing INE census 2018, Ethnologue, ISO 639-3). Confirmed: Nebaj, Chajul, Cotzal (cabeceras); Santa María Nebaj, San Juan Cotzal (full cabecera names); Santa Avelina (aldea, Cotzal div. pol. table #10, INE census); La Perla/Finca la Perla Xemac (Chajul, Wikipedia Chajul); Salquil (aldea, Nebaj, Wikipedia Nebaj Operacion Sofia); Chel/San Joaquín Chel (Chajul, Wikipedia Chajul); Ilom (comunidad rural, Chajul, Wikipedia Chajul); Sumal (Ixil archaeological site, Wikipedia Nebaj); Nebaj Centro, Chajul Centro (parts of confirmed cabeceras). REMOVED: Río Azul (Nebaj Wikipedia states 'A orillas del río Azul' — it is a river, not a settlement). Unconfirmed (no primary source found): Acul, Xexuc, Juil, Visgui, Tzalbal, Tzunun, Cachim, Xacxac, Bichil, Chacenta, Cotzal Viejo, La Laguna, Xolhuitz. English Wikipedia Nebaj lists 'Xexocom' village and 'Xacbal' archaeological site but these do not exactly match seeds Xexuc/Xacxac. Only 13 of 27 seeds confirmable; < 25 verified seeds. Marked unverified per guardrail: accuracy over speed, no invented data."
+      "verified_at": "2026-10-20T19:37:00Z",
+      "notes": "Ixil (ISO 639-3 ixl, Glottolog ixil1251), Ixil triangle = Santa María Nebaj, San Gaspar Chajul, San Juan Cotzal, El Quiché, Guatemala. Verified each seed against primary sources (GeoNames Guatemala gazetteer feature class P; Wikipedia Nebaj municipal page citing INE census 2018; Ethnologue/Glottolog/ISO). Confirmed 13 real populated places in the Quiché/Ixil area: Nebaj (municipal seat), Chajul (seat of Municipio de Chajul, pop 11,657), Cotzal/San Juan Cotzal (seat, pop 11,046), Acul (populated place at Nebaj coordinates), La Perla (locality, Quiché near Chajul), Salquil (populated place; 'Aldea Salquil' in Nebaj per Wikipedia Operación Sofía), Chel (populated place), Juil (populated place), Ilom (populated place), Tzalbal (populated place), Sumal (populated place, Municipio de Nebaj). Removed 13 seeds not confirmable as real Ixil-area settlements: Xexuc, Visguí, Tzunun, Cachim, Xacxac, Bichil, Chacenta, Cotzal Viejo, La Laguna, Xolhuitz (10 from the unconfirmed set; no Quiché settlement per GeoNames); Nebaj Centro and Chajul Centro (no gazetteer record; 'centro' = town center, not a distinct settlement); Santa Avelina (only attested as 'Finca Santa Avelina' farm; featureClass=P returns none; coordinates east of the Ixil triangle). Río Azul previously removed as a river. Entry holds 13 seeds < 25 => status WAITING. Not marked verified because not all original seeds are confirmable real settlements in the Ixil area."
     }
   },
   {
@@ -2232,11 +2243,21 @@ window.northAmericaNameBases = [
       "sources": [
         "https://en.wikipedia.org/wiki/Rar%C3%A1muri_language",
         "https://iso639-3.sil.org/code/tar",
-        "https://glottolog.org/ (glottocode tara1321)"
+        "https://glottolog.org/resource/languoid/id/tara1321",
+        "https://www.ethnologue.com/language/tar",
+        "https://catalogo.inpi.gob.mx/raramuli-tarahumara/",
+        "https://atlas.inpi.gob.mx/tarahumaras-etnografia",
+        "https://en.wikipedia.org/wiki/Creel,_Chihuahua",
+        "https://www.geonames.org/9983194",
+        "https://en.wikipedia.org/wiki/Ocampo_(municipality_of_Chihuahua)",
+        "https://en.wikipedia.org/wiki/Bas%C3%BAchil",
+        "https://en.wikipedia.org/wiki/Yepachic",
+        "https://dof.gob.mx/nota_detalle_popup.php?codigo=735682",
+        "https://en.wikipedia.org/wiki/San_Lorenzo,_Chihuahua"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T03:17:09.693Z",
-      "notes": "ISO 639-3 tar/thh/tcu/twr/tac (Central/Northern/Southeastern/Southwestern/Western Tarahumara), Glottolog tara1321. Documented area: state of Chihuahua, Sierra Madre Occidental (Wikipedia, citing Ethnologue/INEGI 2020). All 25 seeds are Chihuahua place names, but the list cannot be authenticated: 20 of 25 seeds are byte-identical to the Huarijio entry (i=8486) although Huarijio documented area is only 5 municipalities (Chinipas, Moris, Uruachi in Chihuahua; Alamos, Quiriego in Sonora) - cross-contamination signal. Several obscure seeds not individually verifiable vs primary sources: Morelia, Tepahuis, Chicar, Temosachi, Temosachic, Samachique, Chinipas de Almada, San Rafael. No seed is a known non-place token or duplicate, but the entry cannot be verified as an authentic Tarahumara toponym list."
+      "verified_at": "2026-10-20T19:22:26Z",
+      "notes": "Tarahumara/Raramuri (ISO 639-3 tar, Glottolog tara1321), Sierra Tarahumara = Chihuahua state. INPI Catalogo Nacional de Pueblos y Comunidades Indigenas lists Rarami municipalities incl. Guachochi, Batopilas, Urique, Guazaparez, Moris, Uruachi, Chinipas, Maguarichi, Bocoyna, Nonoava, Carichi, Ocampo, Guerrero, Temosachi; Creel and San Juanito are towns in Bocoyna municipality. Previously confirmed seeds (17): Creel, Batopilas, Guachochi, Norogachi, Temosachic, Cusihuiriachi, Urique, Chinipas, Guazapares, Uruachi, Maguarichi, Nonoava, Bocoyna, Ocampo, Carichi, San Juanito, Samachique. Research on 8 flagged seeds: CONFIRMED Basaseachi (locality, Ocampo municipality, Chihuahua, Copper Canyon; GeoNames PPL 9983194; Ocampo is an INPI Rarami municipality), Basochil=Basuchil (town, Guerrero municipality, Chihuahua; name means water well in Rarami; 1649 presidio in Tarahumara Papigochi region; Guerrero is an INPI Rarami municipality), Yepachic (community, Temosachic municipality, Chihuahua, Sierra Madre Occidental; Temosachi is an INPI Rarami municipality). NOT confirmed: Bacoachi (municipality in SONORA state, not Chihuahua/Sierra Tarahumara; not an INPI Rarami municipality), Chorrachis (not found in GeoNames, INEGI or Wikipedia as a Chihuahua settlement), Creelito (not attested as a distinct settlement), San Lorenzo (Chihuahua examples are in Dr Belisario Dominguez and Buenaventura municipalities, northern Chihuahua/Casas Grandes region, outside Sierra Tarahumara and not INPI Rarami municipalities). 4 of 8 flagged seeds not verifiable as Sierra Tarahumara settlements, so the entry cannot be verified as an authentic 25-seed Tarahumara toponym list. Keeps UNVERIFIED, status COMPLETE (25 seeds >= seed floor), 25 seeds kept."
     }
   },
   {
