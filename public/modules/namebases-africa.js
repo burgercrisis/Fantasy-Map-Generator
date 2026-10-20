@@ -12762,20 +12762,28 @@ window.africaNameBases = [
     "i": 203333,
     "file": "africa",
     "min": 4,
-    "max": 31,
+    "max": 23,
     "d": "",
     "m": 0.15,
-    "status": "COMPLETE",
-    "b": "Plumtree,Tsholotsho,Gwanda,Beitbridge,Tshabani,Ramokgwebana,Mangwe,Tshuntsho,Dete,Hwange,Nkomo,Lupane,Gwaai,Tshakane,Mapoka,Semitwe,Tutume,Tonota,Maitengwe,Nswazwi,Makalamabedi,Masunga,Mpatane,Mathangwane,Serowe,Mahalapye,Sekoma,Mababe,Mookgwa,Tlokweng,Khame",
+    "status": "WAITING",
+    "b": "Plumtree,Tsholotsho,Gwanda,Beitbridge,Ramokgwebana,Mangwe,Dete,Hwange,Lupane,Gwaai,Mapoka,Semitwe,Tutume,Tonota,Maitengwe,Nswazwi,Makalamabedi,Masunga,Mpatane,Mathangwane,Serowe,Mahalapye,Mababe",
     "verification": {
       "status": "unverified",
       "sources": [
+        "https://iso639-3.sil.org/code/kck",
+        "https://glottolog.org/glottolog/language/kala1405",
+        "https://en.wikipedia.org/wiki/Kalanga_people",
         "https://en.wikipedia.org/wiki/Kalanga_language",
-        "https://iso639-3.sil.org/code/kck"
+        "https://en.wikipedia.org/wiki/Semitwe",
+        "https://en.wikipedia.org/wiki/Gwai",
+        "https://en.wikipedia.org/wiki/Tlokweng",
+        "https://en.wikipedia.org/wiki/Khami",
+        "https://en.wikipedia.org/wiki/Mababe",
+        "https://www.geonames.org/"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "ISO 639-3 kck = Kalanga (Active, Individual, Living) confirmed at iso639-3.sil.org. Glottolog kala1405. Region: Southwest Zimbabwe, Central/North Central/Northeast Botswana. Clear invalid seeds: Rutshuru (DRC, North Kivu - not Kalanga area), Leopard's Kopje (archaeological site near Bulawayo, not a settlement), Mapungubwe (archaeological site/historical kingdom in South Africa, not a Kalanga settlement). Authentic Kalanga-area seeds include: Plumtree, Tsholotsho, Gwanda, Beitbridge, Mangwe (Zimbabwe); Ramokgwebana, Tutume, Tonota, Maitengwe, Nswazwi, Makalamabedi, Masunga, Mathangwane, Serowe, Mahalapye (Botswana); Hwange, Dete, Lupane, Gwaai (Zimbabwe). Uncertain seeds needing primary-source verification: Tshuntsho, Nkomo, Tshakane, Semitwe, Mpatane, Sekoma, Mababe, Mookgwa, Tlokweng, Khame. Seeds: Plumtree,Tsholotsho,Gwanda,Beitbridge,Rutshuru,Tshabani,Ramokgwebana,Mangwe,Tshuntsho,Dete,Hwange,Nkomo,Lupane,Gwaai,Tshakane,Mapoka,Semitwe,Tutume,Tonota,Maitengwe,Nswazwi,Makalamabedi,Masunga,Mpatane,Mathangwane,Serowe,Mahalapye,Sekoma,Mababe,Mookgwa,Tlokweng,Khame,Leopard's Kopje,Mapungubwe."
+      "verified_at": "2026-10-20T19:48:39.000Z",
+      "notes": "FINAL verification. ISO 639-3 kck = Kalanga (Active, Individual, Living) at iso639-3.sil.org; Glottolog kala1405; region Southwest Zimbabwe + Central/North-East Botswana. Kept 23 confirmed/near-confirmed Kalanga-area settlements: Plumtree, Tsholotsho, Gwanda, Beitbridge, Mangwe (Zimbabwe); Dete, Hwange, Lupane, Gwaai/Gwai (Zimbabwe); Ramokgwebana, Tutume, Tonota, Maitengwe, Nswazwi, Makalamabedi, Masunga, Mathangwane, Serowe, Mahalapye (Botswana); Semitwe (Central District BW, 50km NW Francistown; in Kalanga people article). Removed 8 seeds not confirmable as real Kalanga-area settlements: Tshabani, Tshuntsho, Tshakane, Mookgwa (no record in GeoNames/Wikipedia); Nkomo (surname only, not a settlement); Sekoma & Tlokweng (real settlements but Tswana/Batlokwa territory outside Kalanga area - Sekoma Ngwaketse/Kweneng BW ~24.5S 23.9E, Tlokweng South-East BW near Gaborone, per GeoNames/Wikipedia); Khame/Khami (ruined city/UNESCO site near Bulawayo, not a living settlement - same class as previously removed Leopard's Kopje/Mapungubwe). Mababe (NW Botswana, pop 157, 2001 census) and Mpatane (school/locality within Mathangwane) retained as borderline/peripheral, flagged for review. With 23 seeds (<25 floor) status COMPLETE -> WAITING. Not all 31 seeds confirmable, so entry marked unverified."
     }
   }
 ];
