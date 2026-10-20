@@ -9443,11 +9443,12 @@ window.africaNameBases = [
       "sources": [
         "https://iso639-3.sil.org/code/mmy",
         "https://glottolog.org/resource/languoid/id/miga1249",
-        "https://www.ethnologue.com/language/mmy"
+        "https://www.ethnologue.com/language/mmy",
+        "https://geonames.org"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:29:14.153Z",
-      "notes": "Verified against primary sources (ISO mmy, Glottolog miga1249, Ethnologue, GeoNames). All 31 seeds confirmed as real populated places in Guéra region, Chad — the documented Migaama area."
+      "verified_at": "2026-10-20T18:33:32.663Z",
+      "notes": "Verified against primary sources (ISO mmy, Glottolog miga1249, Ethnologue, GeoNames). All 31 seeds confirmed as real populated places in Guéra region, Chad — the documented Migaama area. No seeds removed."
     }
   },
   {
