@@ -1409,14 +1409,31 @@ window.asiaNameBases = [
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/bant1280",
-        "https://ethnologue.com/language/bap",
         "https://en.wikipedia.org/wiki/Bantawa_language",
-        "https://iso639-3.sil.org/code/bap"
+        "https://www.geonames.org/search.html?q=Dhankuta&country=NP",
+        "https://www.geonames.org/search.html?q=Okhaldhunga&country=NP",
+        "https://www.geonames.org/search.html?q=Taplejung&country=NP",
+        "https://www.geonames.org/search.html?q=Ilam&country=NP",
+        "https://www.geonames.org/search.html?q=Itahari&country=NP",
+        "https://www.geonames.org/search.html?q=Inaruwa&country=NP",
+        "https://www.geonames.org/search.html?q=Chaudandigadhi&country=NP",
+        "https://www.geonames.org/search.html?q=Hile&country=NP",
+        "https://www.geonames.org/search.html?q=Myanglung&country=NP",
+        "https://www.geonames.org/search.html?q=Terhathum&country=NP",
+        "https://www.geonames.org/search.html?q=Khotang&country=NP",
+        "https://www.geonames.org/search.html?q=Panchthar&country=NP",
+        "https://www.geonames.org/search.html?q=Sankhuwasabha&country=NP",
+        "https://www.geonames.org/search.html?q=Solukhumbu&country=NP",
+        "https://www.geonames.org/search.html?q=Udayapur&country=NP",
+        "https://www.geonames.org/search.html?q=Sunsari&country=NP",
+        "https://www.geonames.org/search.html?q=Morang&country=NP",
+        "https://www.geonames.org/search.html?q=Jhapa&country=NP",
+        "https://iso639-3.sil.org/code/bap",
+        "https://glottolog.org/resource/languoid/id/bant1280"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Bantawa (ISO 639-3: bap, Glottolog bant1280), Kiranti language of eastern Nepal (Koshi Province: Bhojpur, Dhankuta, Ilam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sunsari, Taplejung, Udayapur) and Sikkim/Darjeeling/Kalimpong, India (Wikipedia; Ethnologue). 9 of 33 seeds are verifiable settlements in the Bantawa area: Dhankuta (town + Eastern Bantawa dialect area), Okhaldhunga (town + district HQ), Taplejung (town + district HQ), Ilam (town + district HQ), Itahari (town in Sunsari), Inaruwa (town in Sunsari), Chaudandigadhi (municipality in Udayapur), Hile (town in Dhankuta), Myanglung (town in Terhathum). Removed: 9 pure district names without same-named town (Terhathum, Khotang, Panchthar, Sankhuwasabha, Solukhumbu, Udayapur, Sunsari, Morang, Jhapa); 6 district/city names outside Bantawa area (Lalitpur, Bhaktapur in Kathmandu Valley; Birgunj, Janakpur in Madhesh; Butwal in Lumbini; Palpa, Syangja, Gorkha, Dhading, Sindhuli, Ramechhap outside Koshi Province); 3 dialect names not settlements (Hatuwali, Okhreli, Chewali - Southern Bantawa dialects); 1 dialect name not confirmed settlement (Amchoke - Western Bantawa dialect). 9 valid seeds < 25 floor. Entry remains UNVERIFIED."
+      "verified_at": "2026-10-20T09:51:42.174Z",
+      "notes": "Bantawa (ISO 639-3: bap, Glottolog bant1280), Kiranti language of eastern Nepal (Koshi Province: Bhojpur, Dhankuta, Ilam, Jhapa, Khotang, Morang, Okhaldhunga, Panchthar, Sunsari, Taplejung, Udayapur) and Sikkim/Darjeeling/Kalimpong, India (Wikipedia; Ethnologue). Verified all 33 original seeds against GeoNames Nepal and Wikipedia. 9 seeds are real settlements in the Bantawa area: Dhankuta (town + district HQ, Koshi), Okhaldhunga (town + district HQ, Koshi), Taplejung (town + district HQ, Koshi), Ilam (town + district HQ, Koshi), Itahari (town in Sunsari, Koshi), Inaruwa (town in Sunsari, Koshi), Chaudandigadhi (municipality in Udayapur, Koshi), Hile (town in Dhankuta, Koshi), Myanglung (town in Terhathum, Koshi). 24 seeds removed: 9 district names with no same-named populated place (Terhathum redundant w/ Myanglung; Khotang - only 'Khotang Bajar'; Panchthar - HQ is Phidim; Sankhuwasabha - HQ is Khandbari; Solukhumbu - HQ is Salleri; Udayapur - only 'Udayapur Gadhi'; Sunsari - HQ is Inaruwa; Morang - HQ is Biratnagar; Jhapa - only 'Jhapa Bajar'); 6 district/city names outside Bantawa area (Lalitpur, Bhaktapur - Kathmandu Valley/Bagmati; Birgunj, Janakpur - Madhesh/Terai; Butwal, Palpa - Lumbini; Syangja, Gorkha - Gandaki; Dhading, Sindhuli, Ramechhap - Bagmati); 4 dialect names not settlements (Hatuwali, Okhreli, Chewali - Southern Bantawa; Amchoke - Western Bantawa). 9 valid seeds < 25 floor. Entry remains UNVERIFIED, status WAITING."
     }
   },
   {
