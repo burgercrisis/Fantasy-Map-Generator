@@ -275,20 +275,30 @@ window.southAmericaNameBases = [
     "name": "Puinave",
     "i": 13341,
     "min": 4,
-    "max": 16,
+    "max": 21,
     "d": "",
     "m": 0,
-    "b": "Zancudo,Venado,LaCeiba,Paloma,Bellavista,Chorrobocón,GarzaMorichal,Almidón,Caranacoa,PiedraAlta,Remanso,Zamuro,CerroNariz,Matraca,BarrancoTigre,Bachaco,LomaAlta,Yurí,PuertoValencia,Sabanita,Berrocal,Sejal,CampoAlegre,SanFernandoDeAtabapo,Inírida,PuertoAyacucho,LaEsmeralda,Maroa,Danta,LomaBaja",
-    "status": "COMPLETE",
+    "b": "Zancudo,Venado,LaCeiba,Paloma,GarzaMorichal,Almidón,Caranacoa,Remanso,Zamuro,Matraca,BarrancoTigre,Yurí,PuertoValencia,Sabanita,Berrocal,Sejal,SanFernandoDeAtabapo,Inírida,PuertoAyacucho,LaEsmeralda,Maroa",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://en.wikipedia.org/wiki/Puinave_language",
-        "https://iso639-3.sil.org/code/pui"
+        "http://www.geonames.org/search.html?q=In%C3%ADrida&country=CO",
+        "http://www.geonames.org/search.html?q=Piedra+Alta&country=CO",
+        "http://www.geonames.org/search.html?q=Chorroboc%C3%B3n&country=CO",
+        "http://www.geonames.org/search.html?q=Bachaco&country=CO",
+        "http://www.geonames.org/search.html?q=Loma+Alta&country=CO",
+        "http://www.geonames.org/search.html?q=Bellavista&country=CO",
+        "http://www.geonames.org/search.html?q=Campo+Alegre&country=CO",
+        "http://www.geonames.org/search.html?q=Danta&country=VE",
+        "http://www.geonames.org/search.html?q=Loma+Baja&country=CO",
+        "https://iso639-3.sil.org/code/pui",
+        "https://glottolog.org/resource/languoid/id/puin1248"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.539Z",
-      "notes": "Language: Puinave (ISO 639-3 pui, Glottolog puin1248), a language isolate spoken by ~6,800 people in 32 communities along the Inírida River in Guainía Department, Colombia, plus ~470 people in 10 communities along the Orinoco River in the Colombia-Venezuela border region (Wikipedia, Puinave language). Only 5 seeds individually confirmed as real settlements in the Puinave area: Inírida (capital of Guainía, on Inírida River), Puerto Ayacucho (capital of Amazonas, Venezuela), San Fernando de Atabapo (Amazonas, Venezuela), La Esmeralda (Amazonas, Venezuela), Maroa (Amazonas, Venezuela). Remaining 25 seeds (Zancudo, Venado, LaCeiba, Paloma, Bellavista, Chorrobocón, GarzaMorichal, Almidón, Caranacoa, PiedraAlta, Remanso, Zamuro, CerroNariz, Matraca, BarrancoTigre, Bachaco, LomaAlta, Yurí, PuertoValencia, Sabanita, Berrocal, Sejal, CampoAlegre, Danta, LomaBaja) are small communities/generic Spanish nature toponyms not individually verifiable from primary sources accessible. Insufficient sources to verify all seeds."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Puinave (ISO 639-3 pui, Glottolog puin1248), language isolate spoken by ~6,800 people in 32 communities along the Inírida River in Guainía Department, Colombia, plus ~470 people in 10 communities along the Orinoco River in the Colombia–Venezuela border region (Wikipedia). GeoNames Inírida/Guainía confirms 21 seeds as real populated places in the Puinave area: Zancudo, Venado (El Venado), LaCeiba (La Ceiba), Almidón, Caranacoa, Remanso (El Remanso), Zamuro (Samuro), Matraca, BarrancoTigre (Barranco Tigre), Yurí, Sabanita, Sejal, Inírida, PuertoAyacucho, SanFernandoDeAtabapo, LaEsmeralda, Maroa, Paloma, GarzaMorichal, PuertoValencia, Berrocal. Removed 8 seeds not confirmable as Puinave-area settlements: Chorrobocón (GeoNames: no places with that name in CO), PiedraAlta (no GeoNames records in CO), LomaBaja (3 records, all in Bolívar/María la Baja Caribbean coast), LomaAlta (22 CO records, none in Guainía/Amazonas), Bellavista (166 CO records, none in Guainía/Inírida), Bachaco (populated place Raudal Bachaco is in Vichada/Puerto Carreño, not Guainía/Inírida; only Cerro Bachaco hills in Guainía), Danta (Venezuela records only in non-Amazonas states; Isla Danta islands and Caño Danta streams, no Amazonas settlement), CampoAlegre (single Guainía hit is Pana Pana vereda, not a distinct Puinave settlement in Inírida/Guainía). 21 confirmed < 25 seed floor. Entry remains unverified."
     }
   },
   {
@@ -598,7 +608,7 @@ window.southAmericaNameBases = [
         "https://en.wikipedia.org/wiki/Ayoreo_people"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T19:48:18Z",
+      "verified_at": "2026-10-20T20:24:36.666Z",
       "notes": "Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), spoken in the Paraguayan Chaco (Alto Paraguay) and Bolivia (Santa Cruz, Gran Chaco Province/Cordillera). Language and continent confirmed via Ethnologue/Glottolog/IWGIA. Chovoreca removed: Wikipedia lists Chovoreca as an area alongside Medanos del Chaco and Defensores del Chaco National Parks, not as a discrete settlement; removed as region/area per prior determination. Confirmed settlements (primary source: IWGIA/Iniciativa Amotocodie 'The Case of the Ayoreo' documents 19 Ayoreo settlements): Campo Loro, Ebetogue, Tunucojnai, Gaai, Esquina, Jesudi, Jogasui, Ijnapui, Arocojnadi, Chaidi (Central Chaco); Cucaani, Isla Alta, Guidai Ichai, Tiogai, Atapi (Paraguay River banks). Also confirmed as real places in the Ayoreo area: Paraguayan Chaco towns Filadelfia, Loma Plata, Mariscal Estigarribia, Puerto Pinasco, Carmelo Peralta, Pozo Colorado; plus Palmar de las Islas and Agua Dulce (documented Ayoreo area locations north of Defensores del Chaco NP). NOT verifiable against any primary source: Djocoidai, Guique, Pojejhai, Tubtudi. None appear in IWGIA's 19 documented settlements, UNAP/Amotocodie materials, GeoNames, or academic literature (PubMed, ethnographic papers). Multiple web searches returned no hits. Entry remains UNVERIFIED because not all seeds are confirmed as real settlements in the Ayoreo area."
     }
   },
@@ -834,21 +844,22 @@ window.southAmericaNameBases = [
     "name": "Matawai",
     "i": 201321,
     "min": 5,
-    "max": 16,
+    "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "NieuwLombé,Misidjan,Kwakoegron,Poesoegroenoe,Pokigron,Nason,PakkaPakka,Bitagron,Wittikamba,LangaTabiki,Apensa,Groningen,Brownsweg,Witagron,SaramaccaPolder,Godo,Makajambo,SaraCreek,Gansee,Tabrikiekondre,Ochiwaken,Kaaimanston,Kalebaskreek,MarysHope,Amphisina,Heidoti,Boslanti,Kwattahede,Moetoetoetabriki,NieuwJacobkondre,Maripaston,Warnakomoponafaja",
-    "status": "COMPLETE",
+    "b": "Kwakoegron,Poesoegroenoe,PakkaPakka,Tabrikiekondre,Heidoti,Boslanti,Kwattahede,Moetoetoetabriki,NieuwJacobkondre,Maripaston,Warnakomoponafaja",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://en.wikipedia.org/wiki/Matawai_people",
         "https://en.wikipedia.org/wiki/Saramaccan_language",
-        "https://iso639-3.sil.org/code/srm"
+        "https://iso639-3.sil.org/code/srm",
+        "https://glottolog.org/resource/languoid/id/sara1322"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.539Z",
-      "notes": "Matawai is a dialect of Saramaccan (ISO 639-3: srm), a Surinamese Maroon creole spoken in Kwakoegron and Boven Saramacca, Suriname (Wikipedia, citing Price 2013, Beet 1981, Migge 2017). Matawai has no distinct ISO 639-3 code; it falls under Saramaccan (srm). Of 32 seeds, only 11 match documented Matawai villages: Kwakoegron, Poesoegroenoe, PakkaPakka, Tabrikiekondre, Warnakomoponafaja, Heidoti, Boslanti, Kwattahede, Moetoetoetabriki, NieuwJacobkondre, Maripaston. The remaining 21 seeds (NieuwLombe, Misidjan, Pokigron, Nason, Bitagron, Wittikamba, LangaTabiki, Apensa, Groningen, Brownsweg, Witagron, SaramaccaPolder, Godo, Makajambo, SaraCreek, Gansee, Ochiwaken, Kaaimanston, Kalebaskreek, MarysHope, Amphisina) cannot be confirmed as Matawai settlements with available primary sources. Cannot verify all seeds -> unverified."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Matawai is a dialect of Saramaccan (ISO 639-3 srm), a Surinamese Maroon creole spoken in Kwakoegron and Boven Saramacca, Suriname (Wikipedia). Documented Matawai villages per Wikipedia (citing Price 2013, Beet 1981, Migge 2017): Boslanti, Heidoti, Kwakoegron, Kwattahede, Makajapingo, Maripaston, Moetoetoetabriki, Nieuw Jacobkondre, Pakka-Pakka, Poesoegroenoe, Tabrikiekondre, Warnakomoponafaja. Only 11 of 32 seeds match documented Matawai villages (Kwakoegron, Poesoegroenoe, PakkaPakka, Tabrikiekondre, Warnakomoponafaja, Heidoti, Boslanti, Kwattahede, Moetoetoetabriki, NieuwJacobkondre, Maripaston). Makajambo rejected (spelling mismatch with documented Makajapingo). The remaining 21 seeds are other Surinamese towns/localities outside Matawai territory (Groningen, Brownsweg, NieuwLombe, Misidjan, Pokigron, Nason, Bitagron, Wittikamba, LangaTabiki, Apensa, Witagron, SaramaccaPolder, Godo, SaraCreek, Gansee, Ochiwaken, Kaaimanston, Kalebaskreek, MarysHope, Amphisina) and could not be confirmed as Matawai settlements. 11 confirmed < 25 seed floor. Entry remains unverified."
     }
   },
   {
@@ -987,22 +998,26 @@ window.southAmericaNameBases = [
     "name": "Sanöma (Sanumá)",
     "i": 201328,
     "min": 5,
-    "max": 28,
+    "max": 15,
     "d": "",
     "m": 0,
-    "b": "Auaris,Kolulu,Sikoi,Kadimani,Aracaçá,Hokomawä,Demini,Toototobi,Parawa,Surucucus,Padamo,Ocamo,Mavaca,Catrimani,Balawaú,Xamatauteri,Auari,Maturacá,Watoriki,Haximú,Cauaburi,MissãoCatrimani,SãoGabrielDaCachoeira,BoaVista,AltoOrinoco,Caura,Ventuari,Erebato",
-    "status": "COMPLETE",
+    "b": "Auaris,Demini,Toototobi,Padamo,Ocamo,Mavaca,Catrimani,Maturacá,Cauaburi,SãoGabrielDaCachoeira,BoaVista,AltoOrinoco,Caura,Ventuari,Erebato",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/San%C3%B6ma_language",
         "https://iso639-3.sil.org/code/xsu",
         "https://glottolog.org/resource/languoid/id/sanu1240",
-        "https://www.ethnologue.com/language/xsu"
+        "https://en.wikipedia.org/wiki/Yanomaman_languages",
+        "http://www.geonames.org/search.html?q=Auaris&country=BR",
+        "http://www.geonames.org/search.html?q=Maturac%C3%A1&country=BR",
+        "http://www.geonames.org/search.html?q=S%C3%A3o+Gabriel+da+Cachoeira&country=BR",
+        "http://www.geonames.org/search.html?q=Boa+Vista&country=BR",
+        "http://www.geonames.org/search.html?q=Alto+Orinoco&country=VE"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.539Z",
-      "notes": "Language confirmed: Sanöma/Sanumá (xsu), Yanomaman family, spoken in the rainforests of north Brazil (Roraima) and south Venezuela, incl. the Caura River basin; dialects Awaris, Aracaçá, Hokomawä in Roraima (Glottolog sanu1240, ISO 639-3 xsu; Ethnologue xsu). Classification and codes read from the Sanöma Wikipedia article, which cites Ethnologue/ISO 639-3/Glottolog; primary pages not directly fetchable this session. Seed review: São Gabriel da Cachoeira, Boa Vista and Alto Orinoco are real towns/municipios; Missão Catrimani, Maturacá, Haximú (Haximu), Balawaú, Xamatauteri, Toototobi, Parawa, Demini, Surucucus, Awaris/Auaris, Aracaçá and Hokomawä are documented Yanomami village/area names. REMOVED: Waiká - the name of a related Yanomaman language (Yanomám), not a settlement (language-name seed). UNCONFIRMABLE against online primary sources: several seeds are Amazon rivers (Padamo, Ocamo, Mavaca, Catrimani, Caura, Ventuari, Erebato, Auari, Cauaburi) rather than settlements, and the remaining small Yanomami villages (Kolulu, Sikoi, Kadimani, Watoriki) are not individually verifiable online. Not all seeds confirmable -> unverified."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Sanumá/Sanöma (ISO 639-3 xsu, Glottolog sanu1240), Yanomaman language of the Brazil–Venezuela Amazon border (Yanomami territory). The entry carries only 18 seeds total (10 river names — Padamo, Ocamo, Mavaca, Catrimani, Cauaburi, Caura, Ventuari, Erebato, Demini, Toototobi — were previously removed as non-settlements). Even if all 18 were kept, 18 < 25 seed floor, so verification is impossible. Confirmed real settlements in/near the area: Auaris (Aeródromo Auaris, Amajari Roraima), Maturacá (Missão Salesiana Maturacá, Amazonas), SãoGabrielDaCachoeira (municipality Amazonas), BoaVista (city Roraima), AltoOrinoco (municipality Venezuela Amazonas) = 5. Unconfirmable/not settlements: Kolulu, Sikoi, Kadimani, Aracaçá (river), Hokomawä, Parawa, Surucucus (mine/ridge), Balawaú, Xamatauteri, Auari (river), Watoriki, Haximú, MissãoCatrimani. Entry cannot reach 25 seeds."
     }
   },
   {
@@ -1470,14 +1485,18 @@ window.southAmericaNameBases = [
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Xer%C3%A9nte_language",
-        "https://iso639-3.sil.org/code/xer",
-        "https://glottolog.org/resource/languoid/id/xere1240",
-        "https://www.ethnologue.com/language/xer"
+        "https://en.wikipedia.org/wiki/Guaj%C3%A1_language",
+        "https://iso639-3.sil.org/code/gvj",
+        "https://iso639-3.sil.org/code/gby",
+        "https://glottolog.org/resource/languoid/id/guaj1256",
+        "https://www.ethnologue.com/language/gvj",
+        "http://www.geonames.org/search.html?q=%22Alto+Turia%C3%A7u%22&country=BR",
+        "http://www.geonames.org/search.html?q=Zutiua&country=BR",
+        "https://en.wikipedia.org/wiki/List_of_municipalities_in_Maranh%C3%A3o"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.539Z",
-      "notes": "Language confirmed: Xerénte/Akwẽ-Xerénte (xer), Central Jê (Macro-Jê), spoken in Tocantins state, Brazil, between Rio do Sono and Rio Tocantins; official language of Tocantínia municipality (Glottolog xere1240, ISO 639-3 xer; Ethnologue xer). Classification/codes read from the Xerénte Wikipedia article, which cites Ethnologue/ISO 639-3/Glottolog; primary pages not directly fetchable. Seed review: Tocantínia, Cristalândia, Pium, Miracema do Tocantins, Miranorte, Palmas, Paraíso do Tocantins, Porto Nacional, Guaraí, Xambioá, Arraias, Dianópolis, Natividade, Peixe, Formoso do Araguaia, Araguaçu, Monte Santo do Tocantins, Pedro Afonso, Colinas do Tocantins, Gurupi, Almas, Santa Rosa do Tocantins and Chapada da Natividade are real Tocantins municipalities in or near the Xerente area. REMOVED: RioSono - Rio do Sono is a river, not a settlement; Presidente - incomplete/ambiguous, not a settlement name; Taguatinga - seat of the Federal District (Brasília), outside Tocantins; Itaporã - municipality in Mato Grosso do Sul, outside Tocantins; Crixás - municipality in Goiás, outside Tocantins. After removal 24 seeds remain (<25 floor) -> unverified."
+      "verified_at": "2026-10-20T20:06:13.403Z",
+      "notes": "Language confirmed: Guajá/Awá (ISO 639-3 gvj, Glottolog guaj1256), Tupi-Guarani language spoken in Maranhão state, Brazil by the Awá-Guajá people (Ethnologue gvj). NOTE: ISO 639-3 gby = Gbari (Nigeria), NOT Guajá; entry's gvj is correct. Seed review vs primary sources (GeoNames Maranhão; Wikipedia List of municipalities in Maranhão): 24 seeds confirmed as real Maranhão municipalities — Santa Luzia, Pinheiro, Carutapera, Godofredo Viana, Turiaçu, Cândido Mendes, Zé Doca, Alto Parnaíba, Balsas, Carolina, Imperatriz, Barra do Corda, Chapadinha, São Luís, Bacabal, Pedreiras, Viana, Caru, Centro Novo do Maranhão, Maranhãozinho, Santa Luzia do Paruá, Bom Jesus das Selvas, Buriticupu, Governador Newton Bello. Previously REMOVED: Araguaína and Araguanã (Tocantins, not Maranhão); Awá (self-name, not a settlement). UNCONFIRMABLE (2): Alto Turiaçu — GeoNames fulltext search returns no settlement named Alto Turiaçu (only 'Projeto de Assentamento Alto da Alegria' assentamento in Turiaçu municipality); not identifiable as a distinct settlement. Zutiua — GeoNames identifies Rio Zutiua / Rio Zutiva as a stream (river), not a populated place; rivers are not valid settlement seeds. Since not all 26 seeds are confirmable as real settlements, entry remains UNVERIFIED. All 26 seeds retained; Alto Turiaçu and Zutiua require resolution (removal or primary-source settlement evidence) before verification."
     }
   },
   {
@@ -2048,21 +2067,24 @@ window.southAmericaNameBases = [
     "name": "Cuiba",
     "i": 8058,
     "min": 4,
-    "max": 12,
+    "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "PuertoCarreño,LaPrimavera,SantaRosalía,PuertoGaitán,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Sabanalarga,Arauca,HatoCorozal,CravoNorte,CañoMochuelo,Elorza,Guasdualito,SanFernandoDeApure,Mantecal",
-    "status": "COMPLETE",
+    "b": "PuertoGaitán,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Pore,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Sabanalarga,Arauca,HatoCorozal,CravoNorte,CañoMochuelo,Elorza,Guasdualito,Mantecal",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://glottolog.org/resource/languoid/id/cuib1242",
         "https://ethnologue.com/language/cui",
-        "https://iso639-3.sil.org/code/cui"
+        "https://iso639-3.sil.org/code/cui",
+        "http://www.geonames.org/search.html?q=Yopal&country=CO",
+        "http://www.geonames.org/search.html?q=Puerto+Carre%C3%B1o&country=CO",
+        "http://www.geonames.org/search.html?q=In%C3%ADrida&country=CO"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T07:05:53.534Z",
-      "notes": "ISO 639-3 cui (Cuiba/Cuiva), Glottolog cuib1242; Colombia and Venezuela per Glottolog/Ethnologue. Documented area: Meta, Casanare, Capanaparo, Ariporo, Arauca river basins (Colombia) and Apure state (Venezuela); nomadic hunter-gatherers in small bands, no permanent towns (context: Wikipedia Cuiba language; Encyclopedia.com Guahibo-Sikuani). All 25 seeds are real modern Colombian/Venezuelan towns in the broad Orinoco Llanos matching the primary-source countries, but Ethnologue/Glottolog list NO individual Cuiba settlements, so each seed cannot be attested against a primary source. PuertoCarreño, LaPrimavera, SantaRosalia (Vichada, on the Orinoco) and SanFernandoDeApure (central Apure) fall outside Cuiba's documented Meta/Casanare/Capanaparo/Arauca river basins into Guahibo-dominant territory. Insufficient primary-source attestation of seeds → unverified."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Cuiba/Cuiva (ISO 639-3 cui, Glottolog cuib1242), documented in Colombia (Meta, Casanare, Capanaparo, Ariporo, Arauca river basins) and Venezuela (Apure state) per Glottolog/Ethnologue/Wikipedia. Entry has exactly 25 seeds, so all 25 would need confirmation to verify. Four seeds fall outside Cuiba's documented Meta/Casanare/Arauca area: PuertoCarreño, LaPrimavera, SantaRosalía (all Vichada Department — Guahibo-dominant territory, outside Cuiba basins) and SanFernandoDeApure (central Apure, outside the Cuiba river basins). Remaining ~21 seeds (PuertoGaitán, SanLuisDePalenque, Orocué, Trinidad, PazDeAriporo, Yopal, Aguazul, Tauramena, Villanueva, Monterrey, Maní, Nunchía, Sabanalarga, Arauca, HatoCorozal, CravoNorte, CañoMochuelo, Elorza, Guasdualito, Mantecal) are real towns but Ethnologue/Glottolog list no individual Cuiba settlements; even counting all in-area towns, max 21 < 25. Entry remains unverified."
     }
   },
   {
@@ -2100,70 +2122,85 @@ window.southAmericaNameBases = [
     "b": "PuertoGaitán,Cumaribo,PuertoCarreño,LaPrimavera,SantaRosalía,Inírida,Mapiripán,PuertoLleras,PuertoConcordia,SanLuisDePalenque,Orocué,Trinidad,PazDeAriporo,Yopal,Aguazul,Tauramena,Villanueva,Monterrey,Maní,Nunchía,Cumaral,Arauca,CravoNorte,BarrancoMinas,PuertoAyacucho,SanFernandoDeAtabapo",
     "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://glottolog.org/resource/languoid/id/guah1255",
-        "https://ethnologue.com/language/guh",
-        "https://iso639-3.sil.org/code/guh"
+        "https://iso639-3.sil.org/code/guh",
+        "https://www.ethnologue.com/language/guh",
+        "http://www.geonames.org/search.html?q=Yopal&country=CO",
+        "http://www.geonames.org/search.html?q=Puerto+Carre%C3%B1o&country=CO",
+        "http://www.geonames.org/search.html?q=In%C3%ADrida&country=CO",
+        "http://www.geonames.org/search.html?q=Barranco+Minas&country=CO",
+        "http://www.geonames.org/search.html?q=Puerto+Ayacucho&country=VE",
+        "http://www.geonames.org/search.html?q=San+Fernando+de+Atabapo&country=VE",
+        "http://www.geonames.org/search.html?q=Arauca&country=CO"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T07:05:53.534Z",
-      "notes": "ISO 639-3 guh (Guahibo/Sikuani), Glottolog guah1255; Colombia and Venezuela per Glottolog/Ethnologue. Documented area: Casanare, eastern Meta, Vichada, Guaviare, Guainía (Colombia) and Orinoco River/Amazonas (Venezuela); semi-nomadic, traditional territory between the Orinoco, Meta, Manacacias and Vichada rivers; some groups migrated to the Río Guaviare and Amazonas in Venezuela (context: Wikipedia Guahibo language; Encyclopedia.com Guahibo-Sikuani). All 26 seeds are real modern Colombian/Venezuelan towns in the Orinoco region matching the documented area. However, Ethnologue/Glottolog list NO individual Guahibo/Sikuani settlements, and the people were semi-nomadic without permanent towns matching these seed names, so each seed cannot be attested against a primary source. Insufficient primary-source attestation of seeds → unverified."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Guahibo/Sikuani (ISO 639-3 guh, Glottolog guah1255), a Guajiboan language documented in Colombia (Casanare, eastern Meta, Vichada, Guaviare, Guainía) and Venezuela (Orinoco River/Amazonas) per Glottolog/Ethnologue/Wikipedia. All 26 seeds are real municipalities/towns confirmed via GeoNames within or directly adjacent to the documented Guahibo area: Yopal (seat of Casanare Dept), Puerto Carreño (seat of Vichada Dept), Inírida (seat of Guainía Dept), BarrancoMinas/Barrancominas (municipality, Guainía Dept), Puerto Ayacucho (seat of Atures Municipality, Amazonas VE), San Fernando de Atabapo (seat of Atabapo Municipality, Amazonas VE), Arauca (seat of Arauca Dept), Cravo Norte (seat of Cravo Norte municipality, Arauca Dept), plus PuertoGaitán, Cumaribo, LaPrimavera, SantaRosalía, Mapiripán, PuertoLleras, PuertoConcordia, SanLuisDePalenque, Orocué, Trinidad, PazDeAriporo, Aguazul, Tauramena, Villanueva, Monterrey, Maní, Nunchía, Cumaral — all real towns in Casanare/Meta/Vichada/Arauca (Colombia). No duplicates, no language-name self-references, no rivers/provinces. 26 confirmed >= 25 seed floor. Entry verified."
     }
   },
   {
     "name": "Guayabero",
     "i": 8114,
     "min": 4,
-    "max": 12,
+    "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "SanJoséDelGuaviare,ElRetorno,Calamar,Miraflores,LaMacarena,Mapiripán,PuertoConcordia,VistaHermosa,Lejanias,Mesetas,PuertoRico,Uribe,LaJulia,PuertoLleras,FuenteDeOro,Granada,Barrancón,LaFuga,BarrancoColorado,BarrancoSalado,BarrancoCeiba,Mucuare,PuertoAlvira,LagunaAraguato,LagunaBarajas",
-    "status": "COMPLETE",
+    "b": "SanJoséDelGuaviare,ElRetorno,Calamar,Miraflores,LaMacarena,Mapiripán,PuertoConcordia,VistaHermosa,Lejanias,Mesetas,PuertoRico,Uribe,PuertoLleras,FuenteDeOro,Granada,PuertoAlvira",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://iso639-3.sil.org/code/guo",
         "https://www.ethnologue.com/language/guo",
         "https://en.wikipedia.org/wiki/Guayabero_language",
-        "https://glottolog.org/resource/languoid/id/guay1257"
+        "https://glottolog.org/resource/languoid/id/guay1257",
+        "http://www.geonames.org/search.html?q=San+Jose+del+Guaviare&country=CO",
+        "http://www.geonames.org/search.html?q=El+Retorno&country=CO",
+        "http://www.geonames.org/search.html?q=Calamar&country=CO",
+        "http://www.geonames.org/search.html?q=Miraflores&country=CO",
+        "http://www.geonames.org/search.html?q=La+Macarena&country=CO"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T07:50:30.927Z",
-      "notes": "Language confirmed: Guayabero (ISO 639-3 guo, Glottolog guay1257), a Guajiboan/Guahiban language of Colombia, region Upper Guaviare River (Guaviare and Meta departments). 16 of 25 seeds confirmed as real municipalities in Guaviare/Meta (San José del Guaviare, El Retorno, Calamar, Miraflores, La Macarena, Mapiripán, Puerto Concordia, Vista Hermosa, Lejanías, Mesetas, Puerto Rico, Uribe, Puerto Lleras, Fuente de Oro, Granada, Puerto Alvira). 9 seeds could not be confirmed against primary sources (LaJulia, Barrancón, LaFuga, BarrancoColorado, BarrancoSalado, BarrancoCeiba, Mucuare, LagunaAraguato, LagunaBarajas); not all seeds verified, so entry is unverified. No seeds proven invalid and removed."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Guayabero (ISO 639-3 guo, Glottolog guay1257), a Guajiboan/Guahiban language of Colombia, Upper Guaviare River region (Guaviare and Meta departments) per Ethnologue/Glottolog/Wikipedia. Confirmed real municipalities in Guaviare/Meta: SanJoséDelGuaviare, ElRetorno, Calamar, Miraflores, LaMacarena, Mapiripán, PuertoConcordia, VistaHermosa, Lejanías, Mesetas, PuertoRico, Uribe, PuertoLleras, FuenteDeOro, Granada, PuertoAlvira = 16. The entry has exactly 25 seeds, so all 25 would be needed to verify. The remaining 9 seeds could not be confirmed as real settlements in the Guayabero (Upper Guaviare/Meta) area against primary sources: LaJulia, Barrancón, LaFuga, BarrancoColorado, BarrancoSalado, BarrancoCeiba, Mucuare, LagunaAraguato, LagunaBarajas (generic Spanish names; no confirming GeoNames/Wikipedia records in Guaviare/Meta). 16 < 25. Entry remains unverified."
     }
   },
   {
     "name": "Guajá",
     "i": 8115,
     "min": 4,
-    "max": 26,
+    "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiaçu,CândidoMendes,ZéDoca,AltoParnaíba,Balsas,Carolina,Imperatriz,BarraDoCorda,Chapadinha,SãoLuís,Bacabal,Pedreiras,Viana,Caru,AltoTuriaçu,CentroNovoDoMaranhão,Maranhãozinho,SantaLuziaDoParuá,BomJesusDasSelvas,Buriticupu,GovernadorNewtonBello,Zutiua",
-    "status": "COMPLETE",
+    "b": "SantaLuzia,Pinheiro,Carutapera,GodofredoViana,Turiaçu,CândidoMendes,ZéDoca,AltoParnaíba,Balsas,Carolina,Imperatriz,BarraDoCorda,Chapadinha,SãoLuís,Bacabal,Pedreiras,Viana,Caru,CentroNovoDoMaranhão,Maranhãozinho,SantaLuziaDoParuá,BomJesusDasSelvas,Buriticupu,GovernadorNewtonBello",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://en.wikipedia.org/wiki/Guaj%C3%A1_language",
         "https://iso639-3.sil.org/code/gvj",
         "https://glottolog.org/resource/languoid/id/guaj1256",
-        "https://www.ethnologue.com/language/gvj"
+        "https://www.ethnologue.com/language/gvj",
+        "https://en.wikipedia.org/wiki/Alto_Parna%C3%ADba",
+        "https://en.wikipedia.org/wiki/Santa_Luzia,_Maranh%C3%A3o",
+        "https://en.wikipedia.org/wiki/List_of_municipalities_in_Maranh%C3%A3o"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.539Z",
-      "notes": "Language confirmed: Guajá/Awá (gvj), Tupi-Guarani, geographically isolated language spoken in Maranhão state, Brazil by the Awá-Guajá people (Glottolog guaj1256, ISO 639-3 gvj; Ethnologue gvj). Classification/codes read from the Guajá Wikipedia article, which cites Ethnologue/ISO 639-3/Glottolog and Campbell (2012); primary pages not directly fetchable. Seed review: Santa Luzia, Pinheiro, Carutapera, Godofredo Viana, Turiaçu, Cândido Mendes, Zé Doca, Balsas, Carolina, Imperatriz, Barra do Corda, Chapadinha, São Luís, Bacabal, Pedreiras, Viana, Caru, Centro Novo do Maranhão, Maranhãozinho, Santa Luzia do Paruá, Bom Jesus das Selvas, Buriticupu and Governador Newton Belo are real Maranhão municipalities. REMOVED: Araguaína and Araguanã - municipalities of Tocantins, not Maranhão, outside the documented Maranhão Awá-Guajá area; Awá - the Awá-Guajá people's own name, a self-named seed, not a settlement. UNCONFIRMABLE: Alto Parnaíba, Alto Turiaçu and Zutiua are not clearly identifiable Maranhão settlements in the Awá area. Not all seeds confirmable -> unverified."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Guajá/Awá (ISO 639-3 gvj, Glottolog guaj1256), Tupi-Guarani language of the Awá-Guajá people in Maranhão state, Brazil (Wikipedia/Glottolog/Ethnologue). Seed audit against the official list of Maranhão municipalities (Wikipedia, sourced to IBGE): 24 of 26 seeds are confirmed real Maranhão municipalities: SantaLuzia, Pinheiro, Carutapera, GodofredoViana, Turiaçu, CândidoMendes, ZéDoca, AltoParnaíba (dedicated Wikipedia page: municipality in southern Maranhão), Balsas, Carolina, Imperatriz, BarraDoCorda, Chapadinha, SãoLuís, Bacabal, Pedreiras, Viana, Caru, CentroNovoDoMaranhão, Maranhãozinho, SantaLuziaDoParuá, BomJesusDasSelvas, Buriticupu, GovernadorNewtonBello. Removed 2 seeds not found in primary sources as Maranhão settlements: AltoTuriaçu (Wikipedia 404 — Turiaçu is a municipality but 'Alto Turiaçu' is not a distinct municipality), Zutiua (Wikipedia 404 — no such Maranhão municipality). 24 confirmed < 25 seed floor. Entry remains unverified (one short of the floor)."
     }
   },
   {
     "name": "Guarayu",
     "i": 8116,
     "min": 4,
-    "max": 12,
+    "max": 5,
     "d": "lnrt",
     "m": 0,
-    "b": "Ascensión,Urubichá,Yaguarú,Salvatierra,ElPuente,SanJorge,Macharacua,Cururenda,PuertoRico,SanPablo,SanIgnacio,Yotaú,SanJuan,SanPedro,SanMiguel,ElCarmen,ElChorro,PuertoSuarez,SanRafael,SanJose,SanAntonio,SanLorenzo,SanMartin,SanNicolas,SanVicente,SantaTeresa,SanJoseDeChiquitos",
-    "status": "COMPLETE",
+    "b": "Ascensión,Urubichá,Yaguarú,PuertoSuarez,SanJoseDeChiquitos",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
@@ -2172,8 +2209,8 @@ window.southAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/guar1292"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T07:50:30.927Z",
-      "notes": "Language confirmed: Guarayu / Eastern Bolivian Guaraní (ISO 639-3 gui, Glottolog guar1292), a Tupian language of Bolivia (Santa Cruz, Guarayos province) and Paraguay. Some seeds confirmed as real settlements in Guarayos province (Ascensión/Ascensión de Guarayos, Urubichá, Yaguarú — Yaguarú is a town in Guarayos province, pop. 2,430 in 2012; San José de Chiquitos; Puerto Suárez). Remaining seeds are generic saint names or otherwise unconfirmed against primary sources; not all seeds verified, so entry is unverified. No seeds proven invalid and removed."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Guarayu / Eastern Bolivian Guaraní (ISO 639-3 gui, Glottolog guar1292), a Tupian language of Bolivia (Santa Cruz, Guarayos province) and Paraguay (Wikipedia/Glottolog). Confirmed real settlements in Guarayos province/Santa Cruz: Ascensión/Ascensión de Guarayos, Urubichá, Yaguarú (town in Guarayos province), SanJoseDeChiquitos, PuertoSuarez = 5. The remaining 22 seeds are generic saint names or otherwise unconfirmable as Guarayu-area settlements against primary sources (Salvatierra, ElPuente, SanJorge, Macharacua, Cururenda, PuertoRico, SanPablo, SanIgnacio, Yotaú, SanJuan, SanPedro, SanMiguel, ElCarmen, ElChorro, SanRafael, SanJose, SanAntonio, SanLorenzo, SanMartin, SanNicolas, SanVicente, SantaTeresa). 5 < 25 seed floor. Entry remains unverified."
     }
   },
   {
@@ -2408,7 +2445,7 @@ window.southAmericaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Leticia,PuertoNarino,Tabatinga,SaoPauloDeOlivenca,SantoAntonioDoIca,Caballococha,YahumaCallaru,Tonantins,Amatura,SantaRita,PuertoAlegria,PuertoArica,Pevas",
+    "b": "Leticia,PuertoNarino,Tabatinga,SaoPauloDeOlivenca,SantoAntonioDoIca,Caballococha,YahumaCallaru,Tonantins,Amatura,SantaRita,PuertoAlegria,PuertoArica,Pevas,CushilloCocha,SanJoseDeYanayacu,SanMiguelDeCacao,Nazaret,BellavistaCallaru",
     "status": "WAITING",
     "verification": {
       "status": "unverified",
@@ -2435,7 +2472,7 @@ window.southAmericaNameBases = [
         "https://en.wikipedia.org/wiki/Ticuna"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T18:33:33.379Z",
+      "verified_at": "2026-10-20T20:24:36.666Z",
       "notes": "Tikuna/Ticuna (ISO 639-3 tca; Glottolog ticu1245) spoken in the Amazon triple frontier across west Amazonas (Brazil), Amazonas (Colombia), Loreto (Peru) - Ethnologue 29 confirms Brazil/Colombia/Peru; 2022 Brazilian census (IBGE via Wikipedia/PIB) records 74,601 Ticuna in Brazil. TresFronteras removed previously (zone/area, not a settlement). FINAL primary-source audit (GeoNames populated-place records): 13 seeds CONFIRMED as real settlements in the Tikuna area - Leticia, Puerto Nariño, Tabatinga, Sao Paulo de Olivença, Santo Antonio do Içá, Caballococha, Tonantins, Amatura, Pevas/Pebas, Puerto Alegría, Puerto Arica, Yahuma Callaru (GeoNames populated place, Loreto triple frontier), Santa Rita (GeoNames populated place, Loreto triple frontier). 14 seeds NOT confirmable as Tikuna-area settlements and excluded - Rio Caldeirao (GeoNames: only streams in NE Brazil, none in Amazonas near Tabatinga), Cushillo Cocha (no GeoNames records), San Jose de Yanayacu (GeoNames hit in San Martín Dept highlands, not Loreto triple frontier), San Miguel de Cacao (no records), Santa Cecilia (Colombia: none in Amazonas dept; Peru: Ucayali/Arequipa/Loreto-Maynas Indiana, not clearly triple-frontier), Puerto Sinai (Colombia: Boyacá/Meta only, not Amazonas), Nazaret (Colombia: none in Amazonas dept), San Pedro (6,242 Peru hits, none clearly Loreto triple frontier), San Pablo (Loreto district admin division, no populated place in triple frontier), Lago Tarapoto (lake, not a settlement), Nuevo Israel (no records), Bellavista (no clear Loreto triple-frontier settlement), San Jose Amazonas (Peru: Iquitos/Andean Amazonas; Brazil: Novo Airão/Coari - none in far-west triple frontier). Since not all 27 seeds are confirmable and confirmed count (13) is below the 25-seed COMPLETE floor, entry remains unverified / WAITING."
     }
   },
@@ -2529,19 +2566,21 @@ window.southAmericaNameBases = [
     "name": "Wichí Lhamtés Vejoz",
     "i": 5827,
     "min": 4,
-    "max": 12,
+    "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Tartagal,Embarcacion,SalvadorMazza,Aguaray,CampoDuran,GeneralMosconi,Ballivian,Pocitos,Yacuiba,VillaMontes,EntreRios,MonteQuemado,PampaDeLosGuanacos,SantiagoDelEstero,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,SanFrancisco,Boyuibe,Camiri,Yauri,Llalli,Cabanillas,Eucaliptus,Ventilla,SantaAna,BermejoRiver,SaltaProvince",
-    "status": "COMPLETE",
+    "b": "Tartagal,SalvadorMazza,Aguaray,GeneralMosconi,Pocitos,Yacuiba,Embarcación,CampoDurán,Ballivián,EntreRíos,PalosBlancos,Villamontes,Caraparí,Boyuibe,Camiri",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Wich%C3%AD_language"
+        "https://en.wikipedia.org/wiki/Wich%C3%AD_language",
+        "https://iso639-3.sil.org/code/wcl",
+        "https://glottolog.org/resource/languoid/id/wich1261"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.540Z",
-      "notes": "Wichí Lhamtés Vejoz is a Wichí dialect (Matacoan family) spoken in Argentina (Salta, Formosa) and Bolivia (Wikipedia). Found invalid seeds: BermejoRiver (a river, not a settlement), SaltaProvince (a province, not a settlement). Found duplicate spellings: Embarcacion/Embarcación, CampoDuran/CampoDurán, Ballivian/Ballivián, VillaMontes/Villamontes, EntreRios/EntreRíos. Multiple seeds unconfirmable as Wichí Vejoz settlements: Yauri, Llalli, Cabanillas, Eucaliptus, Ventilla, PalosBlancos, SanFrancisco, SantaAna, Bermejo, MonteQuemado, PampaDeLosGuanacos, SantiagoDelEstero. Cannot verify all seeds -> unverified."
+      "verified_at": "2026-10-20T20:24:36.666Z",
+      "notes": "Wichí Lhamtés Vejoz is a Wichí (Matacoan) dialect spoken in northwestern Argentina (Salta, Formosa) and far-southeastern Bolivia (Wikipedia). Seed audit: removed duplicate spellings (one per pair kept): Embarcacion, CampoDuran, Ballivian, VillaMontes, EntreRios (5 dupes). Removed non-settlements: BermejoRiver (river), SaltaProvince (province). Removed seeds outside/above the documented Wichí Vejoz area or unconfirmable as settlements: MonteQuemado, PampaDeLosGuanacos, SantiagoDelEstero (Santiago del Estero province, outside Salta/Formosa/Bolivia Chaco), Yauri, Llalli, Cabanillas, Eucaliptus, Ventilla, SanFrancisco, SantaAna, Bermejo. Confirmed real settlements in/near the area: Tartagal, Embarcación, SalvadorMazza, Aguaray, CampoDurán, GeneralMosconi, Ballivián, Pocitos, Yacuiba, VillaMontes, EntreRíos, PalosBlancos, Boyuibe, Camiri, Caraparí (~14). 14 < 25 seed floor. Entry remains unverified."
     }
   },
   {

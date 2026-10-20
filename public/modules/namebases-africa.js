@@ -9454,7 +9454,7 @@ window.africaNameBases = [
         "https://geonames.org"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T18:33:32.663Z",
+      "verified_at": "2026-10-20T20:24:35.992Z",
       "notes": "Verified against primary sources (ISO mmy, Glottolog miga1249, Ethnologue, GeoNames). All 31 seeds confirmed as real populated places in Guéra region, Chad — the documented Migaama area. No seeds removed."
     }
   },
@@ -12782,7 +12782,7 @@ window.africaNameBases = [
         "https://www.geonames.org/"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T19:48:39.000Z",
+      "verified_at": "2026-10-20T20:24:35.993Z",
       "notes": "FINAL verification. ISO 639-3 kck = Kalanga (Active, Individual, Living) at iso639-3.sil.org; Glottolog kala1405; region Southwest Zimbabwe + Central/North-East Botswana. Kept 23 confirmed/near-confirmed Kalanga-area settlements: Plumtree, Tsholotsho, Gwanda, Beitbridge, Mangwe (Zimbabwe); Dete, Hwange, Lupane, Gwaai/Gwai (Zimbabwe); Ramokgwebana, Tutume, Tonota, Maitengwe, Nswazwi, Makalamabedi, Masunga, Mathangwane, Serowe, Mahalapye (Botswana); Semitwe (Central District BW, 50km NW Francistown; in Kalanga people article). Removed 8 seeds not confirmable as real Kalanga-area settlements: Tshabani, Tshuntsho, Tshakane, Mookgwa (no record in GeoNames/Wikipedia); Nkomo (surname only, not a settlement); Sekoma & Tlokweng (real settlements but Tswana/Batlokwa territory outside Kalanga area - Sekoma Ngwaketse/Kweneng BW ~24.5S 23.9E, Tlokweng South-East BW near Gaborone, per GeoNames/Wikipedia); Khame/Khami (ruined city/UNESCO site near Bulawayo, not a living settlement - same class as previously removed Leopard's Kopje/Mapungubwe). Mababe (NW Botswana, pop 157, 2001 census) and Mpatane (school/locality within Mathangwane) retained as borderline/peripheral, flagged for review. With 23 seeds (<25 floor) status COMPLETE -> WAITING. Not all 31 seeds confirmable, so entry marked unverified."
     }
   }

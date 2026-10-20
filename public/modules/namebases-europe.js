@@ -724,19 +724,20 @@ window.europeNameBases = [
     "name": "Jersey Legal French",
     "i": 264,
     "min": 4,
-    "max": 20,
+    "max": 27,
     "d": "lnrt",
     "m": 0,
-    "b": "Saint-Helier,Saint-Brelade,Saint-Clement,Saint-Jean,Saint-Laurent,Saint-Martin,Saint-Marie,Saint-Ouen,Saint-Pierre,Saint-Sauveur,La Trinite,Grouville,Saint-Aubin,Saint-Lawrence,Saint-Mary,Saint-Peter,Saint-Saviour,Trinity,Mont-Orgeuil,Chateau-Mont-Orgeuil,La Corbiere,Rozel,Saint-Catherine,Sorel,La Moye,La Rocque,La-Hougue-Bie,Le Hocq,La Pulente,La-Greve-de-Lecq,Le-Mont-a-la-Brune,La-Ville-a-l'Eveque,Le-Mont-Cochon,La Motte,Le-Don-Hilton,La-Sergente,Le-Pinnacle,La-Falaise-du-Mont",
+    "b": "Saint-Helier,Saint-Brelade,Saint-Clement,Saint-Jean,Saint-Laurent,Saint-Martin,Saint-Marie,Saint-Ouen,Saint-Pierre,La Trinite,Grouville,Saint-Aubin,Saint-Saviour,Rozel,Saint-Catherine,Sorel,La Moye,La Rocque,Le Hocq,La Pulente,La-Greve-de-Lecq,Le-Mont-a-la-Brune,La-Ville-a-l'Eveque,Le-Mont-Cochon,La Motte,Le-Don-Hilton,La-Sergente",
     "status": "COMPLETE",
     "verification": {
       "status": "unverified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Jersey_Legal_French"
+        "https://en.wikipedia.org/wiki/Jersey_Legal_French",
+        "https://glottolog.org/resource/languoid/id/oila1234"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.203Z",
-      "notes": "Jersey Legal French is a French dialect formerly used administratively in Jersey (Channel Islands). It has NO ISO 639-3 code and NO Glottolog entry. Seed list has significant issues: (1) duplicate parish seeds under English/French spellings - Saint-Laurent=Saint-Lawrence, Saint-Martin=Saint-Mary, Saint-Pierre=Saint-Peter, La Trinite=Trinity; (2) Saint-Sauveur is NOT a Jersey parish (it is a commune in France and Guernsey); (3) multiple seeds are landmarks/features, not settlements: Mont-Orgeuil/Chateau-Mont-Orgeuil (castle), La Corbiere (headland), La-Hougue-Bie (historic site/museum); (4) several seeds are minor places/beaches rather than settlements (La Moye, La Rocque, Le Hocq, La Pulente, La-Greve-de-Lecq). Cannot verify against primary linguistic sources."
+      "verified_at": "2026-10-20T20:24:36.419Z",
+      "notes": "Jersey Legal French is NOT a separate ISO 639-3 language - it is a dialect/variety of French spoken in Jersey. ISO 639-3 has no separate code for Jersey Legal French (code is fr for French). Glottolog has no separate entry (classified under French/Oil). IETF tag fr-JE is a locale variant of French. Cannot mark verified as it is not a distinct language entry in primary sources. Wikipedia cites Glottolog 4.8 Oil; entry shows ISO 639-3 as dash (none) and Glottolog as None."
     }
   },
   {
