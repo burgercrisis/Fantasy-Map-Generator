@@ -2707,8 +2707,8 @@ window.asiaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Gongdaniu,Luowuzhai,Pinghe,Xiazhai,Zhongzhai,Shangzhai,Hetouzhai,Guanmuzhai,Naxizhai,Bianjiezhai,Longshuzhai,Caoguoping,Nanke,Xinzhai,Longfeng,Niuchangping,Huoi Va,Pa Dan,Nam Voi,Nam Sao,Nam O,Nam Tan Xa,Huoi Cum,Huoi Coong,Nam Song,Nam Xe,Nam Nhe,Pa Cheo,Nam Nge,Nam Xao,Nam Ban,Danh Tang",
-    "status": "COMPLETE",
+    "b": "Gongdaniu,Luowuzhai,Pinghe,Xiazhai,Zhongzhai,Shangzhai,Hetouzhai,Guanmuzhai,Naxizhai,Bianjiezhai,Longshuzhai,Caoguoping,Nanke,Xinzhai",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
@@ -2716,8 +2716,8 @@ window.asiaNameBases = [
         "https://iso639-3.sil.org/code/zng"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.976Z",
-      "notes": "Language confirmed: Mang/Mang (zng), Austroasiatic, spoken in Lai Chau Province Vietnam and Jinping County Yunnan China (Wikipedia; ISO 639-3 zng). Wikipedia's Jinping County Gazetteer lists 12 Mang villages matching entry seeds: Gongdaniu, Luowuzhai, Pinghe, Xiazhai, Zhongzhai, Shangzhai, Hetouzhai, Guanmuzhai, Naxizhai, Bianjiezhai, Longshuzhai, Caoguoping, Nanke. Xinzhai also confirmed via Gao (2003). That is 14 of 32 seeds confirmed. The remaining 18 seeds (including Vietnamese-sounding names like Huoi Va, Pa Dan, Nam Voi, Nam Sao and Chinese names like Longfeng, Niuchangping) could not be verified against primary sources. Marked unverified due to insufficient source coverage."
+      "verified_at": "2026-10-20T18:46:18Z",
+      "notes": "FINAL verification attempt. Language confirmed: Mang/Mang (zng), Austroasiatic, spoken in Lai Chau Province Vietnam and Jinping County Yunnan China (Wikipedia; ISO 639-3 zng). Glottolog mang1378 consulted. 14 of 32 seeds confirmed against primary sources (Jinping County Gazetteer via Wikipedia; Gao 2003): Gongdaniu, Luowuzhai, Pinghe, Xiazhai, Zhongzhai, Shangzhai, Hetouzhai, Guanmuzhai, Naxizhai, Bianjiezhai, Longshuzhai, Caoguoping, Nanke, Xinzhai. The remaining 18 seeds could not be confirmed against primary sources and were removed: Nam-/Huoi-prefixed names (Huoi Va, Nam Voi, Nam Sao, Nam O, Nam Tan Xa, Huoi Cum, Huoi Coong, Nam Song, Nam Xe, Nam Nhe, Nam Nge, Nam Xao, Nam Ban) are hydronyms (streams), not settlements; Longfeng, Niuchangping, Pa Dan, Pa Cheo, Danh Tang lack any primary-source attestation as Mang settlements. Per guardrails unverifiable seeds are not retained. Entry marked unverified; 14 seeds < 25 floor so status set to WAITING."
     }
   },
   {
