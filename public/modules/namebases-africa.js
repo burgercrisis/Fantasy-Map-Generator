@@ -392,20 +392,27 @@ window.africaNameBases = [
     "name": "Dangaléat",
     "i": 250,
     "min": 3,
-    "max": 13,
+    "max": 6,
     "d": "lnrt",
     "m": 0,
-    "b": "Mongo,Bitkine,Korbo,Barlo,Koubo Adougoul,Bara,Korlongo,Tchafo,Ideba,Tchalo-Zoudou,Bang-bang,Batha,Guera,Guera Department,Hadjeray,Korbo Mountains,Migami Canton,N'Djamena,Bitkine Subprefecture,Guera Prefecture,Korbo Village,Bara Village,Barlo Village,Korlongo Village,Koubo Adougoul Village,Tchafo Village,Ideba Village,Tchalo-Zoudou Village,Chad,Arab,Golé",
-    "status": "COMPLETE",
+    "b": "Mongo,Bitkine,Korbo,Barlo,Bara,Golé",
+    "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
+        "https://en.wikipedia.org/wiki/Gu%C3%A9ra_(province)",
         "https://en.wikipedia.org/wiki/Dangal%C3%A9at_language",
-        "https://www.ethnologue.com/language/daa"
+        "https://www.ethnologue.com/language/daa",
+        "http://www.geonames.org/search.html?q=Koubo+Adougoul&country=TD",
+        "http://www.geonames.org/search.html?q=Korlongo&country=TD",
+        "http://www.geonames.org/search.html?q=Tchafo&country=TD",
+        "http://www.geonames.org/search.html?q=Tchalo-Zoudou&country=TD",
+        "http://www.geonames.org/search.html?q=Bang+Bang&country=TD",
+        "http://www.geonames.org/search.html?q=Ideba&country=TD"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.764Z",
-      "notes": "Dangaléat (daa) is an Afro-Asiatic (East Chadic) language of central Chad, Glottolog dang1274, Ethnologue 18th ed. Speakers concentrated in Migami Canton, Mongo, Guéra region. Entry cannot be verified: numerous seeds are not settlements: 'Guera Department', 'Guera Prefecture', 'Migami Canton', 'Bitkine Subprefecture' (administrative divisions); 'Korbo Mountains' (mountain); 'N'Djamena' (city in Chari-Baguirmi region, not Dangaléat area); 'Chad' (country); 'Arab' (people/language); 'Hadjeray' (people group); 'Korbo Village', 'Bara Village', 'Korlongo Village', 'Koubo Adougoul Village', 'Tchafo Village', 'Ideba Village', 'Tchalo-Zoudou Village' (research labels with 'Village' suffix appended). Only ~13-14 of 31 seeds appear to be actual settlements (Mongo, Bitkine, Korbo, Barlo, Koubo Adougoul, Bara, Tchafo, Ideba, Tchalo-Zoudou, Bang-bang, Batha, Guera, Golé), which is below the 25-seed floor."
+      "verified_at": "2026-10-20T18:50:13.131Z",
+      "notes": "Dangaléat (ISO daa, Glottolog dang1274) is an East Chadic language of central Chad (Guéra region); speakers concentrated in Migami Canton, Mongo (Wikipedia Guéra + Dangaléat articles; Ethnologue). Verified settlements in area: Mongo (regional capital), Bitkine (Abtouyour dept capital), Korbo, Barlo, Bara, Golé. Removed 25 invalid seeds: regions Batha/Guera; admin divisions Guera Department, Guera Prefecture, Bitkine Subprefecture, Migami Canton; mountain Korbo Mountains; country Chad; people groups Hadjeray, Arab; wrong-region city N'Djamena (Chari-Baguirmi); research labels with 'Village' suffix x8 (dupes of real seeds). Unconfirmed/not attested: Koubo Adougoul, Korlongo, Tchafo, Tchalo-Zoudou (GeoNames Chad full-text: no results); Bang-bang = Bang Bang Guéra sub-prefecture (admin division, no settlement); Ideba is real per GeoNames but in Ouadaï region, outside Dangaléat area. Only 6 seeds remain (<25 floor) -> WAITING."
     }
   },
   {
