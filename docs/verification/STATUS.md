@@ -11,31 +11,31 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1472 |
-| Marked WAITING (< 25 seeds) | 1354 |
-| Below seed floor | 1353 |
-| Zero seeds | 34 |
+| Language entries | 2840 |
+| Marked COMPLETE (>= 25 seeds) | 1483 |
+| Marked WAITING (< 25 seeds) | 1357 |
+| Below seed floor | 1356 |
+| Zero seeds | 30 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 915 |
+| Map ISOs with no namebase (research backlog) | 914 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 309 | 14 | 25 |
+| africa | 649 | 309 | 10 | 25 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 205 | 0 | 0 | 30 |
+| northAmerica | 215 | 1 | 0 | 29 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 287 | 164 | 0 | 19 |
+| oceania | 291 | 166 | 0 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1353 entries need authentic settlement names. Ordered by seed count,
+1356 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -47,10 +47,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | africa | 203227 | Hozo |
 | 0 | africa | 203231 | Kujargé |
 | 0 | africa | 20514 | Bamwe |
-| 0 | africa | 20572 | Bidiya |
-| 0 | africa | 200055 | Kulere |
-| 0 | africa | 200059 | Kwang |
-| 0 | africa | 200105 | Moloko |
 | 0 | africa | 200147 | Peve |
 | 0 | africa | 200176 | Standard Algerian Berber |
 | 0 | africa | 11646 | Komo |
@@ -77,6 +73,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | africa | 588 | Buwal |
 | 1 | africa | 2434 | Yulu |
 | 1 | africa | 13339 | Omaio |
+| 1 | africa | 20572 | Bidiya |
 | 1 | africa | 20587 | Binza |
 | 1 | africa | 20594 | Boga |
 | 1 | africa | 20603 | Bonjo |
@@ -89,8 +86,10 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | africa | 200037 | Jimi Nigeria |
 | 1 | africa | 200040 | Ju (Chadic) |
 | 1 | africa | 200057 | Kutto |
+| 1 | africa | 200059 | Kwang |
 | 1 | africa | 200080 | Masa South |
 | 1 | africa | 200090 | Mburku |
+| 1 | africa | 200105 | Moloko |
 | 1 | africa | 200110 | Mser |
 | 1 | africa | 200124 | Ngambay |
 | 1 | africa | 200167 | Siri |
@@ -112,6 +111,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | oceania | 202368 | Nakai |
 | 1 | oceania | 202759 | Nunggubuyu |
 | 1 | oceania | 203272 | Turaka |
+| 1 | oceania | 203284 | Kuuk Thaayorre |
 | 2 | africa | 814 | Aizi |
 | 2 | africa | 11282 | Geme |
 | 2 | africa | 11287 | Geruma |
@@ -127,6 +127,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | africa | 200005 | Belneng |
 | 2 | africa | 200048 | Kera |
 | 2 | africa | 200050 | Kimré |
+| 2 | africa | 200055 | Kulere |
 | 2 | africa | 200060 | Lagwan |
 | 2 | africa | 200064 | Maaka |
 | 2 | africa | 268 | Algerian Saharan Arabic |
@@ -147,6 +148,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | oceania | 202740 | Djinang |
 | 2 | oceania | 202766 | Wagiman |
 | 2 | oceania | 202771 | Wik Mungkan |
+| 2 | oceania | 203097 | Safeyoka |
+| 2 | oceania | 203106 | Tobian |
 | 3 | africa | 706 | Saari |
 | 3 | africa | 20505 | Bambalang |
 | 3 | africa | 20521 | Bayot |
@@ -193,11 +196,13 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 1503 | Hinuq |
 | 3 | oceania | 1918 | Gimi |
 | 3 | oceania | 200994 | Tangwang |
+| 3 | oceania | 1656 | Dano |
 | 3 | oceania | 202371 | Nduga |
 | 3 | oceania | 202738 | Dhuwal |
 | 3 | oceania | 202743 | Iwaidja |
 | 3 | oceania | 202753 | Manytjilyitjarra |
 | 3 | oceania | 203091 | Retta |
+| 3 | oceania | 203102 | Somahai |
 | 3 | oceania | 203110 | Umanakaina |
 | 4 | africa | 709 | Sighu |
 | 4 | africa | 2034 | Fungor |
@@ -263,9 +268,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | oceania | 203088 | Pisa |
 | 4 | oceania | 203093 | Rotokas |
 | 4 | oceania | 203109 | Uare |
+| 4 | oceania | 203111 | Waffa |
 | 4 | oceania | 203117 | Yareba |
 | 4 | oceania | 203269 | Susuami |
 | 4 | oceania | 203270 | Tangko |
+| 4 | oceania | 203271 | Teiwa |
 | 4 | oceania | 203274 | Wambon |
 | 5 | africa | 11634 | Guruntum |
 | 5 | africa | 14151 | Hadiyya |
@@ -316,8 +323,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
+| 5 | oceania | 1827 | Grass Koiari |
 | 5 | oceania | 1851 | Fore |
 | 5 | oceania | 97976 | Dano (Upper Asaro) |
+| 5 | oceania | 201184 | Tamagario |
+| 5 | oceania | 201207 | Usarufa |
 | 5 | oceania | 200973 | Papuan Pidgin English |
 | 5 | oceania | 201113 | Nedebang |
 | 5 | oceania | 202464 | Suganga |
@@ -330,18 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203101 | Silimo |
 | 5 | oceania | 203113 | Wiru |
 | 5 | oceania | 203267 | Saaroa |
-| 5 | oceania | 203273 | Walak |
-| 5 | oceania | 203275 | Wano |
-| 6 | africa | 250 | Dangaléat |
-| 6 | africa | 479 | Principense |
-| 6 | africa | 2038 | Goundo |
-| 6 | africa | 11138 | Geji |
-| 6 | africa | 11286 | Gera |
-| 6 | africa | 13743 | Kiga |
-| 6 | africa | 20518 | Bassari |
-| 6 | africa | 20590 | Bissa |
 
-_Showing the lowest 300 of 1353. Full queue:_
+_Showing the lowest 300 of 1356. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-915 languages the mixer map offers have no namebase entry
+914 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | rukai-budai-labuan-taromak | Budai-Labuan-Taromak Rukai | undefined |
 | bunak | Bunak | undefined |
 
-_Showing 150 of 915._
+_Showing 150 of 914._
 
 ## How to work on this
 
