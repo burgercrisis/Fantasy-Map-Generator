@@ -5,45 +5,88 @@
 > Hand edits are overwritten. To change a number here, change the data in
 > `public/modules/namebases-*.js` and regenerate.
 
-Generated: 2026-10-05  |  Seed floor: 25
+Generated: 2026-10-21  |  Seed floor: 25
 
 ## Headline
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2957 |
-| Marked COMPLETE (>= 25 seeds) | 1715 |
-| Marked WAITING (< 25 seeds) | 1242 |
-| Below seed floor | 1209 |
-| Zero seeds | 4 |
+| Language entries | 2826 |
+| Marked COMPLETE (>= 25 seeds) | 1238 |
+| Marked WAITING (< 25 seeds) | 1588 |
+| Below seed floor | 1587 |
+| Zero seeds | 39 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 801 |
+| Map ISOs with no namebase (research backlog) | 915 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 688 | 236 | 1 | 27 |
-| asia | 1022 | 546 | 2 | 22 |
-| europe | 591 | 161 | 0 | 30 |
-| northAmerica | 205 | 60 | 0 | 30 |
-| southAmerica | 153 | 32 | 0 | 30 |
-| oceania | 288 | 174 | 1 | 19 |
+| africa | 649 | 373 | 16 | 20 |
+| asia | 979 | 646 | 9 | 19 |
+| europe | 545 | 235 | 11 | 27 |
+| northAmerica | 205 | 92 | 1 | 30 |
+| southAmerica | 151 | 68 | 2 | 28 |
+| oceania | 287 | 173 | 0 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1209 entries need authentic settlement names. Ordered by seed count,
+1587 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
-| 0 | africa | 200097 | Miler |
-| 0 | asia | 202471 | Katua |
-| 0 | asia | 202704 | Turung |
-| 0 | oceania | 202763 | Umbugarla |
+| 0 | africa | 2426 | Wushi |
+| 0 | africa | 10988 | Douiret |
+| 0 | africa | 11239 | Gadang |
+| 0 | africa | 11538 | Hun-Saare |
+| 0 | africa | 13965 | Sandawe |
+| 0 | africa | 14148 | Geez |
+| 0 | africa | 203227 | Hozo |
+| 0 | africa | 203231 | Kujargé |
+| 0 | africa | 20514 | Bamwe |
+| 0 | africa | 20572 | Bidiya |
+| 0 | africa | 200055 | Kulere |
+| 0 | africa | 200059 | Kwang |
+| 0 | africa | 200105 | Moloko |
+| 0 | africa | 200147 | Peve |
+| 0 | africa | 200176 | Standard Algerian Berber |
+| 0 | africa | 11646 | Komo |
+| 0 | asia | 2202 | Khe Khmer |
+| 0 | asia | 200345 | Magar (Dhut) |
+| 0 | asia | 200366 | Mel-Khaonh |
+| 0 | asia | 200381 | Mugom–Karmarong |
+| 0 | asia | 200439 | Portugis |
+| 0 | asia | 200576 | Waziri |
+| 0 | asia | 200716 | Xixiu |
+| 0 | asia | 202652 | Sri Lankan English |
+| 0 | asia | 202733 | Yoy |
+| 0 | europe | 660 | Vivaro-Alpine |
+| 0 | europe | 909 | Votic |
+| 0 | europe | 920 | Cimbrian |
+| 0 | europe | 926 | Hollola |
+| 0 | europe | 2146 | Gaelic |
+| 0 | europe | 2376 | Sharanga |
+| 0 | europe | 23012 | Moselle Romance (Lorraine) |
+| 0 | europe | 50032 | Istro-Romanian |
+| 0 | europe | 200802 | Southern Botnian |
+| 0 | europe | 200870 | Moselle Romance |
+| 0 | europe | 1639 | Courland Livonian |
+| 0 | northAmerica | 202791 | San Andrés-Providencia Creole |
+| 0 | southAmerica | 6656 | Itene |
+| 0 | southAmerica | 7945 | Ona |
+| 1 | africa | 588 | Buwal |
+| 1 | africa | 2434 | Yulu |
+| 1 | africa | 13339 | Omaio |
+| 1 | africa | 20587 | Binza |
+| 1 | africa | 20594 | Boga |
+| 1 | africa | 20603 | Bonjo |
+| 1 | africa | 20606 | Boon |
+| 1 | africa | 20678 | Glavda |
 | 1 | africa | 20722 | Cineni |
 | 1 | africa | 20731 | Dazawa |
 | 1 | africa | 200017 | Chakato |
@@ -51,13 +94,24 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | africa | 200037 | Jimi Nigeria |
 | 1 | africa | 200040 | Ju (Chadic) |
 | 1 | africa | 200057 | Kutto |
+| 1 | africa | 200080 | Masa South |
 | 1 | africa | 200090 | Mburku |
+| 1 | africa | 200110 | Mser |
+| 1 | africa | 200124 | Ngambay |
 | 1 | africa | 200167 | Siri |
 | 1 | africa | 200202 | Tumak |
+| 1 | africa | 200928 | Zay |
+| 1 | asia | 842 | Thulung |
+| 1 | asia | 844 | Chulung |
+| 1 | asia | 1376 | Brao |
 | 1 | asia | 1719 | Duan |
 | 1 | asia | 200299 | Jandavra |
+| 1 | asia | 200659 | Sarikoli |
 | 1 | asia | 200723 | Younian |
+| 1 | asia | 201264 | Longjia Luren |
 | 1 | asia | 202585 | Pear |
+| 1 | asia | 202664 | Tai |
+| 1 | europe | 445 | Gardiol |
 | 1 | europe | 638 | Tuatschin |
 | 1 | europe | 757 | Atlym |
 | 1 | northAmerica | 71 | Chipilo Venetian (chipileño) |
@@ -66,17 +120,34 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | oceania | 202368 | Nakai |
 | 1 | oceania | 202759 | Nunggubuyu |
 | 1 | oceania | 203272 | Turaka |
+| 2 | africa | 814 | Aizi |
 | 2 | africa | 11282 | Geme |
 | 2 | africa | 11287 | Geruma |
+| 2 | africa | 13598 | Zenaga |
+| 2 | africa | 13949 | Tasawaq |
+| 2 | africa | 203234 | Nubi |
+| 2 | africa | 203261 | Awing |
+| 2 | africa | 203262 | Beba |
+| 2 | africa | 20301 | Babanki |
+| 2 | africa | 20502 | Baldemu |
+| 2 | africa | 20507 | Bamum |
+| 2 | africa | 20581 | Boghom |
 | 2 | africa | 200005 | Belneng |
+| 2 | africa | 200048 | Kera |
+| 2 | africa | 200050 | Kimré |
+| 2 | africa | 200060 | Lagwan |
 | 2 | africa | 200064 | Maaka |
 | 2 | africa | 268 | Algerian Saharan Arabic |
 | 2 | asia | 1645 | Cun Hlai |
 | 2 | asia | 2147 | Gong |
 | 2 | asia | 2246 | Lakkia-Kam-Sui |
+| 2 | asia | 2413 | Ladakhi |
+| 2 | asia | 2476 | Idu-Taraon |
+| 2 | asia | 200394 | Nar Phu |
 | 2 | asia | 211004 | Malaccan Creole Malay |
 | 2 | asia | 202732 | Yong |
 | 2 | asia | 187 | Ari (Dardic) |
+| 2 | europe | 347 | Vastese |
 | 2 | europe | 2323 | Southern Khanty |
 | 2 | northAmerica | 200938 | Cauque Mayan |
 | 2 | oceania | 202338 | Auye |
@@ -85,32 +156,44 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | oceania | 202740 | Djinang |
 | 2 | oceania | 202766 | Wagiman |
 | 2 | oceania | 202771 | Wik Mungkan |
+| 3 | africa | 706 | Saari |
+| 3 | africa | 20505 | Bambalang |
+| 3 | africa | 20521 | Bayot |
+| 3 | africa | 20583 | Bokoto |
+| 3 | africa | 20588 | Birri |
+| 3 | africa | 20599 | Bomitaba |
 | 3 | africa | 200052 | Kirya-Konzal |
 | 3 | africa | 200085 | Mawa |
 | 3 | africa | 200112 | Mundat |
+| 3 | africa | 200153 | Psikye dialect |
 | 3 | africa | 200182 | Tala |
 | 3 | africa | 200224 | Zirenkel |
 | 3 | africa | 200225 | Zizilivakan |
 | 3 | africa | 200227 | Zumaya |
 | 3 | asia | 133 | Kenaboi |
+| 3 | asia | 837 | Belhare |
 | 3 | asia | 1675 | Kaikadi |
 | 3 | asia | 1704 | Domaaki |
 | 3 | asia | 2129 | Nadou |
 | 3 | asia | 2267 | Korlai Portuguese Creole |
 | 3 | asia | 2387 | Kayort |
+| 3 | asia | 2494 | Kathu |
 | 3 | asia | 200267 | Daman |
 | 3 | asia | 200305 | Jogi |
 | 3 | asia | 200312 | Kalkoti |
 | 3 | asia | 200325 | Khetrani |
 | 3 | asia | 200580 | Yang Zhuang |
 | 3 | asia | 200720 | Yeheni |
+| 3 | asia | 201257 | Digaro Mishmi |
 | 3 | asia | 203265 | Kulon |
+| 3 | asia | 202874 | Younuo |
 | 3 | asia | 202620 | Samre |
 | 3 | asia | 202833 | Mo Piu |
 | 3 | asia | 202857 | She |
 | 3 | asia | 203320 | Kapauri |
 | 3 | asia | 203322 | Dibiyaso |
 | 3 | europe | 453 | Jauer |
+| 3 | europe | 597 | Riunorese |
 | 3 | europe | 759 | Nizyam |
 | 3 | europe | 1488 | Sercquiais |
 | 3 | europe | 200729 | Cingali |
@@ -118,6 +201,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 200811 | Tagil |
 | 3 | europe | 1503 | Hinuq |
 | 3 | northAmerica | 6624 | Chochotec |
+| 3 | northAmerica | 8484 | Pima Bajo |
 | 3 | oceania | 1918 | Gimi |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202371 | Nduga |
@@ -126,10 +210,19 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | oceania | 202753 | Manytjilyitjarra |
 | 3 | oceania | 203091 | Retta |
 | 3 | oceania | 203110 | Umanakaina |
+| 3 | southAmerica | 203328 | Tacana |
 | 4 | africa | 709 | Sighu |
 | 4 | africa | 2034 | Fungor |
+| 4 | africa | 2059 | Viemo |
 | 4 | africa | 5628 | Awjila |
+| 4 | africa | 11484 | Gidar |
 | 4 | africa | 11636 | Gvoko |
+| 4 | africa | 203229 | Uduk |
+| 4 | africa | 203255 | Bomboli-Bozaba |
+| 4 | africa | 20513 | Bembe |
+| 4 | africa | 20582 | Boor |
+| 4 | africa | 20600 | Bomu |
+| 4 | africa | 20601 | Bongili |
 | 4 | africa | 20721 | Cibak |
 | 4 | africa | 21109 | Bimbashi Arabic |
 | 4 | africa | 21112 | Turku Arabic |
@@ -154,6 +247,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | asia | 200332 | Kurumba |
 | 4 | asia | 200337 | Longsang Zhuang |
 | 4 | asia | 200387 | Myang Zhuang |
+| 4 | asia | 200393 | Nantoq Baoan |
 | 4 | asia | 200451 | Ra'ong |
 | 4 | asia | 200494 | Somray |
 | 4 | asia | 200718 | Yangchun Pai Yao |
@@ -184,6 +278,10 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | oceania | 203274 | Wambon |
 | 4 | southAmerica | 5822 | Resígaro |
 | 5 | africa | 11634 | Guruntum |
+| 5 | africa | 14151 | Hadiyya |
+| 5 | africa | 14155 | Ganza |
+| 5 | africa | 20300 | Amira |
+| 5 | africa | 20551 | Beja |
 | 5 | africa | 203058 | Defaka |
 | 5 | africa | 20726 | Cuvok |
 | 5 | africa | 20739 | Matmata Berber |
@@ -193,6 +291,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | africa | 200049 | Kholok |
 | 5 | africa | 200087 | Mbara language (Chad) |
 | 5 | africa | 200109 | Mpre |
+| 5 | africa | 200151 | Polci |
 | 5 | africa | 200209 | Warji |
 | 5 | africa | 200220 | Zari |
 | 5 | asia | 808 | Aka-Bo |
@@ -220,12 +319,15 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | asia | 1481 | Central Min |
 | 5 | asia | 202477 | Thao |
 | 5 | asia | 203321 | Guriaso |
+| 5 | europe | 603 | Royasc |
 | 5 | europe | 1480 | Central Mansi |
 | 5 | europe | 2378 | Northern Selkup |
 | 5 | europe | 200746 | Lipsha |
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
+| 5 | northAmerica | 8486 | Huarijio |
+| 5 | northAmerica | 200912 | Trique |
 | 5 | oceania | 1851 | Fore |
 | 5 | oceania | 97976 | Dano (Upper Asaro) |
 | 5 | oceania | 200973 | Papuan Pidgin English |
@@ -238,110 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203089 | Pitkern |
 | 5 | oceania | 203094 | Rumu |
 | 5 | oceania | 203101 | Silimo |
-| 5 | oceania | 203113 | Wiru |
-| 5 | oceania | 203267 | Saaroa |
-| 5 | oceania | 203273 | Walak |
-| 5 | oceania | 203275 | Wano |
-| 6 | africa | 2038 | Goundo |
-| 6 | africa | 11286 | Gera |
-| 6 | africa | 200004 | Bebe |
-| 6 | africa | 200023 | Fut |
-| 6 | africa | 200036 | Jimi Cameroon |
-| 6 | africa | 200065 | Mabire |
-| 6 | africa | 200088 | Mbudum |
-| 6 | africa | 200091 | Mefele |
-| 6 | africa | 200101 | Miya |
-| 6 | africa | 200205 | Ubi |
-| 6 | africa | 200032 | Jara |
-| 6 | asia | 1021 | Baoting Hlai |
-| 6 | asia | 1059 | Vandu |
-| 6 | asia | 1157 | Salar |
-| 6 | asia | 1268 | Muya |
-| 6 | asia | 1287 | Biao Mon |
-| 6 | asia | 1671 | Holiya |
-| 6 | asia | 1676 | Kakkala |
-| 6 | asia | 1706 | Dameli |
-| 6 | asia | 1882 | Hezhang Buyi |
-| 6 | asia | 1892 | Northern Ghale |
-| 6 | asia | 1944 | Hayu (Vayu) |
-| 6 | asia | 1963 | Yuanmen Hlai |
-| 6 | asia | 2127 | Tai Meuay |
-| 6 | asia | 2194 | Khakas |
-| 6 | asia | 2243 | Mednyj Aleut |
-| 6 | asia | 200279 | Ekhirit-Bulagat Buryat |
-| 6 | asia | 200285 | Halang |
-| 6 | asia | 200302 | Jeh |
-| 6 | asia | 200306 | Jru' |
-| 6 | asia | 200307 | Jumli |
-| 6 | asia | 200351 | Malankuravan |
-| 6 | asia | 200491 | Sholaga |
-| 6 | asia | 200573 | Walungge |
-| 6 | asia | 200686 | Ná-Meo |
-| 6 | asia | 200687 | Nao Klao |
-| 6 | asia | 200717 | Xong |
-| 6 | asia | 2443 | Bai |
-| 6 | asia | 202630 | Sart Kalmyk |
-| 6 | asia | 202511 | Mankiyali |
-| 6 | asia | 202569 | Önge |
-| 6 | asia | 202698 | Tongren Bonan |
-| 6 | asia | 201250 | Northern Itelmen |
-| 6 | europe | 457 | Judeo-Gascon |
-| 6 | europe | 1094 | Vadey |
-| 6 | europe | 200768 | Northern Ludic |
-| 6 | europe | 200797 | Sörkaitum |
-| 6 | europe | 200820 | Tuorpon |
-| 6 | europe | 200830 | Uralo-Siberian |
-| 6 | europe | 200835 | Verkhne-Kalimsk |
-| 6 | europe | 200646 | Botlikh |
-| 6 | europe | 200656 | Tindi |
-| 6 | northAmerica | 6636 | Holikachuk |
-| 6 | northAmerica | 6640 | Upper Tanana |
-| 6 | northAmerica | 8136 | Poqomam |
-| 6 | northAmerica | 13195 | Inuvialuktun |
-| 6 | oceania | 202360 | Mian |
-| 6 | oceania | 202361 | Moikodi |
-| 6 | oceania | 202369 | Narom |
-| 6 | oceania | 202461 | Sonsorolese |
-| 6 | oceania | 202489 | Uab Meto |
-| 6 | oceania | 203096 | Sabakor |
-| 6 | oceania | 203104 | Tainae |
-| 6 | oceania | 203206 | Golin  |
-| 6 | oceania | 203268 | Sakizaya |
-| 6 | southAmerica | 201313 | Itonama |
-| 6 | southAmerica | 5812 | Berbice |
-| 7 | africa | 1234 | Fwe |
-| 7 | africa | 1720 | Dugwor |
-| 7 | africa | 21113 | Juba Arabic |
-| 7 | africa | 200034 | Jibyal |
-| 7 | africa | 200068 | Majera |
-| 7 | africa | 200198 | Toram |
-| 7 | africa | 200228 | Zumbun |
-| 7 | africa | 200948 | KiKAR |
-| 7 | asia | 1025 | Baekje Korean |
-| 7 | asia | 1133 | Barzani Jewish Neo-Aramaic |
-| 7 | asia | 1377 | Baram |
-| 7 | asia | 1257 | Ciqam |
-| 7 | asia | 1561 | Dhuleli |
-| 7 | asia | 1626 | Chilsso |
-| 7 | asia | 1768 | Eravallan |
-| 7 | asia | 2489 | Ole |
-| 7 | asia | 200284 | Hajong |
-| 7 | asia | 200316 | Kamviri |
-| 7 | asia | 200326 | Khorchin Mongol |
-| 7 | asia | 200341 | Lower Uda Buryat |
-| 7 | asia | 200449 | Pyang Zhuang |
-| 7 | asia | 200704 | Sanqiao |
-| 7 | asia | 203174 | Dungmali |
-| 7 | asia | 313 | Bukharian Arabic |
-| 7 | asia | 202694 | Thmon |
-| 7 | asia | 945 | Armazic |
-| 7 | europe | 2379 | Northern Mansi |
-| 7 | northAmerica | 396 | Seri |
-| 7 | northAmerica | 1198 | Tlicho |
-| 7 | northAmerica | 1630 | Chicomuceltec |
-| 7 | northAmerica | 2439 | Cuicatec |
 
-_Showing the lowest 300 of 1209. Full queue:_
+_Showing the lowest 300 of 1587. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-801 languages the mixer map offers have no namebase entry
+915 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -390,8 +390,13 @@ created from research. Nothing here is guessed at.
 | abon | Abon | undefined |
 | aboriginal-pidgin-english | Aboriginal Pidgin English | undefined |
 | abui | Abui | undefined |
+| achang | Achang | 745 |
+| achhami-doteli | Achhami (Doteli) | 414 |
 | adang | Adang | undefined |
+| adi | Adi | 748 |
 | adnyamathanha | Adnyamathanha | undefined |
+| aeolian | Aeolian | 364 |
+| aeq | Aer | 751 |
 | african-romance | African Romance | undefined |
 | agaw | Agaw | undefined |
 | aghu | Aghu | 304 |
@@ -403,6 +408,9 @@ created from research. Nothing here is guessed at.
 | alasha | Alasha Mongol | undefined |
 | sqi | Albanian Names | 2600 |
 | arq | Algerian Arabic Names | 24798 |
+| algherese | Algherese | 367 |
+| alor-malay | Alor Malay | 169 |
+| alyutor | Alyutor | 862 |
 | aab | Ambakich | undefined |
 | american-indian-pidgin-english | American Indian Pidgin English | undefined |
 | amh | Amh | 20031 |
@@ -413,13 +421,16 @@ created from research. Nothing here is guessed at.
 | amorite | Amorite | undefined |
 | ancient-egyptian | Ancient Egyptian | undefined |
 | ancient-north-arabian | Ancient North Arabian | undefined |
+| ani | Andi | 200644 |
 | anz | Anem | undefined |
 | angaataha | Angaataha | undefined |
 | anindilyakwa | Anindilyakwa | undefined |
+| ans- | Ansó | 371 |
 | kbx | Ap Ma | undefined |
 | arabic-javanese-of-klego | Arabic-Javanese of Klego | 17 |
 | arc | Aramaic Names | 801 |
 | arawak | Arawak | undefined |
+| ardennais | Ardennais | 348 |
 | arin | Arin | 5258 |
 | aru | Aru | 2456 |
 | saj | Asabano | undefined |
@@ -429,11 +440,14 @@ created from research. Nothing here is guessed at.
 | assan | Assan | undefined |
 | aii2 | Assyrian Expanded 2 | 954 |
 | aii | Assyrian Names | 954 |
+| augeron | Augeron | 259 |
 | avam | Avam | undefined |
+| avokaya | Avokaya | 203226 |
 | awa | Awa | 202394 |
 | awbono | Awbono | undefined |
 | awin-pa | Awin-Pa | 2737 |
 | aym | Aymara Names | 20088 |
+| ayo | Ayoreo | 201308 |
 | baarin | Baarin Mongol | 5632 |
 | babylonian | Babylonian | undefined |
 | bade-language | Bade alias | 1338 |
@@ -441,13 +455,17 @@ created from research. Nothing here is guessed at.
 | baham | Baham | 202776 |
 | bhj | Bahing | 50003 |
 | bahrani-arabic | Bahrani Arabic | undefined |
+| baitadeli-doteli | Baitadeli (Doteli) | 415 |
 | baka | Baka | undefined |
+| bamali | Bamali | 20504 |
 | bam | Bambara Names | 1103 |
 | bamboo-english | Bamboo English | undefined |
 | bami | Bami | 24967 |
 | bamukumbit | Bamukumbit | undefined |
+| banat | Banat | 378 |
 | bangime | Bangime | 20323 |
 | bangladeshi-english | Bangladeshi English | undefined |
+| bangolan | Bangolan | 20324 |
 | barai | Barai | undefined |
 | baramu | Baramu | 1377 |
 | bardi | Bardi | undefined |
@@ -500,12 +518,14 @@ created from research. Nothing here is guessed at.
 | bole-tangale | Bole–Tangale | undefined |
 | bolivian-spanish | Bolivian Spanish | undefined |
 | bolze | Bolze | undefined |
+| bomboma | Bomboma | 203256 |
 | bonan-manegacha | Bonan Manegacha | 1353 |
 | bonin-english | Bonin English | undefined |
 | bono-nigeria | Bono Nigeria | undefined |
 | borgarm-let | Borgarmålet | undefined |
 | bouhin | Bouhin | undefined |
 | bourbonnais-creole | Bourbonnais Creole | 350 |
+| bozal-spanish | Bozal Spanish | 200936 |
 | bre2 | Breton Expanded 2 | 20015 |
 | bre3 | Breton Expanded 3 | 20015 |
 | bre | Breton Names | 20015 |
@@ -513,28 +533,8 @@ created from research. Nothing here is guessed at.
 | broome-pearling-lugger-pidgin | Broome Pearling Lugger Pidgin | undefined |
 | rukai-budai-labuan-taromak | Budai-Labuan-Taromak Rukai | undefined |
 | bunak | Bunak | undefined |
-| bns | Bundeli Names | 20056 |
-| bundjalung | Bundjalung | undefined |
-| bunun | Bunun | undefined |
-| mya2 | Burmese Expanded 2 | 10014 |
-| mya | Burmese Names | 10014 |
-| bmu | Burmeso | undefined |
-| burumakok | Burumakok | undefined |
-| buruwai | Buruwai | undefined |
-| bua | Buryat Names | 20112 |
-| busa | Busa | undefined |
-| cameroonian-pidgin-english | Cameroonian Pidgin English | 246 |
-| camtho | Camtho | undefined |
-| canaano-akkadian | Canaano-Akkadian | undefined |
-| carolinian | Carolinian | undefined |
-| castilian | Castilian Spanish | 286 |
-| cat2 | Catalan Expanded 2 | 20012 |
-| ceb2 | Cebuano Expanded 2 | 2667 |
-| cebuano-lang | Cebuano native-speakers subset | 2667 |
-| ckb | Central Kurdish | undefined |
-| central-selkup | Central Selkup | undefined |
 
-_Showing 150 of 801._
+_Showing 150 of 915._
 
 ## How to work on this
 
