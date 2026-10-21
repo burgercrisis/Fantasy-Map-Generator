@@ -12,10 +12,10 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1432 |
-| Marked WAITING (< 25 seeds) | 1394 |
-| Below seed floor | 1410 |
-| Zero seeds | 37 |
+| Marked COMPLETE (>= 25 seeds) | 1453 |
+| Marked WAITING (< 25 seeds) | 1373 |
+| Below seed floor | 1372 |
+| Zero seeds | 36 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 915 |
@@ -25,17 +25,17 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 345 | 16 | 19 |
+| africa | 649 | 328 | 16 | 19 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 205 | 21 | 1 | 30 |
+| northAmerica | 205 | 0 | 0 | 30 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 287 | 164 | 0 | 18 |
+| oceania | 287 | 164 | 0 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1410 entries need authentic settlement names. Ordered by seed count,
+1372 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -76,7 +76,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | europe | 200802 | Southern Botnian |
 | 0 | europe | 200870 | Moselle Romance |
 | 0 | europe | 1639 | Courland Livonian |
-| 0 | northAmerica | 202791 | San Andrés-Providencia Creole |
 | 1 | africa | 588 | Buwal |
 | 1 | africa | 2434 | Yulu |
 | 1 | africa | 13339 | Omaio |
@@ -112,9 +111,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | europe | 445 | Gardiol |
 | 1 | europe | 638 | Tuatschin |
 | 1 | europe | 757 | Atlym |
-| 1 | northAmerica | 71 | Chipilo Venetian (chipileño) |
-| 1 | northAmerica | 6625 | Ixcatec |
-| 1 | northAmerica | 8425 | Matlatzinca |
 | 1 | oceania | 202368 | Nakai |
 | 1 | oceania | 202759 | Nunggubuyu |
 | 1 | oceania | 203272 | Turaka |
@@ -340,8 +336,12 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | africa | 479 | Principense |
 | 6 | africa | 2038 | Goundo |
 | 6 | africa | 11138 | Geji |
+| 6 | africa | 11286 | Gera |
+| 6 | africa | 13743 | Kiga |
+| 6 | africa | 20518 | Bassari |
+| 6 | africa | 20590 | Bissa |
 
-_Showing the lowest 300 of 1410. Full queue:_
+_Showing the lowest 300 of 1372. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
