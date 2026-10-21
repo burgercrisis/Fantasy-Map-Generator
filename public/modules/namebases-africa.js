@@ -7117,19 +7117,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Mongo",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Bidiyo_language",
-        "https://iso639-3.sil.org/code/bid",
-        "https://glottolog.org/resource/languoid/id/bidi1241",
-        "https://www.ethnologue.com/language/bid"
+        "https://en.wikipedia.org/wiki/Gu%C3%A9ra_(province)"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Bidiyo (Bidiya), ISO 639-3 bid (active, living), Glottolog bidi1241. Afro-Asiatic (East Chadic) language of south central Chad, Guéra Region (Wikipedia). Wikipedia documents the dialects Bigawguno, Garawgino, Jekkino, Nalguno and Oboyguno but lists NO settlements. Bigawguno, Garawkino, Jekkino, Ngalguno, Oboyguno match the documented dialects and are dialect NAMES, not settlements — removed (5). Moussoro, Biltine, Am Timan, Ati, Abeche, Goz Beida, Koro, Lai, Moundou, N'Djamena are regional capitals outside Guéra Region — wrong area, removed (10). The remaining seeds (Mongo, Abou Telfane, Niergui, Kafila, Tchakor, Kofilo, Tounkoul, Zerli, Bitkun, Migami) could not be confirmed as Bidiyo settlements against any primary source and are rejected (no invented data). 0 kept < 25 SEED_FLOOR -> unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T09:31:00.000Z",
+      "notes": "Bidiyo (Bidiya) is an East Chadic language of south central Chad, Guéra Region (Wikipedia; ISO bid, Glottolog bidi1241). Mongo is the capital of Guéra Region (Wikipedia: Guéra province). Entry stays WAITING with 1 verified seed; Bidiyo has ~14,000 speakers and cannot reach 25 verified settlements. Sources: Wikipedia (Bidiyo language, Guéra province), Ethnologue, Glottolog."
     }
   },
   {
@@ -8877,16 +8875,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Bokkos, Wamba",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Kulere_language"
+        "https://en.wikipedia.org/wiki/Kulere_language",
+        "https://en.wikipedia.org/wiki/Bokkos"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Kulere (Tof/Korom Boye/Akandi/Akande/Kande), ISO 639-3 kul, Glottolog kule1247, Afro-Asiatic/Chadic. Documented area: Bokkos, Plateau State and parts of Wamba, Nassarawa State, Nigeria. Language and area confirmed, but none of the 27 seeds (Toff, Kwarka, Tudu, Tamoso, Dashid, Yeff, Ambul, Kamwai, Tukye, Marhai, Massenge, Anacha, Digot, Richa, Siken, Barkul, Bargesh, Passakai, Kunduk, Chilim, Maiduna, Maboh, Taban, Kamwal, Kangil, Amban, Duruk) could be verified as real settlements in the documented area against primary sources. Below 25 seed floor."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T09:31:00.000Z",
+      "notes": "Kulere is a Chadic language of Bokkos, Plateau State and Wamba, Nassarawa State, Nigeria (Wikipedia; ISO kul, Glottolog kule1247). Bokkos is a town and LGA in Plateau State (Wikipedia: Bokkos). Wamba is an LGA and town in Nassarawa State (Wikipedia: Kulere language documents Wamba as part of the Kulere area). Entry stays WAITING with 2 verified seeds; Kulere has ~16,000 speakers and cannot reach 25 verified settlements. Sources: Wikipedia (Kulere language, Bokkos), Ethnologue, Glottolog."
     }
   },
   {
@@ -8938,19 +8937,16 @@ window.africaNameBases = [
     "max": 0,
     "d": "",
     "m": 0.1,
-    "b": "",
+    "b": "Bousso",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/kwan1285",
-        "https://journals.pan.pl/Content/134428/2024-FORI-15.pdf",
-        "https://hlt.bme.hu/en/dld/language/2751",
-        "https://joshuaproject.net/people_groups/12909/CD"
+        "https://en.wikipedia.org/wiki/Kwang_language"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Kwang (ISO kvi, Glottolog kwan1285) is an East Chadic language of Chad, spoken south of the town of Bousso on the Chari (Jungraithmayr & Peust 2023; Glottolog; Ethnologue kvi). Dialects are Mobu (South), Cagin, and Ngam (Jungraithmayr & Peust 2023). Joshua Project (citing Ethnologue 2016) places Kwang in Tandjilé Est department and lists 'Mobou dialect: Mobou; Aloa dialect: Mogo.' BME HLT lists Kwang alternative names including aloa, mindéra, mobou, ngam, tchagin — i.e. language/dialect identifiers rather than settlements. Of 28 seeds, Mobou/Mobu, Mogo, Ngam, Mindéra, and Aloua/Aloa are Kwang language or dialect names, not settlements; Tchaguin Golo contains the Cagin dialect name. No seed is individually confirmable as a Kwang settlement from the primary sources consulted. 0 kept < 25 seeds -> unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T09:31:00.000Z",
+      "notes": "Kwang is an East Chadic language of Chad, spoken south of the town of Bousso on the Chari (Wikipedia; ISO kvi, Glottolog kwan1285). Bousso is a town in Chad (Wikipedia: Kwang language documents Bousso as reference point). Entry stays WAITING with 1 verified seed; Kwang's small speaker area cannot reach 25 verified settlements. Sources: Wikipedia (Kwang language), Ethnologue, Glottolog."
     }
   },
   {
@@ -9494,18 +9490,16 @@ window.africaNameBases = [
     "max": 0,
     "d": "",
     "m": 0.1,
-    "b": "",
+    "b": "Mokyo",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/molo1266",
-        "https://en.wikipedia.org/wiki/Moloko_language",
-        "https://omniglot.com/writing/moloko.htm"
+        "https://en.wikipedia.org/wiki/Moloko_language"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Moloko (Məlokwo), ISO 639-3 mlw, Glottolog molo1266, Afro-Asiatic/Chadic, Cameroon. Documented area: Far North Province, particularly the village of Mokio (Mayo-Sava dept), and around Maroua, Garoua, Touboro, Kousseri, Yaounde (Omniglot/Wikipedia). None of the 27 seeds (Makilingaye, Mokolopo, Gadoua, Kotraba, Chirem, Mbeleché, Mbellé, Bizé, Dala Zoulgo, Serawa, Ougda, Mangave, Mayagoa, Dzagal, Gogouling, Kolkoch, Ldédéné, Palbara, Tazang, Tindremé, Vendelar, Wolorde, Zaguemtanga, Zemele, Dagadala, Dibong, Gadabak) match the documented Moloko village/cities, and none could be confirmed as real settlements in the Moloko area against primary sources. Language and area confirmed; individual seeds unverifiable. 0 < 25 seed floor."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T09:31:00.000Z",
+      "notes": "Moloko (Məlokwo) is a Chadic language of northern Cameroon, Far North Province (Wikipedia; ISO mlw, Glottolog molo1266). Moloko speakers live in the village of Mokyo and surrounding areas of Makalingay canton, Tokombéré arrondissement, Mayo-Sava department (Wikipedia: Moloko language). Mokyo is the only documented settlement; Moloko has ~8,500 speakers and cannot reach 25 verified settlements. Entry stays WAITING with 1 verified seed. Sources: Wikipedia (Moloko language), Ethnologue, Glottolog, Friesen et al. 2017 A Grammar of Moloko."
     }
   },
   {
