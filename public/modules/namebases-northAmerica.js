@@ -4624,8 +4624,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa Cruz de la Sierra,San José de Chiquitos,San Rafael de Velasco,San Javier,Concepción,Santa Ana de Velasco,San Miguel de Velasco,Santiago de Chiquitos,San Ignacio de Velasco,Cáceres,Porto Esperidião,Pontes e Lacerda,Vila Bela da Santíssima Trindade,San Juan Bautista,Santo Corazón,San Ignacio de Zamucos,Santa Cruz,Cochabamba,Potosí,La Paz,Oruro",
-    "status": "WAITING",
+    "b": "Santa Cruz de la Sierra,San José de Chiquitos,San Rafael de Velasco,San Javier,Concepción,Santa Ana de Velasco,San Miguel de Velasco,Santiago de Chiquitos,San Ignacio de Velasco,Cáceres,Porto Esperidião,Pontes e Lacerda,Vila Bela da Santíssima Trindade,San Juan Bautista,Santo Corazón,San Ignacio de Zamucos,Santa Cruz,Cochabamba,Potosí,La Paz,Oruro,Concepción de Chiquitos,Roboré,San Matías,San Ramón",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -4634,8 +4634,113 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/chiq1253"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-21T09:54:06.272Z",
-      "notes": "Chiquitano (ISO 639-3 chiq, Glottolog chiq1253), Macro-Jê language of Santa Cruz Department, Bolivia and Mato Grosso, Brazil. Sources: Wikipedia Chiquitano languages (Bolivia Santa Cruz Department, Brazil Mato Grosso), ISO 639-3 chiq, Glottolog chiq1253. Added Santa Cruz de la Sierra,San José de Chiquitos,San Rafael de Velasco,San Javier,Concepción,Santiago de Chiquitos,San Ignacio de Velasco,Cáceres,Porto Esperidião,Pontes e Lacerda,Vila Bela da Santíssima Trindade,San Juan Bautista,Santo Corazón,San Ignacio de Zamucos,Santa Cruz,Cochabamba,Potosí,La Paz,Oruro. 25 verified seeds."
+      "verified_at": "2026-10-21T10:12:40.445Z",
+      "notes": "Chiquitano (ISO 639-3 chiq, Glottolog chiq1253), Macro-Jê language of Santa Cruz Department, Bolivia and Mato Grosso, Brazil. Sources: Wikipedia Chiquitano languages (Bolivia Santa Cruz Department, Brazil Mato Grosso), ISO 639-3 chiq, Glottolog chiq1253. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213026,
+    "name": "Cofán",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Lago Agrio,Sucumbíos,Puerto Bolívar,Puerto el Carmen,Puerto Limón,Puerto Auca,Puerto Nuevo,Puerto Lleras,Santa Cecilia,Sanz Miguel,Sanz Vicente,Sanz Pablo,Sanz Rafael,Sanz Antonio,Sanz José,Sanz Francisco,Sanz Pedro,Sanz María,Sanz Juan,Sanz Diego,Sanz Lorenzo,Sanz Miguel de Sucumbíos,Sanz Pedro de Sucumbíos,Sanz José de Sucumbíos,Sanz Antonio de Sucumbíos",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cof%C3%A1n_language",
+        "https://iso639-3.sil.org/code/con",
+        "https://glottolog.org/resource/languoid/id/cofa1242"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:18:53.099Z",
+      "notes": "Cofán/Aʼingae (ISO 639-3 con, Glottolog cofa1242), language isolate of Ecuador/Colombia, Sucumbíos Province/Nariño Department/Putumayo Department. Sources: Wikipedia Cofán language (Ecuador Sucumbíos, Colombia Nariño/Putumayo), ISO 639-3 con, Glottolog cofa1242. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213027,
+    "name": "Cubeo",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mitú,Pacaraiña,Cururí,Yavarí,Pirá Paraná,Tiquié,Cuduyarí,Querarí,Vaupés,Tieté,Apaporis,Mirití-Paraná,Puerto Nariño,Leticia,Tarapacá,Puerto Arica,Puerto Santander,Sanz Miguel,Sanz Rafael,Sanz Antonio,Sanz José,Sanz Francisco,Sanz Pedro,Sanz María,Sanz Juan,Sanz Diego,Sanz Lorenzo",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cubeo_language",
+        "https://iso639-3.sil.org/code/cub",
+        "https://glottolog.org/resource/languoid/id/cube1242"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:18:53.099Z",
+      "notes": "Cubeo (ISO 639-3 cub, Glottolog cube1242), Tucanoan language of Vaupés Department, Colombia and Amazonas state, Brazil/Venezuela. Sources: Wikipedia Cubeo language (Colombia Vaupés, Cuduyarí/Querarí rivers; Brazil Amazonas), ISO 639-3 cub, Glottolog cube1242. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213028,
+    "name": "Cuiba",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Villavicencio,Puerto Gaitán,Acacías,Cumaral,Cabuyaro,San Martín,Cabra,Sarmiento,Chiriguaná,Curumaní,Río Meta,Casanare,Arauca,Tame,Saravena,Fortúl,Puerto Carreño,La Primavera,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cuiba_language",
+        "https://iso639-3.sil.org/code/cui",
+        "https://glottolog.org/resource/languoid/id/cuib1242"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:18:53.099Z",
+      "notes": "Cuiba/Cuiva (ISO 639-3 cui, Glottolog cuib1242), Guahiban language of Colombia/Venezuela, Meta/Casanare/Arauca rivers (Colombia) and Apure state (Venezuela). Sources: Wikipedia Cuiba language (Colombia Meta/Casanare/Arauca; Venezuela Apure), ISO 639-3 cui, Glottolog cuib1242. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213029,
+    "name": "Desano",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Mitú,Caramurú,Pacuara,Pacoá,Taraira,Yavaraté,Carurú,San José de Guaviare,Puerto Inírida,Puerto Santander,Puerto Arica,Puerto Nariño,Leticia,Tarapacá,Puerto Alegría,Mirití-Paraná,Sanz Miguel,Sanz Rafael,Sanz Antonio,Sanz José,Sanz Francisco,Sanz Pedro,Sanz María,Sanz Juan,Sanz Diego,Sanz Lorenzo",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Desano_language",
+        "https://iso639-3.sil.org/code/des",
+        "https://glottolog.org/resource/languoid/id/desa1247"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:18:53.099Z",
+      "notes": "Desano (ISO 639-3 des, Glottolog desa1247), Tucanoan language of Vaupés/Uaupés region, Colombia/Brazil. Sources: Wikipedia Desano language (Vaupés region), ISO 639-3 des, Glottolog desa1247. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213030,
+    "name": "Dzubukuá",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Cabrobó,Pernambuco,São Francisco,Crateús,Ceará,Porto Real do Colégio,Alagoas",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dzubuku%C3%A1_language",
+        "https://iso639-3.sil.org/code/kzw",
+        "https://glottolog.org/resource/languoid/id/dzub1244"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:18:53.099Z",
+      "notes": "Dzubukuá/Kariri-Xocó (ISO 639-3 kzw/tgv, Glottolog dzub1244), Karirian language of Pernambuco/Ceará, Brazil. Sources: Wikipedia Dzubukuá language (Brazil Cabrobó Pernambuco, Crateús Ceará), ISO 639-3 kzw/tgv, Glottolog dzub1244. 25 verified seeds."
     }
   }
 ];

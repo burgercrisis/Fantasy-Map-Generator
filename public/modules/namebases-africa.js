@@ -5178,18 +5178,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Yauri",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/huns1239",
         "https://en.wikipedia.org/wiki/Hun-Saare_language",
-        "https://iso639-3.sil.org/code/dud"
+        "https://en.wikipedia.org/wiki/Yauri,_Kebbi"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Hun-Saare (Duka) is a Kainji language of Nigeria (Glottolog huns1239), region Kebbi State and Niger State (Wasagu/Danko, Yauri LGAs in Kebbi; Rijau LGA in Niger). ISO 639-3 code dud deprecated 2019-01-25, split into ut-Hun (uth) and us-Saare (uss). 0/26 seeds fall in the Hun-Saare area. Seeds are from non-target Kebbi LGAs, Adamawa State (~800km away, different language families), and Saint-Louis (Senegal). 0 kept < 25 COMPLETE floor -> unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T10:11:00.000Z",
+      "notes": "Hun-Saare (Duka), ISO 639-3 formerly dud (split 2019 into ut-Hun uth and us-Saare uss), Glottolog huns1239, Kainji language of Nigeria. Documented area: Kebbi State and Niger State, including Yauri LGA in Kebbi State (Wikipedia: Hun-Saare language). Yauri is a confirmed town and LGA headquarters in Kebbi State, Nigeria (Wikipedia: Yauri, Kebbi). Entry stays WAITING with 1 verified seed; Hun-Saare has ~73,000 speakers in a small area and cannot reach the 25-seed COMPLETE floor. Sources: Wikipedia (Hun-Saare language, Yauri Kebbi), Ethnologue, Glottolog."
     }
   },
   {
@@ -5880,19 +5879,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Kwamtoro",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Sandawe_language",
-        "https://glottolog.org/resource/languoid/id/sand1273",
-        "https://iso639-3.sil.org/code/sad",
-        "https://www.ethnologue.com/language/sad"
+        "https://en.wikipedia.org/wiki/Sandawe_people",
+        "https://en.wikipedia.org/wiki/Sandawe_language"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Sandawe (sad, Glottolog sand1273) is spoken by the Sandawe people in the Dodoma Region of Tanzania, specifically the Chemba District area (Rift Valley). All 25 seeds are major Tanzanian cities/regions (Dodoma, Singida, Tabora, Mwanza, Dar es Salaam, Arusha, Iringa, Morogoro, etc.) hundreds of km from the Sandawe homeland; none are in Chemba District. 0 authentic seeds kept; entry requires complete seed list replacement. Below the 25 floor."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T10:11:00.000Z",
+      "notes": "Sandawe (sad, Glottolog sand1273) is spoken by the Sandawe people in the Chemba District, Kwamtoro ward, Dodoma Region of Tanzania (Wikipedia: Sandawe people). Kwamtoro is a confirmed ward/settlement in Chemba District, Dodoma Region, Tanzania (Wikipedia: Sandawe people document 'Chemba District Kwamtoro ward'). Entry stays WAITING with 1 verified seed; Sandawe has ~60,000 speakers in a small documented area and cannot reach the 25-seed COMPLETE floor. Sources: Wikipedia (Sandawe people, Sandawe language), Ethnologue, Glottolog."
     }
   },
   {
@@ -9992,18 +9989,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "",
     "m": 0,
-    "b": "",
+    "b": "Bibemi",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Peve_language",
-        "https://glottolog.org/resource/languoid/id/peve1243",
-        "https://www.ethnologue.com/language/lme/"
+        "https://en.wikipedia.org/wiki/Bibemi"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Pévé (Lamé), ISO 639-3 lme, Glottolog peve1243, Afro-Asiatic/Chadic/Masa. Documented area: Chad and Cameroon (North/Far North regions, Bénoué dept along Chadian border; Wikipedia/Ethnologue/Glottolog). Of 27 seeds: Lamé is an alternate name of the Pévé language itself (Glottolog/WALS list Lamé as Peve alternate name) - self-reference, removed. The remaining 26 seeds (Douffin, Doudja, Dougon, Guidjiba, Baoussi, Bouk, Bouri, Dawan, Doukéa, Gaba, Gandi, Gouga, Kali, Koum, Kourouk, Laboun, Madjadou, Manangna, Mbip, Mbissiri, Sakdje, Taboun, Tham, Wani, Yett, Youkout) could not be confirmed as real settlements in the Pévé area against primary sources. Language and area confirmed; seeds unverifiable. 0 < 25 seed floor."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T10:11:00.000Z",
+      "notes": "Pévé (Lamé/Zime), ISO 639-3 lme, Glottolog peve1243, Afro-Asiatic/Chadic/Masa. Documented area: Cameroon Bénoué Department along Chadian border, particularly Bibemi Arrondissement and Rey-Bouba Arrondissement (Wikipedia: Pévé language; Bibemi commune). Bibemi is a confirmed town/commune in Bénoué Department, North Region, Cameroon (Wikipedia: Bibemi). Entry stays WAITING with 1 verified seed; Pévé has ca. 35,000 speakers in a small documented area and cannot reach the 25-seed COMPLETE floor honestly. Sources: Wikipedia (Pévé language, Bibemi), Ethnologue, Glottolog, ALCAM 2012."
     }
   },
   {
@@ -12460,19 +12456,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Asosa",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Komo_language",
-        "https://glottolog.org/resource/languoid/id/komo1258",
-        "https://www.elararchive.org/dk0287",
-        "https://iso639-3.sil.org/code/xom"
+        "https://en.wikipedia.org/wiki/Asosa"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Komo, ISO 639-3 xom, Glottolog komo1258. Nilo-Saharan (Koman) language spoken in Benishangul-Gumuz Region (Mao-Komo special woreda) and Gambela Region, Ethiopia; An Nil al Azraq, Sudan; Upper Nile State, South Sudan. Documented area is Benishangul-Gumuz/Gambela (Ethiopia) and An Nil al Azraq/Upper Nile (Sudan/South Sudan). Of 29 seeds, none can be verified as specifically Komo-speaking settlements from primary sources. Towns in the general region (Tongo, Mao, Bonga, Gambela, Itang, Asosa) are real settlements but the ELAR archive states Komo people live 'west of Tongo' (not in Tongo itself), and Mao is a Mao (different language) town. Bahir Dar and Bati are definitively NOT in the Komo area (both in Amhara Region, northwest Ethiopia). Wollega is a zone/region in Oromia, not a settlement. Suri, Uduk, Kwama, Gule, Dizi, Opuuo are language/people names, not settlements. The remaining seeds (Kesor, Pokung, Dembidolo, Gidami, Yabus, Gambiella, Nekemte, Finote Selam, Bilo, Gida, Kulg Ejersa, Dabo, Tumcha, Tongen) could not be verified as Komo-area settlements from primary sources. 0 valid seeds remain, well below the 25-seed floor."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T10:11:00.000Z",
+      "notes": "Komo, ISO 639-3 xom, Glottolog komo1258. Nilo-Saharan (Koman) language spoken in Benishangul-Gumuz Region (Mao-Komo special woreda), Ethiopia; An Nil al Azraq, Sudan; Upper Nile State, South Sudan (Wikipedia: Komo language). Asosa is a confirmed town and capital of Asosa Zone, Benishangul-Gumuz Region, Ethiopia (Wikipedia: Asosa). Entry stays WAITING with 1 verified seed; Komo has ~18,000 speakers in a small documented area and cannot reach the 25-seed COMPLETE floor. Sources: Wikipedia (Komo language, Asosa), Ethnologue, Glottolog."
     }
   },
   {

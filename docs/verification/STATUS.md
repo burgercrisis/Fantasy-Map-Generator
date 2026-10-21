@@ -11,11 +11,11 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2840 |
-| Marked COMPLETE (>= 25 seeds) | 1483 |
+| Language entries | 2841 |
+| Marked COMPLETE (>= 25 seeds) | 1484 |
 | Marked WAITING (< 25 seeds) | 1357 |
 | Below seed floor | 1356 |
-| Zero seeds | 30 |
+| Zero seeds | 27 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 914 |
@@ -25,12 +25,12 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 309 | 10 | 25 |
+| africa | 649 | 309 | 6 | 25 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 215 | 1 | 0 | 29 |
+| northAmerica | 215 | 0 | 0 | 29 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 291 | 166 | 0 | 19 |
+| oceania | 292 | 167 | 1 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
@@ -41,15 +41,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
 | 0 | africa | 11239 | Gadang |
-| 0 | africa | 11538 | Hun-Saare |
-| 0 | africa | 13965 | Sandawe |
 | 0 | africa | 14148 | Geez |
 | 0 | africa | 203227 | Hozo |
 | 0 | africa | 203231 | Kujargé |
 | 0 | africa | 20514 | Bamwe |
-| 0 | africa | 200147 | Peve |
 | 0 | africa | 200176 | Standard Algerian Berber |
-| 0 | africa | 11646 | Komo |
 | 0 | asia | 2202 | Khe Khmer |
 | 0 | asia | 200345 | Magar (Dhut) |
 | 0 | asia | 200366 | Mel-Khaonh |
@@ -70,9 +66,12 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | europe | 200802 | Southern Botnian |
 | 0 | europe | 200870 | Moselle Romance |
 | 0 | europe | 1639 | Courland Livonian |
+| 0 | oceania | 203285 | Nasioi |
 | 1 | africa | 588 | Buwal |
 | 1 | africa | 2434 | Yulu |
+| 1 | africa | 11538 | Hun-Saare |
 | 1 | africa | 13339 | Omaio |
+| 1 | africa | 13965 | Sandawe |
 | 1 | africa | 20572 | Bidiya |
 | 1 | africa | 20587 | Binza |
 | 1 | africa | 20594 | Boga |
@@ -92,9 +91,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | africa | 200105 | Moloko |
 | 1 | africa | 200110 | Mser |
 | 1 | africa | 200124 | Ngambay |
+| 1 | africa | 200147 | Peve |
 | 1 | africa | 200167 | Siri |
 | 1 | africa | 200202 | Tumak |
 | 1 | africa | 200928 | Zay |
+| 1 | africa | 11646 | Komo |
 | 1 | asia | 842 | Thulung |
 | 1 | asia | 844 | Chulung |
 | 1 | asia | 1376 | Brao |
@@ -143,6 +144,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | europe | 347 | Vastese |
 | 2 | europe | 2323 | Southern Khanty |
 | 2 | oceania | 202338 | Auye |
+| 2 | oceania | 1069 | Kárás |
 | 2 | oceania | 2272 | Kosena  |
 | 2 | oceania | 202418 | Ontenu |
 | 2 | oceania | 202740 | Djinang |
@@ -150,6 +152,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | oceania | 202771 | Wik Mungkan |
 | 2 | oceania | 203097 | Safeyoka |
 | 2 | oceania | 203106 | Tobian |
+| 2 | oceania | 203108 | Tsaukambo |
 | 3 | africa | 706 | Saari |
 | 3 | africa | 20505 | Bambalang |
 | 3 | africa | 20521 | Bayot |
@@ -198,6 +201,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 1656 | Dano |
 | 3 | oceania | 202371 | Nduga |
+| 3 | oceania | 202478 | Tifal |
+| 3 | oceania | 202521 | Yipma |
 | 3 | oceania | 202738 | Dhuwal |
 | 3 | oceania | 202743 | Iwaidja |
 | 3 | oceania | 202753 | Manytjilyitjarra |
@@ -333,13 +338,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 202464 | Suganga |
 | 5 | oceania | 202498 | Waimoa |
 | 5 | oceania | 202739 | Djaru |
+| 5 | oceania | 202749 | Kunwinjku |
 | 5 | oceania | 202764 | Upper Arrernte |
-| 5 | oceania | 202773 | Yinjibarndi |
-| 5 | oceania | 203089 | Pitkern |
-| 5 | oceania | 203094 | Rumu |
-| 5 | oceania | 203101 | Silimo |
-| 5 | oceania | 203113 | Wiru |
-| 5 | oceania | 203267 | Saaroa |
 
 _Showing the lowest 300 of 1356. Full queue:_
 
