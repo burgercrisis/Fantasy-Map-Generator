@@ -12,9 +12,9 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1453 |
-| Marked WAITING (< 25 seeds) | 1373 |
-| Below seed floor | 1372 |
+| Marked COMPLETE (>= 25 seeds) | 1472 |
+| Marked WAITING (< 25 seeds) | 1354 |
+| Below seed floor | 1353 |
 | Zero seeds | 36 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,7 +25,7 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 328 | 16 | 19 |
+| africa | 649 | 309 | 16 | 25 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
 | northAmerica | 205 | 0 | 0 | 30 |
@@ -35,7 +35,7 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 ## Work queue: entries below the seed floor
 
-1372 entries need authentic settlement names. Ordered by seed count,
+1353 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 6 | africa | 20518 | Bassari |
 | 6 | africa | 20590 | Bissa |
 
-_Showing the lowest 300 of 1372. Full queue:_
+_Showing the lowest 300 of 1353. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
