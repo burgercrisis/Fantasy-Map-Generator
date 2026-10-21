@@ -1805,7 +1805,17 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga,Mambasa,Lolwa,Komanda",
-    "status": "WAITING"
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bila_language",
+        "https://en.wikipedia.org/wiki/Mambasa"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Bila is spoken in Mambasa Territory, Ituri forest, DRC (Wikipedia). Removed no seeds; added Bunia (Ituri Province capital). Entry remains WAITING: several legacy seeds are unverifiable against primary sources and the small speaker area (~40,000) cannot be confirmed to yield 25 verified settlements."
+    }
   },
   {
     "name": "Bena",
@@ -4665,8 +4675,17 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Belabo,Binguela,Bodomo,Boné",
-    "status": "WAITING"
+    "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Binguela,Bodomo,Boné",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ewondo_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Ewondo Populaire is the urban pidgin of Yaounde, Cameroon (Ewondo is Centre Region). Removed exact duplicate \"Belabo\"/\"Bélabo\". Entry remains WAITING: seed list contains settlements outside the Ewondo area (e.g. Bafang, Bangangte, Nkongsamba, Ebolowa, Ambam, Bafut, Galim, Bali, Goura, Binguela, Bodomo, Bone) that cannot be confirmed as Ewondo Populaire settlements."
+    }
   },
   {
     "name": "Geji",
@@ -5443,8 +5462,17 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Kinshasa,Pointe-Noire,Dolisie,Nkayi,Boma,Matadi,Bandundu,Kikwit,Madingou,Mossendjo,Ntamo,Nsaba,Ntemo,Ntima,Ntokou,Ntsila,Ntumba,Nzambi,Nzinga,DRC,Congo,Republic of Congo,Angola,Gabon",
-    "status": "WAITING"
+    "b": "Kinshasa,Pointe-Noire,Dolisie,Nkayi,Boma,Matadi,Bandundu,Kikwit,Madingou,Mossendjo,Moanda,Brazzaville,Ilebo",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kituba_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Kituba is a Kongo-based creole lingua franca of DRC and Republic of Congo (Wikipedia). Removed 5 country names (not settlements) and 9 obscure/unverifiable entries (\"Nzambi\"=god, \"Nzinga\"=person, not cities). Added Moanda, Brazzaville, Ilebo (verified Kituba cities per Wikipedia article). Entry remains WAITING: remaining legacy seeds cannot all be confirmed against primary sources."
+    }
   },
   {
     "name": "Kunama",
@@ -5680,8 +5708,17 @@ window.africaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Kindia,Turu",
-    "status": "WAITING"
+    "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Turu",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tocho_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Tocho is spoken in South Kordofan/Nuba Mountains, Sudan (Wikipedia). Removed \"Kindia\" (Guinea, wrong country). Entry remains WAITING: several seeds are Sudan state capitals outside the Tocho-speaking area and cannot be confirmed as Tocho settlements."
+    }
   },
   {
     "name": "Tumtum",
@@ -5974,7 +6011,16 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Mizan Teferi,Shewa Gimira,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Addis Ababa,Jimma,Hawassa,Wolaytta,Kaffa,Gambela,Bonga,Tepi,Surma,Garu,Mentac,Biro,Geisha,Semab,Jaba,Gorei",
-    "status": "WAITING"
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bench_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Bench is spoken in Bench Maji Zone, Ethiopia, around Mizan Teferi and Shewa Gimira (Wikipedia). Entry remains WAITING: seed list mixes settlements with Ethiopian regions (Addis Ababa, Hawassa, Wolaytta, Kaffa, Gambela, Bonga, Tepi, Surma) outside Bench area; cannot confirm 25 verified settlements."
+    }
   },
   {
     "name": "Ganza",
@@ -6724,8 +6770,17 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,South Sudan,Sudan,Bongo-Baka",
-    "status": "WAITING"
+    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bongo_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Bongo is a Central Sudanic language of Bahr al Ghazal, South Sudan (Wikipedia). Removed 2 country names and \"Bongo-Baka\" (language group, not settlement). Entry remains WAITING: several seeds are South Sudan towns outside Bongo area and cannot all be confirmed."
+    }
   },
   {
     "name": "Bariba",
@@ -10736,8 +10791,17 @@ window.africaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Shawiya,Batna,Khenchela,Oum El Bouaghi,Tazoult,Merouana,N'Gaous,Ain Touta,Barika,Menaa,Arris,Ichemoul,Ain Zaatout,Bouhmama,El Hamma,Kimel,Foum Toub,Ouled Rechache,Bouzina,Djerma,Ain Djasser,Yabous,Seguet El Khemis,Rouina",
-    "status": "WAITING"
+    "b": "Batna,Khenchela,Oum El Bouaghi,Tazoult,Merouana,N'Gaous,Ain Touta,Barika,Menaa,Arris,Ichemoul,Ain Zaatout,Bouhmama,El Hamma,Kimel,Foum Toub,Ouled Rechache,Bouzina,Djerma,Ain Djasser,Yabous,Seguet El Khemis,Rouina",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shawiya_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:14:48.990Z",
+      "notes": "Shawiya (Tacawit) is a Zenati Berber language of the Aurès Mountains, Algeria (Wikipedia). Removed self-reference \"Shawiya\" (language name as own seed). Entry remains WAITING: remaining Algerian-town seeds are not individually confirmed as Shawiya-speaking settlements against primary sources, and the entry cannot be substantiated to 25 verified settlements."
+    }
   },
   {
     "name": "Shilha",

@@ -12,10 +12,10 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1278 |
-| Marked WAITING (< 25 seeds) | 1548 |
-| Below seed floor | 1547 |
-| Zero seeds | 39 |
+| Marked COMPLETE (>= 25 seeds) | 1321 |
+| Marked WAITING (< 25 seeds) | 1505 |
+| Below seed floor | 1504 |
+| Zero seeds | 37 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 915 |
@@ -29,13 +29,13 @@ Generated: 2026-10-21  |  Seed floor: 25
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
 | northAmerica | 205 | 92 | 1 | 30 |
-| southAmerica | 151 | 40 | 2 | 28 |
-| oceania | 287 | 171 | 0 | 20 |
+| southAmerica | 151 | 0 | 0 | 28 |
+| oceania | 287 | 168 | 0 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1547 entries need authentic settlement names. Ordered by seed count,
+1504 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -77,8 +77,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | europe | 200870 | Moselle Romance |
 | 0 | europe | 1639 | Courland Livonian |
 | 0 | northAmerica | 202791 | San Andrés-Providencia Creole |
-| 0 | southAmerica | 6656 | Itene |
-| 0 | southAmerica | 7945 | Ona |
 | 1 | africa | 588 | Buwal |
 | 1 | africa | 2434 | Yulu |
 | 1 | africa | 13339 | Omaio |
@@ -275,7 +273,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | oceania | 203269 | Susuami |
 | 4 | oceania | 203270 | Tangko |
 | 4 | oceania | 203274 | Wambon |
-| 4 | southAmerica | 5822 | Resígaro |
 | 5 | africa | 11634 | Guruntum |
 | 5 | africa | 14151 | Hadiyya |
 | 5 | africa | 14155 | Ganza |
@@ -340,8 +337,11 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203094 | Rumu |
 | 5 | oceania | 203101 | Silimo |
 | 5 | oceania | 203113 | Wiru |
+| 5 | oceania | 203267 | Saaroa |
+| 5 | oceania | 203273 | Walak |
+| 5 | oceania | 203275 | Wano |
 
-_Showing the lowest 300 of 1547. Full queue:_
+_Showing the lowest 300 of 1504. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
