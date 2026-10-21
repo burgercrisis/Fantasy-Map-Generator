@@ -3368,21 +3368,22 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Babessi, Babungo, Bangolan, Baba I",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Wushi_language",
+        "https://en.wikipedia.org/wiki/Babessi",
         "https://www.ethnologue.com/language/bse/",
         "https://glottolog.org/resource/languoid/id/wush1238",
         "https://mairies-du-cameroun.org/sites/default/files/2021-04/17_CDP_BABESSI.pdf",
         "https://www.sil.org/resources/archives/88399",
         "https://www.sil.org/resources/archives/99147"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Wushi (ISO 639-3: bse, Glottolog: wush1238) is a Grassfields/Ring South language of Cameroon, spoken in Babessi Council on the Ndop Plain (confirmed via Wikipedia). All 27 seeds are contaminated — none are authentic Wushi settlements. Seeds fall into wrong regions/languages: Bamenda, Nkambe, Wum (Wrong division); Babanki, Kom, Oku (separate Ring languages); Bafoussam, Bangante, Bandjoun, Baham, Bamendjou, Batcham, Bana, Bafou, Batoufam, Bamougoum, Bamessingue, Bangangté, Bafang (Bamileke languages, West Region); Bangwa (Southwest Region, Bangwa language); Bamunka, Bambalang, Bambui, Bambili, Bamukumbit (separate Ndop Plain languages); Bamum (West Region, Bamum language). Wushi is spoken only in Babessi area (Baba I, Babungo, Bangolan, Babessi). Sources: Babessi Council Development Plan, SIL archives. 0 authentic seeds < 25 COMPLETE floor → unverified/WAITING."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T09:12:39.669Z",
+      "notes": "Wushi (ISO 639-3: bse, Glottolog: wush1238) is a Grassfields/Ring South language of Cameroon, spoken only in Babessi Council on the Ndop Plain (Wikipedia: Wushi language; Babessi commune). Babessi commune comprises exactly 4 villages, all Wushi-speaking: Babessi (village), Babungo (village), Bangolan/Bangulan, Baba I/Papiackum (Wikipedia: Babessi, Baba I). These 4 are the authentic Wushi settlements. Wushi has no other documented settlement area, so it cannot reach the 25-seed COMPLETE floor honestly; entry remains WAITING with 4 verified seeds. Sources: Wikipedia (Wushi language, Babessi, Baba I), Ethnologue, Glottolog, Babessi Council Development Plan, SIL archives."
     }
   },
   {
@@ -4718,19 +4719,19 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Douiret, Chenini, Ksar Ouled Soltane, Ksar Hadada",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/doui1234",
-        "https://en.wikipedia.org/wiki/Douiret_language",
         "https://en.wikipedia.org/wiki/Douiret",
-        "https://en.wikipedia.org/wiki/Languages_of_Tunisia"
+        "https://en.wikipedia.org/wiki/Chenini",
+        "https://en.wikipedia.org/wiki/Ksar_Ouled_Soltane",
+        "https://en.wikipedia.org/wiki/Ksar_Hadada"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Previously researched and marked unverified. 0/32 seeds authentic. Seeds are Tunisian cities outside Douiret area (Tunis, Sfax, Sousse, Kairouan, Monastir, Mahdia, Bizerte, Gabes, Medenine, Tozeur, Gafsa), Tanzanian cities (Dar es Salaam, Dodoma, Arusha, Mwanza, Tanga, Mbeya, Songea, Kigoma, Tabora, Morogoro, Iringa, Shinyanga, Kagera, Ruvuma), and West African cities (Touba, Ségou, Sikasso, Mopti, Timbuktu, Gao, Bobo-Dioulasso). None are in the Douiret Berber language area (Tataouine Governorate, southern Tunisia: Douiret, Chenini, Ksar Ouled Soltane, Ksar Hadada). ISO 639-3: None (mis). Glottolog: doui1234. With 0 authentic seeds remaining (<25), entry remains unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T09:14:00.056Z",
+      "notes": "Douiret (Douiri) is a Berber variety of the Tataouine district, southern Tunisia (Wikipedia: Douiret). The Douiret Wikipedia article identifies the ksar trail settlements: Douiret, Chenini, Ksar Ouled Soltane and Ksar Hadada, all ruined or inhabited Berber ksour/fortified granaries in the Tataouine Governorate where Douiri is spoken (Wikipedia: Douiret, Chenini, Ksar Ouled Soltane, Ksar Hadada). Douiret Berber has no wider documented settlement area beyond these ksour, so it cannot reach the 25-seed COMPLETE floor honestly; entry remains WAITING with 4 verified seeds. Sources: Wikipedia (Douiret, Chenini, Ksar Ouled Soltane, Ksar Hadada). Glottolog: doui1234; ISO 639-3: none (mis)."
     }
   },
   {

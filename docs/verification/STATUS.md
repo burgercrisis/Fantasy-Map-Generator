@@ -15,7 +15,7 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Marked COMPLETE (>= 25 seeds) | 1472 |
 | Marked WAITING (< 25 seeds) | 1354 |
 | Below seed floor | 1353 |
-| Zero seeds | 36 |
+| Zero seeds | 34 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 915 |
@@ -25,7 +25,7 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 309 | 16 | 25 |
+| africa | 649 | 309 | 14 | 25 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
 | northAmerica | 205 | 0 | 0 | 30 |
@@ -40,8 +40,6 @@ so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
-| 0 | africa | 2426 | Wushi |
-| 0 | africa | 10988 | Douiret |
 | 0 | africa | 11239 | Gadang |
 | 0 | africa | 11538 | Hun-Saare |
 | 0 | africa | 13965 | Sandawe |
@@ -204,7 +202,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | africa | 709 | Sighu |
 | 4 | africa | 2034 | Fungor |
 | 4 | africa | 2059 | Viemo |
+| 4 | africa | 2426 | Wushi |
 | 4 | africa | 5628 | Awjila |
+| 4 | africa | 10988 | Douiret |
 | 4 | africa | 11484 | Gidar |
 | 4 | africa | 11636 | Gvoko |
 | 4 | africa | 203229 | Uduk |
