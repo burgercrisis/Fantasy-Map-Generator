@@ -12,9 +12,9 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1238 |
-| Marked WAITING (< 25 seeds) | 1588 |
-| Below seed floor | 1587 |
+| Marked COMPLETE (>= 25 seeds) | 1278 |
+| Marked WAITING (< 25 seeds) | 1548 |
+| Below seed floor | 1547 |
 | Zero seeds | 39 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 373 | 16 | 20 |
-| asia | 979 | 646 | 9 | 19 |
+| africa | 649 | 364 | 16 | 20 |
+| asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
 | northAmerica | 205 | 92 | 1 | 30 |
-| southAmerica | 151 | 68 | 2 | 28 |
-| oceania | 287 | 173 | 0 | 19 |
+| southAmerica | 151 | 40 | 2 | 28 |
+| oceania | 287 | 171 | 0 | 20 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1587 entries need authentic settlement names. Ordered by seed count,
+1547 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -210,7 +210,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | oceania | 202753 | Manytjilyitjarra |
 | 3 | oceania | 203091 | Retta |
 | 3 | oceania | 203110 | Umanakaina |
-| 3 | southAmerica | 203328 | Tacana |
 | 4 | africa | 709 | Sighu |
 | 4 | africa | 2034 | Fungor |
 | 4 | africa | 2059 | Viemo |
@@ -340,8 +339,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203089 | Pitkern |
 | 5 | oceania | 203094 | Rumu |
 | 5 | oceania | 203101 | Silimo |
+| 5 | oceania | 203113 | Wiru |
 
-_Showing the lowest 300 of 1587. Full queue:_
+_Showing the lowest 300 of 1547. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

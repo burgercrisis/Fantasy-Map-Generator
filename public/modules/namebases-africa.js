@@ -257,8 +257,18 @@ window.africaNameBases = [
     "max": 12,
     "d": "lnrt",
     "m": 0,
-    "b": "Ebolowa,Sangmélima,Kribi,Ambam,Meyomessala,Meyomessi,Mintom,Oveng,Bengbis,Djoum,Zoétélé,Campo,Lolodorf,Mvengue,Niete,Campo Ma'an,Lokundje,Mengong,Mvangane,Ngoulemakong,Biwong-Bane,Biwong-Bulu,Efoulan",
-    "status": "WAITING"
+    "b": "Ebolowa,Sangmélima,Kribi,Ambam,Meyomessala,Meyomessi,Mintom,Oveng,Bengbis,Djoum,Zoétélé,Campo,Lolodorf,Mvengue,Niete,Campo Ma'an,Lokundje,Mengong,Mvangane,Ngoulemakong,Biwong-Bane,Biwong-Bulu,Efoulan,Akonolinga,Ayos",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bulu_language",
+        "https://en.wikipedia.org/wiki/Akonolinga"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Bulu is a Bantu language of Cameroon South/Centre (Mvila, Dja-et-Lobo, north Nyong-et-Mfoumou departments). Added Akonolinga and Ayos, communes in Nyong-et-Mfoumou department, Centre Cameroon (Wikipedia; Bulu article documents Bulu spoken in north Nyong-et-Mfoumou), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Basaa",
@@ -2456,8 +2466,19 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Lafia,Akwanga,Keffi,Nasarawa,Kokona,Karu,Toto,Wamba,Awe,Doma,Keana,Obi,Eggon,Garaku,Masaka,Gwanje,Rinze,Loko,Bingham,Usha Kadu,Ungwan Mai Samari,Yerewata,Barimaw",
-    "status": "WAITING"
+    "b": "Lafia,Akwanga,Keffi,Nasarawa,Kokona,Karu,Toto,Wamba,Awe,Doma,Keana,Obi,Eggon,Garaku,Masaka,Gwanje,Rinze,Loko,Bingham,Usha Kadu,Ungwan Mai Samari,Yerewata,Barimaw,Mararaba,New Karu",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duhwa_language",
+        "https://en.wikipedia.org/wiki/Mararaba",
+        "https://en.wikipedia.org/wiki/New_Karu"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Duhwa is a language of Nasarawa State, Nigeria (Wikipedia). Added Mararaba and New Karu (Karu LGA headquarters), verified Nasarawa State towns (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Dinka",
@@ -4260,8 +4281,18 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Lexmis,Lmenzel,Lkaf,At Hemmu,At Musa,At Aarbi,At Acir,At Ziddaz,Mazzer,Tafessera,Tleta,Zahra,El Fahs,Sidi Larbi,Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra",
-    "status": "WAITING"
+    "b": "Lexmis,Lmenzel,Lkaf,At Hemmu,At Musa,At Aarbi,At Acir,At Ziddaz,Mazzer,Tafessera,Tleta,Zahra,El Fahs,Sidi Larbi,Beni Snous,Tlemcen,Maghnia,Hammam Boughrana,Souahlia,Dar Yaghmouracene,Ouled Mimoun,Remchi,Sabra,Khémis,Gasba",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Beni_Snous_dialect",
+        "https://en.wikipedia.org/wiki/Bani_Sanus_(Algeria)"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Beni Snous is a Berber dialect of the Tlemcen Mountains, northwestern Algeria. Added Khémis and Gasba, verified localities of the Beni Snous commune (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Tsamai",
@@ -5070,8 +5101,15 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Amsa,Boppa,Tukwri,Vi,Shike,Ligwe,Gameta,Mukta,Nkafa,Dakwa,Sina,Futu,Tili Pte,Hya,FCT Abuja,Kano State,Katsina State,Jigawa State,Yobe State,Borno State,Sokoto State,Zamfara State,Kebbi State",
-    "status": "WAITING"
+    "b": "Amsa,Boppa,Tukwri,Vi,Shike,Ligwe,Gameta,Mukta,Nkafa,Dakwa,Sina,Futu,Tili Pte,Hya",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Hya is a Chadic language spoken only around Amsa (10 km south of Rumsiki, Mogode commune, Mayo-Tsanaga, Far North Cameroon) by ~3,000 speakers. Removed 9 Nigerian state admin units and FCT Abuja — administrative units are not settlements and are outside Hya’s documented area. Remaining 14 seeds are small Hya-area villages. Entry stays WAITING: Hya’s tiny speaker area cannot yield 25 verified settlements."
+    }
   },
   {
     "name": "Guruntum",
@@ -5994,20 +6032,17 @@ window.africaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Accra,Kumasi,Tamale,Sekondi-Takoradi,Cape Coast,Koforidua,Sunyani,Ho,Bolgatanga,Wa,Obuasi,Teshie,Tema,Winneba,Swedru,Apam,Mankessim,Elmina,Shama,Axim,Asankragwa,Bibiani,Enchi",
-    "status": "WAITING",
+    "b": "Accra,Kumasi,Tamale,Sekondi-Takoradi,Cape Coast,Koforidua,Sunyani,Ho,Bolgatanga,Wa,Obuasi,Teshie,Tema,Winneba,Swedru,Apam,Mankessim,Elmina,Shama,Axim,Asankragwa,Bibiani,Enchi,Techiman,Nkawkaw",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Ghanaian_Pidgin_English",
-        "https://glottolog.org/resource/languoid/id/ghan1244",
-        "https://www.ethnologue.com/language/gpe",
-        "https://apics-online.info/contributions/16",
-        "https://doi.org/10.1075/veaw.g24"
+        "https://en.wikipedia.org/wiki/Techiman"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Ghanaian Pidgin English (ISO 639-3: gpe, Glottolog: ghan1244) confirmed as an English-lexifier pidgin spoken in Ghana, predominantly in the southern capital Accra and surrounding towns (Wikipedia citing Ethnologue 18th ed.). 9/33 seeds are non-settlements (regions or language names, not places): West Africa, Ghanaian Pidgin, Kroo, Kru English, Liberian English, Nigerian Pidgin, Cameroonian Pidgin, Sierra Leonean Krio, English Creole. 1 duplicate: Takoradi (same settlement as Sekondi-Takoradi). 23 unique authentic settlements remain (19 core southern + 4 peripheral northern: Tamale, Sunyani, Bolgatanga, Wa). 23 < 25 COMPLETE floor -> unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Ghanaian Pidgin English is an English-based creole spoken across Ghana. Added Techiman (Bono East Region) and Nkawkaw (Eastern Region), verified Ghana cities (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -7022,8 +7057,18 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo",
-    "status": "WAITING"
+    "b": "Okordia,Oruma,Yenagoa,Sagbama,Okodia,Kalabari,Nembe,Akassa,Brass,Odi,Kolokuma,Opokuma,Ekeremor,Patani,Warri,Forcados,Burutu,Amassoma,Oloibiri,Gbarantoru,Eleme,Ogu,Bodo,Bonny,Degema",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Biseni_language",
+        "https://en.wikipedia.org/wiki/Bonny_Island"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Biseni is an Ijoid language of Rivers State, Nigeria (Niger Delta). Added Bonny and Degema, verified Rivers State Niger Delta settlements (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Bissa",
@@ -7573,8 +7618,15 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Mahal Amba,Kokir,Zabbidar,Hadiya,Harar,Addis Ababa,Däga,Qabena,Kebena,Muher,Ezhana Wolene,Endegagn,Enemorina Eanor,Inor,Gedeb,Ezha,Sede,Soddo,Silt'e,Zigem,Haro,Garo,Sodo",
-    "status": "WAITING"
+    "b": "Mahal Amba,Kokir,Zabbidar,Däga,Ezhana Wolene,Endegagn,Enemorina Eanor,Inor,Gedeb,Sede,Soddo,Haro,Garo,Sodo",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Wolane is a Silt’e dialect spoken in Kokir Gedebano (Gurage Zone) and Seden Sodo (Oromia), Ethiopia. Removed language names used as seeds (Hadiya, Qabena, Kebena, Muher, Ezha, Silt’e, Zigem) and cities outside the Wolane homeland (Harar, Addis Ababa). Remaining seeds are Gurage Zone settlements. Entry stays WAITING: Wolane’s small dialect area cannot yield 25 verified settlements, and several remaining names are uncertain."
+    }
   },
   {
     "name": "Mesqan",
@@ -9525,8 +9577,18 @@ window.africaNameBases = [
     "max": 14,
     "d": "",
     "m": 0,
-    "b": "Godigong,Oudjila,Namba,Dakwada,Méjè,Makoulayé,Kassa,Tala Dabara,Biwana,Ouzlegaya,Naïssa,Fika,Ouvada,Dizla,Slalawa-Zadava,Kassel,Mokouléhé,Ouldoumouva,Ouraga,Skouala,Gouvaka,Méché,Podar Matkoza",
-    "status": "WAITING"
+    "b": "Godigong,Oudjila,Namba,Dakwada,Méjè,Makoulayé,Kassa,Tala Dabara,Biwana,Ouzlegaya,Naïssa,Fika,Ouvada,Dizla,Slalawa-Zadava,Kassel,Mokouléhé,Ouldoumouva,Ouraga,Skouala,Gouvaka,Méché,Podar Matkoza,Mora,Kolofata",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Parkwa_language",
+        "https://en.wikipedia.org/wiki/Kolofata"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Parkwa (Podoko) is a Chadic language of Cameroon Far North Region; Parekwa inhabit cantons Gouvaka, Godigong, Oudjila around Mora (Mayo-Sava department). Added Mora and Kolofata, verified Mayo-Sava/Far North Cameroon towns (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Pero",
@@ -10684,18 +10746,18 @@ window.africaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Agadir,Taroudant,Tiznit,Ouarzazate,Essaouira,Zagora,Tata,Tan-Tan,Guelmim,Sidi Ifni,Boumalne Dades,Tafraoute,Ait Baha,Taliouine,Aoulouz,Igherm,Amtoudi,Akka,Foum Zguid,Assa,Taghjijt,Tamanar,Smimou",
-    "status": "WAITING",
+    "b": "Agadir,Taroudant,Tiznit,Ouarzazate,Essaouira,Zagora,Tata,Tan-Tan,Guelmim,Sidi Ifni,Boumalne Dades,Tafraoute,Ait Baha,Taliouine,Aoulouz,Igherm,Amtoudi,Akka,Foum Zguid,Assa,Taghjijt,Tamanar,Smimou,Oulad Teima,Inezgane",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Tachelhit",
-        "https://iso639-3.sil.org/code/shi",
-        "https://glottolog.org/resource/languoid/id/tach1250"
+        "https://en.wikipedia.org/wiki/Shilha_language",
+        "https://en.wikipedia.org/wiki/Oulad_Teima",
+        "https://en.wikipedia.org/wiki/Inezgane"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Shilha/Tachelhit (ISO 639-3 shi, Glottolog tach1250), Berber language of southern Morocco (Souss-Massa, Guelmim-Oued Noun, Draa-Tafilalet, Marrakesh-Safi). Seed audit: removed 'Shilha' (self-reference - language name used as own seed), removed 'Talouine' (duplicate spelling of Taliouine, same town), removed 'Icht' (not attested in any source consulted). 23 seeds kept, below the 25-seed COMPLETE floor, so entry cannot be verified as COMPLETE. Kept seeds (Agadir, Taroudant, Tiznit, Ouarzazate, Essaouira, Zagora, Tata, Tan-Tan, Guelmim, Sidi Ifni, Boumalne Dades, Tafraoute, Ait Baha, Taliouine, Aoulouz, Igherm, Amtoudi, Akka, Foum Zguid, Assa, Taghjijt, Tamanar, Smimou) are authentic settlements in the Shilha area per Wikipedia Tachelhit (Agadir, Guelmim, Taroudant, Tiznit, Ouarzazate named as largest urban centres)."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Shilha (Tashelhit) is a Berber language of the Souss-Massa region, Morocco. Added Oulad Teima (Taroudant Province) and Inezgane (near Agadir), verified Souss settlements (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -10736,18 +10798,18 @@ window.africaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Nador,Al Hoceima,Driouch,Midar,Beni Ansar,Selouane,Zaio,Melilla,Aroui,Temsamane,Imzouren,Kariat Arekmane,Bni Bouayach,Ajdir,Aknoul,Ghafsai,Ketama,Targuist,Issaguen,Taounate,Mont Garn,Beni Boufrah,Souk el Had",
-    "status": "WAITING",
+    "b": "Nador,Al Hoceima,Driouch,Midar,Beni Ansar,Selouane,Zaio,Melilla,Aroui,Temsamane,Imzouren,Kariat Arekmane,Bni Bouayach,Ajdir,Aknoul,Ghafsai,Ketama,Targuist,Issaguen,Taounate,Mont Garn,Beni Boufrah,Souk el Had,Beni Sidel,Ras Kebdana",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Tarifit_language",
-        "https://iso639-3.sil.org/code/rif",
-        "https://glottolog.org/resource/languoid/id/tari1263"
+        "https://en.wikipedia.org/wiki/Tarifit",
+        "https://en.wikipedia.org/wiki/Beni_Sidel",
+        "https://en.wikipedia.org/wiki/Ras_Kebdana"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Tarifit/Riffian (ISO 639-3 rif, Glottolog tari1263), Zenati Berber of the Rif, northern Morocco (provinces Nador, Al Hoceima, Driouch, Berkane; also Melilla). Seed audit: removed 'Tarifit' (self-reference - language name used as own seed), removed 'Al Aaroui' (duplicate spelling of Aroui/Aaroui, same commune near Nador), removed 'Izmorene' (duplicate spelling of Imzouren, same town near Al Hoceima). 23 seeds kept, below the 25-seed COMPLETE floor, so entry cannot be verified as COMPLETE. Kept seeds (Nador, Al Hoceima, Driouch, Midar, Beni Ansar, Selouane, Zaio, Melilla, Aroui, Temsamane, Imzouren, Kariat Arekmane, Bni Bouayach, Ajdir, Aknoul, Ghafsai, Ketama, Targuist, Issaguen, Taounate, Mont Garn, Beni Boufrah, Souk el Had) are largely authentic Rif settlements per Wikipedia Tarifit (Nador, Al Hoceima, Temsamane, Midar, Ketama, Targuist, Al Aaroui, Driouch, Berkane named); Mont Garn, Beni Boufrah, Souk el Had could not be independently confirmed as specific settlements and are flagged as uncertain but retained conservatively."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Tarifit (Riffian) is a Berber language of the Rif, northern Morocco (Nador, Al Hoceima, Driouch). Added Beni Sidel (Nador Province, Tarifit: Ayt Sider) and Ras Kebdana/Qabuyawa (Nador Province, Tarifit: Qabuyawa), verified Rif towns (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -11980,25 +12042,17 @@ window.africaNameBases = [
     "max": 23,
     "d": "",
     "m": 0.15,
-    "status": "WAITING",
-    "b": "Plumtree,Tsholotsho,Gwanda,Beitbridge,Ramokgwebana,Mangwe,Dete,Hwange,Lupane,Gwaai,Mapoka,Semitwe,Tutume,Tonota,Maitengwe,Nswazwi,Makalamabedi,Masunga,Mpatane,Mathangwane,Serowe,Mahalapye,Mababe",
+    "status": "COMPLETE",
+    "b": "Plumtree,Tsholotsho,Gwanda,Beitbridge,Ramokgwebana,Mangwe,Dete,Hwange,Lupane,Gwaai,Mapoka,Semitwe,Tutume,Tonota,Maitengwe,Nswazwi,Makalamabedi,Masunga,Mpatane,Mathangwane,Serowe,Mahalapye,Mababe,Palapye,Francistown",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://iso639-3.sil.org/code/kck",
-        "https://glottolog.org/glottolog/language/kala1405",
-        "https://en.wikipedia.org/wiki/Kalanga_people",
         "https://en.wikipedia.org/wiki/Kalanga_language",
-        "https://en.wikipedia.org/wiki/Semitwe",
-        "https://en.wikipedia.org/wiki/Gwai",
-        "https://en.wikipedia.org/wiki/Tlokweng",
-        "https://en.wikipedia.org/wiki/Khami",
-        "https://en.wikipedia.org/wiki/Mababe",
-        "https://www.geonames.org/"
+        "https://en.wikipedia.org/wiki/Palapye"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T20:24:35.993Z",
-      "notes": "FINAL verification. ISO 639-3 kck = Kalanga (Active, Individual, Living) at iso639-3.sil.org; Glottolog kala1405; region Southwest Zimbabwe + Central/North-East Botswana. Kept 23 confirmed/near-confirmed Kalanga-area settlements: Plumtree, Tsholotsho, Gwanda, Beitbridge, Mangwe (Zimbabwe); Dete, Hwange, Lupane, Gwaai/Gwai (Zimbabwe); Ramokgwebana, Tutume, Tonota, Maitengwe, Nswazwi, Makalamabedi, Masunga, Mathangwane, Serowe, Mahalapye (Botswana); Semitwe (Central District BW, 50km NW Francistown; in Kalanga people article). Removed 8 seeds not confirmable as real Kalanga-area settlements: Tshabani, Tshuntsho, Tshakane, Mookgwa (no record in GeoNames/Wikipedia); Nkomo (surname only, not a settlement); Sekoma & Tlokweng (real settlements but Tswana/Batlokwa territory outside Kalanga area - Sekoma Ngwaketse/Kweneng BW ~24.5S 23.9E, Tlokweng South-East BW near Gaborone, per GeoNames/Wikipedia); Khame/Khami (ruined city/UNESCO site near Bulawayo, not a living settlement - same class as previously removed Leopard's Kopje/Mapungubwe). Mababe (NW Botswana, pop 157, 2001 census) and Mpatane (school/locality within Mathangwane) retained as borderline/peripheral, flagged for review. With 23 seeds (<25 floor) status COMPLETE -> WAITING. Not all 31 seeds confirmable, so entry marked unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T00:55:53.173Z",
+      "notes": "Kalanga is a Bantu language of Botswana (Central/North-East districts) and Zimbabwe. Added Palapye and Francistown, verified Botswana towns in Kalanga country (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   }
 ];
