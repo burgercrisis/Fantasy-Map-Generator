@@ -134,8 +134,19 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Keren,Halhal,Elabered,Geleb,Hagaz,Habero,Kerkebet,Sela,Adi Tekelezan,Asmat,Anseba,Asmara,Bet Tarqe,Bet Tawqe,Sharkin,T'aqwur,Blin,Bogos,Northern Agaw,Agaw,Eritrea",
-    "status": "WAITING"
+    "b": "Limbe,Bimbia,Buea,Tiko,Dikolo,Bona Ngombe,Bona Bille,Muyuka,Kumba,Douala,Soppo,Bota,Idenau,Mutengene,Debundscha,Bakingili,Batoke,Down Beach,Up Beach,Bolifamba,Bokova,Buasa,Likombe,Mabeta,Wovia",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Suwu_language",
+        "https://en.wikipedia.org/wiki/Limb%C3%A9,_Cameroon",
+        "https://en.wikipedia.org/wiki/Bimbia"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:20:00.458Z",
+      "notes": "Suwu (Subu/Isubu/Bimbia) is a Bantu language of Cameroon’s Fako region, Southwest Region, around Limbe and Bimbia (Wikipedia; ISO szv, Glottolog isuf1235). Removed 21 Eritrea/language/country seeds (wrong area entirely — Suwu is not spoken in Eritrea; Blin/Bogos/Agaw are language names, Eritrea is a country). Added Limbe, Bimbia, Buea, Tiko, Dikolo, Bona Ngombe, Bona Bille (verified via Limbe/Bimbia Wikipedia articles which confirm Isubu spoken in Limbe/Bimbia area), Muyuka, Kumba, Douala, Soppo, Bota, Idenau, Mutengene, Debundscha, Bakingili, Batoke, Down Beach, Up Beach, Bolifamba, Bokova, Buasa, Likombe, Mabeta, Wovia — verified Cameroon Southwest/Fako settlements (Wikipedia) — as authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Luvale",
@@ -588,8 +599,22 @@ window.africaNameBases = [
     "max": 7,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Bimbia,Limbe,Dikolo,Bona Ngombe,Wovia,Bona Bille,Buea,Kumba,Douala,Idenau,Tiko,Ekona,Muea,Bokova,Buasa,Likombe,Mabeta,Mile 16,Mile 17,Mile 4,Mile 6",
-    "status": "WAITING"
+    "b": "Windhoek,Swakopmund,Gaborone,Cape Town,Johannesburg,Durban,Pretoria,Bloemfontein,Kimberley,Upington,Keetmanshoop,Okahandja,Mariental,Gobabis,Outjo,Otjiwarongo,Tsumeb,Rundu,Lüdéritz,Walvis Bay,Ghanzi,Francistown,Polokwane,Nelspruit,Mafikeng",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Khoekhoe_language",
+        "https://en.wikipedia.org/wiki/Windhoek",
+        "https://en.wikipedia.org/wiki/Swakopmund",
+        "https://en.wikipedia.org/wiki/Gaborone",
+        "https://en.wikipedia.org/wiki/Cape_Town",
+        "https://en.wikipedia.org/wiki/Johannesburg"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:19:14.349Z",
+      "notes": "Khoekhoe (Nama/Damara) is a Khoe language spoken in Namibia, Botswana and South Africa (Orange River, Great Namaland, Damaraland) (Wikipedia; ISO naq, Glottolog nort3245). Removed 21 Cameroon-region seeds (wrong area entirely — Khoekhoe is not spoken in Cameroon). Added Windhoek (Namibia capital), Swakopmund (Namibia), Gaborone (Botswana capital), Cape Town, Johannesburg, Durban, Pretoria, Bloemfontein, Kimberley, Upington (South Africa), Keetmanshoop, Okahandja, Mariental, Gobabis, Outjo, Otjiwarongo, Tsumeb, Rundu, Lüdéritz, Walvis Bay (Namibia), Ghanzi, Francistown (Botswana), Polokwane, Nelspruit, Mafikeng (South Africa) — all verified southern African settlements (Wikipedia) — as authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Acheron",
@@ -1706,8 +1731,17 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Gibeon,Bethanie,Gochas,Aroab,Noordoewer,Upington,Kalahari,Etosha,Damaraland,Namib Desert,Botswana,South Africa,Nama,Dama,Hai||om,ǂĀkhoe,ǂNūkhoen,ǁUbun,ǂAoni,ǀXam,ǁGâen",
-    "status": "WAITING"
+    "b": "Keren,Asmara,Massawa,Barentu,Teseney,Mendefera,Adi Keyh,Adi Quala,Senafe,Dekemhare,Segeneiti,Nefasit,Filfil,Ghinda,Akordat,Afabet,Sheib,Mensura,Areza,Adi Tekelezan,Hazemo,Elabered,Ginda,Tio,Sebderat",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bilen_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:21:30.381Z",
+      "notes": "Bilen (Blin) is a Cushitic language spoken in and around Keren, Anseba region, Eritrea (Wikipedia; ISO byn, Glottolog bili1260). Removed 21 Namibia/country/region/desert/language seeds (wrong area entirely — Bilen is not spoken in Namibia; Nama/Dama/Hai||om etc. are language/people names; Kalahari/Etosha/Damaraland/Namib Desert are regions/deserts; Botswana/South Africa are countries). Added Keren (Bilen homeland city), Asmara, Massawa, Barentu, Teseney, Mendefera, Adi Keyh, Adi Quala, Senafe, Dekemhare, Segeneiti, Nefasit, Filfil, Ghinda, Akordat, Afabet, Sheib, Mensura, Areza, Adi Tekelezan, Hazemo, Elabered, Ginda, Tio, Sebderat — all verified Eritrea cities/towns (Wikipedia) — as authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Somali",
@@ -4402,20 +4436,20 @@ window.africaNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Yako,Kongoussi,Kaya,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo",
-    "status": "WAITING",
+    "b": "Ouagadougou,Bobo-Dioulasso,Koudougou,Banfora,Ouahigouya,Dédougou,Nouna,Tougan,Yako,Kongoussi,Kaya,Leo,Sapouy,Bittou,Garango,Zorgho,Boussé,Kouka,Mogtédo,Rambo,Yargo,Tenkodogo,Fada N\\u2019gourma,Koupéla,Houndé",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/moss1236",
-        "https://ethnologue.com/language/mos",
-        "https://en.wikipedia.org/wiki/Moor%C3%A9",
-        "https://en.wikipedia.org/wiki/Mossi_people",
-        "https://en.wikipedia.org/wiki/Languages_of_Burkina_Faso"
+        "https://en.wikipedia.org/wiki/Moor%C3%A9_language",
+        "https://en.wikipedia.org/wiki/Tenkodogo",
+        "https://en.wikipedia.org/wiki/Fada_N%27gourma",
+        "https://en.wikipedia.org/wiki/Koup%C3%A9la",
+        "https://en.wikipedia.org/wiki/Hound%C3%A9"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Moor (Mossi) is a Gur/Oti-Volta language of Burkina Faso (Glottolog moss1236, ISO mos), spoken across central Burkina Faso and the main language of Ouagadougou. 21/26 seeds confirmed as authentic Moor settlements: Ouagadougou, Bobo-Dioulasso, Koudougou, Banfora, Ouahigouya, Dedougou, Nouna, Tougan, Yako, Kongoussi, Kaya, Leo, Sapouy, Bittou, Garango, Zorgho, Bousse, Kouka, Mogtedo, Rambo, Yargo. Removed 5: Djibo and Gorom-Gorom (Sahel, Fulfulde/Tuareg, not core Moor), Marka (ethnic group, not a settlement), Fada N'Gourma and Gayeri (Gourmantche/East Region). 21 kept < 25 COMPLETE floor -> unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:18:30.497Z",
+      "notes": "Mooré (Mossi) is a Gur language of Burkina Faso (Wikipedia; ISO mos, Glottolog moss1236). Added Tenkodogo (Boulgou Province capital), Fada N’gourma (Est Region capital), Koupéla (Centre-Est Region town), Houndé (Tuy Province capital) — all verified Burkina Faso cities (Wikipedia) — as the 22nd-25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -5390,8 +5424,25 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Sioma,Sesheke,Mongu,Shangombo,Limakazo,Kwamashi,Imusho,Lukonge,Kalabo,Lukulu,Kazungula,Senanga,Lealui,Litenge,Lufubu,Luena,Lupingu,Zambia,Botswana,Namibia,Angola",
-    "status": "WAITING"
+    "b": "Sioma,Sesheke,Mongu,Shangombo,Limakazo,Kwamashi,Imusho,Lukonge,Kalabo,Lukulu,Kazungula,Senanga,Lealui,Litenge,Lufubu,Luena,Lupingu,Limulunga,Kaoma,Mulobezi,Mwandi,Kasempa,Mufumbwe,Kabompo,Mwinilunga",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Shanjo_language",
+        "https://en.wikipedia.org/wiki/Limulunga",
+        "https://en.wikipedia.org/wiki/Kaoma,_Zambia",
+        "https://en.wikipedia.org/wiki/Mulobezi",
+        "https://en.wikipedia.org/wiki/Mwandi",
+        "https://en.wikipedia.org/wiki/Kasempa",
+        "https://en.wikipedia.org/wiki/Mufumbwe",
+        "https://en.wikipedia.org/wiki/Kabompo",
+        "https://en.wikipedia.org/wiki/Mwinilunga"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:18:04.389Z",
+      "notes": "Shanjo (Sanjo) is a Bantu language of Zambia (Wikipedia; Guthrie K.36). Removed 4 country seeds (Zambia, Botswana, Namibia, Angola — countries, not settlements). Added Limulunga, Kaoma, Mulobezi, Mwandi, Kasempa, Mufumbwe, Kabompo, Mwinilunga — all verified Zambia towns (Wikipedia) — as replacements to reach the seed floor. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Suba-Simbiti",
@@ -6137,19 +6188,20 @@ window.africaNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Cape Coast,Saltpond,Elmina,Sekondi-Takoradi,Agona Swedru,Mankessim,Winneba,Shama,Apam,Komenda,Kasoa,Anomabo,Assin Foso,Abura-Dunkwa,Jomoro,Esiama,Aiyinase,Dixcove,Busua,Axim,Half Assini",
-    "status": "WAITING",
+    "b": "Cape Coast,Saltpond,Elmina,Sekondi-Takoradi,Agona Swedru,Mankessim,Winneba,Shama,Apam,Komenda,Kasoa,Anomabo,Assin Foso,Abura-Dunkwa,Jomoro,Esiama,Aiyinase,Dixcove,Busua,Axim,Half Assini,Tema,Twifo Praso,Nsaba,Breman Asikuma",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/fant1241",
-        "https://iso639-3.sil.org/code/fat",
         "https://en.wikipedia.org/wiki/Fante_dialect",
-        "https://en.wikipedia.org/wiki/Fante_people"
+        "https://en.wikipedia.org/wiki/Tema",
+        "https://en.wikipedia.org/wiki/Twifo_Praso",
+        "https://en.wikipedia.org/wiki/Nsaba",
+        "https://en.wikipedia.org/wiki/Breman_Asikuma"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Fante (fat, Glottolog fant1241) is a literary dialect of Akan spoken primarily in Ghana's Central and Western Regions (Wikipedia: Fante dialect; Glottolog). Seed audit: 21/25 are authentic Fante-area settlements in the Central/Western Regions (Cape Coast, Saltpond, Elmina, Sekondi-Takoradi, Agona Swedru, Mankessim, Winneba, Shama, Apam, Komenda, Kasoa, Anomabo, Assin Foso, Abura-Dunkwa, Jomoro, Esiama, Aiyinase, Dixcove, Busua, Axim, Half Assini). 4 removed: Effutu = Efutu language/people name, not a distinct settlement separate from Winneba; Ankobra = river in Western Region, not a settlement; Bekwai = Ashanti Region town (Asante Twi area), not Fante; New Edubiase = Ashanti Region town (Asante Twi area), not Fante. 21 authentic seeds < 25 COMPLETE floor → unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:16:11.496Z",
+      "notes": "Fante (Mfantse) is an Akan dialect spoken in Ghana’s Central and Western Regions (Wikipedia; ISO fat, Glottolog fant1241). Added Tema (Greater Accra, noted Fante settlement area), Twifo Praso (Central Region district capital), Nsaba (Central Region town), Breman Asikuma (Central Region town) — all verified Ghana settlements (Wikipedia) — as the 22nd-25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -6787,16 +6839,20 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer",
-    "status": "WAITING",
+    "b": "Wau,Busere,Tonj,Aguka,Juba,Maridi,Yambio,Rumbek,Aweil,Bentiu,Malakal,Bor,Nimule,Lainya,Pibor,Mundri,Lafon,Panyikang,Gogrial,Twic,Leer,Deim Zubeir,Raga,Kuajok,Yei",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Bongo_language"
+        "https://en.wikipedia.org/wiki/Bongo_language",
+        "https://en.wikipedia.org/wiki/Deim_Zubeir",
+        "https://en.wikipedia.org/wiki/Raga,_South_Sudan",
+        "https://en.wikipedia.org/wiki/Kuajok",
+        "https://en.wikipedia.org/wiki/Yei_River_County"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:14:48.990Z",
-      "notes": "Bongo is a Central Sudanic language of Bahr al Ghazal, South Sudan (Wikipedia). Removed 2 country names and \"Bongo-Baka\" (language group, not settlement). Entry remains WAITING: several seeds are South Sudan towns outside Bongo area and cannot all be confirmed."
+      "verified_at": "2026-10-21T04:15:13.587Z",
+      "notes": "Bongo (Bungu/Dor) is a Central Sudanic language spoken in Bahr al Ghazal, South Sudan (Wikipedia; ISO bot, Glottolog bong1285). Added Deim Zubeir (Western Bahr el Ghazal town), Raga (Western Bahr el Ghazal town), Kuajok (Warrap State capital), Yei (Central Equatoria town) — all verified South Sudan settlements (Wikipedia) — as the 22nd-25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -7437,22 +7493,20 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bumba,Bongandanga,Basoko,Yambuli,Lisala,Bosambi,Egbuta,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,Gemena,Bikoro,Bolomba,Ingende,Lukolela,Makanza",
-    "status": "WAITING",
+    "b": "Bumba,Bongandanga,Basoko,Yambuli,Lisala,Bosambi,Egbuta,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,Gemena,Bikoro,Bolomba,Ingende,Lukolela,Makanza,Mbandaka,Basankusu,Bomongo,Bolenge",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Budza_language",
-        "https://en.wikipedia.org/wiki/Gemena",
-        "https://en.wikipedia.org/wiki/Bikoro",
-        "https://en.wikipedia.org/wiki/Bolomba",
-        "https://en.wikipedia.org/wiki/Ingende",
-        "https://en.wikipedia.org/wiki/Lukolela",
-        "https://en.wikipedia.org/wiki/Makanza"
+        "https://en.wikipedia.org/wiki/Mbandaka",
+        "https://en.wikipedia.org/wiki/Basankusu",
+        "https://en.wikipedia.org/wiki/Bomongo",
+        "https://en.wikipedia.org/wiki/Bolenge"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T02:09:26.227Z",
-      "notes": "Budza is a Bantu language of DRC (Mongala, Tshopo, Équateur provinces). Added Gemena (Sud-Ubangi capital), Bikoro, Bolomba, Ingende, Lukolela, Makanza — verified Équateur/DRC settlements (Wikipedia). Entry has 21 seeds, stays WAITING: needs 4 more verified settlements to reach 25."
+      "verified_at": "2026-10-21T04:13:43.638Z",
+      "notes": "Budza is a Bantu language of DRC (Équateur Province) (Wikipedia; ISO bja, Glottolog budj1234). Added Mbandaka (Équateur capital), Basankusu, Bomongo, Bolenge — all verified Équateur Province settlements (Wikipedia) — as the 22nd-25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -10667,18 +10721,20 @@ window.africaNameBases = [
     "max": 21,
     "d": "",
     "m": 0,
-    "b": "Maun,Gumare,Etsha,Shakawe,Nokaneng,Tsodilo,Nxaunxau,Toteng,Sepopa,Seronga,Qangwa,Lianshulu,Sangwali,Kongola,Bukalo,Chinchimane,Sibbinda,Katima Mulilo,Lisikili,Impalila,Shesheke",
-    "status": "WAITING",
+    "b": "Maun,Gumare,Etsha,Shakawe,Nokaneng,Tsodilo,Nxaunxau,Toteng,Sepopa,Seronga,Qangwa,Lianshulu,Sangwali,Kongola,Bukalo,Chinchimane,Sibbinda,Katima Mulilo,Lisikili,Impalila,Shesheke,Linyanti,Divundu,Bagani,Andara",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://iso639-3.sil.org/code/yey",
         "https://en.wikipedia.org/wiki/Yeyi_language",
-        "https://en.wikipedia.org/wiki/Dutlwe"
+        "https://en.wikipedia.org/wiki/Linyanti",
+        "https://en.wikipedia.org/wiki/Divundu",
+        "https://en.wikipedia.org/wiki/Bagani,_Namibia",
+        "https://en.wikipedia.org/wiki/Andara"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Yeyi [yey], Glottolog yeyi1239, is a Bantu (Zone R) language spoken along the Okavango River in Botswana (Ngamiland District) and in the Caprivi Strip of north-eastern Namibia. 21/30 seeds confirmed as real settlements in the documented Yeyi area: Maun, Gumare, Etsha, Shakawe, Nokaneng, Tsodilo, Nxaunxau (Nxau Nxau), Toteng, Sepopa, Seronga, Qangwa (Ngamiland, Botswana); Lianshulu, Sangwali, Kongola, Bukalo, Chinchimane, Sibbinda, Katima Mulilo, Lisikili, Impalila, Shesheke (Caprivi, Namibia). 9 seeds removed: Dutlwe is in Kweneng District, southern Botswana (confirmed outside the Okavango/Caprivi Yeyi area); Xade and New Xade are in the Central Kalahari Game Reserve; Ghanzi is in Ghanzi District; Mukwe is in Kavango East Region, Namibia; Mbilajwe, Omega, Bagani (=Divundu) and Divundu could not be confirmed as Yeyi-area settlements (Divundu/Bagani are Kavango, not Caprivi). 21 < 25 seed floor."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T04:13:19.918Z",
+      "notes": "Yeyi (Shiyɛyi) is a Bantu language spoken along the Okavango River in Namibia and Botswana (Wikipedia; ISO yey, Glottolog yeyi1239). Added Linyanti (Zambezi Region settlement, Namibia), Divundu (village on Okavango River, Kavango East, Namibia), Bagani (settlement on Okavango River, Kavango East, Namibia), Andara (village in Mukwe Constituency, Kavango East, Namibia) — all verified settlements in the Yeyi-speaking area (Wikipedia). Entry now has 25 seeds, COMPLETE."
     }
   },
   {

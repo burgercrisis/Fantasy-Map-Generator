@@ -12,9 +12,9 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1378 |
-| Marked WAITING (< 25 seeds) | 1448 |
-| Below seed floor | 1450 |
+| Marked COMPLETE (>= 25 seeds) | 1432 |
+| Marked WAITING (< 25 seeds) | 1394 |
+| Below seed floor | 1410 |
 | Zero seeds | 37 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 354 | 16 | 19 |
+| africa | 649 | 345 | 16 | 19 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 205 | 51 | 1 | 30 |
+| northAmerica | 205 | 21 | 1 | 30 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 287 | 165 | 0 | 19 |
+| oceania | 287 | 164 | 0 | 18 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1450 entries need authentic settlement names. Ordered by seed count,
+1410 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -147,7 +147,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | asia | 187 | Ari (Dardic) |
 | 2 | europe | 347 | Vastese |
 | 2 | europe | 2323 | Southern Khanty |
-| 2 | northAmerica | 200938 | Cauque Mayan |
 | 2 | oceania | 202338 | Auye |
 | 2 | oceania | 2272 | Kosena  |
 | 2 | oceania | 202418 | Ontenu |
@@ -198,8 +197,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 200734 | Jugan |
 | 3 | europe | 200811 | Tagil |
 | 3 | europe | 1503 | Hinuq |
-| 3 | northAmerica | 6624 | Chochotec |
-| 3 | northAmerica | 8484 | Pima Bajo |
 | 3 | oceania | 1918 | Gimi |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 202371 | Nduga |
@@ -259,6 +256,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | europe | 200787 | Sea Sami |
 | 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
+| 4 | oceania | 202765 | Wadjiginy |
 | 4 | oceania | 756 | Agalega Creole |
 | 4 | oceania | 202509 | Western Dani |
 | 4 | oceania | 202737 | Burarra |
@@ -322,8 +320,6 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
 | 5 | europe | 202887 | Kamassian proper |
-| 5 | northAmerica | 8486 | Huarijio |
-| 5 | northAmerica | 200912 | Trique |
 | 5 | oceania | 1851 | Fore |
 | 5 | oceania | 97976 | Dano (Upper Asaro) |
 | 5 | oceania | 200973 | Papuan Pidgin English |
@@ -340,8 +336,12 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203267 | Saaroa |
 | 5 | oceania | 203273 | Walak |
 | 5 | oceania | 203275 | Wano |
+| 6 | africa | 250 | Dangaléat |
+| 6 | africa | 479 | Principense |
+| 6 | africa | 2038 | Goundo |
+| 6 | africa | 11138 | Geji |
 
-_Showing the lowest 300 of 1450. Full queue:_
+_Showing the lowest 300 of 1410. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
