@@ -12,9 +12,9 @@ Generated: 2026-10-21  |  Seed floor: 25
 | Metric | Count |
 |---|---:|
 | Language entries | 2826 |
-| Marked COMPLETE (>= 25 seeds) | 1321 |
-| Marked WAITING (< 25 seeds) | 1505 |
-| Below seed floor | 1504 |
+| Marked COMPLETE (>= 25 seeds) | 1339 |
+| Marked WAITING (< 25 seeds) | 1487 |
+| Below seed floor | 1487 |
 | Zero seeds | 37 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
@@ -25,17 +25,17 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 364 | 16 | 20 |
+| africa | 649 | 363 | 16 | 19 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 205 | 92 | 1 | 30 |
+| northAmerica | 205 | 77 | 1 | 30 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 287 | 168 | 0 | 19 |
+| oceania | 287 | 167 | 0 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1504 entries need authentic settlement names. Ordered by seed count,
+1487 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
@@ -341,7 +341,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | oceania | 203273 | Walak |
 | 5 | oceania | 203275 | Wano |
 
-_Showing the lowest 300 of 1504. Full queue:_
+_Showing the lowest 300 of 1487. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json

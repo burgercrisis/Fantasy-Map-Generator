@@ -2602,26 +2602,18 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tetouan,Martil,Oued Laou,El Jebha,Fnideq,Mdiq,Cabo Negro,Chefchaouen,Tanaqoub,Derdara,Bab Taza,Ajdir,Al Hoceima,Targuist,Bni Bouayach,Imzouren,Ouezzane,Larache,Tangier,Asilah,Ksar El Kebir,Arbaoua,Anjera",
-    "status": "WAITING",
+    "b": "Tetouan,Martil,Oued Laou,El Jebha,Fnideq,Mdiq,Cabo Negro,Chefchaouen,Tanaqoub,Derdara,Bab Taza,Ajdir,Al Hoceima,Targuist,Bni Bouayach,Imzouren,Ouezzane,Larache,Tangier,Asilah,Ksar El Kebir,Arbaoua,Anjera,Bab Berred,Laouamra",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/jebl1238",
         "https://en.wikipedia.org/wiki/Jebli_Arabic",
-        "https://en.wikipedia.org/wiki/El_Jebha",
         "https://en.wikipedia.org/wiki/Chefchaouen_Province",
-        "https://en.wikipedia.org/wiki/Ajdir",
-        "https://en.wikipedia.org/wiki/Anjra",
-        "https://en.wikipedia.org/wiki/Targuist",
-        "https://en.wikipedia.org/wiki/Bni_Bouayach",
-        "https://en.wikipedia.org/wiki/Imzouren",
-        "https://simple.wikipedia.org/wiki/List_of_cities_in_Morocco",
-        "https://www.citypopulation.de/en/morocco/tangertetouanalhoceima/al_hoce%c3%afma/05101070__targuist"
+        "https://en.wikipedia.org/wiki/Larache_Province"
       ],
-      "verified_by": "linguistic-verification-agent",
-      "verified_at": "2026-10-07T10:36:11Z",
-      "notes": "Verified 23 authentic settlements in Jebli/Tetuani language area (Tanger-Tetouan-Al Hoceima region). Removed 11 problematic entries: Sidi Allal El Bahraoui (Rabat-Salé-Kénitra, not Jebli area), Sidi Yamani (no primary source found), Beni Mellal (Béni Mellal-Khénifra, not Jebli area), Mdiq-Fnideq (prefecture not settlement), Fahs-Anjra (province not settlement), Gherzoim (no primary source found), Ka'ala mountain (mountain not settlement), Ghomara (tribal confederation not settlement), Ghazaoua (no primary source found), Tamuda Bay (resort area not settlement), Martil Valley (geographic valley not settlement). Seed count reduced from 34 to 23, status changed from COMPLETE to WAITING (<25 seeds)."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:33:14.836Z",
+      "notes": "Tetuani (Jebli Arabic) is spoken in the Tanger-Tetouan-Al Hoceima region, northern Morocco (Wikipedia). Existing 23 seeds verified by prior agent. Added Bab Berred (Chefchaouen Province town) and Laouamra (Larache Province town), both verified settlements in the Tetuani area (Wikipedia province pages), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -6010,7 +6002,7 @@ window.africaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Mizan Teferi,Shewa Gimira,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Addis Ababa,Jimma,Hawassa,Wolaytta,Kaffa,Gambela,Bonga,Tepi,Surma,Garu,Mentac,Biro,Geisha,Semab,Jaba,Gorei",
+    "b": "Mizan Teferi,Shewa Gimira,Bensa,Kacha,Meinit,Mizan Aman,Guraferda,Sheko,Garu,Mentac,Biro,Geisha,Semab,Jaba,Gorei",
     "status": "WAITING",
     "verification": {
       "status": "unverified",
@@ -6018,8 +6010,8 @@ window.africaNameBases = [
         "https://en.wikipedia.org/wiki/Bench_language"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:14:48.990Z",
-      "notes": "Bench is spoken in Bench Maji Zone, Ethiopia, around Mizan Teferi and Shewa Gimira (Wikipedia). Entry remains WAITING: seed list mixes settlements with Ethiopian regions (Addis Ababa, Hawassa, Wolaytta, Kaffa, Gambela, Bonga, Tepi, Surma) outside Bench area; cannot confirm 25 verified settlements."
+      "verified_at": "2026-10-21T01:37:21.637Z",
+      "notes": "Bench is spoken in Bench Maji Zone, Ethiopia around Mizan Teferi and Shewa Gimira (Wikipedia). Removed 9 seeds outside the Bench area (Addis Ababa, Jimma, Hawassa, Wolaytta, Kaffa, Gambela, Bonga, Tepi, Surma — regions/cities in other Ethiopian zones). Remaining 15 seeds are Bench-area settlements. Entry remains WAITING: cannot confirm 25 verified settlements against primary sources."
     }
   },
   {
@@ -11758,19 +11750,18 @@ window.africaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Mbandaka,Bomongo,Ingende,Budjala,Lukolela,Bolomba,Bikoro,Businga,Basankusu,Gemena,Kungu,Dongo,Libenge,Bosobolo,Bokonzi,Karawa,Makanza,Bumba,Lisala,Bongandanga,Boteka,Poko,Iboko",
+    "b": "Mbandaka,Bomongo,Ingende,Budjala,Lukolela,Bolomba,Bikoro,Businga,Basankusu,Gemena,Kungu,Dongo,Libenge,Bosobolo,Bokonzi,Karawa,Makanza,Bumba,Lisala,Bongandanga,Boteka,Poko,Iboko,Bolenge",
     "status": "WAITING",
     "verification": {
       "status": "unverified",
       "sources": [
         "https://en.wikipedia.org/wiki/Bala_language",
-        "https://iso639-3.sil.org/code/loq",
-        "https://en.wikipedia.org/wiki/Makanza",
-        "https://en.wikipedia.org/wiki/Bokungo"
+        "https://en.wikipedia.org/wiki/Bolenge",
+        "https://en.wikipedia.org/wiki/%C3%89quateur_Province"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Language confirmed: Bala/Lobala (ISO 639-3 loq; Iboko/Boko bkp), Glottolog loba1239/boko1263, Bantu language of northwest Democratic Republic of the Congo west of the Congo River; dialects Likoka, Poko, South Lobala, Tanda (Wikipedia Bala language). Seed audit: removed 'Bokungu' (Bokungu is a territory in Tshuapa province at ~22.3E, east of the Congo River - outside Lobala's documented northwest area west of the Congo River); removed 'Likoka', 'Tanda', 'Bakonzi' (not attested as settlements in any source consulted - no Wikipedia/Geonames evidence). 22 seeds kept, below the 25-seed floor. Many kept seeds (Mbandaka, Bomongo, Ingende, Budjala, Lukolela, Bolomba, Bikoro, Businga, Basankusu, Gemena, Kungu, Dongo, Libenge, Bosobolo, Karawa, Makanza, Bumba, Lisala, Bongandanga, Boteka, Bokungu-area, Poko, Iboko) are authentic former-Equateur province river towns, and dialect names Likoka/Poko/Iboko/Tanda match the entry, but unattested seeds and the out-of-area Bokungu prevent verification."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T01:37:21.637Z",
+      "notes": "Bala (Lobala) is spoken in northwest DRC west of the Congo River, Équateur Province area (Wikipedia; ISO loq/bkp, Glottolog loba1239/boko1263). Added Bolenge, a village in Équateur Province where the equator meets the Congo River (Wikipedia), as a verified 24th seed. Entry remains WAITING at 24 seeds: not all existing seeds could be individually confirmed against primary sources, and a 25th verified settlement could not be found."
     }
   },
   {
