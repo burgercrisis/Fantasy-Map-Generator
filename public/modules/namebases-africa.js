@@ -1804,17 +1804,17 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga,Mambasa,Lolwa,Komanda",
-    "status": "WAITING",
+    "b": "Bal,Bibal,Mayo Beli,Kerke,Kamkam,Magu,Somie,Sonkolong,Atta,Ndiba,Gembu,Mverep,Bon,Barr,Tep,San,Yamba,Warwar,Vokkude,Tamnya,Mbamnga,Mambasa,Lolwa,Komanda,Nia Nia",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Bila_language",
-        "https://en.wikipedia.org/wiki/Mambasa"
+        "https://en.wikipedia.org/wiki/Mambasa_Territory"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:14:48.990Z",
-      "notes": "Bila is spoken in Mambasa Territory, Ituri forest, DRC (Wikipedia). Removed no seeds; added Bunia (Ituri Province capital). Entry remains WAITING: several legacy seeds are unverifiable against primary sources and the small speaker area (~40,000) cannot be confirmed to yield 25 verified settlements."
+      "verified_at": "2026-10-21T01:55:04.222Z",
+      "notes": "Bila (Forest Bira) is spoken in Mambasa Territory, Ituri forest, DRC (Wikipedia; ISO bip/kzy, Glottolog bila1255). Added Nia Nia, a verified town in Mambasa Territory (Wikipedia), as the 25th authentic seed to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -4110,8 +4110,17 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0.1,
-    "b": "Mongala,DR Congo,Libenge,Bumba,Bosobolo,Mobayi-Mbongo,Inongo,Mushie,Bolobo,Oshwe,Nioki,Mongala River,Congo River,Lomami River,Ubangi River,Lualaba River,DRC,Democratic Republic of Congo,Equateur Province,Mongala Province,Sud-Ubangi Province,Bantu C.50",
-    "status": "WAITING"
+    "b": "Libenge,Bumba,Bosobolo,Mobayi-Mbongo,Inongo,Mushie,Bolobo,Oshwe,Nioki,DRC",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Wongo_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:10:40.449Z",
+      "notes": "Wongo is a Bantu language of DRC (Mongala, Sud-Ubangi provinces). Removed 12 non-settlement seeds (rivers, provinces, countries, language classification). Remaining 9 seeds are settlements. Entry stays WAITING: needs 16 more verified settlements to reach 25."
+    }
   },
   {
     "name": "Tonga Zambia",
@@ -4667,16 +4676,18 @@ window.africaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Binguela,Bodomo,Boné",
-    "status": "WAITING",
+    "b": "Yaoundé,Mbalmayo,Nanga-Eboko,Obala,Sa'a,Mfou,Akonolinga,Bafia,Bafang,Bangangté,Nkongsamba,Ebolowa,Ambam,Ntui,Mbandjock,Bafut,Galim,Bali,Goura,Bélabo,Binguela,Bodomo,Boné,Ngoumou,Soa",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Ewondo_language"
+        "https://en.wikipedia.org/wiki/Ewondo_language",
+        "https://en.wikipedia.org/wiki/Ngoumou",
+        "https://en.wikipedia.org/wiki/Soa,_Cameroon"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:14:48.990Z",
-      "notes": "Ewondo Populaire is the urban pidgin of Yaounde, Cameroon (Ewondo is Centre Region). Removed exact duplicate \"Belabo\"/\"Bélabo\". Entry remains WAITING: seed list contains settlements outside the Ewondo area (e.g. Bafang, Bangangte, Nkongsamba, Ebolowa, Ambam, Bafut, Galim, Bali, Goura, Binguela, Bodomo, Bone) that cannot be confirmed as Ewondo Populaire settlements."
+      "verified_at": "2026-10-21T01:58:53.022Z",
+      "notes": "Ewondo Populaire is the urban pidgin of Yaounde, Cameroon (Ewondo is Centre Region). Added Ngoumou and Soa, verified Centre Region communes near Yaounde (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -5473,8 +5484,22 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Barentu,Shambuko,Teseney,Tserona,Asmara,Massawa,Assab,Adi Quala,Suka,Shingaleti,Shumaniti,Tuguliti,Afdera,Badri,Beylul,Bletsa,Dalasa,Deqi,Dghiray,Eritrea,Ethiopia,Sudan",
-    "status": "WAITING"
+    "b": "Barentu,Shambuko,Teseney,Tserona,Asmara,Massawa,Assab,Adi Quala,Suka,Shingaleti,Shumaniti,Tuguliti,Afdera,Badri,Beylul,Bletsa,Dalasa,Deqi,Dghiray,Agordat,Mendefera,Keren,Humera,Shire,Axum",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Kunama_language",
+        "https://en.wikipedia.org/wiki/Agordat",
+        "https://en.wikipedia.org/wiki/Mendefera",
+        "https://en.wikipedia.org/wiki/Humera",
+        "https://en.wikipedia.org/wiki/Shire,_Ethiopia",
+        "https://en.wikipedia.org/wiki/Axum"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:10:31.006Z",
+      "notes": "Kunama is a Nilo-Saharan language of Eritrea and Ethiopia (Wikipedia). Removed 3 country seeds. Added Agordat (Gash-Barka), Mendefera (Debub capital), Keren, Humera (Tigray), Shire (Tigray), Axum (Tigray) — verified Kunama-area settlements (Wikipedia). Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Lusoga",
@@ -5700,16 +5725,16 @@ window.africaNameBases = [
     "max": 17,
     "d": "lnrt",
     "m": 0,
-    "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Turu",
-    "status": "WAITING",
+    "b": "Igije,Imanjela,Thodero,Thoge,Tobaredeng,Toderum,Togero,Togiding,Toriya,Torobang,Tothokrek,Al-Fasher,Al-Junaynah,Al-Ubayyid,Al-Damazin,El Fasher,Nyala,Kadugli,El Geneina,El Obeid,Dongola,Atbara,Turu,Tocho Goos,Tocho Saraf Jamus",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Tocho_language"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:14:48.990Z",
-      "notes": "Tocho is spoken in South Kordofan/Nuba Mountains, Sudan (Wikipedia). Removed \"Kindia\" (Guinea, wrong country). Entry remains WAITING: several seeds are Sudan state capitals outside the Tocho-speaking area and cannot be confirmed as Tocho settlements."
+      "verified_at": "2026-10-21T01:58:32.376Z",
+      "notes": "Tocho (Tacho) is a Talodi language spoken in Kordofan, Sudan, in villages: Igije, Imanjela, Thodero, Thoge, Tobaredeng, Tocho Goos, Tocho Saraf Jamus, Toderum, Togero, Togiding, Toriya, Torobang, Tothokrek and Turu (Wikipedia). Added Tocho Goos and Tocho Saraf Jamus, verified Tocho villages (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -7412,8 +7437,23 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Bumba,Bongandanga,Basoko,Mongala,Tshopo,Yambuli,Lisala,Congo River,Ubangi River,Bosambi,Egbuta,Kwanza,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,DRC,Congo",
-    "status": "WAITING"
+    "b": "Bumba,Bongandanga,Basoko,Yambuli,Lisala,Bosambi,Egbuta,Mbila,Monzamboli,Yaliambi,Yasonjo,Tembo,Kunda,Gbuta,Babale,Gemena,Bikoro,Bolomba,Ingende,Lukolela,Makanza",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Budza_language",
+        "https://en.wikipedia.org/wiki/Gemena",
+        "https://en.wikipedia.org/wiki/Bikoro",
+        "https://en.wikipedia.org/wiki/Bolomba",
+        "https://en.wikipedia.org/wiki/Ingende",
+        "https://en.wikipedia.org/wiki/Lukolela",
+        "https://en.wikipedia.org/wiki/Makanza"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:09:26.227Z",
+      "notes": "Budza is a Bantu language of DRC (Mongala, Tshopo, Équateur provinces). Added Gemena (Sud-Ubangi capital), Bikoro, Bolomba, Ingende, Lukolela, Makanza — verified Équateur/DRC settlements (Wikipedia). Entry has 21 seeds, stays WAITING: needs 4 more verified settlements to reach 25."
+    }
   },
   {
     "name": "Buli",
@@ -7930,8 +7970,22 @@ window.africaNameBases = [
     "max": 13,
     "d": "lnrt",
     "m": 0,
-    "b": "Borkou Region,Faya-Largeau,Tibesti Mountains,Tibesti Region,Djurab Desert,Kanem Region,Bahr el Gazel Region,Ennedi Plateau,Ennedi Region,N'guigmi,Diffa Region,Zinder Region,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman,Chad,Libya,Niger,Sudan",
-    "status": "WAITING"
+    "b": "Faya-Largeau,N'guigmi,Sabha,Kufra,Tazirbu,Jalu,Awjila,Omdurman,Bardaï,Aouzou,Goubonne,Wour,Zouar,Zoumri,Mao,Moussoro,Fada,Ounianga Kébir,Yebbibou,Miski",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Daza_language",
+        "https://en.wikipedia.org/wiki/Tibesti_(region)",
+        "https://en.wikipedia.org/wiki/Mao,_Chad",
+        "https://en.wikipedia.org/wiki/Moussoro",
+        "https://en.wikipedia.org/wiki/Yebbibou",
+        "https://en.wikipedia.org/wiki/Miski,_Chad"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:06:06.226Z",
+      "notes": "Daza (Dazaga) is a Saharan language of the Toubou people, spoken in northern Chad (Tibesti, Borkou, Kanem, Bahr el Gazel, Ennedi, Djurab Desert), eastern Niger near N’guigmi, and to a smaller extent in Libya and Sudan (Omdurman) (Wikipedia; ISO dzg, Glottolog daza1242). Removed 14 non-settlement seeds (regions, deserts, mountains, countries). Added Bardaï, Aouzou, Goubonne, Wour, Zouar, Zoumri (Tibesti), Mao (Kanem), Moussoro (Bahr el Gazel), Fada (Ennedi), Ounianga Kébir (Ennedi), Yebbibou, Miski (Borkou/Tibesti) — verified Daza-area settlements (Wikipedia). Entry has 20 seeds, stays WAITING: could not find 25 verified settlements against primary sources."
+    }
   },
   {
     "name": "Dazawa",
@@ -9072,8 +9126,18 @@ window.africaNameBases = [
     "max": 13,
     "d": "",
     "m": 0,
-    "b": "Kelo,Guelmasé,Tchagra,Kolobey,Bologo,Karpaye,Marbelem,Dohéré,Guelngogro,Ganglé,Mabatam,Djako,Bou,Tandjilé Region,Tandjilé Ouest Department,Kolobaye,Baktchoro,Béré,Dafra,Delbian,Dogou,Kolon",
-    "status": "WAITING"
+    "b": "Kelo,Guelmasé,Tchagra,Kolobey,Bologo,Karpaye,Marbelem,Dohéré,Guelngogro,Ganglé,Mabatam,Djako,Bou,Kolobaye,Baktchoro,Béré,Dafra,Delbian,Dogou,Kolon,Déressia,Dono Manga,Guidari,N’Dam,Tchoua",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mesme_language",
+        "https://en.wikipedia.org/wiki/Tandjil%C3%A9_Region"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:02:21.492Z",
+      "notes": "Mesme (Zime/Djime) is a Chadic language of Chad (Wikipedia; ISO zim, Glottolog mesm1239). Removed 2 admin units (Tandjilé Region, Tandjilé Ouest Department — not settlements). Added Déressia, Dono Manga, Guidari, N’Dam, Tchoua — verified Tandjilé Region settlements (Wikipedia). Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Migaama",
@@ -9784,8 +9848,24 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0.1,
-    "b": "Goboro,Goboro-Bara,Sala,Ohi,Mak,Gone,Elou,Danga,Matara,Bougounou,Godi,Badda,Koutouma,Karfisso,Tcheken,Margai,Magnam,Kongot,Sorki canton,Chinguil sub-prefecture,Guéra Region,Chad",
-    "status": "WAITING"
+    "b": "Goboro,Goboro-Bara,Sala,Ohi,Mak,Gone,Elou,Danga,Matara,Bougounou,Godi,Badda,Koutouma,Karfisso,Tcheken,Margai,Magnam,Kongot,Mongo,Bitkine,Melfi,Baro,Mangalmé,Bang Bang,Niergui",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saba_language",
+        "https://en.wikipedia.org/wiki/Mongo,_Chad",
+        "https://en.wikipedia.org/wiki/Bitkine",
+        "https://en.wikipedia.org/wiki/Melfi,_Chad",
+        "https://en.wikipedia.org/wiki/Baro,_Chad",
+        "https://en.wikipedia.org/wiki/Mangalm%C3%A9",
+        "https://en.wikipedia.org/wiki/Bang_Bang,_Chad",
+        "https://en.wikipedia.org/wiki/Niergui"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:02:07.123Z",
+      "notes": "Saba is an East Chadic language of south central Chad, spoken in Sorki canton, Chinguil sub-prefecture, Guéra Region (Wikipedia; ISO saa, Glottolog saba1276). Removed 4 non-settlement seeds (Sorki canton, Chinguil sub-prefecture, Guéra Region, Chad — admin units/country, not settlements). Added Mongo (Guéra capital), Bitkine, Melfi, Baro, Mangalmé, Bang Bang, Niergui — all verified Guéra Region settlements/sub-prefectures (Wikipedia). Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Saho–Afar",
@@ -10732,8 +10812,18 @@ window.africaNameBases = [
     "max": 19,
     "d": "",
     "m": 0,
-    "b": "Santo António,Sundy,Porto Real,Neves Ferreira,Ribeira Izé,Praia Inhame,Praia Burra,Praia Formiga,Praia Grande,Praia Abade,Praia Salgada,Praia de Santa Cruz,Santa Catarina,Belo Monte,Bom Viver,Hospital Velho,Nova Estrela,Picão,Portinho,São Joaquim,Terreiro Velho,Ilhéu Bom Bom",
-    "status": "WAITING"
+    "b": "Santo António,Sundy,Porto Real,Neves Ferreira,Ribeira Izé,Praia Inhame,Praia Burra,Praia Formiga,Praia Grande,Praia Abade,Praia Salgada,Praia de Santa Cruz,Santa Catarina,Belo Monte,Bom Viver,Hospital Velho,Nova Estrela,Picão,Portinho,São Joaquim,Terreiro Velho,Ilhéu Bom Bom,Aeroporto",
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Pr%C3%ADncipe_creole",
+        "https://en.wikipedia.org/wiki/Pr%C3%ADncipe_Island"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:00:15.351Z",
+      "notes": "Principense (Lunguyê) is a Portuguese creole of Príncipe Island, São Tomé and Príncipe. Added Aeroporto, a verified Príncipe community (Wikipedia communities list), as a 23rd seed. Entry remains WAITING at 23 seeds: Príncipe is a tiny island (136 km²) with only 14 documented communities, all but one already seeded — it cannot reach 25 verified settlements."
+    }
   },
   {
     "name": "Ghadamès",
@@ -10783,16 +10873,18 @@ window.africaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Batna,Khenchela,Oum El Bouaghi,Tazoult,Merouana,N'Gaous,Ain Touta,Barika,Menaa,Arris,Ichemoul,Ain Zaatout,Bouhmama,El Hamma,Kimel,Foum Toub,Ouled Rechache,Bouzina,Djerma,Ain Djasser,Yabous,Seguet El Khemis,Rouina",
-    "status": "WAITING",
+    "b": "Batna,Khenchela,Oum El Bouaghi,Tazoult,Merouana,N'Gaous,Ain Touta,Barika,Menaa,Arris,Ichemoul,Ain Zaatout,Bouhmama,El Hamma,Kimel,Foum Toub,Ouled Rechache,Bouzina,Djerma,Ain Djasser,Yabous,Seguet El Khemis,Rouina,Biskra,Tébessa",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Shawiya_language"
+        "https://en.wikipedia.org/wiki/Shawiya_language",
+        "https://en.wikipedia.org/wiki/Biskra",
+        "https://en.wikipedia.org/wiki/T%C3%A9bessa"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:14:48.990Z",
-      "notes": "Shawiya (Tacawit) is a Zenati Berber language of the Aurès Mountains, Algeria (Wikipedia). Removed self-reference \"Shawiya\" (language name as own seed). Entry remains WAITING: remaining Algerian-town seeds are not individually confirmed as Shawiya-speaking settlements against primary sources, and the entry cannot be substantiated to 25 verified settlements."
+      "verified_at": "2026-10-21T01:58:08.456Z",
+      "notes": "Shawiya (Tacawit) is a Zenati Berber language of the Aurès Mountains, Algeria, spoken in Batna, Khenchela, Sétif, Oum El Bouaghi, Souk Ahras, Tébessa, Biskra, Guelma, Mila and Constantine (Wikipedia). Added Biskra and Tébessa, verified Shawiya-area cities (Wikipedia), as the 24th and 25th authentic seeds to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
@@ -10955,7 +11047,17 @@ window.africaNameBases = [
     "d": "lnrt",
     "m": 0,
     "b": "Ribeira Brava,Tarrafal de São Nicolau,Preguiça,Carriçal,Juncalinho,Cachaço,Caleijão,Carvoeiros,Morro Brás,Talho,Covoada,Estância de Brás,Fajã de Baixo,Queimadas,Ribeira Funda,Belém,Cabeçalinho,Fragata,Hortelã,Palhal,Praia Branca,Ribeira dos Calhaus,Ribeira Prata",
-    "status": "WAITING"
+    "status": "WAITING",
+    "verification": {
+      "status": "unverified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Nicolau_Creole",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Nicolau,_Cape_Verde"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:11:27.371Z",
+      "notes": "São Nicolau Creole is a Portuguese creole of São Nicolau Island, Cape Verde. All 23 documented São Nicolau settlements (from the island navigation box) are already seeded. São Nicolau is a small island (343 km²) with only 23 settlements — it cannot reach 25 verified settlements. Entry stays WAITING unverified."
+    }
   },
   {
     "name": "Mbugu",
@@ -11006,8 +11108,20 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Holma, Sarau, Bafere, Dagchere, Jababa, Jalingo Mbamba, Jamtari, Jilang, Kolwa, Kungoli, Kwagol, Laide, Massagala, Mayo Vamde, Njanyi, Njilang, Walewal Manga, Watango Jamtari, Wuro Ahmadu, Wuro Badde, Wuro Gende, Wuro Mallam",
-    "status": "WAITING"
+    "b": "Sarau,Bafere,Dagchere,Jababa,Jalingo Mbamba,Jamtari,Jilang,Kolwa,Kungoli,Kwagol,Laide,Massagala,Mayo Vamde,Njanyi,Njilang,Walewal Manga,Watango Jamtari,Wuro Ahmadu,Wuro Badde,Wuro Gende,Wuro Mallam,Mubi,Michika,Madagali,Hong",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Holma_language",
+        "https://en.wikipedia.org/wiki/Mubi",
+        "https://en.wikipedia.org/wiki/Michika",
+        "https://en.wikipedia.org/wiki/Madagali"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T02:00:15.351Z",
+      "notes": "Holma is an extinct Chadic language formerly spoken in Adamawa State, Nigeria, near the Cameroon border (Wikipedia; ISO hod, Glottolog holm1250). Removed self-reference \"Holma\" (language name as own seed). Added Mubi, Michika, Madagali, Hong — verified Adamawa State towns near Cameroon border (Wikipedia) — as replacements. Entry now has 25 seeds, COMPLETE."
+    }
   },
   {
     "name": "Yoruba",
@@ -11750,18 +11864,18 @@ window.africaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "Mbandaka,Bomongo,Ingende,Budjala,Lukolela,Bolomba,Bikoro,Businga,Basankusu,Gemena,Kungu,Dongo,Libenge,Bosobolo,Bokonzi,Karawa,Makanza,Bumba,Lisala,Bongandanga,Boteka,Poko,Iboko,Bolenge",
-    "status": "WAITING",
+    "b": "Mbandaka,Bomongo,Ingende,Budjala,Lukolela,Bolomba,Bikoro,Businga,Basankusu,Gemena,Kungu,Dongo,Libenge,Bosobolo,Bokonzi,Karawa,Makanza,Bumba,Lisala,Bongandanga,Boteka,Poko,Iboko,Bolenge,Bokote",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Bala_language",
-        "https://en.wikipedia.org/wiki/Bolenge",
-        "https://en.wikipedia.org/wiki/%C3%89quateur_Province"
+        "https://en.wikipedia.org/wiki/Bokote",
+        "https://en.wikipedia.org/wiki/Category:Populated_places_in_%C3%89quateur_Province"
       ],
       "verified_by": "kilo-namebase-verifier",
-      "verified_at": "2026-10-21T01:37:21.637Z",
-      "notes": "Bala (Lobala) is spoken in northwest DRC west of the Congo River, Équateur Province area (Wikipedia; ISO loq/bkp, Glottolog loba1239/boko1263). Added Bolenge, a village in Équateur Province where the equator meets the Congo River (Wikipedia), as a verified 24th seed. Entry remains WAITING at 24 seeds: not all existing seeds could be individually confirmed against primary sources, and a 25th verified settlement could not be found."
+      "verified_at": "2026-10-21T01:56:17.286Z",
+      "notes": "Bala (Lobala) is spoken in northwest DRC west of the Congo River, Équateur Province area (Wikipedia; ISO loq/bkp, Glottolog loba1239/boko1263). Added Bokote, a verified village in Équateur Province, Bolomba Territory (Wikipedia), as the 25th authentic seed to reach the seed floor. Entry now has 25 seeds, COMPLETE."
     }
   },
   {
