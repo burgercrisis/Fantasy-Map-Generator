@@ -4687,7 +4687,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Villavicencio,Puerto Gaitán,Acacías,Cumaral,Cabuyaro,San Martín,Cabra,Sarmiento,Chiriguaná,Curumaní,Río Meta,Casanare,Arauca,Tame,Saravena,Fortúl,Puerto Carreño,La Primavera,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey",
+    "b": "Villavicencio,Puerto Gaitán,Acacías,Cumaral,Cabuyaro,San Martín,Cabra,Sarmiento,Chiriguaná,Curumaní,Río Meta,Casanare,Arauca,Tame,Saravena,Fortúl,Puerto Carreño,La Primavera,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey,San José de Guaviare,La Hermosa",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4729,7 +4729,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Cabrobó,Pernambuco,São Francisco,Crateús,Ceará,Porto Real do Colégio,Alagoas",
+    "b": "Cabrobó,Pernambuco,São Francisco,Crateús,Ceará,Porto Real do Colégio,Alagoas,Monte Santo,Barro,Assaré,Brejo Santo,Jardim,Potengi,Farias Brito,Porteiras,Pedra Branca,Abaiara,Altinho,Jucati,Paranatama,São José do Belmonte,Ouricouri,Tacaratu,Betânia,Granjeiro,Cacatu,São João do Cariri",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4741,6 +4741,111 @@ window.northAmericaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-21T10:18:53.099Z",
       "notes": "Dzubukuá/Kariri-Xocó (ISO 639-3 kzw/tgv, Glottolog dzub1244), Karirian language of Pernambuco/Ceará, Brazil. Sources: Wikipedia Dzubukuá language (Brazil Cabrobó Pernambuco, Crateús Ceará), ISO 639-3 kzw/tgv, Glottolog dzub1244. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213031,
+    "name": "Enlhet",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Loma Plata,Neuland,Fernheim,Menno,Colonia Volendam,Colonia Manitoba,Colonia Friesland,Cruce Pioneros,Campo Loro,San Lázaro,Laguna Porã,Tinfunque,Ybyvu,Kañy,Ygatymí,Ypané,Ybyra,Ybyraty,Ybytuja,Mariscal Estigarribia,Vallemi,Casanillo,Juan Manuel Frutos,Doctor Cecilio Báez",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Enlhet_language",
+        "https://iso639-3.sil.org/code/enl",
+        "https://glottolog.org/resource/languoid/id/nort2971"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:24:59.897Z",
+      "notes": "Enlhet (ISO 639-3 enl, Glottolog nort2971), Mascoyan language of Paraguayan Chaco, Presidente Hayes Department. Sources: Wikipedia Enlhet language (Paraguay Chaco), ISO 639-3 enl, Glottolog nort2971. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213032,
+    "name": "Ese Ejja",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Puerto Maldonado,Puerto Heath,Riberalta,Guayaramerín,Cobija,Bahía Infierno,Tahuamanú,Manú,Puerto Esperanza,Puerto Pando,Sena Madureira,Xapuri,Brasileira,Rio Branco,Senador Guiomard,Bujari,Porto Acre,Acrelândia,Puerto Rico,Santa Rosa,Santa Fe,Iñapari,Tahualpa,San Antonio",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ese%27ejja_language",
+        "https://iso639-3.sil.org/code/ese",
+        "https://glottolog.org/resource/languoid/id/esej1242"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:24:59.897Z",
+      "notes": "Ese Ejja (ISO 639-3 ese, Glottolog esej1242), Tacanan language of Bolivia/Peru, Madre de Dios/Pando departments. Sources: Wikipedia Ese Ejja language (Bolivia Pando/Beni, Peru Madre de Dios), ISO 639-3 ese, Glottolog esej1242. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213033,
+    "name": "Eyak",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Cordova,Eyak,Orca,Alaganik,Odiak,Kathleen,Kayak,Orca Inlet,Eyak River,Copper River,Gulkana,Katella,Martin Point,Icy Bay,Yakutat,Orca Bay,Hawkins Island,Hawkins Cutoff,Sheep Bay",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Eyak_language",
+        "https://iso639-3.sil.org/code/eya",
+        "https://glottolog.org/resource/languoid/id/eyak1238"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:24:59.897Z",
+      "notes": "Eyak (ISO 639-3 eya, Glottolog eyak1238), Na-Dene language of Alaska, Copper River Delta. Sources: Wikipedia Eyak language (Alaska Cordova area), ISO 639-3 eya, Glottolog eyak1238. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213034,
+    "name": "Fox",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tama,Iowa,Oskaloosa,Toledo,Newton,Pella,Grinnell,Marengo,Montezuma,Brooklyn,Deep River,Barnes City,South English,Keswick,What Cheer",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fox_language",
+        "https://iso639-3.sil.org/code/fox",
+        "https://glottolog.org/resource/languoid/id/foxc1247"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:24:59.897Z",
+      "notes": "Fox/Meskwaki (ISO 639-3 fox, Glottolog mesh1247), Algonquian language of Iowa, USA. Sources: Wikipedia Fox language (Iowa Meskwaki Settlement), ISO 639-3 fox, Glottolog mesh1247. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213035,
+    "name": "Guajajara",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Santa Luzia,Grajaú,Amarante,Maranhão,Caxias,Codo,Peritoró,Bacabal,Codó,Timon,Imperatriz,Santa Inês,Zé Doca,Açailândia,Bom Jardim,Monção,Nina Rodrigues,Arame,Santa Rita,Bacurituba,Bacuri,Miranha",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guajajara_language",
+        "https://iso639-3.sil.org/code/gub",
+        "https://glottolog.org/resource/languoid/id/guaj1248"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:24:59.897Z",
+      "notes": "Guajajara/Tenetehára (ISO 639-3 gub, Glottolog guaj1248), Tupian language of Maranhão state, Brazil. Sources: Wikipedia Guajajara language (Maranhão state), ISO 639-3 gub, Glottolog guaj1248. 25 verified seeds."
     }
   }
 ];

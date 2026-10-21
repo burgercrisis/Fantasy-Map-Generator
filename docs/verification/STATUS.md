@@ -11,38 +11,37 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2841 |
-| Marked COMPLETE (>= 25 seeds) | 1484 |
-| Marked WAITING (< 25 seeds) | 1357 |
-| Below seed floor | 1356 |
+| Language entries | 2851 |
+| Marked COMPLETE (>= 25 seeds) | 1487 |
+| Marked WAITING (< 25 seeds) | 1364 |
+| Below seed floor | 1361 |
 | Zero seeds | 27 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
-| Map ISOs with no namebase (research backlog) | 914 |
+| Map ISOs with no namebase (research backlog) | 913 |
 | Map ISOs that can never have a namebase | 3 |
 
 ## By continent
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 309 | 6 | 25 |
+| africa | 649 | 309 | 5 | 25 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 215 | 0 | 0 | 29 |
+| northAmerica | 225 | 5 | 0 | 27 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 292 | 167 | 1 | 19 |
+| oceania | 292 | 167 | 2 | 19 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1356 entries need authentic settlement names. Ordered by seed count,
+1361 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
 | 0 | africa | 11239 | Gadang |
 | 0 | africa | 14148 | Geez |
-| 0 | africa | 203227 | Hozo |
 | 0 | africa | 203231 | Kujargé |
 | 0 | africa | 20514 | Bamwe |
 | 0 | africa | 200176 | Standard Algerian Berber |
@@ -66,12 +65,14 @@ so the emptiest entries come first. One at a time, research then edit.
 | 0 | europe | 200802 | Southern Botnian |
 | 0 | europe | 200870 | Moselle Romance |
 | 0 | europe | 1639 | Courland Livonian |
+| 0 | oceania | 203094 | Rumu |
 | 0 | oceania | 203285 | Nasioi |
 | 1 | africa | 588 | Buwal |
 | 1 | africa | 2434 | Yulu |
 | 1 | africa | 11538 | Hun-Saare |
 | 1 | africa | 13339 | Omaio |
 | 1 | africa | 13965 | Sandawe |
+| 1 | africa | 203227 | Hozo |
 | 1 | africa | 20572 | Bidiya |
 | 1 | africa | 20587 | Binza |
 | 1 | africa | 20594 | Boga |
@@ -110,6 +111,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 1 | europe | 638 | Tuatschin |
 | 1 | europe | 757 | Atlym |
 | 1 | oceania | 202368 | Nakai |
+| 1 | oceania | 202464 | Suganga |
 | 1 | oceania | 202759 | Nunggubuyu |
 | 1 | oceania | 203272 | Turaka |
 | 1 | oceania | 203284 | Kuuk Thaayorre |
@@ -147,9 +149,12 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | oceania | 1069 | Kárás |
 | 2 | oceania | 2272 | Kosena  |
 | 2 | oceania | 202418 | Ontenu |
+| 2 | oceania | 202739 | Djaru |
 | 2 | oceania | 202740 | Djinang |
 | 2 | oceania | 202766 | Wagiman |
 | 2 | oceania | 202771 | Wik Mungkan |
+| 2 | oceania | 203089 | Pitkern |
+| 2 | oceania | 203096 | Sabakor |
 | 2 | oceania | 203097 | Safeyoka |
 | 2 | oceania | 203106 | Tobian |
 | 2 | oceania | 203108 | Tsaukambo |
@@ -200,14 +205,18 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | oceania | 1918 | Gimi |
 | 3 | oceania | 200994 | Tangwang |
 | 3 | oceania | 1656 | Dano |
+| 3 | oceania | 201113 | Nedebang |
+| 3 | oceania | 202369 | Narom |
 | 3 | oceania | 202371 | Nduga |
 | 3 | oceania | 202478 | Tifal |
+| 3 | oceania | 202498 | Waimoa |
 | 3 | oceania | 202521 | Yipma |
 | 3 | oceania | 202738 | Dhuwal |
 | 3 | oceania | 202743 | Iwaidja |
 | 3 | oceania | 202753 | Manytjilyitjarra |
 | 3 | oceania | 203091 | Retta |
 | 3 | oceania | 203102 | Somahai |
+| 3 | oceania | 203104 | Tainae |
 | 3 | oceania | 203110 | Umanakaina |
 | 4 | africa | 709 | Sighu |
 | 4 | africa | 2034 | Fungor |
@@ -262,8 +271,10 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | europe | 200787 | Sea Sami |
 | 4 | europe | 200813 | Tavda |
 | 4 | europe | 200833 | Vartovskoe |
+| 4 | oceania | 1851 | Fore |
 | 4 | oceania | 202765 | Wadjiginy |
 | 4 | oceania | 756 | Agalega Creole |
+| 4 | oceania | 202461 | Sonsorolese |
 | 4 | oceania | 202509 | Western Dani |
 | 4 | oceania | 202737 | Burarra |
 | 4 | oceania | 202746 | Kukatja |
@@ -275,10 +286,12 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | oceania | 203109 | Uare |
 | 4 | oceania | 203111 | Waffa |
 | 4 | oceania | 203117 | Yareba |
+| 4 | oceania | 203268 | Sakizaya |
 | 4 | oceania | 203269 | Susuami |
 | 4 | oceania | 203270 | Tangko |
 | 4 | oceania | 203271 | Teiwa |
 | 4 | oceania | 203274 | Wambon |
+| 4 | oceania | 203276 | Wayan |
 | 5 | africa | 11634 | Guruntum |
 | 5 | africa | 14151 | Hadiyya |
 | 5 | africa | 14155 | Ganza |
@@ -327,21 +340,8 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 200746 | Lipsha |
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
-| 5 | europe | 202887 | Kamassian proper |
-| 5 | oceania | 1827 | Grass Koiari |
-| 5 | oceania | 1851 | Fore |
-| 5 | oceania | 97976 | Dano (Upper Asaro) |
-| 5 | oceania | 201184 | Tamagario |
-| 5 | oceania | 201207 | Usarufa |
-| 5 | oceania | 200973 | Papuan Pidgin English |
-| 5 | oceania | 201113 | Nedebang |
-| 5 | oceania | 202464 | Suganga |
-| 5 | oceania | 202498 | Waimoa |
-| 5 | oceania | 202739 | Djaru |
-| 5 | oceania | 202749 | Kunwinjku |
-| 5 | oceania | 202764 | Upper Arrernte |
 
-_Showing the lowest 300 of 1356. Full queue:_
+_Showing the lowest 300 of 1361. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
@@ -376,7 +376,7 @@ nothing in the name says so.
 
 ## Map ISOs with no namebase
 
-914 languages the mixer map offers have no namebase entry
+913 languages the mixer map offers have no namebase entry
 under that name, so they currently resolve to an unrelated seed list. Real
 languages — Agaw, Baka, Bamukumbit, Dibiyaso, Guriaso. Each needs a namebase
 created from research. Nothing here is guessed at.
@@ -534,7 +534,7 @@ created from research. Nothing here is guessed at.
 | rukai-budai-labuan-taromak | Budai-Labuan-Taromak Rukai | undefined |
 | bunak | Bunak | undefined |
 
-_Showing 150 of 914._
+_Showing 150 of 913._
 
 ## How to work on this
 

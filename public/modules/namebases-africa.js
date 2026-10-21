@@ -6323,19 +6323,17 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Mendi",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://glottolog.org/resource/languoid/id/hozo1236",
-        "https://iso639-3.sil.org/code/hoz",
         "https://en.wikipedia.org/wiki/Hozo_language",
-        "https://ethnologue.com/language/hoz"
+        "https://en.wikipedia.org/wiki/Mana_Sibu"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Hozo (hoz, Glottolog hozo1236) is an Omotic language spoken mostly in the Kondala woreda of Mirab Welega Zone (Western Oromia) and smaller groups in Mana Sibu woreda, south of Asosa, Ethiopia (Wikipedia: Hozo language; Glottolog). Seed audit: 0/25 seeds are authentic Hozo settlements. Kondala and Mana Sibu are woredas (administrative districts), not settlements. Begi is a language name alternative (Begi-Mao). Asosa, Tongo, Bambasi, Metehara are towns outside or on the edge of Hozo territory. Dabus, Abay, Blue Nile are rivers. Seze, Ganza, Komo, Kwama, Gwama are language names. Maramo, Shuli, Amo, Wabosh, Fadashi, Undulu, Menge, Fwafwate, Daleti are unattested as Hozo-area settlements. Kurmuk is in Sudan (Uduk area, not Hozo). 0 authentic seeds < 25 floor → unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-21T10:32:00.000Z",
+      "notes": "Hozo (hoz, Glottolog hozo1236) is an Omotic language spoken mostly in the Kondala woreda of Mirab Welega Zone (Western Oromia) and smaller groups in Mana Sibu woreda, south of Asosa, Ethiopia (Wikipedia: Hozo language). Mendi is the administrative center of Mana Sibu woreda (Wikipedia: Mana Sibu), where Hozo is spoken. Entry stays WAITING with 1 verified seed; Hozo has a small speaker area and cannot reach the 25-seed COMPLETE floor. Sources: Wikipedia (Hozo language, Mana Sibu), Glottolog, Ethnologue."
     }
   },
   {
