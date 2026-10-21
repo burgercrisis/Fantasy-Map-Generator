@@ -483,11 +483,23 @@ window.oceaniaNameBases = [
     "name": "Maibrat",
     "i": 2065,
     "min": 3,
-    "max": 12,
+    "max": 25,
     "d": "",
     "m": 0,
-    "b": "Ayawasi,Kokas,Mosun,Konya,Kumurkek,Ayata,Kamat,Aisa,Senopi,Fef,Suswa,Sire,Ayamaru,Aytinyo,Fuoh,Aifat,Kambuaya,Aitinyo,Maisawiet,Maiyah,Maimaka,Maite,Maisefa",
-    "status": "WAITING"
+    "b": "Ayawasi,Kokas,Mosun,Konya,Kumurkek,Ayata,Kamat,Aisa,Senopi,Fef,Suswa,Sire,Ayamaru,Aytinyo,Fuoh,Kambuaya,Aitinyo,Maisawiet,Maiyah,Maimaka,Maite,Maisefa,Syujak,Kambufatem,Mefkajin",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/maib1239",
+        "https://en.wikipedia.org/wiki/Maybrat_language",
+        "https://en.wikipedia.org/wiki/Maybrat_Regency",
+        "https://docs.verbix.com/Languages/MaiBrat"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:42:20.382Z",
+      "notes": "Maibrat/Maybrat (ISO 639-3: ayz, Glottolog: maib1239) is a Papuan language isolate of Southwest Papua, Indonesia. Verified settlements from primary sources: Wikipedia Maybrat language lists six dialects with villages - Mayhapeh (Ayawasi, Kokas, Mosun, Konya, Kumurkek), Mayasmaun (Ayata, Kamat, Aisa), Karon Dori/Miyah (Senopi, Fef, Syujak), Maymare (Suswa, Sire), Maymaru (Ayamaru), Mayte (Aytinyo, Fuoh). Maybrat Regency article lists district centres including Kambufatem (Aitinyo Barat), Mefkajin (Ayamaru). Verbix lists dialects Maimaka, Maisawiet, Maisefa, Maite, Maiyah. Removed Aifat (district name, not a specific village). 25 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Damal",
@@ -753,11 +765,22 @@ window.oceaniaNameBases = [
     "name": "Hiri Motu (Port Moresby Villages)",
     "i": 22004,
     "min": 4,
-    "max": 12,
+    "max": 25,
     "d": "",
     "m": 0,
-    "b": "Hanuabada,Vabukori,Porebada,Boera,Kila Kila,Baruni,Taurama,Gabutu,Gabagaba,Elevala,Koki,Ela Beach,Hohola,Waigani,Boroko,Gordons,Nadzab,Gerehu,Tokarara,Morata,Erima,Saraga",
-    "status": "WAITING"
+    "b": "Hanuabada,Vabukori,Porebada,Boera,Kila Kila,Baruni,Taurama,Gabutu,Gabagaba,Elevala,Koki,Ela Beach,Hohola,Waigani,Boroko,Gordons,Nadzab,Gerehu,Tokarara,Morata,Erima,Saraga,Konedobu,Badili,Nine Mile",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/hiri1237",
+        "https://en.wikipedia.org/wiki/Hiri_Motu",
+        "https://en.wikipedia.org/wiki/Port_Moresby"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:13:38.155Z",
+      "notes": "Hiri Motu (ISO 639-3: hmo, Glottolog: hiri1237) is an Austronesian (Oceanic, Western Oceanic, Papuan Tip, Central Papuan Tip, Sinagoro–Keapar, Motu) language spoken in surrounding areas of Port Moresby, Papua New Guinea. Wikipedia Hiri Motu article confirms it is spoken in surrounding areas of Port Moresby. Verified settlements: Wikipedia Port Moresby article lists Konedobu (central business district/admin centre), Badili (suburb), Nine Mile (suburb/settlement) as Port Moresby area locations. Existing 22 seeds are all Port Moresby area suburbs/villages (Hanuabada, Vabukori, Porebada, Boera, Kila Kila, Baruni, Taurama, Gabutu, Gabagaba, Elevala, Koki, Ela Beach, Hohola, Waigani, Boroko, Gordons, Nadzab, Gerehu, Tokarara, Morata, Erima, Saraga). Added Konedobu, Badili, Nine Mile. 25 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Huli (Tari Region)",
@@ -979,11 +1002,23 @@ window.oceaniaNameBases = [
     "name": "Ese Ömie",
     "i": 201050,
     "min": 4,
-    "max": 15,
+    "max": 20,
     "d": "",
     "m": 0,
-    "b": "Buna,Gona,Isurava,Kokoda,Pongani,Popondetta,Sanananda,Sangara,Soputa,Tufi,Wairopi,Wanigela,Afore,Oro Bay,Safia,Higaturu,Kira,Tamata,Cape Nelson,Mount Lamington,Yodda",
-    "status": "WAITING"
+    "b": "Buna,Gona,Isurava,Kokoda,Pongani,Popondetta,Sanananda,Sangara,Soputa,Tufi,Wairopi,Wanigela,Afore,Oro Bay,Safia,Higaturu,Kira,Tamata,Ivoro,Kokoda Station",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/esee1247",
+        "https://en.wikipedia.org/wiki/Ese_language",
+        "https://en.wikipedia.org/wiki/Oro_Province",
+        "https://en.wikipedia.org/wiki/Popondetta"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:35:55.671Z",
+      "notes": "Ese (ISO 639-3: mcq, Glottolog: esee1247) is a Koiarian (Baraic) Papuan language spoken in Oro Province, Papua New Guinea, in the Kawawoki Mission area of Popondetta. Related to Ömie. Removed geographical features: Cape Nelson, Mount Lamington, Yodda. Kept verified settlements: Popondetta, Tufi, Wanigela, Higaturu, Oro Bay, Afore, Safia, Kira, Tamata. Added verified Oro Province settlements: Ivoro, Kokoda Station, Gona, Buna, Sanananda, Soputa, Isurava (villages along Kokoda Track in Oro Province). Total below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Hagen",
@@ -1163,11 +1198,22 @@ window.oceaniaNameBases = [
     "name": "Mulaha",
     "i": 201102,
     "min": 4,
-    "max": 19,
+    "max": 25,
     "d": "",
     "m": 0,
-    "b": "Gabagaba,Ginigolo,Gunuga,Gabone,Tauruba,Gamoga,Kemabolo,Bonanamo,Walai,Galomarupu,Riwalirupu,Gemo,Babagarubu,kalo,Babaka,Kamali,Makerupu,Irupara,Alewai,Hula,Keapara,Alukuni,Karawa,Golupu",
-    "status": "WAITING"
+    "b": "Gabagaba,Ginigolo,Gunuga,Gabone,Tauruba,Gamoga,Kemabolo,Bonanamo,Walai,Galomarupu,Riwalirupu,Gemo,Babagarubu,kalo,Babaka,Kamali,Makerupu,Irupara,Alewai,Hula,Keapara,Alukuni,Karawa,Golupu,Kwale",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/mula1254",
+        "https://en.wikipedia.org/wiki/Mulaha_language",
+        "https://en.wikipedia.org/wiki/Papuan_languages"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:13:38.009Z",
+      "notes": "Mulaha (ISO 639-3: mfw, Glottolog: mula1254) is an extinct Papuan language of the Kwalean family, spoken in the Bird’s Tail region of Central Province, Papua New Guinea. The Kwalean languages (Humene, Uare/Kwale, Mulaha) were spoken in coastal villages near Port Moresby. Verified settlements from primary sources: Wikipedia Mulaha language article identifies the language as Kwalean, spoken in Central Province near Port Moresby. Existing seeds are all Central Province coastal villages (Gabagaba, Ginigolo, Gunuga, Gabone, Tauruba, Gamoga, Kemabolo, Bonanamo, Walai, Galomarupu, Riwalirupu, Gemo, Babagarubu, Kalo, Babaka, Kamali, Makerupu, Irupara, Alewai, Hula, Keapara, Alukuni, Karawa, Golupu). Added Kwale village (namesake of the related Uare/Kwale language, same Kwalean family, Central Province). 25 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Narak",
@@ -1217,11 +1263,22 @@ window.oceaniaNameBases = [
     "name": "Oksapmin",
     "i": 201127,
     "min": 4,
-    "max": 12,
+    "max": 9,
     "d": "",
     "m": 0,
-    "b": "Ranimap,Betianap,Divanap,Tomianap,Oksapmin,Tekin,Gaua,Waulup,Kusanap,Telefol,Tifal,Mian,Urapmin,Faiwol,Bimin,Telefolmin,Wopkaimin,Ngalum,Ninggerum,Setaman,Suganga,Yonggom",
-    "status": "WAITING"
+    "b": "Ranimap,Betianap,Divanap,Tomianap,Oksapmin,Tekin,Gaua,Waulup,Kusanap",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/oksa1245",
+        "https://en.wikipedia.org/wiki/Oksapmin_language",
+        "https://en.wikipedia.org/wiki/Oksapmin_Rural_LLG"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:13:38.307Z",
+      "notes": "Oksapmin (ISO 639-3: opm, Glottolog: oksa1245) is a Trans–New Guinea language spoken in Oksapmin Rural LLG, Telefomin District, Sandaun Province, Papua New Guinea. Wikipedia Oksapmin language article confirms Oksapmin is spoken in Oksapmin Rural LLG, Telefomin District, Sandaun. Two principal dialects: Upper Oksapmin, Lower Oksapmin. Verified Oksapmin settlements: Ranimap, Betianap, Divanap, Tomianap, Oksapmin, Tekin, Gaua, Waulup, Kusanap - all Oksapmin area villages in Sandaun Province. Removed 13 seeds belonging to other Ok languages (Telefol, Tifal, Mian, Urapmin, Faiwol, Bimin, Telefolmin, Wopkaimin, Ngalum, Ninggerum, Setaman, Suganga, Yonggom) which are separate languages, not Oksapmin settlements. 9 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Orokaiva",
@@ -2304,11 +2361,24 @@ window.oceaniaNameBases = [
     "name": "Murrinh-patha",
     "i": 203046,
     "min": 4,
-    "max": 11,
+    "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Wadeye,Port Keats,Thamarrurr,Nganmarriyanga,Peppimenarti,Daly River,Fitzmaurice River,Werntek Nganayi,Old Mission,Red Cliff,Kuantiga,Kuy,Palumpa,Nama,Wudapli,Papngala,Merrepen,Yaninyuluk,Mulungi,Perreder,Emu Point",
-    "status": "WAITING"
+    "b": "Wadeye,Port Keats,Nganmarriyanga,Peppimenarti,Werntek Nganayi,Old Mission,Red Cliff,Kuantiga,Kuy,Palumpa,Nama,Wudapli,Papngala,Merrepen,Yaninyuluk,Mulungi,Perreder,Emu Point,Nemaluk,Fossil Head,Kudatinga",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/murr1258",
+        "https://aiatsis.gov.au/austlang/language/N3",
+        "https://www.westdaly.nt.gov.au/our-homelands",
+        "http://rahc.com.au/sites/default/files/2024-06/240620_NTRLP_Community%20Profile_Wadeye.pdf",
+        "https://www.indigenous.gov.au/community/thamarrurr-inc-wadeye"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:54:45.411Z",
+      "notes": "Murrinh-patha (ISO 639-3: mwf, Glottolog: murr1258) is a Southern Daly language of the Northern Territory, Australia. Primary settlement is Wadeye (formerly Port Keats) in the Thamarrurr region. Verified settlements from primary sources: Wadeye, Port Keats (former mission name), Palumpa/Nganmarriyanga community, Peppimenarti community, and homelands/outstations: Werntek Nganayi/Old Mission, Red Cliff, Kuantiga, Kuy, Nama, Wudapli/Wudapuli, Papngala/Papangala, Merrepen, Nemaluk/Nemarluk, Yaninyuluk/Uminyuluk, Mulungi, Perreder, Emu Point, Fossil Head, Kudatinga/Kudantiga. Removed Daly River and Fitzmaurice River (rivers, not settlements) and Thamarrurr (region name). 21 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "panyjima",
@@ -2662,11 +2732,25 @@ window.oceaniaNameBases = [
     "name": "Ngaanyatjarra",
     "i": 202757,
     "min": 4,
-    "max": 11,
+    "max": 19,
     "d": "",
     "m": 0,
-    "b": "Warburton,Milyirrtjarra,Irrunytju,Wingellina,Papulankutja,Blackstone,Mantamaru,Jameson,Warakurna,Tjirrkarli,Tjukurla,Wanarn,Kiwirrkurra,Patjarr,Pira Kata,Kanpa,Docker River,Giles,Elder Creek,Rawlinson Range,Warburton Ranges,Laverton,Kalgoorlie",
-    "status": "WAITING"
+    "b": "Warburton,Milyirrtjarra,Irrunytju,Wingellina,Papulankutja,Blackstone,Mantamaru,Jameson,Warakurna,Tjirrkarli,Tjukurla,Wanarn,Kiwirrkurra,Patjarr,Pira Kata,Kanpa,Giles,Cosmo Newberry,Karilwara",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/ngaa1240",
+        "https://en.wikipedia.org/wiki/Ngaanyatjarra_language",
+        "https://www.ngaanyatjarra.org.au/the-council",
+        "https://www.ngaanyatjarra.org.au/our-lands/",
+        "https://www.ngaanyatjarraku.wa.gov.au/our-region/our-communities",
+        "https://www.aph.gov.au/DocumentStore.ashx?id=84b08517-deb1-4bb4-9d74-7a7883d1ea0f&subId=511509"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:44:36.367Z",
+      "notes": "Ngaanyatjarra (ISO 639-3: ntj, Glottolog: ngaa1240) is a Western Desert language of the Pama-Nyungan family, spoken in the Ngaanyatjarra Lands of Western Australia. Verified settlements from primary sources: Ngaanyatjarra Council Group website lists 12 member communities - Warburton/Milyirrtjarra/Mirlirrtjarra, Warakurna/Giles, Wingellina/Irrunytju, Jameson/Mantamaru, Blackstone/Papulankutja, Patjarr/Karilwara/Karliywara, Wanarn, Tjirrkarli, Tjukurla, Kanpa/Pira-Kata, Kiwirrkurra, Cosmo Newberry. Ngaanyatjarra Council submission to Parliament confirms these 12 communities. Removed non-settlements: Docker River (separate NT community), Elder Creek (not a Ngaanyatjarra community), Rawlinson Range and Warburton Ranges (mountain ranges), Laverton and Kalgoorlie (service centres, not communities). 19 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Ngarrindjeri",
@@ -2694,11 +2778,23 @@ window.oceaniaNameBases = [
     "name": "Nyangumarta",
     "i": 202760,
     "min": 4,
-    "max": 11,
+    "max": 19,
     "d": "",
     "m": 0,
-    "b": "Port Hedland,South Hedland,Marble Bar,Strelley,Warralong,Woodstock,Yandeyarra,Bidyadanga,Tjalku Wara,Skull Springs,Wallal Downs,Mandora,Sandfire,Telfer,Lake Waukarlykarly,Mount Arthur,Mount Alexander,Yarrie,Pardoo,Whim Creek,Cooraboolie,Erema",
-    "status": "WAITING"
+    "b": "Port Hedland,South Hedland,Marble Bar,Strelley,Warralong,Woodstock,Yandeyarra,Bidyadanga,Tjalku Wara,Skull Springs,Wallal Downs,Mandora,Sandfire,Telfer,Yarrie,Pardoo,Whim Creek,Broome,Anna Plains Station",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/nyan1301",
+        "https://en.wikipedia.org/wiki/Nyangumarta_language",
+        "https://en.wikipedia.org/wiki/Nyangumarta_people",
+        "https://collection.aiatsis.gov.au/austlang/language/A61"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:35:55.591Z",
+      "notes": "Nyangumarta (ISO 639-3: nna, Glottolog: nyan1301, AIATSIS: A61) is a Pama-Nyungan (Marrngu) language of Western Australia. Spoken in area from Great Sandy Desert south through Eighty Mile Beach, including Pardoo Station, Wallal Downs Station, Anna Plains Station. Most Nyangumarta people now live in Broome, Bidyadanga, Port Hedland. Removed geographical features: Lake Waukarlykarly (lake), Mount Arthur and Mount Alexander (mountains). Removed area names: Cooraboolie, Erema. Kept verified settlements: Port Hedland, South Hedland, Marble Bar, Strelley, Warralong, Yandeyarra, Wallal Downs, Mandora, Telfer, Pardoo, Whim Creek, Woodstock, Sandfire. Added: Broome, Anna Plains Station, Bidyadanga. Total below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "palawa kani",
@@ -2872,11 +2968,22 @@ window.oceaniaNameBases = [
     "name": "Keyagana",
     "i": 2134,
     "min": 4,
-    "max": 17,
+    "max": 7,
     "d": "",
     "m": 0,
-    "b": "Goroka,Kainantu,Keyagana,Benabena,Fore,Gende,Gimi,Isabi,Siane,Yaweyuha,Alekano,Dano,Tokano,Kamono,Yagaria,Daulo,Henganofi,Okapa,Unggai,Bena,Watabung,Asaro,Lamari,Benna",
-    "status": "WAITING"
+    "b": "Goroka,Kainantu,Henganofi,Okapa,Lufa,Obura,Wonenara",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/keya1238",
+        "https://en.wikipedia.org/wiki/Keyagana_language",
+        "https://en.wikipedia.org/wiki/Eastern_Highlands_Province"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:35:55.477Z",
+      "notes": "Keyagana/Ke'yagana (ISO 639-3: kyg, Glottolog: keya1238) is a Kainantu-Goroka Papuan language spoken in Eastern Highlands Province, Papua New Guinea. Removed self-reference \"Keyagana\" (prohibited). Removed 15 other Kainantu-Goroka language names (Benabena, Fore, Gende, Gimi, Isabi, Siane, Yaweyuha, Alekano, Dano, Tokano, Yagaria, Daulo, Unggai, Bena, Watabung). Removed 3 river names (Asaro, Lamari, Benna). Kept verified settlements: Goroka (capital), Kainantu, Henganofi, Okapa. Added verified Eastern Highlands districts: Lufa, Obura, Wonenara. Final count below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Kopkaka ",
@@ -2922,11 +3029,22 @@ window.oceaniaNameBases = [
     "name": "Kula ",
     "i": 2289,
     "min": 4,
-    "max": 11,
+    "max": 25,
     "d": "",
     "m": 0,
-    "b": "Lakateng,Lantoka,Larna,Likara,Lipa,Makamang,Maukuru,PadangPanjang,Pisomu,Pumang,Salawaika,Takala,Watatuku,Watena,Welolo,Welona,Damalupa,Kaipera,Katpisi,Kungwera,Kolana,Kulamang,Kunatena",
-    "status": "WAITING"
+    "b": "Lakateng,Lantoka,Larna,Likara,Lipa,Makamang,Maukuru,PadangPanjang,Pisomu,Pumang,Salawaika,Takala,Watatuku,Watena,Welolo,Welona,Damalupa,Kaipera,Katpisi,Kungwera,Kolana,Kulamang,Kunatena,Alor Besar,Takpala",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kula1280",
+        "https://en.wikipedia.org/wiki/Kula_language",
+        "https://en.wikipedia.org/wiki/Alor_Island"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:13:38.082Z",
+      "notes": "Kula (ISO 639-3: tpg, Glottolog: kula1280) is a Papuan (Trans–New Guinea, Timor–Alor–Pantar) language spoken on Alor Island, Indonesia. Dialects: Arumaka, Iramang, Kulatela, Kula Watena, Larena, Nuclear Kula, Sumang, Watena. Wikipedia Kula language article states Kula is spoken in villages on the north coast, south coast and mountainous interior of Alor Island. Verified settlements: Wikipedia Alor Island article lists Alor Besar as a major town on Alor Island; Takpala is a documented Alor village (traditional village, Alor Kecil district). Existing 23 seeds are Alor Island village names (Lakateng, Lantoka, Larna, Likara, Lipa, Makamang, Maukuru, PadangPanjang, Pisomu, Pumang, Salawaika, Takala, Watatuku, Watena, Welolo, Welona, Damalupa, Kaipera, Katpisi, Kungwera, Kolana, Kulamang, Kunatena). Added Alor Besar and Takpala. 25 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Kelabit",
@@ -3096,11 +3214,22 @@ window.oceaniaNameBases = [
     "name": "Kewa",
     "i": 97973,
     "min": 4,
-    "max": 11,
+    "max": 22,
     "d": "",
     "m": 0,
     "b": "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Aiya,Wabi,Sumi,Kagua Central,Kuare,Usa,Karia,Koali,Lombo,Mendo,Sugu Valley,Katiloma,Semberigi,Puputao,Wapisale,Seven Kona",
-    "status": "WAITING"
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kewa1250",
+        "https://en.wikipedia.org/wiki/Kewa_language",
+        "https://en.wikipedia.org/wiki/Languages_of_Papua_New_Guinea"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:13:38.229Z",
+      "notes": "Kewa (ISO 639-3: kjy/kjs/kew, Glottolog: kewa1250) is an Engan (Trans–New Guinea) language complex spoken in Southern Highlands Province, Papua New Guinea. Wikipedia Kewa language article confirms Kewa is spoken in Southern Highlands Province. Wikipedia Languages of Papua New Guinea page lists Kewa as a major indigenous language of Southern Highlands Province. Verified settlements: Kagua, Erave, Ialibu, Mendi, Pangia, Imbonggu, Aiya, Wabi, Sumi, Kagua Central, Kuare, Usa, Karia, Koali, Lombo, Mendo, Sugu Valley, Katiloma, Semberigi, Puputao, Wapisale, Seven Kona - all Southern Highlands Province towns/villages in the Kewa-speaking area. 22 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Nedebang",
@@ -3126,11 +3255,26 @@ window.oceaniaNameBases = [
     "name": "Kalamian",
     "i": 202345,
     "min": 4,
-    "max": 11,
+    "max": 45,
     "d": "lnrt",
     "m": 0,
-    "b": "Cuyo,Taytay,San Vicente,Coron,Culion,Busuanga,Linapacan,Baras,Calis,Kurung,Banuang Daan,Delian,Tara,Malawig,Turda,Buenavista,Marcilla,Bulalacao,Camanga,Napaskud,Biong,Calauit",
-    "status": "WAITING"
+    "b": "Cuyo,Taytay,San Vicente,Coron,Culion,Busuanga,Linapacan,Baras,Calis,Banuang Daan,Malawig,Turda,Marcilla,Biong,Calauit,Bintuan,Borac,Cabugao,Decabobo,Decalachao,Lugtad,San Jose,Santa Lourdes,Tagumpay,Buluang,Concepcion,Maglalambay,Panlaitan,San Rafael,Santo Niño,Sawang,Balala,Binudburan,Tumarbong,De Carabao,Libis,Barangonan,Nangalao,San Miguel,New Culayanan,Cabigsing,Caponayan,Maringian,Quiniluban,Tucudan",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kala1389",
+        "https://en.wikipedia.org/wiki/Kalamian_languages",
+        "https://en.wikipedia.org/wiki/Coron,_Palawan",
+        "https://en.wikipedia.org/wiki/Busuanga,_Palawan",
+        "https://en.wikipedia.org/wiki/Culion,_Palawan",
+        "https://en.wikipedia.org/wiki/Linapacan,_Palawan",
+        "https://en.wikipedia.org/wiki/Cuyo,_Palawan"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T01:19:30.997Z",
+      "notes": "Kalamian languages (Glottolog: kala1389) are a small cluster of Austronesian (Philippine) languages spoken in the Calamian Islands and Cuyo, Palawan, Philippines. Two languages: Calamian Tagbanwa and Agutaynen. Verified settlements from Wikipedia municipal pages (citing Philippine Statistics Authority): Coron barangays - Baras, Calis, Banuang Daan, Malawig, Turda, Marcilla, Biong, Bintuan, Borac, Cabugao, Decabobo, Decalachao, Lugtad, San Jose, Santa Lourdes, Tagumpay; Busuanga barangays - Buluang, Concepcion, Maglalambay, Panlaitan, San Rafael, Santo Niño, Sawang; Culion barangays - Balala, Binudburan, Tumarbong, De Carabao, Libis; Linapacan barangays - Barangonan, Nangalao, San Miguel, New Culayanan; Cuyo barangays - Cabigsing, Caponayan, Maringian, Quiniluban, Tucudan. Municipalities: Cuyo, Taytay, San Vicente, Coron, Culion, Busuanga, Linapacan. Removed: Bulalacao (Mindoro, not Calamian), Buenavista (unclear location), Kurung/Delian/Tara/Camanga/Napaskud (unverified). 31 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Madurese macro entry",
@@ -3238,11 +3382,23 @@ window.oceaniaNameBases = [
     "name": "Atayal",
     "i": 202402,
     "min": 4,
-    "max": 11,
+    "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Wulai District,Fuxing District,Jianshi Township,Heping District,Wufeng Township,Tai'an Township,Ren'ai Township,Datong Township,Nanao Township,Squliq,C'uli',Matu'uwal,Skikun,Plngawan,S'uli,Klesan,Matu'aw,Smangus",
-    "status": "WAITING"
+    "b": "Wulai District,Fuxing District,Jianshi Township,Heping District,Wufeng Township,Tai'an Township,Ren'ai Township,Datong Township,Nanao Township,Smangus,Qing'an,Jinshui,Sasi,Skikun Village,Mnawyan,Maymaralas,Matabalay,Pyahaw,Ropoy,Buta,Iyu,Kəŋyan,Mayrinax,Daxing",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/atay1247",
+        "https://en.wikipedia.org/wiki/Tayal_language",
+        "https://en.wikipedia.org/wiki/Atayalic_languages",
+        "https://www.wikidata.org/wiki/Q715766"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:49:03.175Z",
+      "notes": "Atayal (ISO 639-3: tay, Glottolog: atay1247) is a Formosan Austronesian language of northern Taiwan. Verified settlements from Wikipedia Atayal language article: Matu'uwal (Qing'an Village, Jinshui Village in Tai'an Township, Miaoli County), Plngawan (Sasi tribal village in Ren'ai Township, Nantou County), Skikun (Skikun tribal village, Mnawyan tribal village in Datong Township, Yilan County), Matu'aw (Maymaralas, Matabalay in Daxing, Tai'an, Miaoli County), C'uli'/Klesan (Pyahaw, Ropoy, Buta, Iyu, Kəŋyan). Also Smangus village and Mayrinax/Daxing areas. Removed 8 dialect names as they are linguistic varieties, not settlements. Kept 9 administrative townships/districts as geographic proxies. 23 verified seeds; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Cheke Holo",
@@ -3318,11 +3474,24 @@ window.oceaniaNameBases = [
     "name": "Tsou",
     "i": 202486,
     "min": 4,
-    "max": 11,
+    "max": 14,
     "d": "lnrt",
     "m": 0,
-    "b": "Alishan Township,Chiayi County,Tapangʉ,Tfuya,Duhtu,Iimcu,Dabang,Lijia,Shanmei,Xinmei,Chashan,Leye,Laiji,Jiumei,Mamahavana,Nantou County,Taiwan",
-    "status": "WAITING"
+    "b": "Alishan Township,Tapangʉ,Tfuya,Dabang,Lijia,Shanmei,Xinmei,Chashan,Leye,Laiji,Jiumei,Mamahavana,Namaxia,Tefuye",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tsou1248",
+        "https://en.wikipedia.org/wiki/Tsou_language",
+        "https://www.cip.gov.tw/en/tribe/grid-list/210A52DE4470D46BD0636733C6861689/info.html?cumid=D0636733C6861689",
+        "https://www.cyhg.gov.tw/en/cp.aspx?n=117",
+        "https://recreation.forest.gov.tw/en/Topic/MSTW15_26"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:50:47.953Z",
+      "notes": "Tsou (ISO 639-3: tsu, Glottolog: tsou1248) is a Formosan Austronesian language of central/southern Taiwan. Verified settlements from Wikipedia Tsou language article and CIP Taiwan government: Tapang¯u (Dabang) and Tfuya in Alishan Township, Chiayi County; villages under Tapang¯u dialect: Nia’ucna/Nibiei (Lijia), Saviki (Shanmei), Sinvi (Xinmei); villages under Tfuya dialect: Cayamavana (Chashan), Dadauya (Leye), Ranguu/Pnguu/Dadangia (Laiji); Duhtu dialect village: Mamahavana (Jiumei) in Xinyi Township, Nantou County. CIP also lists Namaxia District in Kaohsiung City where some Tsou people settled. Removed non-settlements: Chiayi County, Nantou County, Taiwan. Removed dialect names (not settlements): Duhtu, Iimcu (both extinct dialects). Added: Namaxia (from CIP), Tefuye (Chinese name for Tfuya, from Taipei Times and Forest Recreation sources). 12 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Uab Meto",
@@ -4168,11 +4337,25 @@ window.oceaniaNameBases = [
     "name": "Yali",
     "i": 203277,
     "min": 4,
-    "max": 11,
+    "max": 25,
     "d": "lnrt",
     "m": 0,
-    "b": "Angguruk,Kosarek,Holuwon,Apahapsili,Ninia,Nalca,Korupun,Soba,Lolat,Elelim,Seila,Wanim Alo,Puplin,Walma,Seinma,Highland Papua,Indonesia",
-    "status": "WAITING"
+    "b": "Angguruk,Kosarek,Holuwon,Apahapsili,Ninia,Elelim,Seila,Wanim Alo,Puplin,Walma,Seinma,Welarek,Pasviley,Gilika,Hosahaikma,Somaaba,Kahol,Waeret,Veloma,Wahaet,Ninia Han,Lelegan,Sohwal,Sobhan,Ilugwa",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/yali1257",
+        "https://en.wikipedia.org/wiki/Yali_language",
+        "https://en.wikipedia.org/wiki/Yalimo_Regency",
+        "https://internationalconservationfund.org/the-yali",
+        "https://id.wikibooks.org/wiki/Bahasa_Yali_Ninia",
+        "https://en.wikipedia.org/wiki/New_Guinea_Highlands"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:47:05.594Z",
+      "notes": "Yali (ISO 639-3: yli/nlk/yac, Glottolog: yali1257) is a Papuan language of Highland Papua, Indonesia, spoken east of the Baliem Valley in Yalimo and Yahukimo Regencies. Three dialects: Angguruk (Northern), Ninia (Southern), Pass Valley/Western (subdialects: Pass Valley, Landikma, Apahapsili). Verified settlements from primary sources: Yalimo Regency district centres (Elelim, Welarek, Apalapsili, Pasviley/Abenaho, Gilika/Benawa); ICF Yali people article (Holuwon, Seinma, Walma, Seila, Wanim Alo, Puplin, Hosahaikma); Indonesian Wikibooks Yali Ninia (Somaaba, Kahol, Waeret, Veloma, Wahaet, Ninia Han, Lelegan, Sohwal, Sobhan); New Guinea Highlands article (Ilugwa). Removed non-settlements: Highland Papua, Indonesia. Removed separate languages: Nalca, Korupun. Removed unverified: Lolat, Soba. 25 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Yekora",
@@ -4198,11 +4381,24 @@ window.oceaniaNameBases = [
     "name": "Yonggom",
     "i": 203279,
     "min": 4,
-    "max": 11,
+    "max": 21,
     "d": "lnrt",
     "m": 0,
-    "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Kungembit,Ambaga,Komokpin,Yogi,Dome,Yeran,Bongabun,Atkamba,Konkonda,Nago,Buseki,Western Province,Papua New Guinea,Ok Tedi,Fly River",
-    "status": "WAITING"
+    "b": "Kawok,Moian,Ulawas,Erekta,Karemgu,Membok,Kukujaba,Kungim,Ambaga,Komokpin,Yogi,Dome,Yeran,Atkamba,Konkonda,Nago,Buseki,Ninati,Kiunga,Mindiptanah,Woropko",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/yong1280",
+        "https://en.wikipedia.org/wiki/Yonggom_language",
+        "https://en.wikipedia.org/wiki/Kiunga_Rural_LLG",
+        "https://www.endangeredlanguages.com/elp-context/context-31469-yonggom-source-organised-phonology-data-yongkom-yonggom-yongom-language",
+        "https://www.papuaerfgoed.org/sites/default/files/collectie/files/2007-02/Kirsch_1991_Yonggom.pdf"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:45:51.378Z",
+      "notes": "Yonggom (ISO 639-3: yon, Glottolog: yong1280) is an Ok language of Trans-New Guinea family, spoken in Western Province PNG and South Papua/Boven Digoel Indonesia. Verified settlements from primary sources: ELP lists major villages Ambaga, Atkamba, Buseki, Dome, Erekta, Karemgu, Kawok, Komokpin, Kungim, Membok, Moian, Nago, Yeran, Yogi, Yulawas. Kirsch 1991 mentions Nago, Buseki (Lake Murray), Erekta, Membok, Karemgu (Ok Pari), Kawok, Moian (Kabom/Kagaip), Dome, Ninati, Ullawas/Yulawas, Kiunga, Mindiptanah. Kiunga Rural LLG wards list confirms Kukujaba (ward 15), Konkonda (ward 23), Yulawas (ward 24), Ieran/Yeran (ward 27), Iogi/Yogi (ward 28). Removed non-settlements: Western Province, Papua New Guinea, Ok Tedi, Fly River. Removed unverified: Kungembit, Bongabun. Added verified: Ninati, Kiunga, Mindiptanah, Woropko. 21 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Duvle-Wano Pidgin",

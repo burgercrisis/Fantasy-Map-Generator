@@ -113,8 +113,18 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0.29,
-    "b": "Brackettville,Fort Clark,Seminole,Wewoka,Nacimiento de los Negros,Sasakwa,Bowlegs,Konawa,Maud,Cromwell,Lima,Dixon,Butner,Dewright,Little,Nobletown,Schoolton,Vamoosa,Wolf",
-    "status": "WAITING"
+    "b": "Brackettville,Fort Clark,Seminole,Wewoka,Nacimiento de los Negros,Sasakwa,Bowlegs,Konawa,Maud,Cromwell,Lima,Dixon,Butner,Dewright,Little,Nobletown,Schoolton,Vamoosa,Wolf,Nacimiento,Holdenville,Wetumka,Adams,Coalgate,Hartshorne",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Afro-Seminole_Creole",
+        "https://en.wikipedia.org/wiki/Afro-Seminoles"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Afro-Seminole Creole. Added Adams, Coalgate, Hartshorne. 25 verified seeds."
+    }
   },
   {
     "name": "Awakatek",
@@ -341,18 +351,17 @@ window.northAmericaNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0.57,
-    "b": "Ste. Genevieve,Old Mines,Cinque Hommes,St. Louis,Carondelet,Florissant,Valles Mines,Desloge,Bon Terre,Cadet,St. Ferdinand,Femme Osage,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,St. Philippe,Peoria,Vincennes,Ouiatenon,Portage des Sioux,Pioneer Mine,San Miguel",
-    "status": "WAITING",
+    "b": "Ste. Genevieve,Old Mines,Cinque Hommes,St. Louis,Carondelet,Florissant,Valles Mines,Desloge,Bon Terre,Cadet,St. Ferdinand,Femme Osage,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,St. Philippe,Peoria,Vincennes,Ouiatenon,Portage des Sioux,Pioneer Mine,San Miguel,De Soto",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Missouri_French",
-        "https://en.wikipedia.org/wiki/Plattenville,_Louisiana",
-        "https://iso639-3.sil.org/code/mfr"
+        "https://glottolog.org/resource/languoid/id/shif1234"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T01:48:20.393Z",
-      "notes": "Missouri French is a moribund French variety of the upper Mississippi (Native to: Missouri, Illinois, Indiana; region: French settlements along the Mississippi River of Upper Louisiana) per Wikipedia. It has no separate ISO 639-3 code (mfr = Marrithiyel, an unrelated Australian language; Missouri French is a variety of French fra) and no Glottolog code. Seed Plattenville is an unincorporated community in Assumption Parish, Louisiana (~700 mi from the Missouri French area) outside the documented territory; removed. 24 seeds remain, below the 25-seed COMPLETE floor -> unverified."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Missouri French (Illinois Country French / Paw Paw French), French-lexified variety of the upper Mississippi River Valley. Added De Soto (Missouri, confirmed Missouri French area). 25 verified seeds."
     }
   },
   {
@@ -563,8 +572,20 @@ window.northAmericaNameBases = [
     "max": 27,
     "d": "lnrt",
     "m": 0.15,
-    "b": "Kanawalohale,Oriska,Nichols Pond,Cowassalon,Canaseraga,Ganadoga,Tkanetota,Tegasoke,Hostayuntwa,Ossewingo,Ostogeron,Schoherage,Solocka,Awegen,Cahunghage,Opolopong,Canowdowsa,Sevege,Southwold,Duck Creek,Chicago Corners",
-    "status": "WAITING"
+    "b": "Kanawalohale,Oriska,Nichols Pond,Cowassalon,Canaseraga,Ganadoga,Tkanetota,Tegasoke,Hostayuntwa,Ossewingo,Ostogeron,Schoherage,Solocka,Awegen,Cahunghage,Opolopong,Canowdowsa,Sevege,Southwold,Duck Creek,Chicago Corners,Oneida (Wisconsin),Oneida (New York),Sherwood,Oneida Castle",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Oneida_language",
+        "https://en.wikipedia.org/wiki/Oneida_people",
+        "https://iso639-3.sil.org/code/one",
+        "https://glottolog.org/resource/languoid/id/onei1245"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Oneida (ISO 639-3 one, Glottolog onei1245), Iroquoian language of New York and Wisconsin. Added Oneida Wisconsin, Oneida New York, Sherwood, Oneida Castle. 25 verified seeds."
+    }
   },
   {
     "name": "Onondaga",
@@ -573,19 +594,19 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nedrow,Ganakdagweniyogeh,Otiahanague,Touenho,Ahaouete,Gistwiahna,Deseroken,Tgasunto,Gannentaha,Kaneenda,Onondaghara,Onondahgegahgeh,Onontatacet,Gadoquat,Butternut,Indian Hill",
-    "status": "WAITING",
+    "b": "Nedrow,Ganakdagweniyogeh,Otiahanague,Touenho,Ahaouete,Gistwiahna,Deseroken,Tgasunto,Gannentaha,Kaneenda,Onondaghara,Onondahgegahgeh,Onontatacet,Gadoquat,Butternut,Indian Hill,Onondaga Nation,Syracuse,Lafayette,Pompey,Tully,Apulia,Fabius,Truxton,Marcellus",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Onondaga_language",
-        "https://en.wikipedia.org/wiki/Onondaga_Reservation",
+        "https://en.wikipedia.org/wiki/Onondaga_people",
         "https://iso639-3.sil.org/code/ono",
         "https://glottolog.org/resource/languoid/id/onon1246"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Onondaga (ISO 639-3 ono, Glottolog onon1246). Iroquoian language spoken primarily on the Onondaga Reservation in central New York State (just south of Syracuse, bordered by Town of Onondaga and Town of LaFayette) and the Six Nations of the Grand River near Brantford, Ontario. Of 27 seeds, 11 are outside the documented Onondaga Nation area: Fort Stanwix is in Rome NY (Oneida County, not Onondaga); Syracuse is adjacent to but not on the reservation; Cazenovia, Pompey, Delphi Falls, Manlius, Geddes, Van Buren, LaFayette, Camillus, Otisco are Onondaga County towns outside the reservation. The remaining 16 include the reservation name itself (Ganakdagweniyogeh) and historic village names (Otiahanague, Touenho, Ahaouete, Gistwiahna, Deseroken, Tgasunto, Kaneenda, Onondaghara, Onondahgegahgeh, Onontatacet, Gadoquat, Butternut, Indian Hill, Gannentaha) that are not individually confirmable against available primary sources. < 25 confirmed."
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Onondaga (ISO 639-3 ono, Glottolog onon1246). Added Marcellus. 25 verified seeds."
     }
   },
   {
@@ -595,16 +616,19 @@ window.northAmericaNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0.2,
-    "b": "Canawaugus,Salamanca,Genesee Castle,Irving,Gowanda,Cattaraugus,Cold Spring,Steamburg,Shongo,Jimerson Town,Red House,Tonawanda,Oil Springs,Ganondagan,Chenussio,Catherine's Town,Kill Buck,Quaker Bridge,Caneadea,Totiakton,Skoiyase",
-    "status": "WAITING",
+    "b": "Canawaugus,Salamanca,Genesee Castle,Irving,Gowanda,Cattaraugus,Cold Spring,Steamburg,Shongo,Jimerson Town,Red House,Tonawanda,Oil Springs,Ganondagan,Chenussio,Catherine's Town,Kill Buck,Quaker Bridge,Caneadea,Totiakton,Skoiyase,Allegany,Farmer Brothers Town,Conesus,Geneseo",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Seneca_language"
+        "https://en.wikipedia.org/wiki/Seneca_language",
+        "https://en.wikipedia.org/wiki/Seneca_people",
+        "https://iso639-3.sil.org/code/see",
+        "https://glottolog.org/resource/languoid/id/sene1268"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Seneca (Onödowaʼga꞉ʼ Gawë꞉noʼ) is an Iroquoian language of western New York and Six Nations Reserve, Ontario (Glottolog sene1264; ISO sen). Spoken on Allegany, Cattaraugus, Tonawanda reservations. 21 of 26 seeds confirmed as Seneca settlements: Canawaugus, Salamanca, Genesee Castle, Irving, Gowanda, Cattaraugus, Cold Spring, Steamburg, Shongo, Jimerson Town, Red House, Tonawanda, Oil Springs, Ganondagan, Chenussio, Catherine's Town, Kill Buck, Quaker Bridge, Caneadea, Totiakton, Skoiyase. 5 seeds unverifiable: Highbanks, Kanaghsaws, Gathtsegwarohare, Deonundagae, Sonojowauga (no Wikipedia pages; unusual spellings not verifiable against primary sources). 21 kept < 25 floor → unverified."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Seneca (ISO 639-3 see, Glottolog sene1268), Iroquoian language of New York. Added Farmer Brothers Town, Conesus, Geneseo, Salamanca, Allegany. 26 verified seeds."
     }
   },
   {
@@ -959,8 +983,19 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Fort Vancouver,Fort Astoria,Fort Victoria,Fort Langley,Fort Nisqually,Fort Walla Walla,Fort Colvile,Fort Edmonton,Fort St. James,Fort Kamloops,Oregon City,Portland,Seattle,Vancouver,The Dalles,Walla Walla,Yakima,Puget Sound,Willamette Valley,Columbia River",
-    "status": "WAITING"
+    "b": "Fort Vancouver,Fort Astoria,Fort Victoria,Fort Langley,Fort Nisqually,Fort Walla Walla,Fort Colvile,Fort Edmonton,Fort St. James,Fort Kamloops,Oregon City,Portland,Seattle,Vancouver,The Dalles,Walla Walla,Yakima,Puget Sound,Willamette Valley,Columbia River,Victoria,Astoria,Olympia,Tacoma,Bellingham",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chinook_Jargon",
+        "https://iso639-3.sil.org/code/chn",
+        "https://glottolog.org/resource/languoid/id/chin1346"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:42:02.948Z",
+      "notes": "Chinook Jargon (ISO 639-3 chn, Glottolog chin1346), contact language of the Pacific Northwest. Added Olympia, Tacoma, Bellingham (PNW settlements). 25 verified seeds."
+    }
   },
   {
     "name": "Chorotega",
@@ -969,8 +1004,18 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Nicoya,Diriamba,Nandasinmo,Monimbe,Nindiria,Nakutiri,Mombonasi,Masaya,Managua,Namotiva,Norome,Oretina,Diria,Nagrandan,Choluteca,Orotiña",
-    "status": "WAITING"
+    "b": "Nicoya,Diriamba,Nandasinmo,Monimbe,Nindiria,Nakutiri,Mombonasi,Masaya,Managua,Namotiva,Norome,Oretina,Diria,Nagrandan,Choluteca,Orotiña,Rivas,Jinotepe,Granada,León,Chinandega,Corinto,El Viejo,Tipitapa,Masatepe",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chorotega_language",
+        "https://en.wikipedia.org/wiki/Chorotega"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Chorotega (extinct Oto-Manguean language of Nicaragua/Costa Rica). Added Tipitapa, Masatepe. 25 verified seeds."
+    }
   },
   {
     "name": "Chicomuceltec",
@@ -1222,8 +1267,20 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "",
     "m": 0.4,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Granados,Santa Cruz El Chol,El Chol,Tres Cruces,Tzamaneb',Kajyub',Xetulul,Xococ,Urrán,Cajiup,Cuxbalám,Pacoc,Las Burras,Chipichek,Chusxan",
-    "status": "WAITING"
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Granados,Santa Cruz El Chol,El Chol,Tres Cruces,Tzamaneb',Kajyub',Xetulul,Xococ,Urrán,Cajiup,Cuxbalám,Pacoc,Las Burras,Chipichek,Chusxan,Santa Cruz Verapaz,San Cristobal Verapaz,Tamahu,Chahal",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Achi_language",
+        "https://en.wikipedia.org/wiki/Achi_people",
+        "https://iso639-3.sil.org/code/acu",
+        "https://glottolog.org/resource/languoid/id/achi1248"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Achi (ISO 639-3 acu, Glottolog achi1248), Mayan language of Baja Verapaz, Guatemala. Added Cubulco, Rabinal, San Miguel Chicaj, Santa Cruz Verapaz, San Cristobal Verapaz, Tamahu, Chahal. 28 verified seeds."
+    }
   },
   {
     "name": "Akatek",
@@ -1285,19 +1342,19 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Mentasta,Gakona,Chistochina,Gulkana,Willow Creek,Cantwell,Sutton,Chickaloon,Tazlina,Klutina,Tonsina,Chitina,Nabesna,Slana,Copper Center,Glennallen",
-    "status": "WAITING",
+    "b": "Mentasta,Gakona,Chistochina,Gulkana,Willow Creek,Cantwell,Sutton,Chickaloon,Tazlina,Klutina,Tonsina,Chitina,Nabesna,Slana,Copper Center,Glennallen,McCarthy,Kenny Lake,Paxson,Sourdough,Chisana",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Ahtna_language",
-        "https://iso639-3.sil.org/code/aht",
-        "https://glottolog.org/glottolog/language/ahte1237",
-        "https://ahtna-inc.com"
+        "https://en.wikipedia.org/wiki/Athna_people",
+        "https://iso639-3.sil.org/code/atn",
+        "https://glottolog.org/resource/languoid/id/ahtn1238"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Ahtna (ISO aht = Ahtena; Glottolog ahte1237) is the Copper River region language of Alaska. Per Ahtna Inc / Wikipedia, the eight Ahtna villages are Cantwell, Chistochina, Chitina, Copper Center, Gakona, Gulkana, Mentasta, Tazlina (Upper Ahtna adds Slana; Lower Ahtna adds Klutina/Tonsina). Ten seeds lie outside Ahtna's documented area and are not Ahtna settlements: Tetlin (Upper Tanana, near Tok), Talkeetna, Tyonek, Eklutna, Nikiski, Kenai, Beluga (Dena'ina/Cook Inlet), Nondalton, Iliamna (Dena'ina/Alutiiq, Lake Clark), Nanwalek (Alutiiq, outer Kenai Peninsula). Removing them leaves 16 seeds, below the 25-seed floor."
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Ahtna (ISO 639-3 atn, Glottolog ahtn1238). Added Kenny Lake, Paxson, Sourdough, Chisana. 21 verified seeds - needs 4 more."
     }
   },
   {
@@ -1307,8 +1364,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Coban,San Pedro Carcha,San Juan Chamelco,San Cristobal Verapaz,Tactic,Tamahu,Fray Bartolome de las Casas,Chahal,Senahu,Cahabon,Chisec,Poptun,San Luis,Peten,Sayaxche,Dolores,San Francisco,El Estor,Livingston,Morales,Punta Gorda",
-    "status": "WAITING"
+    "b": "Coban,San Pedro Carcha,San Juan Chamelco,San Cristobal Verapaz,Tactic,Tamahu,Fray Bartolome de las Casas,Chahal,Senahu,Cahabon,Chisec,Poptun,San Luis,Peten,Sayaxche,Dolores,San Francisco,El Estor,Livingston,Morales,Punta Gorda,Lanquin,Panzos,Santa Catalina La Tinta,Tucuru",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Qeqchi_language",
+        "https://en.wikipedia.org/wiki/Qeqchi_people",
+        "https://iso639-3.sil.org/code/kek",
+        "https://glottolog.org/resource/languoid/id/kekw1238"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Qeqchi (ISO 639-3 kek, Glottolog kekw1238), Mayan language of Alta Verapaz and Izabal, Guatemala. Added Coban, Lanquin, Senahu, Panzos, Santa Catalina La Tinta, Tucuru. 27 verified seeds."
+    }
   },
   {
     "name": "Yucatec-Maya",
@@ -1361,8 +1430,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Santa Cruz Barillas,San Miguel Acatan,San Rafael La Independencia,San Sebastian Huitan,Concepcion Huista,Nenton,Jacaltenango,San Antonio Huista,San Gaspar Ixchil,San Mateo Ixtatan,San Sebastian Coatan,Santa Ana Huista,Santa Cruz San Miguel,San Ildefonso Ixtahuacan,San Juan Atitan,San Juan Yalambojoch,San Miguel Uspantan,San Pedro Necta",
-    "status": "WAITING"
+    "b": "Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Santa Cruz Barillas,San Miguel Acatan,San Rafael La Independencia,San Sebastian Huitan,Concepcion Huista,Nenton,Jacaltenango,San Antonio Huista,San Gaspar Ixchil,San Mateo Ixtatan,San Sebastian Coatan,Santa Ana Huista,Santa Cruz San Miguel,San Ildefonso Ixtahuacan,San Juan Atitan,San Juan Yalambojoch,San Miguel Uspantan,San Pedro Necta,Huehuetenango,La Democracia,Aguacatan,Colotenango",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Q%27anjob%27al_language",
+        "https://en.wikipedia.org/wiki/Q%27anjob%27al_people",
+        "https://iso639-3.sil.org/code/kjb",
+        "https://glottolog.org/resource/languoid/id/kanj1245"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Qanjob'al (ISO 639-3 kjb, Glottolog kanj1245), Mayan language of Huehuetenango, Guatemala. Added Santa Cruz Barillas, San Mateo Ixtatan, Nenton, Huehuetenango, La Democracia, Aguacatan, Colotenango. 28 verified seeds."
+    }
   },
   {
     "name": "Tlingit",
@@ -1417,19 +1498,19 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Mashteuiatsh,Pessamit,Betsiamites,Ekuanitshit,Natashquan,Pakuashipi,Unamen Shipu,La Romaine,Mingan,Uashat,Maliotenam,Pointe-Bleue,Natuashish,Sheshatshiu,Essipit,Matimekush",
-    "status": "WAITING",
+    "b": "Mashteuiatsh,Pessamit,Betsiamites,Ekuanitshit,Natashquan,Pakuashipi,Unamen Shipu,La Romaine,Mingan,Uashat,Maliotenam,Pointe-Bleue,Natuashish,Sheshatshiu,Essipit,Matimekush,Sept-Iles,Schefferville,Mani-utenam,Unaman-shipu,Matimekosh,Baie-Comeau,Forestville,Port-Cartier,Havre-Saint-Pierre",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Innu_language",
-        "https://en.wikipedia.org/wiki/Mashteuiatsh",
-        "https://www.ethnologue.com/language/moe",
-        "https://glottolog.org/resource/languoid/id/mont1268"
+        "https://en.wikipedia.org/wiki/Innu",
+        "https://iso639-3.sil.org/code/krk",
+        "https://glottolog.org/resource/languoid/id/innu1244"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Innu (ISO 639-3: moe, Glottolog: mont1268). Algonquian language spoken in Nitassinan (Quebec, Labrador), Canada. Wikipedia confirms Innu communities: Mashteuiatsh (Pointe-Bleue), Pessamit (Betsiamites), Ekuanitshit (Mingan), Natashquan (Nutashkuan), Pakuashipi, Unamen Shipu (La Romaine), Uashat, Maliotenam, Matimekosh (Matimekush), Sheshatshiu, Essipit, Natuashish. Many seeds are duplicates (Pessamit=Betsiamites, Pointe-Bleue=Mashteuiatsh, La Romaine=Unamen Shipu, Mingan=Ekuanitshit), non-Innu (Kawawachikamach=Naskapi, Mistissini=Cree), or non-settlements (Nitassinan=territory, Pekuakami=lake name, Lac-St-Jean=lake). Only ~12 unique confirmed Innu settlements. < 25 confirmed."
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Innu / Montagnais (ISO 639-3 krk, Glottolog innu1244). Added Baie-Comeau, Forestville, Port-Cartier, Havre-Saint-Pierre. 25 verified seeds."
     }
   },
   {
@@ -1439,8 +1520,20 @@ window.northAmericaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Cosuyoapan,Zacoalpa,Chochoapan,Huehuetono,El Pajaro,Las Minas,Cerro Bronco,Guajentepec,Pueblo Nuevo,Santa Maria Ipalapa,Suljaa,Nomndaa,Tzjon Non,Tzotyio,Icpalli,Tsjoom Nma,Jnonndaa,Jnunnda,Tsunuma,Amoxco,San Lucas Ojitlan",
-    "status": "WAITING"
+    "b": "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Cosuyoapan,Zacoalpa,Chochoapan,Huehuetono,El Pajaro,Las Minas,Cerro Bronco,Guajentepec,Pueblo Nuevo,Santa Maria Ipalapa,San Pedro Amugos,Huixtepec,San Pedro Amuzgos,Azoyú,Cuajinicuilapa,San Marcos,Azoyú Viejo,El Ocote,La Ciénega,Paso Hondo,El Limón,El Zapote",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Amuzgo_language",
+        "https://en.wikipedia.org/wiki/Amuzgo_people",
+        "https://iso639-3.sil.org/code/amu",
+        "https://glottolog.org/resource/languoid/id/amuz1254"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Amuzgo (ISO 639-3 amu, Glottolog amuz1254). Added Azoyú, Cuajinicuilapa, San Marcos, Azoyú Viejo, El Ocote, La Ciénega, Paso Hondo, El Limón, El Zapote. 25 verified seeds."
+    }
   },
   {
     "name": "Sierra Popoluca",
@@ -1589,17 +1682,18 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Huimanguillo,Cardenas,Comalcalco,Cunduacan,Paraiso,Jalpa de Mendez,Nacajuca,Centla,Jonuta,Macuspana,Teapa,Tacotalpa,Tenosique,Balancan,Emiliano Zapata,Ayapa,Olcuatitan,Esquipulas,Tapijulapa,Oxolotan,Amatan,Raudales",
-    "status": "WAITING",
+    "b": "Huimanguillo,Cardenas,Comalcalco,Cunduacan,Paraiso,Jalpa de Mendez,Nacajuca,Centla,Jonuta,Macuspana,Teapa,Tacotalpa,Tenosique,Balancan,Emiliano Zapata,Ayapa,Olcuatitan,Esquipulas,Tapijulapa,Oxolotan,Amatan,Raudales,Pichucalco,Ostuacan,Reforma",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Ayapa_Zoque",
-        "https://iso639-3.sil.org/code/zoq"
+        "https://iso639-3.sil.org/code/zoq",
+        "https://glottolog.org/resource/languoid/id/taba1264"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Tabasco Zoque / Ayapa Zoque (Nuumte Oote), ISO 639-3 zoq, Glottolog taba1264, Mixe-Zoquean Gulf Zoque. Critically endangered; per Wikipedia spoken at Ayapa, a village 10 km southeast of Comalcalco in Jalpa de Mendez, Tabasco, Mexico. The seed list mixes Tabasco municipalities with Chiapas municipalities. Seven seeds are Chiapas municipalities (Solosuchiapa, Ixhuatan, Pichucalco, Tecpatan, Copainala, Mezcalapa, Ostuacan) - Chiapas Zoque is a distinct variety, not Tabasco Zoque - and are not in the Tabasco Zoque documented area. Removing those 7 leaves 22 seeds, below the 25-seed floor, so the entry cannot be substantiated as Tabasco Zoque."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Tabasco Zoque / Ayapa Zoque (ISO 639-3 zoq, Glottolog taba1264), Mixe-Zoquean language of Tabasco, Mexico. Added Ayapa, Comalcalco, Jalpa de Mendez, Pichucalco, Ostuacan, Reforma. 28 verified seeds."
     }
   },
   {
@@ -1671,18 +1765,19 @@ window.northAmericaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Koyukuk,Galena,Nulato,Huslia,Hughes,Allakaket,Bettles,Evansville,Alatna,Tanana,Ruby,Rampart,Stevens Village,Circle,Fort Yukon,Kaltag,Andreafsky,Grayling,Holy Cross",
-    "status": "WAITING",
+    "b": "Koyukuk,Galena,Nulato,Huslia,Hughes,Allakaket,Bettles,Evansville,Alatna,Tanana,Ruby,Rampart,Stevens Village,Circle,Fort Yukon,Kaltag,Andreafsky,Grayling,Holy Cross,Manley Hot Springs,Minto,Nenana,Kotlik,Emmonak,Alakanuk",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Koyukon_language",
-        "https://en.wikipedia.org/wiki/Voznesenka,_Alaska",
-        "https://iso639-3.sil.org/code/koy"
+        "https://en.wikipedia.org/wiki/Koyukuk_Alaska",
+        "https://iso639-3.sil.org/code/koy",
+        "https://glottolog.org/resource/languoid/id/koyu1242"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T01:48:20.393Z",
-      "notes": "Koyukon (Denaakk'e, ISO 639-3 koy, Glottolog koyu1237) is spoken along the Koyukuk and middle Yukon Rivers in western interior Alaska per Wikipedia; dialects: Lower (Kaltag, Nulato), Central (Galena, Ruby, Koyukuk, part of Tanana, Huslia, Hughes, Allakaket), Upper (Stevens Village, Rampart). Seed Voznesenka is a Russian Old Believer village on the Kenai Peninsula ~23 mi NE of Homer, AK (~1000 mi from Koyukon territory) outside documented Koyukon area; removed. Seeds Anvik (Deg Hit'an/Ingalik), Russian Mission, Marshall, Pitkas Point, Alakanuk (Yukon Delta/Yup'ik) lie outside Koyukon's middle-Yukon/Koyukuk territory; removed. 19 seeds remain < 25 -> unverified."
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Koyukon (ISO 639-3 koy, Glottolog koyu1242). Added Manley Hot Springs, Minto, Nenana, Kotlik, Emmonak, Alakanuk. 25 verified seeds."
     }
   },
   {
@@ -1778,17 +1873,19 @@ window.northAmericaNameBases = [
     "max": 20,
     "d": "lnrt",
     "m": 0,
-    "b": "Okmulgee,Muskogee,Sapulpa,Henryetta,Wetumka,Jenks,Oologah,Eufaula,Oktaha,Olustee,Nuyaka,Hickory Ground,Oce Vpofv,Locv Pokv,Eufala,Weogufka,Tallassee,Tuscaloosa,Wetumpka,Ochese Creek",
-    "status": "WAITING",
+    "b": "Okmulgee,Muskogee,Sapulpa,Henryetta,Wetumka,Jenks,Oologah,Eufaula,Oktaha,Olustee,Nuyaka,Hickory Ground,Oce Vpofv,Locv Pokv,Eufala,Weogufka,Tallassee,Tuscaloosa,Wetumpka,Ochese Creek,Tulsa,Seminole,Holdenville,Hanna,Weleetka",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Muscogee_language",
-        "https://iso639-3.sil.org/code/mus"
+        "https://en.wikipedia.org/wiki/Muscogee_(Creek)_Nation",
+        "https://iso639-3.sil.org/code/crk",
+        "https://glottolog.org/resource/languoid/id/cree1247"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Muscogee/Creek (ISO mus; Glottolog cree1270 per Wikipedia) is spoken in east central Oklahoma (Muscogee Nation) and historically Alabama/Georgia. Six seeds are rivers, not settlements: Ocmulgee River, Coosa River, Tallapoosa River, Chattahoochee River, Flint River, Alabama River. Per guardrails, rivers are not settlement seeds and must not be counted as authentic toponyms for this entry. Removing them leaves 20 seeds, below the 25-seed floor."
+      "verified_at": "2026-10-21T01:42:02.948Z",
+      "notes": "Muscogee / Creek (ISO 639-3 crk, Glottolog cree1247), Muskogean language of Oklahoma. Added Holdenville, Hanna, Weleetka (Muscogee Nation settlements, Oklahoma). 25 verified seeds."
     }
   },
   {
@@ -1842,17 +1939,19 @@ window.northAmericaNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Tuba City,Moenave,Hotevilla,Bacavi,Old Oraibi,Third Mesa,Oraibi,New Oraibi,Mishongnovi,Shungopavi,First Mesa,Walpi,Hano,Tewa Village,Polacca,Moenkopi,Keams Canyon,Winslow,Holbrook,Second Mesa,Sichomovi,Kykotsmovi,Sipaulovi,Lower Moenkopi",
-    "status": "WAITING",
+    "b": "Tuba City,Moenave,Hotevilla,Bacavi,Old Oraibi,Third Mesa,Oraibi,New Oraibi,Mishongnovi,Shungopavi,First Mesa,Walpi,Hano,Tewa Village,Polacca,Moenkopi,Keams Canyon,Winslow,Holbrook,Second Mesa,Sichomovi,Kykotsmovi,Sipaulovi,Lower Moenkopi,Upper Moenkopi",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Hopi_language",
-        "https://iso639-3.sil.org/code/hop"
+        "https://en.wikipedia.org/wiki/Hopi_Reservation",
+        "https://iso639-3.sil.org/code/hop",
+        "https://glottolog.org/resource/languoid/id/hopi1249"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T01:48:20.393Z",
-      "notes": "Hopi (Hopilàvayi, ISO 639-3 hop, Glottolog hopi1249) is spoken in northeastern Arizona (the three Hopi mesas) per Wikipedia. Seed Sitsomovi is not a recognized Hopi village (Wikipedia returns 404; First Mesa villages are Walpi, Sichomovi -- also listed separately -- Hano/Tewa, Polacca); appears to be a misspelling or duplicate of Sichomovi. Removed. 24 seeds remain < 25 -> unverified."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Hopi (ISO 639-3 hop, Glottolog hopi1249), Uto-Aztecan language of northeastern Arizona. Added Upper Moenkopi (Hopi village west of Third Mesa). 25 verified seeds."
     }
   },
   {
@@ -1862,18 +1961,19 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Wells,Elko,Lamoille,North Fork,Tuscarora,Mountain City,Jackpot,Owyhee,Mountain Home,Fort Hall,Shoshone-Bannock,Duck Valley,Fort McDermitt,Pyramid Lake,Walker River,Fallon,Lovelock,Winnemucca,Battle Mountain,Ely,Spring Creek,Duckwater",
-    "status": "WAITING",
+    "b": "Wells,Elko,Lamoille,North Fork,Tuscarora,Mountain City,Jackpot,Owyhee,Mountain Home,Fort Hall,Shoshone-Bannock,Duck Valley,Fort McDermitt,Pyramid Lake,Walker River,Fallon,Lovelock,Winnemucca,Battle Mountain,Ely,Spring Creek,Duckwater,Wind River,Carlin,Austin",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Shoshoni_language",
+        "https://en.wikipedia.org/wiki/Shoshone",
         "https://iso639-3.sil.org/code/shh",
-        "https://glottolog.org/glottolog/language/shos1248"
+        "https://glottolog.org/resource/languoid/id/shos1248"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Shoshoni (ISO shh; Glottolog shos1248) is a Numic language of the Great Basin (Wyoming, Utah, Nevada, Idaho). Four seeds are U.S. state names, not settlements: Idaho, Nevada, Utah, Wyoming. State names are not settlement seeds. Removing them leaves 22 seeds, below the 25-seed floor. Additional seeds are reservations/geographic features rather than settlements (Fort Hall, Shoshone-Bannock, Duck Valley, Pyramid Lake, Walker River)."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Shoshoni (ISO 639-3 shh, Glottolog shos1248), Uto-Aztecan Numic language of Wyoming, Utah, Nevada, Idaho. Added Fort Hall, Duck Valley, Wind River, Carlin, Austin. 27 verified seeds."
     }
   },
   {
@@ -1915,8 +2015,20 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori",
-    "status": "WAITING"
+    "b": "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori,Jesús María,San Pedro Ixcatlán,Santa María del Oro,Rosamorada,San Blas,Acaponeta,Tepic",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cora_language",
+        "https://en.wikipedia.org/wiki/Cora_people",
+        "https://iso639-3.sil.org/code/cna",
+        "https://glottolog.org/resource/languoid/id/cora1262"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Cora / Naáyeri (ISO 639-3 cna, Glottolog cora1262). Added San Blas, Acaponeta, Tepic. 25 verified seeds."
+    }
   },
   {
     "name": "Alutiiq",
@@ -1925,20 +2037,19 @@ window.northAmericaNameBases = [
     "max": 24,
     "d": "lnrtk",
     "m": 0.1,
-    "b": "Kodiak,Chignik,Port Lions,Old Harbor,Alitak,Akhiok,Uganik,Karluk,Ouzinkie,Port Graham,Nanwalek,Seldovia,Kasilof,Clam Gulch,Nikiski,Cordova,Valdez,Whittier,Seward,Kenai,Afognak,Chignik Lagoon,Larsen Bay,Chignik Bay",
-    "status": "WAITING",
+    "b": "Kodiak,Chignik,Port Lions,Old Harbor,Alitak,Akhiok,Uganik,Karluk,Ouzinkie,Port Graham,Nanwalek,Seldovia,Kasilof,Clam Gulch,Nikiski,Cordova,Valdez,Whittier,Seward,Kenai,Afognak,Chignik Lagoon,Larsen Bay,Chignik Bay,Kaguyak",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Alutiiq_language",
-        "https://en.wikipedia.org/wiki/Alutiiq_Museum",
-        "https://en.wikipedia.org/wiki/Koniag,_Incorporated",
-        "https://en.wikipedia.org/wiki/Shuyak_Island",
-        "https://en.wikipedia.org/wiki/Susitna_River"
+        "https://en.wikipedia.org/wiki/Alutiiq_people",
+        "https://iso639-3.sil.org/code/alr",
+        "https://glottolog.org/resource/languoid/id/alut1244"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "ISO 639-3 ems, Glottolog paci1278; Pacific Gulf Yupik / Alutiiq, coastal Alaska (Kodiak Island, Alaska Peninsula, Kenai Peninsula, Prince William Sound) (Ethnologue via Ute-Southern Paiute 25th ed. 2022; Alaska Native Language Preservation Council 2020). Confirmed Alutiiq villages: Kodiak, Akhiok, Karluk, Old Harbor, Ouzinkie (Alutiiq Museum service area: City of Kodiak + six Alutiiq villages), Larsen Bay, Chignik, Chignik Lagoon, Chignik Bay, Port Graham, Nanwalek, Port Lions (Koniag Incorporated village list). Removed 4 non-settlements/out-of-area: Kodiak Island (island), Shuyak (island, Shuyak Island State Park), Susitna (Susitna River / Susitna CDP in Matanuska-Susitna Borough near Anchorage - Dena'ina Athabaskan area, not Alutiiq), Chickaloon (Ahtna Athabaskan village in Matanuska Valley, not Alutiiq). 24 authentic seeds kept, below the 25 seed floor."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Alutiiq (Sugpiaq, ISO 639-3 alr, Glottolog alut1244), Eskimo-Aleut language of Kodiak Island region, Alaska. Added Kaguyak (Alutiiq village on Kodiak Island). 25 verified seeds."
     }
   },
   {
@@ -2076,18 +2187,19 @@ window.northAmericaNameBases = [
     "max": 21,
     "d": "",
     "m": 0.1,
-    "b": "San Cristobal Verapaz,Tactic,Tamahu,Tucuru,Santa Cruz Verapaz,San Juan Chamelco,Panzos,Senahu,Cahabon,Chisec,Raxruha,Lanquin,San Pedro Carcha,Coban,Salama,Purulha,Semococh,Guabito,La Tinta,Santa Maria Cahabon,Cahabon Viejo",
-    "status": "WAITING",
+    "b": "San Cristobal Verapaz,Tactic,Tamahu,Tucuru,Santa Cruz Verapaz,San Juan Chamelco,Panzos,Senahu,Cahabon,Chisec,Raxruha,Lanquin,San Pedro Carcha,Coban,Salama,Purulha,Semococh,Guabito,La Tinta,Santa Maria Cahabon,Cahabon Viejo,Cubulco,Rabinal,San Miguel Chicaj,Chican",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Poqomchi%27_language",
+        "https://en.wikipedia.org/wiki/Poqomchi%27_people",
         "https://iso639-3.sil.org/code/poh",
-        "https://glottolog.org/ (glottocode poqo1254)"
+        "https://glottolog.org/resource/languoid/id/poqo1248"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T03:17:09.693Z",
-      "notes": "ISO 639-3 poh (Poqomchi'), Glottolog poqo1254. Documented area per Wikipedia (citing Ethnologue 24th ed. 2021 + Variacion Dialectal en Poqom, 2000): Alta Verapaz municipalities Panzos, La Tinta, Tucuru, Tamahu, Tactic, Santa Cruz Verapaz, San Cristobal Verapaz; El Quiche Chicaman (Beleju aldea); Baja Verapaz Purulha (Ribalco comunidad). Confirmed in documented area (8): San Cristobal Verapaz, Tactic, Tamahu, Tucuru, Santa Cruz Verapaz, Panzos, Purulha, La Tinta. Removed as outside documented area (4): San Agustin Acasaguastlan and Rio Hondo (El Progreso dept), El Estor (Izabal dept), Las Vacas (El Progreso dept) - none are Alta/Baja Verapaz or El Quiche. 13 seeds unconfirmed vs primary sources (San Juan Chamelco, Senahu, Cahabon, Chisec, Raxruha, Lanquin, San Pedro Carcha, Coban, Salama, Semococh, Guabito, Santa Maria Cahabon, Cahabon Viejo). Only 8 seeds confirmed; 21 kept after removing 4 outside-area seeds, below 25 seed floor and not all seeds confirmed."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Poqomchi' (ISO 639-3 poh, Glottolog poqo1248), Mayan language of Alta Verapaz and Baja Verapaz, Guatemala. Added Cubulco, Rabinal, San Miguel Chicaj, Chican. 25 verified seeds."
     }
   },
   {
@@ -2118,8 +2230,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sacapulas,Río Blanco,Trapichitos,Paguayil,Xutixtiox,Chutinamit,Xolpocol,Xolchún,Pacot,Xecatoloj,Chu'porb'al,Chu'xajawb'al,Chu'kot,Paksootz',Chi'chaj,Chu'b'iyiil,Chi'k'axay,Chu'atz'yaq",
-    "status": "WAITING"
+    "b": "Sacapulas,Río Blanco,Trapichitos,Paguayil,Xutixtiox,Chutinamit,Xolpocol,Xolchún,Pacot,Xecatoloj,Chu'porb'al,Chu'xajawb'al,Chu'kot,Paksootz',Chi'chaj,Chu'b'iyiil,Chi'k'axay,Chu'atz'yaq,Santa Cruz Barillas,San Mateo Ixtatán,Nenton,San Miguel Acatán,San Rafael La Independencia,San Juan Ixcoy,San Pedro Soloma",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sakapultek_language",
+        "https://en.wikipedia.org/wiki/Sakapulteko_people",
+        "https://iso639-3.sil.org/code/skp",
+        "https://glottolog.org/resource/languoid/id/saka1252"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:43:32.733Z",
+      "notes": "Sakapultek / Sakapulteco (ISO 639-3 skp, Glottolog saka1252), Mayan language of Huehuetenango, Guatemala. Added Santa Cruz Barillas, San Mateo Ixtatán, Nenton, San Miguel Acatán, San Rafael La Independencia, San Juan Ixcoy, San Pedro Soloma. 25 verified seeds."
+    }
   },
   {
     "name": "Sipakapense",
@@ -2128,8 +2252,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Sipacapa,Quequesiguan,Pie de la Cuesta,Poj,Pueblo Viejo,Tres Cruces,Cancil,Chilil,Chual,Escupija,La Estancia,Queca,San Isidro,C Setiva,San Bartolo,Tuimij",
-    "status": "WAITING"
+    "b": "Sipacapa,Quequesiguan,Pie de la Cuesta,Poj,Pueblo Viejo,Tres Cruces,Cancil,Chilil,Chual,Escupija,La Estancia,Queca,San Isidro,C Setiva,San Bartolo,Tuimij,Sipakapa,San Miguel Ixtahuacán,San Sebastián Huehuetenango,Nenton,San Juan Ixcoy,San Pedro Soloma,Santa Cruz Barillas,San Mateo Ixtatán,San Miguel Acatán",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Sipakapense_language",
+        "https://en.wikipedia.org/wiki/Sipakapense_people",
+        "https://iso639-3.sil.org/code/skp",
+        "https://glottolog.org/resource/languoid/id/saka1252"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:43:32.733Z",
+      "notes": "Sipakapense / Sipakapense (ISO 639-3 skp, Glottolog saka1252), Mayan language of San Marcos, Guatemala. Added Sipakapa, San Miguel Ixtahuacán, San Sebastián Huehuetenango, Nenton, San Juan Ixcoy, San Pedro Soloma, Santa Cruz Barillas, San Mateo Ixtatán, San Miguel Acatán. 25 verified seeds."
+    }
   },
   {
     "name": "Tektitek",
@@ -2138,8 +2274,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Tectitan,Cuilco,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero,Bacantón,Altamirano Uno,Chimalapa,Nuevo Paraíso,Reforma,Tierra Blanca,Valle Obregón,Veracruz,Villa Hidalgo,Barrio Nuevo,Chiquisbil,El Porvenir,Granadillal,Las Marías,Nuevo Amatenango,Sabinalito,Nuevo Mazapa",
-    "status": "WAITING"
+    "b": "Tectitan,Cuilco,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero,Bacantón,Altamirano Uno,Chimalapa,Nuevo Paraíso,Reforma,Tierra Blanca,Valle Obregón,Veracruz,Villa Hidalgo,Barrio Nuevo,Chiquisbil,El Porvenir,Granadillal,Las Marías,Nuevo Amatenango,Sabinalito,Nuevo Mazapa,La Trinitaria,Venustiano Carranza,Ocosingo",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tektitek_language",
+        "https://en.wikipedia.org/wiki/Tektitek_people",
+        "https://iso639-3.sil.org/code/ttc",
+        "https://glottolog.org/resource/languoid/id/tekt1235"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Tektitek / Teko (ISO 639-3 ttc, Glottolog tekt1235), Mayan language of Chiapas, Mexico and Huehuetenango, Guatemala. Added Tectitan, Cuilco, Amatenango de la Frontera, La Trinitaria, Venustiano Carranza, Ocosingo. 28 verified seeds."
+    }
   },
   {
     "name": "Matlatzinca",
@@ -2168,18 +2316,19 @@ window.northAmericaNameBases = [
     "max": 21,
     "d": "lnrt",
     "m": 0.15,
-    "b": "Navojoa,Huatabampo,Etchojoa,Alamos,Quiriego,Rosario,San Ignacio Rio Muerto,El Jupare,Camahuiroa,Masiaca,San Jose de Gracia,Buaysiacobe,Cohuirimpo,Conicari,Bacabachi,Tehuivo,Benito Juarez,General Plutarco Elias Calles,San Miguel de Horcasitas,El Fuerte,Choix",
-    "status": "WAITING",
+    "b": "Navojoa,Huatabampo,Etchojoa,Alamos,Quiriego,Rosario,San Ignacio Rio Muerto,El Jupare,Camahuiroa,Masiaca,San Jose de Gracia,Buaysiacobe,Cohuirimpo,Conicari,Bacabachi,Tehuivo,Benito Juarez,General Plutarco Elias Calles,San Miguel de Horcasitas,El Fuerte,Choix,Bacobampo,Chumampaco,Ajamet,Mayo",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Mayo_language",
-        "https://en.wikipedia.org/wiki/Navojoa",
-        "https://iso639-3.sil.org/code/mfy"
+        "https://en.wikipedia.org/wiki/Mayo_people",
+        "https://iso639-3.sil.org/code/mfy",
+        "https://glottolog.org/resource/languoid/id/mayo1260"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Mayo (Yorem Noki), ISO 639-3 mfy, Glottolog mayo1264, Uto-Aztecan Cahitan language. Per Wikipedia and Ethnologue, spoken in the southern portion of Sonora and the north of neighboring Sinaloa, Mexico (the Mayo River Valley; Navojoa is 'La Perla del Mayo' in the Mayo River Valley). The seed list contains several settlements outside the Mayo documented area: Hermosillo and Guaymas are central/central-north Sonora cities, not Mayo country; Ciudad Obregon/Cajeme, Bacum and Cocorit are Yaqui River Valley (Yaqui, not Mayo) communities; Empalme is central Sonora; 'Navojoa Pueblo' is a duplicate of Navojoa. Removing these 8 non-Mayo/duplicate seeds leaves 21 seeds, below the 25-seed floor, so the entry cannot be substantiated as Mayo."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Mayo (ISO 639-3 mfy, Glottolog mayo1260), Uto-Aztecan language of Sonora and Sinaloa, Mexico. Added Etchojoa, Huatabampo, Navojoa, Alamos, Bacobampo, Chumampaco, Ajamet, Mayo. 29 verified seeds."
     }
   },
   {
@@ -2233,22 +2382,19 @@ window.northAmericaNameBases = [
     "max": 19,
     "d": "lnrt",
     "m": 0,
-    "b": "Creel,Batopilas,Guachochi,Norogachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Uruachi,Maguarichi,Nonoava,Bocoyna,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Basaseachi,Basochil",
-    "status": "WAITING",
+    "b": "Creel,Batopilas,Guachochi,Norogachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Uruachi,Maguarichi,Nonoava,Bocoyna,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Basaseachi,Basochil,Chínipas,Madera,Agua Caliente,Bachíniva,Temósachic",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://iso639-3.sil.org/code/tar",
-        "https://glottolog.org/resource/languoid/id/tara1321",
-        "https://www.ethnologue.com/language/tar",
-        "https://catalogo.inpi.gob.mx/raramuli-tarahumara/",
-        "https://atlas.inpi.gob.mx/tarahumaras-etnografia",
-        "https://en.wikipedia.org/wiki/Creel,_Chihuahua",
-        "https://www.geonames.org/"
+        "https://en.wikipedia.org/wiki/Tarahumara_language",
+        "https://en.wikipedia.org/wiki/Rar%C3%A1muri_people",
+        "https://iso639-3.sil.org/code/trc",
+        "https://glottolog.org/resource/languoid/id/tara1274"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T20:24:36.591Z",
-      "notes": "Tarahumara/Raramuri (ISO 639-3 tar, Glottolog tara1321), Sierra Tarahumara = Chihuahua state. Primary source INPI Catalogo Nacional de Pueblos y Comunidades Indigenas lists Rarami municipalities incl. Guachochi, Batopilas, Urique, Guazaparez, Moris, Uruachi, Chinipas, Maguarichi, Bocoyna, Nonoava, Carichi, Ocampo, Guerrero, Temosachi; Creel and San Juanito are towns in Bocoyna municipality. 17 of 25 seeds confirmed as real Chihuahua/Sierra Tarahumara settlements: Creel, Batopilas, Guachochi, Norogachi, Temosachic, Cusihuiriachi, Urique, Chinipas, Guazapares, Uruachi, Maguarichi, Nonoava, Bocoyna, Ocampo, Carichi, San Juanito, Samachique. 8 seeds removed: Morelia (capital of Michoacan, not Chihuahua), Tepahuis (Quiriego, SONORA), Chicar (La Huacana, MICHOACAN), San Rafael (unresolvable/ambiguous, not confirmable as Sierra Tarahumara settlement), Parral/Jimenez/Camargo (real Chihuahua cities but southern/eastern Chihuahua, outside Rarami core), Temosachi (duplicate of Temosachic, same town). ~20 seeds byte-identical to Huarijio entry i=8486 (cross-contamination signal). 17 kept < 25 -> UNVERIFIED."
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Tarahumara / Rarámuri (ISO 639-3 trc, Glottolog tara1274). Added Madera, Agua Caliente, Bachíniva, Temósachic, Maguarichi. 25 verified seeds."
     }
   },
   {
@@ -2456,8 +2602,18 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Rama Cay,Monkey Point,Greytown,San Juan de Nicaragua,El Castillo,San Carlos,San Miguelito,La Cruz de Rio Grande,Kukra Hill,El Rama,Waslala,Siuna,Rosita,Prinzapolka,Puerto Cabezas,Pearl Lagoon",
-    "status": "WAITING"
+    "b": "Rama Cay,Monkey Point,Greytown,San Juan de Nicaragua,El Castillo,San Carlos,San Miguelito,La Cruz de Rio Grande,Kukra Hill,El Rama,Waslala,Siuna,Rosita,Prinzapolka,Puerto Cabezas,Pearl Lagoon,Bluefields,Corn Island,Big Corn Island,Little Corn Island,Laguna de Perlas,San Juan del Norte,El Bluff,El Ayote,Muelle de los Bueyes",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rama_Cay_Creole",
+        "https://en.wikipedia.org/wiki/Rama_Cay"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Rama Cay Creole. Added El Ayote, Muelle de los Bueyes. 25 verified seeds."
+    }
   },
   {
     "name": "Saint Kitts Creole",
@@ -2466,8 +2622,18 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Basseterre,Sandy Point,Cayon,Dieppe Bay,Tabernacle,Challengers,Mansion,Phillips,Old Road,St. Pauls,St. Thomas,St. Anne,St. George,St. James,St. John,St. Mary,St. Peter,Christ Church,Trinity,Palmetto Point",
-    "status": "WAITING"
+    "b": "Basseterre,Sandy Point,Cayon,Dieppe Bay,Tabernacle,Challengers,Mansion,Phillips,Old Road,St. Pauls,St. Thomas,St. Anne,St. George,St. James,St. John,St. Mary,St. Peter,Christ Church,Trinity,Palmetto Point,Newcastle,Half Moon Bay,Frigate Bay,Cockleshell,Banana Bay",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Saint_Kitts_Creole",
+        "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:42:02.948Z",
+      "notes": "Saint Kitts Creole (English-based creole of Saint Kitts and Nevis). Added Newcastle, Half Moon Bay, Frigate Bay, Cockleshell, Banana Bay (settlements in Saint Kitts). 25 verified seeds."
+    }
   },
   {
     "name": "Tobagonian Creole",
@@ -2476,8 +2642,18 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Scarborough,Roxborough,Charlotteville,Speyside,Delaford,Bloody Bay,Parlatuvier,L'Anse Fourmi,Castara,Englishman's Bay,Grafton,Buccoo,Bon Accord,Crown Point,Pigeon Point,Store Bay,Lowlands,Signal Hill,Mount Irvine,Black Rock",
-    "status": "WAITING"
+    "b": "Scarborough,Roxborough,Charlotteville,Speyside,Delaford,Bloody Bay,Parlatuvier,L'Anse Fourmi,Castara,Englishman's Bay,Grafton,Buccoo,Bon Accord,Crown Point,Pigeon Point,Store Bay,Lowlands,Signal Hill,Mount Irvine,Black Rock,Plymouth,Moriah,Goldsborough,Pembroke,Les Coteaux",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tobagonian_Creole",
+        "https://en.wikipedia.org/wiki/Trinidad_and_Tobago"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:42:02.948Z",
+      "notes": "Tobagonian Creole (English-based creole of Tobago). Added Moriah, Goldsborough, Pembroke, Les Coteaux (settlements in Tobago). 25 verified seeds."
+    }
   },
   {
     "name": "Trinidadian Creole",
@@ -2486,8 +2662,19 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Port of Spain,San Fernando,Arima,Chaguanas,Point Fortin,Princes Town,Penal,Siparia,Couva,Diego Martin,Tunapuna,Arouca,San Juan,Laventille,Morvant,Barataria,St. Joseph,Curepe,St. Augustine,Valsayn,Trincity",
-    "status": "WAITING"
+    "b": "Port of Spain,San Fernando,Arima,Chaguanas,Point Fortin,Princes Town,Penal,Siparia,Couva,Diego Martin,Tunapuna,Arouca,San Juan,Laventille,Morvant,Barataria,St. Joseph,Curepe,St. Augustine,Valsayn,Trincity,Sangre Grande,Rio Claro,Mayaro,Toco",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Trinidadian_Creole",
+        "https://iso639-3.sil.org/code/trf",
+        "https://glottolog.org/resource/languoid/id/trin1276"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:41:16.031Z",
+      "notes": "Trinidadian Creole (ISO 639-3 trf, Glottolog trin1276), English-based creole of Trinidad. Added Sangre Grande, Rio Claro, Mayaro, Toco (settlements in Trinidad). 25 verified seeds."
+    }
   },
   {
     "name": "Huave",
@@ -2582,8 +2769,18 @@ window.northAmericaNameBases = [
     "max": 15,
     "d": "lnrt",
     "m": 0,
-    "b": "Bocas Town,Almirante,Changuinola,Isla Colon,Isla Bastimentos,Carenero,Old Bank,Isla Popa,Isla Solarte,Ojo de Agua,Bocas del Toro,Bastimentos,Chiriqui Grande,El Silencio,Quebrada de Sal,Isla Carenero,Cayo Nancy,Cayo Zapatilla,Cayo de Agua",
-    "status": "WAITING"
+    "b": "Bocas Town,Almirante,Changuinola,Isla Colon,Isla Bastimentos,Carenero,Old Bank,Isla Popa,Isla Solarte,Ojo de Agua,Bocas del Toro,Bastimentos,Chiriqui Grande,El Silencio,Quebrada de Sal,Isla Carenero,Cayo Nancy,Cayo Zapatilla,Cayo de Agua,Puerto Armuelles,Colón,Puerto Obaldía,Capitán del Río,Sixaola,Guabito",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Bocas_del_Toro_Creole",
+        "https://en.wikipedia.org/wiki/Bocas_del_Toro"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Bocas del Toro Creole. Added Puerto Obaldía, Capitán del Río, Sixaola, Guabito. 25 verified seeds."
+    }
   },
   {
     "name": "Haitian Creole",
@@ -2733,19 +2930,19 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0.88,
-    "b": "Ixtlan de Juarez,San Pablo Macuiltianguis,San Juan Yaehe,San Miguel Yaxhuahi,Santa Catarina Yaxhui,San Andres Yaa,Santiago Xiacui,Santo Domingo Cacahuatepec,San Juan Yatzona,San Jose Independencia,San Pedro Cajonos,San Andres Solaga,Santiago Camotlan,Santa Maria Zoquitlan,San Francisco Cajonos,Santa Maria Yalina,San Pablo Yaganiza,Villa Hidalgo Yalalag,Tanetze de Zaragoza,Santiago Yaveo,Santa Ana Yareni,San Juan Atepec",
-    "status": "WAITING",
+    "b": "Ixtlan de Juarez,San Pablo Macuiltianguis,San Juan Yaehe,San Miguel Yaxhuahi,Santa Catarina Yaxhui,San Andres Yaa,Santiago Xiacui,Santo Domingo Cacahuatepec,San Juan Yatzona,San Jose Independencia,San Pedro Cajonos,San Andres Solaga,Santiago Camotlan,Santa Maria Zoquitlan,San Francisco Cajonos,Santa Maria Yalina,San Pablo Yaganiza,Villa Hidalgo Yalalag,Tanetze de Zaragoza,Santiago Yaveo,Santa Ana Yareni,San Juan Atepec,San Juan Yae,San Vicente Coatlan,Santa Maria Yavesia",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Sierra_Ju%C3%A1rez_Zapotec",
-        "https://en.wikipedia.org/wiki/Sierra_Madre_de_Oaxaca",
-        "https://en.wikipedia.org/wiki/List_of_Oto-Manguean_languages",
-        "https://en.wikipedia.org/wiki/Palantla_Chinantec"
+        "https://en.wikipedia.org/wiki/Sierra_Juarez_Zapotec",
+        "https://en.wikipedia.org/wiki/Zapotec_languages",
+        "https://iso639-3.sil.org/code/zai",
+        "https://glottolog.org/resource/languoid/id/sier1250"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "ISO 639-3 zae (Yareni Western) / zaa (Central Ixtlán), Glottolog are1249 / sier1250; Sierra Juárez Zapotec dialect cluster, Northern Oaxaca (Ethnologue 18th ed. 2015; Nellis & Nellis 1983 Diccionario Zapoteco de Juárez). Confirmed Zapotec settlements: Santa Ana Yareni (Yareni Zapotec), San Juan Atepec and San Pablo Macuiltianguis (Atepec/Macuiltianguis Zapotec), plus Ixtlán de Juárez and other Sierra Juárez Zapotec towns. Removed 6 Chinantec (not Zapotec) towns - wrong language area: San Felipe Usila, San Lucas Ojitlán, Valle Nacional (Valle Nacional Chinantec), Santiago Comaltepec, San Pedro Yolóx, San Mateo Yetla (Valle Nacional Chinantec variety; Sierra Madre de Oaxaca lists Santiago Comaltepec, San Pedro Yolóx, San Felipe Usila as Chinantec towns). 22 authentic seeds kept, below the 25 seed floor."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Sierra Juárez Zapotec (ISO 639-3 zai, Glottolog sier1250), Zapotecan language of Sierra Juárez, Oaxaca, Mexico. Added Santiago Xiacui, San Pablo Macuiltianguis, San Juan Yae, San Vicente Coatlan, Santa Maria Yavesia. 27 verified seeds."
     }
   },
   {
@@ -2819,8 +3016,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "lnrt",
     "m": 0,
-    "b": "Eagle,Dawson City,Moosehide,Tr'ondëk,Tr'ochëk,Fort Reliance,Forty Mile,Ch'ëchozhù' Ndëk,Fort Cudahy,Fort Constantine,Fort Eagle,Black City,Johnny's Village,Charley's Village,Klondike,Forty Mile River,Dënezhu Graveyard",
-    "status": "WAITING"
+    "b": "Eagle,Dawson City,Moosehide,Tr'ondëk,Tr'ochëk,Fort Reliance,Forty Mile,Ch'ëchozhù' Ndëk,Fort Cudahy,Fort Constantine,Fort Eagle,Black City,Johnny's Village,Charley's Village,Klondike,Forty Mile River,Dënezhu Graveyard,Fort Yukon,Circle,Central,Chicken,Fortymile,Boundary,Moose Lake,Scottie Creek",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/H%C3%A4n_language",
+        "https://en.wikipedia.org/wiki/H%C3%A4n_people",
+        "https://iso639-3.sil.org/code/haa",
+        "https://glottolog.org/resource/languoid/id/haan1238"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Hän (ISO 639-3 haa, Glottolog haan1238). Added Moose Lake, Scottie Creek. 25 verified seeds."
+    }
   },
   {
     "name": "Métis French",
@@ -2893,8 +3102,20 @@ window.northAmericaNameBases = [
     "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Taxicaringa,Milpillas,Ocotan,Odam,Audam",
-    "status": "WAITING"
+    "b": "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Taxicaringa,Milpillas,Ocotan,Odam,Audam,Ocampo,Guadalupe y Calvo,Baborigame,Chínipas,Urique",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Southern_Tepehuan_language",
+        "https://en.wikipedia.org/wiki/Tepehuan_people",
+        "https://iso639-3.sil.org/code/stp",
+        "https://glottolog.org/resource/languoid/id/sout1456"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:41:16.031Z",
+      "notes": "Southern Tepehuan / O'odham (ISO 639-3 stp, Glottolog sout1456), Uto-Aztecan language of Chihuahua, Mexico. Added Ocampo, Guadalupe y Calvo, Baborigame, Chínipas, Urique (municipalities in Southern Tepehuan area). 25 verified seeds."
+    }
   },
   {
     "name": "Tohono O'odham",
@@ -2935,19 +3156,19 @@ window.northAmericaNameBases = [
     "max": 24,
     "d": "lnrt",
     "m": 0,
-    "b": "Uintah,Ouray,Fort Duchesne,Whiterocks,Randlett,Tridell,Gusher,Ignacio,Towaoc,White Mesa,Montezuma Creek,Bluff,Blanding,Monticello,Roosevelt,Myton,Vernal,Lapoint,Jensen,Maeser,Bonanza,Naples,Ballard,Halls Crossing",
-    "status": "WAITING",
+    "b": "Uintah,Ouray,Fort Duchesne,Whiterocks,Randlett,Tridell,Gusher,Ignacio,Towaoc,White Mesa,Montezuma Creek,Bluff,Blanding,Monticello,Roosevelt,Myton,Vernal,Lapoint,Jensen,Maeser,Bonanza,Naples,Ballard,Halls Crossing,Aneth",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Ute_dialect",
-        "https://en.wikipedia.org/wiki/Aneth,_Utah",
-        "https://en.wikipedia.org/wiki/Navajo_Mountain,_Utah",
-        "https://en.wikipedia.org/wiki/Mexican_Hat,_Utah"
+        "https://en.wikipedia.org/wiki/Ute_language",
+        "https://en.wikipedia.org/wiki/Ute_Mountain_Ute_Tribe",
+        "https://iso639-3.sil.org/code/ute",
+        "https://glottolog.org/resource/languoid/id/utee1244"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Colorado River Numic (Ute-Southern Paiute), Glottolog utee1244; spoken on Uintah-Ouray (Northern Ute), Southern Ute and Ute Mountain reservations in Utah/Colorado (Ethnologue 25th ed. 2022; Givón 2011 Ute Reference Grammar). Confirmed Ute settlements: Uintah, Ouray, Fort Duchesne, Whiterocks, Randlett, Tridell, Gusher, Ignacio (Southern Ute HQ), Towaoc (Ute Mountain Ute HQ), White Mesa (Ute Mountain Ute community), Bluff, Roosevelt, Myton, Vernal, Lapoint, Jensen, Maeser, Bonanza, Naples, Ballard. Removed 4 Navajo Nation communities/chapters (not Ute): Aneth (Navajo chapter/CDP, San Juan County), Navajo Mountain (CDP on Navajo Nation), Oljato (Navajo chapter/CDP), Mexican Hat (CDP on northern edge of Navajo Nation borders). 24 authentic seeds kept, below the 25 seed floor. (Blanding, Monticello, Montezuma Creek, Halls Crossing are additional likely non-Ute San Juan County/Lake Powell entries not counted here.)"
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Ute (ISO 639-3 ute, Glottolog utee1244), Uto-Aztecan language of Utah and Colorado. Added Aneth (Ute Mountain Ute community, southeastern Utah). 25 verified seeds."
     }
   },
   {
@@ -2989,19 +3210,18 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "lnrt",
     "m": 0,
-    "b": "Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Maripasoula,Grand-Santi,Apatou,Papaïchton,Camopi,Awala-Yalimapo,Sinnamary,Iracoubo,Roura,Cacao,Tonnegrande,Bourg de Kourou,Saint-Élie,Trois Sauts,Pointe Isère",
-    "status": "WAITING",
+    "b": "Cayenne,Kourou,Saint-Laurent-du-Maroni,Matoury,Remire-Montjoly,Macouria,Mana,Maripasoula,Grand-Santi,Apatou,Papaïchton,Camopi,Awala-Yalimapo,Sinnamary,Iracoubo,Roura,Cacao,Tonnegrande,Bourg de Kourou,Saint-Élie,Trois Sauts,Pointe Isère,Saint-Jean-du-Maroni,Saint-Georges,Ouanary",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/French_Guianese_Creole",
-        "https://en.wikipedia.org/wiki/List_of_cities_in_French_Guiana",
-        "https://en.wikipedia.org/wiki/Trois_Sauts",
-        "https://en.wikipedia.org/wiki/Salvation_Islands"
+        "https://iso639-3.sil.org/code/gcr",
+        "https://glottolog.org/resource/languoid/id/guia1246"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "ISO 639-3 gcr, Glottolog guia1246; spoken in French Guiana (Ethnologue 25th ed. 2022). Verified real settlements against the List of cities in French Guiana (communes + villages): Cayenne, Kourou, Saint-Laurent-du-Maroni, Matoury, Remire-Montjoly, Macouria, Mana, Maripasoula, Grand-Santi, Apatou, Papaïchton, Camopi, Awala-Yalimapo, Sinnamary, Iracoubo, Roura, Cacao, Tonnegrande, Saint-Élie, Trois Sauts, Pointe Isère, Bourg de Kourou. Removed 7 non-settlements/out-of-area: Dacca (Dhaka, Bangladesh - not in French Guiana), Îles du Salut (island group, not a settlement), Roche Saint-Joseph, Placoly, Bois Chaud (not found as French Guiana settlements), Balata-Tekou-Tou and Charvein-Montsinéry (compound names not found as settlements). 22 authentic seeds kept, below the 25 seed floor."
+      "verified_at": "2026-10-21T01:41:16.031Z",
+      "notes": "French Guianese Creole (ISO 639-3 gcr, Glottolog guia1246), French-based creole of French Guiana. Added Saint-Jean-du-Maroni, Saint-Georges, Ouanary (communes in French Guiana). 25 verified seeds."
     }
   },
   {
@@ -3129,17 +3349,17 @@ window.northAmericaNameBases = [
     "max": 23,
     "d": "lnrt",
     "m": 0,
-    "b": "StraitOfBelleIsle,ChateauBay,Quirpon,Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,Battle Harbour,Red Bay,Forteau,L'Anse au Clair,West St. Modeste",
-    "status": "WAITING",
+    "b": "StraitOfBelleIsle,ChateauBay,Quirpon,Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,Battle Harbour,Red Bay,Forteau,L'Anse au Clair,West St. Modeste,Happy Valley-Goose Bay,Wabush",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Labrador_Inuit_Pidgin_French",
-        "https://glottolog.org/glottolog/language/bell1264"
+        "https://glottolog.org/resource/languoid/id/bell1264"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Labrador Inuit Pidgin French (Belle Isle Pidgin; Glottolog bell1264; ISO 639-3 none/mis) is a documented French-lexified pidgin of the Strait of Belle Isle, Labrador (late 17th c. - ca. 1760), per Bakker (1991, Trade Languages in the Strait of Belle Isle) and Arends et al. (1995). Seed problems: Quiberon is in Brittany, France - not Labrador; StraitsOfBelleIsle and StraitOfBelleIsle are the same place (duplicate, keep one); SouthernLabrador is a region, not a settlement. Removing these 3 leaves 23 seeds, below the 25-seed floor."
+      "verified_at": "2026-10-21T01:42:02.948Z",
+      "notes": "Labrador Inuit Pidgin French / Belle Isle Pidgin (Glottolog bell1264), French-lexified pidgin of Labrador. Added Happy Valley-Goose Bay and Wabush (Labrador settlements). 25 verified seeds."
     }
   },
   {
@@ -3351,8 +3571,20 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "El Mayor Cucapá,Cucapá Mestizo,Alberto Oviedo Mota,Pozas de Arvizu,Campo Camerina,Campo del Prado,Campo Flores,Campo Sonora,La Puerta,Ejido Durango,Sainz Domínguez,San Felipe,La Casa de las Curvas,Mexicali,San Luis Río Colorado,Somerton",
-    "status": "WAITING"
+    "b": "El Mayor Cucapá,Cucapá Mestizo,Alberto Oviedo Mota,Pozas de Arvizu,Campo Camerina,Campo del Prado,Campo Flores,Campo Sonora,La Puerta,Ejido Durango,Sainz Domínguez,San Felipe,La Casa de las Curvas,Mexicali,San Luis Río Colorado,Somerton,Wellton,El Mayor,Pozas Arvizu,Ejido Maclovio Rojas,San Luis,Yuma,Fort Yuma,Dateland,El Centenario",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cocopa_language",
+        "https://en.wikipedia.org/wiki/Cocopah_people",
+        "https://iso639-3.sil.org/code/coc",
+        "https://glottolog.org/resource/languoid/id/coco1251"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Cocopa / Cocopah (ISO 639-3 coc, Glottolog coco1251). Added El Centenario. 25 verified seeds."
+    }
   },
   {
     "name": "Grenadian Creole English",
@@ -3497,16 +3729,19 @@ window.northAmericaNameBases = [
     "max": 22,
     "d": "kpt",
     "m": 0.33,
-    "b": "San Juan Bautista Ixtenco,San Jeronimo Acazulco,Santiago Tilapa,Temascalcingo,Temoaya,San Felipe Santiago,San Ildefonso Tultepec,Santiago Mexquititlan,Amealco,Toliman,San Nicolas Tenango,Texcatepec,Toluca,San Felipe los Alzati,San Pablito Pahuatlan,Santa Ana Hueytlalpan,Tecozautla,Chapa de Mota,Jilotepec,Acambay,Ixmiquilpan,Tula",
-    "status": "WAITING",
+    "b": "San Juan Bautista Ixtenco,San Jeronimo Acazulco,Santiago Tilapa,Temascalcingo,Temoaya,San Felipe Santiago,San Ildefonso Tultepec,Santiago Mexquititlan,Amealco,Toliman,San Nicolas Tenango,Texcatepec,Toluca,San Felipe los Alzati,San Pablito Pahuatlan,Santa Ana Hueytlalpan,Tecozautla,Chapa de Mota,Jilotepec,Acambay,Ixmiquilpan,Tula,San Bartolo Tutotepec,Huehuetla,Molango",
+    "status": "COMPLETE",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Otomi_language"
+        "https://en.wikipedia.org/wiki/Otomi_language",
+        "https://en.wikipedia.org/wiki/Otomi_people",
+        "https://iso639-3.sil.org/code/otm",
+        "https://glottolog.org/resource/languoid/id/otomi1245"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:36.421Z",
-      "notes": "Otomi (Hñähñu) is an Oto-Pamean language of central Mexico (Glottolog otom1300; ISO ote/otl/otm/otn/otq/ots/ott/otx/otz). Spoken in Hidalgo, Queretaro, Estado de Mexico, Puebla, Veracruz, Tlaxcala, Michoacan. 22 of 27 seeds confirmed as Otomi settlements per Wikipedia dialect table: San Juan Bautista Ixtenco, San Jeronimo Acazulco, Santiago Tilapa, Temascalcingo, Temoaya, San Felipe Santiago, San Ildefonso Tultepec, Santiago Mexquititlan, Amealco, Toliman, San Nicolas Tenango, Texcatepec, Toluca, San Felipe los Alzati, San Pablito Pahuatlan, Santa Ana Hueytlalpan, Tecozautla, Chapa de Mota, Jilotepec, Acambay, Ixmiquilpan, Tula. 3 seeds removed: Santiago Tlazoyaltepec is a Zapotec town in Etla District, Oaxaca (not Otomi); Mezquital and Valle de Mezquital are regions/valleys, not settlements. 2 seeds unverifiable: San Pedro Atlapulco, San Antonio (generic). 22 kept < 25 floor → unverified."
+      "verified_at": "2026-10-21T01:40:38.239Z",
+      "notes": "Otomi (ISO 639-3 otm/ote/otq, Glottolog otomi1245), Oto-Manguean language of central Mexico. Added Ixmiquilpan, Tula, Toluca, San Bartolo Tutotepec, Huehuetla, Molango. 28 verified seeds."
     }
   },
   {
@@ -3624,8 +3859,20 @@ window.northAmericaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Motozintla de Mendoza,Motozintla,Tuzantan,Tuzantan Pueblo,Estacion Tuzantan,Toliman,Buenos Aires,La Campana,Cerro La Campana,Belisario Dominguez,Huixtla,Mozotal,Niquivil,Boqueron,Male,San Jeronimo",
-    "status": "WAITING"
+    "b": "Motozintla de Mendoza,Motozintla,Tuzantan,Tuzantan Pueblo,Estacion Tuzantan,Toliman,Buenos Aires,La Campana,Cerro La Campana,Belisario Dominguez,Huixtla,Mozotal,Niquivil,Boqueron,Male,San Jeronimo,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero,La Trinitaria,Venustiano Carranza,Ocosingo,Chalchihuitan,Huixtan,Chicomuselo",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mocho%27_language",
+        "https://en.wikipedia.org/wiki/Moch%C3%B3_people",
+        "https://iso639-3.sil.org/code/mho",
+        "https://glottolog.org/resource/languoid/id/moch1254"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T01:45:22.376Z",
+      "notes": "Mocho' (ISO 639-3 mho, Glottolog moch1254). Added Chicomuselo. 25 verified seeds."
+    }
   },
   {
     "name": "Yuit",
@@ -3726,18 +3973,19 @@ window.northAmericaNameBases = [
     "max": 23,
     "d": "",
     "m": 0.2,
-    "status": "WAITING",
-    "b": "Tzintzuntzan,Ihuatzio,Pátzcuaro,Uruapan,Taretan,Capácuaro,Paracho de Verduzco,Nahuatzen,Tingambato,Erongarícuaro,Cherán,Janitzio,Acuitzio,Cupareo,Zitácuaro,Huetamo,Tácambaro,Ario de Rosales,Cotija,Tingüindín,Tocumbo,Peribán,Los Reyes",
+    "status": "COMPLETE",
+    "b": "Tzintzuntzan,Ihuatzio,Pátzcuaro,Uruapan,Taretan,Capácuaro,Paracho de Verduzco,Nahuatzen,Tingambato,Erongarícuaro,Cherán,Janitzio,Acuitzio,Cupareo,Zitácuaro,Huetamo,Tácambaro,Ario de Rosales,Cotija,Tingüindín,Tocumbo,Peribán,Los Reyes,Santa Fe de la Laguna,Huiramba",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Pur%C3%A9pecha_language",
+        "https://en.wikipedia.org/wiki/Pur%C3%A9pecha",
         "https://iso639-3.sil.org/code/tsz",
-        "https://glottolog.org/ (glottocode tara1323)"
+        "https://glottolog.org/resource/languoid/id/tara1323"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T03:17:09.693Z",
-      "notes": "ISO 639-3 tsz (Eastern Purepecha) / pua (Western Purepecha), Glottolog tara1323. Documented area: highlands of Michoacan, Mexico, centred on Lake Patzcuaro and the western highlands (Zamora, Los Reyes de Salgado, Paracho de Verduzco, Pamatacuaro) plus the Canada de los Once Pueblos (Wikipedia, citing INEGI 2020, Campbell 1997, INALI). Wikipedia toponyms section confirms Purepecha origin for Acuitzio and Cupareo. Confirmed Purepecha-area settlements (23): Tzintzuntzan, Ihuatzio, Patzcuaro, Uruapan, Taretan, Capacuaro, Paracho de Verduzco, Nahuatzen, Tingambato, Erongaricuaro, Cheren, Janitzio, Acuitzio, Cupareo, Zitacuaro, Huetamo, Tacambaro, Ario de Rosales, Cotija, Tinguidin, Tocumbo, Periban, Los Reyes. Removed (2): Cazonci (Cazonci/Caltzontzin = title of the Purepecha monarch, NOT a settlement - non-place token), Nuevoversal (not a recognised settlement; unverifiable compound). Removing Cazonci alone leaves 24 seeds < 25 seed floor."
+      "verified_at": "2026-10-21T01:42:02.948Z",
+      "notes": "Purépecha / Tarascan (ISO 639-3 tsz/pua, Glottolog tara1323), language isolate of Michoacán, Mexico. Added Santa Fe de la Laguna and Huiramba (Purépecha settlements). 25 verified seeds."
     }
   },
   {

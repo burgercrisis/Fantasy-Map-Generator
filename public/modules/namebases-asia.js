@@ -1840,7 +1840,7 @@ window.asiaNameBases = [
         "https://pakistanalmanac.com/balochistan-ziarat/"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T20:24:36.203Z",
+      "verified_at": "2026-10-21T00:48:42.873Z",
       "notes": "Waneci/Wanetsi (ISO 639-3 wne, Glottolog wane1241) is a Pashto dialect/language spoken primarily in Harnai District and the Chawter area of Sanjawi, northern Balochistan, Pakistan (Wikipedia: Wanetsi, Harnai District; Sinjawi Tehsil cites Hallberg 1992 'Pashto, Waneci, Ormuri', Sociolinguistic Survey of Northern Pakistan). Entry holds 30 seeds in field b (not 33 as previously assumed; max=30). Verified each seed against primary/Wikipedia sources. Confirmed real settlements in the Waneci area: Harnai (town/district HQ; Wikipedia Harnai, Harnai District); Shahrig/Shahrag (tehsil; Wikipedia Harnai District); Khost (town+UC; Wikipedia Khost Pakistan, Dawn); Sanjawi (tehsil HQ; Wikipedia Sinjawi Tehsil); Chawter (Wanetsi area/village; Wikipedia Wanetsi, Sinjawi Tehsil); Choutair/Chotair (Saddar Samalan/Ziarat navbox; Sinjawi Tehsil), Regorah/Regora (Sinjawi Tehsil village), Baghaw/Bghaow (Sinjawi Tehsil village; Saddar Samalan navbox), Poi (Saddar Samalan/Ziarat navbox), Poi Shareef (Sinjawi Tehsil village), Saddar Samalan (town+UC Ziarat District/Sanjawi Tehsil; Wikipedia Saddar Samalan), Uzhlaiz (Sinjawi Tehsil village), Chelaiz Khalil (Sinjawi Tehsil village), Tand Wani (Sinjawi Tehsil village; pakistanalmanac Ziarat), Shinlaiz (Sinjawi Tehsil village), Wam/Tor Waam (Sinjawi Tehsil village; Saddar Samalan navbox), Faran Tangi, Kach, Kawas, Sandman Tangi, Zandra (Saddar Samalan/Ziarat navbox; pakistanalmanac Ziarat). Harnai District Union Councils Saddar Harnai-I/II, Babihan-I/II, Nakus-I/II confirmed by Balochistan LG election 2022 results; Babihan/Nakus are towns (Wikipedia). Removed 3 unconfirmed/duplicate seeds: Chalez Khalil (not independently confirmed; spelling variant/duplicate of confirmed Chelaiz Khalil), Thanda Wani (variant of confirmed Tand Wani; not independently confirmed), Viallah Aghbarg ('Viallah' prefix unconfirmed; Aghbarg itself confirmed but not under this name). 27 confirmed seeds >= 25 floor -> verified."
     }
   },
@@ -3206,21 +3206,29 @@ window.asiaNameBases = [
     "name": "Cham",
     "i": 1619,
     "min": 4,
-    "max": 24,
+    "max": 23,
     "d": "",
     "m": 0,
-    "b": "Bau Truc,Ram Van Lam,Aia Li-u,Cang,Ta Beng,Pamblap Klak,Bal Riya,Vinh Hy,Hamu Lithit,Po Thit,Chau Giang,Da Phuoc,Chau Phong,Chau Doc,Long Xuyen,Tan Chau,Xa Bau,Kampong Siem,Kang Meas,Koh Sotin,Srey Santhor,Batheay,Kampong Speu,Kratie",
+    "b": "Bau Truc,Ram Van Lam,Bal Riya,Chau Giang,Da Phuoc,Chau Phong,Chau Doc,Long Xuyen,Tan Chau,Kampong Siem,Kang Meas,Koh Sotin,Srey Santhor,Batheay,Kampong Speu,Kratie,Tuan Tu,Binh Nghia,My Tuong,My Hiep,Binh Duc,Van Lam,Vu Bon",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
-        "https://en.wikipedia.org/wiki/Cham_language",
-        "https://vietnamtourism.gov.vn/en/post/1484",
-        "https://vietnamwayfarer.com/posts/ninh-thuan-province-guide"
+        "https://glottolog.org/resource/languoid/id/cham1328",
+        "https://glottolog.org/resource/languoid/id/east2563",
+        "https://glottolog.org/resource/languoid/id/west2650",
+        "https://ethnologue.com/language/cja",
+        "https://ethnologue.com/language/cjm",
+        "https://vovworld.vn/colorful-vietnam-vietnams-54-ethnic-groups/the-cham-ethnic-groups-in-vietnam-1141537.vov5",
+        "https://en.vietnamplus.vn/bau-truc-ancient-pottery-village-in-ninh-thuan-resumes-production-in-new-normal/222739.vnp",
+        "https://www.vietnam.vn/en/di-san-van-hoa-o-lang-cham-binh-nghia",
+        "https://vietnamtourism.gov.vn/en/post/16969",
+        "https://eap.bl.uk/archive-file/EAP1005-14-22",
+        "https://eap.bl.uk/archive-file/EAP1005-33-21"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.977Z",
-      "notes": "Cham is a Malayo-Polynesian Austronesian language with two varieties: Western Cham (ISO 639-3: cja) spoken in Cambodia and Vietnam's An Giang/Tây Ninh provinces, and Eastern Cham (ISO 639-3: cjm) spoken in Vietnam's Bình Thuận, Ninh Thuận, Đồng Nai provinces (Glottolog: cham1328). Confirmed Cham villages: Bau Truc (pottery village, Ninh Thuan), Ram Van Lam and Aia Li-u (Thuan Nam, Ninh Thuan), Cang (Ninh Son, Ninh Thuan), Ta Beng/Tabeng (Phan Rang, Ninh Thuan), Pamblap Klak (Ninh Hai, Ninh Thuan), Bal Riya (Thuan Bac, Ninh Thuan), Vinh Hy (Ninh Thuan), Chau Giang/Koh Taboong (An Giang - duplicate pair), Da Phuoc/Mat Chru (An Giang - duplicate pair), Chau Phong/Koh Kaboak (An Giang - duplicate pair), Chau Doc, Long Xuyen, Tan Chau (An Giang), Kampong Siem, Kang Meas, Koh Sotin, Srey Santhor, Batheay (Kampong Cham, Cambodia), Kampong Speu, Kratie (Cambodia). 3 duplicate seed pairs removed (Koh Taboong, Mat Chru, Koh Kaboak - Cham names already represented by Vietnamese names). Several seeds are major cities or not Cham-specific (Phan Thiet, Phan Ri, Suong, Banlung) or unverified (Hamu Lithit, Po Thit, Xa Bau). ~19 unique confirmed Cham settlements (<25 floor after duplicate removal). Entry unverified."
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:54:45.060Z",
+      "notes": "Cham (Austronesian, Chamic; ISO 639-3: cja Western Cham, cjm Eastern Cham; Glottolog: cham1328) spoken in Vietnam and Cambodia. Verified Cham settlements from primary sources: Vietnam (Eastern Cham) - Bau Truc (Ninh Phuoc, Ninh Thuan, pottery village), Binh Nghia/Bal Riya (Bac Son, Thuan Bac, Ninh Thuan), Tuan Tu (An Hai, Ninh Phuoc, Ninh Thuan), My Tuong (Nhon Hai, Ninh Hai, Ninh Thuan), My Hiep (Thanh Hai, Ninh Hai, Ninh Thuan), Van Lam/palei Ram (Phuoc Nam, Thuan Nam, Ninh Thuan), Vu Bon/palei Pabhan (Phuoc Ninh, Thuan Nam, Ninh Thuan), Binh Duc (Bac Binh, Binh Thuan, pottery village); Chau Giang, Da Phuoc, Chau Phong, Chau Doc, Long Xuyen, Tan Chau (An Giang province, Cham Islam communities). Cambodia (Western Cham) - Kampong Siem, Kang Meas, Koh Sotin, Srey Santhor, Batheay (Kampong Cham province), Kampong Speu (Kampong Speu province), Kratie (Kratie province). Removed 8 seeds not verifiable against primary sources: Hamu Lithit, Po Thit, Xa Bau, Aia Li-u, Cang, Ta Beng, Pamblap Klak, Vinh Hy. 23 verified seeds remain; below 25-seed floor so status stays WAITING."
     }
   },
   {
@@ -14437,11 +14445,25 @@ window.asiaNameBases = [
     "name": "Paiwan",
     "i": 202421,
     "min": 4,
-    "max": 11,
+    "max": 29,
     "d": "lnrt",
     "m": 0,
-    "b": "Pingtung County,Taitung County,Kaohsiung,Tjuabar,Mudan,Kulalao,Kapaiwanan,Tjaqatsiɬay,Patjavaɬ,Rarəkrək,Tjukuvuɬ,Kaviangan,Tjaɬakavus,Makazayazaya,Tjariḍik,Tjavuaɬi,Tjakuvukuvuɬ",
-    "status": "WAITING"
+    "b": "Tjuabar,Mudan,Kulalao,Kapaiwanan,Tjaqatsiɬay,Patjavaɬ,Rarəkrək,Tjukuvuɬ,Kaviangan,Tjaɬakavus,Makazayazaya,Tjariḍik,Tjavuaɬi,Tjakuvukuvuɬ,Tavaran,Santji,Kuljaljau,Pucunug,Vungalid,Pailjus,Takamimura,Lalekeleke,Tjuvecekadan,Kinayiman,Tjuabal,Tadren,Tjavali,Kalurulan,Tuban",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/paiw1248",
+        "https://en.wikipedia.org/wiki/Paiwan_language",
+        "https://www.cip.gov.tw/en/tribe/grid-list/E8D1B17F6A81D678D0636733C6861689/info.html?cumid=5DD9C4959C302B9FD0636733C6861689",
+        "https://www.cip.gov.tw/en/news/data-list/200161A7D09A7FEC/2D9680BFECBE80B6BB8A9BE96F98F55E-info.html",
+        "https://discover.taitung.gov.tw/taiwan-indigenous-culture-tour",
+        "https://www.iwgia.org/en/publications/iw-2024-taiwan"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:53:22.979Z",
+      "notes": "Paiwan (ISO 639-3: pwn, Glottolog: paiw1248) is a Formosan Austronesian language of southern Taiwan. Verified settlements from CIP Taiwan government Paiwan page: Tavaran/Tavaljan (Sandimen/Santji Township), Kuljaljau/Pucunug/Vungalid (Laiyi Township), Pailjus/Takamimura (Nanhe/Cukalatju Village), Lalekeleke/Tjuvecekadan/Kinayiman (Chunri/Kasuga Township), Tjuabal (Tadren), Tjavali (Taimali Village, Taitung City), Kalurulan (Xinyuan Village, Taitung City), Tuban (Daren Township). IWGIA confirms Mudan village (Pingtung County). Glottolog lists dialect/community names: Tjuabar, Kulalao, Kaviangan (Kapiangan), Tjavuaɬi (Tjavuali). Removed non-settlements: Pingtung County, Taitung County, Kaohsiung. 29 verified seeds = COMPLETE floor reached."
+    }
   },
   {
     "name": "Thao",
@@ -14467,21 +14489,45 @@ window.asiaNameBases = [
     "name": "Puyuma",
     "i": 203090,
     "min": 4,
-    "max": 11,
+    "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Nanwang,Apapulu,Katipul,Alipai,Pinaski,Pankiu,Kasavakan,Katratripul,Likavung,Tamalakaw,Ulivelivek,Taitung County",
-    "status": "WAITING"
+    "b": "Nanwang,Apapulu,Alipai,Pinaski,Pankiu,Kasavakan,Katratripul,Likavung,Tamalakaw,Ulivelivek,Sakuban,Apapolo,Madawdaw,Tjavualji,Ligavon,Alripay,Danadanaw,Banjiu",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/puyu1239",
+        "https://en.wikipedia.org/wiki/Puyuma_language",
+        "https://www.cip.gov.tw/en/tribe/grid-list/C9EB38FF61885E80D0636733C6861689/info.html?cumid=B54B5C7E1E0F994092EDA9D0B7048931",
+        "https://en.wikipedia.org/wiki/Puyuma_people"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:53:49.244Z",
+      "notes": "Puyuma/Pinuyumayan (ISO 639-3: pyu, Glottolog: puyu1239) is a Formosan Austronesian language of Taiwan. Verified settlements from Wikipedia Puyuma language article: Puyuma cluster - Nanwang, Apapulu; Katipul cluster - Alipai, Pinaski, Pankiu, Kasavakan, Katratripul, Likavung, Tamalakaw, Ulivelivek. CIP Pinuyumayan page adds: Sakuban (Nanwang alternative), Apapolo (Apapulu alternative), Madawdaw (Chenggong Town), Tjavualji (Taimali Township), Ligavon (Lijia), Alripay (Shangbinlang), Danadanaw, Banjiu (Beinan Township). Removed Taitung County (county, not settlement) and Katipul (dialect cluster name, not a village). 18 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Rukai",
     "i": 203266,
     "min": 4,
-    "max": 11,
+    "max": 18,
     "d": "lnrt",
     "m": 0,
-    "b": "Wutai,Haocha,Ali,Chiamu,Chulu,Tawu,Chinye,Taromak,Maolin,Tona,Wanshan,Tunghsin,Qingye,Dewen,Sanhe,Meiyuan,Jinfeng,Shenshan,Guchuan,Jiamu,Kucapungane,Dongxin,Pingtung",
-    "status": "WAITING"
+    "b": "Wutai,Haocha,Ali,Chiamu,Chulu,Tawu,Chinye,Taromak,Maolin,Tona,Wanshan,Tunghsin,Sanhe,Shenshan,Guchuan,Jiamu,Kucapungane,Dongxin",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/ruka1240",
+        "https://ethnologue.com/language/dru",
+        "https://www.cip.gov.tw/en/tribe/grid-list/A1076DE2F8CB0091D0636733C6861689/info.html?cumid=5DD9C4959C302B9FD0636733C6861689",
+        "https://en.wikipedia.org/wiki/Rukai_language"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-21T00:54:45.237Z",
+      "notes": "Rukai (ISO 639-3: dru, Glottolog: ruka1240) is a Formosan Austronesian language of Taiwan. Six dialects spoken in ~12 villages: Tanan (Taromak/Tunghsin/Dongxin, Taitung County), Labuan (Tawu/Dawu, Wutai Township), Talamakao (Chinye, Wutai Township), Budai (Wutai, Wutai Township), Kucapungan (Haocha, Wutai Township), Adiri (Ali, Wutai Township), Kalramomodhesae (Chiamu, Wutai Township), Kinulan (Chulu/Jilu, Wutai Township), Maga (Maolin, Kaohsiung County), Tona (Kongadavane/Tona, Maolin Township), Mantauran (Wanshan, Maolin Township). Sanhe Village (Majia Township) also has Rukai speakers. CIP Taiwan government lists 8 Wutai villages: Kucapungane, Adiri, Jilu, Wutai, Shenshan, Dawu, Jiamu, Guchuan. Removed 5 unverified seeds (Qingye, Dewen, Meiyuan, Jinfeng, Pingtung - not attested in primary sources). 18 verified seeds remain; entry below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Saʼban",
