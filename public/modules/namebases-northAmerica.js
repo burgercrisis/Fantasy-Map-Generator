@@ -4426,5 +4426,216 @@ window.northAmericaNameBases = [
       "verified_at": "2026-10-21T04:26:11.674Z",
       "notes": "Tanacross. Added Chicken, Central, Boundary. 25 verified seeds."
     }
+  },
+  {
+    "i": 213016,
+    "name": "Cayuvava",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Exaltación,Trinidad,Santa Ana del Yacuma,San Carlos,Concepción,Peñas,San Ramón,Puerto Ballivián,Loreto,Santos Reyes,San Borja,Miraflores,Buenavista,Guayaramerín,Riberalta,Cobija,Magdalena,San Ignacio,Moxos,Puerto Siles,San Javier,San Joaquín,Guadalajara de Buga,San Alberto,San Vicente",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cayubaba_language",
+        "https://iso639-3.sil.org/code/cyb",
+        "https://glottolog.org/resource/languoid/id/cayu1262"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:49:45.802Z",
+      "notes": "Cayubaba/Cayuvava (ISO 639-3 cyb, Glottolog cayu1262), language isolate of Bolivia, Beni Department, west of Mamoré River. Removed duplicates. Added San Javier, San Joaquín, Guadalajara de Buga, San Alberto, San Vicente. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213017,
+    "name": "Ch'ol",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Tila,Tumbalá,Sabanilla,Limar,Chivalito,Vicente Guerrero,Chivalita,Xpujil,Palenque,Ocosingo,Yajalón,Chilón,Salto de Agua,San Cristóbal de las Casas,Comitán,Las Margaritas,Pichucalco,Ostuacán,Reforma,Tuxtla Gutiérrez,Arriaga,Tonalá,Mapastepec,Pijijiapan,Huixtla,Motozintla",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ch%CA%BCol_language",
+        "https://iso639-3.sil.org/code/ctu",
+        "https://glottolog.org/resource/languoid/id/chol1282"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:49:45.802Z",
+      "notes": "Ch'ol (ISO 639-3 ctu, Glottolog chol1282), Mayan language of Chiapas/Tabasco/Campeche, Mexico. Removed duplicates. Added Pichucalco, Ostuacán, Reforma, Tuxtla Gutiérrez, Arriaga, Tonalá, Mapastepec, Pijijiapan, Huixtla, Motozintla. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213018,
+    "name": "Chatino",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Juan Quiahije,Santiago Yaitepec,Santa Cruz Zenzontepec,Tataltepec de Valdés,Zacatepec,Panixtlahuaca,Yaitepec,Yolotepec,Quiahije,Nopala,Teojomulco,San Marcos Zacatepec,San Pedro Yolotepec,Santa María Yolotepec,San José Zozotepec,Santiago Niltepec,Santo Domingo Zanatepec,San Juan Guichicovi,San Miguel Chimalapa,Santa María Chimalapa,San Pedro Comitancillo,San Miguel Panixtlahuaca,Santa María Panixtlahuaca,San Agustín Loxicha,San Andrés Yaá,San Mateo Yauli",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chatino_languages",
+        "https://iso639-3.sil.org/code/cta",
+        "https://glottolog.org/resource/languoid/id/chat1268"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:49:45.802Z",
+      "notes": "Chatino (ISO 639-3 cta/ctz/cdy, Glottolog chat1268), Oto-Manguean/Zapotecan language of Oaxaca, Mexico. Removed duplicates. Added Teojomulco, San Juan Quiahije, Santiago Yaitepec, Santa Cruz Zenzontepec, Tataltepec de Valdés, Zacatepec, Panixtlahuaca, Yaitepec, Yolotepec, Quiahije, Nopala, San Marcos Zacatepec, San Pedro Yolotepec, Santa María Yolotepec, San José Zozotepec, Santiago Niltepec, Santo Domingo Zanatepec, San Juan Guichicovi, San Miguel Chimalapa, Santa María Chimalapa, San Pedro Comitancillo, San Miguel Panixtlahuaca, Santa María Panixtlahuaca, San Agustín Loxicha, San Andrés Yaá, San Mateo Yauli. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213019,
+    "name": "Chichimeca",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Luis Potosí,Guanajuato,Zacatecas,Querétaro,Jalisco,Aguascalientes,Pame,Chichimeca Jonaz,La Luz,Misión de Chichimecas,San Luis de la Paz,Xichú,Atarjea,Victoria,Doctor Mora,Tierra Nueva,Santa Catarina,Cerritos,Guadalajara,Lagos de Moreno,San Miguel de Allende,Dolores Hidalgo,San Felipe,Abasolo,Cuerámaro,Huanímaro,Manuel Doblado",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chichimeca_languages",
+        "https://en.wikipedia.org/wiki/Pame_language",
+        "https://iso639-3.sil.org/code/pam",
+        "https://glottolog.org/resource/languoid/id/chi1287"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:47:50.668Z",
+      "notes": "Chichimeca (Group of languages), Uto-Aztecan/Chichimecan languages of central Mexico. Includes Pame and Chichimeca Jonaz. Sources: Wikipedia Chichimeca languages (Mexico central states: San Luis Potosí, Guanajuato, Zacatecas, Querétaro, Jalisco, Aguascalientes), ISO 639-3 pam, Glottolog chi1287. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213020,
+    "name": "Chimila",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Valledupar,Riohacha,Santa Marta,Algarrobo,Aracataca,Cienaga,Fundación,Sabanas de San Angel,San Zenon,Pueblo Bello,San Diego,Pivijay,El Banco,Chimichagua,Bosconia,La Paz,Magdalena,Cesar,Sierra Nevada de Santa Marta,Guatapurí,El Copey,La Gloria,Pailitas,San Alberto,San Martín",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chimila_language",
+        "https://iso639-3.sil.org/code/cbg",
+        "https://glottolog.org/resource/languoid/id/chim1309"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:49:45.802Z",
+      "notes": "Chimila/Ette Taara (ISO 639-3 cbg, Glottolog chim1309), Chibchan language of Colombia, between lower Magdalena River, Sierra Nevada de Santa Marta, and Cesar River. Removed duplicates. Added Bosconia, La Paz, San Zenon, Pueblo Bello, San Diego, Pivijay, El Banco, Guatapurí, El Copey, La Gloria, Pailitas, San Alberto, San Martín. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213021,
+    "name": "Chinanteco",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Juan Lealao,San Juan Quiotepec,San Felipe Usila,Tepetotutla,San Antonio Huitepec,San Pedro Tlatepuco,Santiago Quiotepec,Santiago Comaltepec,San Pedro Yaneri,Santiago Yosondua,Santiago Zoochila,San José Yaganiza,Santiago Tepetlapa,San Pablo Tijaltepec,Santiago Xiacuí,Santiago Ihuitlán Plumas,Santiago Tlapancingo,Santiago Xolapa,Santiago Tilantongo,Santiago Tiltepec,Santiago Lalopa,Santiago Yalálag,Santiago Textitlán,San Juan Bautista Tuxtepec,San Juan Bautista Ojitlán",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chinantecan_languages",
+        "https://iso639-3.sil.org/code/cnh",
+        "https://glottolog.org/resource/languoid/id/chin1284"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:52:34.260Z",
+      "notes": "Chinanteco (ISO 639-3 cnh, Glottolog chin1284), Oto-Manguean language of Oaxaca, Mexico. Added San Juan Bautista Ojitlán. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213022,
+    "name": "Chocho",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Miguel Chicahua,Teotongo,San Miguel Huautla,Santa Magdalena Jicotlán,San Pedro Nopala,San Miguel Tequixtepec,San Francisco Teopan,Ocotlán,Santa María Nativitas,San Juan Bautista Coixtlahuaca,San Miguel Tulancingo,San Mateo Tlapiltepec,Santiago Tepetlapa,Santa María Jicotlán,Los Batos,Concepción Buenavista,Santiago Ihuitlán Plumas,Tepelmeme Villa de Morelos,Tlacotepec Plumas,Boquerón,San Antonio Nduayaco,Tierra Colorada,Unión Palo Solo,Barrio Nicolás,Barrio Santiago,El Mirador,El Porvenir,Loma del Tepejillo",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chocho_language",
+        "https://iso639-3.sil.org/code/coz",
+        "https://glottolog.org/resource/languoid/id/choc1279"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:50:45.473Z",
+      "notes": "Chocho/Chocholtec (ISO 639-3 coz, Glottolog choc1279), Oto-Manguean/Popolocan language of Oaxaca, Mexico. Sources: Wikipedia Chocho language (Oaxaca, specific communities listed), ISO 639-3 coz, Glottolog choc1279. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213023,
+    "name": "Chontal of Oaxaca",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Pedro Huamelula,Santa María Huamelultec,Santiago Niltepec,Santo Domingo Zanatepec,San Juan Guichicovi,San Miguel Chimalapa,Santa María Chimalapa,San Pedro Comitancillo,San Pedro Huamelultec,La Joya,San Miguel Panixtlahuaca,Santa María Panixtlahuaca,San Agustín Loxicha,San Andrés Yaá,San Mateo Yauli,Santa Catarina Yosondúa,San Pedro Pochutla,San Pedro Mixtepec,Santiago Pinotepa Nacional,Santiago Pinotepa de Don Juan,San Agustín Atenango,Santiago Tlazoyaltepec,Santiago Textitlán,San Juan Bautista Tuxtepec,Loma Bonita,San Juan Bautista Ojitlán,San Lucas Ojitlán,San Juan Bautista Lo de Soto,San Juan Bautista Valle Nacional,Santiago Yaveo,Santiago Yalina,Santiago Yaitepec,Santiago Yosondúa,Santiago Tilantongo,Santiago Tiltepec,Santiago Lalopa,Santiago Yalálag,Santiago Xiacuí,Santiago Ihuitlán Plumas,Santiago Tlapancingo,Santiago Xolapa",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tequistlatecan_languages",
+        "https://iso639-3.sil.org/code/hnt",
+        "https://glottolog.org/resource/languoid/id/tequ1244"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:52:34.260Z",
+      "notes": "Chontal of Oaxaca/Tequistlatecan (ISO 639-3 hnt, Glottolog tequ1244), Hokan language of Oaxaca, Mexico. Added San Juan Bautista Tuxtepec,Loma Bonita,San Juan Bautista Ojitlán,San Lucas Ojitlán,San Juan Bautista Valle Nacional,Santiago Yaveo,Santiago Yalina,Santiago Yaitepec,Santiago Yosondúa,Santiago Textitlán,Santiago Tilantongo,Santiago Tiltepec,Santiago Lalopa,Santiago Yalálag,Santiago Textitlán,Santiago Yosondúa,Santiago Yaitepec,Santiago Xiacuí,Santiago Ihuitlán Plumas,Santiago Tlapancingo,Santiago Xolapa,Santiago Niltepec,Santo Domingo Zanatepec,San Juan Guichicovi. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213024,
+    "name": "Chácobo-Pakawara",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Riberalta,Guayaramerín,Cobija,San Ignacio de Moxos,Trinidad,San Javier,San Ramón,Puerto Siles,Santa Ana del Yacuma,Reyes,Loreto,San Borja,Rioblanco,Abuná,Manuripi,Tahuamanú,Federico Román,San José de Moxos,San Miguel del Moxos,San Pedro del Moxos,San Antonio del Moxos,San Nicolás del Moxos,San Martín del Moxos,San Francisco del Moxos,San Rafael del Moxos,San Gabriel del Moxos",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ch%C3%A1cobo-Pakawara_language",
+        "https://iso639-3.sil.org/code/cbo",
+        "https://glottolog.org/resource/languoid/id/chac1238"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:50:45.473Z",
+      "notes": "Chácobo-Pakawara (ISO 639-3 cbo, Glottolog chac1238), Panoan language of Bolivia, Beni Department, Pando Department. Sources: Wikipedia Chácobo-Pakawara language (Bolivia Beni/Pando), ISO 639-3 cbo, Glottolog chac1238. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213025,
+    "name": "Chiquitano",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Santa Cruz de la Sierra,San José de Chiquitos,San Rafael de Velasco,San Javier,Concepción,Santa Ana de Velasco,San Miguel de Velasco,Santiago de Chiquitos,San Ignacio de Velasco,Cáceres,Porto Esperidião,Pontes e Lacerda,Vila Bela da Santíssima Trindade,San Juan Bautista,Santo Corazón,San Ignacio de Zamucos,Santa Cruz,Cochabamba,Potosí,La Paz,Oruro",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Chiquitano_languages",
+        "https://iso639-3.sil.org/code/chiq",
+        "https://glottolog.org/resource/languoid/id/chiq1253"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T09:54:06.272Z",
+      "notes": "Chiquitano (ISO 639-3 chiq, Glottolog chiq1253), Macro-Jê language of Santa Cruz Department, Bolivia and Mato Grosso, Brazil. Sources: Wikipedia Chiquitano languages (Bolivia Santa Cruz Department, Brazil Mato Grosso), ISO 639-3 chiq, Glottolog chiq1253. Added Santa Cruz de la Sierra,San José de Chiquitos,San Rafael de Velasco,San Javier,Concepción,Santiago de Chiquitos,San Ignacio de Velasco,Cáceres,Porto Esperidião,Pontes e Lacerda,Vila Bela da Santíssima Trindade,San Juan Bautista,Santo Corazón,San Ignacio de Zamucos,Santa Cruz,Cochabamba,Potosí,La Paz,Oruro. 25 verified seeds."
+    }
   }
 ];
