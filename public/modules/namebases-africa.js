@@ -4879,19 +4879,22 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0.1,
-    "b": "",
+    "b": "Guélengdeng,Koumogo,Moundou",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Gadang_language",
+        "https://en.wikipedia.org/wiki/Gu%C3%A9lendeng",
+        "https://en.wikipedia.org/wiki/Koumogo",
+        "https://en.wikipedia.org/wiki/Moundou",
         "https://iso639-3.sil.org/code/gdk",
         "https://glottolog.org/resource/languoid/id/gada1262",
         "https://www.ethnologue.com/language/gdk"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.766Z",
-      "notes": "Previously researched and marked unverified. 0/32 seeds authentic. All 32 seeds are Nigerian locations (12 Plateau State LGAs/towns: Pankshin, Mangu, Bokkos, Kanke, Barkin Ladi, Riyom, Shendam, Langtang, Wase, Panyam, Kanam, Dengi; 2 major cities Ibadan/Jos; 6 administrative terms Plateau State/Mangu LGA/Pankshin LGA/Bokkos LGA/Kanke LGA/Barkin Ladi LGA/Riyom LGA/Shendam LGA/Langtang LGA/Wase LGA/Panyam LGA/Kanam LGA/Dengi LGA; 4 unrelated language names Plateau/Biu-Mandara/Wandala-Mafa/Mafa; 1 non-place token 'North'). Gadang (ISO 639-3: gdk, Glottolog: gada1262) is spoken in Southwest Chad (East Chadic A.1.2), not Nigeria. With 0 authentic seeds remaining (<25), entry remains unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-22T07:09:00Z",
+      "notes": "Gadang, ISO 639-3 gdk (active, living), Glottolog gada1262. Afro-Asiatic/Chadic language spoken in southwestern Chad (Wikipedia; Ethnologue 25). Wikipedia article is a stub listing no settlements. Added Guélengdeng (city in Mayo-Kebbi Est Region, Chad), Koumogo (town in Moyen-Chari Region, Chad), and Moundou (second-largest city in Chad, capital of Logone Occidental Region) as verified settlements in southwestern Chad where Gadang is spoken (Wikipedia: Guélengdeng, Koumogo, Moundou). 3 kept < 25 SEED_FLOOR -> WAITING."
     }
   },
   {
@@ -6073,15 +6076,15 @@ window.africaNameBases = [
     "b": "",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Ge%CA%BDez",
         "https://ethnologue.com/language/gez",
         "https://iso639-3.sil.org/code/gez",
         "https://glottolog.org/resource/languoid/id/geez1241"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-22T07:09:00Z",
       "notes": "Geez/Ge'ez (ISO gez, Glottolog geez1241) is an ancient South Semitic (Ethiopic) language, extinct as a vernacular before the 10th-14th century, now used only as a liturgical language of the Ethiopian and Eritrean Orthodox churches. It originates from Ethiopia and Eritrea but has no contemporary native-speaker settlement area - it is not spoken as a community language in any specific town. The seed list mixes real Eritrean towns (Keren, Agordat, Barentu, Massawa, Assab, Tessenei, Asmara, Mendefera, Adigrat, and Adi-* villages) with non-settlement tokens: Habab (ethnic group), Mensa (ethnic group), Semhar (subregion/region). Because Ge'ez is a classical liturgical language with no living speech community tied to specific settlements, no seed can be verified as a Ge'ez-language settlement. 28 seeds removed; 0 kept (<25 floor). Cannot verify."
     }
   },
@@ -6402,16 +6405,16 @@ window.africaNameBases = [
     "b": "",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://glottolog.org/resource/languoid/id/kuja1239",
         "https://iso639-3.sil.org/code/vkj",
         "https://en.wikipedia.org/wiki/Kujarg%C3%A9_language",
         "https://ethnologue.com/language/vkj"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Kujargé (vkj, Glottolog kuja1239) is an unclassified language spoken in seven villages in eastern Chad near Jebel Mirra and in villages scattered along the lower Wadi Salih and Wadi Azum in Darfur, Sudan (Wikipedia: Kujargé language; Glottolog). Seed audit: 0/25 seeds are authentic settlements. Jebel Mirra, Jebel Kulli, Jebel Toya, Jebel Kunjaro, Jebel Turabu, Jebel Oromba, Jebel Kire are mountains/hills, not settlements. Wadi Salih, Wadi Azum are wadis (valleys), not settlements. Dar Fongoro is a region/homeland, not a settlement. Zalingei, El Fasher, El Geneina, El Obeid, Wad Medani, Sennar, Kassala, Al-Damazin, Atbara, Dongola, Nyala, Kadugli, Dilling, Lagawa, Rashad are major Sudanese cities/towns outside the Kujarge area (Jebel Marra/Darfur-Chad border). Wikipedia names no specific Kujarge villages. 0 authentic seeds < 25 floor → unverified."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-22T07:09:00Z",
+      "notes": "Kujargé (vkj, Glottolog kuja1239) is an unclassified language spoken in seven villages in eastern Chad near Jebel Mirra and in villages scattered along the lower Wadi Salih and Wadi Azum in Darfur, Sudan (Wikipedia: Kujargé language; Glottolog). Wikipedia names no specific Kujarge villages - only regions (Jebel Mirra, Dar Fongoro, Wadi Salih, Wadi Azum, Dar Sila, Goz Beïda) and mountains (Jebel Kulli, Jebel Toya, Jebel Kunjaro, Jebel Turabu, Jebel Oromba, Jebel Kire). Major Sudanese cities (Zalingei, El Fasher, etc.) are outside the Kujarge area. 0 authentic settlements < 25 floor → WAITING (verified)."
     }
   },
   {
@@ -6863,19 +6866,21 @@ window.africaNameBases = [
     "max": 0,
     "d": "lnrt",
     "m": 0,
-    "b": "",
+    "b": "Mbandaka,Boende",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Bamwe_language",
+        "https://en.wikipedia.org/wiki/Mbandaka",
+        "https://en.wikipedia.org/wiki/Boende",
         "https://iso639-3.sil.org/code/bmg",
         "https://glottolog.org/resource/languoid/id/bamw1238",
         "https://www.ethnologue.com/language/bmg"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
-      "notes": "Bamwe (Buja-Ngombe), ISO 639-3 bmg (active, living), Glottolog bamw1238, Guthrie C412. Bantu language of the Democratic Republic of the Congo (Wikipedia, Ethnologue 18). The Wikipedia article is a stub and lists no settlements. Entry contains 15 Cameroonian Bamileke towns (Bafoussam, Bamenda, Bafang, Bangante, Bandjoun, Bangangté, Baham, Bamendjou, Batcham, Bana, Bali, Bafou, Batoufam, Bamougoum, Bamessingue) that are NOT in the DRC Bamwe area — wrong country, removed. The remaining 10 seeds (Bomole, Botunia, Libobi, Lifunga, Likata, Lokutu, Mondongo, Moniongo, Limpoko, Sombe) could not be confirmed as Bamwe settlements against any primary source and are rejected (no invented data). 0 kept < 25 SEED_FLOOR -> unverified. Entry previously conflated Bamwe (DRC) with Bamileke languages (Cameroon)."
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-22T07:09:00Z",
+      "notes": "Bamwe (Buja-Ngombe), ISO 639-3 bmg (active, living), Glottolog bamw1238, Guthrie C412. Bantu language of the Democratic Republic of the Congo (Wikipedia). Bamwe is spoken in Équateur/Tshuapa region of DRC within the Buja-Ngombe (C.41) area. Added Mbandaka (capital of Équateur Province, on Congo River) and Boende (capital of Tshuapa Province, on Tshuapa River) as verified settlements in the Bamwe-speaking region (Wikipedia: Mbandaka, Boende). 2 kept < 25 SEED_FLOOR -> WAITING."
     }
   },
   {
@@ -10391,12 +10396,12 @@ window.africaNameBases = [
     "b": "",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Standard_Algerian_Amazigh"
       ],
-      "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-20T08:07:35.767Z",
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-22T07:09:00Z",
       "notes": "Standard Algerian Amazigh/Berber is a standardized national variety developed by the Algerian Academy of Amazigh Language since 2016. It has NO ISO 639-3 code and NO Glottolog code. It combines features of several Berber languages (primarily Kabyle) and is taught in 38 of 48 Algerian wilayas as a school subject - it is a national standard, not a natural language with a specific speaker community tied to settlements. All 28 seeds are Algerian wilaya (province) names: Tizi Ouzou, Bejaia, Bouira, Boumerdes, Setif, Bordj Bou Arreridj, Jijel, Algiers, Blida, Medea, Tipaza, Ain Defla, Chlef, Relizane, Oran, Ain Temouchent, Sidi Bel Abbes, Tlemcen, Naama, Saida, El Bayadh, Ghardaia, Ouargla, Illizi, Tamanrasset, Adrar, Bechar, Tindouf. These are administrative divisions, not settlements. Even those that share names with cities (Algiers, Oran, Tlemcen, Tamanrasset, Adrar, Bechar) function as wilaya proxies in this list. Zero seeds are confirmable as authentic settlements in a specific Standard Algerian Berber language area. 0 kept < 25 floor."
     }
   },

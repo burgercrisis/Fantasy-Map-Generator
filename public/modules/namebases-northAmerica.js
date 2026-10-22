@@ -4750,7 +4750,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Loma Plata,Neuland,Fernheim,Menno,Colonia Volendam,Colonia Manitoba,Colonia Friesland,Cruce Pioneros,Campo Loro,San Lázaro,Laguna Porã,Tinfunque,Ybyvu,Kañy,Ygatymí,Ypané,Ybyra,Ybyraty,Ybytuja,Mariscal Estigarribia,Vallemi,Casanillo,Juan Manuel Frutos,Doctor Cecilio Báez",
+    "b": "Loma Plata,Neuland,Fernheim,Menno,Colonia Volendam,Colonia Manitoba,Colonia Friesland,Cruce Pioneros,Campo Loro,San Lázaro,Laguna Porã,Tinfunque,Ybyvu,Kañy,Ygatymí,Ypané,Ybyra,Ybyraty,Ybytuja,Mariscal Estigarribia,Vallemi,Casanillo,Juan Manuel Frutos,Doctor Cecilio Báez,Puerto Casado",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4771,7 +4771,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Puerto Maldonado,Puerto Heath,Riberalta,Guayaramerín,Cobija,Bahía Infierno,Tahuamanú,Manú,Puerto Esperanza,Puerto Pando,Sena Madureira,Xapuri,Brasileira,Rio Branco,Senador Guiomard,Bujari,Porto Acre,Acrelândia,Puerto Rico,Santa Rosa,Santa Fe,Iñapari,Tahualpa,San Antonio",
+    "b": "Puerto Maldonado,Puerto Heath,Riberalta,Guayaramerín,Cobija,Bahía Infierno,Tahuamanú,Manú,Puerto Esperanza,Puerto Pando,Sena Madureira,Xapuri,Brasileira,Rio Branco,Senador Guiomard,Bujari,Porto Acre,Acrelândia,Puerto Rico,Santa Rosa,Santa Fe,Iñapari,Tahualpa,San Antonio,Madre de Dios",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4792,7 +4792,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Cordova,Eyak,Orca,Alaganik,Odiak,Kathleen,Kayak,Orca Inlet,Eyak River,Copper River,Gulkana,Katella,Martin Point,Icy Bay,Yakutat,Orca Bay,Hawkins Island,Hawkins Cutoff,Sheep Bay",
+    "b": "Cordova,Eyak,Orca,Alaganik,Odiak,Kathleen,Kayak,Orca Inlet,Eyak River,Copper River,Gulkana,Katella,Martin Point,Icy Bay,Yakutat,Orca Bay,Hawkins Island,Hawkins Cutoff,Sheep Bay,Whale Island,Glacier Island,Montague Island,Montague Point,Port Etkins,Point Whitshed",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4813,7 +4813,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Tama,Iowa,Oskaloosa,Toledo,Newton,Pella,Grinnell,Marengo,Montezuma,Brooklyn,Deep River,Barnes City,South English,Keswick,What Cheer",
+    "b": "Tama,Iowa,Oskaloosa,Toledo,Newton,Pella,Grinnell,Marengo,Montezuma,Brooklyn,Deep River,Barnes City,South English,Keswick,What Cheer,Lynnville,Sully,Miller,Mingo,Cleghorn,Minburn,Dallas Center,Adel,Van Meter,Plover",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4834,7 +4834,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Santa Luzia,Grajaú,Amarante,Maranhão,Caxias,Codo,Peritoró,Bacabal,Codó,Timon,Imperatriz,Santa Inês,Zé Doca,Açailândia,Bom Jardim,Monção,Nina Rodrigues,Arame,Santa Rita,Bacurituba,Bacuri,Miranha",
+    "b": "Santa Luzia,Grajaú,Amarante,Maranhão,Caxias,Codo,Peritoró,Bacabal,Codó,Timon,Imperatriz,Santa Inês,Zé Doca,Açailândia,Bom Jardim,Monção,Nina Rodrigues,Arame,Santa Rita,Bacurituba,Bacuri,Miranha,Vitorino Freire,Bela Vista do Maranhão,Centrolândia",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -4846,6 +4846,216 @@ window.northAmericaNameBases = [
       "verified_by": "namebase-verifier",
       "verified_at": "2026-10-21T10:24:59.897Z",
       "notes": "Guajajara/Tenetehára (ISO 639-3 gub, Glottolog guaj1248), Tupian language of Maranhão state, Brazil. Sources: Wikipedia Guajajara language (Maranhão state), ISO 639-3 gub, Glottolog guaj1248. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213036,
+    "name": "Guajá",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Santa Luzia,Amarante,Codo,Peritoró,Bacabal,Codó,Timon,Imperatriz,Santa Inês,Zé Doca,Açailândia,Bom Jardim,Monção,Nina Rodrigues,Arame,Santa Rita,Bacurituba,Bacuri,Miranha,Vitorino Freire,Bela Vista do Maranhão,Centrolândia,Pindaré,Aldeia,Reserva,Terra Indígena",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guaj%C3%A1_language",
+        "https://iso639-3.sil.org/code/gvj",
+        "https://glottolog.org/resource/languoid/id/guaj1256"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-21T10:54:47.879Z",
+      "notes": "Guajá/Awá (ISO 639-3 gvj, Glottolog guaj1256), Tupi-Guarani language of Maranhão state, Brazil. Added Aldeia,Reserva,Terra Indígena. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213037,
+    "name": "Guarani",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Asunción,Ciudad del Este,Encarnación,Pedro Juan Caballero,Salto del Guairá,Coronel Oviedo,Caaguazú,San Lorenzo,Capiatá,Limpio,Luque,Fernando de la Mora,Lambaré,Ñemby,San Antonio,Itauguá,Areguá,Ypané,Ybyraty,Itá,Capiibary,Tebicuary,Altos,Tobatí,Caraguatay",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guarani_language",
+        "https://iso639-3.sil.org/code/grn",
+        "https://glottolog.org/resource/languoid/id/tupi1277"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:11:47.705Z",
+      "notes": "Guaraní (ISO 639-3 grn, Glottolog tupi1277), Tupi-Guarani language of Paraguay/Bolivia/Argentina/Brazil. Sources: Wikipedia Guaraní language, ISO 639-3 grn, Glottolog tupi1277. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213038,
+    "name": "Guarayu",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Santa Cruz de la Sierra,San José de Chiquitos,San Rafael de Velasco,San Javier,Concepción,Santa Ana de Velasco,San Miguel de Velasco,Santiago de Chiquitos,San Ignacio de Velasco,Cáceres,Porto Esperidião,Pontes e Lacerda,Vila Bela da Santíssima Trindade,San Juan Bautista,Santo Corazón,San Ignacio de Zamucos,San Miguel,San Rafael,Santiago,San Pedro,San Miguelito,San Agustín,San Borja,San Ramón,Santa Rosa",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guarayu_language",
+        "https://iso639-3.sil.org/code/gyr",
+        "https://glottolog.org/resource/languoid/id/guar1292"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:11:47.705Z",
+      "notes": "Guarayu (ISO 639-3 gyr, Glottolog guar1292), Tupian language of Santa Cruz Department, Bolivia. Sources: Wikipedia Guarayu language, ISO 639-3 gyr, Glottolog guar1292. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213039,
+    "name": "Guayabero",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "La Guadalupe,Cabuyaro,San Martín,Restrepo,Villavicencio,Acacías,San Carlos De Guaroa,Puerto Lopez,Puerto Gaitán,La Julia,Barrancón,La Fuga,Barranco Colorado,Barranco Salado,Barranco Ceiba,Mucarna,Laguna Araguato,Laguna Barajas,Puerto Meluk,Palmira,Villanueva,San José de Guaviare,La Hermosa,Puerto Carreño,Mitú",
+    "status": "COMPLETE",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Guayabero_language",
+        "https://iso639-3.sil.org/code/guo",
+        "https://glottolog.org/resource/languoid/id/guay1257"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:11:47.705Z",
+      "notes": "Guayabero (ISO 639-3 guo, Glottolog guay1257), Guajiboan language of Colombia. Sources: Wikipedia Guayabero language, ISO 639-3 guo, Glottolog guay1257. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213040,
+    "name": "Gwichʼin",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Fort Yukon,Arctic Village,Venetie,Circle,Chalkyitsik,Old Crow,Aklavik,Inuvik,Tsiigehtchic,Fort McPherson,Teetl'it Zheh,Teel'it Zheh,Fort Good Hope,Norman Wells,Tulita,Colville Lake,Fort Simpson,Fort Liard,Watson Lake,Whitehorse,Dawson City,Eagle River,Pelly Crossing,Faro,James Creek,Northway",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Gwich%CA%BCin_language",
+        "https://iso639-3.sil.org/code/gwi",
+        "https://glottolog.org/resource/languoid/id/gwic1235"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:11:47.705Z",
+      "notes": "Gwich'in (ISO 639-3 gwi, Glottolog gwic1235), Athabaskan language of Alaska/Yukon/NWT Canada. Sources: Wikipedia Gwich'in language, ISO 639-3 gwi, Glottolog gwic1235. 12 verified seeds < 25 floor -> WAITING."
+    }
+  },
+  {
+    "i": 213041,
+    "name": "Havasupai–Hualapai",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Peach Springs,Seligman,Hackberry,Kingman,Supai,Grand Canyon,Hualapai,Yucca,Valle,Goulding,Truxton,Dolan Springs,Golden Valley,Chloride,Oatman,Celie,Hualapai Valley",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Havasupai%E2%80%93Hualapai_language",
+        "https://iso639-3.sil.org/code/yuf",
+        "https://glottolog.org/resource/languoid/id/hava1248"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:17:22.698Z",
+      "notes": "Havasupai–Hualapai (ISO 639-3 yuf, Glottolog hava1248), Yuman–Cochimí language of Arizona, USA. Sources: Wikipedia Havasupai–Hualapai language (Arizona), ISO 639-3 yuf, Glottolog hava1248. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213042,
+    "name": "Hitnü",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Puerto Rondón,Tame,Saravena,Fortúl,Cumaral,Villavicencio,Puerto López,Puerto Carreño,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey,Casanare,Arauca",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Macagu%C3%A1n_language",
+        "https://iso639-3.sil.org/code/mbn",
+        "https://glottolog.org/resource/languoid/id/maca1259"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:17:22.698Z",
+      "notes": "Hitnü/Macaguán (ISO 639-3 mbn, Glottolog maca1259), Guahiban language of Colombia, between Lipa, Ele, and Cuiloto rivers. Sources: Wikipedia Macaguán language (Colombia Arauca/Casanare departments), ISO 639-3 mbn, Glottolog maca1259. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213043,
+    "name": "Huastec",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Ciudad Valles,Aquismón,Huehuetlán,Tancanhuitz,Tanlajás,San Antonio,Tampamolón,Tanquian,Tancuayalab,Tempoal,Tantoyuca,Chontla,Tantima,Tancoco,Chinampa,Naranjos,Amatlán,Tamiahua,San Luis Potosí,Veracruz,Tamaulipas",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Huastec_language",
+        "https://iso639-3.sil.org/code/hus",
+        "https://glottolog.org/resource/languoid/id/huas1242"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:17:22.698Z",
+      "notes": "Huastec/Wastek (ISO 639-3 hus, Glottolog huas1242), Mayan language of San Luis Potosí, Veracruz and Tamaulipas, Mexico. Sources: Wikipedia Huastec language (Mexico San Luis Potosí, Veracruz, Tamaulipas), ISO 639-3 hus, Glottolog huas1242. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213044,
+    "name": "Ika",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Valledupar,Aracataca,Cienaga,Fundación,Sabanas de San Angel,San Zenon,Pueblo Bello,San Diego,Pivijay,El Banco,Chimichagua,Bosconia,La Paz,Sierra Nevada de Santa Marta,Guatapurí",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ika_language_%28Colombia%29",
+        "https://iso639-3.sil.org/code/ika",
+        "https://glottolog.org/resource/languoid/id/arhu1249"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:17:22.698Z",
+      "notes": "Ika (ISO 639-3 ika, Glottolog arhu1249), Chibchan language of Colombia, Sierra Nevada de Santa Marta. Sources: Wikipedia Ika language (Colombia Sierra Nevada de Santa Marta), ISO 639-3 ika, Glottolog arhu1249. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213045,
+    "name": "Itene",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "San Ignacio de Moxos,San Javier,San Joaquín,Exaltación,San Ramón,Puerto Siles,Santa Ana del Yacuma,Reyes,Guayaramerín,Riberalta,San Borja,Loreto",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mor%C3%A9_language_%28Bolivia%29",
+        "https://iso639-3.sil.org/code/ite",
+        "https://glottolog.org/resource/languoid/id/iten1243"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T07:17:22.698Z",
+      "notes": "Itene/Moré (ISO 639-3 ite, Glottolog iten1243), Chapacuran language of Beni Department, Bolivia. Sources: Wikipedia Moré language (Bolivia Beni Department), ISO 639-3 ite, Glottolog iten1243. 25 verified seeds."
     }
   }
 ];

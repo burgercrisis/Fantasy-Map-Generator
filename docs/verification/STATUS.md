@@ -5,17 +5,17 @@
 > Hand edits are overwritten. To change a number here, change the data in
 > `public/modules/namebases-*.js` and regenerate.
 
-Generated: 2026-10-21  |  Seed floor: 25
+Generated: 2026-10-22  |  Seed floor: 25
 
 ## Headline
 
 | Metric | Count |
 |---|---:|
-| Language entries | 2851 |
-| Marked COMPLETE (>= 25 seeds) | 1487 |
-| Marked WAITING (< 25 seeds) | 1364 |
-| Below seed floor | 1361 |
-| Zero seeds | 27 |
+| Language entries | 2861 |
+| Marked COMPLETE (>= 25 seeds) | 1492 |
+| Marked WAITING (< 25 seeds) | 1369 |
+| Below seed floor | 1360 |
+| Zero seeds | 25 |
 | Heavily contaminated (>=10 shared seeds) | 0 |
 | Pasted 8-seed blocks (W004, actionable) | 0 |
 | Map ISOs with no namebase (research backlog) | 913 |
@@ -25,25 +25,23 @@ Generated: 2026-10-21  |  Seed floor: 25
 
 | Continent | Entries | Below floor | Zero seed | Median seeds |
 |---|---:|---:|---:|---:|
-| africa | 649 | 309 | 5 | 25 |
+| africa | 649 | 309 | 3 | 25 |
 | asia | 979 | 645 | 9 | 19 |
 | europe | 545 | 235 | 11 | 27 |
-| northAmerica | 225 | 5 | 0 | 27 |
+| northAmerica | 235 | 5 | 0 | 26 |
 | southAmerica | 151 | 0 | 0 | 28 |
-| oceania | 292 | 167 | 2 | 19 |
+| oceania | 292 | 166 | 2 | 20 |
 | fantasy | 10 | 0 | 0 | 200 |
 
 ## Work queue: entries below the seed floor
 
-1361 entries need authentic settlement names. Ordered by seed count,
+1360 entries need authentic settlement names. Ordered by seed count,
 so the emptiest entries come first. One at a time, research then edit.
 
 | Seeds | Continent | Index | Language |
 |---:|---|---:|---|
-| 0 | africa | 11239 | Gadang |
 | 0 | africa | 14148 | Geez |
 | 0 | africa | 203231 | Kujargé |
-| 0 | africa | 20514 | Bamwe |
 | 0 | africa | 200176 | Standard Algerian Berber |
 | 0 | asia | 2202 | Khe Khmer |
 | 0 | asia | 200345 | Magar (Dhut) |
@@ -126,6 +124,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | africa | 20301 | Babanki |
 | 2 | africa | 20502 | Baldemu |
 | 2 | africa | 20507 | Bamum |
+| 2 | africa | 20514 | Bamwe |
 | 2 | africa | 20581 | Boghom |
 | 2 | africa | 200005 | Belneng |
 | 2 | africa | 200048 | Kera |
@@ -159,6 +158,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 2 | oceania | 203106 | Tobian |
 | 2 | oceania | 203108 | Tsaukambo |
 | 3 | africa | 706 | Saari |
+| 3 | africa | 11239 | Gadang |
 | 3 | africa | 20505 | Bambalang |
 | 3 | africa | 20521 | Bayot |
 | 3 | africa | 20583 | Bokoto |
@@ -204,6 +204,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | europe | 1503 | Hinuq |
 | 3 | oceania | 1918 | Gimi |
 | 3 | oceania | 200994 | Tangwang |
+| 3 | oceania | 756 | Agalega Creole |
 | 3 | oceania | 1656 | Dano |
 | 3 | oceania | 201113 | Nedebang |
 | 3 | oceania | 202369 | Narom |
@@ -218,6 +219,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 3 | oceania | 203102 | Somahai |
 | 3 | oceania | 203104 | Tainae |
 | 3 | oceania | 203110 | Umanakaina |
+| 3 | oceania | 203267 | Saaroa |
 | 4 | africa | 709 | Sighu |
 | 4 | africa | 2034 | Fungor |
 | 4 | africa | 2059 | Viemo |
@@ -273,10 +275,7 @@ so the emptiest entries come first. One at a time, research then edit.
 | 4 | europe | 200833 | Vartovskoe |
 | 4 | oceania | 1851 | Fore |
 | 4 | oceania | 202765 | Wadjiginy |
-| 4 | oceania | 756 | Agalega Creole |
 | 4 | oceania | 202461 | Sonsorolese |
-| 4 | oceania | 202509 | Western Dani |
-| 4 | oceania | 202737 | Burarra |
 | 4 | oceania | 202746 | Kukatja |
 | 4 | oceania | 203081 | Mombum |
 | 4 | oceania | 203085 | Nomane |
@@ -340,8 +339,9 @@ so the emptiest entries come first. One at a time, research then edit.
 | 5 | europe | 200746 | Lipsha |
 | 5 | europe | 200888 | Urum |
 | 5 | europe | 867 | Wutunhua  |
+| 5 | europe | 202887 | Kamassian proper |
 
-_Showing the lowest 300 of 1361. Full queue:_
+_Showing the lowest 300 of 1360. Full queue:_
 
 ```
 node tools/namebase-tools/verify-namebase-integrity.js --json
