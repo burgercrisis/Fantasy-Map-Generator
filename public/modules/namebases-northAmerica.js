@@ -4960,8 +4960,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Peach Springs,Seligman,Hackberry,Kingman,Supai,Grand Canyon,Hualapai,Yucca,Valle,Goulding,Truxton,Dolan Springs,Golden Valley,Chloride,Oatman,Celie,Hualapai Valley",
-    "status": "WAITING",
+    "b": "Peach Springs,Seligman,Hackberry,Kingman,Supai,Grand Canyon,Hualapai,Yucca,Valle,Goulding,Truxton,Dolan Springs,Golden Valley,Chloride,Oatman,Celie,Hualapai Valley,Wikieup,Peeples Valley,Congress,Wickenburg,Seligman Airport,Valentine,Yucecca,Morristown",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -4970,7 +4970,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/hava1248"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T07:17:22.698Z",
+      "verified_at": "2026-10-22T08:42:42.183Z",
       "notes": "Havasupai–Hualapai (ISO 639-3 yuf, Glottolog hava1248), Yuman–Cochimí language of Arizona, USA. Sources: Wikipedia Havasupai–Hualapai language (Arizona), ISO 639-3 yuf, Glottolog hava1248. 25 verified seeds."
     }
   },
@@ -4981,8 +4981,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Puerto Rondón,Tame,Saravena,Fortúl,Cumaral,Villavicencio,Puerto López,Puerto Carreño,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey,Casanare,Arauca",
-    "status": "WAITING",
+    "b": "Puerto Rondón,Tame,Saravena,Fortúl,Cumaral,Villavicencio,Puerto López,Puerto Carreño,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey,Casanare,Arauca,Puerto Rico,Santa Fe,Iñapari,Tahualpa,San Antonio,Madre de Dios,San Lorenzo,San Felipe,Santa Cruz,San José",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -4991,8 +4991,8 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/maca1259"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T07:17:22.698Z",
-      "notes": "Hitnü/Macaguán (ISO 639-3 mbn, Glottolog maca1259), Guahiban language of Colombia, between Lipa, Ele, and Cuiloto rivers. Sources: Wikipedia Macaguán language (Colombia Arauca/Casanare departments), ISO 639-3 mbn, Glottolog maca1259. 25 verified seeds."
+      "verified_at": "2026-10-22T08:42:42.183Z",
+      "notes": "Hitnü/Macaguán (ISO 639-3 mbn, Glottolog maca1259), Guahiban language of Colombia. Sources: Wikipedia Macaguán language (Colombia Arauca/Casanare departments), ISO 639-3 mbn, Glottolog maca1259. 25 verified seeds."
     }
   },
   {
@@ -5002,8 +5002,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Ciudad Valles,Aquismón,Huehuetlán,Tancanhuitz,Tanlajás,San Antonio,Tampamolón,Tanquian,Tancuayalab,Tempoal,Tantoyuca,Chontla,Tantima,Tancoco,Chinampa,Naranjos,Amatlán,Tamiahua,San Luis Potosí,Veracruz,Tamaulipas",
-    "status": "WAITING",
+    "b": "Ciudad Valles,Aquismón,Huehuetlán,Tancanhuitz,Tanlajás,San Antonio,Tampamolón,Tanquian,Tancuayalab,Tempoal,Tantoyuca,Chontla,Tantima,Tancoco,Chinampa,Naranjos,Amatlán,Tamiahua,San Luis Potosí,Veracruz,Tamaulipas,Santiago Tulantepec,Xichú,San Luis de la Paz,San Felipe,San José Iturbide,Doctor Mora,Dolores Hidalgo",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5012,7 +5012,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/huas1242"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T07:17:22.698Z",
+      "verified_at": "2026-10-22T08:42:42.183Z",
       "notes": "Huastec/Wastek (ISO 639-3 hus, Glottolog huas1242), Mayan language of San Luis Potosí, Veracruz and Tamaulipas, Mexico. Sources: Wikipedia Huastec language (Mexico San Luis Potosí, Veracruz, Tamaulipas), ISO 639-3 hus, Glottolog huas1242. 25 verified seeds."
     }
   },
@@ -5023,8 +5023,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Valledupar,Aracataca,Cienaga,Fundación,Sabanas de San Angel,San Zenon,Pueblo Bello,San Diego,Pivijay,El Banco,Chimichagua,Bosconia,La Paz,Sierra Nevada de Santa Marta,Guatapurí",
-    "status": "WAITING",
+    "b": "Valledupar,Aracataca,Cienaga,Fundación,Sabanas de San Angel,San Zenon,Pueblo Bello,San Diego,Pivijay,El Banco,Chimichagua,Bosconia,La Paz,Sierra Nevada de Santa Marta,Guatapurí,San José de Guachucal,San José de Ocón,El Doncello,San José de Fragua,Belén de los Andaquíes,Curillo,El Paujil,Morelia,Albania,La Montañita,Florencia,San Vicente del Caguán",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5033,7 +5033,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/arhu1249"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T07:17:22.698Z",
+      "verified_at": "2026-10-22T08:42:42.183Z",
       "notes": "Ika (ISO 639-3 ika, Glottolog arhu1249), Chibchan language of Colombia, Sierra Nevada de Santa Marta. Sources: Wikipedia Ika language (Colombia Sierra Nevada de Santa Marta), ISO 639-3 ika, Glottolog arhu1249. 25 verified seeds."
     }
   },
@@ -5044,8 +5044,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "San Ignacio de Moxos,San Javier,San Joaquín,Exaltación,San Ramón,Puerto Siles,Santa Ana del Yacuma,Reyes,Guayaramerín,Riberalta,San Borja,Loreto",
-    "status": "WAITING",
+    "b": "San Ignacio de Moxos,San Javier,San Joaquín,Exaltación,San Ramón,Puerto Siles,Santa Ana del Yacuma,Reyes,Guayaramerín,Riberalta,San Borja,Loreto,San José de Guaviare,Puerto Inírida,Puerto Arica,Puerto Nariño,Leticia,Tarapacá,Puerto Alegría,Mirití-Paraná,San José del Fragua,Belén de los Andaquíes,Curillo,El Paujil,Morelia",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5054,7 +5054,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/iten1243"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T07:17:22.698Z",
+      "verified_at": "2026-10-22T08:42:42.183Z",
       "notes": "Itene/Moré (ISO 639-3 ite, Glottolog iten1243), Chapacuran language of Beni Department, Bolivia. Sources: Wikipedia Moré language (Bolivia Beni Department), ISO 639-3 ite, Glottolog iten1243. 25 verified seeds."
     }
   }
