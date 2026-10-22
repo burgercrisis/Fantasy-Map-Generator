@@ -817,7 +817,7 @@ window.africaNameBases = [
     "b": "Kortchi",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://iso639-3.sil.org/code/bhs",
         "https://glottolog.org/resource/languoid/id/buwa1243",
@@ -3396,7 +3396,7 @@ window.africaNameBases = [
     "b": "Raja",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Yulu_language",
         "https://en.wikipedia.org/wiki/Yulu_people",
@@ -7208,7 +7208,7 @@ window.africaNameBases = [
     "b": "Makanza",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Binza_language",
         "https://fr.wikipedia.org/wiki/Libinza",
@@ -7344,7 +7344,7 @@ window.africaNameBases = [
     "b": "Gombi",
     "status": "WAITING",
     "verification": {
-      "status": "unverified",
+      "status": "verified",
       "sources": [
         "https://en.wikipedia.org/wiki/Boga_language",
         "https://glottolog.org/resource/languoid/id/boga1251",
@@ -9304,8 +9304,17 @@ window.africaNameBases = [
     "max": 11,
     "d": "",
     "m": 0,
-    "b": "Burku",
-    "status": "WAITING"
+    "b": "Miya",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mburku_language"
+      ],
+      "verified_by": "kilo-namebase-verifier",
+      "verified_at": "2026-10-22T08:28:00Z",
+      "notes": "Mburku or Burku, ISO 639-3 bbt, Glottolog mbur1239: West Chadic language spoken by 7,000-10,000 people in Miya District of Ganjuwa LGA, Bauchi State, Nigeria (Wikipedia: Mburku language). Miya is a confirmed district in Bauchi State where Mburku is spoken. Entry stays WAITING with 1 verified seed."
+    }
   },
   {
     "name": "Mefele",

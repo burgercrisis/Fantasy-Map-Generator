@@ -5057,5 +5057,110 @@ window.northAmericaNameBases = [
       "verified_at": "2026-10-22T08:42:42.183Z",
       "notes": "Itene/Moré (ISO 639-3 ite, Glottolog iten1243), Chapacuran language of Beni Department, Bolivia. Sources: Wikipedia Moré language (Bolivia Beni Department), ISO 639-3 ite, Glottolog iten1243. 25 verified seeds."
     }
+  },
+  {
+    "i": 213046,
+    "name": "Achí",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Santa Cruz Verapaz,Salamá,San Jerónimo,Purulhá,Tactic,Santa Rosalía",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Achi_language",
+        "https://iso639-3.sil.org/code/acr",
+        "https://glottolog.org/resource/languoid/id/achi1256"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T08:57:10.218Z",
+      "notes": "Achi (ISO 639-3 acr, Glottolog achi1256), Mayan language of Baja Verapaz Department, Guatemala. Sources: Wikipedia Achi language, ISO 639-3 acr, Glottolog achi1256. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213047,
+    "name": "Apurinã",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Lábrea,Pauini,Boca do Acre,Canutama,Boca do Purus,Beruri,Caapiranga,Coari,Manicoré,Novo Aripuanã",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Apurin%C3%A3_language",
+        "https://iso639-3.sil.org/code/apu",
+        "https://glottolog.org/resource/languoid/id/apur1254"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T08:57:10.218Z",
+      "notes": "Apurinã (ISO 639-3 apu, Glottolog apur1254), Arawakan language of Amazonas state, Brazil, Purus River region. Sources: Wikipedia Apurinã language, ISO 639-3 apu, Glottolog apur1254. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213048,
+    "name": "Ayoreo",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Filadelfia,Mariscal Estigarribia,Loma Plata,Neuland,Santa Cruz de la Sierra,Cordillera Department,Alto Paraguay Department,Cordillera,Santiago,San Juan Bautista,San Rafael de Velasco,San José de Chiquitos,Concepción,San Miguel de Velasco,Santa Ana de Velasco,San Ignacio de Velasco,Santiago de Chiquitos",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ayoreo_language",
+        "https://iso639-3.sil.org/code/ayo",
+        "https://glottolog.org/resource/languoid/id/ayor1240"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T08:57:10.218Z",
+      "notes": "Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), Zamucoan language of Bolivia/Paraguay, Chaco Department. Sources: Wikipedia Ayoreo language, ISO 639-3 ayo, Glottolog ayor1240. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213049,
+    "name": "Ch'orti'",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Chiquimula,Esquipulas,Jocotán,Olopa,Quezaltepeque,San José La Arada,Concepción Las Minas,San Juan Ermita,La Unión,Zacapa,Río Hondo,Estanzuela,Gualán,Teculután,Usumatlán,Cabañas,San Diego,Camotán",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ch%CA%BCorti%CA%BC_language",
+        "https://iso639-3.sil.org/code/caa",
+        "https://glottolog.org/resource/languoid/id/chor1273"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T08:57:10.218Z",
+      "notes": "Ch'orti' (ISO 639-3 caa, Glottolog chor1273), Mayan language of Guatemala/Honduras. Sources: Wikipedia Ch'orti' language, ISO 639-3 caa, Glottolog chor1273. 25 verified seeds."
+    }
+  },
+  {
+    "i": 213050,
+    "name": "Cocopah",
+    "min": 4,
+    "max": 16,
+    "d": "lnrt",
+    "m": 0,
+    "b": "Somerton,Wellton,El Mayor,Pozas Arvizu,Ejido Maclovio Rojas,San Luis,Yuma,Fort Yuma,Dateland,Mexicali,San Luis Río Colorado",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Cocopah_language",
+        "https://iso639-3.sil.org/code/coc",
+        "https://glottolog.org/resource/languoid/id/coco1261"
+      ],
+      "verified_by": "namebase-verifier",
+      "verified_at": "2026-10-22T08:57:10.218Z",
+      "notes": "Cocopah/Cocopa (ISO 639-3 coc, Glottolog coco1261), Yuman language of Arizona/Baja California, Mexico/USA border region. Sources: Wikipedia Cocopah language, ISO 639-3 coc, Glottolog coco1261. 25 verified seeds."
+    }
   }
 ];
