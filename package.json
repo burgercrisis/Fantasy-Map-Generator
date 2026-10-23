@@ -1,7 +1,7 @@
 {
   "name": "fantasy-map-generator",
   "productName": "Fantasy Map Generator",
-  "version": "1.109.8",
+  "version": "1.155.0",
   "description": "Azgaar's _Fantasy Map Generator_ is a free web application that helps fantasy writers, game masters, and cartographers create and edit fantasy maps.",
   "homepage": "https://github.com/Azgaar/Fantasy-Map-Generator#readme",
   "bugs": {
@@ -16,68 +16,63 @@
   "main": "dist-electron/main.js",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && node scripts/pwa-precache.mjs",
     "preview": "vite preview",
     "electron": "node scripts/electron.mjs",
     "test": "vitest",
+    "test:scenarios": "vitest run --config vitest.scenarios.config.ts",
     "test:e2e": "playwright test",
+    "test:scripts": "node --test scripts/*.test.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
     "lint": "biome check --write",
     "sync-version": "node scripts/sync-version.js",
     "stamp-assets": "node scripts/stamp-assets.js",
-    "namebase:verify": "node tools/namebase-tools/verify-namebase-integrity.js",
-    "namebase:status": "node tools/namebase-tools/namebase-status.js --write",
-    "namebase:clean": "node tools/namebase-tools/clean-namebase-data.js",
-    "namebase:normalize": "node tools/namebase-tools/normalize-namebase-format.js",
-    "namebase:move": "node tools/namebase-tools/move-entries.js",
-    "namebase:clear-seeds": "node tools/namebase-tools/clear-seeds.js",
-    "namebase:claims": "node tools/namebase-tools/claim.js --list",
-    "namebase:map-audit": "node tools/namebase-tools/audit-map-integrity.js",
-    "namebase:aggregator": "node tools/namebase-tools/verify-aggregator-runs.js",
-    "namebase:repair-map": "node tools/namebase-tools/repair-mixer-map.js",
-    "namebase:dedupe": "node tools/namebase-tools/dedupe-entries.js",
-    "namebase:repoint": "node tools/namebase-tools/repoint-dangling.js",
-    "namebase:verify-dist": "node tools/namebase-tools/verify-built-output.js",
-    "namebase:unique-indices": "node tools/namebase-tools/unique-indices.js",
+    "generate:assistant-context": "node scripts/generate-assistant-context.mjs",
+    "extract-strings": "node scripts/extract-strings.mjs",
+    "lint-locales": "node scripts/lint-locales.mjs",
     "prepare": "simple-git-hooks"
   },
   "simple-git-hooks": {
-    "pre-commit": "node scripts/pre-commit.js"
+    "pre-commit": "npm run lint && node scripts/sync-version.js --stage && node scripts/stamp-assets.js --stage"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.6",
+    "@biomejs/biome": "^2.6.2",
     "@emnapi/core": "^1.11.3",
     "@emnapi/runtime": "^1.11.3",
-    "@playwright/test": "^1.57.0",
+    "@playwright/test": "^1.64.1",
     "@types/d3": "^7.4.3",
-    "@types/d3-quadtree": "^3.0.6",
     "@types/delaunator": "^5.0.3",
     "@types/lineclip": "^2.0.0",
-    "@types/node": "^25.0.10",
-    "@types/polylabel": "^1.1.3",
-    "@types/three": "^0.184.1",
-    "@vitest/browser": "^4.1.10",
-    "@vitest/browser-playwright": "^4.0.18",
-    "d3-quadtree": "^3.0.1",
-    "electron": "^43.4.1",
+    "@types/node": "^25.9.9",
+    "@types/polylabel": "^2.0.0",
+    "@types/three": "^0.186.0",
+    "@vitest/browser": "^5.0.5",
+    "@vitest/browser-playwright": "^5.0.5",
+    "electron": "^43.8.3",
     "electron-builder": "^26.15.3",
     "electron-updater": "^6.8.9",
     "jsdom": "^29.1.1",
-    "playwright": "^1.57.0",
-    "simple-git-hooks": "^2.13.1",
+    "playwright": "^1.64.1",
+    "simple-git-hooks": "^2.14.0",
     "typescript": "^5.9.3",
-    "vite": "^8.0.16",
-    "vitest": "^4.0.18"
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
   },
   "dependencies": {
     "alea": "^1.0.1",
     "d3": "^7.9.0",
-    "delaunator": "^5.0.1",
-    "driver.js": "^1.4.0",
+    "delaunator": "^5.1.0",
+    "driver.js": "^1.10.2",
     "lineclip": "^2.0.0",
-    "polylabel": "^2.0.1",
-    "three": "^0.184.0"
+    "polylabel": "^2.1.0",
+    "quill": "^2.0.3",
+    "three": "^0.186.1",
+    "zod": "^4.6.7"
   },
   "engines": {
     "node": ">=24.0.0"
+  },
+  "overrides": {
+    "global-agent": "^4.1.3"
   }
 }

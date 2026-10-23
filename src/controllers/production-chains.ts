@@ -1,5 +1,9 @@
 import { type Selection, select, zoom, zoomIdentity } from "d3";
+import { destroyDialog } from "@/components/dialog/dialog-helpers";
+import { Icons } from "@/components/icons";
 import { tip } from "@/components/tooltips";
+import { goodIconLines } from "@/renderers/draw-goods";
+import { t } from "@/utils/i18n";
 import type { Good } from "../generators/goods-generator";
 import { ensureEl } from "../utils";
 import { C_12 } from "../utils/colorUtils";
@@ -114,16 +118,17 @@ const FLOW_OPACITY_BASE = 0.65;
 const FLOW_OPACITY_PER_AMOUNT = 0.08;
 const FLOW_OPACITY_MAX = 0.92;
 
-function open() {
+function open(): void {
+  void Icons.retry("goods");
   const goods = [...(pack.goods as Good[])];
   if (!goods.length) {
-    tip("No goods data available.", true, "warn");
+    tip(t("No goods available"), true, "warn");
     return;
   }
 
   const layout = buildLayout(goods);
   if (!layout.nodes.length) {
-    tip("No production chains found: add manufactured goods with recipes first.", true, "warn");
+    tip(t("No production chains found: add manufactured goods with recipes first."), true, "warn");
     return;
   }
 
@@ -140,7 +145,7 @@ function open() {
   if (svgEl) attachGraphInteractions(svgEl, layout);
 
   $("#productionChainsDialog").dialog({
-    title: "Production Chains",
+    title: t("Production Chains"),
     resizable: true,
     width: dialogSize.width,
     height: dialogSize.height,
@@ -150,7 +155,7 @@ function open() {
 }
 
 function renderDialog(): void {
-  document.getElementById("productionChainsDialog")?.remove();
+  destroyDialog("productionChainsDialog");
   const editorHtml = /* html */ `<div id="productionChainsDialog" class="dialog" style="padding:0">
       <div id="productionChainsContent" style="overflow:auto"></div>
     </div>`;
@@ -663,7 +668,7 @@ function renderHeaders(stages: Set<number>, offsetX: number): string {
     .sort((a, b) => a - b)
     .map(stage => {
       const centerX = stage * COLUMN_STEP + CARD_WIDTH / 2 + offsetX;
-      const label = stage === 0 ? "Raw Materials" : `Stage ${stage}`;
+      const label = stage === 0 ? t("Raw Materials") : t("Stage {{stage}}", { stage });
       return `<text x="${centerX}" y="${HEADER_HEIGHT - 4}" text-anchor="middle"
       font-size="9" font-family="sans-serif" fill="#c0c0c0" font-weight="700"
       letter-spacing="0.7">${label.toUpperCase()}</text>
@@ -734,10 +739,10 @@ function renderEdge(displayEdge: DisplayEdge, positions: Map<number, Position>):
 
 function renderNodeTooltip(node: GraphNode): string {
   return [
-    `${node.good.name} — base price: ${node.good.value}`,
+    t("{{- good}} — base price: {{price}}", { good: node.good.name, price: node.good.value }),
     ...(node.good.recipes ?? []).map(
       (recipe, index) =>
-        `Recipe ${index + 1}: ` +
+        `${t("Recipe {{number}}", { number: index + 1 })}: ` +
         Object.entries(recipe)
           .map(([id, amount]) => `${Goods.get(+id)?.name ?? id} x${amount}`)
           .join(" + ")
@@ -759,8 +764,8 @@ function renderNodeContent(node: GraphNode, displayName: string): string {
   const iconY = CARD_HEIGHT / 2;
   const textX = iconX + ICON_RADIUS + 5;
 
-  return `<use href="#${node.good.icon}" x="${iconX - ICON_RADIUS}" y="${iconY - ICON_RADIUS}"
-    width="${ICON_RADIUS * 2}" height="${ICON_RADIUS * 2}"/>
+  return `<use href="${Icons.href(node.good.icon)}" x="${iconX - ICON_RADIUS}" y="${iconY - ICON_RADIUS}"
+    width="${ICON_RADIUS * 2}" height="${ICON_RADIUS * 2}"${goodIconLines()}/>
   <text x="${textX}" y="${iconY - 2}" font-size="10" font-family="sans-serif"
     fill="#111" font-weight="600">${displayName}</text>
   <text x="${textX}" y="${iconY + 8}" font-size="8.5" font-family="sans-serif" fill="#888">🟡 ${node.good.value}</text>`;

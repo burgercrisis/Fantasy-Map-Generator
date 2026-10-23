@@ -1,20 +1,26 @@
 import { max, quadtree, range } from "d3";
 import { Emblems } from "@/generators/emblems-generator";
-import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
-import { last } from "@/utils/arrayUtils";
-import { abbreviate, biased, ensureEl, getColors, getRandomColor, minmax, P, rand, rn, rw } from "../utils";
+import type { Emblem } from "@/types/emblems";
+import { requireColor } from "@/utils/colorUtils";
+import { t } from "@/utils/i18n";
+import { requireCode, requireName, requireOneOf, requireOrigins } from "@/utils/validationUtils";
+import { abbreviate, biased, getColors, getRandomColor, minmax, P, rand, rn, rw } from "../utils";
+import { Population } from "./population-generator";
+
+/** The named culture sets the user picks from: how many cultures each holds and how often it is rolled */
+export const CULTURE_SETS: Record<string, { name: string; max: number; probability: number }> = {
+  world: { name: "All-world", max: 32, probability: 10 },
+  european: { name: "European", max: 15, probability: 10 },
+  oriental: { name: "Oriental", max: 13, probability: 2 },
+  english: { name: "English", max: 10, probability: 5 },
+  antique: { name: "Antique", max: 10, probability: 3 },
+  highFantasy: { name: "High Fantasy", max: 17, probability: 11 },
+  darkFantasy: { name: "Dark Fantasy", max: 18, probability: 3 },
+  random: { name: "Random", max: 100, probability: 1 }
+};
 
 declare global {
   var Cultures: CulturesGenerator;
-
-  /**
-   * Runtime-attached by names-mixer.js. Not part of the upstream NamesGenerator
-   * class; declared here so the culture mixer can call it without `any`.
-   */
-  var getRaceNameForCulture: ((culture: Culture) => string | null) | undefined;
-  var getRacesSetFilter: ((value: string) => Set<string> | null) | undefined;
-  var getRaceCultureProps: ((raceName: string) => { base: number; shield: string; odd: number } | null) | undefined;
-  var rerollRacesForCultures: ((options?: { forceFilterFromUi?: boolean }) => void) | undefined;
 }
 
 export interface Culture {
@@ -22,6 +28,7 @@ export interface Culture {
   i: number;
   base: number;
   shield: string;
+  ancestry?: string;
   lock?: boolean;
   code?: string;
   center?: number;
@@ -39,8 +46,8 @@ export interface Culture {
   area?: number;
   rural?: number;
   urban?: number;
-  /** Race name assigned by the race system (custom fork; no upstream equivalent) */
-  race?: string;
+  note?: string;
+  tags?: string[];
 }
 
 export const CULTURE_TYPES = ["Generic", "Hunting", "Highland", "River", "Lake", "Naval", "Nomadic"] as const;
@@ -72,7 +79,7 @@ class CulturesGenerator {
     const sf = (cell: number, fee = 4) =>
       cells.haven[cell] && pack.features[cells.f[cells.haven[cell]]].type !== "lake" ? 1 : fee; // not on sea coast fee
 
-    if (culturesSet.value === "european") {
+    if (options.map.cultures.set === "european") {
       return [
         {
           name: "Shwazen",
@@ -182,7 +189,7 @@ class CulturesGenerator {
       ];
     }
 
-    if (culturesSet.value === "oriental") {
+    if (options.map.cultures.set === "oriental") {
       return [
         {
           name: "Koryo",
@@ -213,7 +220,7 @@ class CulturesGenerator {
           shield: "round"
         },
         {
-          name: "Berberan",
+          name: "Amazi",
           base: 17,
           odd: 0.2,
           sort: (i: number) => (n(i) / td(i, 19) / bd(i, [1, 2, 3], 7)) * t[i],
@@ -278,7 +285,7 @@ class CulturesGenerator {
       ];
     }
 
-    if (culturesSet.value === "english") {
+    if (options.map.cultures.set === "english") {
       const getName = () => Names.getBase(1, 5, 9, "");
       return [
         { name: getName(), base: 1, odd: 1, shield: "heater" },
@@ -294,7 +301,7 @@ class CulturesGenerator {
       ];
     }
 
-    if (culturesSet.value === "antique") {
+    if (options.map.cultures.set === "antique") {
       return [
         {
           name: "Roman",
@@ -411,57 +418,408 @@ class CulturesGenerator {
       ];
     }
 
-    if (culturesSet.value === "fantasy" || culturesSet.value === "highFantasy" || culturesSet.value === "darkFantasy") {
-      const racesSetEl = document.getElementById("racesSet") as HTMLSelectElement | null;
-      const racesSetValue = racesSetEl ? racesSetEl.value : "all";
-      const filter = typeof getRacesSetFilter === "function" ? getRacesSetFilter(racesSetValue) : null;
-
-      const cultures: Omit<Culture, "i" | "type">[] = [];
-      const sortVariants = [
-        (i: number) => n(i),
-        (i: number) => n(i) / td(i, 10),
-        (i: number) => (n(i) / td(i, 5)) * t[i],
-        (i: number) => n(i) + h[i]
+    if (options.map.cultures.set === "highFantasy") {
+      return [
+        // fantasy races
+        {
+          name: "Quenian",
+          ancestry: "Elfish",
+          base: 33,
+          odd: 1,
+          sort: (i: number) => (n(i) / bd(i, [6, 7, 8, 9], 10)) * t[i],
+          shield: "gondor"
+        }, // Elves
+        {
+          name: "Eldar",
+          ancestry: "Elfish",
+          base: 33,
+          odd: 1,
+          sort: (i: number) => (n(i) / bd(i, [6, 7, 8, 9], 10)) * t[i],
+          shield: "noldor"
+        }, // Elves
+        {
+          name: "Trow",
+          ancestry: "Dark Elfish",
+          base: 34,
+          odd: 0.9,
+          sort: (i: number) => (n(i) / bd(i, [7, 8, 9, 12], 10)) * t[i],
+          shield: "hessen"
+        }, // Dark Elves
+        {
+          name: "Lothian",
+          ancestry: "Dark Elfish",
+          base: 34,
+          odd: 0.3,
+          sort: (i: number) => (n(i) / bd(i, [7, 8, 9, 12], 10)) * t[i],
+          shield: "wedged"
+        }, // Dark Elves
+        {
+          name: "Dunirr",
+          ancestry: "Dwarven",
+          base: 35,
+          odd: 1,
+          sort: (i: number) => n(i) + h[i],
+          shield: "ironHills"
+        }, // Dwarfs
+        {
+          name: "Khazadur",
+          ancestry: "Dwarven",
+          base: 35,
+          odd: 1,
+          sort: (i: number) => n(i) + h[i],
+          shield: "erebor"
+        }, // Dwarfs
+        {
+          name: "Kobold",
+          ancestry: "Goblin",
+          base: 36,
+          odd: 1,
+          sort: (i: number) => t[i] - s[i],
+          shield: "moriaOrc"
+        }, // Goblin
+        {
+          name: "Uruk",
+          ancestry: "Orkish",
+          base: 37,
+          odd: 1,
+          sort: (i: number) => h[i] * t[i],
+          shield: "urukHai"
+        }, // Orc
+        {
+          name: "Ugluk",
+          ancestry: "Orkish",
+          base: 37,
+          odd: 0.5,
+          sort: (i: number) => (h[i] * t[i]) / bd(i, [1, 2, 10, 11]),
+          shield: "moriaOrc"
+        }, // Orc
+        {
+          name: "Yotunn",
+          ancestry: "Giants",
+          base: 38,
+          odd: 0.7,
+          sort: (i: number) => td(i, -10),
+          shield: "pavise"
+        }, // Giant
+        {
+          name: "Rake",
+          ancestry: "Drakonic",
+          base: 39,
+          odd: 0.7,
+          sort: (i: number) => -s[i],
+          shield: "fantasy2"
+        }, // Draconic
+        {
+          name: "Arago",
+          ancestry: "Arachnid",
+          base: 40,
+          odd: 0.7,
+          sort: (i: number) => t[i] - s[i],
+          shield: "horsehead2"
+        }, // Arachnid
+        {
+          name: "Aj'Snaga",
+          ancestry: "Serpents",
+          base: 41,
+          odd: 0.7,
+          sort: (i: number) => n(i) / bd(i, [12], 10),
+          shield: "fantasy1"
+        }, // Serpents
+        // fantasy human
+        {
+          name: "Anor",
+          ancestry: "Human",
+          base: 32,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 10),
+          shield: "fantasy5"
+        },
+        {
+          name: "Dail",
+          ancestry: "Human",
+          base: 32,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 13),
+          shield: "roman"
+        },
+        {
+          name: "Rohand",
+          ancestry: "Human",
+          base: 16,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 16),
+          shield: "round"
+        },
+        {
+          name: "Dulandir",
+          ancestry: "Human",
+          base: 31,
+          odd: 1,
+          sort: (i: number) => (n(i) / td(i, 5) / bd(i, [2, 4, 10], 7)) * t[i],
+          shield: "easterling"
+        }
       ];
-
-      const raceNames = (window as any).fantasyRaceNames as string[] | undefined;
-      if (!raceNames) return cultures;
-
-      let sortIdx = 0;
-      for (const raceName of raceNames) {
-        if (raceName === "Human" || raceName === "AnyLanguage") continue;
-        if (filter && !filter.has(raceName)) continue;
-        if (typeof getRaceCultureProps !== "function") continue;
-        const props = getRaceCultureProps(raceName);
-        if (!props) continue;
-
-        const name = Names.getBaseShort(props.base);
-        const sort = sortVariants[sortIdx % sortVariants.length];
-        sortIdx++;
-
-        cultures.push({
-          name,
-          base: props.base,
-          odd: props.odd,
-          sort,
-          shield: props.shield
-        });
-      }
-
-      cultures.push({
-        name: Names.getBaseShort(32),
-        base: 32,
-        odd: 1,
-        sort: (i: number) => n(i) / td(i, 10),
-        shield: "fantasy5"
-      });
-
-      return cultures;
     }
 
-    if (culturesSet.value === "random") {
+    if (options.map.cultures.set === "darkFantasy") {
+      return [
+        // common real-world English
+        {
+          name: "Angshire",
+          base: 1,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 10) / sf(i),
+          shield: "heater"
+        },
+        {
+          name: "Enlandic",
+          base: 1,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 12),
+          shield: "heater"
+        },
+        {
+          name: "Westen",
+          base: 1,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 10),
+          shield: "heater"
+        },
+        {
+          name: "Nortumbic",
+          base: 1,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 7),
+          shield: "heater"
+        },
+        {
+          name: "Mercian",
+          base: 1,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 9),
+          shield: "heater"
+        },
+        {
+          name: "Kentian",
+          base: 1,
+          odd: 1,
+          sort: (i: number) => n(i) / td(i, 12),
+          shield: "heater"
+        },
+        // rare real-world western
+        {
+          name: "Norse",
+          base: 6,
+          odd: 0.7,
+          sort: (i: number) => n(i) / td(i, 5) / sf(i),
+          shield: "oldFrench"
+        },
+        {
+          name: "Schwarzen",
+          base: 0,
+          odd: 0.3,
+          sort: (i: number) => n(i) / td(i, 10) / bd(i, [6, 8]),
+          shield: "gonfalon"
+        },
+        {
+          name: "Luarian",
+          base: 2,
+          odd: 0.3,
+          sort: (i: number) => n(i) / td(i, 12) / bd(i, [6, 8]),
+          shield: "oldFrench"
+        },
+        {
+          name: "Hetallian",
+          base: 3,
+          odd: 0.3,
+          sort: (i: number) => n(i) / td(i, 15),
+          shield: "oval"
+        },
+        {
+          name: "Astellian",
+          base: 4,
+          odd: 0.3,
+          sort: (i: number) => n(i) / td(i, 16),
+          shield: "spanish"
+        },
+        // rare real-world exotic
+        {
+          name: "Kiswaili",
+          base: 28,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 29) / bd(i, [1, 3, 5, 7]),
+          shield: "vesicaPiscis"
+        },
+        {
+          name: "Yoruba",
+          base: 21,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 15) / bd(i, [5, 7]),
+          shield: "vesicaPiscis"
+        },
+        {
+          name: "Koryo",
+          base: 10,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 12) / t[i],
+          shield: "round"
+        },
+        {
+          name: "Hantzu",
+          base: 11,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 13),
+          shield: "banner"
+        },
+        {
+          name: "Yamoto",
+          base: 12,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 15) / t[i],
+          shield: "round"
+        },
+        {
+          name: "Guantzu",
+          base: 30,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 17),
+          shield: "banner"
+        },
+        {
+          name: "Ulus",
+          base: 31,
+          odd: 0.05,
+          sort: (i: number) => (n(i) / td(i, 5) / bd(i, [2, 4, 10], 7)) * t[i],
+          shield: "banner"
+        },
+        {
+          name: "Turan",
+          base: 16,
+          odd: 0.05,
+          sort: (i: number) => n(i) / td(i, 12),
+          shield: "round"
+        },
+        {
+          name: "Amazi",
+          base: 17,
+          odd: 0.05,
+          sort: (i: number) => (n(i) / td(i, 19) / bd(i, [1, 2, 3], 7)) * t[i],
+          shield: "round"
+        },
+        {
+          name: "Eurabic",
+          base: 18,
+          odd: 0.05,
+          sort: (i: number) => (n(i) / td(i, 26) / bd(i, [1, 2], 7)) * t[i],
+          shield: "round"
+        },
+        {
+          name: "Slovan",
+          base: 5,
+          odd: 0.05,
+          sort: (i: number) => (n(i) / td(i, 6)) * t[i],
+          shield: "round"
+        },
+        {
+          name: "Keltan",
+          base: 22,
+          odd: 0.1,
+          sort: (i: number) => n(i) / td(i, 11) ** 0.5 / bd(i, [6, 8]),
+          shield: "vesicaPiscis"
+        },
+        {
+          name: "Elladan",
+          base: 7,
+          odd: 0.2,
+          sort: (i: number) => (n(i) / td(i, 18) / sf(i)) * h[i],
+          shield: "boeotian"
+        },
+        {
+          name: "Romian",
+          base: 8,
+          odd: 0.2,
+          sort: (i: number) => n(i) / td(i, 14) / t[i],
+          shield: "roman"
+        },
+        // fantasy races
+        {
+          name: "Eldar",
+          ancestry: "Elfish",
+          base: 33,
+          odd: 0.5,
+          sort: (i: number) => (n(i) / bd(i, [6, 7, 8, 9], 10)) * t[i],
+          shield: "fantasy5"
+        }, // Elves
+        {
+          name: "Trow",
+          ancestry: "Dark Elfish",
+          base: 34,
+          odd: 0.8,
+          sort: (i: number) => (n(i) / bd(i, [7, 8, 9, 12], 10)) * t[i],
+          shield: "hessen"
+        }, // Dark Elves
+        {
+          name: "Durinn",
+          ancestry: "Dwarven",
+          base: 35,
+          odd: 0.8,
+          sort: (i: number) => n(i) + h[i],
+          shield: "erebor"
+        }, // Dwarven
+        {
+          name: "Kobblin",
+          ancestry: "Goblin",
+          base: 36,
+          odd: 0.8,
+          sort: (i: number) => t[i] - s[i],
+          shield: "moriaOrc"
+        }, // Goblin
+        {
+          name: "Uruk",
+          ancestry: "Orkish",
+          base: 37,
+          odd: 0.8,
+          sort: (i: number) => (h[i] * t[i]) / bd(i, [1, 2, 10, 11]),
+          shield: "urukHai"
+        }, // Orc
+        {
+          name: "Yotunn",
+          ancestry: "Giants",
+          base: 38,
+          odd: 0.8,
+          sort: (i: number) => td(i, -10),
+          shield: "pavise"
+        }, // Giant
+        {
+          name: "Drake",
+          ancestry: "Drakonic",
+          base: 39,
+          odd: 0.9,
+          sort: (i: number) => -s[i],
+          shield: "fantasy2"
+        }, // Draconic
+        {
+          name: "Rakhnid",
+          ancestry: "Arachnid",
+          base: 40,
+          odd: 0.9,
+          sort: (i: number) => t[i] - s[i],
+          shield: "horsehead2"
+        }, // Arachnid
+        {
+          name: "Aj'Snaga",
+          ancestry: "Serpents",
+          base: 41,
+          odd: 0.9,
+          sort: (i: number) => n(i) / bd(i, [12], 10),
+          shield: "fantasy1"
+        } // Serpents
+      ];
+    }
+
+    if (options.map.cultures.set === "random") {
       return range(count).map(() => {
-        const rnd = this.getRandomValidBaseIndex();
+        const rnd = rand(Names.nameBases.length - 1);
         const name = Names.getBaseShort(rnd);
         return { name, base: rnd, odd: 1, shield: this.getRandomShield() };
       });
@@ -589,7 +947,7 @@ class CulturesGenerator {
         shield: "round"
       },
       {
-        name: "Berberan",
+        name: "Amazi",
         base: 17,
         odd: 0.1,
         sort: (i: number) => (n(i) / td(i, 19) / bd(i, [1, 2, 3], 7)) * t[i],
@@ -704,11 +1062,12 @@ class CulturesGenerator {
   }
 
   generate() {
+    options.map.cultures.set = options.generation.cultures.set;
     this.cells = pack.cells;
     const cultureIds = new Uint16Array(this.cells.i.length); // cell cultures
 
-    const culturesInputNumber = +(ensureEl("culturesInput") as HTMLInputElement).value;
-    const culturesInSetNumber = +((ensureEl("culturesSet") as HTMLSelectElement).selectedOptions[0].dataset.max ?? "0");
+    const culturesInputNumber = options.generation.cultures.limit;
+    const culturesInSetNumber = CULTURE_SETS[options.map.cultures.set]?.max ?? 0;
     let count = Math.min(culturesInputNumber, culturesInSetNumber);
     const populated = this.cells.i.filter((i: number) => this.cells.s[i]); // populated cells
 
@@ -722,20 +1081,19 @@ class CulturesGenerator {
             i: 0,
             base: 1,
             shield: "round",
-            type: DEFAULT_CULTURE_TYPE
+            type: DEFAULT_CULTURE_TYPE,
+            tags: []
           }
         ];
         this.cells.culture = cultureIds;
 
-        alertMessage.innerHTML = /* html */ `The climate is harsh and people cannot live in this world.<br />
-          No cultures, states and burgs will be created.<br />
-          Please consider changing climate settings in the World Configurator`;
+        alertMessage.innerHTML = `${t("The climate is harsh and people cannot live in this world.")}<br>${t("No cultures, states and burgs will be created.")}<br>${t("Please consider changing climate settings in the World Configurator")}`;
 
         $("#alert").dialog({
           resizable: false,
-          title: "Extreme climate warning",
+          title: t("Extreme climate warning"),
           buttons: {
-            Ok: function () {
+            [t("OK")]: function () {
               $(this).dialog("close");
             }
           }
@@ -743,14 +1101,21 @@ class CulturesGenerator {
         return;
       } else {
         WARN && console.warn(`Not enough populated cells (${populated.length}). Will generate only ${count} cultures`);
-        alertMessage.innerHTML = /* html */ ` There are only ${populated.length} populated cells and it's insufficient livable area.<br />
-          Only ${count} out of ${culturesInput.value} requested cultures will be generated.<br />
-          Please consider changing climate settings in the World Configurator`;
+        alertMessage.innerHTML = [
+          t("There are only {{populated}} populated cells and it's insufficient livable area.", {
+            populated: populated.length
+          }),
+          t("Cultures to generate: {{cultures}}, requested: {{limit}}", {
+            cultures: count,
+            limit: options.generation.cultures.limit
+          }),
+          t("Please consider changing climate settings in the World Configurator")
+        ].join("<br>");
         $("#alert").dialog({
           resizable: false,
-          title: "Extreme climate warning",
+          title: t("Extreme climate warning"),
           buttons: {
-            Ok: function () {
+            [t("OK")]: function () {
               $(this).dialog("close");
             }
           }
@@ -792,7 +1157,7 @@ class CulturesGenerator {
     const codes: string[] = [];
 
     const placeCenter = (sortingFn: (i: number) => number) => {
-      let spacing = (graphWidth + graphHeight) / 2 / count;
+      let spacing = (options.map.graph.width + options.map.graph.height) / 2 / count;
       const MAX_ATTEMPTS = 100;
 
       const sorted = [...populated].sort((a, b) => sortingFn(b) - sortingFn(a));
@@ -833,7 +1198,7 @@ class CulturesGenerator {
       else if (type === "Nomadic") base = 1.5;
       else if (type === "Hunting") base = 0.7;
       else if (type === "Highland") base = 1.2;
-      return rn(((Math.random() * (ensureEl("sizeVariety") as HTMLInputElement).valueAsNumber) / 2 + 1) * base, 1);
+      return rn(((Math.random() * options.generation.cultures.sizeVariety) / 2 + 1) * base, 1);
     };
 
     cultures.forEach((c: Culture, i: number) => {
@@ -867,6 +1232,7 @@ class CulturesGenerator {
       codes.push(c.code);
       cultureIds[center] = newId;
       if (emblemShape === "random") c.shield = this.getRandomShield();
+      c.tags = c.tags ?? [];
     });
 
     this.cells.culture = cultureIds;
@@ -878,93 +1244,49 @@ class CulturesGenerator {
       base: 1,
       origins: [null],
       shield: "round",
-      type: DEFAULT_CULTURE_TYPE
+      type: DEFAULT_CULTURE_TYPE,
+      tags: []
     });
 
-    // Determine race names BEFORE the validBaseIds remapping so that fantasy
-    // race bases (e.g. 33 for Elf, 43 for Halfling) are correctly resolved.
-    // The remapping below uses c.base % validBaseIds.length which would destroy
-    // fantasy base indices that exceed validBaseIds.length, causing all cultures
-    // to fall back to "Human".
-    if (typeof getRaceNameForCulture === "function") {
-      for (const c of cultures) {
-        if (!c || c.i === 0 || c.removed) continue;
-        const resolved = getRaceNameForCulture(c);
-        if (resolved) c.race = resolved;
-      }
+    // make sure all bases exist in Names.nameBases
+    if (!Names.nameBases.length) {
+      ERROR && console.error("Name base is empty, default nameBases will be applied");
+      Names.nameBases = Names.getNameBases();
     }
 
-    // Use valid indices to avoid sparse array gaps (defaultNameBaseIds contains
-    // all indices that actually have a namebase, not just the array length)
-    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
-    if (!Array.isArray(validBaseIds) || validBaseIds.length === 0) {
-      WARN && console.warn("defaultNameBaseIds not available, falling back to array length");
-    }
     cultures.forEach((c: Culture) => {
-      // Preserve race-mixer and culture-mixer bases (they are at the end of the array
-      // and are NOT in defaultNameBaseIds). Only remap default/sparse bases.
-      const currentBase = c.base;
-      if (Names.nameBases[currentBase] && (Names.nameBases[currentBase] as any).raceMixerFor) return;
-      if (Names.nameBases[currentBase] && (Names.nameBases[currentBase] as any).cultureMixer) return;
-
-      if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
-        // If the current base is already in validBaseIds, don't remap it
-        if (validBaseIds.includes(currentBase)) return;
-        const newBase = validBaseIds[currentBase % validBaseIds.length];
-        c.base = newBase;
-      } else if (Names.nameBases.length > 0) {
-        if (currentBase < Names.nameBases.length && Names.nameBases[currentBase]) return;
-        c.base = currentBase % Names.nameBases.length;
-      } else {
-        c.base = 0;
-      }
+      c.base = c.base % Names.nameBases.length;
     });
-
-    // --- Race + language mixer integration (custom fork; no upstream equivalent) ---
-    // Build mixer bases for all cultures (except wildlands at index 0)
-    for (const c of cultures) {
-      if (!c || c.i === 0 || c.removed) continue;
-      const raceName = typeof c.race === "string" ? c.race : "";
-      const baseIndex = this.ensureCultureMixerBaseIndex(c.i, raceName);
-      if (typeof baseIndex === "number") {
-        c.base = baseIndex;
-      } else if (!Names.nameBases[c.base] || !Names.nameBases[c.base].b) {
-        // Fallback: culture mixer failed and current base is invalid.
-        // Use the first valid namebase to prevent "ERROR" names.
-        const firstValid = Names.nameBases.findIndex(b => b?.b && b.b.length > 0);
-        c.base = firstValid >= 0 ? firstValid : 0;
-      }
-    }
-
-    // --- Assign races to cultures during initial generation ---
-    // This ensures cultures get non-human races (Elf, Dwarf, etc.) during
-    // initial map generation, not just when the user clicks "Races" button.
-    if (typeof rerollRacesForCultures === "function") {
-      rerollRacesForCultures({ forceFilterFromUi: true });
-    }
   }
 
-  add(center: number) {
+  /** Found a culture centered at a map point; it takes land when cultures are recalculated. Returns its id */
+  add(x: number, y: number): number {
+    const center = Pack.requireCell(x, y);
+    if (pack.cells.h[center] < 20) throw new Error("A culture center cannot be placed in the water");
+    if (pack.cultures.some(c => c.i && !c.removed && c.center === center))
+      throw new Error(`Cell ${center} is already a culture center`);
     const defaultCultures = this.getDefault();
-    let culture: number, base: number, name: string;
+    let culture: number, base: number, name: string, ancestry: string | undefined;
 
     if (pack.cultures.length < defaultCultures.length) {
       // add one of the default cultures
       culture = pack.cultures.length;
       base = defaultCultures[culture].base;
       name = defaultCultures[culture].name;
+      ancestry = defaultCultures[culture].ancestry;
     } else {
       // add random culture based on one of the current ones
       culture = rand(pack.cultures.length - 1);
       name = Names.getCulture(culture, 5, 8, "");
       base = pack.cultures[culture].base;
+      ancestry = pack.cultures[culture].ancestry;
     }
 
     const code = abbreviate(name, pack.cultures.map(c => c.code) as string[]);
     const i = pack.cultures.length;
     const color = getRandomColor();
 
-    pack.cultures.push({
+    const newCulture: Culture = {
       name,
       color,
       base,
@@ -978,8 +1300,12 @@ class CulturesGenerator {
       urban: 0,
       origins: [pack.cells.culture[center]],
       code,
-      shield: Emblems.shape === "random" ? this.getRandomShield() : ""
-    });
+      shield: Emblems.shape === "random" ? this.getRandomShield() : "",
+      tags: []
+    };
+    if (ancestry) newCulture.ancestry = ancestry;
+    pack.cultures.push(newCulture);
+    return i;
   }
 
   expand() {
@@ -988,7 +1314,7 @@ class CulturesGenerator {
     const queue = new FlatQueue();
     const cost: number[] = [];
 
-    const growthRate = (ensureEl("growthRate") as HTMLInputElement).valueAsNumber;
+    const growthRate = options.generation.cultures.growthRate;
     const maxExpansionCost = cells.i.length * 0.6 * growthRate; // limit cost for culture growth
 
     // remove culture from all cells except of locked
@@ -1074,6 +1400,148 @@ class CulturesGenerator {
     }
   }
 
+  /** Rename a culture; its code is recomputed */
+  rename(cultureId: number, name: string): void {
+    const culture = pack.cultures[cultureId];
+    if (!culture || culture.removed) throw new Error(`Culture ${cultureId} does not exist`);
+    culture.name = requireName(name);
+    culture.code = abbreviate(
+      culture.name,
+      pack.cultures.flatMap(other => (other !== culture && other.code ? [other.code] : []))
+    );
+  }
+
+  /** Set a culture's ancestry, or delete if empty */
+  setAncestry(cultureId: number, ancestry: string): void {
+    const culture = this.living(cultureId);
+    const trimmed = ancestry.trim();
+    if (trimmed) culture.ancestry = trimmed;
+    else delete culture.ancestry;
+  }
+
+  /** Set a culture's color */
+  recolor(cultureId: number, color: string): void {
+    this.living(cultureId).color = requireColor(color);
+  }
+
+  /** Set a culture's type: Generic, Hunting, Highland, River, Lake, Naval or Nomadic */
+  setType(cultureId: number, type: string): void {
+    this.living(cultureId).type = requireOneOf(type, CULTURE_TYPES, "The type");
+  }
+
+  /** Set the name base a culture takes its names from, by index in Names.nameBases */
+  setBase(cultureId: number, baseId: number): void {
+    if (!Names.nameBases[baseId]) throw new Error(`Name base ${baseId} does not exist`);
+    this.living(cultureId).base = baseId;
+  }
+
+  /** Set how strongly a culture expands when cultures are recalculated, from 0 to 99 */
+  setExpansionism(cultureId: number, expansionism: number): void {
+    if (typeof expansionism !== "number" || !(expansionism >= 0 && expansionism <= 99))
+      throw new Error("The expansionism must be a number from 0 to 99");
+    this.living(cultureId).expansionism = expansionism;
+  }
+
+  /** Redraw culture borders from their centers, types and expansionism; burgs take their cell's culture */
+  recalculate(): void {
+    this.expand();
+    for (const burg of pack.burgs) if (burg?.i && !burg.removed) burg.culture = pack.cells.culture[burg.cell];
+  }
+
+  /** Remove a culture; its lands, burgs, states and religions fall to the wildlands */
+  remove(cultureId: number): void {
+    const culture = this.living(cultureId);
+    if (!cultureId) throw new Error("The wildlands cannot be removed");
+    const { burgs, states, religions, cells, cultures } = pack;
+    for (const burg of burgs) if (burg?.i && burg.culture === cultureId) burg.culture = 0;
+    for (const state of states) if (state.culture === cultureId) state.culture = 0;
+    for (const religion of religions) if (religion.culture === cultureId) religion.culture = 0;
+    cells.culture.forEach((owner, cell) => {
+      if (owner === cultureId) cells.culture[cell] = 0;
+    });
+    culture.removed = true;
+    for (const other of cultures) {
+      if (!other.i || other.removed || !other.origins) continue;
+      other.origins = other.origins.filter(origin => origin !== cultureId);
+      if (!other.origins.length) other.origins = [0];
+    }
+  }
+
+  /** Set a culture's rural and urban population, in people: its cells and burgs scale to the totals */
+  setPopulation(cultureId: number, rural: number, urban: number): void {
+    this.living(cultureId);
+    const { cells } = pack;
+    Population.setArea(
+      Population.landCells(cell => cells.culture[cell] === cultureId),
+      Population.burgIds(burg => burg.culture === cultureId),
+      rural,
+      urban
+    );
+  }
+
+  /** Lock a culture so regeneration keeps it, or unlock it */
+  setLocked(cultureId: number, locked: boolean): void {
+    const culture = this.living(cultureId);
+    if (locked) culture.lock = true;
+    else delete culture.lock;
+  }
+
+  /** Set a culture's origins, as the Hierarchy tree does: the first is primary (0 = top level), the rest secondary */
+  setOrigins(cultureId: number, originIds: number[]): void {
+    this.living(cultureId).origins = requireOrigins(pack.cultures, cultureId, originIds);
+  }
+
+  /** Set a culture's short code, 1 to 3 characters */
+  setCode(cultureId: number, code: string): void {
+    this.living(cultureId).code = requireCode(code);
+  }
+
+  /** Move a culture's center to a land cell at a map point; it takes effect when cultures are recalculated */
+  moveCenter(cultureId: number, x: number, y: number): void {
+    const culture = this.living(cultureId);
+    if (!cultureId) throw new Error("The wildlands have no center");
+    const cell = Pack.requireCell(x, y);
+    if (pack.cells.h[cell] < 20) throw new Error("A culture center cannot be placed in the water");
+    const other = pack.cultures.find(item => item.i && !item.removed && item !== culture && item.center === cell);
+    if (other) throw new Error(`Cell ${cell} is already the center of culture ${other.i}`);
+    culture.center = cell;
+  }
+
+  /** Give land cells to a culture, or to the wildlands with id 0; burgs there take it too */
+  setCells(cultureId: number, cellIds: number[]): void {
+    this.living(cultureId);
+    const { cells } = pack;
+    if (!Array.isArray(cellIds) || !cellIds.length) throw new Error("Name at least one cell");
+    for (const cell of cellIds) {
+      if (!Number.isInteger(cell) || cell < 0 || cell >= cells.i.length) throw new Error(`Cell ${cell} does not exist`);
+      if (cells.h[cell] < 20) throw new Error(`Cell ${cell} is water; cultures hold land only`);
+    }
+    for (const cell of cellIds) {
+      cells.culture[cell] = cultureId;
+      if (cells.burg[cell]) pack.burgs[cells.burg[cell]].culture = cultureId;
+    }
+  }
+
+  /** Set a culture's emblem shape; emblems of its states, provinces and burgs take it, except icon emblems */
+  setEmblemShape(cultureId: number, shape: string): void {
+    const culture = this.living(cultureId);
+    const shapes = Object.keys(Emblems.shields.types).flatMap(type => Object.keys(Emblems.shields[type]));
+    culture.shield = requireOneOf(shape, shapes, "The shape");
+    const reshape = (coa: Emblem | undefined) => {
+      if (coa && !("icon" in coa)) coa.shield = culture.shield;
+    };
+    for (const state of pack.states) if (state.i && !state.removed && state.culture === cultureId) reshape(state.coa);
+    for (const province of pack.provinces)
+      if (province.i && !province.removed && pack.cells.culture[province.center] === cultureId) reshape(province.coa);
+    for (const burg of pack.burgs) if (burg?.i && !burg.removed && burg.culture === cultureId) reshape(burg.coa);
+  }
+
+  private living(cultureId: number): Culture {
+    const culture = pack.cultures[cultureId];
+    if (!culture || culture.removed) throw new Error(`Culture ${cultureId} does not exist`);
+    return culture;
+  }
+
   regenerate(): void {
     this.generate();
     this.expand();
@@ -1088,404 +1556,8 @@ class CulturesGenerator {
       !religion.i || religion.removed ? religion : { ...religion, culture: pack.cells.culture[religion.center] }
     );
   }
-
-  // =====================================================================
-  // Race + language mixer methods (custom fork; no upstream equivalent)
-  // =====================================================================
-
-  /**
-   * Generates a deterministic seed for a culture-specific language mixer.
-   * Combines the global map seed with the culture ID for reproducible results.
-   */
-  getCultureMixerSeed(cultureId: number): number {
-    const seedStr = typeof seed === "string" ? seed : String(seed || "");
-    let h = 2166136261;
-    const s = `culture-mixer|${seedStr}|${cultureId}`;
-    for (let i = 0; i < s.length; i++) {
-      h ^= s.charCodeAt(i);
-      h = Math.imul(h, 16777619);
-    }
-    return h >>> 0;
-  }
-
-  /**
-   * Creates a seeded pseudo-random number generator from an integer seed.
-   * Returns a function that produces floats in [0, 1).
-   */
-  makeRng(seedInt: number): () => number {
-    let x = seedInt >>> 0;
-    return () => {
-      x += 0x6d2b79f5;
-      let t = x;
-      t = Math.imul(t ^ (t >>> 15), t | 1);
-      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-    };
-  }
-
-  /**
-   * Reads the language mixer setting from the UI.
-   * Returns "on", "off", or "random" (defaults to "on").
-   */
-  getLanguageMixerSetting(): string {
-    const el = document.getElementById("languageMixer");
-    return el && "value" in el ? (el as HTMLSelectElement).value : "on";
-  }
-
-  /**
-   * Reads the current culture set from the UI.
-   */
-  getCultureSet(): string {
-    const el = ensureEl<HTMLSelectElement>("culturesSet");
-    return el ? el.value || "world" : "world";
-  }
-
-  /**
-   * Filters the language mixer catalog based on the culture set preset configuration.
-   * Uses `window.languageMixerCultureSets` to determine which categories/families
-   * are allowed for the given culture set.
-   */
-  filterCatalogByCultureSet(catalog: LanguageMixerCatalogEntry[], cultureSet: string): LanguageMixerCatalogEntry[] {
-    const config = (
-      window as unknown as { languageMixerCultureSets?: Record<string, { categories?: string[]; families?: string[] }> }
-    ).languageMixerCultureSets?.[cultureSet];
-    if (!config) return catalog.filter(l => l?.iso && !l.tags?.includes("family"));
-
-    const { categories, families } = config;
-    const hasFilter = categories?.length || families?.length;
-
-    // No filters = full catalog (world, random)
-    if (!hasFilter) return catalog.filter(l => l?.iso && !l.tags?.includes("family"));
-
-    const catSet = new Set((categories || []).map(c => c.toLowerCase()));
-    const famSet = new Set((families || []).map(f => f.toLowerCase()));
-
-    return catalog.filter(l => {
-      if (!l?.iso) return false;
-      if (l.tags?.includes("family")) return false;
-
-      const cat = (l.category || "").toLowerCase();
-      const fam = (l.family || "").toLowerCase();
-
-      if (catSet.size && catSet.has(cat)) return true;
-      if (famSet.size && famSet.has(fam)) return true;
-      return false;
-    });
-  }
-
-  /**
-   * Builds ISO weights for culture mixing. Determines which languages
-   * contribute to a culture's name generation based on:
-   * 1. Race-based weights (if the culture has an associated race)
-   * 2. Culture-set-filtered catalog with random selection
-   *
-   * Returns null if the mixer is disabled or no weights could be built.
-   */
-  buildCultureMixerIsoWeights(cultureId: number): Record<string, number> | null {
-    const catalog = Array.isArray(window.languageMixerCatalog) ? window.languageMixerCatalog : [];
-    if (!catalog.length) return null;
-
-    const cultureSet = this.getCultureSet();
-    const mixerSetting = this.getLanguageMixerSetting();
-
-    // The "random" culture set has its own independent random namebase selection
-    // and should not use the language mixer
-    if (cultureSet === "random") return null;
-
-    // Off = don't use mixer at all
-    if (mixerSetting === "off") return null;
-
-    // Random = 50/50 chance per culture
-    if (mixerSetting === "random") {
-      const seedInt = this.getCultureMixerSeed(cultureId);
-      if (seedInt % 2 === 0) return null;
-    }
-
-    const culture = pack.cultures?.[cultureId];
-
-    // "Humans only" = mixer runs for non-Human (fantasy) cultures; Human
-    // cultures use their preset namebases (same effect as Off for them).
-    if (mixerSetting === "humans") {
-      const raceName = culture && typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
-      if (raceName === "Human") return null;
-    }
-
-    // If culture has a race, constrain the language pool to the race's
-    // eligible languages, then pick a unique random subset per culture.
-    // This ensures race identity is preserved (e.g. Elf cultures only draw
-    // from Celtic/Uralic) while each culture gets a distinct name style.
-    if (culture && typeof getRaceLanguageIsoWeights === "function") {
-      const raceName = typeof getRaceNameForCulture === "function" ? getRaceNameForCulture(culture) : "";
-      if (raceName) {
-        const raceWeights = getRaceLanguageIsoWeights(raceName);
-        if (raceWeights) {
-          const raceIsoCodes = new Set(Object.keys(raceWeights));
-          const racePool = catalog.filter(l => l?.iso && raceIsoCodes.has(l.iso));
-          if (racePool.length) {
-            const rng = this.makeRng(this.getCultureMixerSeed(cultureId));
-            const isoWeights: Record<string, number> = {};
-            const picks = Math.min(3 + Math.floor(rng() * 4), racePool.length);
-            for (let i = 0; i < picks; i++) {
-              const lang = racePool[Math.floor(rng() * racePool.length)];
-              if (!lang?.iso) continue;
-              isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
-            }
-            if (Object.keys(isoWeights).length) return isoWeights;
-          }
-        }
-      }
-    }
-
-    // Filter catalog by culture set preset (no race constraint)
-    let pool = this.filterCatalogByCultureSet(catalog, cultureSet);
-    if (!pool.length) {
-      // Fallback: if filter produced nothing, use full catalog
-      pool = catalog.filter(l => l?.iso && !l.tags?.includes("family"));
-    }
-    if (!pool.length) return null;
-
-    const rng = this.makeRng(this.getCultureMixerSeed(cultureId));
-    const isoWeights: Record<string, number> = {};
-
-    const picks = 3 + Math.floor(rng() * 4); // 3..6
-    for (let i = 0; i < picks; i++) {
-      const lang = pool[Math.floor(rng() * pool.length)];
-      if (!lang?.iso) continue;
-      isoWeights[lang.iso] = (isoWeights[lang.iso] || 0) + 1;
-    }
-
-    return Object.keys(isoWeights).length ? isoWeights : null;
-  }
-
-  /**
-   * Generates a fictional display name from a list of names using Markov chains.
-   * Uses the same algorithm as the upstream name generator.
-   */
-  generateFictionalDisplayNameFromNames(names: string[], options?: { seed?: number }): string {
-    if (
-      !Names ||
-      typeof (Names as unknown as { calculateChain?: (s: string) => string[][] & Record<string, string[]> })
-        .calculateChain !== "function"
-    )
-      return "";
-    if (!Array.isArray(names) || names.length < 3) return "";
-
-    const sanitized = names
-      .map(n =>
-        String(n || "")
-          .replace(/[/|,\d]/g, "")
-          .replace(/_unq\d+\b/gi, "")
-          .replace(/_/g, "")
-          .trim()
-      )
-      .filter(Boolean);
-
-    if (sanitized.length < 3) return "";
-
-    const chain = (
-      Names as unknown as { calculateChain: (s: string) => string[][] & Record<string, string[]> }
-    ).calculateChain(sanitized.join(","));
-    if (!chain || chain[""] === undefined) return "";
-
-    const seedInt = options && typeof options.seed === "number" ? options.seed >>> 0 : 0;
-    const rng = this.makeRng(seedInt || 1);
-    const pick = (arr: string[]) => arr[Math.floor(rng() * arr.length)];
-
-    const min = 4;
-    const max = 14;
-    const dupl = "lnrt";
-
-    let v = chain[""],
-      cur = pick(v),
-      w = "";
-
-    for (let i = 0; i < 20; i++) {
-      if (cur === "") {
-        if (w.length < min) {
-          cur = "";
-          w = "";
-          v = chain[""];
-        } else break;
-      } else {
-        if (w.length + cur.length > max) {
-          if (w.length < min) w += cur;
-          break;
-        } else v = chain[cur.charAt(cur.length - 1)] || chain[""];
-      }
-
-      w += cur;
-      cur = pick(v);
-    }
-
-    const wArr = [...w];
-    const l = last(wArr);
-    if (l === "'" || l === " " || l === "-") w = w.slice(0, -1);
-
-    const name = [...w].reduce<string>((r, c, i, d) => {
-      if (c === d[i + 1] && !dupl.includes(c)) return r;
-      if (!r.length) return c.toUpperCase();
-      if (last(r.split("")) === "-" && c === " ") return r;
-      if (last(r.split("")) === " ") return r + c.toUpperCase();
-      if (last(r.split("")) === "-") return r + c.toUpperCase();
-      if (c === "a" && d[i + 1] === "e") return r;
-      if (i + 2 < d.length && c === d[i + 1] && c === d[i + 2]) return r;
-      return r + c;
-    }, "");
-
-    const finalName = String(name || "").trim();
-    if (!finalName || finalName.length < 4) return "";
-    if (/^(elven|dwarven|orcish|draconic)$/i.test(finalName)) return "";
-    if (/\s/.test(finalName)) return "";
-    return finalName;
-  }
-
-  /**
-   * Ensures a culture has a mixer base index. Creates one if it doesn't exist.
-   * @param raceName - Optional race name to tag the mixer base with so getRaceNameForCulture
-   *   can still resolve the race after the culture's base is replaced.
-   * Returns the base index, or null if no mixer base could be created.
-   */
-  ensureCultureMixerBaseIndex(cultureId: number, raceName?: string): number | null {
-    if (
-      !Names ||
-      typeof (
-        Names as unknown as {
-          getMixedByIso?: (w: Record<string, number>, o: { count: number; seed: number }) => string[];
-        }
-      ).getMixedByIso !== "function"
-    )
-      return null;
-
-    const nameBases = Names.nameBases;
-    const existingIndex = Array.isArray(nameBases)
-      ? nameBases.findIndex(
-          b =>
-            b &&
-            (b as unknown as { cultureMixer?: boolean; cultureMixerFor?: number }).cultureMixer === true &&
-            (b as unknown as { cultureMixerFor?: number }).cultureMixerFor === cultureId
-        )
-      : -1;
-    if (existingIndex >= 0) return existingIndex;
-
-    const isoWeights = this.buildCultureMixerIsoWeights(cultureId);
-    if (!isoWeights) {
-      WARN && console.warn(`culture ${cultureId}: no isoWeights (mixer catalog or setting issue)`);
-      return null;
-    }
-
-    const mixSeed = this.getCultureMixerSeed(cultureId);
-    const count = 240;
-    let names: string[];
-    try {
-      names = (
-        Names as unknown as {
-          getMixedByIso: (w: Record<string, number>, o: { count: number; seed: number }) => string[];
-        }
-      ).getMixedByIso(isoWeights, { count, seed: mixSeed });
-    } catch (_e) {
-      ERROR && console.error(`culture ${cultureId}: getMixedByIso threw`, _e);
-      return null;
-    }
-
-    if (!Array.isArray(names) || names.length < 3) {
-      WARN && console.warn(`culture ${cultureId}: insufficient names (${names?.length ?? 0})`);
-      return null;
-    }
-    const sanitized = names
-      .map(n =>
-        String(n || "")
-          .replace(/[/|,\d]/g, "")
-          .replace(/_unq\d+\b/gi, "")
-          .replace(/_/g, "")
-          .trim()
-      )
-      .filter(Boolean);
-    if (sanitized.length < 3) return null;
-
-    let min = 4;
-    let max = 12;
-    try {
-      const lengths = sanitized.map(n => n.length).sort((a, b) => a - b);
-      const q = (p: number) => lengths[Math.floor(p * (lengths.length - 1))];
-      const p25 = q(0.25);
-      const p75 = q(0.75);
-      const computedMin = Math.max(3, Math.min(12, Math.floor(p25)));
-      const computedMax = Math.max(computedMin, Math.min(16, Math.ceil(p75) + 2));
-      min = computedMin;
-      max = computedMax;
-    } catch (_e) {
-      /* keep defaults */
-    }
-
-    const nameSeed = (mixSeed ^ 0x9e3779b9) >>> 0;
-    const displayName = this.generateFictionalDisplayNameFromNames(sanitized, { seed: nameSeed });
-    const b = sanitized.join(",");
-    const baseIndex = nameBases.length;
-
-    const fallbackName = (() => {
-      const sample = sanitized[0] ? String(sanitized[0]).trim() : "";
-      if (sample.length >= 4 && !/\s/.test(sample)) {
-        return sample.charAt(0).toUpperCase() + sample.slice(1).toLowerCase();
-      }
-      const consonants = "bcdfghjklmnpqrstvwxz";
-      const vowels = "aeiouy";
-      const rng = this.makeRng(nameSeed || 1);
-      const pick = (s: string) => s[Math.floor(rng() * s.length)];
-      let out = "";
-      const target = 6 + Math.floor(rng() * 4);
-      while (out.length < target) {
-        out += pick(consonants) + pick(vowels);
-        if (rng() < 0.15) out += pick(consonants);
-      }
-      out = out.slice(0, Math.min(10, Math.max(5, target)));
-      return out.charAt(0).toUpperCase() + out.slice(1);
-    })();
-
-    nameBases.push({
-      name: displayName || fallbackName,
-      i: baseIndex,
-      min,
-      max,
-      d: "",
-      m: 0,
-      b,
-      cultureMixer: true,
-      cultureMixerFor: cultureId,
-      raceMixerFor: raceName && raceName !== "Human" ? raceName : undefined,
-      isoWeights
-    } as (typeof nameBases)[number] & {
-      cultureMixer: boolean;
-      cultureMixerFor: number;
-      raceMixerFor?: string;
-      isoWeights: Record<string, number>;
-    });
-
-    // Pre-compute the Markov chain for the new namebase so getBase() doesn't
-    // return "ERROR" before updateChain() is called lazily.
-    if (typeof Names.updateChain === "function") {
-      Names.updateChain(baseIndex);
-    }
-
-    if (
-      typeof (window as unknown as { refreshDefaultNameBaseIds?: () => void }).refreshDefaultNameBaseIds === "function"
-    ) {
-      (window as unknown as { refreshDefaultNameBaseIds: () => void }).refreshDefaultNameBaseIds();
-    }
-
-    return baseIndex;
-  }
-
-  /**
-   * Returns a random valid namebase index, accounting for sparse array gaps.
-   * Uses defaultNameBaseIds if available, otherwise falls back to array length.
-   */
-  getRandomValidBaseIndex(): number {
-    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
-    if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
-      return validBaseIds[rand(validBaseIds.length - 1)];
-    }
-    return rand(Names.nameBases.length - 1);
-  }
 }
 
-window.Cultures = new CulturesGenerator();
+// biome-ignore lint/suspicious/noRedeclare: legacy seam
+export const Cultures = new CulturesGenerator();
+window.Cultures = Cultures;

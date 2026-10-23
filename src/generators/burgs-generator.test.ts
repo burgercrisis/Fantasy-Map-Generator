@@ -1,4 +1,5 @@
-import { beforeEach, describe, expect, it } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import type { Burg } from "./burgs-generator";
 
 // ---------------------------------------------------------------------------
 // Minimal pack geometry used across all scenarios
@@ -74,6 +75,7 @@ describe("BurgsModule.assignPorts — open-lake port promotion", () => {
 
     // Modules are cached by Vitest; re-import is a no-op after the first run,
     // so we re-wire the globals each time instead.
+    await import("./pack-generator"); // the river-bank shift is checked against the cell under it
     await import("./river-generator");
     await import("./burgs-generator");
     Burgs = (globalThis as any).Burgs;
@@ -121,11 +123,11 @@ describe("BurgsModule.assignPorts — open-lake port promotion", () => {
   });
 
   // -------------------------------------------------------------------------
-  it.each(["dry", "frozen", "lava"])("does not make ports on a %s lake (cannot be sailed)", group => {
+  it.each(["dry", "frozen", "lava"])("does not make ports on a %s lake (cannot be sailed)", subtype => {
     globalThis.pack = {
       burgs: makeBurgs(),
       cells: { ...BASE_CELLS },
-      features: [null, { i: 1, type: "lake", cells: 3, group }, { i: 2, type: "ocean" }],
+      features: [null, { i: 1, type: "lake", cells: 3, subtype }, { i: 2, type: "ocean" }],
       vertices: BASE_VERTICES,
       rivers: []
     } as any;
@@ -345,6 +347,7 @@ describe("BurgsModule.assignPorts — river-bank shift", () => {
     globalThis.window = globalThis.window || ({} as any);
     globalThis.grid = { cells: { temp: new Array(10).fill(20) } } as any;
 
+    await import("./pack-generator"); // the river-bank shift is checked against the cell under it
     await import("./river-generator");
     await import("./burgs-generator");
     Burgs = (globalThis as any).Burgs;
@@ -418,5 +421,232 @@ describe("BurgsModule.assignPorts — river-bank shift", () => {
     const burg = globalThis.pack.burgs[1];
     // Still shifted (axis-aligned fallback), just not crashing on the missing course.
     expect(burg.x === 5 && burg.y === 5).toBe(false);
+  });
+
+  it("keeps the burg on its cell centre when the shift would cross into a neighbor", () => {
+    // cell 3 is 0.4 away from cell 2, closer than the 0.6 shift: the shifted burg would lie in cell 3
+    globalThis.pack = {
+      burgs: [0 as any, { i: 1, cell: 2, x: 10, y: 10, capital: 0 }],
+      cells: {
+        h: [20, 25, 25, 25],
+        r: [0, 10, 10, 0],
+        fl: [0, 300, 300, 0],
+        f: [0, 0, 0, 0],
+        g: [0, 0, 0, 0],
+        haven: [0, 0, 0, 0],
+        harbor: [0, 0, 0, 0],
+        v: [[], [], [], []],
+        p: [
+          [0, 0],
+          [10, 0],
+          [10, 10],
+          [10.4, 10]
+        ] as [number, number][]
+      },
+      features: [null],
+      vertices: { c: [], p: [] },
+      rivers: [{ i: 10, cells: [1, 2] }]
+    } as any;
+
+    Burgs.assignPorts();
+
+    const burg = globalThis.pack.burgs[1];
+    expect([burg.x, burg.y]).toEqual([10, 10]);
+  });
+});
+
+describe("ensureBurgGroupStyles", () => {
+  it("seeds icon and anchor styles for custom groups from the fallback group, keeping existing entries", async () => {
+    globalThis.window = globalThis.window || ({} as any);
+    await import("./burgs-generator");
+    const Burgs = (globalThis as any).Burgs;
+
+    options.map.burgs.groups = [{ name: "town" }, { name: "fortresses" }] as never;
+    const town = { attrs: { fill: "#aaa" }, options: { size: 1, icon: "#burgs-burg" } };
+    const townAnchor = { attrs: { fill: "#bbb" }, options: { size: 2 } };
+    (globalThis as any).styles = {
+      burgIcons: {
+        groups: { town: { groups: { icons: structuredClone(town), anchors: structuredClone(townAnchor) } } }
+      }
+    };
+
+    Burgs.ensureBurgGroupStyles();
+
+    const { groups } = (globalThis as any).styles.burgIcons;
+    expect(groups.town.groups.icons).toEqual(town);
+    expect(groups.fortresses.groups.icons).toEqual(town);
+    expect(groups.fortresses.groups.icons).not.toBe(groups.town.groups.icons);
+    expect(groups.fortresses.groups.anchors).toEqual(townAnchor);
+  });
+});
+
+describe("BurgsModule.parseStoredGroups", () => {
+  let Burgs: any;
+
+  beforeEach(async () => {
+    globalThis.TIME = false;
+    globalThis.window = globalThis.window || ({} as any);
+    await import("./burgs-generator");
+    Burgs = (globalThis as any).Burgs;
+  });
+
+  it("falls back to the defaults when the stored value holds no usable group", () => {
+    const defaults = Burgs.getDefaultGroups();
+    expect(Burgs.parseStoredGroups(null)).toEqual(defaults);
+    expect(Burgs.parseStoredGroups("[]")).toEqual(defaults);
+    expect(Burgs.parseStoredGroups("not json")).toEqual(defaults);
+    expect(Burgs.parseStoredGroups(JSON.stringify([{ order: 1 }]))).toEqual(defaults);
+  });
+
+  it("keeps usable stored groups and drops the rest", () => {
+    const usable = { name: "outpost", order: 3 };
+    const stored = JSON.stringify([usable, { order: 4 }, { name: "noOrder" }]);
+    const groups = Burgs.parseStoredGroups(stored);
+    expect(groups.map((group: any) => group.name)).toEqual(["outpost"]);
+  });
+
+  it("always leaves a default group for burg assignment to fall back on", () => {
+    const groups = Burgs.parseStoredGroups(JSON.stringify([{ name: "outpost", order: 3 }]));
+    expect(groups.filter((group: any) => group.isDefault).length).toBe(1);
+  });
+});
+
+describe("BurgsModule.defineGroup", () => {
+  it("assigns burgs only to groups whose state, culture and religion limits they meet", async () => {
+    await import("./burgs-generator");
+    const Burgs = (globalThis as any).Burgs;
+    globalThis.pack = { cells: { biome: [0, 0, 0], religion: [0, 1, 2] } } as any;
+    options.map.burgs.groups = [
+      { name: "elven", order: 4, active: true, cultures: [1] },
+      { name: "royal", order: 3, active: true, states: [2] },
+      { name: "pious", order: 2, active: true, religions: [2] },
+      { name: "town", order: 1, active: true, isDefault: true }
+    ];
+
+    const groupOf = (burg: object) => {
+      const target = { i: 1, population: 1, ...burg } as any;
+      Burgs.defineGroup(target, [1]);
+      return target.group;
+    };
+
+    expect(groupOf({ cell: 1, culture: 1, state: 2 })).toBe("elven");
+    expect(groupOf({ cell: 1, culture: 2, state: 2 })).toBe("royal");
+    expect(groupOf({ cell: 2, culture: 2, state: 1 })).toBe("pious");
+    expect(groupOf({ cell: 1, culture: 2, state: 1 })).toBe("town");
+  });
+});
+
+describe("BurgModule.rename", () => {
+  it("renames a burg and its label, and rejects missing burgs and empty names", async () => {
+    await import("./burgs-generator");
+    const burgs = (globalThis as any).Burgs;
+    globalThis.pack = {
+      burgs: [
+        0,
+        { i: 1, name: "Vel", label: { text: "Vel" } },
+        { i: 2, name: "Orn", removed: true },
+        { i: 3, name: "Ash" }
+      ]
+    } as any;
+    burgs.rename(1, " Saltmere ");
+    expect(pack.burgs[1]).toMatchObject({ name: "Saltmere", label: { text: "Saltmere" } });
+    burgs.rename(3, "Elm");
+    expect(pack.burgs[3]).toEqual({ i: 3, name: "Elm" });
+    expect(() => burgs.rename(2, "X")).toThrow("Burg 2 does not exist");
+    expect(() => burgs.rename(0, "X")).toThrow("does not exist");
+    expect(() => burgs.rename(1, "  ")).toThrow("must not be empty");
+  });
+});
+
+describe("BurgsModule.generate", () => {
+  it("leaves an empty burg list when no cell is habitable", async () => {
+    globalThis.ERROR = false;
+    globalThis.pack = { burgs: undefined, cells: { i: [0, 1, 2], s: [0, 0, 0], culture: [0, 0, 0] } } as any;
+    await import("./burgs-generator");
+
+    (globalThis as any).Burgs.generate();
+
+    expect(globalThis.pack.burgs).toEqual([0]);
+  });
+});
+
+describe("BurgsModule.getPreview — Watabou river and coast", () => {
+  const params = (burg: Pick<Burg, "cell"> & Partial<Burg>) => {
+    const { link, preview } = globalThis.Burgs.getPreview({
+      i: 1,
+      x: 0,
+      y: 0,
+      name: "Vel",
+      population: 10,
+      group: "city",
+      ...burg
+    });
+    expect(preview).toBe(`${link}&preview=1`);
+    return new URL(link!).searchParams;
+  };
+
+  beforeEach(async () => {
+    vi.stubGlobal("options", {
+      map: {
+        seed: "1",
+        units: { population: { scale: 1000, urbanization: { rate: 1, density: 10 } } },
+        burgs: {
+          groups: [
+            { name: "city", preview: "watabou-city" },
+            { name: "village", preview: "watabou-village" }
+          ]
+        }
+      }
+    });
+    vi.stubGlobal("Routes", { isCrossroad: () => false, getConnectivityRate: () => 0 });
+    vi.stubGlobal("grid", { cells: { temp: [20] } });
+    // River 5 passes coastal cell 1 and meets the sea at cell 2; cell 4 is a riverless coast.
+    vi.stubGlobal("pack", {
+      cells: {
+        r: [5, 5, 5, 0, 0],
+        haven: [0, 3, 3, 0, 3],
+        biome: [6, 6, 6, 0, 6],
+        f: [0, 0, 0, 1, 0],
+        g: [0, 0, 0, 0, 0],
+        conf: [0, 0, 0, 0, 0],
+        p: [
+          [0, 0],
+          [0, 0],
+          [1, 0],
+          [1, 1],
+          [2, 0]
+        ]
+      },
+      features: [{ cells: 4 }],
+      rivers: [{ i: 5, mouth: 2 }]
+    });
+    await import("./burgs-generator");
+  });
+
+  afterEach(() => vi.unstubAllGlobals());
+
+  it.each([
+    { name: "coastal port before the river mouth", cell: 1, port: 3, river: "1", coast: "1" },
+    { name: "coastal port at the river mouth", cell: 2, port: 3, river: "1", coast: "1" },
+    { name: "inland river port", cell: 0, port: 3, river: "1", coast: "0" },
+    { name: "coastal river burg with its harbor disabled", cell: 1, port: 0, river: "1", coast: "0" },
+    { name: "coastal port without a river", cell: 4, port: 3, river: "0", coast: "1" },
+    { name: "riverless burg with its harbor disabled", cell: 4, port: 0, river: "0", coast: "0" }
+  ])("keeps city water features for a $name", ({ cell, port, river, coast }) => {
+    const query = params({ cell, port });
+    expect(query.get("river")).toBe(river);
+    expect(query.get("coast")).toBe(coast);
+    expect(query.has("sea")).toBe(coast === "1");
+  });
+
+  it.each([
+    { name: "coastal port before the river mouth", cell: 1, port: 3, water: "estuary" },
+    { name: "coastal port at the river mouth", cell: 2, port: 3, water: "estuary" },
+    { name: "coastal river burg with its harbor disabled", cell: 1, port: 0, water: "estuary" },
+    { name: "inland river port", cell: 0, port: 3, water: "river" },
+    { name: "coastal port without a river", cell: 4, port: 3, water: "coast" }
+  ])("keeps village water features for a $name", ({ cell, port, water }) => {
+    const tags = params({ cell, port, group: "village" }).get("tags")!.split(",");
+    expect(tags.filter(tag => ["estuary", "river", "coast"].includes(tag))).toEqual([water]);
   });
 });

@@ -9,6 +9,8 @@
 
 import { tip } from "@/components/tooltips";
 import { isElectron } from "@/services/platform";
+import { loadScript } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
 
 export interface CloudFile {
   name: string;
@@ -50,17 +52,6 @@ const getRefreshToken = (provider: string) => localStorage.getItem(`${lSKey(prov
 const setTokenExpiry = (provider: string, ts: number) => localStorage.setItem(`${lSKey(provider)}-expires`, String(ts));
 const getTokenExpiry = (provider: string) => Number(localStorage.getItem(`${lSKey(provider)}-expires`)) || undefined;
 
-// load a classic library bundle that registers a runtime global (e.g. window.Dropbox)
-function loadScript(src: string): Promise<void> {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement("script");
-    script.src = src;
-    script.onload = () => resolve();
-    script.onerror = () => reject(new Error(`Cannot load script ${src}`));
-    document.head.append(script);
-  });
-}
-
 const dropbox: DropboxProvider = {
   name: "dropbox",
   clientId: "pdr9ae64ip0qno4",
@@ -73,8 +64,9 @@ const dropbox: DropboxProvider = {
       if (!this.api) await this.initialize();
       return await this.api[name](param);
     } catch (e) {
-      if ((e as Error).name !== "DropboxResponseError") throw e;
-      await this.auth(); // retry with auth
+      // only an expired or revoked token is fixed by signing in again
+      if ((e as { status?: number }).status !== 401) throw e;
+      await this.auth();
       return await this.api[name](param);
     }
   },
@@ -98,7 +90,7 @@ const dropbox: DropboxProvider = {
   },
 
   async save(fileName, contents) {
-    const resp = await this.call("filesUpload", { path: `/${fileName}`, contents });
+    const resp = await this.call("filesUpload", { path: `/${fileName}`, contents, mode: "overwrite" });
     DEBUG.cloud && console.info("Dropbox response:", resp);
     return true;
   },
@@ -111,20 +103,26 @@ const dropbox: DropboxProvider = {
   },
 
   async list() {
-    const resp = await this.call("filesListFolder", { path: "" });
-    const filesData: CloudFile[] = resp.result.entries.map(({ name, client_modified, size, path_lower }: any) => ({
+    let { result } = await this.call("filesListFolder", { path: "" });
+    const entries = [...result.entries];
+    while (result.has_more) {
+      ({ result } = await this.call("filesListFolderContinue", { cursor: result.cursor }));
+      entries.push(...result.entries);
+    }
+
+    const filesData: CloudFile[] = entries.map(({ name, client_modified, size, path_lower }: any) => ({
       name,
       updated: client_modified,
       size,
       path: path_lower
     }));
-    return filesData.filter(({ size }) => size).reverse();
+    return filesData.filter(({ size }) => size).sort((a, b) => b.updated.localeCompare(a.updated));
   },
 
   auth() {
     // Dropbox only redirects back to a registered https address, which the app:// origin can never be
     if (isElectron()) {
-      const message = "Dropbox is not available in the Desktop App, use the browser version to sync maps";
+      const message = t("Dropbox is not available in the Desktop App, use the browser version to sync maps");
       this.returnError(message);
       return Promise.reject(new Error(message));
     }
@@ -140,7 +138,7 @@ const dropbox: DropboxProvider = {
     );
 
     if (!this.authWindow) {
-      const message = "Dropbox sign-in window was blocked. Allow popups for this site and retry";
+      const message = sentences(t("Dropbox sign-in window was blocked"), t("Allow popups for this site and retry"));
       this.returnError(message);
       return Promise.reject(new Error(message));
     }

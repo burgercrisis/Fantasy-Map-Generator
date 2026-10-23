@@ -1,14 +1,20 @@
 import { closeDialogs, confirmationDialog } from "@/components/dialog/dialog-helpers";
+import { syncOptionInputs } from "@/components/options/tabs/options-tab";
+import { Pins } from "@/components/pins";
+import { getPointsNumber } from "@/data/graph-density";
 import { heightmapTemplates } from "@/data/heightmap-templates";
+import { HEIGHTMAP_SCHEME_LABELS } from "@/data/id-labels";
 import { precreatedHeightmaps } from "@/data/precreated-heightmaps";
 import { drawHeights } from "@/renderers/draw-heightmap";
+import { HeightmapColorSchemes } from "@/renderers/heightmap-color-schemes";
 import type { GridGraph } from "@/types/GridGraph";
-import { applyOption } from "@/utils";
-import { lock } from "@/utils/preferences";
+import { sentences, t } from "@/utils/i18n";
 import { ensureEl, generateSeed } from "../utils";
 
 const initialSeed = generateSeed();
-let graph = getGraph(grid);
+type GraphConfig = ReturnType<typeof getGraphConfig>;
+let graphConfig: GraphConfig | null = getGraphConfig();
+let graph: GridGraph | null = getGraph();
 
 appendStyleSheet();
 insertHtml();
@@ -17,39 +23,55 @@ addListeners();
 function open(): void {
   closeDialogs(".stable");
 
-  const $templateInput = ensureEl<HTMLInputElement>("templateInput");
-  setSelected($templateInput.value);
-  graph = getGraph(graph);
+  setSelected(options.generation.template);
+  graphConfig = getGraphConfig();
+  graph = getGraph();
+  ensureEl("heightmapSelection").style.setProperty(
+    "--preview-aspect-ratio",
+    `${graphConfig.width}/${graphConfig.height}`
+  );
+  redrawAll();
 
   $("#heightmapSelection").dialog({
-    title: "Select Heightmap",
+    title: t("Select Heightmap"),
     resizable: false,
     position: { my: "center", at: "center", of: "svg" },
+    close: onClose,
     buttons: {
-      Cancel: function (this: HTMLElement) {
+      [t("Cancel")]: function (this: HTMLElement) {
         $(this).dialog("close");
       },
-      Select: function (this: HTMLElement) {
+      [t("Select")]: function (this: HTMLElement) {
         const id = getSelected();
         if (!id) return;
-        applyOption($templateInput, id, getName(id));
-        lock("template");
+        Options.set(o => (o.generation.template = id));
+        syncOptionInputs();
+        Pins.set("template", options.generation.template);
 
         $(this).dialog("close");
       },
-      "New Map": function (this: HTMLElement) {
+      [t("New Map")]: function (this: HTMLElement) {
         const id = getSelected();
         if (!id) return;
-        applyOption($templateInput, id, getName(id));
-        lock("template");
+        Options.set(o => (o.generation.template = id));
+        syncOptionInputs();
+        Pins.set("template", options.generation.template);
 
         const seed = getSeed();
-        regeneratePrompt({ seed, graph });
+        const previewGraph = graph;
+        const previewConfig = graphConfig;
+        if (previewGraph && previewConfig) regeneratePrompt({ seed, graph: previewGraph, ...previewConfig });
 
         $(this).dialog("close");
       }
     }
   });
+}
+
+function onClose(): void {
+  graph = null;
+  graphConfig = null;
+  HeightmapGenerator.clearData(); // the generator pins the preview graph it last measured
 }
 
 function appendStyleSheet(): void {
@@ -134,7 +156,7 @@ function appendStyleSheet(): void {
 
     .heightmap-selection article > img {
       width: 100%;
-      aspect-ratio: ${graphWidth}/${graphHeight};
+      aspect-ratio: var(--preview-aspect-ratio);
       border-radius: 8px;
       object-fit: fill;
     }
@@ -161,40 +183,44 @@ function appendStyleSheet(): void {
 }
 
 function insertHtml(): void {
-  const heightmapColorSchemeOptions = Object.keys(heightmapColorSchemes)
-    .map(scheme => `<option value="${scheme}">${scheme}</option>`)
+  const previewGraph = graph;
+  const previewConfig = graphConfig;
+  if (!previewGraph || !previewConfig) return;
+
+  const heightmapColorSchemeOptions = HeightmapColorSchemes.names()
+    .map(scheme => `<option value="${scheme}">${HEIGHTMAP_SCHEME_LABELS[scheme] ?? scheme}</option>`)
     .join("");
 
   const heightmapSelectionHtml = /* html */ `<div id="heightmapSelection" class="dialog stable">
     <div class="heightmap-selection">
-      <section data-tip="Select heightmap template – template provides unique, but similar-looking maps on generation">
-        <header><h1>Heightmap templates</h1></header>
+      <section data-tip="${t("Select heightmap template – template provides unique, but similar-looking maps on generation")}">
+        <header><h1>${t("Heightmap templates")}</h1></header>
         <div class="heightmap-selection_container"></div>
       </section>
-      <section data-tip="Select precreated heightmap – it will be the same for each map">
-        <header><h1>Precreated heightmaps</h1></header>
+      <section data-tip="${t("Select precreated heightmap – it will be the same for each map")}">
+        <header><h1>${t("Precreated heightmaps")}</h1></header>
         <div class="heightmap-selection_container"></div>
       </section>
       <section>
-        <header><h1>Options</h1></header>
+        <header><h1>${t("Options")}</h1></header>
         <div class="heightmap-selection_options">
           <div>
-            <label data-tip="Rerender all preview images" class="checkbox-label" id="heightmapSelectionRedrawPreview">
+            <label data-tip="${t("Rerender all preview images")}" class="checkbox-label" id="heightmapSelectionRedrawPreview">
               <i class="icon-cw"></i>
-              Redraw preview
+              ${t("Redraw preview")}
             </label>
             <div>
               <input id="heightmapSelectionRenderOcean" class="checkbox" type="checkbox" />
-              <label data-tip="Draw heights of water cells" for="heightmapSelectionRenderOcean" class="checkbox-label">Render ocean heights</label>
+              <label data-tip="${t("Draw heights of water cells")}" for="heightmapSelectionRenderOcean" class="checkbox-label">${t("Render ocean heights")}</label>
             </div>
-            <div data-tip="Color scheme used for heightmap preview">
-              Color scheme
+            <div data-tip="${t("Color scheme used for heightmap preview")}">
+              ${t("Color scheme")}
               <select id="heightmapSelectionColorScheme">${heightmapColorSchemeOptions}</select>
             </div>
           </div>
           <div>
-            <button data-tip="Open Template Editor" data-tool="templateEditor" id="heightmapSelectionEditTemplates">Edit Templates</button>
-            <button data-tip="Open Image Converter" data-tool="imageConverter" id="heightmapSelectionImportHeightmap">Import Heightmap</button>
+            <button data-tip="${t("Template Editor")}" data-tool="templateEditor" id="heightmapSelectionEditTemplates">${t("Edit Templates")}</button>
+            <button data-tip="${t("Image Converter")}" data-tool="imageConverter" id="heightmapSelectionImportHeightmap">${t("Import Heightmap")}</button>
           </div>
         </div>
       </section>
@@ -209,13 +235,13 @@ function insertHtml(): void {
     .map(key => {
       const name = heightmapTemplates[key].name;
       Math.random = aleaPRNG(initialSeed);
-      const heights = HeightmapGenerator.fromTemplate(graph, key);
+      const heights = HeightmapGenerator.fromTemplate(previewGraph, key, previewConfig);
 
       return /* html */ `<article data-id="${key}" data-seed="${initialSeed}">
         <img src="${getHeightmapPreview(heights)}" alt="${name}" />
         <div>
           ${name}
-          <span data-tip="Regenerate preview" class="icon-cw regeneratePreview"></span>
+          <span data-tip="${t("Regenerate preview")}" class="icon-cw regeneratePreview"></span>
         </div>
       </article>`;
     })
@@ -271,35 +297,50 @@ function getSeed(): string | undefined {
   return ensureEl("heightmapSelection").querySelector<HTMLElement>(".selected")?.dataset?.seed;
 }
 
-function getName(id: string): string {
-  const isTemplate = id in heightmapTemplates;
-  return isTemplate ? heightmapTemplates[id].name : precreatedHeightmaps[id].name;
+function getGraphConfig() {
+  const { width, height, density, sampling, jitter } = options.generation.graph;
+  return { width, height, points: getPointsNumber(density), sampling, jitter };
 }
 
-function getGraph(currentGraph: GridGraph): GridGraph {
-  const newGraph = Grid.shouldRegenerate(currentGraph, seed, graphWidth, graphHeight)
-    ? Grid.generate(seed, graphWidth, graphHeight)
-    : structuredClone(currentGraph);
-  Grid.resetHeights(newGraph);
-  return newGraph;
+function getGraph(): GridGraph {
+  const config = graphConfig ?? getGraphConfig();
+  const current = options.map.graph;
+  const keys = ["width", "height", "points", "sampling", "jitter"] as const;
+  if (keys.some(key => current[key] !== config[key])) {
+    return Grid.generate(initialSeed, config);
+  }
+  const preview = structuredClone(grid);
+  Grid.resetHeights(preview);
+  return preview;
 }
 
 function drawTemplatePreview(id: string): void {
-  const heights = HeightmapGenerator.fromTemplate(graph, id);
+  const previewGraph = graph;
+  const previewConfig = graphConfig;
+  if (!previewGraph || !previewConfig) return;
+
+  const heights = HeightmapGenerator.fromTemplate(previewGraph, id, previewConfig);
   const dataUrl = getHeightmapPreview(heights);
   const article = ensureEl("heightmapSelection").querySelector(`[data-id="${id}"]`);
   article?.querySelector("img")?.setAttribute("src", dataUrl);
 }
 
 async function drawPrecreatedHeightmap(id: string): Promise<void> {
-  const heights = await HeightmapGenerator.fromPrecreated(graph, id);
+  const previewGraph = graph;
+  const previewConfig = graphConfig;
+  if (!previewGraph || !previewConfig) return;
+
+  const heights = await HeightmapGenerator.fromPrecreated(previewGraph, id, previewConfig);
+  if (previewGraph !== graph) return;
   const dataUrl = getHeightmapPreview(heights);
   const article = ensureEl("heightmapSelection").querySelector(`[data-id="${id}"]`);
   article?.querySelector("img")?.setAttribute("src", dataUrl);
 }
 
 function regeneratePreview(article: HTMLElement, id: string): void {
-  graph = getGraph(graph);
+  if (!graph) return;
+
+  Grid.resetHeights(graph);
   const seed = generateSeed();
   article.dataset.seed = seed;
   Math.random = aleaPRNG(seed);
@@ -307,7 +348,9 @@ function regeneratePreview(article: HTMLElement, id: string): void {
 }
 
 function redrawAll(): void {
-  graph = getGraph(graph);
+  if (!graph) return;
+
+  Grid.resetHeights(graph);
   const articles = ensureEl("heightmapSelection").querySelectorAll<HTMLElement>("article");
   for (const article of articles) {
     const { id, seed } = article.dataset;
@@ -326,19 +369,20 @@ function confirmHeightmapEdit(el: HTMLElement): void {
 
   confirmationDialog({
     title: el.dataset.tip ?? "",
-    message: "Opening the tool will erase the current map. Are you sure you want to proceed?",
-    confirm: "Continue",
+    message: sentences(t("Opening the tool will erase the current map"), t("Are you sure you want to proceed?")),
+    confirm: t("Continue"),
     onConfirm: () => window.Controllers.HeightmapEditor.open({ mode: "erase", tool })
   });
 }
 
 function getHeightmapPreview(heights: Uint8Array | null): string {
-  const scheme = getColorScheme(ensureEl<HTMLSelectElement>("heightmapSelectionColorScheme").value);
+  if (!graph || !graphConfig || !heights?.length) return "";
+
+  const scheme = HeightmapColorSchemes.get(ensureEl<HTMLSelectElement>("heightmapSelectionColorScheme").value);
   const renderOcean = ensureEl<HTMLInputElement>("heightmapSelectionRenderOcean").checked;
   const dataUrl = drawHeights({
-    heights: heights as unknown as number[],
-    width: graph.cellsX,
-    height: graph.cellsY,
+    heights,
+    raster: Grid.getRaster(graph, graphConfig.width, graphConfig.height),
     scheme,
     renderOcean
   });

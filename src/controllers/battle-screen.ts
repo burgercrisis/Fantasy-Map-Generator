@@ -1,12 +1,28 @@
 import { mean, select, sum } from "d3";
 import { closeDialogs } from "@/components/dialog/dialog-helpers";
 import { applySorting, applySortingByHeader } from "@/components/dialog/sorting";
+import { Icons } from "@/components/icons";
 import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
 import { moveRegiment } from "@/renderers/draw-military";
+import { sentences, t } from "@/utils/i18n";
 import type { Marker } from "../generators/markers-generator";
 import type { Regiment } from "../generators/military-generator";
-import { capitalize, ensureEl, getAdjective, last, list, minmax, P, Pint, rand, rn, wiki } from "../utils";
+import {
+  capitalize,
+  ensureEl,
+  escapeHtml,
+  findEl,
+  getAdjective,
+  last,
+  list,
+  minmax,
+  P,
+  Pint,
+  rand,
+  rn,
+  wiki
+} from "../utils";
 
 type Side = "attackers" | "defenders";
 
@@ -80,215 +96,215 @@ function open(attacker: Regiment, defender: Regiment): void {
 }
 
 function renderDialog(): void {
-  document.getElementById("battleScreen")?.remove();
-  document.getElementById("regimentSelectorScreen")?.remove();
+  findEl("battleScreen")?.remove();
+  findEl("regimentSelectorScreen")?.remove();
   const editorHtml = /* html */ `<div id="battleScreen" class="dialog stable">
       <div id="battleBody">
         <template id="battlePhases_field">
           <button
-            data-tip="Skirmish phase. Ranged units excel"
+            data-tip="${t("Skirmish phase. Ranged units excel")}"
             data-phase="skirmish"
             class="icon-button-skirmish"
           ></button>
-          <button data-tip="Melee phase. Melee units excel" data-phase="melee" class="icon-button-melee"></button>
+          <button data-tip="${sentences(t("Melee phase"), t("Melee units excel"))}" data-phase="melee" class="icon-button-melee"></button>
           <button
-            data-tip="Pursue phase. Mounted units excel"
+            data-tip="${sentences(t("Pursue phase"), t("Mounted units excel"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
           <button
-            data-tip="Retreat phase. Units strength reduced"
+            data-tip="${sentences(t("Retreat phase"), t("Units strength reduced"))}"
             data-phase="retreat"
             class="icon-button-retreat"
           ></button>
         </template>
         <template id="battlePhases_naval">
           <button
-            data-tip="Shelling phase. Naval artillery bombardment of enemy fleet"
+            data-tip="${t("Shelling phase. Naval artillery bombardment of enemy fleet")}"
             data-phase="shelling"
             class="icon-button-shelling"
           ></button>
           <button
-            data-tip="Boarding phase. Melee units go aboard"
+            data-tip="${t("Boarding phase. Melee units go aboard")}"
             data-phase="boarding"
             class="icon-button-boarding"
           ></button>
           <button
-            data-tip="Сhase phase. Naval units pursue and rarely shell enemy fleet"
+            data-tip="${t("Сhase phase. Naval units pursue and rarely shell enemy fleet")}"
             data-phase="chase"
             class="icon-button-chase"
           ></button>
           <button
-            data-tip="Withdrawal phase. Naval units try to escape enemy fleet"
+            data-tip="${t("Withdrawal phase. Naval units try to escape enemy fleet")}"
             data-phase="withdrawal"
             class="icon-button-withdrawal"
           ></button>
         </template>
         <template id="battlePhases_siege_attackers">
           <button
-            data-tip="Blockade phase. Prepare or hold the blockade"
+            data-tip="${t("Blockade phase. Prepare or hold the blockade")}"
             data-phase="blockade"
             class="icon-button-blockade"
           ></button>
           <button
-            data-tip="Bombardment phase. Attack enemy with machinery units"
+            data-tip="${t("Bombardment phase. Attack enemy with machinery units")}"
             data-phase="bombardment"
             class="icon-button-bombardment"
           ></button>
           <button
-            data-tip="Storming phase. Storm enemy town. Melee units excel"
+            data-tip="${sentences(t("Storming phase"), t("Storm enemy town"), t("Melee units excel"))}"
             data-phase="storming"
             class="icon-button-storming"
           ></button>
           <button
-            data-tip="Looting phase. Plunder the town. Units strength increased"
+            data-tip="${sentences(t("Looting phase"), t("Plunder the town"), t("Units strength increased"))}"
             data-phase="looting"
             class="icon-button-looting"
           ></button>
           <button
-            data-tip="Retreat phase. Units strength reduced"
+            data-tip="${sentences(t("Retreat phase"), t("Units strength reduced"))}"
             data-phase="retreat"
             class="icon-button-retreat"
           ></button>
         </template>
         <template id="battlePhases_siege_defenders">
           <button
-            data-tip="Sheltering phase. Hide behind the walls and wait"
+            data-tip="${t("Sheltering phase. Hide behind the walls and wait")}"
             data-phase="sheltering"
             class="icon-button-sheltering"
           ></button>
           <button
-            data-tip="Sortie phase. Make a sortie from besieged town. Melee units excel"
+            data-tip="${sentences(t("Sortie phase"), t("Make a sortie from besieged town"), t("Melee units excel"))}"
             data-phase="sortie"
             class="icon-button-sortie"
           ></button>
           <button
-            data-tip="Bombardment phase. Attack enemy with machinery units"
+            data-tip="${t("Bombardment phase. Attack enemy with machinery units")}"
             data-phase="bombardment"
             class="icon-button-bombardment"
           ></button>
           <button
-            data-tip="Defense phase. Ranged and melee units excel"
+            data-tip="${sentences(t("Defense phase"), t("Ranged and melee units excel"))}"
             data-phase="defense"
             class="icon-button-defense"
           ></button>
           <button
-            data-tip="Surrendering phase. Give up the defense. Units strength reduced"
+            data-tip="${sentences(t("Surrendering phase"), t("Give up the defense"), t("Units strength reduced"))}"
             data-phase="surrendering"
             class="icon-button-surrendering"
           ></button>
           <button
-            data-tip="Pursue phase. Mounted units excel"
+            data-tip="${sentences(t("Pursue phase"), t("Mounted units excel"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
         </template>
         <template id="battlePhases_ambush_attackers">
           <button
-            data-tip="Shock phase. Units strength reduced"
+            data-tip="${sentences(t("Shock phase"), t("Units strength reduced"))}"
             data-phase="shock"
             class="icon-button-shock"
           ></button>
-          <button data-tip="Melee phase. Melee units excel" data-phase="melee" class="icon-button-melee"></button>
+          <button data-tip="${sentences(t("Melee phase"), t("Melee units excel"))}" data-phase="melee" class="icon-button-melee"></button>
           <button
-            data-tip="Pursue phase. Mounted units excel"
+            data-tip="${sentences(t("Pursue phase"), t("Mounted units excel"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
           <button
-            data-tip="Retreat phase. Units strength reduced"
+            data-tip="${sentences(t("Retreat phase"), t("Units strength reduced"))}"
             data-phase="retreat"
             class="icon-button-retreat"
           ></button>
         </template>
         <template id="battlePhases_ambush_defenders">
           <button
-            data-tip="Surprice attack phase. Units strength increased, ranged units excel"
+            data-tip="${t("Surprice attack phase. Units strength increased, ranged units excel")}"
             data-phase="surprise"
             class="icon-button-surprise"
           ></button>
-          <button data-tip="Melee phase. Melee units excel" data-phase="melee" class="icon-button-melee"></button>
+          <button data-tip="${sentences(t("Melee phase"), t("Melee units excel"))}" data-phase="melee" class="icon-button-melee"></button>
           <button
-            data-tip="Pursue phase. Mounted units excel"
+            data-tip="${sentences(t("Pursue phase"), t("Mounted units excel"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
           <button
-            data-tip="Retreat phase. Units strength reduced"
+            data-tip="${sentences(t("Retreat phase"), t("Units strength reduced"))}"
             data-phase="retreat"
             class="icon-button-retreat"
           ></button>
         </template>
         <template id="battlePhases_landing_attackers">
           <button
-            data-tip="Landing phase. Amphibious attack. Units are vulnerable against prepared defense"
+            data-tip="${t("Landing phase. Amphibious attack. Units are vulnerable against prepared defense")}"
             data-phase="landing"
             class="icon-button-landing"
           ></button>
-          <button data-tip="Melee phase. Melee units excel" data-phase="melee" class="icon-button-melee"></button>
+          <button data-tip="${sentences(t("Melee phase"), t("Melee units excel"))}" data-phase="melee" class="icon-button-melee"></button>
           <button
-            data-tip="Pursue phase. Mounted units excel"
+            data-tip="${sentences(t("Pursue phase"), t("Mounted units excel"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
-          <button data-tip="Flee phase. Units strength reduced" data-phase="flee" class="icon-button-flee"></button>
+          <button data-tip="${sentences(t("Flee phase"), t("Units strength reduced"))}" data-phase="flee" class="icon-button-flee"></button>
         </template>
         <template id="battlePhases_landing_defenders">
           <button
-            data-tip="Shock phase. Units are not prepared for a defense"
+            data-tip="${sentences(t("Shock phase"), t("Units are not prepared for a defense"))}"
             data-phase="shock"
             class="icon-button-shock"
           ></button>
           <button
-            data-tip="Defense phase. Prepared defense. Units strength increased"
+            data-tip="${sentences(t("Defense phase"), t("Prepared defense"), t("Units strength increased"))}"
             data-phase="defense"
             class="icon-button-defense"
           ></button>
-          <button data-tip="Melee phase. Melee units excel" data-phase="melee" class="icon-button-melee"></button>
+          <button data-tip="${sentences(t("Melee phase"), t("Melee units excel"))}" data-phase="melee" class="icon-button-melee"></button>
           <button
-            data-tip="Waiting phase. Cannot pursue fleeing naval"
+            data-tip="${t("Waiting phase. Cannot pursue fleeing naval")}"
             data-phase="waiting"
             class="icon-button-waiting"
           ></button>
           <button
-            data-tip="Pursue phase. Try to intercept fleeing attackers. Mounted units excel"
+            data-tip="${sentences(t("Pursue phase"), t("Try to intercept fleeing attackers"), t("Mounted units excel"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
           <button
-            data-tip="Retreat phase. Units strength reduced"
+            data-tip="${sentences(t("Retreat phase"), t("Units strength reduced"))}"
             data-phase="retreat"
             class="icon-button-retreat"
           ></button>
         </template>
         <template id="battlePhases_air">
           <button
-            data-tip="Maneuvering phase. Units strength reduced"
+            data-tip="${sentences(t("Maneuvering phase"), t("Units strength reduced"))}"
             data-phase="maneuvering"
             class="icon-button-maneuvering"
           ></button>
           <button
-            data-tip="Dogfight phase. Units strength increased"
+            data-tip="${sentences(t("Dogfight phase"), t("Units strength increased"))}"
             data-phase="dogfight"
             class="icon-button-dogfight"
           ></button>
           <button
-            data-tip="Pursue phase. Units strength increased"
+            data-tip="${sentences(t("Pursue phase"), t("Units strength increased"))}"
             data-phase="pursue"
             class="icon-button-pursue"
           ></button>
           <button
-            data-tip="Retreat phase. Units strength reduced"
+            data-tip="${sentences(t("Retreat phase"), t("Units strength reduced"))}"
             data-phase="retreat"
             class="icon-button-retreat"
           ></button>
         </template>
         <div style="font-size: 1.2em; font-weight: bold; width: unset">
-          <span>Attackers</span>
+          <span>${t("Attackers")}</span>
           <div style="float: right; font-size: 0.7em">
             <meter
               id="battleMorale_attackers"
-              data-tip="Attackers morale: "
+              data-tip="${t("Attackers morale")}: "
               min="0"
               max="100"
               low="33"
@@ -297,7 +313,7 @@ function renderDialog(): void {
             ></meter>
             <div
               id="battlePower_attackers"
-              data-tip="Attackers strength during this phase. Strength defines dealt damage"
+              data-tip="${sentences(t("Attackers strength during this phase"), t("Strength defines dealt damage"))}"
               style="display: inline-block; text-align: center"
               class="icon-button-power"
             ></div>
@@ -307,7 +323,7 @@ function renderDialog(): void {
             </div>
             <button
               id="battleDie_attackers"
-              data-tip="Random factor for attackers. Click to re-roll"
+              data-tip="${sentences(t("Random factor for attackers"), t("Click to re-roll"))}"
               style="padding: 0.1em 0.2em; width: 3.2em"
               class="icon-button-die"
             ></button>
@@ -315,11 +331,11 @@ function renderDialog(): void {
         </div>
         <table id="battleAttackers"></table>
         <div style="font-size: 1.2em; font-weight: bold; width: unset">
-          <span>Defenders</span>
+          <span>${t("Defenders")}</span>
           <div style="float: right; font-size: 0.7em">
             <meter
               id="battleMorale_defenders"
-              data-tip="Defenders morale: "
+              data-tip="${t("Defenders morale")}: "
               min="0"
               max="100"
               low="33"
@@ -328,7 +344,7 @@ function renderDialog(): void {
             ></meter>
             <div
               id="battlePower_defenders"
-              data-tip="Defenders strength during this phase. Strength defines dealt damage"
+              data-tip="${sentences(t("Defenders strength during this phase"), t("Strength defines dealt damage"))}"
               style="display: inline-block; text-align: center"
               class="icon-button-power"
             ></div>
@@ -338,7 +354,7 @@ function renderDialog(): void {
             </div>
             <button
               id="battleDie_defenders"
-              data-tip="Random factor for defenders. Click to re-roll"
+              data-tip="${sentences(t("Random factor for defenders"), t("Click to re-roll"))}"
               style="padding: 0.1em 0.2em; width: 3.2em"
               class="icon-button-die"
             ></button>
@@ -347,70 +363,70 @@ function renderDialog(): void {
         <table id="battleDefenders"></table>
       </div>
       <div id="battleBottom">
-        <button id="battleType" data-tip="Battle type. Click to change"></button>
+        <button id="battleType" data-tip="${sentences(t("Battle type"), t("Click to change"))}"></button>
         <div class="battleTypes" style="display: none">
           <button
-            data-tip="Field Battle: a standard type of combat"
+            data-tip="${t("Field Battle: a standard type of combat")}"
             data-type="field"
             class="icon-button-field"
           ></button>
-          <button data-tip="Naval Battle: naval units combat" data-type="naval" class="icon-button-naval"></button>
-          <button data-tip="Siege: burg blockade and storming" data-type="siege" class="icon-button-siege"></button>
-          <button data-tip="Ambush: surprise attack" data-type="ambush" class="icon-button-ambush"></button>
-          <button data-tip="Landing: amphibious attack" data-type="landing" class="icon-button-landing"></button>
+          <button data-tip="${t("Naval Battle: naval units combat")}" data-type="naval" class="icon-button-naval"></button>
+          <button data-tip="${t("Siege: burg blockade and storming")}" data-type="siege" class="icon-button-siege"></button>
+          <button data-tip="${t("Ambush: surprise attack")}" data-type="ambush" class="icon-button-ambush"></button>
+          <button data-tip="${t("Landing: amphibious attack")}" data-type="landing" class="icon-button-landing"></button>
           <button
-            data-tip="Air Battle: maneuring fight of avia units"
+            data-tip="${t("Air Battle: maneuring fight of avia units")}"
             data-type="air"
             class="icon-button-air"
           ></button>
         </div>
-        <button id="battleNameShow" data-tip="Set battle name" class="icon-font"></button>
+        <button id="battleNameShow" data-tip="${t("Set battle name")}" class="icon-font"></button>
         <div id="battleNameSection" style="display: none">
-          <button id="battleNameHide" data-tip="Hide the battle name section" class="icon-font"></button>
-          <input id="battleNamePlace" data-tip="Type place name" style="width: 30%" />
-          <input id="battleNameFull" data-tip="Type full battle name" style="width: 46%" />
+          <button id="battleNameHide" data-tip="${t("Hide")}" class="icon-font"></button>
+          <input id="battleNamePlace" data-tip="${t("Type place name")}" style="width: 30%" />
+          <input id="battleNameFull" data-tip="${t("Type full battle name")}" style="width: 46%" />
           <button
             id="battleNameCulture"
-            data-tip="Generate culture-specific name for place and battle"
+            data-tip="${t("Generate culture-specific name")}"
             class="icon-book"
           ></button>
           <button
             id="battleNameRandom"
-            data-tip="Generate random name for place and battle"
+            data-tip="${t("Generate random name")}"
             class="icon-globe"
           ></button>
         </div>
-        <button id="battleAddRegiment" data-tip="Add regiment to the battle" class="icon-user-plus"></button>
-        <button id="battleRoll" data-tip="Roll dice to update random factor" class="icon-die"></button>
-        <button id="battleRun" data-tip="Iterate battle" class="icon-play"></button>
+        <button id="battleAddRegiment" data-tip="${t("Add regiment to the battle")}" class="icon-user-plus"></button>
+        <button id="battleRoll" data-tip="${t("Roll dice to update random factor")}" class="icon-die"></button>
+        <button id="battleRun" data-tip="${t("Iterate battle")}" class="icon-play"></button>
         <button
           id="battleApply"
-          data-tip="End battle: apply current results and close the screen"
+          data-tip="${t("End battle: apply current results and close the screen")}"
           class="icon-check"
         ></button>
         <button
           id="battleCancel"
-          data-tip="Cancel battle: roll back results and close the screen"
+          data-tip="${t("Cancel battle: roll back results and close the screen")}"
           class="icon-cancel"
         ></button>
-        <button id="battleWiki" data-tip="Open Battle Simulation Tutorial" class="icon-info"></button>
+        <button id="battleWiki" data-tip="${t("Open Battle Simulation Tutorial")}" class="icon-info"></button>
       </div>
     </div>
     <div id="regimentSelectorScreen" class="dialog">
       <div id="regimentSelectorHeader" class="header" style="grid-template-columns: 9em 13em 4em 6em">
-        <div data-tip="Click to sort by state name" class="sortable alphabetically" data-sortby="state">
-          State&nbsp;
+        <div data-tip="${t("Click to sort")}" class="sortable alphabetically" data-sortby="state">
+          ${t("State")}&nbsp;
         </div>
-        <div data-tip="Click to sort by regiment name" class="sortable alphabetically" data-sortby="regiment">
-          Regiment&nbsp;
+        <div data-tip="${t("Click to sort")}" class="sortable alphabetically" data-sortby="regiment">
+          ${t("Regiment")}&nbsp;
         </div>
-        <div data-tip="Click to sort by total military forces" class="sortable" data-sortby="total">Total&nbsp;</div>
+        <div data-tip="${t("Click to sort")}" class="sortable" data-sortby="total">${t("Total")}&nbsp;</div>
         <div
-          data-tip="Click to sort by distance to the battlefield"
+          data-tip="${t("Click to sort")}"
           class="sortable icon-sort-number-up"
           data-sortby="distance"
         >
-          Distance&nbsp;
+          ${t("Distance")}&nbsp;
         </div>
       </div>
       <div id="regimentSelectorBody" class="table"></div>
@@ -453,8 +469,8 @@ function defineType(): void {
   const defender = b.defenders.regiments[0];
 
   const getType = (): string => {
-    const typesA = Object.keys(attacker.u).map(name => options.military.find(u => u.name === name)!.type);
-    const typesD = Object.keys(defender.u).map(name => options.military.find(u => u.name === name)!.type);
+    const typesA = Object.keys(attacker.u).map(name => options.map.military.units.find(u => u.name === name)!.type);
+    const typesD = Object.keys(defender.u).map(name => options.map.military.units.find(u => u.name === name)!.type);
 
     if (attacker.n && defender.n) return "naval"; // attacker and defender are navals
     if (typesA.every(t => t === "aviation") && typesD.every(t => t === "aviation")) return "air"; // if attackers and defender have only aviation units
@@ -473,7 +489,7 @@ function setType(): void {
   const b = battle!;
   ensureEl("battleType").className = `icon-button-${b.type}`;
 
-  const sideSpecific = document.getElementById(`battlePhases_${b.type}_attackers`) as HTMLTemplateElement | null;
+  const sideSpecific = findEl<HTMLTemplateElement>(`battlePhases_${b.type}_attackers`);
   const attackersContent = sideSpecific
     ? sideSpecific.content
     : ensureEl<HTMLTemplateElement>(`battlePhases_${b.type}`).content;
@@ -525,14 +541,12 @@ function getTypeName(): string {
 function addHeaders(): void {
   let headers = "<thead><tr><th></th><th></th>";
 
-  for (const u of options.military) {
+  for (const u of options.map.military.units) {
     const label = capitalize(u.name.replace(/_/g, " "));
-    const isExternal = u.icon.startsWith("http") || u.icon.startsWith("data:image");
-    const iconHTML = isExternal ? `<img src="${u.icon}" width="15" height="15">` : u.icon;
-    headers += `<th data-tip="${label}">${iconHTML}</th>`;
+    headers += `<th data-tip="${label}">${Icons.html(u.icon)}</th>`;
   }
 
-  headers += '<th data-tip="Total military">Total</th></tr></thead>';
+  headers += `<th data-tip="${t("Total military forces")}">${t("Total")}</th></tr></thead>`;
   ensureEl("battleAttackers").innerHTML = headers;
   ensureEl("battleDefenders").innerHTML = headers;
 }
@@ -546,15 +560,13 @@ function addRegimentToSide(side: Side, regiment: Regiment): void {
   regiment.survivors = { ...regiment.u };
 
   const state = pack.states[regiment.state];
-  const distance = (Math.hypot(b.y - regiment.by, b.x - regiment.bx) * distanceScale) | 0; // distance between regiment and its base
+  const distance = (Math.hypot(b.y - regiment.by, b.x - regiment.bx) * options.map.units.distance.scale) | 0; // distance between regiment and its base
   const color = state.color?.[0] === "#" ? state.color : "#999";
 
-  const isExternal = regiment.icon!.startsWith("http") || regiment.icon!.startsWith("data:image");
-  const iconHtml = isExternal
-    ? `<image href="${regiment.icon}" x="0.1em" y="0.1em" width="1.2em" height="1.2em"></image>`
-    : `<text x="50%" y="1em" style="text-anchor: middle">${regiment.icon}</text>`;
+  const href = escapeHtml(Icons.href(regiment.icon ?? ""));
   const icon = `<svg width="1.4em" height="1.4em" style="margin-bottom: -.6em; stroke: #333">
-      <rect x="0" y="0" width="100%" height="100%" fill="${color}"></rect>${iconHtml}</svg>`;
+      <rect x="0" y="0" width="100%" height="100%" fill="${color}"></rect>
+      <use href="${href}" x="10%" y="10%" width="80%" height="80%" stroke="none"></use></svg>`;
   const body = `<tbody id="battle${state.i}-${regiment.i}">`;
 
   let initial = `<tr class="battleInitial"><td>${icon}</td><td class="regiment" data-tip="${
@@ -564,19 +576,19 @@ function addRegimentToSide(side: Side, regiment: Regiment): void {
     0,
     26
   )}</td>`;
-  let survivorsRow = `<tr class="battleSurvivors"><td></td><td data-tip="Supply line length, affects morale">Distance to base: ${distance} ${distanceUnitInput.value}</td>`;
+  let survivorsRow = `<tr class="battleSurvivors"><td></td><td data-tip="${t("Supply line length, affects morale")}">${t("Distance to base")}: ${distance} ${options.map.units.distance.unit}</td>`;
 
-  for (const u of options.military) {
-    initial += `<td data-tip="Initial forces" style="width: 2.5em; text-align: center">${regiment.u[u.name] || 0}</td>`;
-    casualtiesRow += `<td data-tip="Casualties" style="width: 2.5em; text-align: center; color: red">0</td>`;
-    survivorsRow += `<td data-tip="Survivors" style="width: 2.5em; text-align: center; color: green">${
+  for (const u of options.map.military.units) {
+    initial += `<td data-tip="${t("Initial forces")}" style="width: 2.5em; text-align: center">${regiment.u[u.name] || 0}</td>`;
+    casualtiesRow += `<td data-tip="${t("Casualties")}" style="width: 2.5em; text-align: center; color: red">0</td>`;
+    survivorsRow += `<td data-tip="${t("Survivors")}" style="width: 2.5em; text-align: center; color: green">${
       regiment.u[u.name] || 0
     }</td>`;
   }
 
-  initial += `<td data-tip="Initial forces" style="width: 2.5em; text-align: center">${regiment.a || 0}</td></tr>`;
-  casualtiesRow += `<td data-tip="Casualties"  style="width: 2.5em; text-align: center; color: red">0</td></tr>`;
-  survivorsRow += `<td data-tip="Survivors" style="width: 2.5em; text-align: center; color: green">${
+  initial += `<td data-tip="${t("Initial forces")}" style="width: 2.5em; text-align: center">${regiment.a || 0}</td></tr>`;
+  casualtiesRow += `<td data-tip="${t("Casualties")}"  style="width: 2.5em; text-align: center; color: red">0</td></tr>`;
+  survivorsRow += `<td data-tip="${t("Survivors")}" style="width: 2.5em; text-align: center; color: green">${
     regiment.a || 0
   }</td></tr>`;
 
@@ -591,7 +603,8 @@ function addSide(): void {
   const body = ensureEl("regimentSelectorBody");
   const regiments = pack.states.filter(s => s.military && !s.removed).flatMap(s => s.military!);
 
-  const distance = (reg: Regiment): number => rn(Math.hypot(b.y - reg.y, b.x - reg.x) * distanceScale);
+  const distance = (reg: Regiment): number =>
+    rn(Math.hypot(b.y - reg.y, b.x - reg.x) * options.map.units.distance.scale);
   const isAdded = (reg: Regiment): boolean =>
     b.defenders.regiments.some(r => r === reg) || b.attackers.regiments.some(r => r === reg);
 
@@ -600,16 +613,16 @@ function addSide(): void {
       const s = pack.states[r.state];
       const added = isAdded(r);
       const dist = added ? 0 : distance(r);
-      const distLabel = `${dist} ${distanceUnitInput.value}`;
+      const distLabel = `${dist} ${options.map.units.distance.unit}`;
       return `<div ${added ? "class='inactive'" : ""} data-s=${s.i} data-i=${r.i} data-state=${
         s.name
       } data-regiment=${r.name}
-        data-total=${r.a} data-distance="${dist}" data-tip="Click to select regiment">
+        data-total=${r.a} data-distance="${dist}" data-tip="${t("Click to select regiment")}">
         <svg width=".9em" height=".9em" style="margin-bottom:-1px; stroke: #333"><rect x="0" y="0" width="100%" height="100%" fill="${
           s.color
         }" ></svg>
         <div style="width:6em">${s.name.slice(0, 11)}</div>
-        <div style="width:1.2em">${r.icon}</div>
+        <div style="width:1.2em; display:flex">${Icons.html(r.icon ?? "")}</div>
         <div style="width:13em">${r.name.slice(0, 24)}</div>
         <div style="width:4em">${r.a}</div>
         <div style="width:4em">${distLabel}</div>
@@ -620,13 +633,13 @@ function addSide(): void {
   $("#regimentSelectorScreen").dialog({
     resizable: false,
     width: "fit-content",
-    title: "Add regiment to the battle",
+    title: t("Add regiment to the battle"),
     position: { my: "left center", at: "right+10 center", of: "#battleScreen" },
     close: addSideClosed,
     buttons: {
-      "Add to attackers": () => addSideClicked("attackers"),
-      "Add to defenders": () => addSideClicked("defenders"),
-      Cancel: () => $("#regimentSelectorScreen").dialog("close")
+      [t("Add to attackers")]: () => addSideClicked("attackers"),
+      [t("Add to defenders")]: () => addSideClicked("defenders"),
+      [t("Cancel")]: () => $("#regimentSelectorScreen").dialog("close")
     }
   });
 
@@ -636,7 +649,7 @@ function addSide(): void {
   function selectLine(event: Event): void {
     const target = event.target as HTMLElement;
     if (target.className === "inactive") {
-      tip("Regiment is already in the battle", false, "error");
+      tip(t("Regiment is already in the battle"), false, "error");
       return;
     }
     target.classList.toggle("selected");
@@ -645,7 +658,7 @@ function addSide(): void {
   function addSideClicked(side: Side): void {
     const selected = body.querySelectorAll<HTMLElement>(".selected");
     if (!selected.length) {
-      tip("Please select a regiment first", false, "error");
+      tip(t("Please select a regiment first"), false, "error");
       return;
     }
 
@@ -886,8 +899,9 @@ function calculateStrength(side: Side): void {
 
   const forces = getJoinedForces(b[side].regiments);
   const phase = b[side].phase!;
-  const adjuster = Math.max(populationRate / 10, 10); // population adjuster, by default 100
-  b[side].power = sum(options.military.map(u => (forces[u.name] || 0) * u.power * scheme[phase][u.type])) / adjuster;
+  const adjuster = Math.max(options.map.units.population.scale / 10, 10); // population adjuster, by default 100
+  b[side].power =
+    sum(options.map.military.units.map(u => (forces[u.name] || 0) * u.power * scheme[phase][u.type])) / adjuster;
   const uiValue = b[side].power ? Math.max(b[side].power | 0, 1) : 0;
   ensureEl(`battlePower_${side}`).innerHTML = String(uiValue);
 }
@@ -950,7 +964,7 @@ function selectPhase(): void {
       const total = sum(Object.values(forces)); // total forces
       const ranged =
         sum(
-          options.military
+          options.map.military.units
             .filter(u => u.type === "ranged")
             .map(u => u.name)
             .map(u => forces[u])
@@ -991,7 +1005,7 @@ function selectPhase(): void {
     if (P((powerRatio - 1) / 2)) return ["storming", "defense"]; // start storm
 
     if (prev[0] !== "storming") {
-      const machinery = options.military.filter(u => u.type === "machinery").map(u => u.name); // machinery units
+      const machinery = options.map.military.units.filter(u => u.type === "machinery").map(u => u.name); // machinery units
 
       const attackersForces = getJoinedForces(b.attackers.regiments);
       const machineryA = sum(machinery.map(u => attackersForces[u]));
@@ -1089,11 +1103,11 @@ function runBattle(): void {
   const b = battle!;
   // validations
   if (!b.attackers.power) {
-    tip("Attackers army destroyed", false, "warn");
+    tip(t("Attackers army destroyed"), false, "warn");
     return;
   }
   if (!b.defenders.power) {
-    tip("Defenders army destroyed", false, "warn");
+    tip(t("Defenders army destroyed"), false, "warn");
     return;
   }
 
@@ -1178,7 +1192,7 @@ function updateTable(side: Side): void {
     const battleSurvivors = tbody.querySelector(".battleSurvivors")!;
 
     let index = 3; // index to find table element easily
-    for (const u of options.military) {
+    for (const u of options.map.military.units) {
       battleCasualties.querySelector(`td:nth-child(${index})`)!.innerHTML = String(r.casualties![u.name] || 0);
       battleSurvivors.querySelector(`td:nth-child(${index})`)!.innerHTML = String(r.survivors![u.name] || 0);
       index++;
@@ -1280,8 +1294,7 @@ function applyResults(): void {
     const id = `regiment${r.state}-${r.i}`;
 
     // add result to regiment note
-    const note = notes.find(n => n.id === id);
-    if (note) {
+    if (r.note) {
       const status = side === "attackers" ? battleStatus[0] : battleStatus[1];
       const losses = r.a ? Math.abs(sum(Object.values(r.casualties!))) / r.a : 1;
       const regStatus = getRegimentStatus(losses);
@@ -1293,8 +1306,7 @@ function applyResults(): void {
         .map(t => (r.casualties![t] ? `${Math.abs(r.casualties![t])} ${t}` : null))
         .filter((c): c is string => Boolean(c));
       const casualtiesText = casualtiesList.length ? ` Casualties: ${list(casualtiesList)}.` : "";
-      const legend = `<br><br>${battleName} (${options.year} ${options.eraShort}): ${status}. The regiment ${regStatus}.${initialText}${casualtiesText}`;
-      note.legend += legend;
+      r.note += `<br><br>${battleName} (${options.map.lore.calendar.year} ${options.map.lore.calendar.eraShort}): ${status}. The regiment ${regStatus}.${initialText}${casualtiesText}`;
     }
 
     r.u = { ...r.survivors };
@@ -1305,12 +1317,19 @@ function applyResults(): void {
   }
 
   const i = (last(pack.markers)?.i ?? -1) + 1;
-  {
-    // append battlefield marker
-    const marker: Marker = { i, x: b.x, y: b.y, cell: b.cell, icon: "⚔️", type: "battlefields", dy: 52 };
-    pack.markers.push(marker);
-    Layers.draw("markers");
-  }
+  const marker: Marker = {
+    i,
+    x: b.x,
+    y: b.y,
+    cell: b.cell,
+    icon: Icons.glyph("⚔️"),
+    type: "battlefields",
+    dy: 52,
+    name: b.name,
+    tags: []
+  };
+  pack.markers.push(marker);
+  Layers.draw("markers");
 
   const getSide = (regs: Regiment[], n: number): string =>
     regs.length > 1
@@ -1343,7 +1362,7 @@ function applyResults(): void {
 
   const status = battleStatus[+P(0.7)];
   const result = `The ${getTypeName()} ended in ${status}`;
-  let legend = `${b.name} took place in ${options.year} ${options.eraShort}. It was fought between ${getSide(
+  let legend = `${b.name} took place in ${options.map.lore.calendar.year} ${options.map.lore.calendar.eraShort}. It was fought between ${getSide(
     b.attackers.regiments,
     1
   )} and ${getSide(b.defenders.regiments, 0)}. ${result}.
@@ -1355,12 +1374,12 @@ function applyResults(): void {
 
   if (b.phasesRecord.length) {
     const phasesText = b.phasesRecord.map(r => (r.count > 1 ? `${r.phase} (x${r.count})` : r.phase)).join("<br>");
-    legend += `<br><br>Engagement progression:<br>${phasesText}`;
+    legend += `<br><br>${t("Engagement progression")}:<br>${phasesText}`;
   }
 
-  notes.push({ id: `marker${i}`, name: b.name, legend });
+  marker.note = legend;
 
-  tip(`${b.name} is over. ${result}`, true, "success", 4000);
+  tip(t("{{battle}} is over. {{result}}", { battle: b.name, result }), true, "success", 4000);
 
   closeBattleScreen();
   cleanData();
@@ -1383,7 +1402,7 @@ function closeBattleScreen(): void {
   $("#battleScreen").dialog("destroy");
   ensureEl("battleScreen").remove();
 
-  const regimentSelector = document.getElementById("regimentSelectorScreen");
+  const regimentSelector = findEl("regimentSelectorScreen");
   if (regimentSelector?.classList.contains("ui-dialog-content")) $("#regimentSelectorScreen").dialog("destroy");
   regimentSelector?.remove();
 }

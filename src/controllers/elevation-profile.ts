@@ -13,11 +13,14 @@ import {
   scaleLinear,
   select
 } from "d3";
-import { closeDialogs } from "@/components/dialog/dialog-helpers";
+import { closeDialogs, destroyDialog } from "@/components/dialog/dialog-helpers";
 import { tip } from "@/components/tooltips";
+import { HeightmapColorSchemes } from "@/renderers/heightmap-color-schemes";
+import { Csv } from "@/services/io/csv";
 import { downloadFile, getFileName, getHeight, getLatitude, getLongitude } from "@/utils";
+import { t } from "@/utils/i18n";
 import type { Burg } from "../generators/burgs-generator";
-import type { Feature } from "../generators/features";
+import type { Feature } from "../generators/features-generator";
 import type { Province } from "../generators/provinces-generator";
 import type { State } from "../generators/states-generator";
 import { ensureEl, getPointer, rn } from "../utils";
@@ -33,7 +36,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
   const firstCell = cells[0];
   const lastCell = cells.at(-1);
   if (firstCell === undefined || lastCell === undefined) {
-    tip("Elevation profile: no data", true, "error");
+    tip(t("Elevation profile: no data"), true, "error");
     return;
   }
 
@@ -132,7 +135,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
   draw();
 
   $("#elevationProfile").dialog({
-    title: "Elevation profile",
+    title: t("Elevation profile"),
     resizable: false,
     close: closeElevationProfile,
     position: {
@@ -182,7 +185,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
       .attr("fill", "darkgray");
 
     // Terrain elevation gradient (top = peak colour, bottom = valley colour)
-    const colors = getColorScheme("natural");
+    const colors = HeightmapColorSchemes.get("natural");
     const landGrad = defs
       .append("linearGradient")
       .attr("id", "landdef")
@@ -192,7 +195,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
       .attr("y2", "100%");
 
     if (chartData.mah === chartData.mih) {
-      const c = getColor(chartData.mih, colors);
+      const c = HeightmapColorSchemes.getColor(chartData.mih, colors);
       landGrad.append("stop").attr("offset", "0%").attr("style", `stop-color:${c};stop-opacity:1`);
       landGrad.append("stop").attr("offset", "100%").attr("style", `stop-color:${c};stop-opacity:1`);
     } else {
@@ -202,7 +205,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
         landGrad
           .append("stop")
           .attr("offset", `${(s / steps) * 100}%`)
-          .attr("style", `stop-color:${getColor(h, colors)};stop-opacity:1`);
+          .attr("style", `stop-color:${HeightmapColorSchemes.getColor(h, colors)};stop-opacity:1`);
       }
     }
 
@@ -257,7 +260,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
       .attr("fill", "none");
 
     // Biome colour bar
-    const hu = heightUnit.value;
+    const hu = options.map.units.height.unit;
     const biomesG = chart.append("g").attr("id", "epbiomes").attr("clip-path", "url(#epBiomesClip)");
     const tileWidth = xscale(1);
 
@@ -266,7 +269,9 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
       const biome = chartData.biome[k];
       const province = pack.cells.province[cell];
       const burgId = chartData.burg[k];
-      const pop = pack.cells.pop[cell] + (burgId ? ((pack.burgs[burgId] as Burg).population ?? 0) * urbanization : 0);
+      const pop =
+        pack.cells.pop[cell] +
+        (burgId ? ((pack.burgs[burgId] as Burg).population ?? 0) * options.map.units.population.urbanization.rate : 0);
       const provinceName = province ? (pack.provinces[province] as Province).name : null;
       const stateName = (pack.states[pack.cells.state[cell]] as State).name;
       const religionName = (pack.religions[pack.cells.religion[cell]] as { name: string }).name;
@@ -278,7 +283,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
         religionName,
         cultureName,
         `height: ${chartData.height[k]} ${hu}`,
-        `population ${rn(pop * populationRate)}`
+        `population ${rn(pop * options.map.units.population.scale)}`
       ]
         .filter(Boolean)
         .join(", ");
@@ -297,7 +302,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
     // Axes
     const xAxis = axisBottom(xscale)
       .ticks(10)
-      .tickFormat(d => `${rn((Number(d) / (pts.length - 1)) * routeLen)} ${distanceUnitInput.value}`);
+      .tickFormat(d => `${rn((Number(d) / (pts.length - 1)) * routeLen)} ${options.map.units.distance.unit}`);
     const yAxis = axisLeft(yscale)
       .ticks(5)
       .tickFormat(d => `${d} ${hu}`);
@@ -410,7 +415,7 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
 
     // Stats line in the controls bar
     ensureEl("epstats").textContent =
-      `Elev: ${chartData.mi}\u2013${chartData.ma} ${heightUnit.value}\u2002\u2191\u202f${totalAscent}\u2002\u2193\u202f${totalDescent} ${heightUnit.value}`;
+      `Elev: ${chartData.mi}\u2013${chartData.ma} ${options.map.units.height.unit}\u2002\u2191\u202f${totalAscent}\u2002\u2193\u202f${totalDescent} ${options.map.units.height.unit}`;
 
     // Crosshair + FMG tooltip on hover
     const crosshairG = chart.append("g").attr("id", "epcrosshair").style("pointer-events", "none");
@@ -455,8 +460,8 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
         const burgId = chartData.burg[idx];
         tip(
           [
-            `${dist} ${distanceUnitInput.value} from start`,
-            `Elevation: ${chartData.height[idx]} ${heightUnit.value}`,
+            `${dist} ${options.map.units.distance.unit} from start`,
+            `Elevation: ${chartData.height[idx]} ${options.map.units.height.unit}`,
             pack.biomes[chartData.biome[idx]].name,
             burgId ? ((pack.burgs[burgId] as Burg).name ?? null) : null
           ]
@@ -472,8 +477,29 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
   }
 
   function downloadCSV(): void {
-    const headers =
-      "Id,x,y,lat,lon,Cell,Height,Height value,Population,Burg,Burg population,Biome,Biome color,Culture,Culture color,Religion,Religion color,Province,Province color,State,State color\n";
+    const headers = [
+      "Id",
+      "x",
+      "y",
+      "lat",
+      "lon",
+      "Cell",
+      "Height",
+      "Height value",
+      "Population",
+      "Burg",
+      "Burg population",
+      "Biome",
+      "Biome color",
+      "Culture",
+      "Culture color",
+      "Religion",
+      "Religion color",
+      "Province",
+      "Province color",
+      "State",
+      "State color"
+    ];
     const rows = chartData.points.map((_, k) => {
       const cell = chartData.cell[k];
       const [x, y] = pack.cells.p[cells[k]];
@@ -481,7 +507,9 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
       const burgId = pack.cells.burg[cell];
       const pop = pack.cells.pop[cell];
       const burg = burgId ? (pack.burgs[burgId] as Burg) : null;
-      const burgPop = burg ? (burg.population ?? 0) * populationRate * urbanization : 0;
+      const burgPop = burg
+        ? (burg.population ?? 0) * options.map.units.population.scale * options.map.units.population.urbanization.rate
+        : 0;
       const culture = pack.cultures[pack.cells.culture[cell]] as {
         name: string;
         color: string;
@@ -496,12 +524,12 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
         k + 1,
         x,
         y,
-        getLatitude(y, mapCoordinates, graphHeight, 2),
-        getLongitude(x, mapCoordinates, graphWidth, 2),
+        getLatitude(y, options.map.geography.coordinates, options.map.graph.height, 2),
+        getLongitude(x, options.map.geography.coordinates, options.map.graph.width, 2),
         cell,
         getHeight(h),
         h,
-        rn(pop * populationRate),
+        rn(pop * options.map.units.population.scale),
         burg?.name ?? "",
         burgPop,
         pack.biomes[pack.cells.biome[cell]].name,
@@ -514,9 +542,9 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
         province ? province.color : "",
         state.name,
         (state as State & { color: string }).color
-      ].join(",");
+      ];
     });
-    downloadFile(`${headers}${rows.join("\n")}`, `${getFileName("elevation profile")}.csv`);
+    Csv.download("elevation profile", headers, rows);
   }
 
   function downloadSVG(): void {
@@ -558,33 +586,32 @@ function open(cells: number[], routeLen: number, isRiver: boolean): void {
   }
 
   function closeElevationProfile(): void {
-    modules.elevation = false;
     $("#elevationProfile").dialog("destroy");
     ensureEl("elevationProfile").remove();
   }
 }
 
 function renderDialog(): void {
-  document.getElementById("elevationProfile")?.remove();
+  destroyDialog("elevationProfile");
   const editorHtml = /* html */ `<div id="elevationProfile" class="dialog" width="100%">
-      <div id="elevationGraph" data-tip="Elevation profile"></div>
+      <div id="elevationGraph" data-tip="${t("Elevation profile")}"></div>
       <div style="text-align: center">
         <div id="epControls">
-          <span data-tip="Set curve profile"
-            >Curve:
+          <span data-tip="${t("Set curve profile")}"
+            >${t("Curve")}:
             <select id="epCurve">
-              <option>Linear</option>
-              <option>Bundle</option>
-              <option>Cubic Catmull-Rom</option>
-              <option selected>Monotone X</option>
-              <option>Natural</option>
+              <option>${t("Linear")}</option>
+              <option>${t("Bundle")}</option>
+              <option>${t("Cubic Catmull-Rom")}</option>
+              <option selected>${t("Monotone X")}</option>
+              <option>${t("Natural")}</option>
             </select>
           </span>
           <span
-            ><button id="epSave" data-tip="Download the chart data as a CSV file" class="icon-download"></button
+            ><button id="epSave" data-tip="${t("Download the chart data as a CSV file")}" class="icon-download"></button
           ></span>
-          <span><button id="epSaveSVG" data-tip="Download the chart as an SVG image">SVG</button></span>
-          <span><button id="epSavePNG" data-tip="Download the chart as a PNG image">PNG</button></span>
+          <span><button id="epSaveSVG" data-tip="${t("Download the chart as an SVG image")}">SVG</button></span>
+          <span><button id="epSavePNG" data-tip="${t("Download the chart as a PNG image")}">PNG</button></span>
           <span id="epstats" style="margin-left: 1em; color: #555; font-size: 0.85em"></span>
         </div>
       </div>

@@ -1,10 +1,8 @@
-import { type D3DragEvent, drag, select } from "d3";
-import "@/components/fill-box";
+import "@/components/shared/fill-box";
 import { destroyDialog } from "@/components/dialog/dialog-helpers";
-import type { FillBoxElement } from "@/components/fill-box";
+import { MapBrush } from "@/components/map-brush";
+import type { FillBoxElement } from "@/components/shared/fill-box";
 import { clearMainTip, tip } from "@/components/tooltips";
-import { applyDefaultViewboxEvents } from "@/components/viewbox-events";
-import { moveCircle, removeCircle } from "@/renderers/overlays/brush-circle";
 import {
   openPaintOverlay,
   type PaintOverlayCell,
@@ -12,12 +10,15 @@ import {
   removePaintOverlayCells,
   updatePaintOverlay
 } from "@/renderers/overlays/paint-overlay";
-import { ensureEl, getPointer } from "@/utils";
+import type { Point } from "@/types/global";
+import { ensureEl } from "@/utils";
+import { t } from "@/utils/i18n";
 
 export interface PaintEditorItem {
   id: number;
   name: string;
   color: string;
+  lock?: boolean;
 }
 
 interface CommonPaintEditorOptions {
@@ -63,12 +64,24 @@ const defaultBrushRadius = 12;
 const eraseAllValue = -1;
 
 let state: PaintEditorState | null = null;
+let brush: MapBrush | null = null;
 
 function open(options: OpenPaintEditorOptions): void {
   if (customization) return;
 
   $(`#${options.parentDialogId}`).dialog("close");
   customization = customizationMode;
+
+  brush = new MapBrush({
+    id: "paintEditorBrush",
+    label: `${t("Brush size")}:`,
+    radius: defaultBrushRadius,
+    onStart: startPainting,
+    stampOnStart: false, // a plain click selects the painted item instead
+    stampOnMove: true,
+    onClick: selectPaintedItem,
+    onMove: showCellTip
+  });
 
   const items = sortItems(options.items);
   state = {
@@ -93,7 +106,7 @@ function open(options: OpenPaintEditorOptions): void {
       close: cancel
     });
 
-    tip("Click to select, drag to paint", true);
+    tip(t("Click to select, drag to paint. Shift + drag resizes the brush, Space + drag pans the map"), true);
   } catch (error) {
     close(options.onClose);
     throw error;
@@ -112,21 +125,21 @@ function renderDialog(options: OpenPaintEditorOptions, items: readonly PaintEdit
   const selectedColor = items[0]?.color ?? "#ffffff";
 
   const dontOverrideControl = options.dontOverrideControl
-    ? `<label data-tip="Only paint cells whose current value is 0 (neutral)" style="display: flex; align-items: center"><input id="paintEditorDontOverride" class="checkbox native" type="checkbox">Do not override existing</label>`
+    ? `<label data-tip="${t("Only paint cells whose current value is 0 (neutral)")}" style="display: flex; align-items: center"><input id="paintEditorDontOverride" class="checkbox native" type="checkbox">${t("Do not override existing")}</label>`
     : "";
   const landOnlyControl = options.landOnlyControl
-    ? `<label style="display: flex; align-items: center"><input id="paintEditorLandOnly" class="checkbox native" type="checkbox" checked> Change land only</label>`
+    ? `<label style="display: flex; align-items: center"><input id="paintEditorLandOnly" class="checkbox native" type="checkbox" checked> ${t("Change land only")}</label>`
     : "";
   const html = /* html */ `<div id="${dialogId}" class="dialog" style="display: flex; flex-direction: column; gap: 0.6em">
     <div style="display: grid; gap: 0.5em;">
-      <label style="display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 0.4em">Paint: <select id="paintEditorSelect"></select><fill-box id="paintEditorFill" fill="${selectedColor}" size="1.4em" data-tip="Selected paint color" disabled></fill-box></label>
-      <slider-input id="paintEditorBrush" min="1" max="100" value="${defaultBrushRadius}">Brush size:</slider-input>
+      <label style="display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 0.4em">${t("Paint")}: <select id="paintEditorSelect"></select><fill-box id="paintEditorFill" fill="${selectedColor}" size="1.4em" data-tip="${t("Selected paint color")}" disabled></fill-box></label>
+      ${brush?.markup ?? ""}
     </div>
     <div id="paintEditorControls" style="display: flex; flex-direction: column; align-items: center; gap: 0.4em;">${dontOverrideControl}${landOnlyControl}</div>
     <div style="display: flex; gap: 0.4em;">
-      <button id="paintEditorUndo" aria-label="Undo" data-tip="Undo last brush stroke" class="icon-ccw" disabled></button>
-      <button id="paintEditorApply" aria-label="Apply" data-tip="Apply painted changes" class="icon-check"></button>
-      <button id="paintEditorCancel" aria-label="Cancel" data-tip="Cancel painted changes" class="icon-cancel"></button>
+      <button id="paintEditorUndo" aria-label="${t("Undo")}" data-tip="${t("Undo the latest action")}" class="icon-ccw" disabled></button>
+      <button id="paintEditorApply" aria-label="${t("Apply")}" data-tip="${t("Apply painted changes")}" class="icon-check"></button>
+      <button id="paintEditorCancel" aria-label="${t("Cancel")}" data-tip="${t("Cancel painted changes")}" class="icon-cancel"></button>
     </div>
   </div>`;
 
@@ -163,19 +176,14 @@ function addListeners(): void {
   ensureEl("paintEditorUndo").addEventListener("click", undo);
   ensureEl("paintEditorApply").addEventListener("click", apply);
   ensureEl("paintEditorCancel").addEventListener("click", cancel);
-  select<SVGElement, unknown>("#viewbox")
-    .style("cursor", "crosshair")
-    .on("click", handleMapClick)
-    .call(drag<SVGElement, unknown>().on("start", handleDragStart))
-    .on("touchmove mousemove", handlePointerMove);
+  brush?.attach();
 }
 
 function handleItemChange(event: Event): void {
   selectItem(+(event.currentTarget as HTMLSelectElement).value);
 }
 
-function handleMapClick(this: SVGElement, event: MouseEvent): void {
-  const [x, y] = getPointer(event, this);
+function selectPaintedItem([x, y]: Point): void {
   const cell = Pack.findCell(x, y);
   if (cell === undefined) return;
 
@@ -183,17 +191,11 @@ function handleMapClick(this: SVGElement, event: MouseEvent): void {
   if (value !== undefined) selectItem(value);
 }
 
-function handleDragStart(this: SVGElement, event: D3DragEvent<SVGElement, unknown, unknown>): void {
-  const radius = getRadius();
+function startPainting(_point: Point, radius: number) {
   const historyEntry: PaintHistoryEntry = new Map();
   let recorded = false;
 
-  event.on("drag", (dragEvent: D3DragEvent<SVGElement, unknown, unknown>) => {
-    if (!dragEvent.dx && !dragEvent.dy) return;
-
-    const [x, y] = getPointer(dragEvent, this);
-    moveCircle(x, y, radius);
-
+  return ([x, y]: Point) => {
     const found = radius > 5 ? Pack.findAll(x, y, radius) : [Pack.findCell(x, y)];
     const cells = found.filter((cell): cell is number => cell !== undefined);
     const selectedId = getState().selectedId;
@@ -201,21 +203,22 @@ function handleDragStart(this: SVGElement, event: D3DragEvent<SVGElement, unknow
 
     recordHistory(historyEntry);
     recorded = true;
-  });
+  };
 }
 
-function handlePointerMove(this: SVGElement, event: MouseEvent | TouchEvent): void {
-  const [x, y] = getPointer(event, this);
-  moveCircle(x, y, getRadius());
-
+function showCellTip([x, y]: Point): void {
   const cell = Pack.findCell(x, y);
   if (cell === undefined) return;
 
   const { itemsById } = getState();
   const names = getCurrentValues(cell)
-    .map(value => itemsById.get(value)?.name)
+    .map(value => {
+      const item = itemsById.get(value);
+      if (!item) return undefined;
+      return item.lock ? `${item.name} (${t("locked")})` : item.name;
+    })
     .filter((name): name is string => Boolean(name));
-  tip(names.join(", ") || "No assignment");
+  tip(names.join(", ") || t("No assignment"));
 }
 
 function selectItem(id: number): boolean {
@@ -229,11 +232,6 @@ function selectItem(id: number): boolean {
   return true;
 }
 
-function getRadius(): number {
-  const brush = ensureEl<HTMLInputElement>("paintEditorBrush");
-  return +(brush.value || brush.getAttribute("value") || defaultBrushRadius);
-}
-
 function getBaseValues(cell: number): readonly number[] {
   const { options } = getState();
   return options.mode === "multiple" ? options.getValue(cell) : [options.getValue(cell)];
@@ -244,7 +242,7 @@ function getCurrentValues(cell: number): readonly number[] {
 }
 
 function paintCells(cells: readonly number[], nextValue: number, historyEntry: PaintHistoryEntry): boolean {
-  const { options, changes } = getState();
+  const { options, changes, itemsById } = getState();
   const isErase = options.mode === "multiple" && nextValue === eraseAllValue;
   const landOnly = options.landOnlyControl && ensureEl<HTMLInputElement>("paintEditorLandOnly").checked;
   const dontOverride =
@@ -256,6 +254,7 @@ function paintCells(cells: readonly number[], nextValue: number, historyEntry: P
     const currentValues = getCurrentValues(cell);
     if (landOnly && pack.cells.h[cell] < 20) continue;
     if (dontOverride && currentValues.some(value => value !== 0)) continue;
+    if (currentValues.some(value => value !== nextValue && itemsById.get(value)?.lock)) continue;
 
     const nextValues = getNextValues(options, cell, currentValues, nextValue);
     if (!nextValues || arraysEqual(nextValues, currentValues)) continue;
@@ -339,8 +338,8 @@ function cleanup(): void {
   state = null;
   destroyDialog(dialogId);
   removePaintOverlay();
-  removeCircle();
-  applyDefaultViewboxEvents();
+  brush?.detach();
+  brush = null;
   clearMainTip();
   if (customization === customizationMode) customization = 0;
 }

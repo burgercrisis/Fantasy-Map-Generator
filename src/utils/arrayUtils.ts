@@ -3,7 +3,7 @@
  * @param {Array} array - The array to get the last element from
  * @returns The last element of the array
  */
-export const last = <T>(array: T[]): T => {
+export const last = <T>(array: readonly T[]): T => {
   return array[array.length - 1];
 };
 
@@ -14,6 +14,17 @@ export const last = <T>(array: T[]): T => {
  */
 export const unique = <T>(array: T[]): T[] => {
   return [...new Set(array)];
+};
+
+/** Keys grouped by their value, such as painted cells by the entity they go to */
+export const groupByValue = <K, V>(entries: ReadonlyMap<K, V>): Map<V, K[]> => {
+  const groups = new Map<V, K[]>();
+  for (const [key, value] of entries) {
+    const group = groups.get(value);
+    if (group) group.push(key);
+    else groups.set(value, [key]);
+  }
+  return groups;
 };
 
 export const TYPED_ARRAY_MAX = {

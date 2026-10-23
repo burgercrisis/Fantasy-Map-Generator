@@ -1,58 +1,55 @@
 // Save the whole .map project to storage, machine or cloud
-
 import { closeDialogs } from "@/components/dialog/dialog-helpers";
 import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
 import { GraphOverride } from "@/generators/graph-override";
+import { Notes } from "@/generators/notes";
+import { restoreOceanVectors } from "@/renderers/ocean-cache";
 import { Services } from "@/services";
 import { getUsedFonts } from "@/services/fonts";
-import { savedMessage } from "@/services/platform";
-
+import { isElectron, savedMessage } from "@/services/platform";
 import { VERSION } from "@/services/versioning";
 import { ensureEl, getFileName, link, parseError, rn } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
+import { type SaveOutcome, saveToFileSystem } from "./save-to-file";
 
-type SaveMethod = "storage" | "machine" | "dropbox";
+type Writer = () => Promise<void>;
 
-// Race entity type (custom to this fork; no upstream equivalent)
-interface Race {
-  i: number;
-  name: string;
-  color?: string;
-  expansionism?: number;
-  removed?: boolean;
-}
+const toStorage = (): Promise<void> => save(() => writeToStorage(prepareMapData(), true));
+const toMachine = (overwrite = false, viewOnly = false): Promise<void> =>
+  save(() => writeToMachine(overwrite, viewOnly));
+const toDropbox = (viewOnly = false): Promise<void> =>
+  save(() => writeToDropbox(prepareMapData(viewOnly), mapFileName(viewOnly)));
 
-// Extend pack with race data (custom to this fork)
-type PackWithRaces = { races?: Race[]; cells: typeof pack.cells & { race?: Uint16Array } };
+// a view-only copy never takes the editable file's name
+const mapFileName = (viewOnly: boolean): string => `${getFileName()}${viewOnly ? " view" : ""}.map`;
 
-async function saveMap(method: SaveMethod): Promise<void> {
-  if (customization) return tip("Map cannot be saved in EDIT mode, please complete the edit and retry", false, "error");
+async function save(write: Writer): Promise<void> {
+  if (customization)
+    return tip(t("Map cannot be saved in EDIT mode, please complete the edit and retry"), false, "error");
+  if (options.map.viewOnly) return tip(t("The map is in view-only mode and cannot be saved"), false, "warn");
   closeDialogs("#alert");
 
   try {
-    const mapData = prepareMapData();
-    const filename = `${getFileName()}.map`;
-
-    if (method === "storage") await saveToStorage(mapData, true);
-    if (method === "machine") saveToMachine(mapData, filename);
-    if (method === "dropbox") await saveToDropbox(mapData, filename);
+    await write();
   } catch (error) {
     ERROR && console.error(error);
-    alertMessage.innerHTML = /* html */ `An error occurred while saving the map. If the issue persists, please copy the message below and report it on ${link(
-      "https://github.com/Azgaar/Fantasy-Map-Generator/issues",
-      "GitHub"
-    )}. <p id="errorBox">${parseError(error as Error)}</p>`;
+    const saveError = error instanceof Error ? error : new Error(String(error));
+    alertMessage.innerHTML = /* html */ `${t(
+      "An error occurred while saving the map. If the issue persists, please copy the message below and report it on {{- github}}.",
+      { github: link("https://github.com/Azgaar/Fantasy-Map-Generator/issues", "GitHub") }
+    )} <p id="errorBox">${parseError(saveError)}</p>`;
 
     $("#alert").dialog({
       resizable: false,
-      title: "Saving error",
+      title: t("Saving error"),
       width: "28em",
       buttons: {
-        Retry: function (this: HTMLElement) {
+        [t("Retry")]: function (this: HTMLElement) {
           $(this).dialog("close");
-          saveMap(method);
+          save(write);
         },
-        Close: function (this: HTMLElement) {
+        [t("Close")]: function (this: HTMLElement) {
           $(this).dialog("close");
         }
       },
@@ -61,53 +58,41 @@ async function saveMap(method: SaveMethod): Promise<void> {
   }
 }
 
-function prepareMapData(): string {
+/** `viewOnly` saves a copy that opens for browsing only */
+function prepareMapData(viewOnly = false): string {
   const date = new Date();
   const dateString = `${date.getFullYear()}-${date.getMonth() + 1}-${date.getDate()}`;
-  const license = "File can be loaded in azgaar.github.io/Fantasy-Map-Generator";
-  const params = [VERSION, license, dateString, seed, graphWidth, graphHeight, mapId].join("|");
-  const settings = [
-    distanceUnitInput.value,
-    distanceScale,
-    areaUnit.value,
-    heightUnit.value,
-    heightExponentInput.value,
-    temperatureScale.value,
-    "", // previously used for barSize.value
-    "", // previously used for barLabel.value
-    "", // previously used for barBackColor.value
-    "", // previously used for barBackColor.value
-    "", // previously used for barPosX.value
-    "", // previously used for barPosY.value
-    populationRate,
-    urbanization,
-    "", // previously used for mapSizeOutput.value, part of options now
-    "", // previously used for latitudeOutput.value, part of options now
-    "", // previously used for temperatureEquatorOutput.value
-    "", // previously used for tempNorthOutput.value
-    "", // previously used for precOutput.value, part of options now
-    JSON.stringify(options),
-    mapName.value,
-    "", // previously used for hideLabels
-    stylePreset.value,
-    "", // previously used for rescaleLabels
-    urbanDensity,
-    "", // previously used for longitudeOutput.value, part of options now
-    ensureEl<HTMLInputElement>("growthRate").value
+  const license = "File can be loaded in azgaar.github.io/Fantasy-Map-Generator"; // file format text: never translated
+  const params = [
+    VERSION,
+    license,
+    dateString,
+    options.map.seed,
+    options.map.graph.width,
+    options.map.graph.height,
+    mapHistory.at(-1)?.created ?? Date.now() // the map id: when the map on screen was created
   ].join("|");
-  const coords = JSON.stringify(mapCoordinates);
-  const notesData = JSON.stringify(notes);
+
+  const settings = JSON.stringify(viewOnly ? { ...options.map, viewOnly } : options.map); // the requests and preferences stay out
   const measurers = JSON.stringify(pack.measurers ?? []);
-  const fonts = JSON.stringify(getUsedFonts(ensureEl("map") as Element as SVGSVGElement));
+  const journeys = JSON.stringify(pack.journeys ?? []);
+  const fonts = JSON.stringify(
+    getUsedFonts(
+      ensureEl("map") as Element as SVGSVGElement,
+      Notes.list().map(entry => entry.note)
+    )
+  );
   const layers = JSON.stringify(Layers.state);
   const graphOverride = JSON.stringify(GraphOverride.state);
 
   // save svg
   const cloneEl = ensureEl("map").cloneNode(true) as SVGSVGElement;
 
+  restoreOceanVectors(cloneEl);
+
   // reset transform values to default
-  cloneEl.setAttribute("width", String(graphWidth));
-  cloneEl.setAttribute("height", String(graphHeight));
+  cloneEl.setAttribute("width", String(options.map.graph.width));
+  cloneEl.setAttribute("height", String(options.map.graph.height));
   cloneEl.querySelector("#viewbox")?.removeAttribute("transform");
 
   // relief icons are stored in pack.relief, the layer holds only the currently visible ones
@@ -120,11 +105,13 @@ function prepareMapData(): string {
   if (cloneRuler) cloneRuler.innerHTML = ""; // always remove rulers
   const cloneTradeAnimation = cloneEl.querySelector("#tradeAnimation");
   if (cloneTradeAnimation) cloneTradeAnimation.innerHTML = ""; // always remove transient trade animations
+  cloneEl.querySelector("#journeyOverlay")?.remove(); // transient journey path-editing handles
+  cloneEl.querySelector("#journeyTravel")?.remove(); // transient journey travel animation
 
   const serializedSVG = new XMLSerializer().serializeToString(cloneEl);
 
-  const { spacing, cellsX, cellsY, boundary, points, features, cellsDesired } = grid;
-  const gridGeneral = JSON.stringify({ spacing, cellsX, cellsY, boundary, points, features, cellsDesired });
+  const { spacing, cellsX, cellsY, boundary, points, features } = grid;
+  const gridGeneral = JSON.stringify({ spacing, cellsX, cellsY, boundary, points, features });
   const packFeatures = JSON.stringify(pack.features);
   const biomes = JSON.stringify(pack.biomes);
   const cultures = JSON.stringify(pack.cultures);
@@ -143,14 +130,7 @@ function prepareMapData(): string {
   const markets = JSON.stringify(pack.markets || []);
   const deals = JSON.stringify(pack.deals || []);
   const labels = JSON.stringify(pack.addedLabels || []);
-  const styleData = JSON.stringify(style);
-
-  // store custom good icons
-  const goodIconsEl = ensureEl("good-icons");
-  const customGoodIcons = Array.from(goodIconsEl.querySelectorAll('[id^="good-custom-"]') || [])
-    .map(el => el.outerHTML)
-    .join("")
-    .replace(/[\r\n]+/g, " "); // map data is split by CRLF on load
+  const styleData = JSON.stringify(styles);
 
   // store name array only if not the same as default
   const defaultNameBases = Names.getNameBases();
@@ -164,17 +144,13 @@ function prepareMapData(): string {
   // round population to save space
   const pop = Array.from(pack.cells.pop).map(p => rn(p, 4));
 
-  // store race data (custom to this fork)
-  const packWithRaces = pack as unknown as PackWithRaces;
-  const races = JSON.stringify(packWithRaces.races || []);
-
   // data format as below
   const mapData = [
     params,
     settings,
-    coords,
+    "", // deprecated separate mapCoordinates, now options.map.geography.coordinates
     biomes,
-    notesData,
+    "", // deprecated notes array, now a note field on the entity it describes
     serializedSVG,
     gridGeneral,
     grid.cells.h,
@@ -215,52 +191,58 @@ function prepareMapData(): string {
     markets,
     deals,
     pack.cells.market,
-    customGoodIcons,
+    "", // deprecated custom good icons, now options.map.customIcons
     measurers,
     labels,
     styleData,
     relief,
     layers,
     graphOverride,
-    races
-  ];
-
-  // store cell-level race data if present and valid (custom to this fork)
-  if (
-    packWithRaces.cells?.race &&
-    packWithRaces.cells.i &&
-    packWithRaces.cells.race.length === packWithRaces.cells.i.length
-  ) {
-    mapData.push(packWithRaces.cells.race);
-  }
-
-  return mapData.join("\r\n");
+    journeys
+  ].join("\r\n");
+  return mapData;
 }
 
 // save map file to indexedDB
-async function saveToStorage(mapData: string, showTip = false): Promise<void> {
+async function writeToStorage(mapData: string, showTip = false): Promise<void> {
   const blob = new Blob([mapData], { type: "text/plain" });
   await ldb.set("lastMap", blob);
-  showTip && tip("Map is saved to the browser storage", false, "success");
+  showTip && tip(t("Map is saved to the browser storage"), false, "success");
 }
 
-// download map file
-function saveToMachine(mapData: string, filename: string): void {
-  const blob = new Blob([mapData], { type: "text/plain" });
-  const URL = window.URL.createObjectURL(blob);
-
-  const link = document.createElement("a");
-  link.download = filename;
-  link.href = URL;
-  link.click();
-
-  tip(savedMessage("Map"), true, "success", 8000);
-  setTimeout(() => window.URL.revokeObjectURL(URL), 5000);
+// a view-only copy never becomes the file an overwrite updates: that is the author's editable map
+async function writeToMachine(overwrite: boolean, viewOnly: boolean): Promise<void> {
+  notifySaveOutcome(await saveToFileSystem(() => prepareMapData(viewOnly), mapFileName(viewOnly), overwrite, viewOnly));
 }
 
-async function saveToDropbox(mapData: string, filename: string): Promise<void> {
+export function notifySaveOutcome(outcome: SaveOutcome): void {
+  if (outcome.type === "cancelled") return;
+  if (outcome.type === "saved") {
+    tip(t("Map is saved to “{{file}}”", { file: outcome.filename }), true, "success", 8000);
+    return;
+  }
+
+  let message = savedMessage(t("Map"));
+  if (!isElectron()) {
+    const noticeKey = "savePickerFallbackNoticeShown";
+    try {
+      if (!localStorage.getItem(noticeKey)) {
+        message = sentences(
+          message,
+          t("A save-location picker is unavailable here; your browser's download settings control the location.")
+        );
+        localStorage.setItem(noticeKey, "true");
+      }
+    } catch {
+      // Storage preferences must never prevent a download.
+    }
+  }
+  tip(message, true, "success", 12000);
+}
+
+async function writeToDropbox(mapData: string, filename: string): Promise<void> {
   await Services.Cloud.save(filename, mapData);
-  tip("Map is saved to your Dropbox", true, "success", 8000);
+  tip(t("Map is saved to your Dropbox"), true, "success", 8000);
 }
 
-export const Save = { saveMap, prepareMapData, saveToStorage };
+export const Save = { toStorage, toMachine, toDropbox, prepareMapData, writeToStorage };

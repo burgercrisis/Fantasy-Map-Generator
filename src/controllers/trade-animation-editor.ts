@@ -1,4 +1,5 @@
 import { closeDialogs, destroyDialog } from "@/components/dialog/dialog-helpers";
+import { t } from "@/utils/i18n";
 import { ensureEl } from "../utils";
 
 const DEFAULTS = TradeAnimation.getDefaultOptions();
@@ -6,8 +7,8 @@ const INPUTS = [
   {
     type: "select",
     id: "tradeAnimDisplayType",
-    label: "Trade type",
-    tip: "Which trade types to display: local (burg-market), global (market-market), or both",
+    label: t("Trade type"),
+    tip: t("Which trade types to display: local (burg-market), global (market-market), or both"),
     key: "displayType",
     default: DEFAULTS.displayType,
     selectOptions: ["local", "global", "both"]
@@ -15,8 +16,10 @@ const INPUTS = [
   {
     type: "slider",
     id: "tradeAnimConcurrent",
-    label: "Animations",
-    tip: "Target number of trade animations visible at once. New ones spawn as old ones finish. Higher = more simultaneous animations, can cause lag on slower devices",
+    label: t("Animations"),
+    tip: t(
+      "Target number of trade animations visible at once. New ones spawn as old ones finish. Higher = more simultaneous animations, can cause lag on slower devices"
+    ),
     min: 1,
     max: 500,
     step: 1,
@@ -26,8 +29,8 @@ const INPUTS = [
   {
     type: "slider",
     id: "tradeAnimDuration",
-    label: "Travel duration",
-    tip: "Milliseconds per map unit travelled. Lower = faster animations",
+    label: t("Travel duration"),
+    tip: t("Milliseconds per map unit travelled. Lower = faster animations"),
     min: 1,
     max: 1000,
     step: 1,
@@ -37,8 +40,8 @@ const INPUTS = [
   {
     type: "slider",
     id: "tradeAnimLandDurationModifier",
-    label: "Land slowdown",
-    tip: "Multiplier applied to travel duration on land segments. Higher = slower land animations",
+    label: t("Land slowdown"),
+    tip: t("Multiplier applied to travel duration on land segments. Higher = slower land animations"),
     min: 0.1,
     max: 20,
     step: 0.1,
@@ -48,8 +51,8 @@ const INPUTS = [
   {
     type: "slider",
     id: "tradeAnimSegmentChangePause",
-    label: "Segment pause",
-    tip: "Pause between land and water legs of a trip, in milliseconds. Higher = longer pause",
+    label: t("Segment pause"),
+    tip: t("Pause between land and water legs of a trip, in milliseconds. Higher = longer pause"),
     min: 0,
     max: 5000,
     step: 100,
@@ -59,8 +62,8 @@ const INPUTS = [
   {
     type: "slider",
     id: "tradeAnimMarkerSize",
-    label: "Marker size",
-    tip: "Marker icon size in map units. Wagons render at half this size. Higher = bigger icons",
+    label: t("Marker size"),
+    tip: t("Marker icon size in map units. Wagons render at half this size. Higher = bigger icons"),
     min: 1,
     max: 50,
     step: 0.5,
@@ -75,7 +78,7 @@ function open(): void {
   renderDialog();
 
   $("#tradeAnimationEditor").dialog({
-    title: "Trade Animation Editor",
+    title: t("Trade Animation Editor"),
     resizable: false,
     position: { my: "right top", at: "right-10 top+10", of: "svg" },
     close: () => {
@@ -89,11 +92,11 @@ function renderDialog(): void {
   document.body.insertAdjacentHTML("beforeend", buildDialogHTML());
 
   for (const def of INPUTS) {
-    const key = def.key as keyof typeof options.trade.animation;
+    const key = def.key as keyof typeof options.app.trade.animation;
     const input = ensureEl<HTMLInputElement | HTMLSelectElement>(def.id);
     const resetBtn = ensureEl(`${def.id}Reset`);
 
-    const current = options.trade.animation[key] ?? def.default;
+    const current = options.app.trade.animation[key] ?? def.default;
     input.value = String(current);
 
     input.addEventListener("input", e => {
@@ -101,15 +104,13 @@ function renderDialog(): void {
       if (e.target !== e.currentTarget) return;
       const value =
         def.type === "slider" ? (input as HTMLInputElement).valueAsNumber : (input as HTMLSelectElement).value;
-      options.trade.animation = { ...options.trade.animation, [key]: value };
-      localStorage.setItem("trade-animation", JSON.stringify(options.trade.animation));
+      Options.set(o => (o.app.trade.animation = { ...o.app.trade.animation, [key]: value }));
       Layers.draw("trade");
     });
 
     resetBtn.addEventListener("click", () => {
-      options.trade.animation = { ...options.trade.animation, [key]: def.default };
+      Options.set(o => (o.app.trade.animation = { ...o.app.trade.animation, [key]: def.default }));
       input.value = String(def.default);
-      localStorage.setItem("trade-animation", JSON.stringify(options.trade.animation));
       Layers.draw("trade");
     });
   }
@@ -117,7 +118,7 @@ function renderDialog(): void {
 
 function buildDialogHTML(): string {
   const rows = INPUTS.map(({ id, label, type, selectOptions, tip, min, max, step, key, default: def }) => {
-    const current = options.trade.animation[key as keyof typeof options.trade.animation] ?? def;
+    const current = options.app.trade.animation[key as keyof typeof options.app.trade.animation] ?? def;
     const input =
       type === "select" && selectOptions
         ? `<select id="${id}" style="width: 100%; font-size: smaller;">${selectOptions.map((opt: string) => `<option value="${opt}" ${opt === current ? "selected" : ""}>${opt}</option>`).join("")}</select>`
@@ -127,7 +128,7 @@ function buildDialogHTML(): string {
         <td style="padding: 0">${label}</td>
         <td style="padding: 0">${input}</td>
         <td style="padding: 0">
-          <button id="${id}Reset" data-tip="Reset to default"
+          <button id="${id}Reset" data-tip="${t("Reset to default")}"
             style="font-size:.85em; padding:1px 5px; margin-left: 0.3em">↺</button>
         </td>
       </tr>`;

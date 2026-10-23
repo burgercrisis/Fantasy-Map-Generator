@@ -1,5 +1,7 @@
-import { closeDialogs } from "@/components/dialog/dialog-helpers";
-import { ensureEl, minmax, rn } from "../utils";
+import { closeDialogs, destroyDialog } from "@/components/dialog/dialog-helpers";
+import { viewport } from "@/components/viewport";
+import { t } from "@/utils/i18n";
+import { ensureEl, findEl, minmax, rn } from "../utils";
 
 function open(): void {
   closeDialogs("#minimap, .stable");
@@ -7,7 +9,7 @@ function open(): void {
   updateMinimap();
 
   $("#minimap").dialog({
-    title: "Minimap",
+    title: t("Minimap"),
     resizable: false,
     width: "auto",
     position: { my: "left bottom", at: "left+10 bottom-25", of: "svg", collision: "fit" },
@@ -19,10 +21,10 @@ function open(): void {
 }
 
 function renderDialog(): void {
-  document.getElementById("minimap")?.remove();
+  destroyDialog("minimap");
   const html = /* html */ `<div id="minimap" class="dialog stable">
       <div id="minimapViewportWrap">
-        <svg id="minimapSurface" preserveAspectRatio="xMidYMid meet" aria-label="Map minimap">
+        <svg id="minimapSurface" preserveAspectRatio="xMidYMid meet" aria-label="${t("Map minimap")}">
           <use id="minimapMapUse" href="#viewbox"></use>
           <rect id="minimapViewport"></rect>
         </svg>
@@ -31,7 +33,7 @@ function renderDialog(): void {
   ensureEl("dialogs").insertAdjacentHTML("beforeend", html);
   ensureEl("minimapSurface").addEventListener("click", minimapClickToPan);
 
-  document.getElementById("minimapStyles")?.remove();
+  findEl("minimapStyles")?.remove();
   const style = document.createElement("style");
   style.id = "minimapStyles";
   style.textContent = /* css */ `
@@ -77,11 +79,11 @@ function renderDialog(): void {
 function closeMinimap(): void {
   $("#minimap").dialog("destroy");
   ensureEl("minimap").remove();
-  document.getElementById("minimapStyles")?.remove();
+  findEl("minimapStyles")?.remove();
 }
 
 function minimapClickToPan(event: MouseEvent): void {
-  const minimap = document.getElementById("minimapSurface") as SVGSVGElement | null;
+  const minimap = findEl<SVGSVGElement>("minimapSurface");
   if (!minimap) return;
 
   const point = minimap.createSVGPoint();
@@ -92,35 +94,35 @@ function minimapClickToPan(event: MouseEvent): void {
   if (!ctm) return;
 
   const svgPoint = point.matrixTransform(ctm.inverse());
-  const x = minmax(svgPoint.x, 0, graphWidth);
-  const y = minmax(svgPoint.y, 0, graphHeight);
-  zoomTo(x, y, scale, 450);
+  const x = minmax(svgPoint.x, 0, options.map.graph.width);
+  const y = minmax(svgPoint.y, 0, options.map.graph.height);
+  zoomTo(x, y, viewport.scale, 450);
 }
 
 function updateMinimap(): void {
-  const minimap = document.getElementById("minimapSurface") as SVGSVGElement | null;
-  const viewport = document.getElementById("minimapViewport") as SVGRectElement | null;
-  const mapUse = document.getElementById("minimapMapUse") as SVGUseElement | null;
-  if (!minimap || !viewport || !mapUse) return;
+  const minimap = findEl<SVGSVGElement>("minimapSurface");
+  const viewportRect = findEl<SVGRectElement>("minimapViewport");
+  const mapUse = findEl<SVGUseElement>("minimapMapUse");
+  if (!minimap || !viewportRect || !mapUse) return;
 
-  minimap.setAttribute("viewBox", `0 0 ${graphWidth} ${graphHeight}`);
+  minimap.setAttribute("viewBox", `0 0 ${options.map.graph.width} ${options.map.graph.height}`);
 
   // #viewbox already has the current transform; invert it in minimap to show the whole world map.
-  const inverseScale = scale ? 1 / scale : 1;
+  const inverseScale = viewport.scale ? 1 / viewport.scale : 1;
   mapUse.setAttribute(
     "transform",
-    `translate(${rn(-viewX * inverseScale, 3)} ${rn(-viewY * inverseScale, 3)}) scale(${rn(inverseScale, 6)})`
+    `translate(${rn(-viewport.x * inverseScale, 3)} ${rn(-viewport.y * inverseScale, 3)}) scale(${rn(inverseScale, 6)})`
   );
 
-  const left = Math.max(0, -viewX * inverseScale);
-  const top = Math.max(0, -viewY * inverseScale);
-  const right = Math.min(graphWidth, left + svgWidth * inverseScale);
-  const bottom = Math.min(graphHeight, top + svgHeight * inverseScale);
+  const left = Math.max(0, -viewport.x * inverseScale);
+  const top = Math.max(0, -viewport.y * inverseScale);
+  const right = Math.min(options.map.graph.width, left + viewport.width * inverseScale);
+  const bottom = Math.min(options.map.graph.height, top + viewport.height * inverseScale);
 
-  viewport.setAttribute("x", String(rn(left, 3)));
-  viewport.setAttribute("y", String(rn(top, 3)));
-  viewport.setAttribute("width", String(rn(Math.max(0, right - left), 3)));
-  viewport.setAttribute("height", String(rn(Math.max(0, bottom - top), 3)));
+  viewportRect.setAttribute("x", String(rn(left, 3)));
+  viewportRect.setAttribute("y", String(rn(top, 3)));
+  viewportRect.setAttribute("width", String(rn(Math.max(0, right - left), 3)));
+  viewportRect.setAttribute("height", String(rn(Math.max(0, bottom - top), 3)));
 }
 
 declare global {

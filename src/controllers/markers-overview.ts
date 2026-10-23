@@ -1,4 +1,4 @@
-import { closeDialogs, confirmationDialog, updateDialog } from "@/components/dialog/dialog-helpers";
+import { closeDialogs, confirmationDialog, destroyDialog, updateDialog } from "@/components/dialog/dialog-helpers";
 import { bindColumnSorting, sortDataByColumns } from "@/components/dialog/sorting";
 import { dialogState } from "@/components/dialog/state";
 import {
@@ -9,25 +9,61 @@ import {
   renderEditorPagination,
   type TableView
 } from "@/components/dialog/table";
+import { Icons } from "@/components/icons";
 import { Layers } from "@/components/layers";
 import { clearMainTip } from "@/components/tooltips";
 import { applyDefaultViewboxEvents } from "@/components/viewbox-events";
 import { Controllers } from "@/controllers";
 import type { Marker } from "@/generators/markers-generator";
+import { Tags } from "@/generators/tags";
 import { setMarkersFilter } from "@/renderers/draw-markers";
-import { highlightElement } from "@/renderers/overlays/highlight";
-import { downloadFile, getFileName, getLatitude, getLongitude } from "@/utils";
+import { highlightArea, highlightElement } from "@/renderers/overlays/highlight";
+import { Csv } from "@/services/io/csv";
+import { escapeHtml, findEl, getLatitude, getLongitude } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
 import { ensureEl } from "../utils";
 
 const dialogId = "markersOverview" as const;
+const CSV_COLUMNS = [
+  "Id",
+  "Type",
+  "Icon",
+  "Name",
+  "Note",
+  "State",
+  "Culture",
+  "X",
+  "Y",
+  "Latitude",
+  "Longitude",
+  "Tags"
+];
 const position = { my: "right top", at: "right-10 top+10", of: "svg", collision: "fit" };
 let filterState: { search: string; state: string; culture: string; type: string };
 
 const columns: EditorColumn<Marker>[] = [
-  { key: "type", label: "Type", width: "12em", permanent: true, sortBy: marker => marker.type, sortType: "alpha" },
-  { key: "pin", label: "Pin", width: "1.5em" },
-  { key: "lock", label: "Lock", width: "1.5em" },
-  { key: "actions", width: "3em", permanent: true, align: "right" }
+  {
+    key: "name",
+    label: t("Marker"),
+    width: "18em",
+    permanent: true,
+    sortBy: marker => marker.name || "",
+    sortType: "alpha"
+  },
+  { key: "type", label: t("Type"), width: "10em", sortBy: marker => marker.type || "", sortType: "alpha" },
+  {
+    key: "tags",
+    label: t("Tags"),
+    width: "10em",
+    hidden: true,
+    sortBy: marker => Tags.format(marker.tags),
+    sortType: "alpha"
+  },
+  { key: "pin", label: t("Pin"), width: "1.4em" },
+  { key: "lock", label: t("Lock"), width: "1.4em" },
+  { key: "edit", width: "1.4em" },
+  { key: "locate", width: "1.4em" },
+  { key: "remove", width: "1.4em", permanent: true }
 ];
 const markersTable = initEditorTable<Marker>({ getData: getFilteredMarkers, onUpdate: renderMarkersPage });
 
@@ -41,59 +77,59 @@ function open(): void {
   markersTable.reset();
 
   $(`#${dialogId}`).dialog({
-    title: "Markers Overview",
+    title: t("Markers Overview"),
     resizable: false,
-    width: "fit-content",
     close: closeMarkersOverview,
     position
   });
 }
 
 function renderDialog(): void {
-  document.getElementById(dialogId)?.remove();
+  destroyDialog(dialogId);
 
   const html = /* html */ `
     <div id="${dialogId}" class="dialog stable editorDialog">
       ${renderEditorHeader({ dialogId, columns })}
       <div id="markersBody" class="table"></div>
-      <div id="markersFilters" style="display:flex; gap:.2em; padding:0.5em 0; flex-direction:column; font-size:smaller">
-        <select id="markersFilterState" data-tip="Show only markers located in the selected state"></select>
-        <select id="markersFilterCulture" data-tip="Show only markers located in the selected culture"></select>
-        <select id="markersFilterType" data-tip="Show only markers of the selected type"></select>
-        <label for="markersSearch" data-tip="Filter by type">Search: <input id="markersSearch" type="search" /></label>
+      <div id="markersFilters" style="width: 100%; display:flex; gap:.2em; padding:0.5em 0; flex-direction:column; font-size:smaller">
+        <select id="markersFilterState" data-tip="${t("Show only markers located in the selected state")}"></select>
+        <select id="markersFilterCulture" data-tip="${t("Show only markers located in the selected culture")}"></select>
+        <select id="markersFilterType" data-tip="${t("Show only markers of the selected type")}"></select>
+        <label for="markersSearch" data-tip="${t("Filter by name, type, or tag")}">${t("Search")}: <input id="markersSearch" type="search" /></label>
       </div>
       <div id="markersFooter" class="totalLine">
-        <div data-tip="Markers number">
-          Markers: <span id="markersFooterNumber">0</span> of <span id="markersFooterTotal">0</span>
+        <div data-tip="${t("Markers number")}">
+          ${t("Markers")}: ${t("{{- shown}} of {{- total}}", { shown: `<span id="markersFooterNumber">0</span>`, total: `<span id="markersFooterTotal">0</span>` })}
         </div>
       </div>
       <div id="markersBottom">
-        <button id="markersOverviewRefresh" data-tip="Refresh the Overview screen" class="icon-cw"></button>
-        <button id="markersRegenerate" data-tip="Regenerate unlocked markers" class="icon-shuffle"></button>
+        <button id="markersOverviewRefresh" data-tip="${t("Refresh")}" class="icon-cw"></button>
+        <button id="markersRegenerate" data-tip="${t("Regenerate unlocked markers")}" class="icon-shuffle"></button>
         <span id="markerTypeSelectorWrapper">
-          <button id="markerTypeSelector" data-tip="Select marker type for newly added markers.">❓</button>
+          <button id="markerTypeSelector" data-tip="${t("Select marker type for newly added markers.")}" style="font-size: 0.7em">❓</button>
           <div id="markerTypeSelectMenu"></div>
         </span>
         <button
           id="markersAddFromOverview"
-          data-tip="Add a new marker. Hold Shift to add multiple"
+          data-tip="${sentences(t("Add"), t("Hold Shift to add multiple"))}"
           class="icon-plus"
         ></button>
-        <button id="markersGenerationConfig" data-tip="Config markers generation options" class="icon-cog"></button>
-        <button id="markersRemoveAll" data-tip="Remove all unlocked markers" class="icon-trash"></button>
-        <button id="markersExport" data-tip="Save markers data as a text file (.csv)" class="icon-download"></button>
+        <button id="markersGenerationConfig" data-tip="${t("Config markers generation options")}" class="icon-cog"></button>
+        <button id="markersRemoveAll" data-tip="${t("Remove all unlocked markers")}" class="icon-trash"></button>
+        <button id="markersExport" data-tip="${t("Save data as a CSV file")}" class="icon-download"></button>
+        <button id="markersImport" data-tip="${t("Upload data from a CSV file")}" class="icon-upload"></button>
       </div>
   </div>`;
   ensureEl("dialogs").insertAdjacentHTML("beforeend", html);
   ensureEl(`${dialogId}Header`).querySelector<HTMLElement>('[data-col="pin"]')!.innerHTML =
-    '<span id="markersInverPin" style="color:#6e5e66" data-tip="Click to invert pin state for all markers" class="icon-pin pointer"></span>';
+    `<span id="markersInverPin" style="color:#6e5e66" data-tip="${t("Click to invert pin state for all markers")}" class="icon-pin pointer"></span>`;
   ensureEl(`${dialogId}Header`).querySelector<HTMLElement>('[data-col="lock"]')!.innerHTML =
-    '<span id="markersInverLock" style="color:#6e5e66" data-tip="Click to invert lock state for all markers" class="icon-lock pointer"></span>';
+    `<span id="markersInverLock" style="color:#6e5e66" data-tip="${t("Click to invert lock state for all markers")}" class="icon-lock pointer"></span>`;
   bindColumnSorting(dialogId, markersTable.reset);
   initColumnVisibility({
     dialogId,
     columns,
-    onUpdate: () => updateDialog(dialogId, { width: "fit-content", position })
+    onUpdate: () => updateDialog(dialogId, { position })
   });
 
   ensureEl("markersBody").addEventListener("click", handleLineClick);
@@ -106,6 +142,7 @@ function renderDialog(): void {
   ensureEl("markersGenerationConfig").addEventListener("click", () => void Controllers.MarkersSettings.open());
   ensureEl("markersRemoveAll").addEventListener("click", triggerRemoveAll);
   ensureEl("markersExport").addEventListener("click", exportMarkers);
+  ensureEl("markersImport").addEventListener("click", () => Csv.pick(uploadMarkersCsv));
   ensureEl("markersSearch").addEventListener("input", onFilterChange);
   ensureEl("markersFilterState").addEventListener("change", onFilterChange);
   ensureEl("markersFilterCulture").addEventListener("change", onFilterChange);
@@ -137,7 +174,7 @@ function populateFilters(): void {
     .map(state => ({ value: String(state.i), label: state.fullName || state.name }));
   filterState.state = fillSelect(
     ensureEl<HTMLSelectElement>("markersFilterState"),
-    "All states",
+    t("All states"),
     states,
     filterState.state
   );
@@ -147,7 +184,7 @@ function populateFilters(): void {
     .map(culture => ({ value: String(culture.i), label: culture.name }));
   filterState.culture = fillSelect(
     ensureEl<HTMLSelectElement>("markersFilterCulture"),
-    "All cultures",
+    t("All cultures"),
     cultures,
     filterState.culture
   );
@@ -155,15 +192,20 @@ function populateFilters(): void {
   const types = [...new Set(pack.markers.map(marker => marker.type))]
     .sort()
     .map(type => ({ value: type, label: type }));
-  filterState.type = fillSelect(ensureEl<HTMLSelectElement>("markersFilterType"), "All types", types, filterState.type);
+  filterState.type = fillSelect(
+    ensureEl<HTMLSelectElement>("markersFilterType"),
+    t("All types"),
+    types,
+    filterState.type
+  );
 
   ensureEl<HTMLInputElement>("markersSearch").value = filterState.search;
   dialogState.set(dialogId, "filters", filterState);
 }
 
 function closeMarkersOverview(): void {
-  document.getElementById("addMarker")?.classList.remove("pressed");
-  document.getElementById("markerAdd")?.classList.remove("pressed");
+  findEl("addMarker")?.classList.remove("pressed");
+  findEl("markerAdd")?.classList.remove("pressed");
   applyDefaultViewboxEvents();
   clearMainTip();
 
@@ -182,19 +224,23 @@ function populateMarkerTypeMenu(): void {
   const menu = ensureEl("markerTypeSelectMenu");
   menu.innerHTML = "";
 
-  const types = [{ type: "empty", icon: "❓" }, ...Markers.getConfig()];
+  const types = [{ type: "empty", icon: Icons.glyph("❓") }, ...Markers.getConfig()];
   types.forEach(({ icon, type }) => {
     const option = document.createElement("button");
-    option.textContent = `${icon} ${type}`;
+    option.innerHTML = `${iconHtml(icon)} ${type}`;
     menu.appendChild(option);
 
     option.addEventListener("click", () => {
-      ensureEl("markerTypeSelector").textContent = icon;
+      ensureEl("markerTypeSelector").innerHTML = iconHtml(icon);
       ensureEl<HTMLInputElement>("addedMarkerType").value = type;
       changeMarkerType();
       toggleMarkerTypeMenu();
     });
   });
+}
+
+function iconHtml(icon: string): string {
+  return `<span style="display: inline-flex; font-size: 1.2em; vertical-align: middle">${Icons.html(icon)}</span>`;
 }
 
 function handleLineClick(ev: MouseEvent): void {
@@ -213,10 +259,7 @@ function getFilteredMarkers(): Marker[] {
 
   const searchText = filterState.search.toLowerCase().trim();
   if (searchText) {
-    markers = markers.filter(marker => {
-      const type = (marker.type || "").toLowerCase();
-      return type.includes(searchText);
-    });
+    markers = markers.filter(marker => Tags.matches(searchText, marker.name, marker.tags, [marker.type]));
   }
 
   if (filterState.state !== "") {
@@ -251,38 +294,55 @@ function onFilterChange(): void {
 
 function renderMarkersPage(view: TableView<Marker>): void {
   const lines = view.rows
-    .map(({ i, type, icon, pinned, lock }) => {
+    .map(({ i, type, icon, iconFill, iconStroke, name, pinned, lock, tags }) => {
       return /* html */ `
-        <div class="states" data-id=${i} data-type="${type}">
+        <div class="states" data-id=${i} data-name="${escapeHtml(name || "")}" data-type="${type}">
+          <div data-col="name" data-tip="${t("Marker name")}">${escapeHtml(name || "")}</div>
           <div data-col="type">
-            ${
-              icon.startsWith("http") || icon.startsWith("data:image")
-                ? `<img src="${icon}" data-tip="Marker icon" style="width:1.2em; height:1.2em; vertical-align: middle;">`
-                : `<span data-tip="Marker icon" style="width:1.2em">${icon}</span>`
-            }
-            <span data-tip="Marker type">${type}</span>
+            <span data-tip="${t("Marker icon")}" style="display: inline-flex; width: 1.2em">${Icons.html(icon, { fill: iconFill, stroke: iconStroke })}</span>
+            <span data-tip="${t("Marker type")}">${type}</span>
           </div>
-          <span data-col="pin" data-tip="Pin marker (display only pinned markers)" class="icon-pin ${
+          <div data-col="tags">
+            <input
+              data-tip="${t("Tags (comma-separated)")}"
+              class="markerTags"
+              value="${Tags.format(tags)}"
+              placeholder="${t("Tags")}"
+              autocorrect="off"
+              spellcheck="false"
+            />
+          </div>
+          <span data-col="pin" data-tip="${t("Pin marker (display only pinned markers)")}" class="icon-pin ${
             pinned ? "" : "inactive"
-          }" pointer"></span>
+          } pointer"></span>
           <span data-col="lock" class="locks pointer ${
             lock ? "icon-lock" : "icon-lock-open inactive"
           }" onmouseover="showElementLockTip(event)"></span>
-          <div data-col="actions">
-            <span data-tip="Edit marker" class="icon-pencil"></span>
-            <span data-tip="Locate the marker" class="icon-target"></span>
-            <span data-tip="Remove marker" class="icon-trash-empty"></span>
-          </div>
+          <span data-col="edit" data-tip="${t("Edit Marker")}" class="icon-pencil"></span>
+          <span data-col="locate" data-tip="${t("Locate on map")}" class="icon-target"></span>
+          <span data-col="remove" data-tip="${t("Remove")}" class="icon-trash-empty"></span>
         </div>`;
     })
     .join("");
 
   const body = ensureEl("markersBody");
   body.innerHTML = lines;
-  ensureEl("markersFooterNumber").innerText = String(view.all.length);
-  ensureEl("markersFooterTotal").innerText = String(pack.markers.length);
+  body.querySelectorAll("input.markerTags").forEach(el => void el.addEventListener("change", markerChangeTags));
+  ensureEl("markersFooterNumber").textContent = String(view.all.length);
+  ensureEl("markersFooterTotal").textContent = String(pack.markers.length);
   renderEditorPagination(ensureEl("markersFooter"), view, markersTable.goto);
-  updateDialog(dialogId, { width: "fit-content", position });
+  updateDialog(dialogId, { position });
+}
+
+function markerChangeTags(this: HTMLInputElement): void {
+  const line = this.closest(".states") as HTMLElement;
+  const markerId = Number(line.dataset.id);
+  const marker = pack.markers.find(m => m.i === markerId);
+  if (!marker) return;
+
+  Tags.set(marker, this.value);
+  this.value = Tags.format(marker.tags);
+  if (filterState.search) markersTable.refresh();
 }
 
 // last filter set pushed to the renderer, so we only redraw the map when the visible set actually changes
@@ -300,23 +360,13 @@ function syncMapToFilter(filteredMarkers: Marker[], anyFilterActive: boolean): v
 }
 
 function invertPin(): void {
-  let anyPinned = false;
-
-  pack.markers.forEach(marker => {
-    const pinned = !marker.pinned;
-    if (pinned) {
-      marker.pinned = true;
-      anyPinned = true;
-    } else delete marker.pinned;
-  });
-
-  ensureEl("markers").setAttribute("pinned", anyPinned ? "1" : "");
+  for (const marker of pack.markers) Markers.setPinned(marker.i, !marker.pinned);
   Layers.draw("markers");
   markersTable.refresh();
 }
 
 function invertLock(): void {
-  pack.markers = pack.markers.map(marker => ({ ...marker, lock: !marker.lock }));
+  for (const marker of pack.markers) Markers.setLocked(marker.i, !marker.lock);
   markersTable.refresh();
 }
 
@@ -330,24 +380,21 @@ function openEditor(i: number): void {
 }
 
 function highlightMarker(i: number): void {
-  const marker = document.getElementById(`marker${i}`);
+  const marker = pack.markers.find(marker => marker.i === i);
   if (!marker) return;
-  highlightElement(marker, 2);
+
+  const { x, y } = marker;
+  zoomTo(x, y, 8, 2000);
+  const el = findEl(`marker${i}`);
+  if (el) highlightElement(el);
+  else highlightArea({ x: x - 15, y: y - 15, width: 30, height: 30 });
 }
 
 function pinMarker(el: HTMLElement, i: number): void {
   const marker = pack.markers.find(marker => marker.i === i);
   if (!marker) return;
 
-  const markerGroup = ensureEl("markers");
-  if (marker.pinned) {
-    delete marker.pinned;
-    const anyPinned = pack.markers.some(marker => marker.pinned);
-    if (!anyPinned) markerGroup.removeAttribute("pinned");
-  } else {
-    marker.pinned = true;
-    markerGroup.setAttribute("pinned", "1");
-  }
+  Markers.setPinned(i, !marker.pinned);
   el.classList.toggle("inactive");
   Layers.draw("markers");
 }
@@ -356,20 +403,15 @@ function toggleLockStatus(el: HTMLElement, i: number): void {
   const marker = pack.markers.find(marker => marker.i === i);
   if (!marker) return;
 
-  if (marker.lock) {
-    delete marker.lock;
-    el.className = "locks pointer icon-lock-open inactive";
-  } else {
-    marker.lock = true;
-    el.className = "locks pointer icon-lock";
-  }
+  Markers.setLocked(i, !marker.lock);
+  el.className = marker.lock ? "locks pointer icon-lock" : "locks pointer icon-lock-open inactive";
 }
 
 function triggerRemove(i: number): void {
   confirmationDialog({
-    title: "Remove marker",
-    message: "Are you sure you want to remove this marker? The action cannot be reverted",
-    confirm: "Remove",
+    title: t("Remove"),
+    message: sentences(t("Are you sure you want to remove this marker?"), t("This action cannot be reverted")),
+    confirm: t("Remove"),
     onConfirm: () => removeMarker(i)
   });
 }
@@ -387,17 +429,19 @@ function changeMarkerType(): void {
 }
 
 function removeMarker(i: number): void {
-  notes = notes.filter(note => note.id !== `marker${i}`);
   pack.markers = pack.markers.filter(marker => marker.i !== i);
-  document.getElementById(`marker${i}`)?.remove();
+  findEl(`marker${i}`)?.remove();
   markersTable.refresh();
 }
 
 function triggerRemoveAll(): void {
   confirmationDialog({
-    title: "Remove all markers",
-    message: "Are you sure you want to remove all non-locked markers? The action cannot be reverted",
-    confirm: "Remove all",
+    title: t("Remove all markers"),
+    message: sentences(
+      t("Are you sure you want to remove all non-locked markers?"),
+      t("This action cannot be reverted")
+    ),
+    confirm: t("Remove all"),
     onConfirm: removeAllMarkers
   });
 }
@@ -406,9 +450,7 @@ function removeAllMarkers(): void {
   pack.markers = pack.markers.filter(({ i, lock }) => {
     if (lock) return true;
 
-    const id = `marker${i}`;
-    document.getElementById(id)?.remove();
-    notes = notes.filter(note => note.id !== id);
+    findEl(`marker${i}`)?.remove();
     return false;
   });
 
@@ -416,30 +458,47 @@ function removeAllMarkers(): void {
 }
 
 function exportMarkers(): void {
-  const headers = "Id,Type,Icon,Name,Note,State,Culture,X,Y,Latitude,Longitude\n";
-  const quote = (s: string) => `"${s.replaceAll('"', '""')}"`;
-
-  const body = pack.markers.map(marker => {
+  const { coordinates } = options.map.geography;
+  const rows = pack.markers.map(marker => {
     const { i, type, icon, x, y, cell } = marker;
-
-    const note = notes.find(note => note.id === `marker${i}`);
-    const name = note ? quote(note.name) : "Unknown";
-    const legend = note ? quote(note.legend) : "";
-
     const state = pack.states[pack.cells.state[cell]];
     const culture = pack.cultures[pack.cells.culture[cell]];
-    const stateName = state ? quote(state.fullName || state.name) : "";
-    const cultureName = culture ? quote(culture.name) : "";
-
-    const lat = getLatitude(y, mapCoordinates, graphHeight, 2);
-    const lon = getLongitude(x, mapCoordinates, graphWidth, 2);
-
-    return [i, type, icon, name, legend, stateName, cultureName, x, y, lat, lon].join(",");
+    return [
+      i,
+      type,
+      Icons.glyphText(icon) ?? icon,
+      marker.name,
+      marker.note,
+      state ? state.fullName || state.name : "",
+      culture?.name,
+      x,
+      y,
+      getLatitude(y, coordinates, options.map.graph.height, 2),
+      getLongitude(x, coordinates, options.map.graph.width, 2),
+      Tags.format(marker.tags)
+    ];
   });
-
-  const data = headers + body.join("\n");
-  const fileName = `${getFileName("Markers")}.csv`;
-  downloadFile(data, fileName);
+  Csv.download("Markers", CSV_COLUMNS, rows);
 }
 
-export const MarkersOverview = { open };
+/** Update existing markers from a CSV in the export format; notes are uploaded in the Notes editor */
+async function uploadMarkersCsv(text: string): Promise<void> {
+  const find = (id: number) => pack.markers.find(marker => marker.i === id);
+  const updated = await Controllers.CsvUpload.update(
+    text,
+    CSV_COLUMNS,
+    { find, text: ["Type", "Name", "Tags"] },
+    (id, row) => {
+      const marker = find(id)!;
+      row.apply("Name", name => Markers.rename(marker.i, name), marker.name);
+      row.apply("Type", type => Markers.setType(marker.i, type), marker.type);
+      row.assign("Tags", tags => Tags.set(marker, tags), Tags.format(marker.tags));
+    }
+  );
+  if (!updated) return;
+
+  Layers.draw("markers");
+  markersTable.refresh();
+}
+
+export const MarkersOverview = { open, exportCsv: exportMarkers };

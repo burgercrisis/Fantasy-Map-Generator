@@ -1,4 +1,6 @@
 import { quadtree, sum } from "d3";
+import { Icons } from "@/components/icons";
+import { requireName, requireOneOf } from "@/utils/validationUtils";
 import { findAllInQuadtree, gauss, minmax, nth, ra, rand, rn, si } from "../utils";
 import type { State } from "./states-generator";
 
@@ -28,6 +30,9 @@ export interface Regiment {
   survivors?: Record<string, number>; // battle-screen: per-unit survivors while a battle is in progress
   px?: number; // battle-screen: position before being moved into a battle, restored afterward
   py?: number;
+  note?: string;
+  hidden?: boolean;
+  tags?: string[];
 }
 
 interface Platoon {
@@ -52,7 +57,6 @@ class MilitaryModule {
     const { cells, states } = pack;
     const { p } = cells;
     const valid = states.filter(s => s.i && !s.removed); // valid states
-    if (!options.military) options.military = this.getDefaultOptions();
 
     const expn = sum(valid.map(s => s.expansionism)); // total expansion
     const area = sum(valid.map(s => s.area)); // total area
@@ -222,14 +226,14 @@ class MilitaryModule {
       s.temp.platoons = [];
 
       // apply overall state modifiers for unit types based on state features
-      for (const unit of options.military) {
+      for (const unit of options.map.military.units) {
         if (!stateModifier[unit.type as keyof typeof stateModifier]) continue;
 
         let modifier =
           stateModifier[unit.type as keyof typeof stateModifier][
             s.type as keyof (typeof stateModifier)[keyof typeof stateModifier]
           ] || 1;
-        if (unit.type === "mounted" && s.formName!.includes("Horde")) modifier *= 2;
+        if (unit.type === "mounted" && s.formName?.includes("Horde")) modifier *= 2;
         else if (unit.type === "naval" && s.form === "Republic") modifier *= 1.2;
         s.temp[unit.name] = modifier * s.alert;
       }
@@ -270,7 +274,7 @@ class MilitaryModule {
         modifier = stateObj.type === "Naval" ? modifier / 1.2 : modifier / 1.8; // different landmass
       const type = getType(i);
 
-      for (const unit of options.military) {
+      for (const unit of options.map.military.units) {
         const perc = +unit.rural;
         if (Number.isNaN(perc) || perc <= 0 || !stateObj.temp[unit.name]) continue;
         if (!passUnitLimits(unit, biome, state, culture, religion)) continue;
@@ -283,7 +287,7 @@ class MilitaryModule {
                 unit.type as keyof (typeof cellTypeModifier)[keyof typeof cellTypeModifier]
               ]; // cell specific modifier
         const army = modifier * perc * cellTypeMod; // rural cell army
-        const total = rn(army * stateObj.temp[unit.name] * populationRate); // total troops
+        const total = rn(army * stateObj.temp[unit.name] * options.map.units.population.scale); // total troops
         if (!total) continue;
 
         let [x, y] = p[i];
@@ -320,14 +324,14 @@ class MilitaryModule {
       const religion = cells.religion[b.cell];
 
       const stateObj = states[state];
-      let m = (b.population * urbanization) / 100; // basic urban army in percentages
+      let m = (b.population * options.map.units.population.urbanization.rate) / 100; // basic urban army in percentages
       if (b.capital) m *= 1.2; // capital has household troops
       if (culture !== stateObj.culture) m = stateObj.form === "Union" ? m / 1.2 : m / 2; // non-dominant culture
       if (religion !== cells.religion[stateObj.center]) m = stateObj.form === "Theocracy" ? m / 2.2 : m / 1.4; // non-dominant religion
       if (cells.f[b.cell] !== cells.f[stateObj.center]) m = stateObj.type === "Naval" ? m / 1.2 : m / 1.8; // different landmass
       const type = getType(b.cell);
 
-      for (const unit of options.military) {
+      for (const unit of options.map.military.units) {
         const perc = +unit.urban;
         if (Number.isNaN(perc) || perc <= 0 || !stateObj.temp[unit.name]) continue;
         if (!passUnitLimits(unit, biome, state, culture!, religion)) continue;
@@ -340,7 +344,7 @@ class MilitaryModule {
                 unit.type as keyof (typeof burgTypeModifier)[keyof typeof burgTypeModifier]
               ]; // cell specific modifier
         const army = m * perc * mod; // urban cell army
-        const total = rn(army * stateObj.temp[unit.name] * populationRate); // total troops
+        const total = rn(army * stateObj.temp[unit.name] * options.map.units.population.scale); // total troops
         if (!total) continue;
 
         let [x, y] = p[b.cell];
@@ -367,7 +371,7 @@ class MilitaryModule {
       }
     }
 
-    const expected = 3 * populationRate; // expected regiment size
+    const expected = 3 * options.map.units.population.scale; // expected regiment size
     const mergeable = (n0: { s: number; u: string }, n1: { s: number; u: string }) => (!n0.s && !n1.s) || n0.u === n1.u; // check if regiments can be merged
     const createRegiments = (nodes: Platoon[], s: State): Regiment[] => {
       if (!nodes.length) return [];
@@ -433,7 +437,8 @@ class MilitaryModule {
             n: r.n,
             name: "",
             icon: "",
-            state: s.i
+            state: s.i,
+            tags: []
           };
         });
 
@@ -447,11 +452,6 @@ class MilitaryModule {
       return regiments as Regiment[];
     };
 
-    // remove all existing regiment notes before regenerating
-    for (let i = notes.length - 1; i >= 0; i--) {
-      if (notes[i].id.startsWith("regiment")) notes.splice(i, 1);
-    }
-
     // get regiments for each state
     valid.forEach(s => {
       s.military = createRegiments(s.temp.platoons, s);
@@ -460,7 +460,7 @@ class MilitaryModule {
   }
 
   getDefaultOptions() {
-    return [
+    const units = [
       {
         icon: "⚔️",
         name: "infantry",
@@ -512,6 +512,7 @@ class MilitaryModule {
         separate: 1
       }
     ];
+    return units.map(unit => ({ ...unit, icon: Icons.glyph(unit.icon) }));
   }
 
   getName(r: Regiment, regiments: Regiment[]) {
@@ -549,39 +550,203 @@ class MilitaryModule {
           .join("\r\n")
       : null;
     const troops = composition
-      ? `\r\n\r\nRegiment composition in ${options.year} ${options.eraShort}:\r\n${composition}.`
+      ? `\r\n\r\nRegiment composition in ${options.map.lore.calendar.year} ${options.map.lore.calendar.eraShort}:\r\n${composition}.`
       : "";
 
     const campaign = s.campaigns ? ra(s.campaigns) : null;
     const year = campaign
-      ? rand(campaign.start, campaign.end || options.year)
-      : gauss(options.year - 100, 150, 1, options.year - 6);
+      ? rand(campaign.start, campaign.end || options.map.lore.calendar.year)
+      : gauss(options.map.lore.calendar.year - 100, 150, 1, options.map.lore.calendar.year - 6);
     const conflict = campaign ? ` during the ${campaign.name}` : "";
-    const legend = `Regiment was formed in ${year} ${options.era}${conflict}. ${station}${troops}`;
-    const id = `regiment${s.i}-${r.i}`;
-    const existing = notes.find(n => n.id === id);
-    if (existing) {
-      existing.name = r.name;
-      existing.legend = legend;
-    } else {
-      notes.push({ id, name: r.name, legend });
+    r.note = `Regiment was formed in ${year} ${options.map.lore.calendar.era}${conflict}. ${station}${troops}`;
+  }
+
+  /** Rename a regiment, addressed by its state and its own id */
+  rename(stateId: number, regimentId: number, name: string): void {
+    this.living(stateId, regimentId).name = requireName(name);
+  }
+
+  /** Disband a regiment, addressed by its state and its own id */
+  remove(stateId: number, regimentId: number): void {
+    const regiment = this.living(stateId, regimentId);
+    const military = pack.states[stateId].military!;
+    military.splice(military.indexOf(regiment), 1);
+  }
+
+  /** Raise an empty regiment of a state at a map point, a fleet on water; returns its id */
+  add(stateId: number, x: number, y: number): number {
+    const state = pack.states[stateId];
+    if (!stateId || !state || state.removed) throw new Error(`State ${stateId} does not exist`);
+    const cell = Pack.requireCell(x, y);
+    const [cx, cy] = pack.cells.p[cell];
+    state.military ??= [];
+    const military = state.military;
+    const i = military.length ? Math.max(...military.map(regiment => regiment.i)) + 1 : 0;
+    const regiment: Regiment = {
+      a: 0,
+      cell,
+      i,
+      n: +(pack.cells.h[cell] < 20),
+      u: {},
+      x: cx,
+      y: cy,
+      bx: cx,
+      by: cy,
+      state: stateId,
+      icon: Icons.glyph("🛡️"),
+      name: "",
+      t: 0,
+      s: 0,
+      type: "",
+      tags: []
+    };
+    regiment.name = this.getName(regiment, military);
+    military.push(regiment);
+    this.generateNote(regiment, state);
+    return i;
+  }
+
+  /** Set a regiment's troops by unit name, such as { infantry: 800, archers: 200 }; the total follows */
+  setUnits(stateId: number, regimentId: number, units: Record<string, number>): void {
+    const regiment = this.living(stateId, regimentId);
+    if (typeof units !== "object" || units === null || Array.isArray(units))
+      throw new Error("Units are an object of unit names and troop numbers");
+    const names = options.map.military.units.map(({ name }) => name);
+    for (const [name, count] of Object.entries(units)) {
+      if (!(name in regiment.u)) requireOneOf(name, names, "The unit"); // troops of a unit type since removed stay
+      if (!Number.isInteger(count) || count < 0)
+        throw new Error(`The number of ${name} must be a non-negative integer`);
     }
+    regiment.u = { ...units };
+    regiment.a = sum(Object.values(regiment.u));
+  }
+
+  /** Set a state's war alert, the modifier of its forces (generated from 0.1 to 5): every regiment's troops scale with it */
+  setAlert(stateId: number, alert: number): void {
+    const state = pack.states[stateId];
+    if (!stateId || !state || state.removed) throw new Error(`State ${stateId} does not exist`);
+    if (typeof alert !== "number" || !(alert >= 0 && Number.isFinite(alert)))
+      throw new Error("The alert must be a non-negative number");
+    const previous = state.alert ?? 1;
+    state.alert = rn(alert, 2);
+    const change = previous ? state.alert / previous : 0; // the stored value, so the next change divides by it
+    for (const regiment of state.military ?? []) {
+      for (const unit of Object.keys(regiment.u)) regiment.u[unit] = rn(regiment.u[unit] * change);
+      regiment.a = sum(Object.values(regiment.u));
+    }
+  }
+
+  /** Make a regiment a fleet or a land regiment */
+  setNaval(stateId: number, regimentId: number, naval: boolean): void {
+    this.living(stateId, regimentId).n = naval ? 1 : 0;
+  }
+
+  /** Set a regiment's icon: an emoji or an icon id */
+  setIcon(stateId: number, regimentId: number, icon: string): void {
+    this.living(stateId, regimentId).icon = Icons.reference(icon);
+  }
+
+  /** Move a regiment to a map point; its base stays */
+  move(stateId: number, regimentId: number, x: number, y: number): void {
+    const regiment = this.living(stateId, regimentId);
+    Pack.requireCell(x, y);
+    regiment.x = rn(x, 2);
+    regiment.y = rn(y, 2);
+  }
+
+  /** Turn a regiment to an angle in degrees, from -180 to 180 */
+  rotate(stateId: number, regimentId: number, angle: number): void {
+    const regiment = this.living(stateId, regimentId);
+    if (typeof angle !== "number" || !(angle >= -180 && angle <= 180))
+      throw new Error("The angle must be a number from -180 to 180");
+    regiment.angle = rn(angle, 2);
+  }
+
+  /** Move a regiment's base, where it is stationed, to a map point */
+  setBase(stateId: number, regimentId: number, x: number, y: number): void {
+    const regiment = this.living(stateId, regimentId);
+    Pack.requireCell(x, y);
+    regiment.bx = rn(x, 2);
+    regiment.by = rn(y, 2);
+  }
+
+  /** Split a regiment in two halves; the new one stands just below. Returns its id */
+  split(stateId: number, regimentId: number): number {
+    const regiment = this.living(stateId, regimentId);
+    const state = pack.states[stateId];
+    const military = state.military!;
+    const half = Object.fromEntries(Object.entries(regiment.u).map(([unit, count]) => [unit, Math.floor(count / 2)]));
+    const a = sum(Object.values(half));
+    if (!a) throw new Error(`Regiment ${stateId}-${regimentId} has too few troops to split`);
+    regiment.u = Object.fromEntries(Object.entries(regiment.u).map(([unit, count]) => [unit, Math.ceil(count / 2)]));
+    regiment.a = sum(Object.values(regiment.u));
+
+    const shift = styles.military.options.boxSize * 2;
+    let y = regiment.y + shift;
+    while (military.some(other => other.x === regiment.x && other.y === y)) y += shift;
+    const i = Math.max(...military.map(other => other.i)) + 1;
+    const added: Regiment = {
+      a,
+      cell: regiment.cell,
+      i,
+      n: regiment.n,
+      u: half,
+      x: regiment.x,
+      y,
+      bx: regiment.bx,
+      by: regiment.by,
+      state: stateId,
+      icon: regiment.icon,
+      name: "",
+      t: 0,
+      s: 0,
+      type: regiment.type,
+      tags: [...(regiment.tags ?? [])]
+    };
+    added.name = this.getName(added, military);
+    military.push(added);
+    this.generateNote(added, state);
+    return i;
+  }
+
+  /** Attach a regiment to another, of any state: its troops and note join the target and it is disbanded */
+  attach(stateId: number, regimentId: number, targetStateId: number, targetId: number): void {
+    const regiment = this.living(stateId, regimentId);
+    const target = this.living(targetStateId, targetId);
+    if (regiment === target) throw new Error("A regiment cannot attach to itself");
+    for (const [unit, count] of Object.entries(regiment.u)) if (count) target.u[unit] = (target.u[unit] || 0) + count;
+    target.a = sum(Object.values(target.u));
+
+    const { year, eraShort } = options.map.lore.calendar;
+    const record = regiment.note ? ` Its record: ${regiment.note}` : "";
+    const merger = `${regiment.name} merged into the regiment (${year} ${eraShort}).${record}`;
+    target.note = target.note ? `${target.note}<br><br>${merger}` : merger;
+    this.remove(stateId, regimentId);
+  }
+
+  private living(stateId: number, regimentId: number): Regiment {
+    const state = pack.states[stateId];
+    const regiment = state && !state.removed ? state.military?.find(({ i }) => i === regimentId) : undefined;
+    if (!regiment) throw new Error(`Regiment ${stateId}-${regimentId} does not exist`);
+    return regiment;
   }
 
   // get default regiment emblem
   getEmblem(r: Regiment) {
-    if (!r.n && !Object.values(r.u).length) return "🔰"; // "Newbie" regiment without troops
+    if (!r.n && !Object.values(r.u).length) return Icons.glyph("🔰"); // "Newbie" regiment without troops
     if (
       !r.n &&
       pack.states[r.state].form === "Monarchy" &&
       pack.cells.burg[r.cell] &&
       pack.burgs[pack.cells.burg[r.cell]].capital
     )
-      return "👑"; // "Royal" regiment based in capital
+      return Icons.glyph("👑"); // "Royal" regiment based in capital
     const mainUnit = Object.entries(r.u).sort((a, b) => b[1] - a[1])[0][0]; // unit with more troops in regiment
-    const unit = options.military.find((u: { name: string; icon: string }) => u.name === mainUnit);
-    return unit ? unit.icon : "⚔️";
+    const unit = options.map.military.units.find((u: { name: string; icon: string }) => u.name === mainUnit);
+    return unit ? unit.icon : Icons.glyph("⚔️");
   }
 }
 
-window.Military = new MilitaryModule();
+// biome-ignore lint/suspicious/noRedeclare: legacy seam
+export const Military = new MilitaryModule();
+window.Military = Military;

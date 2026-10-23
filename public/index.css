@@ -4,17 +4,7 @@
   --sans-serif: Helvetica, Arial, sans-serif;
 }
 
-/* hide Google translate header */
-body > .skiptranslate {
-  display: none;
-}
-
-/* hide Google translate in-progress widget */
-body > .skiptranslate + div {
-  display: none;
-}
-
-/* make translated text wrapper non-blocking */
+/* make browser translation wrappers non-blocking */
 font {
   pointer-events: none;
 }
@@ -92,11 +82,6 @@ iframe {
   cursor: pointer;
 }
 
-#pickerContainer {
-  position: absolute;
-  z-index: 100;
-}
-
 input,
 button,
 select,
@@ -138,7 +123,6 @@ a {
 }
 
 #lakes,
-#coastline,
 #armies,
 #ice,
 #emblems,
@@ -150,7 +134,7 @@ a {
 }
 
 #markets > g > path,
-#markets > g > text {
+#markets > g > use {
   user-select: none;
   pointer-events: none;
 }
@@ -203,8 +187,10 @@ t,
   fill-opacity: 1;
 }
 
-#armies text.regimentIcon {
-  font-size: 0.8em;
+#armies use.regimentIcon {
+  pointer-events: none;
+  fill: #fff;
+  text-shadow: 0 0 4px #000;
 }
 
 #statesHalo {
@@ -225,7 +211,15 @@ t,
 #statesBody,
 #provincesBody,
 #relig,
+#biomes,
 #cults {
+  mask: url(#land);
+}
+
+#populationCells {
+  stroke-dasharray: none;
+  stroke-linejoin: round;
+  fill-rule: evenodd;
   mask: url(#land);
 }
 
@@ -241,11 +235,15 @@ t,
   fill-rule: nonzero;
 }
 
-#anchors {
+#burgIcons [data-group="anchors"] {
   pointer-events: none;
 }
 
-#terrain,
+#terrain {
+  fill-rule: nonzero;
+  cursor: pointer;
+}
+
 #burgIcons {
   cursor: pointer;
 }
@@ -263,6 +261,13 @@ t,
   cursor: pointer;
 }
 
+#journeys {
+  fill: none;
+  cursor: pointer;
+  marker-start: url(#journey-start);
+  marker-end: url(#journey-arrow);
+}
+
 i.icon-lock {
   cursor: pointer;
 }
@@ -274,6 +279,8 @@ i.icon-lock {
 #labels {
   text-anchor: middle;
   dominant-baseline: central;
+  paint-order: stroke; /* a label stroke is a halo under the glyphs, never an outline over them */
+  stroke-linejoin: round;
   cursor: pointer;
 }
 
@@ -433,6 +440,7 @@ button.options {
   background-color: var(--bg-main);
   font-weight: bold;
   border: none;
+  white-space: nowrap;
   transition: 0.2s;
 }
 
@@ -550,6 +558,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 #options output {
   text-align: right;
   font-size: smaller;
+  white-space: nowrap;
 }
 
 #options input[type="number"] {
@@ -637,6 +646,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 #loadGoogleTranslateButton {
   font-size: smaller;
   padding: 0.4em 0.5em;
+  white-space: normal;
 }
 
 #options input[type="color"] {
@@ -655,12 +665,9 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   transform: translate(0px, 1px);
 }
 
-#styleSelectFont > option {
-  font-size: 2em;
-}
-
 #sticked {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
 }
@@ -669,6 +676,7 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   background-color: transparent;
   font-weight: bold;
   border: 0;
+  padding: 1px 2px;
 }
 
 #sticked button:hover {
@@ -749,6 +757,8 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 #toolsContent button {
   padding: 0.35em 0;
   margin: 0.16em 0.12em;
+  white-space: normal;
+  hyphens: auto;
 }
 
 #mapLayers {
@@ -758,9 +768,12 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   user-select: none; /* the items are re-rendered, so jQuery disableSelection cannot hold */
 }
 
-#mapFilters > button {
-  width: 23%;
-  padding: 4px 0;
+#mapLayers li {
+  text-transform: none; /* labels are cased by their language */
+  box-sizing: border-box;
+  width: calc(100% / 3 - 0.45em);
+  margin-inline: 0.2em;
+  padding-inline: 0.15em;
 }
 
 #viewMode > button {
@@ -801,10 +814,6 @@ fieldset {
 
 .tabcontent button:hover {
   background-color: var(--header);
-}
-
-#optionsContainer span {
-  cursor: default;
 }
 
 #cellInfo {
@@ -853,38 +862,6 @@ fieldset {
   stroke-width: 5px;
 }
 
-#styleContent table {
-  border-spacing: 0;
-  margin-left: 0.2em;
-  width: 100%;
-}
-
-#styleContent table tr {
-  width: 100%;
-  display: table;
-}
-
-#styleContent table td:nth-of-type(1) {
-  width: 34.2%;
-}
-
-#styleElements tbody,
-#styleElements caption {
-  display: none;
-}
-
-#styleIsOff {
-  color: darkred;
-  font-weight: 700;
-  text-align: left;
-}
-
-#styleElements .whiteButton {
-  padding: 0 0.8em;
-  border: 0;
-  background-color: #ffffff !important;
-}
-
 .overflow-table {
   width: 100%;
   text-align: center;
@@ -920,7 +897,6 @@ fieldset {
   outline: 2px solid var(--dark-solid);
   outline-offset: -1px;
   z-index: 1;
-  cursor: pointer;
 }
 
 .matrix-table > table td.Ally {
@@ -963,7 +939,6 @@ fieldset {
 
 .matrix-table > table td.x {
   background-color: #d4ca94;
-  cursor: initial;
 }
 
 #sizeOutput {
@@ -1560,6 +1535,25 @@ div.states .biomeHabitability {
   -moz-appearance: textfield;
 }
 
+div.states .biomeRelief {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15em;
+  font-size: 1.2em;
+}
+
+div.states .biomeRelief svg {
+  width: 1em;
+  height: 1em;
+  overflow: visible;
+  pointer-events: none;
+}
+
+div.states .biomeRelief small {
+  font-size: 0.6em;
+  opacity: 0.7;
+}
+
 div.states:hover .hiddenIcon {
   visibility: visible !important;
 }
@@ -1683,10 +1677,13 @@ div.states span.inactive:hover {
 #riverBody select,
 #routeBody div.label,
 #lakeBody div.label,
-#lakeBody input,
-#lakeBody select {
+#lakeBody input {
   display: inline-block;
   width: 7em;
+}
+
+#lakeBody select {
+  min-width: 7em;
 }
 
 #routeBody input,
@@ -1772,122 +1769,10 @@ div.states > div.biomeArea {
   width: 5em;
 }
 
-#emblemBody > div {
-  padding: 1px 3px;
-  transition: all 0.3s ease-out;
-}
-
-#emblemBody > div.active {
-  background-color: #54ca7728;
-}
-
-#emblemArmiger {
-  text-align: center;
-  display: block;
-}
-
-#emblemBody .label {
-  width: 6em;
-  display: inline-block;
-}
-
-#emblemBody select {
-  width: 9em;
-}
-
-#emblemsBottom {
-  margin-top: 4px;
-  text-align: center;
-}
-
-#emblemUploadControl,
-#emblemDownloadControl {
-  margin-top: 0.3em;
-  width: 100%;
-}
-
 div.editorLine {
   margin: 0.2em 0;
   padding: 0 0.2em;
   font-size: 0.9em;
-}
-
-#emblemDownloadControl > input {
-  width: 4.1em;
-}
-
-#picker text {
-  cursor: default;
-}
-
-#pickerHeader {
-  fill: var(--header);
-  stroke: var(--dark-solid);
-  cursor: move;
-}
-
-#pickerLabel {
-  fill: #f8ffff;
-  font-size: 12px;
-  font-weight: bold;
-  font-family: var(--sans-serif);
-  cursor: move !important;
-}
-
-#pickerCloseRect {
-  cursor: pointer;
-  fill: var(--header);
-  stroke: #f8ffff;
-}
-
-#pickerCloseText {
-  fill: #f8ffff;
-  font-size: 10px;
-  font-family: var(--sans-serif);
-  pointer-events: none;
-}
-
-#pickerControls line {
-  stroke: #999999;
-  stroke-width: 2;
-}
-
-#pickerControls circle {
-  fill: #ffeb3b;
-  stroke: #666666;
-  cursor: ew-resize;
-}
-
-#pickerControls circle:hover {
-  fill: #eca116;
-  stroke: #000000;
-}
-
-#pickerControls,
-#pickerSpaces {
-  font-size: 11px;
-}
-
-#pickerSpaces input {
-  width: 22px;
-  font-size: 9px;
-  -moz-appearance: textfield;
-}
-
-#pickerSpaces input::-webkit-inner-spin-button,
-#pickerSpaces input::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-#pickerColors rect,
-#pickerHatches rect {
-  cursor: pointer;
-}
-
-#picker rect.selected {
-  outline: 2px dashed #b90c0c;
-  stroke-width: 0;
 }
 
 .hoverButton {
@@ -1959,15 +1844,19 @@ div.editorLine {
 }
 
 #ruler .white {
-  stroke: white;
+  stroke: currentColor;
 }
 
 #ruler .gray {
-  stroke: #3d3d3d;
   pointer-events: none;
 }
 
+#ruler[data-labels="false"] text {
+  display: none;
+}
+
 #ruler text {
+  stroke: none;
   font-family: var(--serif);
   fill: #3d3d3d;
   text-anchor: middle;
@@ -2095,10 +1984,10 @@ div.textual span,
 }
 
 .highlighted {
-  outline-width: 2px;
-  outline-style: dashed;
-  outline-color: #0da6ff;
-  outline-offset: 100px;
+  stroke: #0da6ff;
+  stroke-width: 3px;
+  stroke-dasharray: 6 6;
+  vector-effect: non-scaling-stroke;
   fill: none;
 }
 
@@ -2141,18 +2030,6 @@ div.textual span,
   margin: 4px;
 }
 
-#notesLegend {
-  width: auto;
-  height: 87%;
-  outline: 0;
-  overflow-y: auto;
-  padding: 0.6em;
-  font-family: var(--monospace);
-  background-color: #fff;
-  border: 1px solid #dedede;
-  color: #000;
-}
-
 svg.button {
   position: relative;
   background-color: transparent;
@@ -2160,52 +2037,98 @@ svg.button {
   padding: 0;
 }
 
-#reliefEditor > div > div {
-  font-style: italic;
-  display: inline-block;
+#reliefEditor {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
-#reliefEditor div.reliefEditorLabel {
+#reliefEditor > div {
+  width: auto;
+}
+
+#reliefEditor [hidden] {
+  display: none !important;
+}
+
+#reliefEditor .reliefRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#reliefEditor .reliefEditorLabel {
+  flex: none;
+  width: 4em;
+  font-style: italic;
+}
+
+#reliefEditor .reliefRow input[type="range"] {
+  flex: 1;
+  min-width: 0;
+}
+
+#reliefEditor .reliefRow input[type="number"] {
+  flex: none;
   width: 4em;
 }
 
-#reliefEditor input[type="range"] {
-  width: 16em;
+#reliefEditor .reliefSet {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  min-width: 0;
+}
+
+#reliefEditor .reliefSet .reliefEditorLabel {
+  width: auto;
+}
+
+#reliefEditorSet {
+  min-width: 0;
 }
 
 #reliefIconsDiv {
-  margin-top: 2px;
-  padding: 2px;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(36px, 1fr));
+  gap: 3px;
+}
+
+#reliefSetIcons {
+  display: contents;
 }
 
 #reliefIconsDiv svg {
-  width: 40px;
-  height: 40px;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  padding: 3px;
   background-color: #e7e6e4;
   border: 1px solid #a9a9a9;
+  border-radius: 2px;
   cursor: pointer;
 }
 
 #reliefIconsDiv svg:hover {
   border-color: #5c5c5c;
   background-color: #eef6fb;
-  transition: all 0.3s ease-out 3s;
-  transform: scale(2);
 }
 
 #reliefIconsDiv svg.pressed {
-  border: 1px solid #b3352c;
+  border-color: #b3352c;
   background-color: #f2f2f2;
 }
 
 #reliefIconsSeletionAny {
-  display: none;
   text-anchor: middle;
   dominant-baseline: central;
+  font-size: 12px;
 }
 
 #alertMessage {
+  margin: 0;
   user-select: text;
   max-height: 70vh;
   max-width: 75vw;
@@ -2240,7 +2163,7 @@ svg.button {
 }
 
 #worldControls {
-  width: 16em;
+  width: 18em;
   display: inline-block;
   vertical-align: top;
 }
@@ -2414,10 +2337,6 @@ svg.button {
   opacity: 0.8;
 }
 
-#markerTypeSelector {
-  font-size: 0.85em;
-}
-
 #markerTypeSelectorWrapper {
   position: relative;
 }
@@ -2481,17 +2400,6 @@ svg.button {
   }
 }
 
-#chat-widget-container {
-  user-select: none;
-  z-index: 99 !important;
-}
-
-#chat-widget-minimized {
-  animation: fadeIn 1s ease-in;
-  transform: scale(0.65);
-  opacity: var(--bg-opacity);
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -2503,8 +2411,8 @@ svg.button {
 
 #tourPromptButton {
   position: fixed;
-  bottom: 100px;
-  right: 36px;
+  bottom: 116px; /* stacked above the assistant bubble, sharing its column */
+  right: 18px;
   width: 36px;
   height: 36px;
   border-radius: 50%;
@@ -2516,7 +2424,7 @@ svg.button {
   user-select: none;
   opacity: 0;
   animation: fadeIn 1s ease-in 1s forwards;
-  z-index: 9999;
+  z-index: 99;
 }
 
 #tourPromptButton button {
@@ -2634,4 +2542,510 @@ body.tour-free-roam * {
   display: flex;
   gap: 0.5em;
   margin: 0.8em 0 0.4em 0;
+}
+
+/* Assistant call button: the flat, themed circle the OpenWidget launcher used to be — a
+   dark rounded badge with the glyph punched out of it, and the same press squish */
+#assistantBubble {
+  position: fixed;
+  right: 16px;
+  bottom: 64px; /* clear of the scale bar in the corner */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: var(--light-solid);
+  cursor: pointer;
+  user-select: none;
+  box-shadow:
+    0 1px 1px -1px rgb(0 0 0 / 13%),
+    0 2px 5px -2px rgb(0 0 0 / 18%);
+  animation: assistantBubbleIn 0.3s cubic-bezier(0.14, 0, 0, 1) backwards;
+  z-index: 99;
+}
+
+#assistantBubble:focus-visible {
+  outline: 2px solid var(--dark-solid);
+  outline-offset: 3px;
+}
+
+/* .ui-dialog turns selection off so dialogs drag cleanly, which also made the answers
+   impossible to copy. The panel opts back in; the titlebar keeps the drag behaviour. */
+#assistant {
+  user-select: text;
+}
+
+/* the badge alone squishes under the press, the circle stays put, as the launcher did */
+#assistantBubble > .assistantBubbleBadge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 18px;
+  border-radius: 7px;
+  background: #0d0b0c; /* fallback for browsers without color-mix */
+  background: color-mix(in srgb, var(--dark-solid) 40%, #000000);
+  color: var(--light-solid); /* the glyphs read as holes cut in the badge */
+  font-size: 13px;
+  line-height: 1;
+  transition: transform 0.25s cubic-bezier(0.14, 0, 0, 1);
+}
+
+#assistantBubble:active > .assistantBubbleBadge {
+  transform: scale(0.75);
+}
+
+/* both glyphs sit on top of each other: the question mark morphs into the rounded square
+   under the pointer, and stays there while the dialog is open */
+#assistantBubble .icon-help,
+#assistantBubble .assistantBubbleMinimize {
+  position: absolute;
+  transition:
+    opacity 0.2s ease-out,
+    transform 0.25s cubic-bezier(0.14, 0, 0, 1);
+}
+
+#assistantBubble .icon-help {
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#assistantBubble .assistantBubbleMinimize {
+  inset: 0;
+  width: 9px;
+  height: 8px;
+  margin: auto;
+  border: 2px solid currentcolor;
+  border-radius: 3px;
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+#assistantBubble:hover .icon-help,
+#assistantBubble.open .icon-help {
+  opacity: 0;
+  transform: scale(0.6);
+}
+
+#assistantBubble:hover .assistantBubbleMinimize,
+#assistantBubble.open .assistantBubbleMinimize {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes assistantBubbleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #assistantBubble,
+  #assistantBubble > .assistantBubbleBadge,
+  #assistantBubble .icon-help,
+  #assistantBubble .assistantBubbleMinimize {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* Two panels — Help (the gateway widget) and This map (the BYOK agent) — behind a segmented
+   mode control. The dialog is a flex column so each panel's transcript takes the slack. */
+#assistant {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  height: 100%;
+  user-select: text;
+}
+
+#assistant .assistantModes {
+  display: flex;
+  gap: 0.25em;
+  padding: 0.15em;
+  border-radius: 0.5em;
+  background: rgb(0 0 0 / 6%);
+  flex: 0 0 auto;
+}
+
+#assistant .assistantMode {
+  flex: 1;
+  padding: 0.3em 0.6em;
+  border: none;
+  border-radius: 0.4em;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#assistant .assistantMode::before {
+  margin-right: 0.35em;
+}
+
+#assistant .assistantMode.selected {
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+  opacity: 1;
+  font-weight: bold;
+}
+
+#assistant .assistantPanel {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+#assistant .assistantPanel[hidden] {
+  display: none;
+}
+
+/* This map panel (the BYOK agent) */
+#assistantMap {
+  gap: 0.3em;
+}
+
+#assistantMap [hidden] {
+  display: none;
+}
+
+#assistantMap .assistantMapTop {
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+}
+
+#assistantMap .assistantMapTop > select {
+  flex: 1;
+  min-width: 0;
+}
+
+#assistantMap .assistantMapLog {
+  flex: 1 1 auto;
+  min-height: 6em;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45em;
+}
+
+#assistantMap #assistantMapEmpty {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  text-align: center;
+}
+
+#assistantMap #assistantMapEmpty > div {
+  opacity: 0.7;
+  max-width: 22em;
+}
+
+#assistantMap #assistantMapEmpty button {
+  padding: 0.25em 0.7em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+#assistantMap .assistantMapContext {
+  align-self: flex-start;
+  font-size: 0.85em;
+  padding: 0.1em 0.6em;
+  border-radius: 1em;
+  background: rgb(53 66 77 / 12%);
+}
+
+#assistantMap .assistantMapComposer {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.3em;
+}
+
+#assistantMap .assistantMapComposer > textarea {
+  flex: 1;
+  min-width: 0;
+  resize: none;
+  overflow-y: auto;
+}
+
+#assistantMap .assistantMapDrawer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  padding: 0.5em;
+  border-radius: 0.4em;
+  background: rgb(0 0 0 / 5%);
+  font-size: 0.92em;
+}
+
+#assistantMap .assistantMapDrawer label {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+#assistantMap .assistantMapDrawer select,
+#assistantMap .assistantMapDrawer input {
+  flex: 1;
+  min-width: 0;
+}
+
+#assistantMap #assistantMapLocal {
+  display: flex;
+  gap: 0.3em;
+}
+
+#assistantMap #assistantMapLocal[hidden] {
+  display: none;
+}
+
+#assistantMap #assistantMapCustomModel[hidden] {
+  display: none;
+}
+
+#assistantMap .assistantMapHint {
+  color: #b03030;
+}
+
+#assistantMap .assistantMapStatus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3em 0.4em;
+  align-items: center;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+#assistantMap .assistantMapStatus > button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline dotted;
+}
+
+#assistantMap .assistantMapUser {
+  align-self: flex-end;
+  max-width: 85%;
+  padding: 0.3em 0.6em;
+  border-radius: 0.8em 0.8em 0.2em 0.8em;
+  background: rgba(128, 128, 128, 0.18);
+}
+
+#assistantMap .assistantMapAssistant {
+  align-self: flex-start;
+  max-width: 95%;
+  white-space: normal;
+}
+
+#assistantMap .assistantMapSystem {
+  align-self: center;
+  text-align: center;
+  font-style: italic;
+  opacity: 0.65;
+}
+
+#assistantMap .assistantMapError {
+  align-self: center;
+  text-align: center;
+  color: #b03030;
+}
+
+#assistantMap .assistantMapMessage {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+#assistantMap .assistantMapStep {
+  align-self: flex-start;
+  max-width: 100%;
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+
+#assistantMap .assistantMapStep summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+#assistantMap .assistantMapStep pre {
+  margin: 0.2em 0;
+  padding: 0.3em 0.4em;
+  max-height: 14em;
+  overflow: auto;
+  border-radius: 0.3em;
+  background: rgba(128, 128, 128, 0.12);
+}
+
+#assistantMap .assistantMapEdit {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.3em 0.6em;
+  border-radius: 0.4em;
+  background: rgb(53 66 77 / 10%);
+  font-size: 0.92em;
+}
+
+#assistantMap .assistantMapEdit button {
+  padding: 0.1em 0.4em;
+}
+
+#assistantMap #assistantMapThinking {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  font-style: italic;
+  opacity: 0.7;
+}
+
+#assistantMap #assistantMapThinking i {
+  width: 0.35em;
+  height: 0.35em;
+  border-radius: 50%;
+  background: currentColor;
+  animation: assistantMapBlink 1.2s infinite ease-in-out;
+}
+
+#assistantMap #assistantMapThinking i:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+#assistantMap #assistantMapThinking i:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+@keyframes assistantMapBlink {
+  0%,
+  70%,
+  100% {
+    opacity: 0.25;
+  }
+  35% {
+    opacity: 1;
+  }
+}
+
+#assistantMap .assistantMapAssistant > :first-child {
+  margin-top: 0;
+}
+
+#assistantMap .assistantMapAssistant > :last-child {
+  margin-bottom: 0;
+}
+
+#assistantMap .assistantMapAssistant p {
+  margin: 0 0 0.4em;
+}
+
+#assistantMap .assistantMapAssistant h3,
+#assistantMap .assistantMapAssistant h4,
+#assistantMap .assistantMapAssistant h5,
+#assistantMap .assistantMapAssistant h6 {
+  margin: 0.5em 0 0.2em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#assistantMap .assistantMapAssistant ul,
+#assistantMap .assistantMapAssistant ol {
+  margin: 0.2em 0 0.4em;
+  padding-left: 1.3em;
+}
+
+#assistantMap .assistantMapAssistant li {
+  margin: 0.1em 0;
+}
+
+#assistantMap .assistantMapAssistant code {
+  padding: 0 0.25em;
+  border-radius: 0.25em;
+  background: rgba(128, 128, 128, 0.16);
+  font-family: monospace;
+}
+
+#assistantMap .assistantMapAssistant pre {
+  margin: 0.3em 0;
+  padding: 0.35em 0.45em;
+  overflow-x: auto;
+  border-radius: 0.3em;
+  background: rgba(128, 128, 128, 0.12);
+}
+
+#assistantMap .assistantMapAssistant pre code {
+  padding: 0;
+  background: none;
+}
+
+#assistantMap .assistantMapAssistant table {
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  margin: 0.3em 0;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+#assistantMap .assistantMapAssistant th,
+#assistantMap .assistantMapAssistant td {
+  padding: 0.15em 0.45em;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+}
+
+#assistantMap .assistantMapAssistant th {
+  background: rgba(128, 128, 128, 0.12);
+  text-align: left;
+}
+
+#assistantMap .assistantMapAssistant blockquote {
+  margin: 0.3em 0;
+  padding-left: 0.6em;
+  border-left: 2px solid rgba(128, 128, 128, 0.4);
+  opacity: 0.85;
+}
+
+#assistantMap .assistantMapAssistant hr {
+  margin: 0.4em 0;
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+#assistantMap .assistantMapAssistant a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* a map with options.map.viewOnly: browsing only */
+body.view-only :is(#styleTab, #optionsTab, #toolsTab, #assistantBubble) {
+  display: none !important;
+}
+
+body.view-only #viewbox * {
+  cursor: inherit;
+}
+
+body.view-only #scaleBar {
+  pointer-events: none;
+}
+
+#saveButton:disabled,
+#saveToStorageButton:disabled {
+  opacity: 0.5;
+  cursor: default;
 }

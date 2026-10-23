@@ -1,11 +1,14 @@
 import Alea from "alea";
-import { curveCatmullRom, line, select } from "d3";
+import { curveCatmullRom, line } from "d3";
 import Delaunator from "delaunator";
+import { replaceWholeWord } from "@/utils/languageUtils";
+import { requireName, requireOneOf } from "@/utils/validationUtils";
 import { distanceSquared, findPath, getAdjective, isLand, ra, rn, round, rw } from "../utils";
 import { meander } from "../utils/pathUtils";
 import type { Burg } from "./burgs-generator";
 import type { Label } from "./labels-generator";
 import type { River } from "./river-generator";
+import { Tags } from "./tags";
 import type { Point } from "./voronoi";
 
 const ROUTES_SHARP_ANGLE = 135;
@@ -182,6 +185,8 @@ export interface Route {
   length?: number;
   lock?: boolean;
   label?: Label;
+  note?: string;
+  tags?: string[];
 }
 
 type RiverEdge = { riverId: number; fromIndex: number };
@@ -200,13 +205,23 @@ class RoutesModule {
   private riversById: Map<number, River> = new Map();
   private riverGeometryCache: Map<number, { points: Point[]; anchorIndices: number[] }> = new Map();
 
+  /** Rename a route */
+  rename(routeId: number, name: string): void {
+    const route = pack.routes.find(({ i }) => i === routeId);
+    if (!route) throw new Error(`Route ${routeId} does not exist`);
+    const old = route.name;
+    route.name = requireName(name);
+    if (route.label?.text)
+      route.label.text = replaceWholeWord(route.label.text, old ?? "", route.name) ?? route.label.text;
+  }
+
   regenerate(): void {
     const lockedRoutes = pack.routes.filter(route => route.lock).map((route, index) => ({ ...route, i: index }));
     this.generate(lockedRoutes, Math.random());
   }
 
   generate(lockedRoutes: Route[] = [], randomSeed?: number) {
-    Math.random = Alea(randomSeed ?? seed);
+    Math.random = Alea(randomSeed ?? options.map.seed);
     this.connections = new Map();
     this.buildRiverEdges();
     lockedRoutes.forEach((route: Route) => {
@@ -362,24 +377,45 @@ class RoutesModule {
     return segments;
   }
 
+  /** A water route may only reach its destination cell from a legitimate approach */
+  private createWaterExitCheck(exit: number) {
+    return (next: number, current?: number) => {
+      if (next !== exit) return false;
+      if (current === undefined) return true;
+      // river port: approach along the river course
+      if (this.riverEdges.get(current)?.has(next)) return true;
+      // coastal port: approach only over water, through the haven the burg was shifted towards
+      if (pack.cells.h[current] >= 20) return false;
+      const haven = pack.cells.haven?.[exit];
+      return !haven || current === haven;
+    };
+  }
+
   private findPathSegments({ isWater, start, exit }: { isWater: boolean; start: number; exit: number }) {
     const getCost = this.createCostEvaluator({ isWater });
-    const isExit = isWater
-      ? (next: number, current?: number) => {
-          if (next !== exit) return false;
-          if (current === undefined) return true;
-          // river port: approach along the river course
-          if (this.riverEdges.get(current)?.has(next)) return true;
-          // coastal port: approach only over water, through the haven the burg was shifted towards
-          if (pack.cells.h[current] >= 20) return false;
-          const haven = pack.cells.haven?.[exit];
-          return !haven || current === haven;
-        }
-      : (next: number) => next === exit;
+    const isExit = isWater ? this.createWaterExitCheck(exit) : (next: number) => next === exit;
     const pathCells = findPath(start, isExit, getCost, pack);
     if (!pathCells) return [];
     const segments = this.getRouteSegments(pathCells);
     return segments;
+  }
+
+  /**
+   * Cell chain of a sea route between two cells, or null if they are not connected by water.
+   * Follows the same rules as generated searoutes: ports are left and entered through their
+   * haven, navigable rivers are passable, colder seas are not, and existing routes are cheap.
+   */
+  findWaterPath(start: number, exit: number): number[] | null {
+    return findPath(start, this.createWaterExitCheck(exit), this.getWaterPathCost.bind(this), pack);
+  }
+
+  /** Sea route geometry for a cell chain: burg positions at ports, meandering along river runs */
+  getWaterPoints(cells: number[]): [number, number, number][] {
+    // only the chain's own cells are read, so this skips preparePointsArray's whole-map allocation
+    return this.addMeandering(
+      cells,
+      cells.map(cellId => this.getCellAnchor(cellId))
+    );
   }
 
   private generateMainRoads() {
@@ -466,12 +502,16 @@ class RoutesModule {
   }
 
   private preparePointsArray(): Point[] {
+    return pack.cells.p.map((_point, cellId) => this.getCellAnchor(cellId));
+  }
+
+  /** The point a route passes through in a cell: the burg's position at a port, the cell centre otherwise */
+  private getCellAnchor(cellId: number): Point {
     const { cells, burgs } = pack;
-    return cells.p.map(([x, y], cellId) => {
-      const burgId = cells.burg[cellId];
-      if (burgId) return [burgs[burgId].x, burgs[burgId].y];
-      return [x, y];
-    });
+    const burgId = cells.burg[cellId];
+    if (burgId) return [burgs[burgId].x, burgs[burgId].y];
+    const [x, y] = cells.p[cellId];
+    return [x, y];
   }
 
   // Group consecutive route cells that follow a single river in one direction into maximal runs.
@@ -522,7 +562,7 @@ class RoutesModule {
       meandering: 0.5,
       startStep: h[river.cells[0]] < 20 ? 1 : 10,
       isWaterCell: river.cells.map(c => c !== -1 && h[c] < 20),
-      bounds: { width: graphWidth, height: graphHeight }
+      bounds: { width: options.map.graph.width, height: options.map.graph.height }
     });
 
     this.riverGeometryCache.set(river.i, geometry);
@@ -665,21 +705,21 @@ class RoutesModule {
       if (merged) continue;
       const points = this.getPoints("roads", cells!, pointsArray);
       const name = this.generateName({ group: "roads", points });
-      routes.push({ i: routes.length, group: "roads", name, feature, points });
+      routes.push({ i: routes.length, group: "roads", name, feature, points, tags: [] });
     }
 
     for (const { feature, cells, merged } of this.mergeRoutes(trails)) {
       if (merged) continue;
       const points = this.getPoints("trails", cells!, pointsArray);
       const name = this.generateName({ group: "trails", points });
-      routes.push({ i: routes.length, group: "trails", name, feature, points });
+      routes.push({ i: routes.length, group: "trails", name, feature, points, tags: [] });
     }
 
     for (const { feature, cells, merged } of this.mergeRoutes(seaRoutes)) {
       if (merged) continue;
       const points = this.getPoints("searoutes", cells!, pointsArray);
       const name = this.generateName({ group: "searoutes", points });
-      routes.push({ i: routes.length, group: "searoutes", name, feature, points });
+      routes.push({ i: routes.length, group: "searoutes", name, feature, points, tags: [] });
     }
 
     return routes;
@@ -702,6 +742,18 @@ class RoutesModule {
         this.riverEdges.get(a)!.set(b, { riverId: river.i, fromIndex: i });
         this.riverEdges.get(b)!.set(a, { riverId: river.i, fromIndex: i + 1 });
       }
+    }
+  }
+
+  /** custom route groups (old maps, the route groups editor) can miss a style entry - without
+   * one the style editor's edits are DOM-only and presets drop the group */
+  ensureRouteGroupStyles(): void {
+    const { groups } = styles.routes;
+    const template = groups.roads || Object.values(groups)[0];
+    if (!template) return;
+    // presets are also applied on initial page load, before any map (and its routes) exists
+    for (const group of new Set((pack.routes ?? []).map(route => route.group))) {
+      if (!groups[group]) groups[group] = structuredClone(template);
     }
   }
 
@@ -749,7 +801,7 @@ class RoutesModule {
     const points = this.getPoints("trails", pathCells, pointsArray);
     const feature = pack.cells.f[cellId];
     const routeId = this.getNextId();
-    const newRoute = { i: routeId, group: "trails", feature, points };
+    const newRoute = { i: routeId, group: "trails", feature, points, tags: [] };
     pack.routes.push(newRoute as Route);
 
     const addConnection = (from: number, to: number, routeId: number) => {
@@ -808,7 +860,118 @@ class RoutesModule {
     return roadConnections.length > 2;
   }
 
-  remove(route: Route) {
+  /** Build a route between two burgs along the cheapest path: roads and trails by land, searoutes by water. Returns its id */
+  add(fromBurgId: number, toBurgId: number, group: string): number {
+    const groups = Object.keys(styles.routes.groups);
+    requireOneOf(group, groups, "The group");
+    const [from, to] = [fromBurgId, toBurgId].map(id => {
+      const burg = pack.burgs[id];
+      if (!id || !burg || burg.removed) throw new Error(`Burg ${id} does not exist`);
+      return burg;
+    });
+    if (from === to) throw new Error("A route connects two different burgs");
+
+    const isWater = group === "searoutes";
+    const cells = isWater
+      ? this.findWaterPath(from.cell, to.cell)
+      : findPath(from.cell, (next: number) => next === to.cell, this.getLandPathCost.bind(this), pack);
+    if (!cells) throw new Error(`There is no ${isWater ? "water" : "land"} path from burg ${from.i} to burg ${to.i}`);
+
+    const points = isWater ? this.getWaterPoints(cells) : this.getPoints(group, cells, this.preparePointsArray());
+    const i = this.getNextId();
+    const route: Route = { i, group, feature: pack.cells.f[from.cell], points, tags: [] };
+    route.name = this.generateName(route);
+    pack.routes.push(route);
+    const links = pack.cells.routes;
+    for (let index = 0; index < cells.length - 1; index++) {
+      const [a, b] = [cells[index], cells[index + 1]];
+      links[a] = { ...links[a], [b]: i };
+      links[b] = { ...links[b], [a]: i };
+    }
+    return i;
+  }
+
+  /** Move a route to another route group, such as roads, trails or searoutes */
+  setGroup(routeId: number, group: string): void {
+    this.living(routeId).group = requireOneOf(group, Object.keys(styles.routes.groups), "The group");
+  }
+
+  /** Lock a route so regeneration keeps it, or unlock it */
+  setLocked(routeId: number, locked: boolean): void {
+    const route = this.living(routeId);
+    if (locked) route.lock = true;
+    else delete route.lock;
+  }
+
+  /** Draw a route in a group through map points [x, y], each in the cell under it. Returns its id */
+  create(points: number[][], group: string): number {
+    requireOneOf(group, Object.keys(styles.routes.groups), "The group");
+    if (!Array.isArray(points) || points.length < 2) throw new Error("A route needs at least 2 points");
+    const routePoints = points.map(point => {
+      if (!Array.isArray(point)) throw new Error("A route point is [x, y]");
+      const [x, y] = point;
+      return [rn(x, 2), rn(y, 2), Pack.requireCell(x, y)];
+    });
+    const i = this.getNextId();
+    pack.routes.push({ i, group, feature: pack.cells.f[routePoints[0][2]], points: routePoints, tags: [] } as Route);
+    this.link(routePoints, i);
+    return i;
+  }
+
+  /** Split a route at one of its inner points: the route ends there and a new one of the same group goes on. Returns the new id */
+  split(routeId: number, pointIndex: number): number {
+    const route = this.living(routeId);
+    if (!Number.isInteger(pointIndex) || pointIndex < 1 || pointIndex > route.points.length - 2)
+      throw new Error(`Point ${pointIndex} is not an inner point of route ${routeId}; points are counted from 0`);
+    const tail = route.points.slice(pointIndex);
+    route.points = route.points.slice(0, pointIndex + 1);
+    const i = this.getNextId();
+    pack.routes.push({
+      i,
+      group: route.group,
+      feature: route.feature,
+      name: route.name,
+      points: tail,
+      tags: [...(route.tags ?? [])]
+    } as Route);
+    this.link(tail, i);
+    return i;
+  }
+
+  /** Join a route of the same group that starts or ends where this one starts or ends; the other route is removed */
+  join(routeId: number, otherId: number): void {
+    const route = this.living(routeId);
+    const other = this.living(otherId);
+    if (route === other) throw new Error("A route cannot join itself");
+    if (route.group !== other.group) throw new Error(`Routes ${routeId} and ${otherId} are in different groups`);
+    const points = mergeRoutePoints(route.points, other.points);
+    if (!points) throw new Error(`Routes ${routeId} and ${otherId} share no endpoint`);
+    route.points = points;
+    Tags.add(route, other.tags ?? []);
+    this.link(points, route.i);
+    this.remove(otherId);
+  }
+
+  /** Connect consecutive points' cells in the cell links */
+  private link(points: number[][], routeId: number): void {
+    const links = pack.cells.routes;
+    for (let index = 0; index < points.length - 1; index++) {
+      const [a, b] = [points[index][2], points[index + 1][2]];
+      if (a === b) continue;
+      links[a] = { ...links[a], [b]: routeId };
+      links[b] = { ...links[b], [a]: routeId };
+    }
+  }
+
+  private living(routeId: number): Route {
+    const route = pack.routes.find(({ i }) => i === routeId);
+    if (!route) throw new Error(`Route ${routeId} does not exist`);
+    return route;
+  }
+
+  /** Remove a route and its cell connections */
+  remove(routeId: number) {
+    const route = this.living(routeId);
     const routes = pack.cells.routes;
 
     for (const point of route.points) {
@@ -825,7 +988,6 @@ class RoutesModule {
     }
 
     pack.routes = pack.routes.filter(r => r.i !== route.i);
-    select("#viewbox").select(`#route${route.i}`).remove();
   }
 
   getConnectivityRate(cellId: number): number {
@@ -889,7 +1051,12 @@ class RoutesModule {
   }
 
   getLength(routeId: number): number {
-    const path = select("#routes").select(`#route${routeId}`).node() as SVGPathElement;
+    const route = pack.routes.find(route => route.i === routeId);
+    if (!route) return 0;
+
+    // measured off-DOM: the rendered layer only holds the routes currently in the viewport
+    const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    path.setAttribute("d", this.getPath(route));
     return path.getTotalLength();
   }
 
@@ -912,4 +1079,22 @@ declare global {
   var Routes: RoutesModule;
 }
 
-window.Routes = new RoutesModule();
+/** The points of two routes that share an endpoint, as one route; null when they share none */
+export function mergeRoutePoints(routePoints: number[][], joinedPoints: number[][]): number[][] | null {
+  if (!routePoints.length || !joinedPoints.length) return null;
+
+  const routeStart = routePoints.at(0)?.[2];
+  const routeEnd = routePoints.at(-1)?.[2];
+  const joinedStart = joinedPoints.at(0)?.[2];
+  const joinedEnd = joinedPoints.at(-1)?.[2];
+
+  if (routeEnd === joinedStart) return [...routePoints, ...joinedPoints.slice(1)];
+  if (routeStart === joinedEnd) return [...joinedPoints, ...routePoints.slice(1)];
+  if (routeStart === joinedStart) return [...[...routePoints].reverse(), ...joinedPoints.slice(1)];
+  if (routeEnd === joinedEnd) return [...routePoints, ...[...joinedPoints].reverse().slice(1)];
+  return null;
+}
+
+// biome-ignore lint/suspicious/noRedeclare: legacy seam
+export const Routes = new RoutesModule();
+window.Routes = Routes;

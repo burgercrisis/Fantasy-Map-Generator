@@ -63,9 +63,9 @@ let needsFullRedraw = false;
 // emblems shrink as their number grows, so that a crowded map does not turn into a wall of shields
 function getEmblemSize(type: EmblemType, count: number): number {
   const { extent, min, max, expected, countDivisor, deficitDivisor } = SIZING[type];
-  const startSize = minmax((graphHeight + graphWidth) / extent, min, max);
+  const startSize = minmax((options.map.graph.height + options.map.graph.width) / extent, min, max);
   const countMod = 1 + count / countDivisor - (expected - count) / deficitDivisor;
-  const sizeMod = Number(ensureEl(GROUPS[type]).getAttribute("data-size")) || 1;
+  const sizeMod = styles.emblems.groups[`${type}Emblems`].options.size || 1;
   return rn((startSize / countMod) * sizeMod);
 }
 
@@ -185,7 +185,7 @@ export function invalidateEmblems(): void {
 /** Layer teardown: drop the scenes so the next draw rebuilds them from the current data. */
 export function removeEmblems(): void {
   invalidateEmblems();
-  for (const type of TYPES) document.getElementById(GROUPS[type])?.replaceChildren();
+  for (const type of TYPES) findEl(GROUPS[type])?.replaceChildren();
   evictUnreferencedDefinitions(); // the layer holds nothing now, so only open dialogs keep a shield alive
 }
 
@@ -329,7 +329,7 @@ function materialize(
 }
 
 function renderDefinition(id: string, emblem: Emblem | undefined): Promise<unknown> | undefined {
-  if (!emblem || emblem.custom) return;
+  if (!emblem) return;
   return EmblemRenderer.trigger(id, emblem);
 }
 
@@ -400,7 +400,7 @@ function isVisible({ x, y, shift }: EmblemData, { bounds }: ViewportRenderContex
 
 function isGroupHidden(type: EmblemType, scale: number): boolean {
   const screenSize = sizes[type] * scale;
-  return !options.emblems.showAll && (screenSize < 25 || screenSize > 300);
+  return !options.app.emblems.showAll && (screenSize < 25 || screenSize > 300);
 }
 
 function getId(type: EmblemType, i: number): string {

@@ -1,10 +1,13 @@
 import Alea from "alea";
-import { curveBasis, curveCatmullRom, line, mean, min, select, sum } from "d3";
+import { curveBasis, curveCatmullRom, line, mean, min, sum } from "d3";
+import { replaceWholeWord } from "@/utils/languageUtils";
+import { requireName } from "@/utils/validationUtils";
 import { each, rn, round, rw } from "../utils";
 import { meander, projectToNearestEdge } from "../utils/pathUtils";
 import type { Label } from "./labels-generator";
 import type { Point } from "./voronoi";
 
+export const MIN_FLUX_TO_FORM_RIVER = 30;
 export const MIN_NAVIGABLE_FLUX = 100;
 
 export interface River {
@@ -23,6 +26,15 @@ export interface River {
   cells: number[]; // cells forming the river path
   points?: Point[]; // river points (for meandering)
   label?: Label;
+  note?: string;
+  tags?: string[];
+  lock?: boolean; // its course and data survive regeneration
+}
+
+/** a locked river to keep through a regeneration, with the flux along its cells before it */
+export interface LockedRiver {
+  river: River;
+  flux: number[];
 }
 
 class RiverModule {
@@ -47,10 +59,28 @@ class RiverModule {
   smallLength: number | null = null;
 
   regenerate(): void {
-    this.generate();
+    this.generate(true, this.getLocked());
     this.specify();
     Features.defineGroups();
-    Lakes.defineNames();
+    Features.defineNames();
+  }
+
+  /** Start a river at a land point; it flows downhill to the sea, a lake or another river. Returns the river holding it */
+  add(x: number, y: number): number {
+    const { cells } = pack;
+    const cell = Pack.requireCell(x, y);
+    if (cells.h[cell] < 20) throw new Error("A river cannot start in the water");
+    if (cells.r[cell]) throw new Error(`River ${cells.r[cell]} already flows here`);
+    if (cells.b[cell]) throw new Error("A river cannot start at the map edge");
+    const lakes = pack.features.filter(feature => feature && feature.type === "lake");
+    const heights = lakes.map(lake => lake.height); // resolving depressions raises lakes only to route the flow
+    const { error } = this.addDownhill(cell);
+    if (error) throw new Error(error);
+    lakes.forEach((lake, index) => {
+      lake.height = heights[index];
+    });
+    Lakes.cleanupLakeData();
+    return cells.r[cell];
   }
 
   addDownhill(initialCell: number): { error?: string } {
@@ -68,7 +98,7 @@ class RiverModule {
       cells.r[cell] = riverId;
       riverCells.push(cell);
 
-      const nextCell: number = cells.c[cell].sort((a, b) => heights[a] - heights[b])[0];
+      const nextCell: number = [...cells.c[cell]].sort((a, b) => heights[a] - heights[b])[0];
       if (heights[cell] <= heights[nextCell]) {
         return { error: `Cell ${cell} is depressed, river cannot flow further` };
       }
@@ -157,15 +187,25 @@ class RiverModule {
         cells: riverCells,
         basin,
         name,
-        type
+        type,
+        tags: []
       });
     }
 
     return {};
   }
 
-  generate(allowErosion = true) {
-    Math.random = Alea(seed);
+  /** the locked rivers of the current graph, to pass to a regeneration of it */
+  getLocked(): LockedRiver[] {
+    const { fl } = pack.cells;
+    return pack.rivers
+      .filter(river => river.lock)
+      .map(river => ({ river, flux: river.cells.map(cell => fl[cell] ?? 0) }));
+  }
+
+  /** Generate rivers from the heightmap; locked rivers keep their course, the generated ones flow around them */
+  generate(allowErosion = true, locked: LockedRiver[] = []) {
+    Math.random = Alea(options.map.seed);
     const { cells, features } = pack;
 
     const riversData: { [riverId: number]: number[] } = {};
@@ -177,8 +217,7 @@ class RiverModule {
     };
 
     const drainWater = () => {
-      const MIN_FLUX_TO_FORM_RIVER = 30;
-      const cellsNumberModifier = ((pointsInput.dataset.cells as any) / 10000) ** 0.25;
+      const cellsNumberModifier = (options.map.graph.points / 10000) ** 0.25;
 
       const prec = grid.cells.prec;
       const land = cells.i.filter((i: number) => h[i] >= 20).sort((a: number, b: number) => h[b] - h[a]);
@@ -310,7 +349,7 @@ class RiverModule {
       cells.conf = new Uint16Array(cells.i.length);
       pack.rivers = [];
 
-      const defaultWidthFactor = rn(1 / ((pointsInput.dataset.cells as any) / 10000) ** 0.25, 2);
+      const defaultWidthFactor = rn(1 / (options.map.graph.points / 10000) ** 0.25, 2);
       const mainStemWidthFactor = defaultWidthFactor * 1.2;
 
       for (const key in riversData) {
@@ -354,7 +393,8 @@ class RiverModule {
           widthFactor,
           sourceWidth,
           parent,
-          cells: riverCells
+          cells: riverCells,
+          tags: [] as string[]
         } as River);
       }
     };
@@ -393,20 +433,87 @@ class RiverModule {
     cells.fl = new Uint16Array(cells.i.length); // water flux array
     cells.r = new Uint16Array(cells.i.length); // rivers array
     cells.conf = new Uint8Array(cells.i.length); // confluences array
-    let riverNext = 1; // first river id is 1
+    let riverNext = Math.max(0, ...locked.map(({ river }) => river.i)) + 1; // generated ids follow the locked ones
 
     const h = this.alterHeights();
     Lakes.detectCloseLakes(h);
     this.resolveDepressions(h);
     drainWater();
     defineRivers();
+    if (locked.length) this.mergeLocked(locked);
 
     calculateConfluenceFlux();
     Lakes.cleanupLakeData();
+    if (locked.length) this.linkLockedLakes(locked);
 
     if (allowErosion) {
       cells.h = Uint8Array.from(h); // apply gradient
       downcutRivers(); // downcut river beds
+    }
+  }
+
+  /** a generated river mostly along a locked course is dropped, one reaching it ends there as its tributary */
+  private mergeLocked(locked: LockedRiver[]) {
+    const { cells } = pack;
+    const isLand = (cell: number) => cell >= 0 && cells.h[cell] >= 20;
+    // a river's last cell is where it flows into another, not its own course
+    const lockedAt = new Map<number, number>(); // land cell -> locked river
+    for (const { river } of locked) {
+      for (const cell of river.cells.slice(0, -1)) if (isLand(cell) && !lockedAt.has(cell)) lockedAt.set(cell, river.i);
+    }
+
+    const generated = pack.rivers.flatMap(river => {
+      const land = river.cells.filter(isLand);
+      if (land.filter(cell => lockedAt.has(cell)).length * 2 >= land.length) return [];
+      const junction = river.cells.findIndex(cell => lockedAt.has(cell));
+      if (junction === -1) return [river];
+      if (junction < 2) return []; // too short, as generation drops tiny rivers
+
+      const riverCells = river.cells.slice(0, junction + 1);
+      const mouth = riverCells.at(-2)!;
+      const length = this.getApproximateLength(this.addMeandering(riverCells) as unknown as Point[]);
+      const cut = { ...river, cells: riverCells, mouth, discharge: cells.fl[mouth], length };
+      return [{ ...cut, parent: lockedAt.get(riverCells.at(-1)!)! }];
+    });
+    pack.rivers = [...locked.map(({ river }) => river), ...generated];
+
+    // a cell belongs to the river flowing through it, locked first; where one ends on another is a confluence
+    cells.r.fill(0);
+    cells.conf.fill(0);
+    const claim = (cell: number, riverId: number) => {
+      if (!isLand(cell)) return;
+      if (cells.r[cell] && cells.r[cell] !== riverId) cells.conf[cell] = 1;
+      else cells.r[cell] = riverId;
+    };
+    for (const river of pack.rivers) for (const cell of river.cells.slice(0, -1)) claim(cell, river.i);
+    for (const river of pack.rivers) claim(river.cells.at(-1)!, river.i);
+
+    const lockedIds = new Set(locked.map(({ river }) => river.i));
+    for (const { river, flux } of locked) {
+      // a locked river carries no less than before, and never less downstream than upstream
+      let upstream = 0;
+      river.cells.forEach((cell, index) => {
+        if (!isLand(cell)) return;
+        upstream = cells.fl[cell] = Math.max(cells.fl[cell], flux[index] ?? 0, upstream);
+      });
+
+      const end = river.cells.at(-1)!;
+      const receiver = isLand(end) && cells.r[end] !== river.i ? cells.r[end] : 0;
+      if (!lockedIds.has(river.parent)) river.parent = receiver || river.i;
+    }
+    for (const river of generated) this.updateWidth(river);
+  }
+
+  /** a lake a locked river flows out of or into lists it, generated rivers being gone from it */
+  private linkLockedLakes(locked: LockedRiver[]) {
+    const { cells, features } = pack;
+    const lakeAt = (cell: number | undefined) =>
+      cell !== undefined && cell >= 0 && features[cells.f[cell]]?.type === "lake" ? features[cells.f[cell]] : undefined;
+    for (const { river } of locked) {
+      const source = lakeAt(river.cells[0]);
+      if (source && !source.outlet) source.outlet = river.i;
+      const sink = lakeAt(river.cells.at(-1));
+      if (sink && !sink.inlets?.includes(river.i)) sink.inlets = [...(sink.inlets ?? []), river.i];
     }
   }
 
@@ -425,7 +532,7 @@ class RiverModule {
   // depression filling algorithm (for a correct water flux modeling)
   resolveDepressions(h: number[]) {
     const { cells, features } = pack;
-    const maxIterations = +(document.getElementById("resolveDepressionsStepsOutput") as HTMLInputElement)?.value;
+    const maxIterations = options.generation.resolveDepressionsSteps;
     const checkLakeMaxIteration = maxIterations * 0.85;
     const elevateLakeMaxIteration = maxIterations * 0.75;
 
@@ -490,7 +597,7 @@ class RiverModule {
       meandering: 0.5,
       startStep: h[riverCells[0]] < 20 ? 1 : 10,
       isWaterCell: riverCells.map(c => c !== -1 && h[c] < 20),
-      bounds: { width: graphWidth, height: graphHeight }
+      bounds: { width: options.map.graph.width, height: options.map.graph.height }
     });
 
     const flux: number[] = new Array(points.length).fill(0);
@@ -509,7 +616,8 @@ class RiverModule {
 
     const { p } = pack.cells;
     return riverCells.map((cell, i) => {
-      if (cell === -1) return projectToNearestEdge(p[riverCells[i - 1]], graphWidth, graphHeight);
+      if (cell === -1)
+        return projectToNearestEdge(p[riverCells[i - 1]], options.map.graph.width, options.map.graph.height);
       return p[cell];
     });
   }
@@ -579,6 +687,7 @@ class RiverModule {
     for (const river of rivers) {
       river.parent = this.getParent(river.i);
       river.basin = this.getBasin(river.i);
+      if (river.lock) continue; // a locked river keeps its name and type
       river.name = this.getName(river.mouth);
       river.type = this.getType(river);
     }
@@ -616,13 +725,126 @@ class RiverModule {
     return rn((offset / 1.5) ** 1.8, 2); // mouth width in km
   }
 
-  // remove river and all its tributaries
-  remove(id: number) {
+  /** Rename a river; a custom label keeps its pattern when the old name stands in it as a whole word */
+  rename(riverId: number, name: string): void {
+    const river = pack.rivers.find(r => r.i === riverId);
+    if (!river) throw new Error(`River ${riverId} does not exist`);
+    const old = river.name;
+    river.name = requireName(name);
+    if (river.label?.text) river.label.text = replaceWholeWord(river.label.text, old, river.name) ?? river.label.text;
+  }
+
+  /** Lock a river so regeneration keeps its course and data, or unlock it */
+  setLocked(riverId: number, locked: boolean): void {
+    const river = this.living(riverId);
+    if (locked) river.lock = true;
+    else delete river.lock;
+  }
+
+  /** Set a river's type, a free label such as River, Creek or Fork */
+  setType(riverId: number, type: string): void {
+    this.living(riverId).type = requireName(type);
+  }
+
+  /** Make a river a tributary of another, or a mainstem when the parent is itself; the basin follows */
+  setParent(riverId: number, parentId: number): void {
+    const river = this.living(riverId);
+    this.living(parentId);
+    if (parentId !== riverId && this.chain(parentId).includes(riverId))
+      throw new Error(`River ${parentId} flows into river ${riverId} and cannot be its mainstem`);
+    river.parent = parentId;
+    for (const other of pack.rivers)
+      if (other.i === riverId || this.chain(other.i).includes(riverId)) other.basin = this.getBasin(other.i);
+  }
+
+  /** Set a river's width at its source and how fast it widens downstream; its mouth width follows */
+  setWidth(riverId: number, sourceWidth: number, widthFactor: number): void {
+    const river = this.living(riverId);
+    for (const [label, value] of [
+      ["source width", sourceWidth],
+      ["width factor", widthFactor]
+    ] as const)
+      if (typeof value !== "number" || !(value >= 0 && Number.isFinite(value)))
+        throw new Error(`The ${label} must be a non-negative number`);
+    river.sourceWidth = sourceWidth;
+    river.widthFactor = widthFactor;
+    this.updateWidth(river);
+  }
+
+  /** Draw a river through cells from source to mouth, each a neighbor of the one before (`pack.cells.c`); it joins the river at its last cell, if any. Returns its id */
+  create(cellIds: number[]): number {
+    const { cells, rivers } = pack;
+    if (!Array.isArray(cellIds) || cellIds.length < 2) throw new Error("A river needs at least 2 cells");
+    if (new Set(cellIds).size !== cellIds.length) throw new Error("A river passes each cell once");
+    for (const cell of cellIds)
+      if (!Number.isInteger(cell) || cell < 0 || cell >= cells.i.length) throw new Error(`Cell ${cell} does not exist`);
+    if (cells.h[cellIds[0]] < 20) throw new Error("A river cannot start in the water");
+
+    const riverId = this.getNextId(rivers);
+    const parent = cells.r[cellIds[cellIds.length - 1]] || riverId;
+    for (const cell of cellIds) if (!cells.r[cell]) cells.r[cell] = riverId;
+
+    const source = cellIds[0];
+    const mouth = parent === riverId ? cellIds[cellIds.length - 1] : cellIds[cellIds.length - 2];
+    const widthFactor = 1.2 * rn(1 / (options.map.graph.points / 10000) ** 0.25, 2);
+    const river = {
+      i: riverId,
+      source,
+      mouth,
+      discharge: cells.fl[mouth], // m3 in second
+      length: this.getApproximateLength(this.addMeandering(cellIds) as unknown as Point[]),
+      width: 0,
+      widthFactor,
+      sourceWidth: this.getSourceWidth(cells.fl[source]),
+      parent,
+      cells: cellIds,
+      basin: this.getBasin(parent),
+      name: this.getName(mouth),
+      type: "River",
+      tags: []
+    } as River;
+    this.updateWidth(river);
+    rivers.push(river);
+    return riverId;
+  }
+
+  /** Mouth width from the discharge, the source width and the width factor */
+  updateWidth(river: River): void {
+    const { cells, discharge, widthFactor, sourceWidth } = river;
+    river.width = this.getWidth(
+      this.getOffset({
+        flux: discharge,
+        pointIndex: this.addMeandering(cells).length,
+        widthFactor,
+        startingWidth: sourceWidth
+      })
+    );
+  }
+
+  /** The rivers a river flows into, nearest first */
+  private chain(riverId: number): number[] {
+    const chain: number[] = [];
+    for (let parent = this.getParent(riverId); parent !== riverId && !chain.includes(parent); ) {
+      chain.push(parent);
+      riverId = parent;
+      parent = this.getParent(riverId);
+    }
+    return chain;
+  }
+
+  private living(riverId: number): River {
+    const river = pack.rivers.find(r => r.i === riverId);
+    if (!river) throw new Error(`River ${riverId} does not exist`);
+    return river;
+  }
+
+  /** Remove a river with all its tributaries; lakes forget them */
+  remove(riverId: number) {
+    this.living(riverId);
     const cells = pack.cells;
-    const riversToRemove = pack.rivers.filter(r => r.i === id || r.parent === id || r.basin === id).map(r => r.i);
-    riversToRemove.forEach(r => {
-      select("#rivers").select(`#river${r}`).remove();
-    });
+    const riversToRemove = pack.rivers
+      .filter(r => r.i === riverId || r.parent === riverId || r.basin === riverId)
+      .map(r => r.i);
     cells.r.forEach((r, i) => {
       if (!r || !riversToRemove.includes(r)) return;
       cells.r[i] = 0;
@@ -630,6 +852,7 @@ class RiverModule {
       cells.conf[i] = 0;
     });
     pack.rivers = pack.rivers.filter(r => !riversToRemove.includes(r.i));
+    Lakes.cleanupLakeData(); // lakes drop the removed rivers from their inlets and outlet
   }
 
   getParent(r: number): number {
@@ -709,4 +932,6 @@ declare global {
   var Rivers: RiverModule;
 }
 
-window.Rivers = new RiverModule();
+// biome-ignore lint/suspicious/noRedeclare: legacy seam
+export const Rivers = new RiverModule();
+window.Rivers = Rivers;

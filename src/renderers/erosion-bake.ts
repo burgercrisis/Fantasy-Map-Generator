@@ -51,12 +51,13 @@ export function makeKey(params: BakeParams): string {
     }
   };
 
+  const raster = Grid.getRaster();
   const paramString = [
-    seed,
-    graphWidth,
-    graphHeight,
-    grid.cellsX,
-    grid.cellsY,
+    options.map.seed,
+    options.map.graph.width,
+    options.map.graph.height,
+    raster.width,
+    raster.height,
     params.strength,
     params.riverDepth,
     params.octaves,
@@ -72,7 +73,7 @@ export function makeKey(params: BakeParams): string {
 }
 
 function getBakeSize(bakeResolution: number): [number, number] {
-  const aspect = graphHeight / graphWidth;
+  const aspect = options.map.graph.height / options.map.graph.width;
   const long = bakeResolution;
   const short = Math.max(64, Math.round(long * (aspect <= 1 ? aspect : 1 / aspect)));
   return aspect <= 1 ? [long, short] : [short, long];
@@ -81,7 +82,6 @@ function getBakeSize(bakeResolution: number): [number, number] {
 // R: height 0-100: bilinear filtering approximates the heightfield.
 // G: delta 0-255: the max height delta to a LAND neighbor cell, scaled x10.
 function buildHeightTexture() {
-  const { cellsX, cellsY } = grid;
   const n = grid.cells.h.length;
   const data = new Uint8Array(n * 4);
 
@@ -112,7 +112,14 @@ function buildHeightTexture() {
     data[i * 4 + 3] = 255;
   }
 
-  const texture = new THREE.DataTexture(data, cellsX, cellsY, THREE.RGBAFormat, THREE.UnsignedByteType);
+  return buildGridTexture(data);
+}
+
+/** linear-filtered RGBA texture over the grid raster from 4 bytes per grid cell */
+export function buildGridTexture(cellData: Uint8Array): THREEType.DataTexture {
+  const raster = Grid.getRaster();
+  const pixels = Grid.rasterize(cellData, raster, 4);
+  const texture = new THREE.DataTexture(pixels, raster.width, raster.height, THREE.RGBAFormat, THREE.UnsignedByteType);
   texture.minFilter = texture.magFilter = THREE.LinearFilter;
   texture.needsUpdate = true;
   return texture;
@@ -124,8 +131,8 @@ function buildHeightTexture() {
 // Returns {texture, data}; data is kept in the bake cache for the terrain
 // texture pass (see renderers/draw-satellite-texture)
 function buildCoastTexture(bakeW: number, bakeH: number) {
-  const scaleX = bakeW / graphWidth;
-  const scaleY = bakeH / graphHeight;
+  const scaleX = bakeW / options.map.graph.width;
+  const scaleY = bakeH / options.map.graph.height;
   const isLand = (feature: any) => feature && feature.type !== "ocean" && feature.type !== "lake";
 
   const maskCanvas = document.createElement("canvas");
@@ -378,7 +385,7 @@ function buildRiverCanvas(bakeW: number, bakeH: number) {
     if (points.length > 1) riverLines.push(chaikinSmooth(points, 2));
   }
 
-  const scale = canvas.width / graphWidth;
+  const scale = canvas.width / options.map.graph.width;
   const valleyBase = grid.spacing * 0.6; // minimum valley width in map units
   const passes = [
     { grow: 1, gray: 255 },
@@ -449,9 +456,9 @@ const fragmentShader = /* glsl */ `
     uniform sampler2D uCoast;  // R: blurred land mask (0.5 = true coastline),
                                // G: water surface byte 0-100 -- bake resolution, sampled directly
     uniform sampler2D uRivers; // R: valley intensity
-    uniform vec2 uGridSize;    // (cellsX, cellsY)
+    uniform vec2 uGridSize;    // grid raster size in pixels
     uniform vec2 uResolution;  // bake size in px
-    uniform float uAspect;     // graphHeight / graphWidth
+    uniform float uAspect;     // map height / map width
     uniform float uSeed;
     uniform float uStrength;   // gully amplitude factor (1 = default)
     uniform float uRiverDepth; // 0..1
@@ -736,10 +743,10 @@ function runErosionPass(
       uHeight: { value: textures.height },
       uCoast: { value: textures.coast },
       uRivers: { value: textures.rivers },
-      uGridSize: { value: new THREE.Vector2(grid.cellsX, grid.cellsY) },
+      uGridSize: { value: new THREE.Vector2(textures.height.image.width, textures.height.image.height) },
       uResolution: { value: new THREE.Vector2(bakeW, bakeH) },
-      uAspect: { value: graphHeight / graphWidth },
-      uSeed: { value: (Number.parseInt(seed, 10) % 1e5 || 1) / 1e5 + 1 },
+      uAspect: { value: options.map.graph.height / options.map.graph.width },
+      uSeed: { value: (Number.parseInt(options.map.seed, 10) % 1e5 || 1) / 1e5 + 1 },
       uStrength: { value: params.strength / 50 },
       uRiverDepth: { value: params.riverDepth / 100 },
       uOctaves: { value: params.octaves }
@@ -784,8 +791,8 @@ function runErosionPass(
 function enforceDownhillCourses(bakeResult: ErosionBakeResult) {
   if (!pack.rivers?.length) return;
   const { heights, pixels, coast, cols, rows } = bakeResult;
-  const scaleX = cols / graphWidth;
-  const scaleY = rows / graphHeight;
+  const scaleX = cols / options.map.graph.width;
+  const scaleY = rows / options.map.graph.height;
   const EPSILON = 1e-4; // ~0.01 height units: ignore sub-visible bumps
 
   const lowerTexel = (index: number, target: number) => {
@@ -909,8 +916,8 @@ export async function bake(renderer: THREEType.WebGLRenderer, params: BakeParams
 function sampleField(bakeData: ErosionBakeResult, field: ArrayLike<number>, x: number, y: number) {
   const { cols, rows } = bakeData;
 
-  const fx = Math.min(Math.max((x / graphWidth) * cols - 0.5, 0), cols - 1);
-  const fy = Math.min(Math.max((y / graphHeight) * rows - 0.5, 0), rows - 1);
+  const fx = Math.min(Math.max((x / options.map.graph.width) * cols - 0.5, 0), cols - 1);
+  const fy = Math.min(Math.max((y / options.map.graph.height) * rows - 0.5, 0), rows - 1);
   const x0 = Math.floor(fx);
   const y0 = Math.floor(fy);
   const x1 = Math.min(x0 + 1, cols - 1);

@@ -1,5 +1,4 @@
 import type { PackedGraph } from "../types/PackedGraph";
-import { ensureEl } from "./nodeUtils";
 import { rn } from "./numberUtils";
 
 type TemperatureScale = "°C" | "°F" | "K" | "°R" | "°De" | "°N" | "°Ré" | "°Rø";
@@ -10,7 +9,7 @@ type TemperatureScale = "°C" | "°F" | "K" | "°R" | "°De" | "°N" | "°Ré" |
  * @returns {string} - Converted temperature with unit
  */
 export const convertTemperature = (temperatureInCelsius: number, targetScale?: TemperatureScale) => {
-  const scale = targetScale || (ensureEl<HTMLSelectElement>("temperatureScale").value as TemperatureScale) || "°C";
+  const scale = targetScale || (options.map.units.temperature.unit as TemperatureScale) || "°C";
   const temperatureConversionMap: { [key: string]: (temp: number) => string } = {
     "°C": (temp: number) => `${rn(temp)}°C`,
     "°F": (temp: number) => `${rn((temp * 9) / 5 + 32)}°F`,
@@ -58,18 +57,29 @@ export const getIntegerFromSI = (value: string): number => {
  * @returns {string} - The converted height with unit
  */
 export function getHeight(h: number, abs = false): string {
-  const unit = ensureEl<HTMLSelectElement>("heightUnit").value;
-  let unitRatio = 3.281; // default calculations are in feet
-  if (unit === "m")
-    unitRatio = 1; // if meter
-  else if (unit === "f") unitRatio = 0.5468; // if fathom
+  const meters = heightToMeters(h);
+  return `${rn((abs ? Math.abs(meters) : meters) * getHeightUnitRatio())}${options.map.units.height.unit}`;
+}
 
-  let height = -990;
-  if (h >= 20) height = (h - 18) ** +heightExponentInput.value;
-  else if (h < 20 && h > 0) height = ((h - 20) / h) * 50;
+/** How many user height units make a meter; custom units are counted in feet */
+export function getHeightUnitRatio(): number {
+  const unit = options.map.units.height.unit;
+  if (unit === "m") return 1;
+  if (unit === "f") return 0.5468; // fathom
+  return 3.281; // foot
+}
 
-  if (abs) height = Math.abs(height);
-  return `${rn(height * unitRatio)}${unit}`;
+/** Real-world height in meters of a generator height, negative below sea level */
+export function heightToMeters(h: number): number {
+  if (h >= 20) return (h - 18) ** options.map.units.height.exponent;
+  if (h > 0) return ((h - 20) / h) * 50;
+  return -990;
+}
+
+/** Generator height of a real-world height in meters, the inverse of heightToMeters */
+export function metersToHeight(meters: number): number {
+  if (meters >= 0) return 18 + meters ** (1 / options.map.units.height.exponent);
+  return 1000 / (50 - meters);
 }
 
 /** Format precipitation in millimeters */
@@ -89,11 +99,21 @@ export function getFriendlyHeight([x, y]: [number, number], pack: PackedGraph, g
   return getHeight(packH < 20 ? gridH : packH);
 }
 
+/** People from population points: rural points plus urban points, which count urbanization */
+export function getPeople(rural = 0, urban = 0): number {
+  const { scale, urbanization } = options.map.units.population;
+  return Math.round(rural * scale + urban * scale * urbanization.rate);
+}
+
 /** Get [rural, urban] real-world population of a cell */
 export function getCellPopulation(cellId: number, pack: PackedGraph): [number, number] {
-  const rural = pack.cells.pop[cellId] * populationRate;
+  const rural = pack.cells.pop[cellId] * options.map.units.population.scale;
   const burgId = pack.cells.burg[cellId];
-  const urban = burgId ? (pack.burgs[burgId].population || 0) * populationRate * urbanization : 0;
+  const urban = burgId
+    ? (pack.burgs[burgId].population || 0) *
+      options.map.units.population.scale *
+      options.map.units.population.urbanization.rate
+    : 0;
   return [rural, urban];
 }
 
@@ -157,15 +177,60 @@ export function getTemperatureLikeness(temperature: number): string | null {
   return meanTempCityMap[temperature] || null;
 }
 
+// kilometers in one distance unit; a custom unit is taken as kilometers
+const KM_IN_DISTANCE_UNIT: Record<string, number> = {
+  km: 1,
+  mi: 1.609344,
+  lg: 4.828032, // land league: 3 miles
+  vr: 1.0668, // versta
+  nmi: 1.852,
+  nlg: 5.556 // nautical league: 3 nautical miles
+};
+
+/** The distance unit selected in the Units editor, e.g. "mi" */
+export function getDistanceUnit(): string {
+  return options.map.units.distance.unit || "km";
+}
+
+/** A length in map units in the user distance unit, e.g. "92 mi" */
+export function getDistance(length: number): string {
+  return `${rn(length * options.map.units.distance.scale)} ${getDistanceUnit()}`;
+}
+
+/** Kilometers in one user distance unit, 0 for an unrecognized (custom) unit */
+export function getKmInDistanceUnit(): number {
+  return KM_IN_DISTANCE_UNIT[getDistanceUnit()] ?? 0;
+}
+
+/** How many user distance units make a kilometer, 1 for unknown (custom) units */
+export function getDistanceUnitRatio(): number {
+  const km = getKmInDistanceUnit();
+  return km ? 1 / km : 1;
+}
+
+/** Convert a stored speed (always km/h) into the user distance unit per hour */
+export function convertSpeed(speedInKmH: number): number {
+  return rn(speedInKmH * getDistanceUnitRatio(), 1);
+}
+
+/** Format a stored km/h speed for display, e.g. "2.8 mi/h" */
+export function formatSpeed(speedInKmH: number): string {
+  return `${convertSpeed(speedInKmH)} ${getDistanceUnit()}/h`;
+}
+
+/** Convert a speed the user typed in their distance unit per hour back into stored km/h */
+export function parseSpeed(speedInUnits: number): number {
+  return speedInUnits / getDistanceUnitRatio();
+}
+
 /**
  * Get the area unit as configured by the user
  * @param squareMark - The mark appended to a linear unit to make it square
  * @returns {string} - The area unit, e.g. "mi²"
  */
 export function getAreaUnit(squareMark = "²"): string {
-  const areaUnit = ensureEl<HTMLSelectElement>("areaUnit").value;
-  if (areaUnit !== "square") return areaUnit;
-  return ensureEl<HTMLInputElement>("distanceUnitInput").value + squareMark;
+  if (options.map.units.area.unit !== "square") return options.map.units.area.unit;
+  return options.map.units.distance.unit + squareMark;
 }
 
 /**
@@ -174,5 +239,5 @@ export function getAreaUnit(squareMark = "²"): string {
  * @returns {number} - The area in real-world units
  */
 export function getArea(rawArea: number): number {
-  return rawArea * distanceScale ** 2;
+  return rawArea * options.map.units.distance.scale ** 2;
 }

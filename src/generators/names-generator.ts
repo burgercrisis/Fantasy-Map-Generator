@@ -1,54 +1,17 @@
 import { tip } from "@/components/tooltips";
 import { getDefaultNameBases, type NameBase } from "@/data/name-bases";
-import { stored, unlock } from "@/utils/preferences";
+import { sentences, t } from "@/utils/i18n";
 import { capitalize, isVowel, last, P, ra, rand } from "../utils";
-import { fantasyRaceBases } from "./races";
-
-// Pre-computed set of all fantasy race base indices for efficient lookup in getState()
-const fantasyBaseIndexSet = new Set<number>();
-for (const bases of Object.values(fantasyRaceBases)) {
-  if (Array.isArray(bases)) {
-    for (const b of bases) {
-      if (typeof b === "number") fantasyBaseIndexSet.add(b);
-    }
-  }
-}
 
 declare global {
   var Names: NamesGenerator;
-}
-
-/** Minimal culture reference for namebase lookup (avoids circular import of Culture type) */
-interface CultureRef {
-  base?: number;
-  removed?: boolean;
 }
 
 // Markov chain lookup table: key is a letter (or empty string for word start), value is array of possible next syllables
 // Note: Uses array with string keys (sparse array) to match original JS behavior
 type MarkovChain = string[][] & Record<string, string[]>;
 
-// Use case for name generation, affecting length range selection
-type UseCase =
-  | "map"
-  | "state"
-  | "capital"
-  | "town"
-  | "city"
-  | "settlement"
-  | "village"
-  | "hamlet"
-  | "culture"
-  | "people"
-  | "religion"
-  | "faith"
-  | "deity";
-
-// Name length range for a given use case
-interface NameRange {
-  min: number;
-  max: number;
-}
+const SYLLABIC = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u;
 
 class NamesGenerator {
   nameBases: NameBase[] = this.getNameBases();
@@ -73,6 +36,7 @@ class NamesGenerator {
           syllable += that;
           if (syllable === " " || syllable === "-") break; // syllable starts with space or hyphen
           if (!next || next === " " || next === "-") break; // no need to check
+          if (SYLLABIC.test(that) || SYLLABIC.test(next)) break; // CJK character is a syllable on its own
 
           if (isVowel(that)) v = 1; // check if letter is vowel
 
@@ -113,23 +77,12 @@ class NamesGenerator {
       return "ERROR";
     }
 
-    // Check if the base is valid (has name data)
-    const isValidBase = (b: number) => {
-      return this.nameBases[b]?.b && this.nameBases[b].b.length > 0;
-    };
-
-    if (!isValidBase(base)) {
-      // Find the first valid namebase as fallback
-      const fallbackBase = this.nameBases.findIndex((b, _i) => b?.b && b.b.length > 0);
-      if (fallbackBase >= 0) {
-        if (this.nameBases[base] === undefined) {
-          WARN && console.warn(`Namebase ${base} is not found. Using fallback namebase ${fallbackBase}`);
-        } else {
-          WARN && console.warn(`Namebase ${base} has invalid data. Using fallback namebase ${fallbackBase}`);
-        }
-        base = fallbackBase;
+    if (this.nameBases[base] === undefined) {
+      if (this.nameBases[0]) {
+        WARN && console.warn(`Namebase ${base} is not found. First available namebase will be used`);
+        base = 0;
       } else {
-        ERROR && console.error(`Namebase ${base} is not found and no valid fallback exists`);
+        ERROR && console.error(`Namebase ${base} is not found`);
         return "ERROR";
       }
     }
@@ -138,25 +91,12 @@ class NamesGenerator {
 
     const data = this.chains[base];
     if (!data || data[""] === undefined) {
-      // Chain generation failed - try fallback
-      const fallbackBase = this.nameBases.findIndex(
-        (b, i) =>
-          b?.b && b.b.length > 0 && i !== base && this.chains[i] && this.chains[i] && this.chains[i][""] !== undefined
+      tip(
+        sentences(t("Namesbase {{base}} is incorrect", { base }), t("Please check in namesbase editor")),
+        false,
+        "error"
       );
-      if (fallbackBase >= 0) {
-        WARN && console.warn(`Namebase ${base} chain is invalid. Using fallback namebase ${fallbackBase}`);
-        base = fallbackBase;
-      } else {
-        tip(`Namesbase ${base} is incorrect. Please check in namesbase editor`, false, "error");
-        ERROR && console.error(`Namebase ${base} is incorrect!`);
-        return "ERROR";
-      }
-    }
-
-    // Update data after potential fallback
-    const chainData = this.chains[base];
-    if (!chainData || chainData[""] === undefined) {
-      ERROR && console.error(`Namebase ${base} chain is invalid after fallback!`);
+      ERROR && console.error(`Namebase ${base} is incorrect!`);
       return "ERROR";
     }
 
@@ -164,7 +104,7 @@ class NamesGenerator {
     if (!max) max = this.nameBases[base].max;
     if (dupl !== "") dupl = this.nameBases[base].d;
 
-    let v = chainData[""],
+    let v = data[""],
       cur = ra(v),
       w = "";
     for (let i = 0; i < 20; i++) {
@@ -173,14 +113,14 @@ class NamesGenerator {
         if (w.length < min) {
           cur = "";
           w = "";
-          v = chainData[""];
+          v = data[""];
         } else break;
       } else {
         if (w.length + cur.length > max) {
           // word too long
           if (w.length < min) w += cur;
           break;
-        } else v = chainData[last(cur.split("")) as string] || chainData[""];
+        } else v = data[last(cur.split("")) as string] || data[""];
       }
 
       w += cur;
@@ -210,57 +150,30 @@ class NamesGenerator {
         .join("");
 
     if (name.length < 2) {
-      // Name is too short - try to pick a random name from the base
-      const baseNames = this.nameBases[base].b.split(",").filter(n => n.trim().length >= 2);
-      if (baseNames.length > 0) {
-        name = ra(baseNames);
-      } else {
-        // Base has no valid names - try fallback bases
-        for (let i = 0; i < this.nameBases.length; i++) {
-          if (i === base || !this.nameBases[i] || !this.nameBases[i].b) continue;
-          const fallbackNames = this.nameBases[i].b.split(",").filter(n => n.trim().length >= 2);
-          if (fallbackNames.length > 0) {
-            WARN && console.warn(`Namebase ${base} produced too short name. Using fallback namebase ${i}`);
-            name = ra(fallbackNames);
-            break;
-          }
-        }
-      }
-      if (name.length < 2) {
-        ERROR && console.error("Name is too short! Random name will be selected");
-      }
+      ERROR && console.error("Name is too short! Random name will be selected");
+      name = ra(this.nameBases[base].b.split(","));
     }
-
-    name = this.sanitizeName(name);
 
     return name;
   }
 
   // generate name for culture
-  getCulture(culture: number, min?: number, max?: number, dupl?: string, base?: number): string {
+  getCulture(culture: number, min?: number, max?: number, dupl?: string): string {
     if (culture === undefined) {
       ERROR && console.error("Please define a culture");
       return "ERROR";
     }
-    const resolvedBase = typeof base === "number" ? base : pack.cultures[culture].base;
-    return this.getBase(resolvedBase, min, max, dupl);
+    const base = pack.cultures[culture].base;
+    return this.getBase(base, min, max, dupl);
   }
 
   // generate short name for culture
-  getCultureShort(culture: number, base?: number): string {
+  getCultureShort(culture: number): string {
     if (culture === undefined) {
       ERROR && console.error("Please define a culture");
       return "ERROR";
     }
-    const resolvedBase = typeof base === "number" ? base : pack.cultures[culture].base;
-    return this.getBaseShort(resolvedBase);
-  }
-
-  // pick a random namebase index, skipping sparse-array holes
-  getRandomBaseIndex(): number {
-    const validIndices = this.nameBases.map((nb, i) => (nb ? i : -1)).filter(i => i >= 0);
-    if (validIndices.length === 0) return 0;
-    return validIndices[rand(validIndices.length - 1)];
+    return this.getBaseShort(pack.cultures[culture].base);
   }
 
   // generate short name for base
@@ -311,10 +224,8 @@ class NamesGenerator {
     else if (base === 18 && P(0.4))
       name = isVowel(name.slice(0, 1).toLowerCase()) ? `Al${name.toLowerCase()}` : `Al ${name}`; // Arabic starts with -Al
 
-    // no suffix for fantasy bases and race mixer bases
-    const baseEntry = this.nameBases[base];
-    const isFantasyBase = baseEntry && (baseEntry.raceMixerFor || fantasyBaseIndexSet.has(base));
-    if (isFantasyBase) return name;
+    // no suffix for fantasy bases
+    if (base > 32 && base < 42) return name;
 
     // define if suffix should be used
     if (name.length > 3 && isVowel(name.slice(-1))) {
@@ -361,195 +272,46 @@ class NamesGenerator {
     else if (base === 14) suffix = rnd < 0.5 && l < 6 ? "tlan" : "co";
     // Nahuatl
     else if (base === 17 && rnd < 0.8) suffix = "a";
-    // Berber
+    // Amazigh
     else if (base === 18 && rnd < 0.8) suffix = "a"; // Arabic
 
     return this.validateSuffix(name, suffix);
   }
 
   // generate name for the map
-  getMapName(force: boolean) {
-    if (!force && stored("mapName")) return;
-    if (force && stored("mapName")) unlock("mapName");
-
-    const base = this.pickMapNameBase();
-    if (base === undefined) return;
-
+  getMapName(): string {
+    const base = P(0.7) ? 2 : P(0.5) ? rand(0, 6) : rand(0, 31);
     if (!this.nameBases[base]) {
-      tip("Namebase is not found", false, "error");
+      tip(t("Namebase is not found"), false, "error");
       return "";
     }
-    const range = this.getUseCaseRange(base, "map");
-    const min = range.min;
-    const max = range.max;
+    const min = this.nameBases[base].min - 1;
+    const max = Math.max(this.nameBases[base].max - 3, min);
     const baseName = this.getBase(base, min, max, "") as string;
     const name = P(0.7) ? this.addSuffix(baseName) : baseName;
-    mapName.value = name;
-  }
-
-  /**
-   * Pick a namebase for the map name from bases currently in use by cultures
-   * on the map. This includes both built-in and mixer-generated bases.
-   * Falls back to the classic random selection if no cultures exist.
-   */
-  private pickMapNameBase(): number | undefined {
-    const cultures = (pack as unknown as { cultures?: CultureRef[] }).cultures;
-    if (Array.isArray(cultures)) {
-      const inUse = new Set<number>();
-      for (const culture of cultures) {
-        if (!culture || culture.removed || typeof culture.base !== "number") continue;
-        if (this.nameBases[culture.base]) inUse.add(culture.base);
-      }
-      if (inUse.size > 0) {
-        const bases = Array.from(inUse);
-        return bases[rand(bases.length - 1)];
-      }
-    }
-
-    // Fallback: classic random selection (no cultures on map)
-    return P(0.7) ? 2 : P(0.5) ? rand(0, 6) : rand(0, 31);
+    return name;
   }
 
   getNameBases(): NameBase[] {
     return getDefaultNameBases();
   }
 
-  /**
-   * Returns a random valid namebase index, accounting for sparse array gaps.
-   * Uses defaultNameBaseIds if available, otherwise falls back to array length.
-   */
-  getRandomValidBaseIndex(): number {
-    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
-    if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
-      return validBaseIds[rand(validBaseIds.length - 1)];
-    }
-    return rand(this.nameBases.length - 1);
+  /** The calendar era: a name base plus "Era", weighted to the base most eras are built on */
+  getEra(): string {
+    return `${this.getBaseShort(P(0.7) ? 1 : rand(this.nameBases.length))} Era`;
   }
 
-  /**
-   * Sanitize a generated name by stripping artifacts introduced by the race
-   * language mixer: digits, pipes, `_unq\d+` / `_u\d+` unique-suffix tokens,
-   * and underscores. Used internally by getBase and exposed for callers that
-   * generate names from mixer output.
-   */
-  sanitizeName(name: string): string {
-    if (typeof name !== "string") return name;
-    return name
-      .replace(/\d/g, "")
-      .replace(/\|/g, "")
-      .replace(/_unq\d+\b/gi, "")
-      .replace(/_u\d+\b/gi, "")
-      .replace(/_/g, "");
-  }
-
-  /**
-   * Race-aware namebase selection for a given cell.
-   *
-   * Reads the cell's race from `pack.cells.race`, resolves the race name from
-   * `pack.races`, and (if the race mixer is available) maps it to a mixer
-   * namebase index via `ensureRaceMixerBaseIndex`. Falls back to the culture's
-   * base when no race base can be resolved.
-   *
-   * @param cell - cell index into pack.cells.race
-   * @param culture - culture index used for the fallback base
-   * @returns namebase index to pass to getBase
-   */
-  getBaseForCell(cell?: number, culture?: number): number {
-    if (cell === undefined) return 0;
-
-    const cultureBase =
-      culture && pack?.cultures?.[culture] && typeof pack.cultures[culture].base === "number"
-        ? pack.cultures[culture].base
-        : 0;
-
-    // pack.cells.race and pack.races are runtime-only (set by races.ts) and
-    // not part of the static PackedGraph type, so access via a narrow cast.
-    const packCells = (pack as unknown as { cells: { race?: number[] } }).cells;
-    const raceId = packCells?.race && typeof packCells.race[cell] === "number" ? packCells.race[cell]! : 0;
-    if (!raceId) return cultureBase;
-
-    const packRaces = (pack as unknown as { races: { name?: string }[] }).races;
-    const raceName = packRaces?.[raceId] && typeof packRaces[raceId].name === "string" ? packRaces[raceId].name : "";
-    if (!raceName || raceName === "None") return cultureBase;
-
-    const ensureRaceMixerBaseIndex = (
-      window as unknown as { ensureRaceMixerBaseIndex?: (raceName: string) => number | null }
-    ).ensureRaceMixerBaseIndex;
-    if (typeof ensureRaceMixerBaseIndex === "function") {
-      const base = ensureRaceMixerBaseIndex(raceName);
-      if (typeof base === "number") return base;
-    }
-
-    return cultureBase;
-  }
-
-  /**
-   * Return a name length range (min/max) tuned for a specific use case.
-   *
-   * Different map features benefit from different name lengths: map and state
-   * names skew longer, village/hamlet names skew shorter, etc. The range is
-   * derived from the namebase's home min/max and clamped so max >= min.
-   *
-   * @param base - namebase index
-   * @param useCase - the feature the name is being generated for
-   * @returns { min, max } length range
-   */
-  getUseCaseRange(base: number, useCase: string): NameRange {
-    const b = this.nameBases[base];
-    if (!b || typeof b.min !== "number" || typeof b.max !== "number") {
-      return { min: 4, max: 10 };
-    }
-
-    const homeMin = b.min;
-    const homeMax = b.max;
-    const span = homeMax - homeMin || 1;
-    const mid = homeMin + span / 2;
-
-    let min = homeMin;
-    let max = homeMax;
-
-    switch (useCase as UseCase) {
-      case "map":
-        min = Math.max(homeMin, Math.round(mid));
-        max = Math.min(homeMax + 3, homeMin + span + 4);
-        break;
-      case "state":
-        min = Math.max(homeMin, Math.round(mid));
-        max = Math.min(homeMax + 2, homeMin + span + 3);
-        break;
-      case "capital":
-        min = Math.max(homeMin, Math.round(homeMin + span * 0.6));
-        max = homeMax + 1;
-        break;
-      case "town":
-      case "city":
-      case "settlement":
-        min = homeMin;
-        max = homeMax;
-        break;
-      case "village":
-      case "hamlet":
-        min = homeMin;
-        max = Math.max(homeMin + 1, Math.round(mid));
-        break;
-      case "culture":
-      case "people":
-        min = Math.max(homeMin, Math.floor(homeMin + span * 0.3));
-        max = Math.min(homeMax, Math.round(homeMin + span * 0.9));
-        break;
-      case "religion":
-      case "faith":
-      case "deity":
-        min = Math.max(homeMin, Math.round(mid));
-        max = homeMax + 3;
-        break;
-      default:
-        break;
-    }
-
-    if (max < min) max = min;
-    return { min, max };
+  /** The abbreviation an era name suggests, which the user may override */
+  getEraShort(era: string): string {
+    return era
+      .split(" ")
+      .filter(Boolean)
+      .map(word => word[0].toUpperCase())
+      .join("");
   }
 }
 
-window.Names = new NamesGenerator();
+// biome-ignore lint/suspicious/noRedeclare: legacy seam
+export const Names = new NamesGenerator();
+
+window.Names = Names;

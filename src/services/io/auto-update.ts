@@ -1,24 +1,102 @@
 // Update an old map file to the current version
+
 import { color, min, select } from "d3";
+import { confirmationDialog } from "@/components/dialog/dialog-helpers";
+import { CustomIcons, IMAGE_FRAME } from "@/components/icons";
 import { type LayerId, Layers, type LayersState } from "@/components/layers";
-import { RELIEF_SETS } from "@/data/relief-icons";
-import { defaultOptions } from "@/data/view-3d-options";
+import { type EntityRef, MapEntities } from "@/components/map-entities";
+import { normalizeLegacyBurgGroupFilters } from "@/components/options-legacy";
+import type { MapData } from "@/components/options-schema";
+import { IconPictures } from "@/controllers/icon-picker/pictures";
 import { Emblems } from "@/generators/emblems-generator";
+import { type Feature, LAKE_SUBTYPES, OCEAN_SUBTYPES } from "@/generators/features-generator";
 import type { GraphOverrides } from "@/generators/graph-override";
-import type { Label, LabelNameMode } from "@/generators/labels-generator";
+import { type Label, type LabelNameMode, Labels as LabelsGenerator } from "@/generators/labels-generator";
+import { getDefaultMarkerName, type Marker } from "@/generators/markers-generator";
 import type { Measurer, MeasurerType } from "@/generators/measurers-generator";
+import { Notes } from "@/generators/notes";
+import { Relief, type ReliefIcon, type ReliefIconType, type ReliefSet } from "@/generators/relief-generator";
+import { Styles } from "@/generators/styles";
+import {
+  adoptLegacyIconSlots,
+  labelGroupFromLegacy,
+  lakeGroupFromSvg,
+  migrateStyles,
+  normalizeStyles,
+  restoreStrippedLayerStyles,
+  stripDisplay,
+  stylesFromMap
+} from "@/generators/styles-legacy";
 import type { Point } from "@/generators/voronoi";
+import { Hatches } from "@/renderers/hatches";
 import { getGroupStyle } from "@/renderers/labels/label-groups";
 import { unfog } from "@/renderers/overlays/fogging";
-
+import { StylePresetsService } from "@/services/style-presets";
 import { compareVersions } from "@/services/versioning";
-import type { ReliefSet } from "@/types/relief";
-import type { LabelGroupStyle } from "@/types/style";
-import { ensureEl, findEl, P, parseTransform, rand, rn, rw, safeParseJSON, unique } from "@/utils";
+import type { StylesData } from "@/types/styles";
+import {
+  ensureEl,
+  findEl,
+  minmax,
+  parseTransform,
+  rn,
+  rw,
+  safeParseJSON,
+  sanitizeSvgIcon,
+  scopeSvgIcon,
+  unique
+} from "@/utils";
+import { t } from "@/utils/i18n";
 import { parsePathPoints } from "@/utils/pathUtils";
+import { Csv } from "./csv";
+
+type LegacyBurgGroup = Omit<MapData["burgs"]["groups"][number], "biomes" | "states" | "cultures" | "religions"> & {
+  biomes?: number[] | string;
+  states?: number[] | string;
+  cultures?: number[] | string;
+  religions?: number[] | string;
+};
+
+const LEGACY_LAYER_IDS: Record<string, LayerId> = {
+  toggleTexture: "texture",
+  toggleHeight: "heightmap",
+  toggleLakes: "lakes",
+  toggleBiomes: "biomes",
+  toggleCells: "cells",
+  toggleGrid: "grid",
+  toggleCoordinates: "coordinates",
+  toggleCompass: "compass",
+  toggleRivers: "rivers",
+  toggleRelief: "relief",
+  toggleReligions: "religions",
+  toggleCultures: "cultures",
+  toggleStates: "states",
+  toggleProvinces: "provinces",
+  toggleZones: "zones",
+  toggleBorders: "borders",
+  toggleRoutes: "routes",
+  toggleTemperature: "temperature",
+  toggleIce: "ice",
+  toggleGoods: "goods",
+  toggleMarketsLayer: "markets",
+  toggleTrade: "trade",
+  togglePrecipitation: "precipitation",
+  togglePopulation: "population",
+  toggleEmblems: "emblems",
+  toggleBurgIcons: "burgIcons",
+  toggleLabels: "labels",
+  toggleMilitary: "military",
+  toggleMarkers: "markers",
+  toggleRulers: "rulers",
+  toggleScaleBar: "scaleBar",
+  toggleVignette: "vignette"
+};
 
 export async function resolveVersionConflicts(mapVersion: string, data: string[]): Promise<void> {
   const isOlderThan = (tagVersion: string) => compareVersions(mapVersion, tagVersion).isOlder;
+  const noteRenames = new Map<string, string>(); // legacy element id -> the id the element has now
+  type LegacyReliefIcon = { icon: string; x: number; y: number; s: number };
+  let extractedRelief: LegacyReliefIcon[] | null = null; // read by the 1.154 relief step
 
   if (isOlderThan("1.139.0")) {
     // v1.139.0 moved biomes data from the legacy pipe-delimited format to pack.biomes.
@@ -172,7 +250,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         });
     }
 
-    if (!document.getElementById("freshwater")) {
+    if (!findEl("freshwater")) {
       select("#lakes").append("g").attr("id", "freshwater");
       select("#lakes")
         .select("#freshwater")
@@ -183,7 +261,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         .attr("filter", null);
     }
 
-    if (!document.getElementById("salt")) {
+    if (!findEl("salt")) {
       select("#lakes").append("g").attr("id", "salt");
       select("#lakes")
         .select("#salt")
@@ -195,7 +273,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     }
 
     // v1.1 added new lake and coast groups
-    if (!document.getElementById("sinkhole")) {
+    if (!findEl("sinkhole")) {
       select("#lakes").append("g").attr("id", "sinkhole");
       select("#lakes").append("g").attr("id", "frozen");
       select("#lakes").append("g").attr("id", "lava");
@@ -275,14 +353,13 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
   }
 
   if (isOlderThan("1.21.0")) {
-    // v1.11 replaced "display" attribute by "display" style
+    // v1.11 replaced "display" attribute by "display" style. Only "none" hid the element: layers
+    // that were on carry "block" (compass, prec, fogging), so those just lose the attribute
     select("#viewbox")
-      .selectAll<SVGGElement, unknown>("g")
+      .selectAll<SVGGraphicsElement, unknown>("[display]")
       .each(function () {
-        if (this.hasAttribute("display")) {
-          this.removeAttribute("display");
-          this.style.display = "none";
-        }
+        if (this.getAttribute("display") === "none") this.style.display = "none";
+        this.removeAttribute("display");
       });
 
     // v1.21 added rivers data to pack
@@ -300,7 +377,17 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         const mouth = Pack.findCell(e.x, e.y)!;
         const name = Rivers.getName(mouth);
         const type = length < 25 ? rw({ Creek: 9, River: 3, Brook: 3, Stream: 1 }) : "River";
-        pack.rivers.push({ i, parent: 0, length, source, mouth, basin: i, name, type } as (typeof pack.rivers)[number]);
+        pack.rivers.push({
+          i,
+          parent: 0,
+          length,
+          source,
+          mouth,
+          basin: i,
+          name,
+          type,
+          tags: [] as string[]
+        } as (typeof pack.rivers)[number]);
       });
   }
 
@@ -310,20 +397,12 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
   }
 
   if (isOlderThan("1.3.0")) {
-    // v1.3 added global options object
-    const winds = (options as unknown as number[]).slice(); // previostly wind was saved in settings[19]
-    const year = rand(100, 2000);
-    const era = `${Names.getBaseShort(P(0.7) ? 1 : Names.getRandomValidBaseIndex())} Era`;
-    const eraShort = `${era[0]}E`;
-    const military = Military.getDefaultOptions();
-    options = { winds, year, era, eraShort, military } as typeof options;
-
     // v1.3 added campaings data for all states
     States.generateCampaigns();
 
     // v1.3 added militry layer
     select("#viewbox")
-      .insert("g", "#icons")
+      .insert("g", "#icons") // the pre-1.154 layer group; #burgIcons is nested inside it
       .attr("id", "armies")
       .attr("opacity", 1)
       .attr("fill-opacity", 1)
@@ -355,23 +434,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       .attr("stroke", "#e8f0f6")
       .attr("stroke-width", 1)
       .attr("filter", "url(#dropShadow05)");
-
-    // v1.4 added icon and power attributes for units
-    for (const unit of options.military) {
-      if (!unit.icon) unit.icon = getUnitIcon(unit.type);
-      if (!unit.power) unit.power = unit.crew;
-    }
-
-    function getUnitIcon(type: string) {
-      if (type === "naval") return "🌊";
-      if (type === "ranged") return "🏹";
-      if (type === "mounted") return "🐴";
-      if (type === "machinery") return "💣";
-      if (type === "armored") return "🐢";
-      if (type === "aviation") return "🦅";
-      if (type === "magical") return "🔮";
-      else return "⚔️";
-    }
 
     // v1.4 added state reference for regiments
     pack.states
@@ -426,7 +488,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
   if (isOlderThan("1.6.0")) {
     // v1.6 changed rivers data
     for (const river of pack.rivers) {
-      const el = document.getElementById(`river${river.i}`);
+      const el = findEl(`river${river.i}`);
       if (el) {
         river.widthFactor = +el.getAttribute("data-width")!;
         el.removeAttribute("data-width");
@@ -434,25 +496,24 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         river.discharge = pack.cells.fl[river.mouth] || 1;
         river.width = rn(river.length / 100, 2);
         river.sourceWidth = 0.1;
-      } else {
-        Rivers.remove(river.i);
+      } else if (pack.rivers.some(r => r.i === river.i)) {
+        Rivers.remove(river.i); // a tributary may already be gone with its parent
       }
     }
 
     // v1.6 changed lakes data
     for (const f of pack.features) {
-      if (f.type !== "lake") continue;
+      if (f?.type !== "lake") continue;
       if (f.evaporation) continue;
 
       f.flux = f.flux || f.cells * 3;
       f.temp = grid.cells.temp[pack.cells.g[f.firstCell]];
       const heights = pack.cells.c[f.firstCell].map(c => pack.cells.h[c]).filter(h => h >= 20);
       f.height = f.height || min(heights) || 0;
-      const height = (f.height - 18) ** heightExponentInput.valueAsNumber;
+      const height = (f.height - 18) ** options.map.units.height.exponent;
       const evaporation = ((700 * (f.temp + 0.006 * height)) / 50 + 75) / (80 - f.temp);
       f.evaporation = rn(evaporation * f.cells);
       if (!f.shoreline) f.shoreline = Lakes.defineShoreline(f);
-      f.name = f.name || Lakes.getName(f);
       delete f.river;
     }
   }
@@ -510,10 +571,10 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     if (ruler) ruler.style.display = pack.measurers.length ? "" : "none";
 
     // 1.61 changed oceanicPattern from rect to image
-    const pattern = document.getElementById("oceanic")!;
+    const pattern = ensureEl("oceanic");
     const filter = pattern.firstElementChild!.getAttribute("filter");
     const href = filter ? `./images/${filter.replace("url(#", "").replace(")", "")}.png` : "";
-    pattern.innerHTML = /* html */ `<image id="oceanicPattern" href=${href} width="100" height="100" opacity="0.2"></image>`;
+    pattern.innerHTML = /* html */ `<image id="oceanicPattern" href="${href}" width="100" height="100" opacity="0.2"></image>`;
   }
 
   if (isOlderThan("1.62.0")) {
@@ -523,9 +584,9 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
   if (isOlderThan("1.63.0")) {
     // v1.63 changed ocean pattern opacity element
-    const oceanPattern = document.getElementById("oceanPattern");
+    const oceanPattern = findEl("oceanPattern");
     if (oceanPattern) oceanPattern.removeAttribute("opacity");
-    const oceanicPattern = document.getElementById("oceanicPattern");
+    const oceanicPattern = findEl("oceanicPattern");
     if (oceanicPattern && !oceanicPattern.getAttribute("opacity")) oceanicPattern.setAttribute("opacity", "0.2");
   }
 
@@ -542,10 +603,10 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     // v1.65 changed rivers data
     select("#rivers").attr("style", null); // remove style to unhide layer
     const { cells, rivers } = pack;
-    const defaultWidthFactor = rn(1 / (Number(pointsInput.dataset.cells) / 10000) ** 0.25, 2);
+    const defaultWidthFactor = rn(1 / (options.map.graph.points / 10000) ** 0.25, 2);
 
     for (const river of rivers) {
-      const node = document.getElementById(`river${river.i}`) as unknown as SVGPathElement | null;
+      const node = findEl<SVGPathElement>(`river${river.i}`);
       if (node && !river.cells) {
         const riverCells = [];
         const riverPoints: [number, number][] = [];
@@ -588,8 +649,8 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
   if (isOlderThan("1.7.0")) {
     // v1.7 changed markers data
-    const defs = document.getElementById("defs-markers");
-    const markersGroup = document.getElementById("markers");
+    const defs = findEl("defs-markers");
+    const markersGroup = findEl("markers");
 
     if (defs && markersGroup) {
       const markerElements = markersGroup.querySelectorAll<SVGUseElement>("use");
@@ -597,8 +658,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
       pack.markers = Array.from(markerElements).map((el, i) => {
         const id = el.getAttribute("id");
-        const note = notes.find(note => note.id === id);
-        if (note) note.id = `marker${i}`;
+        if (id) noteRenames.set(id, `marker${i}`);
 
         let x = +el.dataset.x!;
         let y = +el.dataset.y!;
@@ -645,31 +705,15 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     }
   }
 
-  if (isOlderThan("1.72.0")) {
-    // v1.72 renamed custom style presets
-    const storedStyles = Object.keys(localStorage).filter(key => key.startsWith("style"));
-    storedStyles.forEach(styleName => {
-      const style = localStorage.getItem(styleName)!;
-      const newStyleName = styleName.replace(/^style/, customPresetPrefix);
-      localStorage.setItem(newStyleName, style);
-      localStorage.removeItem(styleName);
-    });
-  }
-
   if (isOlderThan("1.73.0")) {
     // v1.73 moved the hatching patterns out of the user's SVG
-    document.getElementById("hatching")?.remove();
+    findEl("hatching")?.remove();
 
     // v1.73 added zone type to UI, ensure type is populated
     const zones = Array.from(document.querySelectorAll<SVGGElement>("#zones > g"));
     zones.forEach(zone => {
       if (!zone.dataset.type) zone.dataset.type = "Unknown";
     });
-  }
-
-  if (isOlderThan("1.84.0")) {
-    // v1.84.0 added grid.cellsDesired to stored data
-    if (!grid.cellsDesired) grid.cellsDesired = rn((graphWidth * graphHeight) / grid.spacing ** 2, -3);
   }
 
   if (isOlderThan("1.85.0")) {
@@ -702,13 +746,13 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
   if (isOlderThan("1.91.0")) {
     // from 1.91.00 custom coa is moved to coa object
     pack.states.forEach(state => {
-      if ((state.coa as unknown) === "custom") state.coa = { custom: true } as typeof state.coa;
+      if ((state.coa as unknown) === "custom") state.coa = { custom: true } as unknown as typeof state.coa;
     });
     pack.provinces.forEach(province => {
-      if ((province.coa as unknown) === "custom") province.coa = { custom: true } as typeof province.coa;
+      if ((province.coa as unknown) === "custom") province.coa = { custom: true } as unknown as typeof province.coa;
     });
     pack.burgs.forEach(burg => {
-      if ((burg.coa as unknown) === "custom") burg.coa = { custom: true } as typeof burg.coa;
+      if ((burg.coa as unknown) === "custom") burg.coa = { custom: true } as unknown as typeof burg.coa;
     });
 
     // from 1.91.00 emblems don't have transform attribute
@@ -866,6 +910,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     select("#scaleBar")
       .append("rect")
       .attr("id", "scaleBarBack")
+      .attr("data-group", "back")
       .attr("opacity", 0.2)
       .attr("fill", "#ffffff")
       .attr("stroke", "#000000")
@@ -897,8 +942,10 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
     if (!select("#compass").selectAll("*").size()) {
       select("#compass").style("display", "none");
-      select("#compass").append("use").attr("xlink:href", "#defs-compass-rose");
-      shiftCompass();
+      select("#compass")
+        .append("use")
+        .attr("xlink:href", "#defs-compass-rose")
+        .attr("transform", styles.compass.groups.compassRose.attrs.transform);
     }
   }
 
@@ -917,6 +964,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       if (!group) continue;
 
       for (const node of g.querySelectorAll<SVGPathElement>("path")) {
+        if (node.id) noteRenames.set(node.id, ""); // a skipped road must not match a reused route id
         const totalLength = node.getTotalLength();
         if (!totalLength) {
           ERROR && console.error("Route path has zero length", node);
@@ -942,7 +990,14 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         const secondCellId = points[1][2];
         const feature = secondCellId === undefined ? undefined : pack.cells.f[secondCellId];
 
-        pack.routes.push({ i: pack.routes.length, group, feature, points } as unknown as (typeof pack.routes)[number]);
+        if (node.id) noteRenames.set(node.id, `route${pack.routes.length}`);
+        pack.routes.push({
+          i: pack.routes.length,
+          group,
+          feature,
+          points,
+          tags: []
+        } as unknown as (typeof pack.routes)[number]);
       }
     }
     select("#routes").selectAll("path").remove();
@@ -976,7 +1031,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         const type = this.dataset.type;
         const color = this.getAttribute("fill");
         const cells = this.dataset.cells!.split(",").map(Number);
-        pack.zones.push({ i, name, type, cells, color } as unknown as (typeof pack.zones)[number]);
+        pack.zones.push({ i, name, type, cells, color, tags: [] } as unknown as (typeof pack.zones)[number]);
       });
     select("#zones").style("display", null).selectAll("*").remove();
   }
@@ -1029,7 +1084,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
   if (isOlderThan("1.109.0")) {
     // v1.109.0 added customizable burg groups and icons
-    options.burgs = { groups: [] };
+    options.map.burgs.groups = [];
 
     select("#burgIcons")
       .selectAll<SVGElement, unknown>("circle, use")
@@ -1045,7 +1100,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       .each(function (_el, index) {
         const name = this.id;
         const isDefault = name === "towns";
-        options.burgs.groups.push({ name, active: true, order: index + 1, isDefault, preview: "watabou-city" });
+        options.map.burgs.groups.push({ name, active: true, order: index + 1, isDefault, preview: "watabou-city" });
         if (!this.dataset.icon) this.dataset.icon = "#icon-circle";
 
         const size = Number(this.getAttribute("size") || 2) * 2;
@@ -1055,8 +1110,8 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         this.setAttribute("stroke-width", "1");
       });
 
-    if (options.burgs.groups.filter(g => g.isDefault).length === 0) {
-      options.burgs.groups[0].isDefault = true;
+    if (options.map.burgs.groups.filter(g => g.isDefault).length === 0) {
+      options.map.burgs.groups[0].isDefault = true;
     }
 
     select("#anchors")
@@ -1073,13 +1128,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         if (!this.dataset.dy) this.dataset.dy = "-0.4";
       });
 
-    const anchorSymbol = ensureEl("icon-anchor");
-    if (anchorSymbol) {
-      anchorSymbol.outerHTML = /* html */ `<symbol id="icon-anchor" viewBox="0 0 30 30" width="1em" height="1em" overflow="visible">
-        <path d="m 1.003,-9.873 c 0,-0.547 -0.453,-1 -1,-1 -0.547,0 -1,0.453 -1,1 0,0.547 0.453,1 1,1 0.547,0 1,-0.453 1,-1 z m 13,14.5 v 5.5 c 0,0.203 -0.125,0.391 -0.313,0.469 -0.063,0.016 -0.125,0.031 -0.187,0.031 -0.125,0 -0.25,-0.047 -0.359,-0.141 L 11.691,9.033 c -2.453,2.953 -6.859,4.844 -11.688,4.844 -4.829,0 -9.234,-1.891 -11.688,-4.844 l -1.453,1.453 c -0.094,0.094 -0.234,0.141 -0.359,0.141 -0.063,0 -0.125,-0.016 -0.187,-0.031 -0.187,-0.078 -0.313,-0.266 -0.313,-0.469 v -5.5 c 0,-0.281 0.219,-0.5 0.5,-0.5 h 5.5 c 0.203,0 0.391,0.125 0.469,0.313 0.078,0.188 0.031,0.391 -0.109,0.547 L -9.2,6.55 c 1.406,1.891 4.109,3.266 7.203,3.687 V 0.128 h -3 c -0.547,0 -1,-0.453 -1,-1 v -2 c 0,-0.547 0.453,-1 1,-1 h 3 v -2.547 c -1.188,-0.688 -2,-1.969 -2,-3.453 0,-2.203 1.797,-4 4,-4 2.203,0 4,1.797 4,4 0,1.484 -0.812,2.766 -2,3.453 v 2.547 h 3 c 0.547,0 1,0.453 1,1 v 2 c 0,0.547 -0.453,1 -1,1 h -3 V 10.237 C 5.097,9.815 7.8,8.44 9.206,6.55 L 7.643,4.987 C 7.502,4.831 7.456,4.628 7.534,4.44 7.612,4.252 7.8,4.127 8.003,4.127 h 5.5 c 0.281,0 0.5,0.219 0.5,0.5 z"/>
-      </symbol>`;
-    }
-
     const validBurgs = pack.burgs.filter(b => b.i && !b.removed);
     const populations = validBurgs.map(b => b.population ?? 0).sort((a, b) => a - b);
     validBurgs.forEach(burg => {
@@ -1092,7 +1140,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       }
     });
 
-    const opts = options as Record<string, unknown>;
+    const opts = options as unknown as Record<string, unknown>;
     delete opts.showBurgPreview;
     delete opts.showMFCGMap;
     delete opts.villageMaxPopulation;
@@ -1105,7 +1153,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       pack.ice = [];
       let iceId = 0;
 
-      const iceGroup = document.getElementById("ice");
+      const iceGroup = findEl("ice");
       if (iceGroup) {
         // Migrate glaciers (type="iceShield")
         iceGroup.querySelectorAll<SVGPolygonElement>("polygon[type='iceShield']").forEach(polygon => {
@@ -1187,8 +1235,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     select("#viewbox").insert("g", "#emblems").attr("id", "markets").attr("fill-opacity", "0").style("display", "none");
     select("#viewbox").insert("g", "#goods").attr("id", "tradeAnimation").style("display", "none");
 
-    options.trade = { animation: TradeAnimation.getDefaultOptions() };
-
     for (const state of pack.states) {
       if (!state) continue;
       if (!state.i || state.removed) {
@@ -1214,11 +1260,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
   if (isOlderThan("1.127.0")) {
     // goods visibility moved onto the good itself; default to showing the first good
     if (pack.goods?.length && !pack.goods.some(good => good.visible)) pack.goods[0].visible = true;
-  }
-
-  if (isOlderThan("1.132.0")) {
-    // v1.132.0 added global 3D view options
-    options.threeD = { ...defaultOptions };
   }
 
   if (isOlderThan("1.138.0")) {
@@ -1262,7 +1303,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
   if (isOlderThan("1.140.0")) {
     // v1.140.0 migrated label data and styles to the unified flat Label Group model
-
     let labels = document.querySelector<SVGGElement>("#labels");
     if (!labels) {
       labels = document.createElementNS("http://www.w3.org/2000/svg", "g");
@@ -1274,43 +1314,62 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     const hadVisibleLabels = getComputedStyle(labels).display !== "none";
     labels.style.removeProperty("display");
 
-    const legacyStateMode = "stateLabelsMode" in options ? options.stateLabelsMode : undefined;
-    const stateMode: LabelNameMode =
-      legacyStateMode === "short" || legacyStateMode === "full" ? legacyStateMode : "auto";
-    const settings = (data[1] || "").split("|");
-    const autoVisibility = settings[21] ? Boolean(Number(settings[21])) : true;
-    const resizeOnZoom = settings[23] ? Boolean(Number(settings[23])) : true;
-    options.labels = { resizeOnZoom, showAll: !autoVisibility, groups: [] };
-    style.labels.groups = {};
+    // the labels options are already migrated, only the groups are rebuilt from the map
+    const stateMode: LabelNameMode = options.map.labels.groups.find(group => group.type === "state")?.mode ?? "auto";
+    options.map.labels.groups = [];
+    styles.labels.groups = {};
 
     for (const type of ["river", "route"] as const) {
-      options.labels.groups.push(Labels.getFallbackGroup(type));
-      style.labels.groups[type] = getGroupStyle({ name: type, type });
+      options.map.labels.groups.push(Labels.getFallbackGroup(type));
+      styles.labels.groups[type] = getGroupStyle({ name: type, type });
+    }
+
+    function legacyBurgLabelZoom(fontSize: number): { min: number; max: number } {
+      if (!Number.isFinite(fontSize) || fontSize <= 0) return { min: 2, max: 30 };
+      return { min: minmax(rn(12 / fontSize - 1, 1), 1, 5), max: minmax(rn(120 / fontSize - 1, 1), 25, 60) };
+    }
+
+    // old-era tier names map onto the modern tiers' visibility, so a migrated map's cities appear
+    // at the same zooms a modern city does instead of inheriting formula noise from size dialects
+    const LEGACY_BURG_GROUP_EQUIVALENTS: Record<string, string> = {
+      cities: "city",
+      towns: "town",
+      town_small: "village",
+      town_large: "town"
+    };
+
+    function legacyBurgGroupZoom(name: string, fontSize: number): { min: number | null; max: number | null } {
+      const modernName = LEGACY_BURG_GROUP_EQUIVALENTS[name];
+      const modern =
+        modernName &&
+        LabelsGenerator.getDefaultGroups().find(group => group.type === "burg" && group.name === modernName);
+      return modern ? structuredClone(modern.zoom) : legacyBurgLabelZoom(fontSize);
     }
 
     const burgGroups = Array.from(document.querySelectorAll<SVGGElement>("#burgLabels > g"));
     for (const burgGroup of burgGroups) {
       const name = burgGroup.id;
       const oldStyle = deriveLabelsStyle(burgGroup);
-      const fontSize = Number.parseFloat(oldStyle["font-size"] as string);
-      const zoom = { min: rn(12 / fontSize - 1, 1), max: rn(120 / fontSize - 1, 1) };
+      const zoom = legacyBurgGroupZoom(name, Number.parseFloat(oldStyle["font-size"] as string));
 
-      options.labels.groups.push({ name, type: "burg", isDefault: name === "towns", zoom });
-      style.labels.groups[name] = oldStyle;
+      options.map.labels.groups.push({ name, type: "burg", isDefault: name === "towns", zoom });
+      styles.labels.groups[name] = labelGroupFromLegacy(oldStyle);
     }
 
-    const migratedBurgStyle = burgGroups.length ? style.labels.groups[burgGroups[0].id] : undefined;
-    for (const { name } of options.burgs.groups) {
-      if (options.labels.groups.some(group => group.name === name)) continue;
+    const migratedBurgStyle = burgGroups.length ? styles.labels.groups[burgGroups[0].id] : undefined;
+    for (const { name } of options.map.burgs.groups) {
+      if (options.map.labels.groups.some(group => group.name === name)) continue;
 
       const defaultGroup = Labels.getDefaultGroups().find(group => group.type === "burg" && group.name === name);
       const { zoom } = defaultGroup ?? Labels.getFallbackGroup("burg");
-      options.labels.groups.push({ name, type: "burg", zoom });
-      style.labels.groups[name] = migratedBurgStyle ? { ...migratedBurgStyle } : getGroupStyle({ name, type: "burg" });
+      options.map.labels.groups.push({ name, type: "burg", zoom });
+      styles.labels.groups[name] = migratedBurgStyle
+        ? structuredClone(migratedBurgStyle)
+        : getGroupStyle({ name, type: "burg" });
     }
 
-    if (options.labels.groups.every(group => !group.isDefault) && options.labels.groups[0])
-      options.labels.groups[0].isDefault = true;
+    if (options.map.labels.groups.every(group => !group.isDefault) && options.map.labels.groups[0])
+      options.map.labels.groups[0].isDefault = true;
 
     // migrate manually shifted burg labels to pack.burgs[burgId].label
     for (const textEl of document.querySelectorAll<SVGTextElement>("#burgLabels > g > text")) {
@@ -1332,7 +1391,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       const oldStyle = deriveLabelsStyle(provs);
       const fontSize = Number.parseFloat(oldStyle["font-size"] as string);
 
-      options.labels.groups.push({
+      options.map.labels.groups.push({
         name: "province",
         type: "province",
         isDefault: true,
@@ -1340,43 +1399,39 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
         layerDependency: "provinces",
         active: false
       });
-      style.labels.groups.province = oldStyle;
+      styles.labels.groups.province = labelGroupFromLegacy(oldStyle);
     } else {
-      options.labels.groups.push(Labels.getFallbackGroup("province"));
-      style.labels.groups.province = getGroupStyle({ name: "province", type: "province" });
+      options.map.labels.groups.push(Labels.getFallbackGroup("province"));
+      styles.labels.groups.province = getGroupStyle({ name: "province", type: "province" });
     }
 
     pack.addedLabels = [];
     const addedGroups = Array.from(labels.querySelectorAll<SVGGElement>(":scope > g:not(#states):not(#burgLabels)"));
     for (const addedGroup of addedGroups) {
       let name = addedGroup.id === "addedLabels" ? "added" : addedGroup.id;
-      const isExisting = options.labels.groups.find(group => group.name === name);
-      if (isExisting) name += options.labels.groups.length;
+      const isExisting = options.map.labels.groups.find(group => group.name === name);
+      if (isExisting) name += options.map.labels.groups.length;
 
       const oldStyle = deriveLabelsStyle(addedGroup);
       const fontSize = Number.parseFloat(oldStyle["font-size"] as string);
 
-      options.labels.groups.push({
+      options.map.labels.groups.push({
         name,
         type: "added",
         isDefault: name === "added",
         zoom: deriveZoomExtent(fontSize)
       });
-      style.labels.groups[name] = oldStyle;
+      styles.labels.groups[name] = labelGroupFromLegacy(oldStyle);
 
       for (const textEl of addedGroup.querySelectorAll<SVGTextElement>(":scope > text")) {
-        const note = notes.find(note => note.id === textEl.id);
-
-        const pathEl = document.getElementById(`textPath_${textEl.id}`) as SVGPathElement | null;
+        const pathEl = findEl<SVGPathElement>(`textPath_${textEl.id}`);
         if (!pathEl) continue;
 
         const label = getPathLabel({ textEl, pathEl });
         if (label?.text && label.pathPoints?.length) {
           const [x, y] = label.pathPoints[Math.floor(label.pathPoints.length / 2)];
           const addedLabel = AddedLabels.add({ x, y, label: { ...label, group: name } });
-          if (note) note.id = `addedLabel${addedLabel.i}`;
-        } else {
-          if (note) notes = notes.filter(n => n.id !== note.id); // remove note
+          noteRenames.set(textEl.id, `addedLabel${addedLabel.i}`);
         }
       }
     }
@@ -1386,17 +1441,17 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       const oldStyle = deriveLabelsStyle(stateGroup);
       const fontSize = Number.parseFloat(oldStyle["font-size"] as string);
 
-      options.labels.groups.push({
+      options.map.labels.groups.push({
         name: "state",
         type: "state",
         isDefault: true,
         zoom: deriveZoomExtent(fontSize),
         mode: stateMode
       });
-      style.labels.groups.state = oldStyle;
+      styles.labels.groups.state = labelGroupFromLegacy(oldStyle);
     } else {
-      options.labels.groups.push({ ...Labels.getFallbackGroup("state"), mode: stateMode });
-      style.labels.groups.state = getGroupStyle({ name: "state", type: "state" });
+      options.map.labels.groups.push({ ...Labels.getFallbackGroup("state"), mode: stateMode });
+      styles.labels.groups.state = getGroupStyle({ name: "state", type: "state" });
     }
 
     for (const textEl of document.querySelectorAll<SVGTextElement>("#labels #states > text")) {
@@ -1404,19 +1459,23 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       const state = pack.states[stateId];
       if (!state) continue;
 
-      const pathEl = document.getElementById(`textPath_${textEl.id}`) as SVGPathElement | null;
-      if (pathEl) state.label = getPathLabel({ textEl, pathEl, names: [state.name, state.fullName] });
+      const pathEl = findEl<SVGPathElement>(`textPath_${textEl.id}`);
+      // the renderer reproduces only one of the two names; a label showing the other must be pinned
+      const renderedName = stateMode === "short" ? state.name : state.fullName || state.name;
+      if (pathEl) state.label = getPathLabel({ textEl, pathEl, names: [renderedName] });
     }
 
-    delete (style as any).burgLabels; // migrated to style.labels.groups
     delete (options as any).stateLabelsMode; // migrated to group settings
 
-    function deriveLabelsStyle(groupEl: SVGGElement): LabelGroupStyle {
+    function deriveLabelsStyle(groupEl: SVGGElement): Record<string, string | number | null> {
+      // strokes inherit and default to none: a width with no stroke above it was never stroked
+      const stroke = groupEl.closest("[stroke]")?.getAttribute("stroke") || null;
+      const isStroked = stroke !== null && stroke !== "none";
       return {
         opacity: groupEl.hasAttribute("opacity") ? Number(groupEl.getAttribute("opacity")) : 1,
         fill: groupEl.getAttribute("fill") || "#000000",
-        stroke: groupEl.getAttribute("stroke") || "#000000",
-        "stroke-width": Number(groupEl.getAttribute("stroke-width")) || 0,
+        stroke: isStroked ? stroke : "#000000",
+        "stroke-width": isStroked ? Number(groupEl.getAttribute("stroke-width")) || 0 : 0,
         style: groupEl.getAttribute("style") || null,
         "letter-spacing": Number(groupEl.getAttribute("letter-spacing")) || 0,
         "font-size": `${Number(groupEl.dataset.size) || Number(groupEl.getAttribute("font-size")) || 18}%`,
@@ -1428,7 +1487,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     }
 
     function deriveZoomExtent(fontSize: number) {
-      return { min: rn(12 / fontSize - 1, 1), max: rn(120 / fontSize - 1, 1) };
+      return { min: Math.max(0, rn(12 / fontSize - 1, 1)), max: Math.max(0, rn(120 / fontSize - 1, 1)) };
     }
 
     function getPathLabel({
@@ -1473,7 +1532,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     }
 
     provinceGroup?.remove();
-    document.getElementById("textPaths")?.replaceChildren();
+    findEl("textPaths")?.replaceChildren();
     labels.replaceChildren();
     // record the state for the 1.144 migration to read: the content this wiped is redrawn by the load routine,
     // so an empty group must not be mistaken for a layer that was off
@@ -1485,12 +1544,13 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
   if (isOlderThan("1.142.0")) {
     // v1.142.0 moved relief icons from the svg to pack.relief, rendered within the viewport only
-    const terrainEl = document.getElementById("terrain");
+    const terrainEl = findEl("terrain");
     if (terrainEl) {
-      // v1.142.0 moved the relief style from the #terrain attributes to style.relief
+      // v1.142.0 moved the relief style from the #terrain attributes to the style store
       const set = terrainEl.getAttribute("set");
-      style.relief = {
-        set: set && set in RELIEF_SETS ? (set as ReliefSet) : "simple",
+      styles.relief.options = {
+        ...styles.relief.options,
+        set: set && Relief.sets.includes(set as ReliefSet) ? (set as ReliefSet) : "simple",
         size: Number(terrainEl.getAttribute("size")) || 1,
         density: Number(terrainEl.getAttribute("density")) || 0.4
       };
@@ -1498,7 +1558,7 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
 
       const iconElements = Array.from(terrainEl.querySelectorAll("use"));
       if (iconElements.length) {
-        pack.relief = iconElements.map(useEl => ({
+        extractedRelief = iconElements.map(useEl => ({
           icon: (useEl.getAttribute("href") || useEl.getAttribute("xlink:href") || "").replace("#", ""),
           x: rn(Number(useEl.getAttribute("x")), 2),
           y: rn(Number(useEl.getAttribute("y")), 2),
@@ -1511,52 +1571,20 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     }
   }
 
+  // Legacy fog wrappers and duplicates can survive in maps resaved with a current version.
+  for (const container of document.querySelectorAll("#map g#fogging-cont")) {
+    container.replaceWith(...container.querySelectorAll("g#fogging"));
+  }
+  const [, ...duplicateFogging] = document.querySelectorAll("#map g#fogging");
+  for (const group of duplicateFogging) group.remove();
+
   if (isOlderThan("1.144.0")) {
     // v1.144.0 replaced the toggleLayer ids with layer ids
-    const LAYER_ID_MAP: Record<string, LayerId> = {
-      toggleTexture: "texture",
-      toggleHeight: "heightmap",
-      toggleLakes: "lakes",
-      toggleBiomes: "biomes",
-      toggleCells: "cells",
-      toggleGrid: "grid",
-      toggleCoordinates: "coordinates",
-      toggleCompass: "compass",
-      toggleRivers: "rivers",
-      toggleRelief: "relief",
-      toggleReligions: "religions",
-      toggleCultures: "cultures",
-      toggleStates: "states",
-      toggleProvinces: "provinces",
-      toggleZones: "zones",
-      toggleBorders: "borders",
-      toggleRoutes: "routes",
-      toggleTemperature: "temperature",
-      toggleIce: "ice",
-      toggleGoods: "goods",
-      toggleMarketsLayer: "markets",
-      toggleTrade: "trade",
-      togglePrecipitation: "precipitation",
-      togglePopulation: "population",
-      toggleEmblems: "emblems",
-      toggleBurgIcons: "burgIcons",
-      toggleLabels: "labels",
-      toggleMilitary: "military",
-      toggleMarkers: "markers",
-      toggleRulers: "rulers",
-      toggleScaleBar: "scaleBar",
-      toggleVignette: "vignette"
-    };
-    for (const group of options.labels?.groups ?? []) {
-      const layer = group.layerDependency && LAYER_ID_MAP[group.layerDependency];
-      if (layer) group.layerDependency = layer;
-    }
-
     const storedPresets: Record<string, string[]> | null = safeParseJSON(localStorage.getItem("presets") ?? "");
     if (storedPresets) {
       const remapped = Object.entries(storedPresets).map(([name, ids]) => [
         name,
-        Array.isArray(ids) ? ids.map(id => LAYER_ID_MAP[id] ?? id) : ids
+        Array.isArray(ids) ? ids.map(id => LEGACY_LAYER_IDS[id] ?? id) : ids
       ]);
       localStorage.setItem("presets", JSON.stringify(Object.fromEntries(remapped)));
     }
@@ -1569,10 +1597,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
     if (findEl("fog") && findEl("fogging")) unfog();
 
     function recoverLayersState(): LayersState {
-      const foggingContainer = findEl("fogging-cont");
-      const fogging = findEl("fogging");
-      if (foggingContainer) foggingContainer.replaceWith(...(fogging ? [fogging] : []));
-
       // legacy maps can hide layers with the `display` presentation attribute
       for (const layer of Layers.all) {
         const el = findEl<SVGGElement>(layer.elementId);
@@ -1645,11 +1669,14 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       }
     }
 
+    // scoped to the parent: same-named groups under different parents are by design
+    // (#burgIcons > g#city beside #anchors > g#city), only same-parent copies are duplicates
     const groupsById = new Map<string, SVGGElement[]>();
     for (const group of groups) {
-      const sameId = groupsById.get(group.id) ?? [];
+      const key = `${(group.parentNode as Element | null)?.id ?? ""}>${group.id}`;
+      const sameId = groupsById.get(key) ?? [];
       sameId.push(group);
-      groupsById.set(group.id, sameId);
+      groupsById.set(key, sameId);
     }
 
     const declared = new Set<string>();
@@ -1786,9 +1813,6 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
           <rect x="0" y="0" width="100%" height="100%" fill="white" stroke="none"></rect>
         </mask>
       </g>
-      <pattern id="oceanic" width="100" height="100" patternUnits="userSpaceOnUse">
-        <image id="oceanicPattern" href="./images/pattern1.png" opacity="0.2"></image>
-      </pattern>
       <mask id="vignette-mask">
         <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
         <rect id="vignette-rect" fill="black" x="0.3%" y="0.4%" width="99.4%" height="99.2%" rx="5%" ry="5%" filter="blur(20px)"></rect>
@@ -1818,41 +1842,606 @@ export async function resolveVersionConflicts(mapVersion: string, data: string[]
       for (const node of Array.from(template.children)) restore(node, defs);
       if (restored.length) WARN && console.warn("[Auto-update] Restored missing svg defs:", restored.join(", "));
     }
+  }
 
-    // v1.145-1.147 stripped the layer style from saved maps
-    await restoreLayerStyles();
+  if (isOlderThan("1.150.0")) {
+    // v1.145-1.147 stripped the layer style from saved maps; the migration harvest reads what this re-seeds
+    if (!isOlderThan("1.145.0") && isOlderThan("1.148.0")) {
+      const { styles: preset } = await StylePresetsService.load(options.map.style.preset || "default");
+      restoreStrippedLayerStyles(preset as Record<string, unknown>);
+    }
+    // v1.150.0 made the styles store the source of truth
+    data[48] = await migrateStyles(data[48]);
+  }
 
-    async function restoreLayerStyles(): Promise<void> {
-      const [, preset] = await (window as any).getStylePreset(localStorage.getItem("presetStyle") || "default");
+  if (isOlderThan("1.151.2")) {
+    // v1.140-1.151 harvested the zoom auto-visibility display: none into the persisted label group
+    // styles, and the store is applied over the saved svg, so the hidden tiers never came back
+    const record = data[48] ? safeParseJSON(data[48]) : undefined;
+    const groups: { attrs?: { style?: string | null } }[] = Object.values(record?.labels?.groups || {});
+    for (const group of groups) if (group?.attrs) group.attrs.style = stripDisplay(group.attrs.style ?? null);
+    if (record) data[48] = JSON.stringify(record);
+  }
 
-      for (const layer of Layers.all) {
-        restoreGroupStyle(layer.elementId, preset[`#${layer.elementId}`], layer.params.attrs);
+  if (isOlderThan("1.152.0")) {
+    // v1.152.0 moved notes off the flat array in data[4] and onto the entity each one describes
+    type LegacyNote = { id: string; name: string; legend: string };
+    const unattachedNotes: LegacyNote[] = [];
 
-        for (const child of layer.children) {
-          const style = preset[`#${child.id}`] || preset[`#${layer.elementId} > #${child.id}`];
-          restoreGroupStyle(child.id, style, child.attrs);
+    const parsed: unknown = safeParseJSON(data[4]);
+    const legacyNotes: LegacyNote[] = Array.isArray(parsed)
+      ? parsed.filter(note => Boolean(note) && typeof note.id === "string" && typeof note.legend === "string")
+      : [];
+
+    // an element note (river12) comes before its label note (riverLabel12), so the two collide in that order
+    legacyNotes.sort((a, b) => Number(a.id.includes("Label")) - Number(b.id.includes("Label")));
+
+    // an empty legacy note holds no text to keep, so it is never carried over and never reported
+    const orphan = (note: LegacyNote) => void (note.legend && unattachedNotes.push(note));
+
+    // the labels editor titled a state or province note with the short name, the entity name is the full one
+    const shortName = (ref: EntityRef): string | undefined =>
+      ref.type === "state"
+        ? pack.states?.find(({ i }) => i === ref.id)?.name
+        : ref.type === "province"
+          ? pack.provinces?.find(({ i }) => i === ref.id)?.name
+          : undefined;
+
+    const notedMarkers = new Set<Marker>();
+
+    for (const note of legacyNotes) {
+      const ref = MapEntities.resolveElement(noteRenames.get(note.id) ?? note.id);
+      if (!ref) {
+        orphan(note);
+        continue;
+      }
+
+      if (ref.type === "marker") {
+        // duplicate marker ids are repaired after this, so the second note for an id goes to the second
+        // marker: the note is on the object the repair renumbers, and no longer addressed by the id
+        const markers = (pack.markers || []).filter(({ i }) => i === ref.id);
+        const marker = markers.find(candidate => !notedMarkers.has(candidate)) ?? markers[0];
+        if (!marker) orphan(note);
+        else {
+          notedMarkers.add(marker);
+          // the note title was the only name a marker had, unless it is the element id, which is no name
+          if (note.name && note.name !== note.id) marker.name = note.name;
+          if (note.legend) marker.note = marker.note ? `${marker.note}${note.legend}` : note.legend;
+        }
+        continue;
+      }
+
+      // a note titled differently from its entity keeps that title as a heading, so nothing is lost.
+      // an untitled note was titled with its own element id, which is no title at all
+      const named = note.name === note.id || note.name === MapEntities.getName(ref) || note.name === shortName(ref);
+      const heading = note.name && !named ? `<h3>${note.name}</h3>` : "";
+      if (!Notes.append(ref, note.legend && `${heading}${note.legend}`) && ref.type !== "regiment") orphan(note);
+    }
+
+    for (const marker of pack.markers || []) marker.name ||= getDefaultMarkerName(marker.type);
+
+    data[4] = ""; // the slot is positional, so it stays, empty
+
+    // a note with nothing left to describe cannot be kept, so the text is offered back to the user
+    if (unattachedNotes.length) {
+      WARN && console.warn(`[Auto-update] ${unattachedNotes.length} note(s) belong to no map element`);
+
+      const rows = unattachedNotes.map(note => [note.id, note.name, note.legend]);
+
+      confirmationDialog({
+        title: t("Notes without an element"),
+        message: `${t("Notes describing an element that no longer exists cannot be kept: {{notes}}", { notes: unattachedNotes.length })}<br>${t("Download them to keep the text outside the generator.")}`,
+        confirm: t("Download"),
+        cancel: t("Discard"),
+        onConfirm: () => Csv.download("Unattached notes", ["id", "name", "note"], rows)
+      });
+    }
+  }
+
+  if (isOlderThan("1.153.0")) {
+    // v1.153.0 made the feature group a pure rendering choice, separate from the subtype generators read
+    const lakeSubtypes = new Set<string>(LAKE_SUBTYPES);
+    const oceanSubtypes = new Set<string>(OCEAN_SUBTYPES);
+    const oceanAreas = new Map<number, number>(); // the polygon area of an ocean collapsed to 0
+    if (pack.features.some(feature => feature?.type === "ocean")) {
+      for (const cellId of pack.cells.i) {
+        const featureId = pack.cells.f[cellId];
+        if (pack.features[featureId]?.type === "ocean") {
+          oceanAreas.set(featureId, (oceanAreas.get(featureId) ?? 0) + pack.cells.area[cellId]);
+        }
+      }
+    }
+    for (const feature of pack.features) {
+      if (!feature) continue;
+      if (feature.type === "ocean") {
+        // oceans carried a landmass group and whatever the old group field held; they are not drawn
+        delete (feature as Partial<Feature>).group;
+        if (!oceanSubtypes.has(feature.subtype)) feature.subtype = Features.getOceanSubtype(feature);
+        feature.area = oceanAreas.get(feature.i) ?? 0;
+      } else if (feature.type === "lake" && !lakeSubtypes.has(feature.subtype)) {
+        feature.subtype = "freshwater"; // the old lake editor wrote custom group names into the subtype
+      }
+      if (!feature.name) feature.name = Features.getName(feature); // islands and oceans were nameless before
+    }
+
+    // custom lake groups lived only in the svg; the styles record now keeps them under lakes.groups
+    const record = data[48] ? safeParseJSON(data[48]) : undefined;
+    if (record?.lakes) {
+      if (!record.lakes.groups) record.lakes = { groups: record.lakes };
+      const groups: StylesData["lakes"]["groups"] = record.lakes.groups;
+      const template = groups.freshwater || Object.values(groups)[0];
+      for (const el of Array.from(document.querySelectorAll<SVGGElement>("#lakes > g"))) {
+        if (!el.id) continue;
+        el.dataset.group = el.id; // the registry stamps only its declared groups
+        if (!groups[el.id] && template) groups[el.id] = lakeGroupFromSvg(el, template);
+      }
+    }
+    const empty = (["burgIcons", "anchors"] as const).filter(type => {
+      const groups = record?.burgIcons?.[type]?.groups;
+      return groups && !Object.keys(groups).length;
+    });
+    if (empty.length) {
+      // the harvest is already the merged shape; split it back into the two records this version keeps
+      const harvested = stylesFromMap();
+      for (const type of empty) {
+        record.burgIcons[type].groups = Object.fromEntries(
+          Object.entries(harvested.burgIcons.groups).map(([name, entry]) => [
+            name,
+            type === "burgIcons" ? entry.groups.icons : entry.groups.anchors
+          ])
+        );
+      }
+    }
+    if (record) data[48] = JSON.stringify(record);
+  }
+
+  if (isOlderThan("1.153.2")) {
+    // the 1.61 step wrote the "no pattern" href unquoted, leaving the text width="100" as the pattern
+    const isBroken = (href: unknown) => typeof href === "string" && href !== "" && !/^(\.\/images\/|data:)/.test(href);
+    const image = findEl("oceanicPattern");
+    if (image && isBroken(image.getAttribute("href"))) image.setAttribute("href", "");
+    const record = data[48] ? safeParseJSON(data[48]) : undefined;
+    if (isBroken(record?.ocean?.options?.pattern)) {
+      record.ocean.options.pattern = "";
+      data[48] = JSON.stringify(record);
+    }
+  }
+
+  if (isOlderThan("1.154.0")) {
+    // v1.154.0 pinned the string attr formats and folded the fields that mirrored an attr into the attr
+    const record = data[48] ? safeParseJSON(data[48]) : undefined;
+    if (record) {
+      // anchors ignored their icon before ports became stylable (a pre-1.150 record is already renamed)
+      for (const group of Object.values(record.burgIcons?.anchors?.groups ?? {}) as { options?: { icon?: string } }[]) {
+        if (group?.options?.icon === "#icon-circle" || group?.options?.icon === "#burgs-atlas-circle") {
+          group.options.icon = "#ports-anchor";
+        }
+      }
+      normalizeStyles(record);
+      // these icons were drawn at half scale, outline included; their files are now at the set's scale
+      const halfScale = [
+        "burgs-atlas-circle-dotted",
+        "burgs-atlas-circle-rayed",
+        "burgs-atlas-diamond-dotted",
+        "ports-harbor"
+      ];
+      type Part = { attrs?: Record<string, unknown>; options?: { icon?: string } };
+      for (const entry of Object.values(record.burgIcons?.groups ?? {}) as { groups?: Record<string, Part> }[]) {
+        for (const part of Object.values(entry?.groups ?? {})) {
+          if (!part?.attrs || !halfScale.includes(part.options?.icon ?? "")) continue;
+          part.attrs["stroke-width"] = ((part.attrs["stroke-width"] as number | null) ?? 1) / 2;
+        }
+      }
+      data[48] = JSON.stringify(record);
+    }
+    // the ocean pattern tile lives in its layer now, and an id clash would shadow it
+    for (const tile of document.querySelectorAll("pattern#oceanic")) if (!tile.closest("#oceanPattern")) tile.remove();
+    // a burg group element hangs directly off the layer now, with its anchor part inside it
+    findEl("anchors")?.remove();
+    findEl("burgIcons")?.remove();
+    findEl("icons")?.remove(); // the layer group itself: it is #burgIcons now
+    findEl("labels")?.removeAttribute("font-size"); // the zoom sets the layer font the groups size from
+
+    // v1.154.0 changed the relief icons data format
+    const { set: incomingSet, size: incomingSize } = Styles.parse(data[48] ? safeParseJSON(data[48]) : undefined).relief
+      .options;
+    function migrateReliefIcon(icon: LegacyReliefIcon, styleSet: ReliefSet, styleSize: number): ReliefIcon {
+      const match = icon.icon.match(/^relief-(\w+)-(\d+)(-bw|-illustrated)?$/);
+      if (!match) throw new Error(`Invalid legacy relief icon: ${icon.icon}`);
+      const [, type, number, suffix] = match;
+      if (!Relief.isType(type)) throw new Error(`Unknown legacy relief type: ${type}`);
+      const shared = ["mount", "hill", "dune", "deciduous", "conifer", "acacia", "palm", "grass", "swamp"].includes(
+        type
+      );
+      const n = Number(number);
+      const set =
+        suffix === "-bw"
+          ? "gray"
+          : suffix === "-illustrated"
+            ? "illustrated"
+            : shared && n === 1
+              ? "simple"
+              : "colored";
+      const variant = suffix !== "-illustrated" && shared && n > 1 ? n - 1 : n;
+      let { x, y, s } = icon;
+      if (icon.icon === "relief-grass-1") {
+        // the extracted art carries the old 1.2 scale in its viewBox: shrink the drawn box around its center
+        const drawn = s / 1.2;
+        x += (s - drawn) / 2;
+        y += (s - drawn) / 2;
+        s = drawn;
+      }
+      // size is a render multiplier now and the renderer anchors it at the icon's centre, so the stored
+      // base is drawn / size and x/y move to keep that centre — the array's z-order key — in place
+      const base = s / styleSize;
+      x += (s - base) / 2;
+      y += (s - base) / 2;
+      return { ...Relief.ref(type as ReliefIconType, variant, set !== styleSet ? set : undefined), x, y, s: base };
+    }
+
+    const storedRelief: (ReliefIcon | LegacyReliefIcon)[] = extractedRelief ?? pack.relief ?? [];
+    const isLegacyReliefIcon = (icon: ReliefIcon | LegacyReliefIcon): icon is LegacyReliefIcon => "icon" in icon;
+    pack.relief = storedRelief.flatMap(icon => {
+      if (!isLegacyReliefIcon(icon)) return [icon];
+      try {
+        return [migrateReliefIcon(icon, incomingSet, incomingSize || 1)];
+      } catch {
+        console.warn(`Skipping unknown legacy relief icon: ${icon.icon}`);
+        return [];
+      }
+    });
+    // the migration resizes boxes about their centre, which moves their bottoms
+    pack.relief.sort(Relief.byBottom);
+
+    // v1.154.0 stores a biome's relief pool as weighted entries, not as a list of repeated entries
+    for (const biome of pack.biomes ?? []) {
+      const pool: unknown = biome.icons;
+      if (!Array.isArray(pool)) continue;
+      biome.icons = {};
+      for (const entry of pool) biome.icons[entry] = { weight: (biome.icons[entry]?.weight ?? 0) + 1 };
+    }
+
+    // v1.154.0 derives symbol ids from the icon set directories: good-<name> is goods-<name>, uploads are custom-goods-<id>
+    const goodIconId = (icon: string): string =>
+      icon.replace(/^good-custom-/, "custom-goods-").replace(/^good-/, `${Goods.iconSet.id}-`);
+    for (const good of pack.goods ?? []) if (good.icon) good.icon = goodIconId(good.icon);
+
+    // merging states kept the merged regiments' old state and could repeat an id; regiments are addressed by
+    // their state and id since v1.154.0
+    for (const state of pack.states ?? []) {
+      const military = state?.military ?? [];
+      const ids = new Set<number>();
+      let next = Math.max(-1, ...military.map(({ i }) => i)) + 1;
+      for (const regiment of military) {
+        regiment.state = state.i;
+        if (ids.has(regiment.i)) regiment.i = next++;
+        ids.add(regiment.i);
+      }
+    }
+
+    // v1.154.0 made every icon slot a bare symbol id: goods uploads (data[45], written empty since) and inline
+    // images become custom icons, text becomes glyphs. The style record is converted by normalizeStyles above
+    const kept = new Set(CustomIcons.all.map(icon => icon.id));
+    if (data[45]) adoptGoodsUploads(data[45]);
+    adoptLegacyIconSlots([
+      ...(pack.goods ?? []),
+      ...(pack.markers ?? []),
+      ...(pack.states ?? []).flatMap(state => state?.military ?? []),
+      ...options.map.military.units
+    ]);
+
+    const emblemIcons = migrateLegacyCustomEmblems();
+    /** custom emblems as picture emblems; the icons they use */
+    function migrateLegacyCustomEmblems(): Set<string> {
+      const used = new Set<string>();
+      const pictures = new Map(
+        CustomIcons.all.filter(icon => icon.kind === "image").map(icon => [icon.content, icon.id])
+      );
+      for (const [type, entities] of [
+        ["state", pack.states ?? []],
+        ["province", pack.provinces ?? []],
+        ["burg", pack.burgs ?? []]
+      ] as const) {
+        for (const entity of entities) {
+          const coa = entity.coa as typeof entity.coa & { custom?: boolean };
+          if (!coa?.custom) continue;
+          const definition = findEl(`${type}COA${entity.i}`);
+          // a removed entity is never drawn again, so its picture would only clutter the Custom icons
+          const icon = entity.removed ? "" : legacyEmblemIcon(definition, pictures);
+          entity.coa = { icon, size: coa.size, x: coa.x, y: coa.y };
+          definition?.remove();
+          if (icon) used.add(icon);
+        }
+      }
+      return used;
+
+      /** A custom emblem's picture as a custom icon, one per distinct image; none when its definition is gone.
+       * Uploads are an svg holding one image since v1.89.21; earlier SVG uploads were kept as their own markup */
+      function legacyEmblemIcon(definition: Element | null, pictures: Map<string, string>): string {
+        if (!definition) return "";
+        const image =
+          definition.children.length === 1 && definition.firstElementChild?.tagName === "image"
+            ? definition.firstElementChild
+            : null;
+        const content = image?.getAttribute("href") ?? image?.getAttribute("xlink:href") ?? "";
+        if (/^(data:image\/|https?:\/\/)/.test(content)) {
+          let icon = pictures.get(content);
+          if (!icon) {
+            icon = CustomIcons.add({ kind: "image", content, viewBox: IMAGE_FRAME }).id;
+            pictures.set(content, icon);
+          }
+          return icon;
+        }
+        const svg = sanitizeSvgIcon(definition.outerHTML);
+        if (!svg) return "";
+        const id = CustomIcons.newId();
+        scopeSvgIcon(svg, id);
+        return CustomIcons.add({ id, ...IconPictures.fromSvg(svg) }).id;
+      }
+    }
+
+    // old uploads were stored at full size: adopted rasters shrink to today's upload limits, emblems' to theirs
+    for (const icon of CustomIcons.all) {
+      if (kept.has(icon.id) || icon.kind !== "image") continue;
+      const content = await IconPictures.shrink(icon.content, emblemIcons.has(icon.id) ? "emblem" : "icon");
+      if (content !== icon.content) CustomIcons.update(icon.id, { content });
+    }
+
+    function adoptGoodsUploads(markup: string): void {
+      const roots = new DOMParser().parseFromString(markup, "text/html").querySelectorAll("body > svg[id]");
+      for (const root of roots) {
+        const id = root.id.replace(/^good-custom-/, "custom-goods-");
+        if (CustomIcons.get(id)) continue;
+
+        const images = root.querySelectorAll("image");
+        const href = images[0]?.getAttribute("href") ?? images[0]?.getAttribute("xlink:href") ?? "";
+        if (images.length === 1 && root.children.length === 1 && href.startsWith("data:image/")) {
+          CustomIcons.add({ id, kind: "image", content: href, viewBox: IMAGE_FRAME });
+          continue;
+        }
+
+        const svg = sanitizeSvgIcon(root.outerHTML);
+        if (!svg) continue;
+        scopeSvgIcon(svg, id);
+        CustomIcons.add({ id, ...IconPictures.fromSvg(svg) });
+      }
+    }
+  }
+
+  if (isOlderThan("1.154.1")) {
+    // a biome's relief spacing held within each cell only, so a sparse pool placed one icon per cell, or in
+    // density/10 of the cells below 10. Now it holds across cells: raise the density to place as many (fit on generated maps)
+    const biomes = (pack.biomes ?? []).filter(biome => biome.iconsDensity);
+    const { cells } = pack;
+    const land = biomes.length ? Array.from(cells.i).filter(i => cells.h[i] >= 20) : [];
+    const cellArea = land.reduce((sum, i) => sum + cells.area[i], 0) / land.length;
+    const styleDensity = Styles.parse(data[48] ? safeParseJSON(data[48]) : undefined).relief.options.density || 1;
+    for (const biome of land.length ? biomes : []) {
+      const density = biome.iconsDensity;
+      const perCell = 11.5 * Math.min(density, 10) ** 0.78 * (124 / cellArea) ** 0.55 * (0.4 / styleDensity);
+      biome.iconsDensity = Math.max(density, Math.min(Math.round(perCell), 250));
+    }
+  }
+
+  if (isOlderThan("1.155.0")) {
+    // v1.155.0 added tags to every taggable entity
+    const { states, provinces, cultures, religions, burgs, markers, rivers, routes, zones, features, goods } = pack;
+    const regiments = (states ?? []).flatMap(state => state?.military ?? []);
+    const tagged = [states, provinces, cultures, religions, burgs, markers, rivers, routes, zones, features, goods];
+    for (const entity of [...tagged, regiments].flat() as { tags?: unknown }[]) {
+      if (entity && typeof entity === "object" && !Array.isArray(entity.tags)) entity.tags = [];
+    }
+
+    // v1.155.0 added state.tariffs
+    for (const state of pack.states ?? []) {
+      if (!state) continue;
+      if (!Array.isArray(state.tariffs)) {
+        if (!state.i || state.removed) {
+          state.tariffs = [];
+        } else {
+          state.tariffs = States.defineTariffs(state);
         }
       }
     }
 
-    function restoreGroupStyle(
-      id: string,
-      style: Record<string, string | number | null> | undefined,
-      declared?: Record<string, string>
-    ): void {
-      const group = document.getElementById(id);
-      if (!style || group?.tagName !== "g" || !isBareGroup(group, declared)) return;
+    // a single-box legend dragged then hidden left its offset on the layer, pushing new boxes off the canvas
+    findEl("legend")?.removeAttribute("transform");
 
-      for (const [name, value] of Object.entries(style)) {
-        if (value === null || value === "null") continue;
-        if (id === "terrain" && ["set", "size", "density"].includes(name)) continue;
-        group.setAttribute(name, String(value));
+    // journeys take plain colors only since v1.155.0: a hatching keeps its color
+    for (const journey of pack.journeys ?? []) {
+      for (const item of [journey, ...(journey.segments ?? [])]) {
+        const hatched = item.color && Hatches.parse(item.color);
+        if (hatched) item.color = hatched.color;
       }
     }
+  }
+}
 
-    function isBareGroup(group: Element, declared: Record<string, string> = {}): boolean {
-      const ignored = new Set(["id", "style", ...Object.keys(declared)]);
-      return Array.from(group.attributes).every(attribute => ignored.has(attribute.name));
+export function migrateLegacySettings(mapVersion: string, data: string[]): void {
+  if (compareVersions(mapVersion, "1.154.0").isOlder && data[1]?.trimStart().startsWith("{")) {
+    const settings = safeParseJSON(data[1]);
+    if (settings) {
+      // v1.154.0 sizes the zoomed layers' fonts with the zoom always, so the labels flag is gone
+      if (settings.labels) delete settings.labels.resizeOnZoom;
+      settings.relief ??= { rules: Relief.getDefaultRules() }; // v1.154.0 made the fixed hills and mountains rules
+      data[1] = JSON.stringify(settings);
     }
+  }
+
+  if (compareVersions(mapVersion, "1.155.0").isOlder && data[1]?.trimStart().startsWith("{")) {
+    const settings = safeParseJSON(data[1]);
+    if (settings?.graph) {
+      // v1.155.0 added grid samplings, older maps sit on the jittered square lattice
+      settings.graph.sampling ??= "square";
+      settings.graph.jitter ??= 0.9;
+      data[1] = JSON.stringify(settings);
+    }
+  }
+  if (!compareVersions(mapVersion, "1.152.0").isOlder || data[1]?.trimStart().startsWith("{")) return;
+
+  // v1.152.0 replaced the legacy pipe-delimited settings string with the map's settings object
+  const migrated = {
+    seed: "",
+    graph: { width: 1280, height: 800, points: 10000, sampling: "square", jitter: 0.9 },
+    geography: {
+      mapSize: 100,
+      latitude: 50,
+      longitude: 50,
+      coordinates: { latT: 180, latN: 90, latS: -90, lonT: 320, lonW: -160, lonE: 160 }
+    },
+    climate: {
+      temperature: { equator: 27, northPole: -30, southPole: -15 },
+      precipitation: 100,
+      winds: [225, 45, 225, 315, 135, 315]
+    },
+    cultures: { set: "world" },
+    lore: { name: "", description: "", calendar: { year: 1000, era: "Era", eraShort: "E" } },
+    units: {
+      distance: { unit: "km", scale: 3 },
+      area: { unit: "square" },
+      height: { unit: "m", exponent: 2 },
+      temperature: { unit: "\u00B0C" },
+      population: { scale: 1000, urbanization: { rate: 1, density: 10 } }
+    },
+    labels: { groups: [] as MapData["labels"]["groups"] },
+    style: { preset: "default" },
+    military: { units: [] as MapData["military"]["units"] },
+    transports: [] as MapData["transports"],
+    burgs: { groups: [] as LegacyBurgGroup[] },
+    coastline: {
+      enabled: true,
+      maxDepth: 4,
+      baseAmplitude: 1.5,
+      amplitudeDecay: 0.9,
+      minEdge: 1,
+      smoothThreshold: 0.25,
+      roughnessContrast: 1.5,
+      roughnessScale: 60,
+      lakeSmoothThreshMult: 2.0,
+      variant: 0
+    },
+    relief: { rules: Relief.getDefaultRules() }
+  };
+
+  const oldHeader = data[0].split("|");
+  const oldSettings = (data[1] || "").split("|");
+  const oldCoordinates = safeParseJSON(data[2] ?? "");
+
+  if (oldHeader[3]) migrated.seed = oldHeader[3];
+  if (oldHeader[4]) migrated.graph.width = +oldHeader[4];
+  if (oldHeader[5]) migrated.graph.height = +oldHeader[5];
+  migrated.graph.points = getLegacyPoints(data[6], migrated.graph.width, migrated.graph.height);
+
+  if (oldSettings[0]) migrated.units.distance.unit = oldSettings[0];
+  if (oldSettings[1]) migrated.units.distance.scale = +oldSettings[1];
+  if (oldSettings[2]) migrated.units.area.unit = oldSettings[2];
+  if (oldSettings[3]) migrated.units.height.unit = oldSettings[3];
+  if (oldSettings[4]) migrated.units.height.exponent = +oldSettings[4];
+  if (oldSettings[5]) migrated.units.temperature.unit = oldSettings[5];
+  if (oldSettings[12]) migrated.units.population.scale = +oldSettings[12];
+  if (oldSettings[13]) migrated.units.population.urbanization.rate = +oldSettings[13];
+  if (oldSettings[20]) migrated.lore.name = oldSettings[20];
+  if (oldSettings[22]) migrated.style.preset = oldSettings[22];
+  if (oldSettings[24]) migrated.units.population.urbanization.density = +oldSettings[24];
+
+  // very old maps kept the world configuration in the pipe string, and it wins over the object
+  if (oldSettings[14]) migrated.geography.mapSize = +oldSettings[14];
+  if (oldSettings[15]) migrated.geography.latitude = +oldSettings[15];
+  if (oldSettings[16]) migrated.climate.temperature.equator = +oldSettings[16];
+  if (oldSettings[17]) migrated.climate.temperature.northPole = +oldSettings[17];
+  if (oldSettings[17]) migrated.climate.temperature.southPole = +oldSettings[17];
+  if (oldSettings[18]) migrated.climate.precipitation = +oldSettings[18];
+  if (oldSettings[25]) migrated.geography.longitude = +oldSettings[25];
+
+  // before v1.3 the slot held the winds array, since then the whole options object
+  const oldSettings19 = safeParseJSON(oldSettings[19] ?? "");
+  if (Array.isArray(oldSettings19)) migrated.climate.winds = oldSettings19;
+  const oldOptions = (Array.isArray(oldSettings19) ? null : oldSettings19) ?? {};
+
+  if (oldOptions.labels) {
+    const { resizeOnZoom: _, ...labels } = oldOptions.labels; // the zoom sizes all text since v1.154.0
+    migrated.labels = labels;
+  }
+  if (oldOptions.military) migrated.military.units = oldOptions.military;
+  if (oldOptions.transports) migrated.transports = oldOptions.transports;
+  if (oldOptions.coastline) migrated.coastline = oldOptions.coastline;
+  if (oldOptions.burgs?.groups) migrated.burgs.groups = oldOptions.burgs.groups;
+
+  normalizeLegacyBurgGroupFilters(migrated.burgs.groups);
+
+  // The legacy font-size formula could save negative visibility bounds.
+  if (Array.isArray(migrated.labels?.groups)) {
+    for (const group of migrated.labels.groups) {
+      for (const key of ["min", "max"] as const) {
+        if (typeof group?.zoom?.[key] === "number" && group.zoom[key] < 0) group.zoom[key] = 0;
+      }
+    }
+  }
+
+  if (oldOptions.mapSize !== undefined) migrated.geography.mapSize = oldOptions.mapSize;
+  if (oldOptions.latitude !== undefined) migrated.geography.latitude = oldOptions.latitude;
+  if (oldOptions.longitude !== undefined) migrated.geography.longitude = oldOptions.longitude;
+  if (oldOptions.temperatureEquator !== undefined) migrated.climate.temperature.equator = oldOptions.temperatureEquator;
+  if (oldOptions.temperatureNorthPole !== undefined)
+    migrated.climate.temperature.northPole = oldOptions.temperatureNorthPole;
+  if (oldOptions.temperatureSouthPole !== undefined)
+    migrated.climate.temperature.southPole = oldOptions.temperatureSouthPole;
+  if (oldOptions.prec !== undefined) migrated.climate.precipitation = oldOptions.prec;
+  if (oldOptions.winds) migrated.climate.winds = oldOptions.winds;
+  if (oldOptions.year !== undefined) migrated.lore.calendar.year = oldOptions.year;
+  if (oldOptions.era) migrated.lore.calendar.era = oldOptions.era;
+  if (oldOptions.eraShort) migrated.lore.calendar.eraShort = oldOptions.eraShort;
+
+  // v1.140.0 moved the label settings into the labels section and the naming mode onto the state group
+  // a pre-1.140 map carries no groups at all, so there is usually nothing here to write the mode onto
+  if (oldOptions.stateLabelsMode) {
+    const stateGroup = migrated.labels.groups.find(group => group.type === "state");
+    if (stateGroup) stateGroup.mode = oldOptions.stateLabelsMode;
+    else migrated.labels.groups.push({ ...Labels.getFallbackGroup("state"), mode: oldOptions.stateLabelsMode });
+  }
+
+  // v1.152.0 moved the mapCoordinates from own slot into the settings object
+  if (oldCoordinates) migrated.geography.coordinates = oldCoordinates;
+  else delete (migrated.geography as { coordinates?: unknown }).coordinates;
+
+  if (compareVersions(mapVersion, "1.144.0").isOlder && Array.isArray(migrated.labels?.groups)) {
+    for (const group of migrated.labels.groups) {
+      if (
+        group &&
+        typeof group.layerDependency === "string" &&
+        Object.hasOwn(LEGACY_LAYER_IDS, group.layerDependency)
+      ) {
+        group.layerDependency = LEGACY_LAYER_IDS[group.layerDependency];
+      }
+    }
+  }
+
+  if (compareVersions(mapVersion, "1.4.0").isOlder && Array.isArray(migrated.military.units)) {
+    const icons: Record<string, string> = {
+      naval: "🌊",
+      ranged: "🏹",
+      mounted: "🐴",
+      machinery: "💣",
+      armored: "🐢",
+      aviation: "🦅",
+      magical: "🔮"
+    };
+    for (const unit of migrated.military.units) {
+      if (!unit || typeof unit !== "object") continue;
+      if (!unit.icon) unit.icon = icons[unit.type] ?? "⚔️";
+      if (unit.power === undefined) unit.power = unit.crew;
+    }
+  }
+
+  data[1] = JSON.stringify(migrated);
+
+  function getLegacyPoints(serialized: string, width: number, height: number): number {
+    const graph = safeParseJSON(serialized ?? "");
+    if (typeof graph?.cellsDesired === "number" && graph.cellsDesired > 0) return graph.cellsDesired;
+
+    // Frozen legacy density choices; spacing was rounded to two decimals when the grid was built.
+    const counts = [1000, 2000, 5000, 10000, 20000, 30000, 40000, 50000, 60000, 70000, 80000, 90000, 100000];
+    const count = counts.find(count => rn(Math.sqrt((width * height) / count), 2) === graph?.spacing);
+    return count ?? (Array.isArray(graph?.points) && graph.points.length ? graph.points.length : 10000);
   }
 }

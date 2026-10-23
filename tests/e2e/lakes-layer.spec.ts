@@ -1,21 +1,12 @@
 import { test, expect } from "@playwright/test";
+import { waitForMap } from "./wait-for-map";
 
 test.describe("Lakes layer", () => {
-  test.beforeEach(async ({ context, page }) => {
-    await context.clearCookies();
-
-    await page.goto("/");
-    await page.evaluate(() => {
-      localStorage.clear();
-      sessionStorage.clear();
-    });
-
+  test.beforeEach(async ({ page }) => {
     await page.goto("/?seed=test-seed&width=1280&height=720");
 
     // Wait for map generation to complete
-    await page.waitForFunction(() => (window as any).mapId !== undefined, {
-      timeout: 60000,
-    });
+    await waitForMap(page);
 
     // Wait for any post-generation rendering to settle
     await page.waitForTimeout(500);

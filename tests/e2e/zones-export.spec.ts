@@ -1,23 +1,13 @@
 import { test, expect } from "@playwright/test";
+import { waitForMap } from "./wait-for-map";
 
 test.describe("Zone Export", () => {
-  test.beforeEach(async ({ context, page }) => {
-    await context.clearCookies();
-
-    await page.goto("/");
-    await page.evaluate(() => {
-      localStorage.clear();
-      sessionStorage.clear();
-    });
-
+  test.beforeEach(async ({ page }) => {
     // Navigate with seed parameter and wait for full load
     await page.goto("/?seed=test-zones-export&width=1280&height=720");
 
     // Wait for map generation to complete
-    await page.waitForFunction(
-      () => (window as any).mapId !== undefined,
-      { timeout: 60000 }
-    );
+    await waitForMap(page);
 
     // Additional wait for any rendering/animations to settle
     await page.waitForTimeout(500);

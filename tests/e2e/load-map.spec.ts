@@ -1,17 +1,31 @@
 import { test, expect, type Page } from "@playwright/test";
 import fs from "fs";
 import path from "path";
+import { countMaps, waitForMap, waitForNextMap } from "./wait-for-map";
 
-declare const notes: { id: string }[]; // page global, resolved inside page.evaluate
-declare const options: {
-  labels: { resizeOnZoom: boolean; showAll: boolean; groups: { type: string; mode?: string }[] };
-};
 declare const style: { relief: { set: string; size: number; density: number } };
 
 const LEGACY_RELIEF_ICONS = [
   { icon: "relief-mount-1", x: 100, y: 100, s: 20 },
   { icon: "relief-hill-1", x: 200, y: 150, s: 10 }
 ];
+// v1.154.0 format at the legacy size 2: the base size is halved around the kept centre
+const MIGRATED_RELIEF_ICONS = [
+  { type: "mount", x: 105, y: 105, s: 10 },
+  { type: "hill", x: 202.5, y: 152.5, s: 5 }
+];
+
+// The legacy added labels in 1.139.4.map are the text elements label1..label4. No fixture carries a
+// note on one, and their ids resolve to an entity only through the rename map the label migration
+// fills in, so the note has to be injected to exercise that path
+function buildLegacyMapWithLabelNotes(): Buffer {
+  const mapData = fs.readFileSync(path.join(__dirname, "../fixtures/1.139.4.map"), "utf8").split("\r\n");
+  const notes = JSON.parse(mapData[4]);
+  notes.push({ id: "label1", name: "The Reach", legend: "<p>Named on an old chart</p>" });
+  notes.push({ id: "label3", name: "label3", legend: "<p>No title of its own</p>" });
+  mapData[4] = JSON.stringify(notes);
+  return Buffer.from(mapData.join("\r\n"), "utf8");
+}
 
 // 1.139.4.map has an empty #terrain group, so the legacy layout (icons in the svg, relief style
 // in the group attributes, layer hidden by display) has to be re-created to test the migration
@@ -58,8 +72,7 @@ function getReliefState(page: Page) {
     const terrain = document.getElementById("terrain");
     return {
       relief: (window as any).pack.relief,
-      // `style` is script-scoped, so it has to be read off the lexical global rather than off window
-      style: style.relief,
+      style: (window as any).styles.relief.options,
       layerIsOn: (window as any).Layers.isOn("relief"),
       terrainStyle: terrain?.getAttribute("style") ?? null
     };
@@ -69,6 +82,11 @@ function getReliefState(page: Page) {
 test.describe("Map loading", () => {
   test.beforeEach(async ({ context, page }) => {
     await context.clearCookies();
+    // With no stored version the app raises its "updated to version ..." dialog 6 seconds after the
+    // page loads (services/versioning.ts), which on a slow runner lands inside a test and trips the
+    // "no #alert is open" guards below. "99.99.99" rather than the real VERSION so this cannot drift:
+    // the announcement fires only for a stored version older than the build's.
+    await context.addInitScript(() => localStorage.setItem("version", "99.99.99"));
 
     await page.goto("/");
     await page.evaluate(() => {
@@ -76,8 +94,8 @@ test.describe("Map loading", () => {
       sessionStorage.clear();
     });
 
-    // Wait for the hidden file input to be available
-    await page.waitForSelector("#mapToLoad", { state: "attached" });
+    // the boot map must finish first: its generation logs into the error checks of a test that uploads over it
+    await waitForMap(page);
   });
 
   test("should load a saved map file", async ({ page }) => {
@@ -96,12 +114,11 @@ test.describe("Map loading", () => {
     // Get the file input element and upload the map file
     const fileInput = page.locator("#mapToLoad");
     const mapFilePath = path.join(__dirname, "../fixtures/1.112.1.map");
+    const maps = await countMaps(page);
     await fileInput.setInputFiles(mapFilePath);
 
     // Wait for map to be fully loaded
-    await page.waitForFunction(() => (window as any).mapId !== undefined, {
-      timeout: 120000
-    });
+    await waitForNextMap(page, maps);
 
     // Additional wait for rendering to settle
     await page.waitForTimeout(500);
@@ -114,7 +131,7 @@ test.describe("Map loading", () => {
         hasBurgs: pack.burgs && pack.burgs.length > 1,
         hasCells: pack.cells && pack.cells.i && pack.cells.i.length > 0,
         hasRivers: pack.rivers && pack.rivers.length > 0,
-        mapId: (window as any).mapId
+        mapsGenerated: (window as any).mapHistory.length
       };
     });
 
@@ -122,7 +139,7 @@ test.describe("Map loading", () => {
     expect(mapData.hasBurgs).toBe(true);
     expect(mapData.hasCells).toBe(true);
     expect(mapData.hasRivers).toBe(true);
-    expect(mapData.mapId).toBeDefined();
+    expect(mapData.mapsGenerated).toBeGreaterThan(0);
 
     // Ensure no JavaScript errors occurred during loading
     // Filter out expected errors (external resources like Google Analytics, fonts)
@@ -150,11 +167,10 @@ test.describe("Map loading", () => {
 
     const fileInput = page.locator("#mapToLoad");
     const mapFilePath = path.join(__dirname, "../fixtures/1.112.1.map");
+    const maps = await countMaps(page);
     await fileInput.setInputFiles(mapFilePath);
 
-    await page.waitForFunction(() => (window as any).mapId !== undefined, {
-      timeout: 120000
-    });
+    await waitForNextMap(page, maps);
     await page.waitForTimeout(500);
 
     // Check essential SVG layers exist
@@ -202,11 +218,10 @@ test.describe("Map loading", () => {
 
     const fileInput = page.locator("#mapToLoad");
     const mapFilePath = path.join(__dirname, "../fixtures/1.112.1.map");
+    const maps = await countMaps(page);
     await fileInput.setInputFiles(mapFilePath);
 
-    await page.waitForFunction(() => (window as any).mapId !== undefined, {
-      timeout: 120000
-    });
+    await waitForNextMap(page, maps);
     await page.waitForTimeout(500);
 
     // Verify states have proper structure
@@ -315,12 +330,12 @@ test.describe("Map loading", () => {
         rendered: addedLabels.map(
           (added: any) => document.getElementById(`addedLabel${added.i}`)?.dataset.labelShape ?? "missing"
         ),
-        // legacy notes are re-pointed at the new entity ids. `notes` is script-scoped,
-        // so it has to be read off the lexical global rather than off window
-        orphanNotes: notes.filter(
-          (note: any) =>
-            note.id.startsWith("addedLabel") && !addedLabels.some((added: any) => `addedLabel${added.i}` === note.id)
-        ).length
+        // legacy notes ride on the entity now: this fixture's are all on markers and regiments,
+        // and nothing may be left over to raise the "notes without an element" prompt
+        notedMarkers: (window as any).pack.markers.filter((marker: any) => marker.note).length,
+        notedRegiments: (window as any).pack.states.flatMap((state: any) => state.military || [])
+          .filter((regiment: any) => regiment.note).length,
+        unattachedPrompt: document.getElementById("alert")?.offsetParent !== null
       };
     });
 
@@ -336,7 +351,31 @@ test.describe("Map loading", () => {
       });
     }
     expect(migrated.rendered).toEqual(["path", "path", "path", "path"]);
-    expect(migrated.orphanNotes).toBe(0);
+    expect(migrated.notedMarkers).toBe(86);
+    expect(migrated.notedRegiments).toBe(143);
+    expect(migrated.unattachedPrompt).toBe(false);
+  });
+
+  test("a legacy note on an added label follows it onto pack.addedLabels", async ({ page }) => {
+    await page.locator("#mapToLoad").setInputFiles({
+      name: "legacy-added-label-notes.map",
+      mimeType: "text/plain",
+      buffer: buildLegacyMapWithLabelNotes()
+    });
+    await expect(page.locator("#tooltip")).toContainText("Map is successfully loaded", { timeout: 120000 });
+
+    const migrated = await page.evaluate(() => ({
+      notes: (window as any).pack.addedLabels.map((added: any) => added.note).filter(Boolean),
+      // an id the rename map failed to translate would be reported as belonging to no element
+      unattachedPrompt: document.getElementById("alert")?.offsetParent !== null
+    }));
+
+    expect(migrated.unattachedPrompt).toBe(false);
+    // the first note is titled differently from the label, so its title is kept as a heading; the
+    // second is titled with its own element id, which is no title and must not become one
+    expect(migrated.notes).toEqual(
+      expect.arrayContaining(["<h3>The Reach</h3><p>Named on an old chart</p>", "<p>No title of its own</p>"])
+    );
   });
 
   test("legacy lakes without shoreline data should get it on load", async ({ page }) => {
@@ -403,7 +442,7 @@ test.describe("Map loading", () => {
     });
   });
 
-  test("legacy label settings should migrate without changing behavior", async ({ page }) => {
+  test("legacy label settings should migrate while preserving browser visibility preferences", async ({ page }) => {
     const mapFilePath = path.join(__dirname, "../fixtures/1.139.4.map");
     const mapData = fs.readFileSync(mapFilePath, "utf8").split(/\r?\n/);
     const settings = mapData[1].split("|");
@@ -414,6 +453,10 @@ test.describe("Map loading", () => {
     settings[23] = "0"; // resize on zoom disabled
     mapData[1] = settings.join("|");
 
+    await page.evaluate(() => {
+      options.app.labels.showAll = false;
+    });
+
     await page.locator("#mapToLoad").setInputFiles({
       name: "legacy-label-settings.map",
       mimeType: "text/plain",
@@ -422,15 +465,15 @@ test.describe("Map loading", () => {
     await expect(page.locator("#tooltip")).toContainText("Map is successfully loaded", { timeout: 120000 });
 
     const migrated = await page.evaluate(() => {
-      const labels = options.labels;
+      const labels = options.map.labels;
       return {
-        resizeOnZoom: labels.resizeOnZoom,
-        showAll: labels.showAll,
-        stateMode: labels.groups.find((group: any) => group.type === "state")?.mode
+        keys: Object.keys(labels), // resizeOnZoom was retired in v1.154.0: the zoom sizes all text
+        showAll: options.app.labels.showAll,
+        stateMode: labels.groups.find(group => group.type === "state")?.mode
       };
     });
 
-    expect(migrated).toEqual({ resizeOnZoom: false, showAll: true, stateMode: "full" });
+    expect(migrated).toEqual({ keys: ["groups"], showAll: false, stateMode: "full" });
   });
 
   // v1.142.0 moved relief icons from the #terrain group to pack.relief and renders only the ones
@@ -444,7 +487,7 @@ test.describe("Map loading", () => {
     await expect(page.locator("#tooltip")).toContainText("Map is successfully loaded", { timeout: 120000 });
 
     expect(await getReliefState(page)).toEqual({
-      relief: LEGACY_RELIEF_ICONS,
+      relief: MIGRATED_RELIEF_ICONS,
       style: { set: "simple", size: 2, density: 0.5 },
       layerIsOn: true,
       terrainStyle: null
@@ -460,7 +503,7 @@ test.describe("Map loading", () => {
     await expect(page.locator("#tooltip")).toContainText("Map is successfully loaded", { timeout: 120000 });
 
     expect(await getReliefState(page)).toEqual({
-      relief: LEGACY_RELIEF_ICONS,
+      relief: MIGRATED_RELIEF_ICONS,
       style: { set: "simple", size: 2, density: 0.5 },
       layerIsOn: false,
       terrainStyle: "display: none;"
@@ -480,9 +523,9 @@ test.describe("Map loading", () => {
     expect(savedLayers.active).toContain("labels");
   });
 
-  // 1.143.1.map carries both a pre-v1.104 defs skeleton and layer groups stripped of their styles.
-  // The v1.148.0 migration repairs both before the loaded map is rendered.
-  test("an old map fixture should get its defs, geometry and layer styles back", async ({ page }) => {
+  // 1.143.1.map carries a pre-v1.104 defs skeleton and legacy geometry containers.
+  // The migration repairs both before the loaded map is rendered.
+  test("an old map fixture should get its defs and geometry back", async ({ page }) => {
     const mapFilePath = path.join(__dirname, "../fixtures/1.143.1.map");
     await page.locator("#mapToLoad").setInputFiles(mapFilePath);
     await expect(page.locator("#tooltip")).toContainText("Map is successfully loaded", { timeout: 120000 });
@@ -502,11 +545,7 @@ test.describe("Map loading", () => {
         coastline: document.querySelectorAll("#coastline use").length,
         lakes: document.querySelectorAll("#lakes use").length,
         defsEmblems: Boolean(document.getElementById("defs-emblems")),
-        vignetteMask: Boolean(document.getElementById("vignette-rect")),
-        fogging: {
-          opacity: document.getElementById("fogging")?.getAttribute("opacity"),
-          fill: document.getElementById("fogging")?.getAttribute("fill")
-        }
+        vignetteMask: Boolean(document.getElementById("vignette-rect"))
       };
     });
 
@@ -518,7 +557,6 @@ test.describe("Map loading", () => {
     expect(restored.lakes).toBeGreaterThan(0);
     expect(restored.defsEmblems).toBe(true);
     expect(restored.vignetteMask).toBe(true);
-    expect(restored.fogging).toEqual({ opacity: "0.98", fill: "#30426f" });
   });
 
   test("loaded map should preserve burg data", async ({ page }) => {
@@ -535,11 +573,10 @@ test.describe("Map loading", () => {
 
     const fileInput = page.locator("#mapToLoad");
     const mapFilePath = path.join(__dirname, "../fixtures/1.112.1.map");
+    const maps = await countMaps(page);
     await fileInput.setInputFiles(mapFilePath);
 
-    await page.waitForFunction(() => (window as any).mapId !== undefined, {
-      timeout: 120000
-    });
+    await waitForNextMap(page, maps);
     await page.waitForTimeout(500);
 
     // Verify burgs have proper structure
@@ -569,5 +606,36 @@ test.describe("Map loading", () => {
         !e.includes("Failed to load resource")
     );
     expect(criticalErrors).toEqual([]);
+  });
+
+  // a .map stores no names for a base equal to the default at its index, so a session's own bases must not fill them
+  test("loading a map should restore default namebases over the session's ones", async ({ page }) => {
+    await waitForMap(page);
+    await page.evaluate(() => {
+      const Names = (window as any).Names;
+      Names.nameBases = [{ name: "Custom", i: 0, min: 4, max: 8, d: "", m: 0, b: "Aaa,Bbb,Ccc" }];
+      Names.getBase(0); // caches the custom chain
+    });
+
+    const maps = await countMaps(page);
+    await page.locator("#mapToLoad").setInputFiles(path.join(__dirname, "../fixtures/1.154.0.map"));
+    await waitForNextMap(page, maps);
+
+    const result = await page.evaluate(() => {
+      const Names = (window as any).Names;
+      const defaults = Names.getNameBases();
+      return {
+        count: Names.nameBases.length,
+        matchDefaults: Names.nameBases.every((base: any, i: number) => base.b === defaults[i].b),
+        chainFromDefault:
+          !Names.chains[0] ||
+          JSON.stringify(Object.entries(Names.chains[0])) ===
+            JSON.stringify(Object.entries(Names.calculateChain(defaults[0].b)))
+      };
+    });
+
+    expect(result.count).toBe(43);
+    expect(result.matchDefaults).toBe(true);
+    expect(result.chainFromDefault).toBe(true);
   });
 });

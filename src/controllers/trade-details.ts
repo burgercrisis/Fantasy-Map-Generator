@@ -1,4 +1,4 @@
-import { updateDialog } from "@/components/dialog/dialog-helpers";
+import { destroyDialog, updateDialog } from "@/components/dialog/dialog-helpers";
 import { bindColumnSorting, sortDataByColumns } from "@/components/dialog/sorting";
 import {
   type EditorColumn,
@@ -8,6 +8,9 @@ import {
   renderEditorPagination,
   type TableView
 } from "@/components/dialog/table";
+import { Icons } from "@/components/icons";
+import { goodBadge } from "@/renderers/draw-goods";
+import { t } from "@/utils/i18n";
 import type { Burg } from "../generators/burgs-generator";
 import type { Deal } from "../generators/markets-generator";
 import type { Point } from "../generators/voronoi";
@@ -24,7 +27,7 @@ const columns: EditorColumn<TradeDetailRow>[] = [
   { key: "icon", width: "2.5em", permanent: true },
   {
     key: "good",
-    label: "Good",
+    label: t("Good"),
     width: "10em",
     permanent: true,
     sortBy: item => item.good,
@@ -32,24 +35,24 @@ const columns: EditorColumn<TradeDetailRow>[] = [
   },
   {
     key: "units",
-    label: "Units",
+    label: t("Units"),
     width: "5em",
     sortBy: item => item.units,
     defaultSort: "desc"
   },
   {
     key: "price",
-    label: "Price",
+    label: t("Price"),
     width: "5.5em",
     sortBy: item => item.price
   },
   {
     key: "value",
-    label: "Value",
+    label: t("Value"),
     width: "3.6em",
+    permanent: true,
     sortBy: item => item.value
-  },
-  { key: "actions", width: "1.2em", permanent: true }
+  }
 ];
 
 const tradeDetailsTable = initEditorTable<TradeDetailRow>({
@@ -58,6 +61,7 @@ const tradeDetailsTable = initEditorTable<TradeDetailRow>({
 });
 
 function open(batch: TradeBatch): void {
+  void Icons.retry("goods");
   if (!batch?.deals.length) return;
 
   activeBatch = batch;
@@ -74,7 +78,10 @@ function open(batch: TradeBatch): void {
   highlight(path.points);
 
   $(`#${dialogId}`).dialog({
-    title: `Trade: ${pack.burgs[batch.startBurgId]?.name} to ${pack.burgs[batch.endBurgId]?.name}`,
+    title: t("Trade: {{- from}} to {{- to}}", {
+      from: pack.burgs[batch.startBurgId]?.name,
+      to: pack.burgs[batch.endBurgId]?.name
+    }),
     resizable: false,
     position,
     close: closeTradeDetails
@@ -82,16 +89,16 @@ function open(batch: TradeBatch): void {
 }
 
 function renderDialog(): void {
-  document.getElementById(dialogId)?.remove();
+  destroyDialog(dialogId);
   const editorHtml = /* html */ `<div id="${dialogId}" class="dialog stable editorDialog">
       <div>
         <div id="tradeDetailsSummary" class="totalLine"></div>
         ${renderEditorHeader({ dialogId, columns })}
         <div id="tradeDetailsBody" class="table" style="max-height:30em"></div>
         <div id="tradeDetailsFooter" class="totalLine">
-          <div style="margin-left: 5px">Distance: <span id="tradeDetailsFooterDistance">0</span></div>
-          <div data-col="units" style="margin-left: 12px" data-tip="Total traded units">Units: <span id="tradeDetailsFooterUnits">0</span></div>
-          <div data-col="value" style="margin-left: 12px" data-tip="Total deal value">Value: <span id="tradeDetailsFooterValue">0</span></div>
+          <div style="margin-left: 5px">${t("Distance")}: <span id="tradeDetailsFooterDistance">0</span></div>
+          <div data-col="units" style="margin-left: 12px" data-tip="${t("Total traded units")}">${t("Units")}: <span id="tradeDetailsFooterUnits">0</span></div>
+          <div data-col="value" style="margin-left: 12px" data-tip="${t("Total deal value")}">${t("Value")}: <span id="tradeDetailsFooterValue">0</span></div>
         </div>
       </div>
   </div>`;
@@ -140,8 +147,8 @@ function renderTradeDetailsPage(view: TableView<TradeDetailRow>): void {
   const toType = getClientType(activeBatch.deals[0], to, "to");
 
   ensureEl("tradeDetailsSummary").innerHTML = /* html */ `
-    <span><b>Seller</b>: ${from?.name} ${fromType} <span class="icon-dot-circled pointer" data-zoom="start" data-tip="Zoom to start"></span></span>
-    <span style="margin-left:5px"><b>Buyer</b>: ${to?.name} ${toType} <span class="icon-dot-circled pointer" data-zoom="end" data-tip="Zoom to end"></span></span>`;
+    <span><b>${t("Seller")}</b>: ${from?.name} ${fromType} <span class="icon-dot-circled pointer" data-zoom="start" data-tip="${t("Zoom to start")}"></span></span>
+    <span style="margin-left:5px"><b>${t("Buyer")}</b>: ${to?.name} ${toType} <span class="icon-dot-circled pointer" data-zoom="end" data-tip="${t("Zoom to end")}"></span></span>`;
 
   const totalUnits = view.all.reduce((total, row) => total + row.units, 0);
   const totalValue = view.all.reduce((total, row) => total + row.value, 0);
@@ -150,11 +157,10 @@ function renderTradeDetailsPage(view: TableView<TradeDetailRow>): void {
     const good = Goods.get(goodId)!;
 
     return /* html */ `<div class="states tradeDeal" data-good="${good.name}" data-units="${rn(units, 2)}" data-price="${price}" data-value="${rn(value, 2)}">
-    <svg data-col="icon" data-tip="Good icon" width="2em" height="2em" class="goodIcon">
-      <circle cx="50%" cy="50%" r="42%" fill="${good.color}" stroke="${Goods.getStroke(good.color)}"/>
-      <use href="#${good.icon}" x="10%" y="10%" width="80%" height="80%"></use>
+    <svg data-col="icon" data-tip="${t("Good icon")}" width="2em" height="2em" class="goodIcon">
+      ${goodBadge(good)}
     </svg>
-    <div data-col="good" data-tip="Good name" class="goodName">${good.name}</div>
+    <div data-col="good" data-tip="${t("Name")}" class="goodName">${good.name}</div>
     <div data-col="units" class="goodUnits">${rn(units, 2)}</div>
     <div data-col="price" class="goodPrice">${formatPrice(rn(price, 2))}</div>
     <div data-col="value" class="goodValue">${formatPrice(rn(value, 2))}</div>
@@ -170,7 +176,8 @@ function renderTradeDetailsPage(view: TableView<TradeDetailRow>): void {
     2
   );
   ensureEl("tradeDetailsBody").innerHTML = html.join("");
-  ensureEl("tradeDetailsFooterDistance").innerHTML = `${rn(length * distanceScale)} ${distanceUnitInput.value}`;
+  ensureEl("tradeDetailsFooterDistance").innerHTML =
+    `${rn(length * options.map.units.distance.scale)} ${options.map.units.distance.unit}`;
   ensureEl("tradeDetailsFooterUnits").innerHTML = String(rn(totalUnits, 2));
   ensureEl("tradeDetailsFooterValue").innerHTML = formatPrice(totalValue);
 
@@ -180,12 +187,13 @@ function renderTradeDetailsPage(view: TableView<TradeDetailRow>): void {
 
 function getClientType(deal: Deal, burg: Burg, direction: "from" | "to"): string {
   const type = direction === "from" ? deal.sellerType : deal.buyerType;
-  if (type === "market") return "market";
-  return burg.group || "burg";
+  if (type === "market") return t("Market");
+  return burg.group || t("Burg");
 }
 
 function closeTradeDetails(): void {
   clearHighlight();
+  activePoints = [];
   $(`#${dialogId}`).dialog("destroy");
   ensureEl(dialogId).remove();
 }

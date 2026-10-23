@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from "node:url";
-import { defineConfig } from "vitest/config";
+import { configDefaults, defineConfig } from "vitest/config";
 
 export default defineConfig({
   resolve: {
@@ -10,12 +10,12 @@ export default defineConfig({
   test: {
     root: "./src",
     setupFiles: ["./test-setup.ts"],
-    environment: "node"
-  },
-  // keep in sync with vite.config.ts, or an `@/…` import resolves in the app but not under test
-  resolve: {
-    alias: {
-      "@": fileURLToPath(new URL("./src", import.meta.url))
-    }
+    environment: "node",
+    testTimeout: 10000,
+    // *.dom.test.ts needs a real DOM (querySelector, createElementNS, ...) that the node
+    // environment's minimal document/Element stubs (test-setup.ts) don't provide - those run
+    // only under vitest.browser.config.ts.
+    // *.scenarios.test.ts generate real maps and take most of the run - vitest.scenarios.config.ts runs them
+    exclude: [...configDefaults.exclude, "**/*.dom.test.ts", "**/*.scenarios.test.ts"]
   }
 });

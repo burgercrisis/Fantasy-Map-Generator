@@ -199,116 +199,39 @@ The same world state could theoretically support:
 
 # Map Styling
 
-Map styling is map state. The desired model is one plain, JSON-compatible `style`
-object that contains everything needed to reproduce the map appearance. SVG attributes
-and other rendered output are projections of that object, never the source of truth.
+Map appearance is map state. One plain, JSON-compatible `styles` object holds everything needed to
+reproduce how the map looks; the SVG is a projection of it and never the source of truth. Nothing
+reads a style value back from the DOM.
 
-Layer visibility, layer presets, and stacking order are separate concerns and are not part of the style model described here — they belong to the layers registry.
+The record is keyed by **style element** — a map layer, or `map` for the whole-map filter — and each
+element is a tree of three kinds of node:
 
-## Problems with the current approach
+- `attrs` — SVG attributes, written to the element as they are (`null` means "not set")
+- `options` — renderer inputs (`scheme`, `icon`, …), read from the store, never written to the DOM
+- `groups` — a record of user-named entries (label groups, lake types, …) sharing one shape
 
-The current style preset files are close to the desired serializable form, but their
-structure mirrors the rendered SVG:
+The record is declared once, as a zod schema (`src/generators/styles-schema.ts`). The TypeScript
+type, the defaults, validation on load and the Style tab's form are all derived from that one
+declaration: a style field cannot exist without a type, a default and a control.
 
-- Most style values live as attributes on SVG elements and are read back from the DOM.
-- Presets are keyed by selectors such as `#stateBorders` and `#labels > #states`.
-- SVG attributes, custom `data-*` attributes, and application options are mixed together.
-- The global `style` object covers only selected subsystems: Label Groups, Burg icon
-  groups, and anchor groups. Other styles remain attached to SVG nodes.
-- The Style UI changes the rendered SVG directly and calls drawing functions when an
-  attribute affects geometry.
+Roles, by layer:
 
-This makes the DOM part state container and part renderer output. It also couples preset
-files, saving, loading, and migration to the current SVG structure. Renaming or nesting an
-SVG group can become a data-format change even when the visible feature did not change.
+- **State** — the `styles` global, complete by construction: `Styles.parse` repairs an invalid or
+  missing section from the defaults, so no read site carries a fallback. Serialized whole into the `.map`.
+- **Renderers** — read `styles.<element>.options` when drawing; `Styles.write` puts `attrs` onto the
+  elements they drew, addressed by `data-layer` / `data-group`, never by element id.
+- **Controllers** — `Controllers.StyleEditor` is a form built from the schema at open time: it
+  mutates the store and runs the change's effect (write the one attr, or redraw the layer).
+  `Controllers.StylePresetsEditor` swaps the whole record for a preset.
+- **Services** — `services/style-presets.ts` is the preset source (bundled default, fetched system
+  presets, `localStorage` customs); it reads no map state.
 
-## Desired style object
+Layer visibility and z-order are not style — they belong to the [layers registry](#map-layers).
+Per-entity visual overrides (one label's own size) stay with the entity as exceptions to its
+group style, not a second style system.
 
-The `style` object is organized by map feature rather than by DOM selector. Related
-parts are nested, while repeated user-defined styles are stored in keyed `groups`
-objects. The following is illustrative schema:
-
-```ts
-const style = {
-  borders: {
-    state: { opacity: 0.8, stroke: "#56566d", "stroke-width": 1, "line-cap": "butt", filter: null },
-    province: { opacity: 0.8, stroke: "#56566d", "stroke-width": 0.5, "line-cap": "round", filter: null }
-  }
-};
-```
-
-Existing selector fragments become
-nested parts, for example:
-
-- `#statesBody` and `#statesHalo` become `style.states.body` and `style.states.halo`.
-- `#freshwater`, `#salt`, and the other lake types become entries in `style.lakes.groups`.
-- `#rural` and `#urban` become `style.population.rural` and `style.population.urban`.
-- `#stateEmblems`, `#provinceEmblems`, and `#burgEmblems` become nested emblem styles.
-- `#goodsCells`, `#goodsIcons`, and `#goodsBurgs` become nested parts of `style.goods`.
-- `#legendBox`, `#scaleBarBack`, and the compass rose become nested parts of their owning feature.
-
-The grouping is organizational only. It does not introduce a generic style framework,
-CSS cascade, or inheritance system. Each renderer owns the small typed style shape for
-its feature.
-
-## Naming and values
-
-- Use html snake case attributes names such as `stroke-width`, `font-size`, `data-dx`.
-- Preserve every styling capability users have today, including colors, opacity,
-  strokes, typography, filters, masks, textures, patterns, sizes, offsets, and
-  feature-specific rendering options.
-
-## Ownership and data flow
-
-The Style controller edits the serialized object and then asks the affected renderer to
-redraw:
-
-```text
-User changes a style
-        ↓
-Style controller mutates style.<feature>
-        ↓
-Feature renderer reads world data + style.<feature>
-        ↓
-SVG / WebGL / canvas output
-```
-
-The renderer translates the feature style into its output format. It may write SVG
-attributes, but it must not read those attributes back as current style. Re-rendering
-from the same world data and style must produce the same result.
-
-Reusable styles belong in the global `style` object. Existing entity-specific visual
-overrides, such as one label's size or offset, may remain with that entity's data. They
-are exceptions to a reusable group style, not another global styling system.
-
-## Presets and persistence
-
-Built-in presets, custom presets, and the style stored in a `.map` file use the same
-complete object schema.
-
-- Applying a preset replaces the current `style` object and redraws affected features.
-- Saving stores the resolved object, not only a preset name, so the map looks the same
-  when opened without access to the original preset.
-- Custom preset storage may remain an app preference, but its contents use the same
-  schema as map style state.
-- Selector-based preset files are migrated by mapping each selector and attribute to a
-  semantic object path and field.
-
-## Incremental migration
-
-Move one feature at a time:
-
-1. Define its typed style subtree and defaults.
-2. Map the corresponding bundled preset values into that subtree.
-3. Make its Style controller edit the object rather than SVG attributes.
-4. Make its renderer accept the subtree and write the resulting output.
-5. Read legacy SVG attributes only in map compatibility code, then store the converted
-   values in the style object.
-
-During migration the object can contain both modern feature subtrees and the existing
-group-style entries. Once a feature is migrated, its normal editor, renderer, save, and
-load paths must not reconstruct its style from the DOM. Existing maps and presets should
-retain their appearance throughout the conversion.
+The full model — the record, the store API, presets and persistence, legacy conversion and the
+schema-driven editor — is in [style.md](./style.md).
 
 ---
 
@@ -356,6 +279,11 @@ state**._ A controller does **not** hold pure static data, services, or serializ
 - **App-level UI** — dialogs and widgets that are opened over the map but say nothing about it:
   the About dialog (`app-info`). They have a controller's lifecycle but not a controller's
   subject, so they live here and load with the shell.
+- **Shared editor behaviour** — interaction helpers several editors call rather than copy:
+  dialog helpers, tooltips, the default map events (`viewbox-events`), the brush over the map
+  (`map-brush`, which owns the size control, radius circle and gestures while each tool supplies
+  what a stroke does), and map modes such as `annex-mode`, which the States and Provinces editors
+  both drive with their own merge logic.
 
 Widgets like `hierarchy-tree` and `minimap` may move to `components/` if they generalize.
 
@@ -366,7 +294,9 @@ its role. Heraldry is the current example:
 
 - `src/data/emblems/` — static heraldry catalogs
 - `src/generators/emblems-generator.ts` — emblem generation (registers `window.Emblems`)
-- `src/renderers/emblems/` — SVG drawing of emblems (registers `window.EmblemRenderer`)
+- `src/renderers/emblems/` — SVG drawing of emblems (registers `window.EmblemRenderer`). Its shields, lines,
+  patterns, templates and diapers are ported from [Armoria](https://github.com/Azgaar/Armoria), and `public/charges/`
+  is a verbatim copy of Armoria's charges: sync both from Armoria rather than editing them here
 
 ## Why no `core/`
 
@@ -397,10 +327,14 @@ classic needs it.
 - Transient UI loaded only when opened (for example, the color picker) → `controllers/`
 - Draws an SVG / WebGL layer (incl. stateful animation engines like `trade-animation`) → `renderers/`
   — and the layer itself is declared in the registry in `components/layers.ts`
+- Turns coordinates into path data for one layer, or derives data only that drawing needs
+  → `renderers/<subject>.ts`, no `draw-` prefix (see [Renderers](#renderers-view))
 - Draws transient feedback that removes itself (highlight, brush circle, fog) → `renderers/overlays/`
 - Generates or simulates world data → `generators/`
 - Serializes, saves, loads, or exports state → `services/io/`
 - Manages browser/app lifecycle, a platform asset, or app preferences → `services/`
+- Talks to the Azgaar server on the user's behalf → `services/assistant/azgaar-server/`
+- Talks to the user's own AI provider → `services/assistant/provider/`
 - A constant list or template, no behavior → `data/`
 - A helper that reads no ambient state and has ≥2 consumers → `utils/`
 - A shared type / interface → `types/`
@@ -452,6 +386,10 @@ A generator turns inputs into world data.
   never depend on wall-clock time or unspecified iteration order.
 - **No view, no UI.** A generator never reads the DOM, builds SVG, or opens a dialog. If it
   needs to _show_ something, that is a renderer's or controller's job.
+- **Model classes own their edits.** An edit to an entity (`Burgs.rename`, `States.recolor`,
+  `Notes.write`…) is a public method of the class that owns the data. It validates its arguments,
+  keeps dependent data consistent (labels, full names, codes, cell ownership) and never redraws. Editors and the
+  Assistant call the same method, so there is one implementation of each edit.
 - **Keep the data out.** Lookup tables, recipes, and tuning constants are _data_, not
   algorithm. Fixed properties of the domain stay co-located reference data
   ([Configurations and data](#configurations-and-data)); any parameter a user might want to
@@ -464,8 +402,17 @@ A renderer is a pure projection of state into visuals.
 
 - **Idempotent and stateless.** Drawing the same state twice yields the same output;
   re-running never accumulates. Build the layer from the current state, replace it, done.
-- **Read-only.** A renderer never mutates world data. If drawing needs a value that is not
-  in the state, that value belongs _in_ the state — compute it in a generator, not the view.
+- **Read-only.** A renderer never mutates world data. If drawing needs a _fact about the
+  world_ that is not in the state, that fact belongs _in_ the state — compute it in a
+  generator, not the view.
+- Data only the drawing needs — hachure gradients, wave-dash
+  placement, how far ripples fade from a shore — is derived per render and never stored on
+  `grid`/`pack` or saved.
+- **Split the path math from the DOM write.** `draw-*.ts` reads ambient state (`grid`, `pack`,
+  `styles`) and writes the layer. Turning coordinates into path data is a sibling module
+  without the prefix (`heightmap-contours.ts`, `heightmap-hachures.ts`, `coastal-waves.ts`,
+  `lake-ripples.ts`): pure, argument-driven, seeded, unit-tested without a DOM. It stays in
+  `renderers/` rather than `utils/` because it has one consumer and emits SVG.
 - **No business logic.** Geometry, layout, and styling only. A renderer that decides what is
   _true_ about the world is doing a generator's job.
 - **Isolate the rare stateful case.** An animation engine that owns frames or caches is the
@@ -500,6 +447,11 @@ A controller is the thin seam between a user action and the state.
 - **One object, lazily reached.** A controller exports a single named object —
   `export const StatesEditor = { open }` — and is reached through the `Controllers` registry
   (`Controllers.StatesEditor.open()`), never imported eagerly. See [Lazy module registry](#lazy-module-registry).
+- **Transient overlays own their styles.** A palette, popover, or bubble that lives only while
+  it is open may render its own `<style>` block next to its markup, scoped under its own id, so
+  the rules are created and removed with the element. Keep `public/index.css` for the shell and
+  for widgets whose markup is static in `src/index.html`. The omnibar is the reference case: its
+  stylesheet is one block in `omnibar.ts`, scoped under `#omnibar`.
 
 ## Configurations and data
 
@@ -519,6 +471,12 @@ Static content: lookup tables, templates, tuning constants, reference lists.
   silently dropped field corrupts saves.
 - **Pure functions.** Serialization reads state and returns bytes; it owns no state of its
   own.
+- **Migrations are isolated and one-time.** Upgrading an older `.map` belongs only in
+  `src/services/io/auto-update.ts`, in the `isOlderThan("<version>")` block of the version that
+  changed the format. It runs once, on load of an older file; saving writes the current shape, so
+  the next load skips it. Code outside `auto-update` (the loader, generators, renderers, editors)
+  assumes the current shape: it never back-fills fields older maps lack, nor carries fallbacks for
+  them. When a format changes, add the migration block, not a guard in the code that reads the field.
 
 ## Services
 
@@ -527,12 +485,37 @@ Static content: lookup tables, templates, tuning constants, reference lists.
   mis-filed — it is really a generator, editor, io module, or (if it merely _presents_ state and
   is always on screen) **chrome**.
 - **App preferences are a service.** The `localStorage` scope from
-  [Two scopes of configuration](#two-scopes-of-configuration) — UI prefs, locked generation
-  options, "don't ask again" flags — lives in `services/preferences.ts`. It is per-browser
-  platform state, never part of the `.map`. Map config is not a service; it is state.
+  [Two scopes of configuration](#two-scopes-of-configuration) — UI prefs, pinned requests,
+  "don't ask again" flags — is per-browser platform state, never part of the `.map`. Map
+  config is not a service; it is state.
 - **IO is a service.** Save/load/export live in `src/services/io/`. Like controllers, each
   service/io module exports a single named object (`Save`, `Load`, `ExportMap`, …) reached
-  through the `Services` registry (`Services.Save.saveMap(...)`).
+  through the `Services` registry (`Services.Save.toMachine()`).
+  CSV tables go through `Csv` (`services/io/csv.ts`): downloads quote every value that needs it,
+  uploads are parsed and checked there. An editor's upload is `Controllers.CsvUpload.update`
+  (`controllers/csv-upload.ts`, lazy like other dialogs) with the editor's column list (shared
+  with its download) and one model setter per column. It owns id checks, blank and unchanged cells and population splits,
+  runs the setters on a `World` draft for a modal preview the user confirms, then runs them on the
+  map; setters must therefore only change data, and the row callback reads its entity by id so it
+  gets the draft one. Values another row may change are compared with the map as it was before the
+  upload.
+  Downloads carry a UTF-8 BOM so spreadsheets keep accented and non-Latin names.
+- **Azgaar Assistant** lives in `src/controllers/assistant/`. `index.ts` is its one controller, for the panel, chat list, key sheet and transcript.
+  `map.ts` is the open map as the Assistant sees it — one `AssistantMap` object with its id,
+  per-question context and its map tools: `read_map`, `propose_change`, `view_emblem`, `view_map` and one `show_*` tool per
+  widget (`entities`, `card`, `chart`, `choices`, `inset`). Changes go through
+  `operations.ts`, a plain registry of model-class methods, and `proposals.ts`, which dry-runs a
+  batch on a draft of the map into a Change and applies, undoes or discards it on the user's click.
+  `redraw.ts` derives the layers to redraw from the data a Change touched. Services in
+  `src/services/assistant/` do not access world data or the DOM: `chats.ts` persists map-bound chats in IndexedDB;
+  `azgaar-server/` answers Guest and Member questions from the documentation and handles Discord sign-in; `provider/`
+  serves the Key tier: `connection.ts` stores provider settings and keys in localStorage, `answerer.ts` runs the tool
+  loop through `providers.ts` and `openai.ts`, `models.ts` discovers a key's models, `context.ts` builds the system
+  prompt, `docs.ts` and `knowledge.ts` serve `read_docs` and `read_help`, and `runtime.ts` runs `read_map` scripts.
+  The Azgaar server receives only the question and its server chat id. A connected Provider receives the open-map context
+  and tool results directly from the browser. The Assistant never stores chats in `.map` files.
+  `read_map` runs model-written JavaScript in page scope with the app's full access, stored keys included. This is an
+  accepted, disclosed risk (see the PRD's Further Notes and the Policy wiki page): users load only map files they trust.
 
 ## Lazy module registry
 
@@ -542,7 +525,7 @@ two typed registries — `Controllers` (built in `src/controllers/index.ts`) and
 
 - **One export per module (the convention).** Each registered module exports a single named
   object whose properties are its public methods — `export const StatesEditor = { open }`,
-  `export const Save = { saveMap, prepareMapData, saveToStorage }`. The registry key matches
+  `export const Save = { toStorage, toMachine, toDropbox, prepareMapData, writeToStorage }`. The registry key matches
   that export name. A module exposing data or a nested object wraps it in a method facade (e.g.
   `CloudStorage` flattens `Cloud.providers.dropbox`) so it fits the dispatch contract.
 - **Lazy by default, async at the call site.** `Controllers.X.method(...)` dynamically imports
@@ -555,7 +538,7 @@ two typed registries — `Controllers` (built in `src/controllers/index.ts`) and
 Generators, renderers, and components are different: they are **eager** and self-register their
 own globals (`window.Markets`, `window.drawRoutes`, `window.tip`) because classic code calls them
 directly and, in chrome's case, because there is no moment at which they would be "opened". See
-[lazy_loading.md](./lazy_loading.md) for the full pattern and how to add a module.
+[lazy-loading.md](./lazy-loading.md) for the full pattern and how to add a module.
 
 ---
 
@@ -574,7 +557,9 @@ permanent child elements and static attributes, and the `draw` / `erase` functio
 The active set and the layer order are serialized with the map (`data[50]`) and re-applied with
 `Layers.restore` on load, which adopts the state without redrawing content the loaded SVG already
 carries. `restore` tolerates version skew in both directions: unknown ids are ignored, and layers
-the file predates slot in after their registration-order predecessor.
+the file predates slot in after their registration-order predecessor. A layer id never changes; when
+a layer's svg group id does, `auto-update` removes the stale group before the restore and the
+registry recreates it under the current id.
 
 ---
 
@@ -645,10 +630,50 @@ that are never released.
 - **Cancel async on teardown.** An in-flight animation or timer checks a generation token
   (or is cleared) so it stops touching the DOM after the user has moved on.
 
+## Memory management
+
+The app is a long-lived SPA and the world (`grid` / `pack`) is replaced wholesale on every
+generation, load, transform and heightmap edit. Almost every leak is one of a few shapes and new code must not add another.
+
+- **A cache must not outlive its world.** Any module-level reference to `pack`, `grid` or a large
+  derived copy must be released when the world is replaced. An identity check
+  (`sourcePack !== pack`) only rebuilds on the next draw — until then it keeps the whole previous
+  world alive. Pair it with a teardown.
+- **`clear()` drops.** A module that tracks "the current graph" must null
+  that reference on clear; pointing it at the new object while caches still describe the old one
+  keeps the old graph reachable.
+- **The Layers registry is the teardown seam.** A layer that caches derived data or starts work
+  declares an `erase(layer)` that drops both its SVG content and its module state — the registry
+  must not know about scenes, and callers must not call per-feature cleanup. At a
+  world-replacement point call `Layers.eraseAll()` (or `undraw()`) and let the registry run every
+  teardown. Erase **before** the new map is adopted, or you erase what was just loaded.
+- **Guard self-perpetuating loops.** A `requestAnimationFrame` / `setTimeout` chain is idempotent
+  (a running flag) with a single cancellation point; teardown resets the flag, cancels the handle
+  and releases what the loop touched. Async work that can resolve after teardown checks an
+  `active` flag before touching the scene.
+- **Destroy dialogs, don't remove them.** Close a jQuery-UI dialog with `destroyDialog(id)` /
+  `.dialog("destroy")` so the widget, its `.ui-dialog` wrapper and the detached subtree go
+  together; a raw `element.remove()` on live dialog content orphans the wrapper.
+- **One listener per element, owned by the module.** Bind with property assignment, `.on(...)` or
+  an `AbortController` — never `addEventListener` on a page-lifetime element from code that runs
+  per open. Create transient inputs in the module that uses them (`createFileInput`) instead of
+  parking them in `index.html`.
+- **Cap unbounded history.** Undo stacks, session logs and caches store deltas or a fixed-length
+  window; nothing on a hot path grows one entry per action, load or map.
+- **Release on close.** Editors null their last-viewed entity / detached SVG slots and clear their
+  timers when the dialog closes; populated `<select>`s and `document.fonts` are diffed before
+  appending, not appended blindly.
+- **Dispose resources with a lifetime.** `<script>` tags, object URLs, `FontFace`s, `<defs>` copies,
+  and three.js geometry / material / texture / render targets are released by the code that created
+  them; a WebGL context is freed with `forceContextLoss()` after `dispose()`.
+
+Review a change against this list: name the owner of every long-lived reference it adds, and the
+hook that releases it.
+
 ## Load time
 
 Split rarely-used features into on-demand chunks so the initial bundle stays small — see
-[lazy_loading.md](./lazy_loading.md).
+[lazy-loading.md](./lazy-loading.md).
 
 ## Measure, don't guess
 
@@ -662,7 +687,9 @@ Profile real maps at large cell counts and optimise the measured bottleneck.
 Settings, options, and style panels are a large share of the app's surface — and a
 large share of its memory cost. The configuration _data_
 is **State**, and the panels that edit it are **Controllers** (a settings subtype beside
-editors and overviews).
+editors and overviews). How configuration is split, stored, persisted, locked, preserved
+between maps, validated and migrated is described in
+[configuration.md](./configuration.md).
 
 ## Configuration is state, not the DOM
 
@@ -674,23 +701,36 @@ editors and overviews).
 
 ## Two scopes of configuration
 
-| Scope              | Source of truth              | Persisted to                 | Examples                                                     |
-| ------------------ | ---------------------------- | ---------------------------- | ------------------------------------------------------------ |
-| **Map config**     | the serialized map state     | the `.map` file              | generation parameters, units, resolved map style, biome data |
-| **App preference** | an app/session config object | `localStorage` (per browser) | UI prefs, panel positions, theme, "don't ask again" flags    |
+Every configurable value is either something true about **this map** or something this
+**browser** wants. One object holds both, in sections of different lifetimes:
+
+| Scope              | Section                             | Persisted to                 | Examples                                                            |
+| ------------------ | ----------------------------------- | ---------------------------- | ------------------------------------------------------------------- |
+| **Map config**     | `options.map`                       | `localStorage` + the `.map`  | seed, extent, world position, climate, units, lore, definition sets |
+| **App preference** | `options.generation`, `options.app` | `localStorage` (per browser) | requests for the next map, viewer preferences, UI prefs             |
 
 - **Map config travels with the map** and must round-trip through [IO](#io-serialization); a
-  map opened on another machine must look identical.
+  map opened on another machine must look identical. `options.map` _is_ the file's settings
+  block — saving writes it and loading replaces it, so there is no second object to keep in step.
 - **App preferences never enter the `.map`** — they are this browser's choices, not the
-  map's. Keep the two apart so one user's UI tweaks don't ride along inside a shared map.
+  map's. Keep the sections apart so one user's UI tweaks don't ride along inside a shared map.
+- **`options.generation` holds requests; `options.map` holds what happened.** A request and its
+  result are different values in different sections with different names, never two copies of one.
+- **`options.map` is written by generation, derivation or a file load — and by the editors that
+  own its values.** The sliders that ask for the next map write `generation` and change nothing on
+  screen. This is what keeps a saved file consistent with the map it describes.
+
+The admission test for each section, and the mechanics of loading, saving, carrying user-authored
+sets between maps and validating the object, are in [configuration.md](./configuration.md).
 
 ## Generation is configuration-driven
 
-A generator reads its tunable parameters from the **map config object**, not from magic
-numbers buried in the algorithm. The goal is that every significant lever of generation —
-counts, rates, thresholds, spacing, weights — can be changed by the end user **without
-editing code**. Many advanced users treat the tool as a sandbox, so configurability is a
-feature in its own right, not just a developer convenience.
+A generator reads its tunable parameters from the **configuration objects**, not from magic
+numbers buried in the algorithm: it takes its requests from `options.generation`, and the
+parameters that stay true of the map it produced are written into `options.map`. The goal is that every significant
+lever of generation — counts, rates, thresholds, spacing, weights — can be changed by the end
+user **without editing code**. Many advanced users treat the tool as a sandbox, so
+configurability is a feature in its own right, not just a developer convenience.
 
 - **Promote meaningful constants to config.** The test is _would a user plausibly want to
   change this?_ If yes, it becomes a named field on the config object. If it is a fixed
@@ -705,7 +745,10 @@ feature in its own right, not just a developer convenience.
   alike — with no bespoke UI per setting. Keep fields self-describing so that editor stays
   simple.
 - **Defaults are part of the schema.** A new map starts from the config defaults; a loaded
-  `.map` restores its saved config, so a value the user changed reproduces exactly on reload.
+  `.map` restores its saved settings, so a value the user changed reproduces exactly on reload.
+- **A count is data, not configuration.** How many states a map has is answered by the world,
+  not by the request that produced it; only the rates, ratios and varieties that keep being
+  consulted after generation are configuration.
 
 ## The editing UI are controllers
 
@@ -729,7 +772,8 @@ reason a session can climb toward gigabytes. The target:
 - **Destroy on close — always.** `close()` removes the generated subtree (`element.remove()`),
   drops its listeners, cancels timers/observers/animation loops, and releases references.
   **Hiding is not closing**: a hidden panel still costs its full DOM, listeners, and retained
-  closures.
+  closures. The one exception is the Azgaar Assistant panel: it is built once and hidden on close,
+  so an answer in flight, the draft and the scroll survive.
 - **Symmetric ownership.** Every `build` has a matching `teardown` in the same controller. If
   `open` created it, `close` destroys it — no orphaned subtrees, no half-freed state.
 - **Bound large lists.** A panel over N entities must not materialize N rows when N is large:

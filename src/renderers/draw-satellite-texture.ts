@@ -1,6 +1,6 @@
 import { color as parseColor } from "d3";
 import type * as THREEType from "three";
-import { type ErosionBakeResult, heightAt } from "./erosion-bake";
+import { buildGridTexture, type ErosionBakeResult, heightAt } from "./erosion-bake";
 
 let renderTarget: THREEType.WebGLRenderTarget | null = null;
 
@@ -39,7 +39,6 @@ export function getSatelliteBiomeData(biomeId: number, fallbackBiomeId: number) 
 // G: moisture (precipitation) capped at 30
 // B: grid height 0-100
 function buildClimateTexture() {
-  const { cellsX, cellsY } = grid;
   const { temp, prec, h, c: neighbors } = grid.cells;
   const n = temp.length;
 
@@ -70,15 +69,11 @@ function buildClimateTexture() {
     data[i * 4 + 3] = 255;
   }
 
-  const texture = new THREE.DataTexture(data, cellsX, cellsY, THREE.RGBAFormat, THREE.UnsignedByteType);
-  texture.minFilter = texture.magFilter = THREE.LinearFilter;
-  texture.needsUpdate = true;
-  return texture;
+  return buildGridTexture(data);
 }
 
 // RGB: satellite albedo of the cell's biome
 function buildBiomeTexture() {
-  const { cellsX, cellsY } = grid;
   const { temp, prec, h } = grid.cells;
   const n = temp.length;
 
@@ -105,10 +100,7 @@ function buildBiomeTexture() {
     data[i * 4 + 3] = density * 255;
   }
 
-  const texture = new THREE.DataTexture(data, cellsX, cellsY, THREE.RGBAFormat, THREE.UnsignedByteType);
-  texture.minFilter = texture.magFilter = THREE.LinearFilter;
-  texture.needsUpdate = true;
-  return texture;
+  return buildGridTexture(data);
 }
 
 const vertexShader = /* glsl */ `
@@ -132,9 +124,9 @@ const fragmentShader = /* glsl */ `
   uniform sampler2D uBiome;   // RGB: biome satellite albedo, A: vegetation density
   uniform vec2 uResolution;   // output size in px (>= field size when supersampling)
   uniform vec2 uFieldSize;    // baked field size in px (uField/uCoast texels)
-  uniform vec2 uGridSize;     // (cellsX, cellsY), for half-texel climate alignment
+  uniform vec2 uGridSize;     // grid raster size in pixels, for half-texel climate alignment
   uniform vec2 uSlopeScale;   // height gradient per texel -> world-space tan(slope), per axis
-  uniform float uAspect;      // graphHeight / graphWidth
+  uniform float uAspect;      // map height / map width
   uniform float uSeed;
 
   // accents over the biome albedo
@@ -539,12 +531,15 @@ export function generateSatelliteTexture(
         uBiome: { value: biomeTexture },
         uResolution: { value: new THREE.Vector2(outputW, outputH) },
         uFieldSize: { value: new THREE.Vector2(cols, rows) },
-        uGridSize: { value: new THREE.Vector2(grid.cellsX, grid.cellsY) },
+        uGridSize: { value: new THREE.Vector2(climateTexture.image.width, climateTexture.image.height) },
         uSlopeScale: {
-          value: new THREE.Vector2(worldPerHeight / (graphWidth / cols), worldPerHeight / (graphHeight / rows))
+          value: new THREE.Vector2(
+            worldPerHeight / (options.map.graph.width / cols),
+            worldPerHeight / (options.map.graph.height / rows)
+          )
         },
-        uAspect: { value: graphHeight / graphWidth },
-        uSeed: { value: (Number.parseInt(seed, 10) % 1e5 || 1) / 1e5 + 1 }
+        uAspect: { value: options.map.graph.height / options.map.graph.width },
+        uSeed: { value: (Number.parseInt(options.map.seed, 10) % 1e5 || 1) / 1e5 + 1 }
       },
       depthTest: false,
       depthWrite: false
@@ -603,10 +598,10 @@ let flowTexture: THREEType.Texture | null = null;
 export function generateRiverFlowTexture(): THREEType.Texture {
   disposeRiverFlowTexture();
 
-  const scale = 1024 / Math.max(graphWidth, graphHeight);
+  const scale = 1024 / Math.max(options.map.graph.width, options.map.graph.height);
   const canvas = document.createElement("canvas");
-  canvas.width = Math.max(64, Math.round(graphWidth * scale));
-  canvas.height = Math.max(64, Math.round(graphHeight * scale));
+  canvas.width = Math.max(64, Math.round(options.map.graph.width * scale));
+  canvas.height = Math.max(64, Math.round(options.map.graph.height * scale));
   const ctx = canvas.getContext("2d")!;
   ctx.fillStyle = "#000";
   ctx.fillRect(0, 0, canvas.width, canvas.height);

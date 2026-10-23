@@ -21,6 +21,38 @@ export const capitalize = (inputString: string) => {
   return inputString.charAt(0).toUpperCase() + inputString.slice(1);
 };
 
+/** The message of anything thrown */
+export const errorText = (error: unknown): string => (error instanceof Error ? error.message : String(error));
+
+/**
+ * Escape a string for interpolation into generated HTML, in text and attribute positions alike
+ * @param {string} inputString - The input string
+ * @returns {string} - The escaped string
+ */
+export const escapeHtml = (inputString: string): string =>
+  String(inputString ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+
+/**
+ * Set or remove one property in an inline style string, keeping the other declarations
+ * @param {string|null} style - The current inline style, null when not set
+ * @param {string} property - The css property name, lowercase
+ * @param {string} value - The new value; an empty string removes the property
+ * @returns {string|null} - The merged style, null when no declarations remain
+ */
+export const setInlineStyleProperty = (style: string | null, property: string, value: string): string | null => {
+  const declarations = (style || "")
+    .split(";")
+    .map(declaration => declaration.trim())
+    .filter(declaration => declaration && declaration.split(":")[0].trim().toLowerCase() !== property);
+  if (value) declarations.push(`${property}: ${value}`);
+  return declarations.join("; ") || null;
+};
+
 /**
  * Split a string into two parts, trying to balance their lengths
  * @param {string} inputString - The input string
@@ -126,5 +158,6 @@ declare global {
     round: typeof round;
     capitalize: typeof capitalize;
     parseTransform: typeof parseTransform;
+    setInlineStyleProperty: typeof setInlineStyleProperty;
   }
 }

@@ -4,8 +4,9 @@ import { Layers } from "@/components/layers";
 import { clearMainTip, tip } from "@/components/tooltips";
 import { applyDefaultViewboxEvents } from "@/components/viewbox-events";
 import { Controllers } from "@/controllers";
-import type { Point } from "@/generators/voronoi";
-import { ensureEl, getPointer, last, rn } from "../utils";
+import { t } from "@/utils/i18n";
+import { errorText } from "@/utils/stringUtils";
+import { ensureEl, getPointer } from "../utils";
 
 let creatorCells: number[] = [];
 
@@ -19,7 +20,7 @@ function open(): void {
   isCellsLayerForced = !Layers.isOn("cells");
   Layers.show("cells");
 
-  tip("Click to add river point, click again to remove", true);
+  tip(t("Click to add river point, click again to remove"), true);
   select("#debug").append("g").attr("id", "controlCells");
   select<SVGElement, unknown>("#viewbox").style("cursor", "crosshair").on("click", onCellClick);
 
@@ -27,7 +28,7 @@ function open(): void {
   renderDialog();
 
   $("#riverCreator").dialog({
-    title: "Create River",
+    title: t("Create River"),
     resizable: false,
     position: { my: "left top", at: "left+10 top+10", of: "#map" },
     close: closeRiverCreator
@@ -40,8 +41,8 @@ function renderDialog(): void {
   const html = /* html */ `<div id="riverCreator" class="dialog">
     <div id="riverCreatorBody" class="table"></div>
     <div id="riverCreatorBottom">
-      <button id="riverCreatorComplete" data-tip="Complete river creation" class="icon-check"></button>
-      <button id="riverCreatorCancel" data-tip="Cancel the creation" class="icon-cancel"></button>
+      <button id="riverCreatorComplete" data-tip="${t("Complete river creation")}" class="icon-check"></button>
+      <button id="riverCreatorCancel" data-tip="${t("Cancel the creation")}" class="icon-cancel"></button>
     </div>
   </div>`;
   ensureEl("dialogs").insertAdjacentHTML("beforeend", html);
@@ -78,9 +79,9 @@ function addCell(cell: number): void {
   const flux = pack.cells.fl[cell];
   const line = `<div class="editorLine" data-cell="${cell}">
       <span>Cell ${cell}</span>
-      <span data-tip="Set flux affects river width" style="margin-left: 0.4em">Flux</span>
+      <span data-tip="${t("Set flux affects river width")}" style="margin-left: 0.4em">${t("Flux")}</span>
       <input type="number" min=0 value="${flux}" class="editFlux" style="width: 5em"/>
-      <span data-tip="Remove the cell" class="icon-trash-empty pointer"></span>
+      <span data-tip="${t("Remove")}" class="icon-trash-empty pointer"></span>
     </div>`;
   ensureEl("riverCreatorBody").innerHTML += line;
 }
@@ -102,65 +103,19 @@ function drawCells(cells: number[]): void {
 }
 
 function addRiver(): void {
-  const { rivers: packRivers, cells } = pack;
-  const riverCells = creatorCells;
-  if (riverCells.length < 2) {
-    tip("Add at least 2 cells", false, "error");
+  if (creatorCells.length < 2) {
+    tip(t("Add at least 2 cells"), false, "error");
     return;
   }
-
-  const riverId = Rivers.getNextId(packRivers);
-  const parent = cells.r[last(riverCells)] || riverId;
-
-  riverCells.forEach(cell => {
-    if (!cells.r[cell]) cells.r[cell] = riverId;
-  });
-
-  const source = riverCells[0];
-  const mouth = parent === riverId ? last(riverCells) : riverCells[riverCells.length - 2];
-  const sourceWidth = Rivers.getSourceWidth(cells.fl[source]);
-  const defaultWidthFactor = rn(1 / (+pointsInput.dataset.cells! / 10000) ** 0.25, 2);
-  const widthFactor = 1.2 * defaultWidthFactor;
-
-  const meanderedPoints = Rivers.addMeandering(riverCells);
-
-  const discharge = cells.fl[mouth]; // m3 in second
-  const length = Rivers.getApproximateLength(meanderedPoints as unknown as Point[]);
-  const width = Rivers.getWidth(
-    Rivers.getOffset({
-      flux: discharge,
-      pointIndex: meanderedPoints.length,
-      widthFactor,
-      startingWidth: sourceWidth
-    })
-  );
-  const name = Rivers.getName(mouth);
-  const basin = Rivers.getBasin(parent);
-
-  packRivers.push({
-    i: riverId,
-    source,
-    mouth,
-    discharge,
-    length,
-    width,
-    widthFactor,
-    sourceWidth,
-    parent,
-    cells: riverCells,
-    basin,
-    name,
-    type: "River"
-  });
-  const id = `river${riverId}`;
-
-  select("#viewbox")
-    .select("#rivers")
-    .append("path")
-    .attr("id", id)
-    .attr("d", Rivers.getRiverPath(meanderedPoints, widthFactor, sourceWidth));
-
-  void Controllers.RiverEditor.open(id);
+  let riverId: number;
+  try {
+    riverId = Rivers.create(creatorCells);
+  } catch (error) {
+    tip(errorText(error), false, "error");
+    return;
+  }
+  Layers.draw("rivers");
+  void Controllers.RiverEditor.open(`river${riverId}`);
 }
 
 function closeRiverCreator(): void {

@@ -13,11 +13,13 @@ import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
 import { Controllers } from "@/controllers";
 import { calculateLabelSpread, type LabelSpreadPatch } from "@/controllers/label-spread";
+import { LABEL_TYPE_LABELS } from "@/data/id-labels";
 import { LABEL_TYPES, type Label, type LabelType } from "@/generators/labels-generator";
-import { getLabelsData } from "@/renderers/labels/label-data";
+import { getLabelsData, getLabelsIndex } from "@/renderers/labels/label-data";
 import type { LabelData } from "@/renderers/labels/labels";
 import { highlightElement } from "@/renderers/overlays/highlight";
 import { ensureEl, findEl } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
 
 const dialogId = "labelsOverview" as const;
 const position = { my: "right top", at: "right-10 top+10", of: "svg", collision: "fit" };
@@ -28,7 +30,7 @@ const columns: EditorColumn<LabelData>[] = [
   { key: "selection", width: "1.5em", permanent: true },
   {
     key: "text",
-    label: "Text",
+    label: t("Text"),
     width: "12em",
     permanent: true,
     sortBy: label => label.text,
@@ -36,19 +38,21 @@ const columns: EditorColumn<LabelData>[] = [
   },
   {
     key: "type",
-    label: "Type",
+    label: t("Type"),
     width: "6em",
     sortBy: label => label.type,
     sortType: "alpha"
   },
   {
     key: "group",
-    label: "Group",
+    label: t("Group"),
     width: "8em",
     sortBy: label => label.group,
     sortType: "alpha"
   },
-  { key: "actions", width: "3.4em", permanent: true, align: "right" }
+  { key: "visibility", width: "1.1em" },
+  { key: "reset", width: "1.1em" },
+  { key: "locate", width: "1.4em", permanent: true }
 ];
 
 const listedLabels = new Map<string, LabelData>(); // currently listed labels, keyed by line id
@@ -79,7 +83,7 @@ function open(group: string = ALL): void {
   labelsTable.reset();
 
   $(`#${dialogId}`).dialog({
-    title: "Labels Overview",
+    title: t("Labels Overview"),
     resizable: false,
     position,
     close
@@ -96,40 +100,40 @@ function renderDialog(): void {
       id="labelsFilters"
       style="display:grid; grid-template-columns:1fr 3fr; gap:.2em .4em; align-items:center; padding-top:.4em; width: 100%"
     >
-      <label for="labelsFilterType" data-tip="Show only labels of the selected type">Type:</label>
-      <select id="labelsFilterType" data-tip="Show only labels of the selected type"></select>
-      <label for="labelsFilterGroup" data-tip="Show only labels of the selected group">Group:</label>
-      <select id="labelsFilterGroup" data-tip="Show only labels of the selected group"></select>
-      <label for="labelsSearch" data-tip="Show only labels containing the entered text">Search:</label>
-      <input id="labelsSearch" type="search" data-tip="Show only labels containing the entered text" />
+      <label for="labelsFilterType" data-tip="${t("Show only labels of the selected type")}">${t("Type")}:</label>
+      <select id="labelsFilterType" data-tip="${t("Show only labels of the selected type")}"></select>
+      <label for="labelsFilterGroup" data-tip="${t("Show only labels of the selected group")}">${t("Group")}:</label>
+      <select id="labelsFilterGroup" data-tip="${t("Show only labels of the selected group")}"></select>
+      <label for="labelsSearch" data-tip="${t("Show only labels containing the entered text")}">${t("Search")}:</label>
+      <input id="labelsSearch" type="search" data-tip="${t("Show only labels containing the entered text")}" />
     </div>
     <div id="labelsBulkBar" style="display:none; gap:.4em; align-items:center; padding-top:.4em;">
-      <button id="labelsSelectAll" data-tip="Select or deselect all listed labels" class="icon-check-empty"></button>
-      <span data-tip="Number of selected labels">Selected: <span id="labelsSelectedCount">0</span></span>
-      <select id="labelsBulkGroup" data-tip="Group to assign the selected labels to"></select>
-      <button id="labelsBulkApply" data-tip="Assign all selected labels to the selected group" class="icon-check">Assign</button>
+      <button id="labelsSelectAll" data-tip="${t("Select or deselect all listed labels")}" class="icon-check-empty"></button>
+      <span data-tip="${t("Number of selected labels")}">${t("Selected")}: <span id="labelsSelectedCount">0</span></span>
+      <select id="labelsBulkGroup" data-tip="${t("Group to assign the selected labels to")}"></select>
+      <button id="labelsBulkApply" data-tip="${t("Assign all selected labels to the selected group")}" class="icon-check">${t("Assign")}</button>
     </div>
     <div id="labelsFooter" class="totalLine">
-      <div data-tip="Number of listed labels" style="margin-left: 4px">
-        Labels:&nbsp;<span id="labelsFooterNumber">0</span>&nbsp;of&nbsp;<span id="labelsFooterTotal">0</span>
+      <div data-tip="${t("Number of listed labels")}" style="margin-left: 4px">
+        ${t("Labels")}:&nbsp;${t("{{- shown}} of {{- total}}", { shown: `<span id="labelsFooterNumber">0</span>`, total: `<span id="labelsFooterTotal">0</span>` })}
       </div>
     </div>
     <div id="labelsBottom">
-      <button id="labelsOverviewRefresh" data-tip="Refresh the Overview screen" class="icon-cw"></button>
+      <button id="labelsOverviewRefresh" data-tip="${t("Refresh")}" class="icon-cw"></button>
       <button
         id="labelsBulkToggle"
-        data-tip="Bulk assignment: select multiple labels and assign them all to one group"
+        data-tip="${t("Bulk assignment: select multiple labels and assign them all to one group")}"
         class="icon-tags"
       ></button>
       <button
         id="labelsSpread"
-        data-tip="Spread currently displayed labels to not collide"
+        data-tip="${t("Spread currently displayed labels to not collide")}"
         class="icon-resize-full"></button>
       <span id="labelsSpreadReview" style="display:none">
-        <button id="labelsSpreadApply" data-tip="Keep the proposed label placement" class="icon-check"> Apply</button>
-        <button id="labelsSpreadCancel" data-tip="Restore label placement from before the spread" class="icon-cancel"> Cancel</button>
+        <button id="labelsSpreadApply" data-tip="${t("Keep the proposed label placement")}" class="icon-check"> ${t("Apply")}</button>
+        <button id="labelsSpreadCancel" data-tip="${t("Restore label placement from before the spread")}" class="icon-cancel"> ${t("Cancel")}</button>
       </span>
-      <button id="labelsGroupsConfig" data-tip="Configure Label Groups" class="icon-cog"></button>
+      <button id="labelsGroupsConfig" data-tip="${t("Configure Label Groups")}" class="icon-cog"></button>
     </div>
   </div>`;
   ensureEl("dialogs").insertAdjacentHTML("beforeend", html);
@@ -189,20 +193,20 @@ function onFilterChange(): void {
 function populateTypeFilter(): void {
   const select = ensureEl<HTMLSelectElement>("labelsFilterType");
   select.options.length = 0;
-  select.add(new Option("all", ALL));
-  for (const type of LABEL_TYPES) select.add(new Option(type, type));
+  select.add(new Option(t("All"), ALL));
+  for (const type of LABEL_TYPES) select.add(new Option(LABEL_TYPE_LABELS[type], type));
   select.value = filterState.type;
 }
 
 function populateGroupFilter(): void {
-  const groups = options.labels.groups.map(({ name }) => name);
+  const groups = options.map.labels.groups.map(({ name }) => name);
 
   const select = ensureEl<HTMLSelectElement>("labelsFilterGroup");
   select.options.length = 0;
-  select.add(new Option("all", ALL));
+  select.add(new Option(t("All"), ALL));
   for (const name of groups) select.add(new Option(name, name));
   if (filterState.group !== ALL && !groups.includes(filterState.group))
-    select.add(new Option(`${filterState.group} (missing)`, filterState.group));
+    select.add(new Option(t("{{- group}} (missing)", { group: filterState.group }), filterState.group));
 
   select.value = filterState.group;
 
@@ -210,7 +214,7 @@ function populateGroupFilter(): void {
   const bulkSelect = ensureEl<HTMLSelectElement>("labelsBulkGroup");
   const bulkSelected = bulkSelect.value;
   bulkSelect.options.length = 0;
-  bulkSelect.add(new Option("select group", ALL));
+  bulkSelect.add(new Option(t("select group"), ALL));
   for (const name of groups) bulkSelect.add(new Option(name, name));
   if (groups.includes(bulkSelected)) bulkSelect.value = bulkSelected;
 }
@@ -248,22 +252,20 @@ function createLine(label: LabelData): string {
   const hasOverride = Labels.hasOverride(type, label.entityId);
 
   return /* html */ `<div class="states" data-id="${id}" data-text="${text}" data-type="${type}" data-group="${group}" style="${hidden ? "opacity: 0.5" : ""}">
-      <div data-col="selection"><input class="labelsSelect native" type="checkbox" data-tip="Select the label for bulk assignment" style="margin: 0; width: 1.2em; vertical-align: bottom; margin-bottom: 0.2em; ${isBulkMode ? "" : "display:none"}"></div>
-      <div data-col="text" data-tip="Label text">${text}</div>
-      <div data-col="type" data-tip="Label type">${type}</div>
-      <select data-col="group" class="labelsGroup" data-tip="Label group, select to reassign the label">
+      <div data-col="selection"><input class="labelsSelect native" type="checkbox" data-tip="${t("Select the label for bulk assignment")}" style="margin: 0; width: 1.2em; vertical-align: bottom; margin-bottom: 0.2em; ${isBulkMode ? "" : "display:none"}"></div>
+      <div data-col="text" data-tip="${t("Label text")}">${text}</div>
+      <div data-col="type" data-tip="${t("Label type")}">${LABEL_TYPE_LABELS[type]}</div>
+      <select data-col="group" class="labelsGroup" data-tip="${t("Select a group for this label")}">
         ${createGroupOptions(group)}
       </select>
-      <div data-col="actions">
-        <span data-tip="${hidden ? "Show" : "Hide"} the label" aria-label="${hidden ? "Show" : "Hide"} the label" class="icon-eye${hidden ? "-off" : ""} labelsVisibility"></span>
-        <span data-tip="Restore the default label" aria-label="Restore the default label" class="icon-arrows-cw labelsReset ${hasOverride ? "" : " inactive"}"></span>
-        <span data-tip="Locate the label" aria-label="Locate the label" class="icon-target"></span>
-      </div>
+      <span data-col="visibility" data-tip="${hidden ? t("Show") : t("Hide")}" aria-label="${hidden ? t("Show") : t("Hide")}" class="icon-eye${hidden ? "-off" : ""} labelsVisibility"></span>
+      <span data-col="reset" data-tip="${t("Reset to default")}" aria-label="${t("Reset to default")}" class="icon-arrows-cw labelsReset ${hasOverride ? "" : " inactive"}"></span>
+      <span data-col="locate" data-tip="${t("Locate on map")}" aria-label="${t("Locate on map")}" class="icon-target"></span>
     </div>`;
 }
 
 function createGroupOptions(selected: string): string {
-  const groups = options.labels.groups.map(({ name }) => name);
+  const groups = options.map.labels.groups.map(({ name }) => name);
   const names = groups.includes(selected) ? groups : [selected, ...groups];
 
   return names
@@ -313,9 +315,7 @@ function toggleLabelVisibility(element: HTMLElement): void {
   const entity = Labels.getEntity(label.type, label.entityId);
   if (!entity) return;
 
-  if (entity.label?.hidden) delete entity.label.hidden;
-  else entity.label = { ...entity.label, hidden: true };
-
+  Labels.setLayout(label.type, label.entityId, { hidden: !entity.label?.hidden });
   Layers.draw("labels");
   labelsTable.refresh();
 }
@@ -327,20 +327,25 @@ function resetLabel(element: HTMLElement): void {
   const hasOverride = Labels.hasOverride(label.type, label.entityId);
   if (!hasOverride) return;
 
-  Labels.resetOverride(label.type, label.entityId);
+  Labels.reset(label.type, label.entityId);
   Layers.draw("labels");
   labelsTable.refresh();
 }
 
 function assignGroup(labels: LabelData[], groupName: string): void {
-  const group = options.labels.groups.find(({ name }) => name === groupName);
+  const group = options.map.labels.groups.find(({ name }) => name === groupName);
   if (!group) return;
 
   const apply = () => {
-    for (const { type, entityId } of labels) Labels.setGroup({ type, entityId, group: groupName });
+    for (const { type, entityId } of labels) Labels.setGroup(type, entityId, groupName);
     Layers.draw("labels");
     refresh();
-    tip(`${labels.length} label(s) assigned to the "${groupName}" group`, false, "success", 4000);
+    tip(
+      t("Labels assigned to the “{{group}}” group: {{labels}}", { group: groupName, labels: labels.length }),
+      false,
+      "success",
+      4000
+    );
   };
 
   const crossTyped = labels.filter(({ type }) => type !== group.type);
@@ -348,13 +353,31 @@ function assignGroup(labels: LabelData[], groupName: string): void {
 
   const message =
     labels.length === 1
-      ? `Assign this ${labels[0].type} label to the ${group.type} group "${groupName}"? It's better to avoid such cross-type assignment`
-      : `${crossTyped.length} of ${labels.length} selected labels are not of the ${group.type} type. Assign them all to the ${group.type} group "${groupName}" anyway? It's better to avoid such cross-type assignment`;
+      ? sentences(
+          t("Assign this {{type}} label to the {{targetType}} group “{{group}}”?", {
+            type: labels[0].type,
+            targetType: group.type,
+            group: groupName
+          }),
+          t("It's better to avoid such cross-type assignment")
+        )
+      : sentences(
+          t("{{crossTyped}} of {{total}} selected labels are not of the {{targetType}} type", {
+            crossTyped: crossTyped.length,
+            total: labels.length,
+            targetType: group.type
+          }),
+          t("Assign them all to the {{targetType}} group “{{group}}” anyway?", {
+            targetType: group.type,
+            group: groupName
+          }),
+          t("It's better to avoid such cross-type assignment")
+        );
 
   confirmationDialog({
-    title: "Assign cross-type Label Group",
+    title: t("Assign cross-type Label Group"),
     message,
-    confirm: "Assign",
+    confirm: t("Assign"),
     onConfirm: apply,
     onCancel: labelsTable.refresh // re-render to restore the group shown in the line
   });
@@ -400,10 +423,10 @@ function toggleSelectAll(): void {
 
 function applyBulkAssignment(): void {
   const labels = getSelectedLabels();
-  if (!labels.length) return void tip("Select at least one label", false, "error");
+  if (!labels.length) return void tip(t("Select at least one label"), false, "error");
 
   const group = ensureEl<HTMLSelectElement>("labelsBulkGroup").value;
-  if (group === ALL) return void tip("Define a label group to assign the labels to", false, "error");
+  if (group === ALL) return void tip(t("Define a label group to assign the labels to"), false, "error");
 
   assignGroup(labels, group);
 }
@@ -452,14 +475,14 @@ function cancelSpread(): void {
   restoreLabelSnapshot();
   finishSpreadPreview();
   Layers.draw("labels");
-  if (document.getElementById("labelsOverview")) {
+  if (findEl("labelsOverview")) {
     labelsTable.refresh();
     syncSpreadControls();
   }
 }
 
 function takeLabelSnapshot(): LabelSnapshot[] {
-  return getLabelsData().map(({ type, entityId }) => {
+  return getLabelsIndex().map(({ type, entityId }) => {
     const label = Labels.getEntity(type, entityId)?.label;
     return { type, entityId, label: label === undefined ? undefined : structuredClone(label) };
   });
@@ -476,16 +499,8 @@ function restoreLabelSnapshot(): void {
 }
 
 function applySpreadPatches(patches: LabelSpreadPatch[]): void {
-  for (const patch of patches) {
-    const entity = Labels.getEntity(patch.type, patch.entityId);
-    if (!entity) continue;
-    const label = { ...entity.label };
-    if ("startOffset" in patch) label.startOffset = patch.startOffset;
-    else {
-      if (patch.dx !== undefined) label.dx = patch.dx;
-      if (patch.dy !== undefined) label.dy = patch.dy;
-    }
-    entity.label = label;
+  for (const { type, entityId, ...layout } of patches) {
+    if (Labels.getEntity(type, entityId)) Labels.setLayout(type, entityId, layout);
   }
 }
 
@@ -500,7 +515,7 @@ function finishSpreadPreview(): void {
 }
 
 function syncSpreadControls(): void {
-  const dialog = document.getElementById("labelsOverview");
+  const dialog = findEl("labelsOverview");
   if (!dialog) return;
   const isRunning = spreadPreview.phase === "running";
   const isReview = spreadPreview.phase === "review";

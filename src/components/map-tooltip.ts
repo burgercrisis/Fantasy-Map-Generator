@@ -1,9 +1,13 @@
 import { select } from "d3";
 import { Layers } from "@/components/layers";
+import { MapEntities } from "@/components/map-entities";
+import { FEATURE_SUBTYPE_LABELS } from "@/data/id-labels";
+import { Notes } from "@/generators/notes";
 import { highlightEmblemElement } from "@/renderers/overlays/highlight";
 import type { Point } from "@/types/global";
 import {
   convertTemperature,
+  escapeHtml,
   findEl,
   getCellPopulation,
   getComposedPath,
@@ -12,6 +16,7 @@ import {
   getPointer,
   si
 } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
 import { showMainTip, tip } from "./tooltips";
 
 export function handleMouseMove(event: MouseEvent | TouchEvent): void {
@@ -35,29 +40,24 @@ let currentNoteId: string | null = null; // currently displayed note, to not rer
 export function showNotes(event: Event): void {
   if (findEl("notesEditor")) return;
 
-  const target = event.target as HTMLElement;
-  const parent = target.parentNode as HTMLElement;
-  const grand = parent?.parentNode as HTMLElement;
+  const ref = MapEntities.resolveTarget(event.target instanceof Element ? event.target : null);
+  const id = ref && MapEntities.key(ref);
+  const note = ref && Notes.get(ref);
 
-  const burg = target.closest<HTMLElement>("[data-label-type='burg'][data-id], #burgIcons [data-id]");
-  const id = burg ? `burg${burg.dataset.id}` : target.id || parent?.id || grand?.id;
-
-  const note = notes.find(note => note.id === id);
-
-  if (note?.legend) {
+  if (ref && note) {
     if (currentNoteId === id) return;
-    currentNoteId = id;
+    currentNoteId = id ?? null;
 
     const notesEl = findEl("notes");
     if (notesEl) notesEl.style.display = "block";
     const header = findEl("notesHeader");
-    if (header) header.innerHTML = note.name;
+    if (header) header.textContent = MapEntities.getName(ref);
     const body = findEl("notesBody");
-    if (body) body.innerHTML = note.legend;
+    if (body) body.innerHTML = note;
     return;
   }
 
-  if (options.pinNotes || findEl("markerEditor") || (event as MouseEvent).shiftKey) return;
+  if (options.app.notesPinned || findEl("markerEditor") || (event as MouseEvent).shiftKey) return;
 
   const notesEl = findEl("notes");
   if (notesEl) notesEl.style.display = "none";
@@ -70,7 +70,11 @@ export function showNotes(event: Event): void {
 
 function getPopulationTip(cellId: number): string {
   const [rural, urban] = getCellPopulation(cellId, pack);
-  return `Cell population: ${si(rural + urban)}; Rural: ${si(rural)}; Urban: ${si(urban)}`;
+  return t("Cell population: {{total}}; Rural: {{rural}}; Urban: {{urban}}", {
+    total: si(rural + urban),
+    rural: si(rural),
+    urban: si(urban)
+  });
 }
 
 /** Show the tooltip for the hovered map element or, failing that, for the active layer */
@@ -82,10 +86,9 @@ export function showMapTooltip(point: Point, event: Event, cellId: number, gridC
   if (!path[path.length - 8]) return;
 
   const group = path[path.length - 7].id;
-  const subgroup = path[path.length - 8].id;
   const isLand = pack.cells.h[cellId] >= 20;
 
-  const elementTip = getElementTip({ group, subgroup, target, event, path, cellId });
+  const elementTip = getElementTip({ group, target, event, path, cellId });
   if (elementTip !== undefined) {
     tip(elementTip);
     return;
@@ -94,9 +97,14 @@ export function showMapTooltip(point: Point, event: Event, cellId: number, gridC
   showLayerTip(point, cellId, gridCellId, isLand);
 }
 
+/** Add what a click on the element does; on a view-only map clicks open nothing, and an empty tip shows the layer's */
+function withHint(text?: string, hint = t("Click to edit")): string | undefined {
+  if (options.map.viewOnly) return text || undefined;
+  return text ? sentences(text, hint) : hint;
+}
+
 interface TipContext {
   group: string;
-  subgroup: string;
   target: SVGElement;
   event: Event;
   path: HTMLElement[];
@@ -107,43 +115,50 @@ interface TipContext {
  * Get the tooltip for the hovered element.
  * Returns undefined if the element is not interactive, so the layer tip is shown instead
  */
-function getElementTip({ group, subgroup, target, event, path, cellId }: TipContext): string | undefined {
+function getElementTip({ group, target, event, path, cellId }: TipContext): string | undefined {
   const parent = target.parentNode as SVGElement;
   const burgElement = target.closest<SVGElement>("[data-label-type='burg'][data-id], #burgIcons [data-id]");
   if (burgElement) {
     const burgId = Number(burgElement.dataset.id);
     const burg = pack.burgs[burgId];
-    if (!burg) return "Click to edit the Burg";
-    const population = si((burg.population || 0) * populationRate * urbanization);
-    return `${burg.name} ${burg.group}. Population: ${population}. Click to edit`;
+    if (!burg) return withHint();
+    const population = si(
+      (burg.population || 0) * options.map.units.population.scale * options.map.units.population.urbanization.rate
+    );
+    const values = { burg: burg.name, group: burg.group, population };
+    const name = burg.port ? t("{{burg}} {{group}} port", values) : t("{{burg}} {{group}}", values);
+    return withHint(sentences(name, `${t("Population")}: ${population}`));
   }
 
-  const text = target.textContent.replaceAll("|", "");
-  if (target.closest("#labels [data-label-type]")) return `${text}. Click to edit the label`;
+  const labelElement = target.closest<SVGElement>("#labels [data-label-type]");
+  if (labelElement) return withHint(escapeHtml(getLabelText(labelElement)));
 
-  if (group === "armies") return `${(parent as SVGElement & { dataset: DOMStringMap }).dataset.name}. Click to edit`;
+  if (group === "armies")
+    return withHint(escapeHtml((parent as SVGElement & { dataset: DOMStringMap }).dataset.name ?? ""));
 
   if (group === "emblems" && target.tagName === "use") return getEmblemTip(target, parent, event);
 
   if (group === "rivers") {
-    const riverId = Number(target.id.slice(5));
-    const river = pack.rivers.find(river => river.i === riverId);
-    return `${river ? `${river.name} ${river.type}` : ""}. Click to edit`;
+    const ref = MapEntities.resolveTarget(target);
+    return withHint(escapeHtml(ref ? MapEntities.getName(ref) : ""));
   }
 
   if (group === "routes") {
-    const routeId = Number(target.id.slice(5));
-    const route = pack.routes.find(route => route.i === routeId);
-    if (route) return route.name ? `${route.name}. Click to edit the Route` : "Click to edit the Route";
+    const ref = MapEntities.resolveTarget(target);
+    if (ref && MapEntities.get(ref)) {
+      const name = MapEntities.getName(ref);
+      return withHint(name ? escapeHtml(name) : undefined);
+    }
     return undefined;
   }
 
-  if (group === "terrain") return "Click to edit the Relief Icon";
+  if (group === "terrain" || group === "ice") return withHint();
 
-  if (group === "markers") return "Click to edit the Marker. Hold Shift to not close the assosiated note";
+  if (group === "markers")
+    return withHint(undefined, t("Click to edit the Marker. Hold Shift to not close the assosiated note"));
 
   if (group === "ruler")
-    return findEl("measurersEditor") ? "Drag the measurer or its points to edit" : "Click to open the Measurers Editor";
+    return findEl("measurersEditor") ? t("Drag the measurer or its points to edit") : t("Measurers Editor");
 
   // markets and goods swallow the tip even when there is nothing to say, layer values are not shown below them
   if (group === "markets") return getMarketTip(target) ?? "";
@@ -151,12 +166,11 @@ function getElementTip({ group, subgroup, target, event, path, cellId }: TipCont
   if (group === "goods") return getGoodsTip(target, cellId) ?? "";
 
   if (group === "lakes" && pack.cells.h[cellId] < 20) {
-    const lakeId = Number(target.dataset.f);
-    const name = pack.features[lakeId]?.name;
-    return `${subgroup === "freshwater" ? name : `${name} ${subgroup}`} lake. Click to edit`;
+    const lake = pack.features[Number(target.dataset.f)];
+    const name = lake?.name ? [escapeHtml(lake.name)] : [];
+    const subtype = lake?.subtype || "lake";
+    return withHint(sentences(...name, FEATURE_SUBTYPE_LABELS[subtype] ?? subtype));
   }
-
-  if (group === "coastline") return "Click to edit the coastline";
 
   if (group === "zones") {
     const zoneId = Number(path[path.length - 8].dataset.id);
@@ -164,12 +178,32 @@ function getElementTip({ group, subgroup, target, event, path, cellId }: TipCont
     return zone?.name;
   }
 
-  if (group === "ice") return "Click to edit the Ice";
+  if (group === "journeys") {
+    const match = target.id?.match(/^segment(\d+)_(\d+)$/);
+    if (match) {
+      const journey = pack.journeys?.find(j => j.i === +match[1]);
+      const segment = journey?.segments?.find(s => s.i === +match[2]);
+      if (journey && segment) {
+        const name = escapeHtml(`${journey.name}: ${segment.name}`);
+        return withHint(segment.note ? sentences(name, `“${escapeHtml(segment.note)}”`) : name);
+      }
+    }
+    return withHint();
+  }
 
   return undefined;
 }
 
-function getEmblemTip(target: SVGElement, parent: SVGElement, event: Event): string {
+/** Get the full label text, joining lines of multi-line labels rendered as tspans */
+function getLabelText(labelElement: SVGElement): string {
+  const tspans = labelElement.querySelectorAll("tspan");
+  const text = tspans.length
+    ? Array.from(tspans, tspan => tspan.textContent ?? "").join(" ")
+    : (labelElement.textContent ?? "");
+  return text.replaceAll("|", " ").trim();
+}
+
+function getEmblemTip(target: SVGElement, parent: SVGElement, event: Event): string | undefined {
   const [elements, type] =
     parent.id === "burgEmblems"
       ? ([pack.burgs, "burg"] as const)
@@ -184,7 +218,13 @@ function getEmblemTip(target: SVGElement, parent: SVGElement, event: Event): str
   select(parent).raise();
 
   const name = "fullName" in element ? element.fullName || element.name : element.name;
-  return `${name} ${type} emblem. Click to edit. Hold Shift to show associated area or place`;
+  const emblem =
+    type === "burg"
+      ? t("{{name}} burg emblem", { name })
+      : type === "province"
+        ? t("{{name}} province emblem", { name })
+        : t("{{name}} state emblem", { name });
+  return withHint(sentences(emblem, t("Hold Shift to show associated area or place")));
 }
 
 function getMarketTip(target: SVGElement): string | undefined {
@@ -195,7 +235,7 @@ function getMarketTip(target: SVGElement): string | undefined {
   const centerBurg = market && pack.burgs[market.centerBurgId];
   if (!centerBurg) return undefined;
 
-  return `${centerBurg.name} market. Click to view`;
+  return withHint(t("{{burg}} market", { burg: centerBurg.name }), t("Click to view"));
 }
 
 function getGoodsTip(target: SVGElement, cellId: number): string | undefined {
@@ -212,12 +252,18 @@ function getGoodsTip(target: SVGElement, cellId: number): string | undefined {
 
   if (target.closest("#goodsIcons")) {
     const good = Goods.get(Number(target.closest<SVGElement>("[data-i]")?.dataset.i));
-    return `${good?.name} bonus resource. Click to open Goods Editor and select displayed goods`;
+    return withHint(
+      t("{{good}} bonus resource", { good: good?.name }),
+      t("Click to open Goods Editor and select displayed goods")
+    );
   }
 
   if (target.closest("#goodsCells")) {
     const produced = Production.getCellProduction(cellId, Goods.getBiomesProduction());
-    return `Cell rural production: ${formatProduction(produced)}. Click to select displayed goods in Goods Editor`;
+    return withHint(
+      t("Cell rural production: {{production}}", { production: formatProduction(produced) }),
+      t("Click to select displayed goods in Goods Editor")
+    );
   }
 
   if (target.closest("#goodsBurgs")) {
@@ -226,7 +272,13 @@ function getGoodsTip(target: SVGElement, cellId: number): string | undefined {
     if (!burg || burg.removed) return undefined;
 
     select(burgEl).raise();
-    return `${burg.name} urban production: ${formatProduction(Production.getBurgProduction(burg))}. Click to view`;
+    return withHint(
+      t("{{burg}} urban production: {{production}}", {
+        burg: burg.name,
+        production: formatProduction(Production.getBurgProduction(burg))
+      }),
+      t("Click to view")
+    );
   }
 
   return undefined;
@@ -236,18 +288,22 @@ function getGoodsTip(target: SVGElement, cellId: number): string | undefined {
 function showLayerTip(point: Point, cellId: number, gridCellId: number, isLand: boolean): void {
   const { cells } = pack;
   if (Layers.isOn("precipitation") && isLand)
-    return void tip(`Annual Precipitation: ${getFriendlyPrecipitation(cellId, pack, grid)}`);
+    return void tip(t("Annual Precipitation: {{value}}", { value: getFriendlyPrecipitation(cellId, pack, grid) }));
   if (Layers.isOn("population")) return void tip(getPopulationTip(cellId));
-  if (Layers.isOn("temperature")) return void tip(`Temperature: ${convertTemperature(grid.cells.temp[gridCellId])}`);
+  if (Layers.isOn("temperature"))
+    return void tip(`${t("Temperature")}: ${convertTemperature(grid.cells.temp[gridCellId])}`);
   if (Layers.isOn("biomes") && cells.biome[cellId]) {
     const biomeId = cells.biome[cellId];
-    return void tip(`Biome: ${pack.biomes[biomeId].name}`);
+    return void tip(`${t("Biome")}: ${escapeHtml(pack.biomes[biomeId].name)}`);
   }
   if (Layers.isOn("religions") && cells.religion[cellId]) {
     const religionId = cells.religion[cellId];
     const religion = pack.religions[religionId];
-    const type = religion.type === "Cult" || religion.type === "Heresy" ? religion.type : `${religion.type} religion`;
-    return void tip(`${type}: ${religion.name}`);
+    const name = religion.name;
+    if (religion.type === "Cult") return void tip(`${t("Cult")}: ${escapeHtml(name)}`);
+    if (religion.type === "Heresy") return void tip(`${t("Heresy")}: ${escapeHtml(name)}`);
+    if (religion.type === "Folk") return void tip(`${t("Folk religion")}: ${escapeHtml(name)}`);
+    return void tip(`${t("Organized religion")}: ${escapeHtml(name)}`);
   }
   if (cells.state[cellId] && (Layers.isOn("provinces") || Layers.isOn("states"))) {
     const stateId = cells.state[cellId];
@@ -257,7 +313,11 @@ function showLayerTip(point: Point, cellId: number, gridCellId: number, isLand: 
   }
   if (Layers.isOn("cultures") && cells.culture[cellId]) {
     const cultureId = cells.culture[cellId];
-    return void tip(`Culture: ${pack.cultures[cultureId].name}`);
+    const culture = pack.cultures[cultureId];
+    const ancestry = culture?.ancestry?.trim();
+    const name = ancestry ? `${culture.name} (${ancestry})` : culture?.name || "";
+    return void tip(`${t("Culture")}: ${escapeHtml(name)}`);
   }
-  if (Layers.isOn("heightmap")) return void tip(`Height: ${getFriendlyHeight(point, pack, grid)}`);
+  if (Layers.isOn("cells")) return void tip(`${t("Cell")}: ${cellId} (${t("Grid")}: ${gridCellId})`);
+  if (Layers.isOn("heightmap")) return void tip(`${t("Height")}: ${getFriendlyHeight(point, pack, grid)}`);
 }

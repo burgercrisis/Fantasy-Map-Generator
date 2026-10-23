@@ -1,7 +1,17 @@
+import { applyGraphSize, fitMapToScreen, redrawMap } from "@/components/canvas";
 import { destroyDialog } from "@/components/dialog/dialog-helpers";
 import { Layers } from "@/components/layers";
+import { registerMap } from "@/components/lifecycle";
+import { cellsDensityColor, changeCellsDensity } from "@/components/options/tabs/options-tab";
+import { tip } from "@/components/tooltips";
+import { undraw } from "@/components/undraw";
+import { viewport } from "@/components/viewport";
+import { POINTS_BY_DENSITY } from "@/data/graph-density";
+import { MapRestoration } from "@/generators/map-restoration";
 import { Resample } from "@/generators/resample";
+import { logStats } from "@/services/logging";
 import { getLatitude, getLongitude } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
 import { ensureEl, minmax, rn } from "../utils";
 
 function open(): void {
@@ -9,17 +19,17 @@ function open(): void {
   addListeners();
 
   $("#submapTool").dialog({
-    title: "Create a submap",
+    title: t("Create Submap"),
     resizable: false,
     width: "32em",
     position: { my: "center", at: "center", of: "svg" },
     close: cleanup,
     buttons: {
-      Submap: function (this: HTMLElement) {
+      [t("Submap")]: function (this: HTMLElement) {
         generateSubmap();
         $(this).dialog("close");
       },
-      Cancel: function (this: HTMLElement) {
+      [t("Cancel")]: function (this: HTMLElement) {
         $(this).dialog("close");
       }
     }
@@ -29,25 +39,24 @@ function open(): void {
 function renderDialog(): void {
   destroyDialog("submapTool");
 
-  const pointsValue = ensureEl<HTMLInputElement>("pointsInput").value;
-  const cells = cellsDensityMap[+pointsValue];
+  const pointsValue = String(options.generation.graph.density);
+  const cells = POINTS_BY_DENSITY[+pointsValue];
 
   const html = /* html */ `<div id="submapTool" class="dialog">
     <p style="font-weight: bold">
-      This operation is destructive and irreversible. It will create a completely new map based on the current one.
-      Don't forget to save the .map file to your machine first!
+      ${t("This operation is destructive and irreversible. It will create a completely new map based on the current one. Don't forget to save the .map file to your machine first!")}
     </p>
     <div style="display: flex; flex-direction: column; gap: 0.5em">
-      <div data-tip="Set points (cells) number of the submap" style="display: flex; gap: 1em">
-        <div>Points number</div>
+      <div data-tip="${t("Set points (cells) number of the submap")}" style="display: flex; gap: 1em">
+        <div>${t("Points number")}</div>
         <div>
           <input id="submapPointsInput" type="range" min="1" max="13" value="${pointsValue}" />
-          <output id="submapPointsFormatted" style="color: ${getCellsDensityColor(cells)}">${cells / 1000}K</output>
+          <output id="submapPointsFormatted" style="color: ${cellsDensityColor(cells)}">${cells / 1000}K</output>
         </div>
       </div>
-      <div data-tip="Check to fit burg styles (icon and label size) to the submap scale">
+      <div data-tip="${t("Check to fit burg styles (icon and label size) to the submap scale")}">
         <input type="checkbox" class="checkbox" id="submapRescaleBurgStyles" checked />
-        <label for="submapRescaleBurgStyles" class="checkbox-label">Rescale burg styles</label>
+        <label for="submapRescaleBurgStyles" class="checkbox-label">${t("Rescale burg styles")}</label>
       </div>
     </div>
   </div>`;
@@ -63,63 +72,91 @@ function cleanup(): void {
 }
 
 function handlePointsInput(e: Event): void {
-  const cells = cellsDensityMap[+(e.target as HTMLInputElement).value];
+  const cells = POINTS_BY_DENSITY[+(e.target as HTMLInputElement).value];
   const output = ensureEl<HTMLOutputElement>("submapPointsFormatted");
   output.value = `${cells / 1000}K`;
-  output.style.color = getCellsDensityColor(cells);
+  output.style.color = cellsDensityColor(cells);
 }
 
 function generateSubmap(): void {
   INFO && console.group("generateSubmap");
 
-  const [x0, y0] = [Math.abs(viewX / scale), Math.abs(viewY / scale)]; // top-left corner
-  recalculateMapSize(x0, y0);
+  const { x0, y0, scale } = getSubmapRegion();
+  try {
+    MapRestoration.transaction(() => {
+      recalculateMapSize(x0, y0, scale);
 
-  const submapPointsValue = ensureEl<HTMLInputElement>("submapPointsInput").value;
-  const globalPointsValue = ensureEl<HTMLInputElement>("pointsInput").value;
-  if (submapPointsValue !== globalPointsValue) changeCellsDensity(submapPointsValue);
+      const submapPointsValue = ensureEl<HTMLInputElement>("submapPointsInput").value;
+      const globalPointsValue = String(options.generation.graph.density);
+      if (submapPointsValue !== globalPointsValue) changeCellsDensity(+submapPointsValue);
 
-  const projection = (x: number, y: number): [number, number] => [(x - x0) * scale, (y - y0) * scale];
-  const inverse = (x: number, y: number): [number, number] => [x / scale + x0, y / scale + y0];
+      const projection = (x: number, y: number): [number, number] => [(x - x0) * scale, (y - y0) * scale];
+      const inverse = (x: number, y: number): [number, number] => [x / scale + x0, y / scale + y0];
 
-  applyGraphSize();
-  fitMapToScreen();
-  resetZoom(0);
-  undraw();
-  Resample.process({ projection, inverse, scale });
+      applyGraphSize();
+      fitMapToScreen();
+      resetZoom(0);
+      undraw();
+      Resample.process({ projection, inverse, scale });
+    });
+  } catch (error) {
+    ERROR && console.error(error);
+    redrawMap();
+    const failed = t("Failed to create the submap: {{error}}", { error: (error as Error).message });
+    tip(sentences(failed, t("The map is unchanged")), false, "error", 6000);
+    INFO && console.groupEnd();
+    return;
+  }
 
   if (ensureEl<HTMLInputElement>("submapRescaleBurgStyles").checked) rescaleBurgStyles(scale);
   Layers.drawAll();
 
+  registerMap(); // a submap is a new map: it gets its own id and history entry
+  logStats();
+
   INFO && console.groupEnd();
 }
 
-function recalculateMapSize(x0: number, y0: number): void {
-  options.mapSize = rn(options.mapSize / scale, 2);
+/**
+ * The part of the map that becomes the submap: what is on screen, widened along one axis to the canvas
+ * proportions and kept inside the map. `scale` is the parent-to-submap factor, as the canvas is kept
+ */
+function getSubmapRegion(): { x0: number; y0: number; scale: number } {
+  const { width, height } = options.map.graph;
+  const visibleWidth = viewport.width / viewport.scale;
+  const visibleHeight = viewport.height / viewport.scale;
+  const scale = Math.min(width / visibleWidth, height / visibleHeight);
 
-  const latT = (mapCoordinates.latT ?? 0) / scale;
-  const latN = getLatitude(y0, mapCoordinates, graphHeight);
-  options.latitude = rn(((90 - latN) / (180 - latT)) * 100, 2);
+  const regionWidth = width / scale;
+  const regionHeight = height / scale;
+  const x0 = minmax(-viewport.x / viewport.scale - (regionWidth - visibleWidth) / 2, 0, width - regionWidth);
+  const y0 = minmax(-viewport.y / viewport.scale - (regionHeight - visibleHeight) / 2, 0, height - regionHeight);
+  return { x0, y0, scale };
+}
 
-  const lotT = (mapCoordinates.lonT ?? 0) / scale;
-  const lonE = getLongitude(x0 + graphWidth / scale, mapCoordinates, graphWidth);
-  options.longitude = rn(((180 - lonE) / (360 - lotT)) * 100, 2);
+function recalculateMapSize(x0: number, y0: number, scale: number): void {
+  const { geography, graph, units } = options.map;
+  const { coordinates } = geography;
+  geography.mapSize = rn(geography.mapSize / scale, 2);
 
-  distanceScale = rn(distanceScale / scale, 2);
-  ensureEl<HTMLInputElement>("distanceScaleInput").value = String(distanceScale);
-  populationRate = rn(populationRate / scale, 2);
-  ensureEl<HTMLInputElement>("populationRateInput").value = String(populationRate);
+  const latT = coordinates.latT / scale;
+  const latN = getLatitude(y0, coordinates, graph.height);
+  geography.latitude = rn(((90 - latN) / (180 - latT)) * 100, 2);
+
+  const lotT = coordinates.lonT / scale;
+  const lonE = getLongitude(x0 + graph.width / scale, coordinates, graph.width);
+  geography.longitude = rn(((180 - lonE) / (360 - lotT)) * 100, 2);
+
+  units.distance.scale = rn(units.distance.scale / scale, 2);
+  units.population.scale = rn(units.population.scale / scale, 2);
+  Options.save();
 }
 
 function rescaleBurgStyles(scale: number): void {
+  window.Burgs.ensureBurgGroupStyles(); // a group without a store entry would silently skip the rescale
   for (const group of ensureEl("burgIcons").querySelectorAll<SVGGElement>(":scope > g")) {
-    const iconStyle: Record<string, string> = { ...style.burgIcons[group.id] };
-    for (const { name, value } of group.attributes) iconStyle[name] = value;
-
-    const size = Number(iconStyle["font-size"]) || 1;
-    iconStyle["font-size"] = String(rn(minmax(size * scale, 0.2, 10), 2));
-
-    style.burgIcons[group.id] = iconStyle;
+    const iconStyle = styles.burgIcons.groups[group.id]?.groups.icons;
+    if (iconStyle) iconStyle.options.size = rn(minmax(iconStyle.options.size * scale, 0.2, 10), 2);
     group.remove();
   }
 
@@ -128,12 +165,12 @@ function rescaleBurgStyles(scale: number): void {
   );
 
   for (const groupName of burgLabelGroups) {
-    const groupStyle = style.labels.groups[groupName];
+    const groupStyle = styles.labels.groups[groupName];
     if (!groupStyle) continue;
 
-    const size = Number.parseFloat(groupStyle["font-size"]) || 0;
+    const size = Number.parseFloat(groupStyle.attrs["font-size"]) || 0;
     const rescaledSize = Math.max(rn((size + size / scale) / 2, 2), 1) * scale;
-    groupStyle["font-size"] = `${rn(rescaledSize, 2)}%`;
+    groupStyle.attrs["font-size"] = `${rn(rescaledSize, 2)}%`;
   }
 }
 

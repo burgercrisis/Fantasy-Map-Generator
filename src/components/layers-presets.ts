@@ -1,8 +1,9 @@
 // Layer presets: named sets of layers the user can switch between, stored in localStorage
 import { ensureEl } from "@/utils";
+import { t } from "@/utils/i18n";
 import { confirmationDialog } from "./dialog/dialog-helpers";
 import { type LayerId, Layers } from "./layers";
-import { LAYER_TOGGLES } from "./layers-tab";
+import { LAYER_TOGGLES } from "./options/tabs/layers-tab";
 
 const DEFAULT_PRESETS: Record<string, LayerId[]> = {
   political: ["borders", "burgIcons", "ice", "labels", "lakes", "rivers", "routes", "scaleBar", "states", "vignette"],
@@ -111,11 +112,18 @@ function setPresetName(name: string): void {
   ensureEl("savePresetButton").style.display = "none";
 }
 
-function savePreset(): void {
+/** Switch the displayed layers to a preset, built-in or saved by the user */
+export function applyPreset(name: string): void {
+  if (!(name in presets)) return;
+  setPresetName(name);
+  Layers.set(presets[name]);
+}
+
+export function savePreset(): void {
   confirmationDialog({
-    title: "Save layer preset",
-    message: /*html*/ `<label>Preset name: <input id="layersPresetName" type="text" autocomplete="off" /></label>`,
-    confirm: "Save",
+    title: t("Save Layers Preset"),
+    message: /*html*/ `<label>${t("Preset name")}: <input id="layersPresetName" type="text" autocomplete="off" /></label>`,
+    confirm: t("Save"),
     onConfirm: () => {
       const name = ensureEl<HTMLInputElement>("layersPresetName").value.trim();
       if (!name) return;
@@ -163,9 +171,7 @@ function highlightCurrentPreset(): void {
 }
 
 ensureEl<HTMLSelectElement>("layersPreset").addEventListener("change", event => {
-  const presetName = (event.target as HTMLSelectElement).value;
-  setPresetName(presetName);
-  Layers.set(presets[presetName]);
+  applyPreset((event.target as HTMLSelectElement).value);
 });
 ensureEl("savePresetButton").addEventListener("click", savePreset);
 ensureEl("removePresetButton").addEventListener("click", removePreset);

@@ -1,8 +1,9 @@
 import { quadtree } from "d3";
+import { requireColor } from "@/utils/colorUtils";
+import { requireCode, requireName, requireOneOf, requireOrigins } from "@/utils/validationUtils";
 import {
   abbreviate,
   each,
-  ensureEl,
   gauss,
   getAdjective,
   getMixedColor,
@@ -13,6 +14,7 @@ import {
   rw,
   trimVowels
 } from "../utils";
+import { Population } from "./population-generator";
 
 declare global {
   var Religions: ReligionsModule;
@@ -28,10 +30,15 @@ export interface Religion extends NamedReligion {
   area?: number;
   rural?: number;
   urban?: number;
+  note?: string;
+  tags?: string[];
 }
 
+const RELIGION_TYPES = ["Folk", "Organized", "Cult", "Heresy"] as const;
+const RELIGION_EXPANSIONS = ["global", "state", "culture"] as const;
+
 interface ReligionBase {
-  type: "Folk" | "Organized" | "Cult" | "Heresy";
+  type: (typeof RELIGION_TYPES)[number];
   form: string;
   culture: number;
   center: number;
@@ -614,6 +621,13 @@ const expansionismMap: Record<string, () => number> = {
   Heresy: () => gauss(1, 0.5, 0, 5, 1)
 };
 
+/** The culture and the living cultures of its ancestry: they share one folk religion */
+function getKinCultures(cultureId: number): Set<number> {
+  const ancestry = pack.cultures[cultureId]?.ancestry?.trim();
+  if (!ancestry) return new Set([cultureId]);
+  return new Set(pack.cultures.filter(c => c.i && !c.removed && c.ancestry?.trim() === ancestry).map(c => c.i));
+}
+
 class ReligionsModule {
   regenerate(): void {
     this.generate();
@@ -623,7 +637,7 @@ class ReligionsModule {
     const lockedReligions = pack.religions?.filter(r => r.i && r.lock && !r.removed) || [];
 
     const folkReligions = this.generateFolkReligions();
-    const organizedReligions = this.generateOrganizedReligions(+religionsNumber.value, lockedReligions);
+    const organizedReligions = this.generateOrganizedReligions(options.generation.religions.limit, lockedReligions);
 
     const namedReligions = this.specifyReligions([...folkReligions, ...organizedReligions]);
     const indexedReligions = this.combineReligions(namedReligions, lockedReligions);
@@ -631,6 +645,9 @@ class ReligionsModule {
     const baseReligions = this.defineOrigins(religionIds, indexedReligions);
     const heresies = this.generateHeresies(baseReligions, religionIds);
     const religions = [...baseReligions, ...heresies];
+    for (const r of religions) {
+      if (r) r.tags = r.tags ?? [];
+    }
     this.expandHeresies(religions, religionIds, heresies);
 
     pack.religions = religions;
@@ -640,14 +657,37 @@ class ReligionsModule {
   }
 
   private generateFolkReligions(): ReligionBase[] {
-    return pack.cultures
-      .filter(c => c.i && !c.removed)
-      .map(culture => ({
+    const activeCultures = pack.cultures.filter(c => c.i && !c.removed);
+    const folkReligions: ReligionBase[] = [];
+    const ancestryGroups = new Map<string, typeof activeCultures>();
+
+    for (const culture of activeCultures) {
+      const ancestry = culture.ancestry?.trim();
+      if (ancestry) {
+        const group = ancestryGroups.get(ancestry);
+        if (group) group.push(culture);
+        else ancestryGroups.set(ancestry, [culture]);
+      } else {
+        folkReligions.push({
+          type: "Folk" as const,
+          form: rw(forms.Folk),
+          culture: culture.i,
+          center: culture.center!
+        });
+      }
+    }
+
+    for (const group of ancestryGroups.values()) {
+      const primary = group[0];
+      folkReligions.push({
         type: "Folk" as const,
         form: rw(forms.Folk),
-        culture: culture.i,
-        center: culture.center!
-      }));
+        culture: primary.i,
+        center: primary.center!
+      });
+    }
+
+    return folkReligions;
   }
 
   private generateOrganizedReligions(desiredReligionNumber: number, lockedReligions: Religion[]): ReligionBase[] {
@@ -685,7 +725,7 @@ class ReligionsModule {
       }
 
       // min distance between religion inceptions
-      const spacing = (graphWidth + graphHeight) / 2 / desiredReligionNumber;
+      const spacing = (options.map.graph.width + options.map.graph.height) / 2 / desiredReligionNumber;
 
       for (const cellId of candidateCells) {
         const [x, y] = cells.p[cellId];
@@ -789,7 +829,13 @@ class ReligionsModule {
 
         if (
           nextReligion.type === "Folk" &&
-          lockedReligions.some(({ type, culture }) => type === "Folk" && culture === nextReligion.culture)
+          lockedReligions.some(({ type, culture }) => {
+            if (type !== "Folk") return false;
+            if (culture === nextReligion.culture) return true;
+            const nextAncestry = pack.cultures[nextReligion.culture]?.ancestry?.trim();
+            const lockedAncestry = pack.cultures[culture]?.ancestry?.trim();
+            return Boolean(nextAncestry && lockedAncestry && nextAncestry === lockedAncestry);
+          })
         )
           continue; // when there is a locked Folk religion for this culture discard duplicate
 
@@ -842,12 +888,16 @@ class ReligionsModule {
     function renameOld({ name, type, culture: cultureId }: NamedReligion): string {
       if (type !== "Folk") return name;
 
+      const matchingCultures = getKinCultures(cultureId);
+
       const haveOrganized =
         namedReligions.some(
-          ({ type, culture, expansion }) => culture === cultureId && type === "Organized" && expansion === "culture"
+          ({ type, culture, expansion }) =>
+            matchingCultures.has(culture) && type === "Organized" && expansion === "culture"
         ) ||
         lockedReligions.some(
-          ({ type, culture, expansion }) => culture === cultureId && type === "Organized" && expansion === "culture"
+          ({ type, culture, expansion }) =>
+            matchingCultures.has(culture) && type === "Organized" && expansion === "culture"
         );
       if (haveOrganized && name.slice(0, 3) !== "Old") return `Old ${name}`;
       return name;
@@ -959,7 +1009,8 @@ class ReligionsModule {
       rural: 0,
       urban: 0,
       origins: [parent.i],
-      code: abbreviate(name, codes)
+      code: abbreviate(name, codes),
+      tags: []
     };
   }
 
@@ -1026,7 +1077,7 @@ class ReligionsModule {
     const cost: number[] = [];
 
     // limit cost for organized religions growth
-    const maxExpansionCost = (cells.i.length / 20) * (ensureEl("growthRate") as HTMLInputElement).valueAsNumber;
+    const maxExpansionCost = (cells.i.length / 20) * options.generation.cultures.growthRate;
 
     religions
       .filter(r => r.i && !r.lock && r.type !== "Folk" && r.type !== "Heresy" && !r.removed)
@@ -1074,7 +1125,7 @@ class ReligionsModule {
     const { cells } = pack;
     const queue = new FlatQueue();
     const cost: number[] = [];
-    const maxExpansionCost = (cells.i.length / 20) * (ensureEl("growthRate") as HTMLInputElement).valueAsNumber;
+    const maxExpansionCost = (cells.i.length / 20) * options.generation.cultures.growthRate;
     const religionsMap = new Map(religions.map(religion => [religion.i, religion]));
 
     for (const heresy of heresies) {
@@ -1172,7 +1223,22 @@ class ReligionsModule {
     const religionIds = new Uint16Array(cells.i.length);
 
     const folkReligions = religions.filter(religion => religion.type === "Folk" && !religion.removed);
-    const cultureToReligionMap = new Map(folkReligions.map(({ i, culture }) => [culture, i]));
+    const cultureToReligionMap = new Map<number, number>();
+
+    for (const religion of folkReligions) {
+      cultureToReligionMap.set(religion.culture, religion.i);
+    }
+    for (const religion of folkReligions) {
+      const ancestry = pack.cultures[religion.culture]?.ancestry?.trim();
+      if (!ancestry) continue;
+      for (const culture of pack.cultures) {
+        if (culture.i && !culture.removed && culture.ancestry?.trim() === ancestry) {
+          if (!cultureToReligionMap.has(culture.i)) {
+            cultureToReligionMap.set(culture.i, religion.i);
+          }
+        }
+      }
+    }
 
     for (const cellId of cells.i) {
       const oldId = (hasPrior && cells.religion[cellId]) || 0;
@@ -1201,6 +1267,7 @@ class ReligionsModule {
     });
   }
 
+  /** Redraw religion borders from their centers, expansion and expansionism */
   recalculate() {
     const newReligionIds = this.expandReligions(pack.religions);
     const heresies = this.normalizeHeresiesForExpansion(pack.religions, newReligionIds);
@@ -1210,15 +1277,139 @@ class ReligionsModule {
     this.checkCenters();
   }
 
-  add(center: number) {
+  /** Rename a religion; its code is recomputed */
+  rename(religionId: number, name: string): void {
+    const religion = pack.religions[religionId];
+    if (!religion || religion.removed) throw new Error(`Religion ${religionId} does not exist`);
+    religion.name = requireName(name);
+    religion.code = abbreviate(
+      religion.name,
+      pack.religions.flatMap(other => (other !== religion && other.code ? [other.code] : []))
+    );
+  }
+
+  /** Set a religion's color */
+  recolor(religionId: number, color: string): void {
+    this.living(religionId).color = requireColor(color);
+  }
+
+  /** Set the deity a religion worships; empty clears it */
+  setDeity(religionId: number, deity: string): void {
+    this.living(religionId).deity = String(deity ?? "").trim() || null;
+  }
+
+  /** Set a religion's type: Folk, Organized, Cult or Heresy */
+  setType(religionId: number, type: string): void {
+    this.living(religionId).type = requireOneOf(type, RELIGION_TYPES, "The type");
+  }
+
+  /** Set a religion's form, a free label such as Polytheism or Dualism */
+  setForm(religionId: number, form: string): void {
+    this.living(religionId).form = requireName(form);
+  }
+
+  /** Set how far a religion may expand: global, state or culture */
+  setExpansion(religionId: number, expansion: string): void {
+    this.living(religionId).expansion = requireOneOf(expansion, RELIGION_EXPANSIONS, "The expansion");
+  }
+
+  /** Set how strongly a religion expands when religions are recalculated, from 0 to 99 */
+  setExpansionism(religionId: number, expansionism: number): void {
+    if (typeof expansionism !== "number" || !(expansionism >= 0 && expansionism <= 99))
+      throw new Error("The expansionism must be a number from 0 to 99");
+    this.living(religionId).expansionism = expansionism;
+  }
+
+  /** Remove a religion; its believers lose their faith */
+  remove(religionId: number): void {
+    const religion = this.living(religionId);
+    if (!religionId) throw new Error("No religion cannot be removed");
+    pack.cells.religion.forEach((owner, cell) => {
+      if (owner === religionId) pack.cells.religion[cell] = 0;
+    });
+    religion.removed = true;
+    for (const other of pack.religions) {
+      if (!other.i || other.removed || !other.origins) continue;
+      other.origins = other.origins.filter(origin => origin !== religionId);
+      if (!other.origins.length) other.origins = [0];
+    }
+  }
+
+  /** Set a religion's rural and urban population, in people: its cells and burgs scale to the totals */
+  setPopulation(religionId: number, rural: number, urban: number): void {
+    this.living(religionId);
+    const { cells } = pack;
+    Population.setArea(
+      Population.landCells(cell => cells.religion[cell] === religionId),
+      Population.burgIds(burg => cells.religion[burg.cell] === religionId),
+      rural,
+      urban
+    );
+  }
+
+  /** Lock a religion so regeneration keeps it, or unlock it */
+  setLocked(religionId: number, locked: boolean): void {
+    const religion = this.living(religionId);
+    if (locked) religion.lock = true;
+    else delete religion.lock;
+  }
+
+  /** Set a religion's origins, as the Hierarchy tree does: the first is primary (0 = top level), the rest secondary */
+  setOrigins(religionId: number, originIds: number[]): void {
+    this.living(religionId).origins = requireOrigins(pack.religions, religionId, originIds);
+  }
+
+  /** Set a religion's short code, 1 to 3 characters */
+  setCode(religionId: number, code: string): void {
+    this.living(religionId).code = requireCode(code);
+  }
+
+  /** Move a religion's center to a land cell at a map point; it takes effect when religions are recalculated */
+  moveCenter(religionId: number, x: number, y: number): void {
+    const religion = this.living(religionId);
+    if (!religionId) throw new Error("Lands without religion have no center");
+    const cell = Pack.requireCell(x, y);
+    if (pack.cells.h[cell] < 20) throw new Error("A religion center cannot be placed in the water");
+    const other = pack.religions.find(item => item.i && !item.removed && item !== religion && item.center === cell);
+    if (other) throw new Error(`Cell ${cell} is already the center of religion ${other.i}`);
+    religion.center = cell;
+  }
+
+  /** Give land cells to a religion, or to no religion with id 0 */
+  setCells(religionId: number, cellIds: number[]): void {
+    this.living(religionId);
+    const { cells } = pack;
+    if (!Array.isArray(cellIds) || !cellIds.length) throw new Error("Name at least one cell");
+    for (const cell of cellIds) {
+      if (!Number.isInteger(cell) || cell < 0 || cell >= cells.i.length) throw new Error(`Cell ${cell} does not exist`);
+      if (cells.h[cell] < 20) throw new Error(`Cell ${cell} is water; religions hold land only`);
+    }
+    for (const cell of cellIds) {
+      cells.religion[cell] = religionId;
+    }
+  }
+
+  private living(religionId: number): Religion {
+    const religion = pack.religions[religionId];
+    if (!religion || religion.removed) throw new Error(`Religion ${religionId} does not exist`);
+    return religion;
+  }
+
+  /** Found a religion centered at a map point, its type and name drawn from the local culture and faith. Returns its id */
+  add(x: number, y: number): number {
     const { cells, cultures, religions } = pack;
+    const center = Pack.requireCell(x, y);
+    if (cells.h[center] < 20) throw new Error("A religion center cannot be placed in the water");
+    if (religions.some(r => r.i && !r.removed && r.center === center))
+      throw new Error(`Cell ${center} is already a religion center`);
     const religionId = cells.religion[center];
     const i = religions.length;
 
     const cultureId = cells.culture[center];
+    const kin = getKinCultures(cultureId);
     const missingFolk =
       cultureId !== 0 &&
-      !religions.some(({ type, culture, removed }) => type === "Folk" && culture === cultureId && !removed);
+      !religions.some(({ type, culture, removed }) => type === "Folk" && kin.has(culture) && !removed);
     const parentReligion = religions[religionId];
 
     const type: "Folk" | "Organized" | "Cult" | "Heresy" = missingFolk
@@ -1231,7 +1422,7 @@ class ReligionsModule {
     if (type === "Heresy") {
       religions.push(this.createHeresy(parentReligion, center, i, codes));
       cells.religion[center] = i;
-      return;
+      return i;
     }
 
     const color = missingFolk ? cultures[cultureId].color! : getMixedColor(parentReligion.color!, 0.3, 0);
@@ -1239,7 +1430,7 @@ class ReligionsModule {
     const deity: string | null =
       form === "Non-theism" || form === "Animism" ? null : (this.getDeityName(cultureId) ?? null);
 
-    const [name, expansion] = this.generateReligionName(type, form, deity!, center);
+    const [name, expansion] = this.generateReligionName(type, form, deity ?? "", center);
 
     const code = abbreviate(name, codes);
     const influences = this.getReligionsInRadius(
@@ -1270,9 +1461,11 @@ class ReligionsModule {
       rural: 0,
       urban: 0,
       origins,
-      code
+      code,
+      tags: []
     });
     cells.religion[center] = i;
+    return i;
   }
 
   // get supreme deity name
@@ -1307,7 +1500,9 @@ class ReligionsModule {
     };
     const type = rw(types[form]);
     const supreme = deity.split(/[ ,]+/)[0];
-    const culture = cultures[cells.culture[center]].name;
+    const cultureObj = cultures[cells.culture[center]];
+    const ancestry = cultureObj?.ancestry?.trim();
+    const culture = (variety === "Folk" && ancestry) || cultureObj?.name;
 
     const place = (adj?: boolean): string => {
       const burgId = cells.burg[center];
@@ -1319,6 +1514,10 @@ class ReligionsModule {
     };
 
     const m = rw(namingMethods[form] || namingMethods[variety]);
+    if (variety === "Folk" && ancestry) {
+      if (m === "Culture + ism") return [`${trimVowels(ancestry)}ism`, "culture"];
+      return [`${ancestry} ${type}`, "culture"];
+    }
     if (m === "Random + type") return [`${random()} ${type}`, "global"];
     if (m === "Random + ism") return [`${trimVowels(random())}ism`, "global"];
     if (m === "Supreme + ism" && deity) return [`${trimVowels(supreme)}ism`, "global"];
@@ -1358,4 +1557,6 @@ class ReligionsModule {
   }
 }
 
-window.Religions = new ReligionsModule();
+// biome-ignore lint/suspicious/noRedeclare: legacy seam
+export const Religions = new ReligionsModule();
+window.Religions = Religions;

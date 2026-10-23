@@ -1,22 +1,121 @@
 _The current stable version is available [here](https://azgaar.github.io/Fantasy-Map-Generator)._
 
-Notable used-facing changes to the project should be documented in this file. The purpose of a changelog entry is to document the noteworthy difference and communicate them clearly to end users.
+Notable user-facing changes to the project should be documented in this file. The purpose of a changelog entry is to document only the noteworthy difference and communicate it clearly to end users. Keep the updates very short (oneliners) and simple.
 
 Compatible `.gz` and `.map` files from `v0.70.0` onward are checked and auto-updated when loaded. Maps older than `v0.70.0` are considered ancient and require the matching old Generator version. To use an old version click on a link to download an archive. Unzip all files and [run the Tool locally](https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Run-FMG-locally).
 
 For older maps use the [old version](https://azgaar.github.io/Fantasy-Map-Generator-old).
 
-Check out [Trello board](https://trello.com/b/7x832DG4/fantasy-map-generator) to see what is planned.
+Check out [Dev board](https://github.com/users/Azgaar/projects/3/views/1?sumFields=&hideItemsCount=true) to see what is planned.
 
 # Current version
 
 Current version of the Fantasy Map Generator is the latest `master` branch. You can download it here: https://github.com/Azgaar/Fantasy-Map-Generator/archive/refs/heads/master.zip. Also see [the wiki](https://github.com/Azgaar/Fantasy-Map-Generator/wiki/Q&A#can-i-use-the-generator-offline).
 
-# Recent changes
+**[1.155.0](https://github.com/Azgaar/Fantasy-Map-Generator/releases/tag/v1.155.0) - 2026-10-23**:
 
-- to be added
+- Interface translation: 29 languages besides English
+- The Google Translate widget removed
+- Map context menu
+- Options: Advanced options dialog
+- Advanced options: configurable map lattice
+- Trade tariffs and embargoes
+- View-only mode for saved maps
+- Free-text tags for states and other entities
+- CSV upload for most entities
+- Color picker rework
+- Regenerate provinces for selected states
+- Heightmap Risk mode: map restoration algorithm rework
+- Rivers: lock a river to keep it through regeneration
+- Submap and Transform fixes,
+- Save to machine creates a new file each time
+- Population layer: Shading land by population density by _[inviktos](https://github.com/inviktos)_
+- Altitude legend: heightmap colors by _[Avengium](https://github.com/Avengium)_
+- Rulers style: line and dash colors and a toggle to hide the measured values by _[Avengium](https://github.com/Avengium)_
+- Confirmations: Enter to confirm; Shift+Click on the button to act immediately without the confirmation dialog
+- Labels style: underlined parameter in label style editor
+- Cells layer: optionally render cell indexes with their own style (color, halo, font, size, shift, clip), and show cell/grid IDs in map tooltip
+- Travel Builder: directional arrow markers on journey paths and per-segment notes editable in Notes Editor
+- Paint editor: lock elements from being painted over
+- Military forces: hide/show individual regiments and toggle to show regiment names below units
+- Population layer: adjustable 3D bar height multiplier
+- Journey arrows and per-segment notes
+- Enter or Shift+Click to delete
+- Underlined labels
+- Cell id display
 
 # Releases
+
+**[1.154.0](https://github.com/Azgaar/Fantasy-Map-Generator/releases/tag/v1.154.0) - 2026-10-05**:
+
+- Azgaar Assistant can read map data and propose changes when your own AI key is provided
+- Icons: unified icon picker and uploader for goods, markers, regiments, burgs and emblems
+- Style: the Style tab is reworked
+- Atlas preset reworked
+- Relief: any icon can be a relief icon
+- Relief: new relief icons pack
+- Biome editor: editable relief icon pools
+- Emblems: live updates on edit in Armoria
+- Saving: choose the map file destination by _[spencerpruitt](https://github.com/spencerpruitt)_
+- States Editor: merged states can be kept as provinces by _[barrulus](https://github.com/barrulus)_
+- Diplomacy Overview: set relations on map click by _[WebHead89](https://github.com/WebHead89)_
+
+**[1.153.0](https://github.com/Azgaar/Fantasy-Map-Generator/releases/tag/v1.153.0) - 2026-09-16**:
+
+- Omnibar: global map search, press Space to open [1.153.0]
+- Style presets: Ink, Cinderwood and Frostbite [1.153.0]
+- Heightmap: hachures alongside contour lines [1.153.0]
+- Ocean: coastal waves and coastal bands [1.153.0]
+- Lakes: shore ripples [1.153.0]
+- Labels: font weight, font style and text transform settings [1.153.0]
+- Burg icons: Illustrated set; port icons pick a symbol [1.153.0]
+- Performance: a preset on the Options tab and a settings dialog [1.153.0]
+- Geographical Features Overview [1.153.0]
+- Coastline Editor: customizable per feature [1.153.0]
+- Wrap Tool: reshape cells with a brush [1.153.0]
+- Dialogs: titlebar button to restore the default position, columns and sorting [1.153.0]
+- Coastlines: local roughness instead of global [1.153.0]
+- Heightmap Editor: "Show drainage" overlay [1.153.0]
+- Features: generated names for islands and oceans; lake subtype and rendering group are independent
+- Relief icons: Illustrated set; new Cinzel, Iceberg and Snowburst One fonts
+- Overview tables: cascading sorting keeps earlier column sorts as tie-breakers
+- Production: manufacturing chains use available stock before budgeting workers for missing ingredients
+- Burg icons and anchors: restore missing style groups so edited sizes survive saving and loading
+- Diplomacy: regenerating relations no longer fails when a state has been removed
+- Legends: empty legends no longer redraw as an "undefined" row
+- Fog of war: the cover spans the full map, including areas outside the viewport
+- Memory: closing editors releases their listeners, detached elements and retained map references
+
+**[1.152.1](https://github.com/Azgaar/Fantasy-Map-Generator/releases/tag/v1.152.1) - 2026-09-11**:
+
+- Legend boxes for States, Cultures, Religions, Biomes and Zones can be shown at the same time by _[esullivan9](https://github.com/esullivan9)_
+- Diplomacy: click states on the map to select relation targets
+- States and Provinces: state creation and province recolouring refresh
+- Goods editor: Show all respects the tag filter across pages
+
+**[1.152.0](https://github.com/Azgaar/Fantasy-Map-Generator/archive/refs/tags/v1.152.0.zip)**:
+
+- Options full rework [1.152.0]
+- Map name and era moved to the Set Lore dialog [1.152.0]
+- Notes rework: notes as entities param [1.152.0]
+- Preserve dialog positions between sessions [1.152.0]
+- Ability to override a burg's treasury [1.152.0]
+- Goods: moved to viewport renderer [1.152.0]
+- Burg icons: moved to viewport renderer [1.152.0]
+- Markers and markets: moved to viewport renderer [1.152.0]
+- Rivers and Routes: moved to viewport renderer [1.152.0]
+- Heightmap: option to render contour lines [1.152.0]
+- Notes Editor: TinyMCE replaced with Quill 2 by _[barrulus](https://github.com/barrulus)_ [1.152.0]
+- Help assistant: ask questions about FMG by _[barrulus](https://github.com/barrulus)_ [1.151.2]
+- Annex states and provinces by clicking on the map by _[barrulus](https://github.com/barrulus)_ [1.151.2]
+- Option to redraw labels, icons and relief only after a zoom by _[barrulus](https://github.com/barrulus)_ [1.151.2]
+- Brushes stamp by distance travelled by _[barrulus](https://github.com/barrulus)_ [1.151.1]
+
+**[1.150.0](https://github.com/Azgaar/Fantasy-Map-Generator/archive/refs/tags/v1.150.0.zip) - 2026-09-05**:
+
+- Journey Editor and new Journeys layer [1.150.0]
+- Styles migration from DOM to global store by _[barrulus](https://github.com/barrulus)_ [1.150.0]
+- Desktop App fixes [1.150.0]
 
 **[1.149.0](https://github.com/Azgaar/Fantasy-Map-Generator/archive/refs/tags/v1.149.0.zip) - 2026-08-27**:
 
@@ -76,7 +175,7 @@ From now on the tool CANNOT be run without the build step and uses Typescript fo
 
 - Burg Groups configuration and related logic [1.109.0]
 - Significantly reduce amount of ocean ice generated [1.108.3]
-- Ability to set custom image as Marker or Regiment icon (started by _[Issac411](Issac411)_) [1.107.00]
+- Ability to set custom image as Marker or Regiment icon (started by _[Issac411](https://github.com/Issac411)_) [1.107.00]
 - Submap and Transform tools rework [1.106.00]
 - AI Assistant Bot [1.105.00]
 - Layers rendering major refactoring [1.104.00]

@@ -1,6 +1,7 @@
 import { interpolateString, select, sum } from "d3";
-import { closeDialogs, updateDialog } from "@/components/dialog/dialog-helpers";
+import { closeDialogs, confirmationDialog, destroyDialog, updateDialog } from "@/components/dialog/dialog-helpers";
 import { applyLineHighlighting } from "@/components/dialog/highlighting";
+import { type LimitationItem, limitationTip, pickLimitation } from "@/components/dialog/limitation-picker";
 import { bindColumnSorting, sortDataByColumns } from "@/components/dialog/sorting";
 import {
   type EditorColumn,
@@ -10,12 +11,16 @@ import {
   renderEditorPagination,
   type TableView
 } from "@/components/dialog/table";
+import { Icons } from "@/components/icons";
 import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
 import { Controllers } from "@/controllers";
 import type { State } from "@/generators/states-generator";
-import { downloadFile, getFileName } from "@/utils";
-import { capitalize, ensureEl, rn, sanitizeId, si, wiki } from "../utils";
+import { drawRegiment } from "@/renderers/draw-military";
+import { Csv } from "@/services/io/csv";
+import type { MilitaryUnit } from "@/types/Military";
+import { sentences, t } from "@/utils/i18n";
+import { capitalize, ensureEl, escapeHtml, rn, sanitizeId, si, wiki } from "../utils";
 
 const dialogId = "militaryOverview" as const;
 const position = { my: "right top", at: "right-10 top+10", of: "svg", collision: "fit" };
@@ -43,7 +48,7 @@ function open(): void {
   militaryTable.reset();
 
   $("#militaryOverview").dialog({
-    title: "Military Overview",
+    title: t("Military Overview"),
     resizable: false,
     width: "fit-content",
     close: closeMilitaryOverview,
@@ -53,48 +58,48 @@ function open(): void {
 
 function renderDialog(): void {
   columns = getMilitaryColumns();
-  document.getElementById("militaryOverview")?.remove();
+  destroyDialog("militaryOverview");
   const editorHtml = /* html */ `<div id="${dialogId}" class="dialog stable editorDialog">
       <div id="militaryBody" class="table" data-type="absolute">
         ${renderEditorHeader({ dialogId, columns })}
       </div>
       <div id="militaryFooter" class="totalLine">
-        <div data-tip="States number" style="margin-left: 4px">
-          States:&nbsp;<span id="militaryFooterStates">0</span>
+        <div data-tip="${t("States number")}" style="margin-left: 4px">
+          ${t("States")}:&nbsp;<span id="militaryFooterStates">0</span>
         </div>
-        <div data-tip="Total military forces" style="margin-left: 14px" data-col="total">
-          Total forces:&nbsp;<span id="militaryFooterForcesTotal">0</span>
+        <div data-tip="${t("Total military forces")}" style="margin-left: 14px" data-col="total">
+          ${t("Total forces")}:&nbsp;<span id="militaryFooterForcesTotal">0</span>
         </div>
-        <div data-tip="Average military forces per state" style="margin-left: 14px" data-col="total">
-          Average forces:&nbsp;<span id="militaryFooterForces">0</span>
+        <div data-tip="${t("Average military forces per state")}" style="margin-left: 14px" data-col="total">
+          ${t("Average forces")}:&nbsp;<span id="militaryFooterForces">0</span>
         </div>
-        <div data-tip="Average forces rate per state" style="margin-left: 14px" data-col="rate">
-          Average rate:&nbsp;<span id="militaryFooterRate">0%</span>
+        <div data-tip="${t("Average forces rate per state")}" style="margin-left: 14px" data-col="rate">
+          ${t("Average rate")}:&nbsp;<span id="militaryFooterRate">0%</span>
         </div>
-        <div data-tip="Average War Alert" style="margin-left: 14px" data-col="alert">
-          Average alert:&nbsp;<span id="militaryFooterAlert">0</span>
+        <div data-tip="${t("Average War Alert")}" style="margin-left: 14px" data-col="alert">
+          ${t("Average alert")}:&nbsp;<span id="militaryFooterAlert">0</span>
         </div>
       </div>
       <div id="militaryBottom" class="editorToolbar">
-        <button id="militaryOverviewRefresh" data-tip="Refresh the overview screen" class="icon-cw"></button>
-        <button id="militaryOptionsButton" data-tip="Edit Military units" class="icon-cog"></button>
-        <button id="militaryRegimentsList" data-tip="Show regiments list" class="icon-list-bullet"></button>
+        <button id="militaryOverviewRefresh" data-tip="${t("Refresh")}" class="icon-cw"></button>
+        <button id="militaryOptionsButton" data-tip="${t("Edit Military Units")}" class="icon-cog"></button>
+        <button id="militaryRegimentsList" data-tip="${t("Show regiments list")}" class="icon-list-bullet"></button>
         <button
           id="militaryPercentage"
-          data-tip="Toggle percentage / absolute values views"
+          data-tip="${t("Toggle percentage / absolute values views")}"
           class="icon-percent"
         ></button>
         <button
           id="militaryOverviewRecalculate"
-          data-tip="Recalculate military forces based on current options"
+          data-tip="${t("Recalculate military forces based on current options")}"
           class="icon-retweet"
         ></button>
         <button
           id="militaryExport"
-          data-tip="Save military-related data as a text file (.csv)"
+          data-tip="${t("Save data as a CSV file")}"
           class="icon-download"
         ></button>
-        <button id="militaryWiki" data-tip="Open Military Forces Tutorial" class="icon-info"></button>
+        <button id="militaryWiki" data-tip="${t("Open Military Forces Tutorial")}" class="icon-info"></button>
       </div>
     </div>`;
   ensureEl("dialogs").insertAdjacentHTML("beforeend", editorHtml);
@@ -138,12 +143,12 @@ async function openRegimentsOverview(state: number): Promise<void> {
 }
 
 function getMilitaryColumns(): EditorColumn<MilitaryRow>[] {
-  const unitColumns: EditorColumn<MilitaryRow>[] = options.military.map(unit => ({
+  const unitColumns: EditorColumn<MilitaryRow>[] = options.map.military.units.map(unit => ({
     key: `unit:${unit.name}`,
     label: capitalize(unit.name.replace(/_/g, " ")),
     width: "5em",
     mobileHidden: true,
-    tip: `State ${unit.name} units number. Click to sort`,
+    tip: sentences(t("{{unit}} units number", { unit: unit.name }), t("Click to sort")),
     sortBy: row => row.forces[unit.name] || 0
   }));
 
@@ -151,7 +156,7 @@ function getMilitaryColumns(): EditorColumn<MilitaryRow>[] {
     { key: "color", width: "1.2em", permanent: true },
     {
       key: "state",
-      label: "State",
+      label: t("State"),
       width: "7em",
       permanent: true,
       sortBy: row => row.state.name || "",
@@ -160,28 +165,36 @@ function getMilitaryColumns(): EditorColumn<MilitaryRow>[] {
     ...unitColumns,
     {
       key: "total",
-      label: "Total",
+      label: t("Total"),
       width: "5em",
       defaultSort: "desc",
       sortBy: row => row.total,
-      tip: "Total military personnel (considering crew). Click to sort"
+      tip: sentences(t("Total military personnel (considering crew)"), t("Click to sort"))
     },
-    { key: "population", label: "Population", width: "6.5em", mobileHidden: true, sortBy: row => row.population },
+    { key: "population", label: t("Population"), width: "6.5em", mobileHidden: true, sortBy: row => row.population },
     {
       key: "rate",
-      label: "Rate",
+      label: t("Rate"),
       width: "5em",
       sortBy: row => row.rate,
-      tip: "Military personnel rate (% of state population). Depends on war alert. Click to sort"
+      tip: sentences(
+        t("Military personnel rate (% of state population)"),
+        t("Depends on war alert"),
+        t("Click to sort")
+      )
     },
     {
       key: "alert",
-      label: "War Alert",
+      label: t("War Alert"),
       width: "5.5em",
       sortBy: row => row.alert,
-      tip: "War Alert. Modifier to military forces number, depends on political situation. Click to sort"
+      tip: sentences(
+        t("War Alert"),
+        t("Modifier to military forces number, depends on political situation"),
+        t("Click to sort")
+      )
     },
-    { key: "actions", width: "1.4em", permanent: true, align: "right" }
+    { key: "regiments", width: "1.4em", permanent: true }
   ];
 }
 
@@ -206,13 +219,16 @@ function getMilitaryData(): MilitaryRow[] {
     .filter(state => state.i && !state.removed)
     .map(state => {
       const forces = Object.fromEntries(
-        options.military.map(unit => [
+        options.map.military.units.map(unit => [
           unit.name,
           (state.military || []).reduce((total, regiment) => total + (regiment.u[unit.name] || 0), 0)
         ])
       );
-      const population = rn(((state.rural || 0) + (state.urban || 0) * urbanization) * populationRate);
-      const total = options.military.reduce((sum, unit) => sum + (forces[unit.name] || 0) * unit.crew, 0);
+      const population = rn(
+        ((state.rural || 0) + (state.urban || 0) * options.map.units.population.urbanization.rate) *
+          options.map.units.population.scale
+      );
+      const total = options.map.military.units.reduce((sum, unit) => sum + (forces[unit.name] || 0) * unit.crew, 0);
       return {
         state,
         forces,
@@ -236,7 +252,7 @@ function renderMilitaryPage(view: TableView<MilitaryRow>): void {
     (result, row) => {
       result.total += row.total;
       result.population += row.population;
-      for (const unit of options.military)
+      for (const unit of options.map.military.units)
         result.units[unit.name] = (result.units[unit.name] || 0) + row.forces[unit.name];
       return result;
     },
@@ -245,21 +261,21 @@ function renderMilitaryPage(view: TableView<MilitaryRow>): void {
   const percent = (value: number, total: number) => `${rn(total ? (value / total) * 100 : 0)}%`;
   const lines = view.rows
     .map(row => {
-      const unitCells = options.military
+      const unitCells = options.map.military.units
         .map(unit => {
           const value = row.forces[unit.name] || 0;
-          return `<div data-col="${`unit:${unit.name}`}" data-tip="State ${unit.name} units number">${percentage ? percent(value, totals.units[unit.name] || 0) : value}</div>`;
+          return `<div data-col="${`unit:${unit.name}`}" data-tip="${t("{{unit}} units number", { unit: unit.name })}">${percentage ? percent(value, totals.units[unit.name] || 0) : value}</div>`;
         })
         .join("");
       return /* html */ `<div class="states" data-id="${row.state.i}">
         <fill-box data-col="color" data-tip="${row.state.fullName}" fill="${row.state.color}" disabled></fill-box>
         <input data-col="state" data-tip="${row.state.fullName}" value="${row.state.name}" readonly />
         ${unitCells}
-        <div data-col="total" data-tip="Total state military personnel (considering crew)" style="font-weight:bold">${percentage ? percent(row.total, totals.total) : si(row.total)}</div>
-        <div data-col="population" data-tip="State population">${percentage ? percent(row.population, totals.population) : si(row.population)}</div>
-        <div data-col="rate" data-tip="Military personnel rate (% of state population). Depends on war alert">${rn(row.rate, 2)}%</div>
-        <input data-col="alert" data-tip="War Alert. Editable modifier to military forces number, depends on political situation" type="number" min="0" step=".01" value="${rn(row.alert, 2)}" />
-        <div data-col="actions"><span data-tip="Show regiments list" class="icon-list-bullet pointer"></span></div>
+        <div data-col="total" data-tip="${t("Total military personnel (considering crew)")}" style="font-weight:bold">${percentage ? percent(row.total, totals.total) : si(row.total)}</div>
+        <div data-col="population" data-tip="${t("State population")}">${percentage ? percent(row.population, totals.population) : si(row.population)}</div>
+        <div data-col="rate" data-tip="${sentences(t("Military personnel rate (% of state population)"), t("Depends on war alert"))}">${rn(row.rate, 2)}%</div>
+        <input data-col="alert" data-tip="${sentences(t("War Alert"), t("Modifier to military forces number, depends on political situation"))}" type="number" min="0" step=".01" value="${rn(row.alert, 2)}" />
+        <span data-col="regiments" data-tip="${t("Show regiments list")}" class="icon-list-bullet pointer"></span>
       </div>`;
     })
     .join("");
@@ -279,18 +295,10 @@ function renderMilitaryPage(view: TableView<MilitaryRow>): void {
 }
 
 function changeAlert(state: number, alert: number): void {
-  const s = pack.states[state];
-  const prevAlert = s.alert ?? 1;
-  const dif = prevAlert ? alert / prevAlert : 0; // modifier
-  s.alert = alert;
-  (s.military || []).forEach(r => {
-    Object.keys(r.u).forEach(u => {
-      r.u[u] = rn(r.u[u] * dif);
-    });
-    r.a = sum(Object.values(r.u)); // change total
-    select<SVGGElement, unknown>(`#armies > g > g#regiment${s.i}-${r.i} > text`).text(Military.getTotal(r)); // change icon text
-  });
-
+  if (alert >= 0) Military.setAlert(state, alert);
+  for (const regiment of pack.states[state].military ?? []) {
+    drawRegiment(regiment, state);
+  }
   militaryTable.refresh();
 }
 
@@ -356,21 +364,27 @@ function togglePercentageMode(): void {
 function militaryCustomize(): void {
   renderOptions();
   const types = ["melee", "ranged", "mounted", "machinery", "naval", "armored", "aviation", "magical"];
+  const LIMIT_TIPS = {
+    biomes: t("Select allowed biomes"),
+    states: t("Select allowed states"),
+    cultures: t("Select allowed cultures"),
+    religions: t("Select allowed religions")
+  };
   const tableBody = ensureEl("militaryOptions").querySelector("tbody")!;
   removeUnitLines();
-  options.military.map(unit => addUnitLine(unit));
+  options.map.military.units.map(unit => addUnitLine(unit));
 
   $("#militaryOptions").dialog({
-    title: "Edit Military Units",
+    title: t("Edit Military Units"),
     resizable: false,
     width: "fit-content",
     position: { my: "center", at: "center", of: "svg" },
     close: closeMilitaryOptions,
     buttons: {
-      Apply: applyMilitaryOptions,
-      Add: () =>
+      [t("Apply")]: applyMilitaryOptions,
+      [t("Add")]: () =>
         addUnitLine({
-          icon: "🛡️",
+          icon: Icons.glyph("🛡️"),
           name: `custom${ensureEl<HTMLTableElement>("militaryOptionsTable").rows.length}`,
           rural: 0.2,
           urban: 0.5,
@@ -379,36 +393,35 @@ function militaryCustomize(): void {
           type: "melee",
           separate: 0
         }),
-      Restore: restoreDefaultUnits,
-      Cancel: function () {
+      [t("Restore")]: restoreDefaultUnits,
+      [t("Cancel")]: function () {
         $(this).dialog("close");
       }
     },
     open: function () {
       const buttons = $(this).dialog("widget").find(".ui-dialog-buttonset > button");
       buttons[0].addEventListener("mousemove", () =>
-        tip("Apply military units settings. <span style='color:#cb5858'>All forces will be recalculated!</span>")
+        tip(
+          `${t("Apply military units settings.")} <span style="color:#cb5858">${t("All forces will be recalculated!")}</span>`
+        )
       );
-      buttons[1].addEventListener("mousemove", () => tip("Add new military unit to the table"));
-      buttons[2].addEventListener("mousemove", () => tip("Restore default military units and settings"));
-      buttons[3].addEventListener("mousemove", () => tip("Close the window without saving the changes"));
+      buttons[1].addEventListener("mousemove", () => tip(t("Add")));
+      buttons[2].addEventListener("mousemove", () => tip(t("Restore default military units and settings")));
+      buttons[3].addEventListener("mousemove", () => tip(t("Close the window without saving the changes")));
     }
   });
 
-  if (modules.overviewMilitaryCustomize) return;
-  modules.overviewMilitaryCustomize = true;
-
+  // renderOptions() rebuilds the dialog markup on every open, so the listener is bound to the fresh
+  // tbody each time. Do not guard this with a one-time flag: the old node is gone with its listener
   tableBody.addEventListener("click", event => {
-    const el = event.target as HTMLElement;
-    if (el.tagName !== "BUTTON") return;
+    const el = (event.target as HTMLElement).closest<HTMLButtonElement>("button");
+    if (!el) return;
     const type = el.dataset.type;
 
     if (type === "icon") {
-      Controllers.IconSelector.open(el.textContent || "", value => {
-        el.innerHTML =
-          value.startsWith("http") || value.startsWith("data:image")
-            ? `<img src="${value}" style="width:1.2em;height:1.2em;pointer-events:none;">`
-            : value;
+      Controllers.IconPicker.open({
+        current: el.dataset.icon || "",
+        onPick: icon => setIconButton(el, icon)
       });
       return;
     }
@@ -437,9 +450,8 @@ function militaryCustomize(): void {
     return attr?.length ? "some" : "all";
   }
 
-  function getLimitTip(attr: number[] | undefined, data: { name?: string }[] | undefined): string {
-    if (!attr?.length) return "";
-    return attr.map(i => data?.[i]?.name || "").join(", ");
+  function getLimitTip(attr: number[] | undefined, items: readonly LimitationItem[]): string {
+    return attr?.length ? limitationTip(attr, items) : "";
   }
 
   function addUnitLine(unit: MilitaryUnit): void {
@@ -448,47 +460,49 @@ function militaryCustomize(): void {
     const typeOptions = types.map(t => `<option ${type === t ? "selected" : ""} value="${t}">${t}</option>`).join(" ");
 
     const getLimitButton = (attr: "biomes" | "states" | "cultures" | "religions"): string => {
-      const data = attr === "biomes" ? [] : (pack[attr] as { name?: string }[]);
+      const data = pack[attr] as LimitationItem[];
       return `<button
-          data-tip="Select allowed ${attr}"
+          data-tip="${LIMIT_TIPS[attr]}"
           data-type="${attr}"
-          title="${getLimitTip(unit[attr], data)}"
+          title="${escapeHtml(getLimitTip(unit[attr], data))}"
           data-value="${getLimitValue(unit[attr])}">
           ${getLimitText(unit[attr])}
         </button>`;
     };
 
     row.innerHTML = /* html */ `<td>
-          <button data-type="icon" data-tip="Click to select unit icon">
-            ${
-              icon.startsWith("http") || icon.startsWith("data:image")
-                ? `<img src="${icon}" style="width:1.2em;height:1.2em;pointer-events:none;">`
-                : icon || ""
-            }
-          </button>
+          <button data-type="icon" data-tip="${t("Click to select unit icon")}" translate="no"></button>
         </td>
-        <td><input data-tip="Type unit name. If name is changed for existing unit, old unit will be replaced" value="${name}" /></td>
+        <td><input data-tip="${sentences(t("Name"), t("If name is changed for existing unit, old unit will be replaced"))}" value="${name}" /></td>
         <td>${getLimitButton("biomes")}</td>
         <td>${getLimitButton("states")}</td>
         <td>${getLimitButton("cultures")}</td>
         <td>${getLimitButton("religions")}</td>
-        <td><input data-tip="Enter conscription percentage for rural population" type="number" min="0" max="100" step=".01" value="${rural}" /></td>
-        <td><input data-tip="Enter conscription percentage for urban population" type="number" min="0" max="100" step=".01" value="${urban}" /></td>
-        <td><input data-tip="Enter average number of people in crew (for total personnel calculation)" type="number" min="1" step="1" value="${crew}" /></td>
-        <td><input data-tip="Enter military power (used for battle simulation)" type="number" min="0" step=".1" value="${power}" /></td>
+        <td><input data-tip="${t("Conscription percentage for rural population")}" type="number" min="0" max="100" step=".01" value="${rural}" /></td>
+        <td><input data-tip="${t("Conscription percentage for urban population")}" type="number" min="0" max="100" step=".01" value="${urban}" /></td>
+        <td><input data-tip="${t("Average number of people in crew (used for total personnel calculation)")}" type="number" min="1" step="1" value="${crew}" /></td>
+        <td><input data-tip="${t("Unit military power (used for battle simulation)")}" type="number" min="0" step=".1" value="${power}" /></td>
         <td>
-          <select data-tip="Select unit type to apply special rules on forces recalculation">
+          <select data-tip="${t("Unit type to apply special rules on forces recalculation")}">
             ${typeOptions}
           </select>
         </td>
-        <td data-tip="Check if unit is <b>separate</b> and can be stacked only with the same units">
+        <td data-tip="${t("Check if unit is separate and can be stacked only with units of the same type")}">
           <input id="${name}Separate" type="checkbox" class="checkbox" ${separate ? "checked" : ""} />
           <label for="${name}Separate" class="checkbox-label"></label>
         </td>
-        <td data-tip="Remove the unit">
-          <span data-tip="Remove unit type" class="icon-trash-empty pointer" onclick="this.parentElement.parentElement.remove();"></span>
+        <td data-tip="${t("Remove")}">
+          <span data-tip="${t("Remove")}" class="icon-trash-empty pointer" onclick="this.parentElement.parentElement.remove();"></span>
         </td>`;
+    setIconButton(row.querySelector<HTMLButtonElement>("button[data-type='icon']")!, icon || "");
     tableBody.appendChild(row);
+  }
+
+  // the button holds the canonical icon in a dataset attribute: its content is presentation only and
+  // may be rewritten by the browser or extensions (e.g. Google Translate wrapping text nodes in <font>)
+  function setIconButton(button: HTMLElement, icon: string): void {
+    button.dataset.icon = icon;
+    button.innerHTML = Icons.html(icon);
   }
 
   function restoreDefaultUnits(): void {
@@ -496,64 +510,17 @@ function militaryCustomize(): void {
     Military.getDefaultOptions().map((unit: MilitaryUnit) => addUnitLine(unit));
   }
 
-  function selectLimitation(
-    el: HTMLElement,
-    data: { i: number; name?: string; fullName?: string; color?: string; removed?: boolean }[]
-  ): void {
+  function selectLimitation(el: HTMLElement, items: LimitationItem[]): void {
     const type = el.dataset.type!;
-    const value = el.dataset.value;
-    const initial = value ? value.split(",").map(v => +v) : [];
-
-    const filtered = data.filter(datum => datum.i && !datum.removed);
-    const lines = filtered.map(
-      ({ i, name, fullName, color }) => /* html */ `
-          <tr data-tip="${name}">
-            <td><span style="color:${color}">⬤</span></td>
-            <td>
-              <input data-i="${i}" id="el${i}" type="checkbox" class="checkbox"
-                ${!initial.length || initial.includes(i) ? "checked" : ""} >
-              <label for="el${i}" class="checkbox-label">${fullName || name}</label>
-            </td>
-          </tr>`
-    );
-
-    ensureEl("alertMessage").innerHTML = /* html */ `<b>Limit unit by ${type}:</b>
-        <table style="margin-top:.3em">
-          <tbody>
-            ${lines.join("")}
-          </tbody>
-        </table>`;
-
-    $("#alert").dialog({
-      width: "fit-content",
-      title: "Limit unit",
-      buttons: {
-        Invert: () => {
-          alertMessage.querySelectorAll<HTMLInputElement>("input").forEach(el => {
-            el.checked = !el.checked;
-          });
-        },
-        Apply: function () {
-          const inputs = Array.from(alertMessage.querySelectorAll<HTMLInputElement>("input"));
-          const selected = inputs.reduce<string[]>((acc, input) => {
-            if (input.checked) acc.push(input.dataset.i!);
-            return acc;
-          }, []);
-
-          if (!selected.length) {
-            tip("Select at least one element", false, "error");
-            return;
-          }
-
-          const allAreSelected = selected.length === inputs.length;
-          el.dataset.value = allAreSelected ? "" : selected.join(",");
-          el.innerHTML = allAreSelected ? "all" : "some";
-          el.setAttribute("title", getLimitTip(selected.map(Number), data));
-          $(this).dialog("close");
-        },
-        Cancel: function () {
-          $(this).dialog("close");
-        }
+    pickLimitation({
+      title: t("Limit unit"),
+      heading: t("Limit unit by {{type}}", { type }),
+      items,
+      allowed: el.dataset.value ? el.dataset.value.split(",").map(Number) : [],
+      onApply: allowed => {
+        el.dataset.value = allowed.join(",");
+        el.innerHTML = getLimitText(allowed);
+        el.setAttribute("title", getLimitTip(allowed, items));
       }
     });
   }
@@ -562,23 +529,19 @@ function militaryCustomize(): void {
     const unitLines = Array.from(tableBody.querySelectorAll("tr"));
     const names = unitLines.map(r => sanitizeId(r.querySelector("input")!.value));
     if (new Set(names).size !== names.length) {
-      tip("All units should have unique names", false, "error");
+      tip(t("All units should have unique names"), false, "error");
       return;
     }
 
     $("#militaryOptions").dialog("close");
 
-    options.military = unitLines.map((r, i) => {
+    const units = unitLines.map((r, i) => {
       const elements = Array.from(
         r.querySelectorAll<HTMLInputElement | HTMLButtonElement | HTMLSelectElement>("input, button, select")
       );
       const values = elements.map(el => {
         const { type, value } = (el as HTMLElement).dataset || {};
-        if (type === "icon") {
-          const html = el.innerHTML.trim();
-          const isImage = html.startsWith("<img");
-          return isImage ? html.match(/src="([^"]*)"/)![1] : html || "⠀";
-        }
+        if (type === "icon") return (el as HTMLElement).dataset.icon ?? "";
         if (type) return value ? value.split(",").map(v => parseInt(v, 10)) : null;
         if ((el as HTMLInputElement).type === "number") return +(el as HTMLInputElement).value || 0;
         if ((el as HTMLInputElement).type === "checkbox") return +(el as HTMLInputElement).checked || 0;
@@ -615,32 +578,44 @@ function militaryCustomize(): void {
       if (religions) unit.religions = religions;
       return unit;
     });
-    localStorage.setItem("military", JSON.stringify(options.military));
-    Military.generate();
+    options.map.military.units = units;
+    Options.save(); // the roster is this map's, and what the next map starts from
     rebuildMilitaryColumns();
+
+    confirmationDialog({
+      title: t("Recalculate military"),
+      message: `${t("Units are saved. Recalculate military forces for all states?")}<br>${t("Regiments for all states will be regenerated, so manual changes to them will be lost")}`,
+      confirm: t("Recalculate"),
+      cancel: t("Keep regiments"),
+      onConfirm: () => {
+        Military.generate();
+        Layers.draw("military");
+        refreshMilitaryOverview();
+      }
+    });
   }
 }
 
 function renderOptions(): void {
-  document.getElementById("militaryOptions")?.remove();
+  destroyDialog("militaryOptions");
   const optionsHtml = /* html */ `<div id="militaryOptions" class="dialog stable">
       <div class="table">
         <table id="militaryOptionsTable">
           <thead>
             <tr>
-              <th data-tip="Unit icon">Icon</th>
-              <th data-tip="Unit name. If name is changed for existing unit, old unit will be replaced">Unit name</th>
-              <th style="width: 5em" data-tip="Select allowed biomes">Biomes</th>
-              <th style="width: 5em" data-tip="Select allowed states">States</th>
-              <th style="width: 5em" data-tip="Select allowed cultures">Cultures</th>
-              <th style="width: 5em" data-tip="Select allowed religions">Religions</th>
-              <th data-tip="Conscription percentage for rural population">Rural</th>
-              <th data-tip="Conscription percentage for urban population">Urban</th>
-              <th data-tip="Average number of people in crew (used for total personnel calculation)">Crew</th>
-              <th data-tip="Unit military power (used for battle simulation)">Power</th>
-              <th data-tip="Unit type to apply special rules on forces recalculation">Type</th>
-              <th data-tip="Check if unit is separate and can be stacked only with units of the same type">
-                Separate
+              <th data-tip="${t("Unit icon")}">${t("Icon")}</th>
+              <th data-tip="${sentences(t("Name"), t("If name is changed for existing unit, old unit will be replaced"))}">${t("Name")}</th>
+              <th style="width: 5em" data-tip="${t("Select allowed biomes")}">${t("Biomes")}</th>
+              <th style="width: 5em" data-tip="${t("Select allowed states")}">${t("States")}</th>
+              <th style="width: 5em" data-tip="${t("Select allowed cultures")}">${t("Cultures")}</th>
+              <th style="width: 5em" data-tip="${t("Select allowed religions")}">${t("Religions")}</th>
+              <th data-tip="${t("Conscription percentage for rural population")}">${t("Rural")}</th>
+              <th data-tip="${t("Conscription percentage for urban population")}">${t("Urban")}</th>
+              <th data-tip="${t("Average number of people in crew (used for total personnel calculation)")}">${t("Crew")}</th>
+              <th data-tip="${t("Unit military power (used for battle simulation)")}">${t("Power")}</th>
+              <th data-tip="${t("Unit type to apply special rules on forces recalculation")}">${t("Type")}</th>
+              <th data-tip="${t("Check if unit is separate and can be stacked only with units of the same type")}">
+                ${t("Separate")}
               </th>
             </tr>
           </thead>
@@ -657,35 +632,31 @@ function closeMilitaryOptions(): void {
 }
 
 function militaryRecalculate(): void {
-  ensureEl("alertMessage").innerHTML =
-    "Are you sure you want to recalculate military forces for all states?<br>Regiments for all states will be regenerated";
-  $("#alert").dialog({
-    resizable: false,
-    title: "Recalculate military",
-    buttons: {
-      Recalculate: function () {
-        $(this).dialog("close");
-        Military.generate();
-        Layers.draw("military");
-        refreshMilitaryOverview();
-      },
-      Cancel: function () {
-        $(this).dialog("close");
-      }
+  confirmationDialog({
+    title: t("Recalculate military"),
+    message: `${t("Are you sure you want to recalculate military forces for all states?")}<br>${t("Regiments for all states will be regenerated")}`,
+    confirm: t("Recalculate"),
+    onConfirm: () => {
+      Military.generate();
+      Layers.draw("military");
+      refreshMilitaryOverview();
     }
   });
 }
 
 function downloadMilitaryData(): void {
-  const units = options.military.map(u => u.name);
-  let data = `Id,State,${units.map(u => capitalize(u)).join(",")},Total,Population,Rate,War Alert\n`; // headers
-
-  for (const row of getMilitaryData()) {
-    data += `${row.state.i},${row.state.name},${units.map(unit => row.forces[unit] || 0).join(",")},${row.total},${row.population},${rn(row.rate, 2)}%,${row.alert}\n`;
-  }
-
-  const name = `${getFileName("Military")}.csv`;
-  downloadFile(data, name);
+  const units = options.map.military.units.map(u => u.name);
+  const headers = ["Id", "State", ...units.map(u => capitalize(u)), "Total", "Population", "Rate", "War Alert"];
+  const rows = getMilitaryData().map(row => [
+    row.state.i,
+    row.state.name,
+    ...units.map(unit => row.forces[unit] || 0),
+    row.total,
+    row.population,
+    `${rn(row.rate, 2)}%`,
+    row.alert
+  ]);
+  Csv.download("Military", headers, rows);
 }
 
-export const MilitaryOverview = { open };
+export const MilitaryOverview = { open, exportCsv: downloadMilitaryData };

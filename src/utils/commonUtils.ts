@@ -1,6 +1,8 @@
 import { clipPolygon } from "lineclip";
 import { last } from "./arrayUtils";
 import { distanceSquared } from "./functionUtils";
+import { t } from "./i18n";
+import { findEl } from "./nodeUtils";
 import { rn } from "./numberUtils";
 import { rand } from "./probabilityUtils";
 
@@ -178,7 +180,12 @@ export const getBase64 = (url: string, callback: (result: string | ArrayBuffer |
     ERROR && console.error(`Cannot load image ${url}: network error`);
     callback(null);
   };
+  xhr.ontimeout = () => {
+    ERROR && console.error(`Cannot load image ${url}: timed out`);
+    callback(null);
+  };
   xhr.open("GET", url);
+  xhr.timeout = 15000; // a host that never answers must not hang an export
   xhr.responseType = "blob";
   xhr.send();
 };
@@ -294,13 +301,13 @@ export interface PromptOptions {
  * This should be called once when the DOM is ready
  */
 export const initializePrompt = (): void => {
-  const prompt = document.getElementById("prompt");
+  const prompt = findEl("prompt");
   if (!prompt) return;
 
-  const form = prompt.querySelector("#promptForm");
+  const form = prompt.querySelector<HTMLFormElement>("#promptForm");
   if (!form) return;
 
-  const defaultText = "Please provide an input";
+  const defaultText = t("Please provide an input");
   const defaultOptions: PromptOptions = {
     default: 1,
     step: 0.01,
@@ -337,22 +344,20 @@ export const initializePrompt = (): void => {
     input.style.width = promptText.length > 10 ? "100%" : "auto";
     prompt.style.display = "block";
 
-    form.addEventListener(
-      "submit",
-      (event: Event) => {
-        event.preventDefault();
-        prompt.style.display = "none";
-        const v = type === "number" ? +input.value : input.value;
-        if (callback) callback(v);
-      },
-      { once: true }
-    );
+    form.onsubmit = (event: SubmitEvent) => {
+      event.preventDefault();
+      prompt.style.display = "none";
+      form.onsubmit = null;
+      const v = type === "number" ? +input.value : input.value;
+      if (callback) callback(v);
+    };
   };
 
   const cancel = prompt.querySelector("#promptCancel");
   if (cancel) {
     cancel.addEventListener("click", () => {
       prompt.style.display = "none";
+      form.onsubmit = null;
     });
   }
 };
@@ -366,8 +371,7 @@ export const speak = (text: string): void => {
 
   const voices = speechSynthesis.getVoices();
   if (voices.length) {
-    const voiceId = Number((document.getElementById("speakerVoice") as HTMLSelectElement).value);
-    speaker.voice = voices[voiceId];
+    speaker.voice = voices[Number(options.app.ui.speakerVoice)] ?? speaker.voice;
   }
 
   speechSynthesis.speak(speaker);
@@ -384,16 +388,4 @@ declare global {
     link: typeof link;
     isCtrlClick: typeof isCtrlClick;
   }
-
-  // Global variables defined in main.js
-  var mapCoordinates: {
-    latT?: number;
-    latN?: number;
-    latS?: number;
-    lonT?: number;
-    lonW?: number;
-    lonE?: number;
-  };
-  var graphWidth: number;
-  var graphHeight: number;
 }

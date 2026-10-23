@@ -4,6 +4,9 @@ import { Layers } from "@/components/layers";
 import { stopMapPlacement, toggleMapPlacement } from "@/components/map-placement";
 import { tip } from "@/components/tooltips";
 import { redrawEmblem } from "@/renderers/draw-emblems";
+import { findEl } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
+import { errorText } from "@/utils/stringUtils";
 
 function toggle(): void {
   if (isActive()) {
@@ -15,30 +18,24 @@ function toggle(): void {
   toggleMapPlacement(
     "addBurgTool",
     addOnClick,
-    "Click on the map to create a new burg. Hold Shift to add multiple",
+    sentences(t("Click on map to place a burg"), t("Hold Shift to add multiple")),
     "warn",
     unpressProxyButton
   );
-  document.getElementById("addNewBurg")?.classList.add("pressed");
+  findEl("addNewBurg")?.classList.add("pressed");
 
   Layers.show("burgIcons", "labels");
 }
 
 function addOnClick(event: MouseEvent): void {
   const point = pointer(event, event.currentTarget as SVGGElement);
-  const cell = Pack.findCell(point[0], point[1]);
-  if (cell === undefined) return;
-
-  if (pack.cells.h[cell] < 20) {
-    tip("You cannot place a burg in the water. Please click on a land cell", false, "error");
+  let burgId: number;
+  try {
+    burgId = Burgs.add(...point);
+  } catch (error) {
+    tip(errorText(error), false, "error");
     return;
   }
-  if (pack.cells.burg[cell]) {
-    tip("There is already a burg in this cell. Please select a free cell", false, "error");
-    return;
-  }
-
-  const burgId = Burgs.add(point);
   redrawEmblem("burg", burgId);
   refreshEditors();
   Layers.draw("burgIcons", "labels", "routes");
@@ -52,11 +49,11 @@ function stop(): void {
 }
 
 function isActive(): boolean {
-  return document.getElementById("addBurgTool")?.classList.contains("pressed") ?? false;
+  return findEl("addBurgTool")?.classList.contains("pressed") ?? false;
 }
 
 function unpressProxyButton(): void {
-  document.getElementById("addNewBurg")?.classList.remove("pressed");
+  findEl("addNewBurg")?.classList.remove("pressed");
 }
 
 export const BurgCreator = { toggle, stop };

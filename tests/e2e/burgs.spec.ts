@@ -1,23 +1,13 @@
 import { test, expect } from "@playwright/test";
+import { waitForMap } from "./wait-for-map";
 
 test.describe("Burgs.add", () => {
-  test.beforeEach(async ({ context, page }) => {
-    await context.clearCookies();
-
-    await page.goto("/");
-    await page.evaluate(() => {
-      localStorage.clear();
-      sessionStorage.clear();
-    });
-
+  test.beforeEach(async ({ page }) => {
     // Navigate with seed parameter and wait for full load
     await page.goto("/?seed=test-burgs&width=1280&height=720");
 
     // Wait for map generation to complete
-    await page.waitForFunction(
-      () => (window as any).mapId !== undefined,
-      { timeout: 60000 }
-    );
+    await waitForMap(page);
 
     // Additional wait for any rendering/animations to settle
     await page.waitForTimeout(500);
@@ -50,7 +40,7 @@ test.describe("Burgs.add", () => {
 
       // Add a new burg at this inland location
       const Burgs = (window as any).Burgs;
-      const burgId = Burgs.add([x, y]);
+      const burgId = Burgs.add(x, y);
       const burg = burgs[burgId];
 
       return {
@@ -86,7 +76,7 @@ test.describe("Burgs.add", () => {
         const hasNoBurg = !cells.burg[i];
         if (isLand && hasNoHarbor && hasNoBurg) {
           const [x, y] = cells.p[i];
-          return (window as any).Burgs.add([x, y]);
+          return (window as any).Burgs.add(x, y);
         }
       }
       return null;

@@ -1,10 +1,12 @@
+import { hideOptions } from "@/components/options/options-panel";
 import { Controllers } from "@/controllers";
 import { Services } from "@/services";
 import { toggleSaveReminder } from "@/services/autosave";
 import { findEl, minmax } from "@/utils";
+import { t } from "@/utils/i18n";
 import { showInfo } from "./app-info";
 import { closeDialogs } from "./dialog/dialog-helpers";
-import { getLayerByShortcut } from "./layers-tab";
+import { getLayerByShortcut } from "./options/tabs/layers-tab";
 import { changeMapZoom, panMap, setMapZoom } from "./zoom";
 
 // Hotkeys, see github.com/Azgaar/Fantasy-Map-Generator/wiki/Hotkeys
@@ -14,7 +16,12 @@ document.addEventListener("keyup", handleKeyup);
 function handleKeydown(event: KeyboardEvent): void {
   if (!allowHotkeys()) return; // in some cases (e.g. in a textarea) hotkeys are not allowed
 
-  const { code, ctrlKey, altKey, shiftKey } = event;
+  const { code, ctrlKey, metaKey, altKey, shiftKey } = event;
+  if ((ctrlKey || metaKey) && code === "KeyS") {
+    event.preventDefault();
+    if (!event.repeat) Services.Save.toMachine(shiftKey); // keydown supplies the file picker's user activation
+    return;
+  }
   if (altKey && !ctrlKey && !shiftKey) event.preventDefault(); // disallow plain alt key combinations
   if (ctrlKey && ["KeyS", "KeyC"].includes(code)) event.preventDefault(); // disallow CTRL + S and CTRL + C
   if (["F1", "F2", "F6", "F9", "Tab"].includes(code)) event.preventDefault(); // disallow default Fn and Tab
@@ -24,17 +31,20 @@ function handleKeyup(event: KeyboardEvent): void {
   if (!allowHotkeys()) return; // in some cases (e.g. in a textarea) hotkeys are not allowed
 
   event.stopPropagation();
+  if (options.map.viewOnly && !isBrowsingKey(event)) return;
 
   const { code, key, ctrlKey, metaKey, shiftKey, altKey } = event;
   const ctrl = ctrlKey || metaKey || key === "Control";
+  if (ctrl && code === "KeyS") return; // handled on keydown; don't toggle the states layer on release
   const shift = (shiftKey || key === "Shift") && !altKey;
   const altShift = altKey && (shiftKey || key === "Shift") && !ctrl;
-
   const layer = getLayerByShortcut(code);
+  const brush = getVisibleBrush();
 
-  if (code === "F1") showInfo();
+  if (code === "Space") openOmnibar(event);
+  else if (code === "F1") showInfo();
   else if (code === "F2") regeneratePrompt();
-  else if (code === "F6") Services.Save.saveMap("storage");
+  else if (code === "F6") Services.Save.toStorage();
   else if (code === "F9") Services.Load.quickLoad();
   else if (code === "Tab") toggleOptions(event);
   else if (code === "Escape") {
@@ -43,15 +53,14 @@ function handleKeyup(event: KeyboardEvent): void {
   } else if (code === "Delete") removeElementOnKey();
   else if (code === "KeyO" && findEl("canvas3d")) Controllers.View3d.toggleOptions();
   else if (ctrl && code === "KeyQ") toggleSaveReminder();
-  else if (ctrl && code === "KeyS") Services.Save.saveMap("machine");
-  else if (ctrl && code === "KeyC") Services.Save.saveMap("dropbox");
+  else if (ctrl && code === "KeyC") Services.Save.toDropbox();
   else if (ctrl && code === "KeyZ") findEl("undo")?.click();
   else if (ctrl && code === "KeyY") findEl("redo")?.click();
   else if ((shift || altShift) && code === "KeyH") Controllers.HeightmapEditor.open();
   else if ((shift || altShift) && code === "KeyB") Controllers.BiomesEditor.open();
   else if ((shift || altShift) && code === "KeyS") Controllers.StatesEditor.open();
   else if ((shift || altShift) && code === "KeyP") Controllers.ProvincesEditor.open();
-  else if ((shift || altShift) && code === "KeyD") Controllers.DiplomacyEditor.open();
+  else if ((shift || altShift) && code === "KeyD") Controllers.DiplomacyOverview.open();
   else if ((shift || altShift) && code === "KeyL") Controllers.LabelsOverview.open();
   else if ((shift || altShift) && code === "KeyC") Controllers.CulturesEditor.open();
   else if ((shift || altShift) && code === "KeyN") Controllers.NamesbaseEditor.open();
@@ -63,12 +72,15 @@ function handleKeyup(event: KeyboardEvent): void {
   else if ((shift || altShift) && code === "KeyA") Controllers.ChartsOverview.open();
   else if ((shift || altShift) && code === "KeyT") Controllers.BurgsOverview.open();
   else if ((shift || altShift) && code === "KeyU") Controllers.RoutesOverview.open();
+  else if ((shift || altShift) && code === "KeyF") Controllers.FeaturesOverview.open();
   else if ((shift || altShift) && code === "KeyV") Controllers.RiversOverview.open();
   else if ((shift || altShift) && code === "KeyM") Controllers.MilitaryOverview.open();
   else if ((shift || altShift) && code === "KeyK") Controllers.MarkersOverview.open();
   else if ((shift || altShift) && code === "KeyE") Controllers.CellInfo.open();
   else if ((shift || altShift) && code === "KeyG") Controllers.GoodsEditor.open();
-  else if ((shift || altShift) && code === "Equal") Controllers.MeasurersEditor.open();
+  else if ((shift || altShift) && code === "KeyJ") Controllers.JourneysOverview.open();
+  else if ((shift || altShift) && code === "KeyW") Controllers.WrapTool.open();
+  else if ((shift || altShift) && code === "Equal" && !brush) Controllers.MeasurersEditor.open();
   else if (key === "!") Controllers.BurgCreator.toggle();
   else if (key === "@") Controllers.LabelCreator.toggle();
   else if (key === "#") Controllers.MarkerCreator.toggle();
@@ -76,12 +88,12 @@ function handleKeyup(event: KeyboardEvent): void {
   else if (key === "%") Controllers.RouteCreator.open();
   else if (code === "BracketRight") handleBracketSizeChange(code);
   else if (code === "BracketLeft" && handleBracketSizeChange(code)) return;
-  else if (layer && !(code === "Equal" && customization)) Layers.toggle(layer);
+  else if (layer && !(code === "Equal" && (customization || brush))) Layers.toggle(layer);
   else if (code === "ArrowLeft") panMap(10, 0);
   else if (code === "ArrowRight") panMap(-10, 0);
   else if (code === "ArrowUp") panMap(0, 10);
   else if (code === "ArrowDown") panMap(0, -10);
-  else if (key === "+" || key === "-" || key === "=") handleSizeChange(key);
+  else if (key === "+" || key === "-" || key === "=") handleSizeChange(key, brush);
   else if (key === "0") resetZoom(1000);
   else if (key === "1") setMapZoom(1);
   else if (key === "2") setMapZoom(2);
@@ -94,6 +106,38 @@ function handleKeyup(event: KeyboardEvent): void {
   else if (key === "9") setMapZoom(9);
 }
 
+const BROWSING_CODES = [
+  "Space",
+  "F1",
+  "F2",
+  "F9",
+  "Tab",
+  "Escape",
+  "KeyO",
+  "ArrowLeft",
+  "ArrowRight",
+  "ArrowUp",
+  "ArrowDown"
+];
+
+/** The keys a view-only map answers: menu, search, info, new map, load, 3D options, pan, zoom and layers */
+function isBrowsingKey({ code, key, ctrlKey, metaKey, altKey, shiftKey }: KeyboardEvent): boolean {
+  if (ctrlKey || metaKey || altKey) return false;
+  if (BROWSING_CODES.includes(code)) return true;
+  if (/^[\d=+-]$/.test(key)) return !(shiftKey && code === "Equal"); // Shift + Equal opens the Measurers Editor
+  return !shiftKey && !!getLayerByShortcut(code);
+}
+
+// only a plain Space with nothing focused: a focused control keeps its own Space, a modified Space is not ours,
+// and a visible brush tool owns Space for panning
+function openOmnibar(event: KeyboardEvent): void {
+  if (event.ctrlKey || event.metaKey || event.altKey || event.shiftKey) return;
+  if (getVisibleBrush()) return;
+  const active = document.activeElement;
+  if (active && active !== document.body) return;
+  Controllers.Omnibar.open();
+}
+
 function allowHotkeys(): boolean {
   const activeElement = document.activeElement as HTMLElement | null;
   const tagName = activeElement?.tagName;
@@ -104,19 +148,21 @@ function allowHotkeys(): boolean {
   return true;
 }
 
+/** the size control of the brush the user is currently working with, if any is on screen */
+function getVisibleBrush(): HTMLInputElement | null {
+  const inputs = document.querySelectorAll<HTMLInputElement>("[data-brush-size]");
+  return [...inputs].find(element => element.offsetParent) ?? null;
+}
+
 // "+", "-" and "=" keys on numpad. "=" is for "+" on Mac
-function handleSizeChange(key: string): void {
-  let brush: HTMLInputElement | null = null;
-
-  const brushIds = ["heightmapBrushRadius", "heightmapBrushPower", "heightmapLinePower", "paintEditorBrush"];
-  brush = brushIds.map(id => findEl<HTMLInputElement>(id)).find(element => element?.offsetParent) ?? null;
-
+function handleSizeChange(key: string, brush = getVisibleBrush()): void {
   if (brush) {
-    const change = key === "-" ? -5 : 5;
+    const step = Number(brush.dataset.keyStep) || 5;
+    const change = key === "-" ? -step : step;
     const min = Number(brush.getAttribute("min")) || 5;
     const max = Number(brush.getAttribute("max")) || 100;
-    const value = +brush.value + change;
-    brush.value = String(minmax(value, min, max));
+    brush.value = String(minmax(+brush.value + change, min, max));
+    brush.dispatchEvent(new Event("input", { bubbles: true })); // let the owning tool pick the new size up
     return;
   }
 
@@ -126,14 +172,7 @@ function handleSizeChange(key: string): void {
 
 function handleBracketSizeChange(code: string): boolean {
   const isHeightmapBrushPressed = Boolean(findEl("brushesButtons")?.querySelector("button.pressed"));
-  const hasActiveBrush =
-    isHeightmapBrushPressed ||
-    findEl("heightmapBrushRadius")?.offsetParent ||
-    findEl("heightmapBrushPower")?.offsetParent ||
-    findEl("heightmapLinePower")?.offsetParent ||
-    findEl("paintEditorBrush")?.offsetParent;
-
-  if (!hasActiveBrush) return false;
+  if (!isHeightmapBrushPressed && !getVisibleBrush()) return false;
 
   handleSizeChange(code === "BracketLeft" ? "-" : "+");
   return true;
@@ -152,7 +191,7 @@ function removeElementOnKey(): void {
 
   visibleDialogs.forEach(dialog => {
     dialog.querySelectorAll("button").forEach(button => {
-      if (button.textContent === "Remove") button.click();
+      if (button.textContent === t("Remove")) button.click();
     });
   });
 }

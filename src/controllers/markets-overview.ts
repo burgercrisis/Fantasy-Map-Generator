@@ -1,5 +1,12 @@
 import { select } from "d3";
-import { closeDialogs, confirmationDialog, refreshEditors, updateDialog } from "@/components/dialog/dialog-helpers";
+import {
+  closeDialogs,
+  confirmationDialog,
+  destroyDialog,
+  noteIcon,
+  refreshEditors,
+  updateDialog
+} from "@/components/dialog/dialog-helpers";
 import { bindColumnSorting, sortDataByColumns } from "@/components/dialog/sorting";
 import {
   type EditorColumn,
@@ -9,16 +16,18 @@ import {
   renderEditorPagination,
   type TableView
 } from "@/components/dialog/table";
-import type { FillBoxElement } from "@/components/fill-box";
 import { Layers } from "@/components/layers";
+import type { FillBoxElement } from "@/components/shared/fill-box";
 import { clearMainTip, tip } from "@/components/tooltips";
 import { applyDefaultViewboxEvents } from "@/components/viewbox-events";
 import { Controllers } from "@/controllers";
-import { downloadFile, getFileName } from "@/utils";
+import { ColorPicker } from "@/controllers/color-picker";
+import { Csv } from "@/services/io/csv";
+import { sentences, t } from "@/utils/i18n";
 import type { Burg } from "../generators/burgs-generator";
 import type { Deal, Market } from "../generators/markets-generator";
 import { highlightMarketOff, highlightMarketOn } from "../renderers/draw-markets";
-import { ensureEl, formatPrice, getPointer, rn } from "../utils";
+import { ensureEl, findEl, formatPrice, getPointer, rn } from "../utils";
 
 const dialogId = "marketsOverview" as const;
 const position = { my: "right top", at: "right-10 top+10", of: "svg", collision: "fit" };
@@ -37,22 +46,23 @@ type MarketRow = {
 
 const columns: EditorColumn<MarketRow>[] = [
   { key: "color", width: "1.6em", permanent: true },
-  { key: "market", label: "Market", width: "7em", permanent: true, sortBy: row => row.name, sortType: "alpha" },
-  { key: "owner", label: "Owner", width: "7em", sortBy: row => row.owner, sortType: "alpha" },
-  { key: "cells", label: "Cells", width: "4em", sortBy: row => row.cells },
-  { key: "burgs", label: "Burgs", width: "4em", sortBy: row => row.burgs },
-  { key: "stock", label: "Stock", width: "5em", sortBy: row => row.stock },
-  { key: "sales", label: "Sales", width: "5em", sortBy: row => row.sales },
-  { key: "buys", label: "Buys", width: "5em", sortBy: row => row.buys },
+  { key: "market", label: t("Market"), width: "7em", permanent: true, sortBy: row => row.name, sortType: "alpha" },
+  { key: "owner", label: t("Owner"), width: "7em", sortBy: row => row.owner, sortType: "alpha" },
+  { key: "cells", label: t("Cells"), width: "4em", sortBy: row => row.cells },
+  { key: "burgs", label: t("Burgs"), width: "5em", sortBy: row => row.burgs },
+  { key: "stock", label: t("Stock"), width: "5em", sortBy: row => row.stock },
+  { key: "sales", label: t("Sales"), width: "5em", sortBy: row => row.sales },
+  { key: "buys", label: t("Buys"), width: "5em", sortBy: row => row.buys },
   {
     key: "value",
-    label: "Value",
+    label: t("Value"),
     width: "5em",
     sortBy: row => row.value,
     defaultSort: "desc",
-    tip: "Market value: net trading flow plus unsold inventory value minus tax. Click to sort"
+    tip: sentences(t("Market value: net trading flow plus unsold inventory value minus tax"), t("Click to sort"))
   },
-  { key: "actions", width: "1.4em", permanent: true, align: "right" }
+  { key: "note", width: "1.1em" },
+  { key: "remove", width: "1.4em", permanent: true }
 ];
 
 const marketsTable = initEditorTable<MarketRow>({ getData: getMarketsData, onUpdate: renderMarketsPage });
@@ -66,7 +76,7 @@ function open(): void {
   marketsTable.reset();
 
   $("#marketsOverview").dialog({
-    title: "Markets Overview",
+    title: t("Markets Overview"),
     resizable: false,
     width: "auto",
     close: closeMarketsOverview,
@@ -75,25 +85,25 @@ function open(): void {
 }
 
 function renderDialog(): void {
-  document.getElementById("marketsOverview")?.remove();
+  destroyDialog("marketsOverview");
   const editorHtml = /* html */ `<div id="marketsOverview" class="dialog stable editorDialog">
       ${renderEditorHeader({ dialogId, columns })}
       <div id="marketsOverviewBody" class="table" data-type="absolute" style="max-height:40em; cursor:pointer"></div>
       <div id="marketsOverviewFooter" class="totalLine">
-        <div data-tip="Total number of markets" style="margin-left:5px">Markets:&nbsp;<span id="marketsOverviewFooterMarkets">0</span></div>
-        <div data-tip="Average gross sales revenue per market" style="margin-left:12px">Avg Sales:&nbsp;<span id="marketsOverviewFooterSales">0</span></div>
-        <div data-tip="Average purchase spending per market" style="margin-left:12px">Avg Buys:&nbsp;<span id="marketsOverviewFooterBuys">0</span></div>
-        <div data-tip="Average market value per market" style="margin-left:12px">Avg Value:&nbsp;<span id="marketsOverviewFooterValue">0</span></div>
+        <div data-tip="${t("Total number of markets")}" style="margin-left:5px">${t("Markets")}:&nbsp;<span id="marketsOverviewFooterMarkets">0</span></div>
+        <div data-tip="${t("Average gross sales revenue per market")}" style="margin-left:12px">${t("Avg Sales")}:&nbsp;<span id="marketsOverviewFooterSales">0</span></div>
+        <div data-tip="${t("Average purchase spending per market")}" style="margin-left:12px">${t("Avg Buys")}:&nbsp;<span id="marketsOverviewFooterBuys">0</span></div>
+        <div data-tip="${t("Average market value per market")}" style="margin-left:12px">${t("Avg Value")}:&nbsp;<span id="marketsOverviewFooterValue">0</span></div>
       </div>
       <div id="marketsOverviewBottom">
-        <button id="marketsOverviewRefresh" data-tip="Refresh the overview" class="icon-cw"></button>
-        <button id="marketsOverviewPercentage" data-tip="Toggle percentage / absolute values views" class="icon-percent"></button>
-        <button id="marketsOverviewCompare" data-tip="Compare good stock across markets" class="icon-chart-bar"></button>
-        <button id="marketsOverviewExport" data-tip="Save markets data as a CSV file" class="icon-download"></button>
-        <button id="marketsManually" data-tip="Manually re-assign market territories" class="icon-brush"></button>
-        <button id="marketsAdd" data-tip="Add a new market. Click on a burg on the map. Hold Shift to add multiple" class="icon-plus"></button>
-        <button id="marketsRegenerate" data-tip="Regenerate markets and their territories" class="icon-arrows-cw"></button>
-        <button id="marketsRegenerateProduction" data-tip="Regenerate production and trade deals" class="icon-retweet"></button>
+        <button id="marketsOverviewRefresh" data-tip="${t("Refresh")}" class="icon-cw"></button>
+        <button id="marketsOverviewPercentage" data-tip="${t("Toggle percentage / absolute values views")}" class="icon-percent"></button>
+        <button id="marketsOverviewCompare" data-tip="${t("Compare good stock across markets")}" class="icon-chart-bar"></button>
+        <button id="marketsOverviewExport" data-tip="${t("Save data as a CSV file")}" class="icon-download"></button>
+        <button id="marketsManually" data-tip="${t("Manually re-assign market territories")}" class="icon-brush"></button>
+        <button id="marketsAdd" data-tip="${sentences(t("Add"), t("Click on a burg on the map"), t("Hold Shift to add multiple"))}" class="icon-plus"></button>
+        <button id="marketsRegenerate" data-tip="${t("Regenerate markets and their territories")}" class="icon-arrows-cw"></button>
+        <button id="marketsRegenerateProduction" data-tip="${t("Regenerate production and trade deals")}" class="icon-retweet"></button>
       </div>
     </div>`;
   ensureEl("dialogs").insertAdjacentHTML("beforeend", editorHtml);
@@ -124,6 +134,12 @@ function renderDialog(): void {
       const marketId = row ? +row.dataset.id! : 0;
       // marketId 0 is the "No market" row — it has no color to edit
       if (marketId) marketChangeFill(fillBox, marketId);
+      return;
+    }
+
+    if (target.classList.contains("icon-book")) {
+      const row = target.closest<HTMLElement>(".states.market");
+      if (row) void Controllers.NotesEditor.open({ type: "market", id: +row.dataset.id! });
       return;
     }
 
@@ -166,7 +182,7 @@ function getMarketsData(): MarketRow[] {
 function renderMarketsPage(view: TableView<MarketRow>): void {
   const body = ensureEl("marketsOverviewBody");
   if (!view.all.length) {
-    body.innerHTML = "No markets available";
+    body.innerHTML = t("No markets available");
     updateFooter(0, 0, 0, 0);
     renderEditorPagination(ensureEl("marketsOverviewFooter"), view, marketsTable.goto);
     return;
@@ -214,15 +230,16 @@ function renderMarketRow(
   const { market, name, owner, cells, burgs, stock, sales, buys, value } = row;
   return /*html*/ `<div class="states market" data-id="${market.i}">
     <div data-col="color"><fill-box fill="${market.color}"></fill-box></div>
-    <div data-col="market" data-tip="Market name. Click to view details" class="marketName">${name}</div>
-    <div data-col="owner" data-tip="Owning state" class="marketOwner">${owner}</div>
-    <div data-col="cells" data-tip="Number of cells in market territory" class="marketCells">${format("cells", cells)}</div>
-    <div data-col="burgs" data-tip="Number of burgs in market territory" class="marketBurgs">${format("burgs", burgs)}</div>
-    <div data-col="stock" data-tip="Total stock of all goods in this market" class="marketStock">${format("stock", stock)}</div>
-    <div data-col="sales" data-tip="Total gross sales revenue" class="marketSales">${format("sales", sales, true)}</div>
-    <div data-col="buys" data-tip="Total purchase spending" class="marketBuysCol">${format("buys", buys, true)}</div>
-    <div data-col="value" data-tip="Market value: net trading flow plus unsold inventory value minus tax" class="marketValue">${format("value", value, true)}</div>
-    <div data-col="actions"><span data-tip="Remove this market" class="icon-trash-empty hiddenIcon" style="visibility:hidden"></span></div>
+    <div data-col="market" data-tip="${t("Market name. Click to view details")}" class="marketName">${name}</div>
+    <div data-col="owner" data-tip="${t("Owning state")}" class="marketOwner">${owner}</div>
+    <div data-col="cells" data-tip="${t("Number of cells in market territory")}" class="marketCells">${format("cells", cells)}</div>
+    <div data-col="burgs" data-tip="${t("Number of burgs in market territory")}" class="marketBurgs">${format("burgs", burgs)}</div>
+    <div data-col="stock" data-tip="${t("Total stock of all goods in this market")}" class="marketStock">${format("stock", stock)}</div>
+    <div data-col="sales" data-tip="${t("Total gross sales revenue")}" class="marketSales">${format("sales", sales, true)}</div>
+    <div data-col="buys" data-tip="${t("Total purchase spending")}" class="marketBuysCol">${format("buys", buys, true)}</div>
+    <div data-col="value" data-tip="${t("Market value: net trading flow plus unsold inventory value minus tax")}" class="marketValue">${format("value", value, true)}</div>
+    ${noteIcon(t("Edit free text notes (legend)"))}
+    <span data-col="remove" data-tip="${t("Remove")}" class="icon-trash-empty hiddenIcon" style="visibility:hidden"></span>
   </div>`;
 }
 
@@ -230,11 +247,11 @@ function openPaintEditor(): void {
   Layers.show("markets");
 
   void Controllers.PaintEditor.open({
-    title: "Paint Market Cells",
+    title: t("Paint Market Cells"),
     parentDialogId: dialogId,
     onClose: open,
     items: [
-      { id: 0, name: "No market", color: "#ffffff" },
+      { id: 0, name: t("No market"), color: "#ffffff" },
       ...getMarketsData().map(row => ({ id: row.market.i, name: row.name, color: row.market.color }))
     ],
     dontOverrideControl: true,
@@ -253,16 +270,17 @@ function renderNoMarketRow(
   const cells = getMarketCells(0);
   const burgs = getMarketBurgs(0);
   return /*html*/ `<div class="states market" data-id="0">
-    <div data-col="color"><fill-box fill="none" data-tip="Cells assigned to no market"></fill-box></div>
-    <div data-col="market" data-tip="Cells with no market; their burgs are excluded from production" class="marketName">No market</div>
+    <div data-col="color"><fill-box fill="none" data-tip="${t("Cells assigned to no market")}"></fill-box></div>
+    <div data-col="market" data-tip="${t("Cells with no market; their burgs are excluded from production")}" class="marketName">${t("No market")}</div>
     <div data-col="owner" class="marketOwner">—</div>
-    <div data-col="cells" data-tip="Number of cells with no market" class="marketCells">${format("cells", cells)}</div>
-    <div data-col="burgs" data-tip="Number of burgs with no market" class="marketBurgs">${format("burgs", burgs)}</div>
+    <div data-col="cells" data-tip="${t("Number of cells with no market")}" class="marketCells">${format("cells", cells)}</div>
+    <div data-col="burgs" data-tip="${t("Number of burgs with no market")}" class="marketBurgs">${format("burgs", burgs)}</div>
     <div data-col="stock" class="marketStock">—</div>
     <div data-col="sales" class="marketSales">—</div>
     <div data-col="buys" class="marketBuysCol">—</div>
     <div data-col="value" class="marketValue">—</div>
-    <div data-col="actions"></div>
+        <div data-col="note"></div>
+        <div data-col="remove"></div>
   </div>`;
 }
 
@@ -274,13 +292,13 @@ function applyMarketPaint(changes: ReadonlyMap<number, number>): void {
   }
 
   Layers.draw("markets");
-  if (document.getElementById(dialogId)) marketsTable.refresh();
+  if (findEl(dialogId)) marketsTable.refresh();
 }
 
 function enterAddMarketMode(): void {
   customization = 16;
   ensureEl("marketsAdd").classList.add("pressed");
-  tip("Click on a burg on the map to create a new market there. Hold Shift to add multiple", true);
+  tip(sentences(t("Click on a burg on the map to create a new market there"), t("Hold Shift to add multiple")), true);
   select<SVGElement, unknown>("#viewbox").style("cursor", "crosshair").on("click", addMarketOnClick);
 }
 
@@ -298,7 +316,7 @@ function addMarketOnClick(this: SVGElement, ev: MouseEvent): void {
 
   const burgId = pack.cells.burg[cellId];
   if (!burgId) {
-    tip("Click on a burg to create a new market — no burg found here", false, "error");
+    tip(t("Click on a burg to create a new market — no burg found here"), false, "error");
     return;
   }
 
@@ -317,9 +335,11 @@ function confirmRemoveMarket(marketId: number): void {
   const name = Markets.getName(market);
 
   confirmationDialog({
-    title: "Remove Market",
-    message: `Are you sure you want to remove the market "${name}"?<br>This action cannot be reverted`,
-    confirm: "Remove",
+    title: t("Remove"),
+    message: `${t("Are you sure you want to remove the market “{{market}}”?", {
+      market: name
+    })}<br>${t("This action cannot be reverted")}`,
+    confirm: t("Remove"),
     onConfirm: () => {
       Markets.removeMarket(marketId);
       Layers.draw("markets");
@@ -334,7 +354,7 @@ function marketChangeFill(fillBox: FillBoxElement, marketId: number): void {
 
   const callback = (newFill: string) => {
     fillBox.fill = newFill;
-    market.color = newFill;
+    Markets.recolor(marketId, newFill);
     Layers.draw("markets");
   };
 
@@ -411,20 +431,20 @@ function updateFooter(count: number, avgSales: number, avgBuys: number, avgValue
 
 function getOwnerStateName(market: Market): string {
   const center = pack.burgs[market.centerBurgId];
-  if (!center) return "Unknown";
-  if (!center.state) return "Independent";
+  if (!center) return t("Unknown");
+  if (!center.state) return t("Independent");
   return pack.states[center.state]?.name || `State ${center.state}`;
 }
 
 function regenerateMarkets() {
   confirmationDialog({
-    title: "Regenerate markets",
-    message: /* html */ `Are you sure you want to regenerate markets and their territories?
+    title: t("Regenerate Markets"),
+    message: /* html */ `${t("Are you sure you want to regenerate markets and their territories?")}
       <label style="display:flex; align-items:center; gap:.4em; margin-top:.6em;">
         <input id="marketsRegenerateProductionToggle" type="checkbox" class="native" checked />
-        Regenerate production and trade
+        ${t("Regenerate production and trade deals")}
       </label>`,
-    confirm: "Regenerate",
+    confirm: t("Regenerate"),
     onConfirm: () => {
       const regenProduction = ensureEl<HTMLInputElement>("marketsRegenerateProductionToggle").checked;
       Markets.regenerate();
@@ -440,10 +460,11 @@ function regenerateMarkets() {
 
 function regenerateProduction() {
   confirmationDialog({
-    title: "Regenerate production",
-    message:
-      "Are you sure you want to regenerate production and trade for all goods? Generation will be based on the current Goods settings and bonus goods placement",
-    confirm: "Regenerate",
+    title: t("Regenerate Production"),
+    message: t(
+      "Are you sure you want to regenerate production and trade for all goods? Generation will be based on the current Goods settings and bonus goods placement"
+    ),
+    confirm: t("Regenerate"),
     onConfirm: () => {
       Production.regenerate();
       Layers.draw("goods");
@@ -454,21 +475,29 @@ function regenerateProduction() {
 }
 
 function downloadMarketsCsv(): void {
-  let csv = "Market,Owner,Cells,Burgs,Total Stock,Sales,Buys,Value\n";
-  for (const market of pack.markets) {
+  const rows = pack.markets.map(market => {
     const { sales, buys, value } = getMarketFinancials(market);
-    const cells = getMarketCells(market.i);
-    const burgs = getMarketBurgs(market.i);
     const stock = rn(getMarketTotalStock(market), 2);
-    csv += `${[Markets.getName(market), getOwnerStateName(market), cells, burgs, stock, sales, buys, value].join(",")}\n`;
-  }
-  downloadFile(csv, `${getFileName("Markets_Overview")}.csv`);
+    return [
+      Markets.getName(market),
+      getOwnerStateName(market),
+      getMarketCells(market.i),
+      getMarketBurgs(market.i),
+      stock,
+      sales,
+      buys,
+      value
+    ];
+  });
+  const headers = ["Market", "Owner", "Cells", "Burgs", "Total Stock", "Sales", "Buys", "Value"];
+  Csv.download("Markets_Overview", headers, rows);
 }
 
 function closeMarketsOverview(): void {
   if (customization === 16) exitAddMarketMode();
+  ColorPicker.close();
   $("#marketsOverview").dialog("destroy");
   ensureEl("marketsOverview").remove();
 }
 
-export const MarketsOverview = { open };
+export const MarketsOverview = { open, exportCsv: downloadMarketsCsv };

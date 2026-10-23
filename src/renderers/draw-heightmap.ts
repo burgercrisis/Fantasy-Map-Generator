@@ -22,8 +22,15 @@ import {
   range,
   select
 } from "d3";
+import type { GridRaster } from "@/generators/grid-generator";
+import { HeightmapColorSchemes } from "@/renderers/heightmap-color-schemes";
+import { t } from "@/utils/i18n";
 import { tip } from "../components/tooltips";
 import { round } from "../utils";
+import { getHeightContours, smoothContourHeights } from "./heightmap-contours";
+import { getHachures } from "./heightmap-hachures";
+
+const HACHURE_LEVEL = 4; // height units between the levels hachure strokes are seeded along
 
 const CURVE_MAP: Record<string, CurveFactory> = {
   curveBasis,
@@ -45,9 +52,22 @@ const CURVE_MAP: Record<string, CurveFactory> = {
   curveStepBefore
 };
 
+// the cell surface extended to the boundary pseudo-points the Delaunay triangles reference
+function getContourSurface(smoothed: Float64Array): { points: [number, number][]; elevations: Float64Array } {
+  const points = [...grid.points, ...grid.boundary];
+  const elevations = Float64Array.from(points, ([x, y], i) => smoothed[i < smoothed.length ? i : Grid.findCell(x, y)]);
+  return { points, elevations };
+}
+
+type HeightsOptions = typeof styles.heightmap.groups.landHeights.options;
+
+/** Whether the heights group is tinted by elevation, not drawn as contour or hachure lines alone */
+export const hasHeightTints = (heightOptions: HeightsOptions): boolean =>
+  heightOptions.contours.mode !== "only" && heightOptions.hachures.mode !== "only";
+
 export const drawHeightmap = (): void => {
   if (customization === 1)
-    return void tip("The Layer control is not available in the heightmap edit mode", false, "error");
+    return void tip(t("The Layer control is not available in the heightmap edit mode"), false, "error");
 
   TIME && console.time("drawHeightmap");
 
@@ -62,13 +82,17 @@ export const drawHeightmap = (): void => {
   const used = new Uint8Array(cells.i.length);
   const heights = Array.from(cells.i).sort((a, b) => cells.h[a] - cells.h[b]);
 
+  const landOptions = styles.heightmap.groups.landHeights.options;
+  const oceanOptions = styles.heightmap.groups.oceanHeights.options;
+  const landFillsVisible = hasHeightTints(landOptions);
+  const oceanFillsVisible = hasHeightTints(oceanOptions);
+
   // ocean cells
-  const renderOceanCells = Boolean(+ocean.attr("data-render"));
-  if (renderOceanCells) {
-    const skip = +ocean.attr("skip") + 1 || 1;
-    const relax = +ocean.attr("relax") || 0;
-    const curveType = ocean.attr("curve") || "curveBasisClosed";
-    const lineGen = line().curve(CURVE_MAP[curveType] ?? curveBasisClosed);
+  const renderOceanCells = oceanOptions.render;
+  if (renderOceanCells && oceanFillsVisible) {
+    const skip = oceanOptions.skip + 1 || 1;
+    const relax = oceanOptions.relax;
+    const lineGen = line().curve(CURVE_MAP[oceanOptions.curve] ?? curveBasisClosed);
 
     let currentLayer = 0;
     for (const i of heights) {
@@ -90,11 +114,10 @@ export const drawHeightmap = (): void => {
   }
 
   // land cells
-  {
-    const skip = +land.attr("skip") + 1 || 1;
-    const relax = +land.attr("relax") || 0;
-    const curveType = land.attr("curve") || "curveBasisClosed";
-    const lineGen = line().curve(CURVE_MAP[curveType] ?? curveBasisClosed);
+  if (landFillsVisible) {
+    const skip = landOptions.skip + 1 || 1;
+    const relax = landOptions.relax;
+    const lineGen = line().curve(CURVE_MAP[landOptions.curve] ?? curveBasisClosed);
 
     let currentLayer = 20;
     for (const i of heights) {
@@ -120,7 +143,10 @@ export const drawHeightmap = (): void => {
   // render paths
   for (const height of range(0, 101)) {
     const group = height < 20 ? ocean : land;
-    const scheme = getColorScheme(group.attr("scheme"));
+    const heightOptions = height < 20 ? oceanOptions : landOptions;
+    const fillsVisible = height < 20 ? oceanFillsVisible : landFillsVisible;
+    if (!fillsVisible) continue;
+    const scheme = HeightmapColorSchemes.get(heightOptions.scheme);
 
     if (height === 0 && renderOceanCells) {
       // draw base ocean layer
@@ -128,8 +154,8 @@ export const drawHeightmap = (): void => {
         .append("rect")
         .attr("x", 0)
         .attr("y", 0)
-        .attr("width", graphWidth)
-        .attr("height", graphHeight)
+        .attr("width", options.map.graph.width)
+        .attr("height", options.map.graph.height)
         .attr("fill", scheme(1));
     }
 
@@ -139,14 +165,14 @@ export const drawHeightmap = (): void => {
         .append("rect")
         .attr("x", 0)
         .attr("y", 0)
-        .attr("width", graphWidth)
-        .attr("height", graphHeight)
+        .attr("width", options.map.graph.width)
+        .attr("height", options.map.graph.height)
         .attr("fill", scheme(0.8));
     }
 
     if (paths[height] && paths[height]!.length >= 10) {
-      const terracing = +group.attr("terracing") / 10 || 0;
-      const fillColor = getColor(height, scheme);
+      const terracing = heightOptions.terracing / 10 || 0;
+      const fillColor = HeightmapColorSchemes.getColor(height, scheme);
 
       if (terracing) {
         group
@@ -157,6 +183,81 @@ export const drawHeightmap = (): void => {
           .attr("data-height", height);
       }
       group.append("path").attr("d", paths[height]!).attr("fill", fillColor).attr("data-height", height);
+    }
+  }
+
+  let smoothedHeights: Float64Array | undefined; // shared by contours and hachures
+  const getSmoothedHeights = () => (smoothedHeights ??= smoothContourHeights(cells.h, cells.c));
+
+  if (landOptions.contours.mode !== "off" || (renderOceanCells && oceanOptions.contours.mode !== "off")) {
+    const { points, elevations } = getContourSurface(getSmoothedHeights());
+
+    for (const [group, options, isOcean] of [
+      [land, landOptions, false],
+      [ocean, oceanOptions, true]
+    ] as const) {
+      const contours = options.contours;
+      if (contours.mode === "off" || (isOcean && !renderOceanCells)) continue;
+      const thresholds = isOcean
+        ? range(20 - contours.interval, 0, -contours.interval)
+        : range(20 + contours.interval, 100, contours.interval);
+      const contourGroup = group
+        .append("g")
+        .attr("class", "heightmap-contours")
+        .attr("fill", "none")
+        .attr("stroke", contours.color)
+        .attr("stroke-linejoin", "round")
+        .attr("stroke-linecap", "round")
+        .attr("opacity", contours.opacity)
+        .attr("mask", isOcean ? "url(#water)" : "url(#land)")
+        .attr("pointer-events", "none");
+      for (const contour of getHeightContours(points, elevations, vertices.c, thresholds, contours.interval)) {
+        contourGroup
+          .append("path")
+          .attr("d", round(contour.path)) // full-precision coordinates bloat the saved map
+          .attr("data-height", contour.height)
+          .attr("stroke-width", contours.width * (contour.major ? 2 : 1));
+      }
+    }
+  }
+
+  if (landOptions.hachures.mode !== "off" || (renderOceanCells && oceanOptions.hachures.mode !== "off")) {
+    const smoothed = smoothContourHeights(getSmoothedHeights(), cells.c); // twice: a calm fall line
+    const { points, elevations } = getContourSurface(smoothed);
+    const { width, height } = options.map.graph;
+    for (const [group, heightOptions, isOcean] of [
+      [land, landOptions, false],
+      [ocean, oceanOptions, true]
+    ] as const) {
+      const hachures = heightOptions.hachures;
+      if (hachures.mode === "off" || (isOcean && !renderOceanCells)) continue;
+      const path = getHachures({
+        points,
+        heights: elevations,
+        neighbors: cells.c,
+        triangles: vertices.c,
+        spacing: grid.spacing,
+        findCell: (x, y) => (x < 0 || y < 0 || x > width || y > height ? -1 : Grid.findCell(x, y)),
+        inBand: isOcean ? h => h < 20 : h => h >= 20,
+        thresholds: isOcean
+          ? range(20 - HACHURE_LEVEL, 0, -HACHURE_LEVEL)
+          : range(20 + HACHURE_LEVEL, 100, HACHURE_LEVEL),
+        density: hachures.density,
+        length: hachures.length,
+        width: hachures.width,
+        seed: options.map.seed
+      });
+      if (!path) continue;
+      group
+        .append("g")
+        .attr("class", "heightmap-hachures")
+        .attr("fill", hachures.color)
+        .attr("fill-rule", "nonzero")
+        .attr("opacity", hachures.opacity)
+        .attr("mask", isOcean ? "url(#water)" : "url(#land)")
+        .attr("pointer-events", "none")
+        .append("path")
+        .attr("d", path);
     }
   }
 
@@ -180,6 +281,11 @@ export const drawHeightmap = (): void => {
       if (v[0] !== prev && c0 !== c1) current = v[0];
       else if (v[1] !== prev && c1 !== c2) current = v[1];
       else if (v[2] !== prev && c0 !== c2) current = v[2];
+      // a hull half-edge has no opposite triangle, so `vertices.v` holds -1 for it
+      if (current < 0 || current >= vertices.c.length) {
+        ERROR && console.error("Next vertex is out of bounds");
+        break;
+      }
       if (current === chain[chain.length - 1]) {
         ERROR && console.error("Next vertex is not found");
         break;
@@ -197,30 +303,20 @@ export const drawHeightmap = (): void => {
   TIME && console.timeEnd("drawHeightmap");
 };
 
-// draw raster heightmap preview (not used in main generation)
-/**
- * Draws a raster heightmap preview based on given heights and rendering options
- * @param {Object} options - The options for drawing the heightmap
- * @param {Array} options.heights - The array of height values
- * @param {number} options.width - The width of the heightmap
- * @param {number} options.height - The height of the heightmap
- * @param {Function} options.scheme - The color scheme function for rendering heights
- * @param {boolean} options.renderOcean - Whether to render ocean heights
- * @returns {string} - A data URL representing the drawn heightmap image
- */
+/** heightmap preview image as a data URL: per-cell heights drawn over the grid raster */
 export const drawHeights = ({
-  heights,
-  width,
-  height,
+  heights: cellHeights,
+  raster,
   scheme,
   renderOcean
 }: {
-  heights: number[];
-  width: number;
-  height: number;
+  heights: Uint8Array<ArrayBufferLike>;
+  raster: GridRaster;
   scheme: (value: number) => string;
   renderOcean: boolean;
 }) => {
+  const { width, height } = raster;
+  const heights = Grid.rasterize(cellHeights, raster);
   const canvas = document.createElement("canvas");
   canvas.width = width;
   canvas.height = height;
@@ -243,11 +339,3 @@ export const drawHeights = ({
   ctx.putImageData(imageData, 0, 0);
   return canvas.toDataURL("image/png");
 };
-
-declare global {
-  interface Window {
-    drawHeights: typeof drawHeights;
-  }
-}
-
-window.drawHeights = drawHeights; // classic public/modules/ui/style.js draws the 3d preview with it

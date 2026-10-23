@@ -3,7 +3,8 @@ import { confirmationDialog, destroyDialog } from "@/components/dialog/dialog-he
 import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
 import type { Route } from "@/generators/routes-generator";
-import { ensureEl } from "../utils";
+import { t } from "@/utils/i18n";
+import { ensureEl, findEl } from "../utils";
 
 // custom legacy 3-arg prompt from commonUtils.initializePrompt (collides with lib.dom's var prompt)
 declare const prompt: (text: string, options: { default: string }, callback: (value: string) => void) => void;
@@ -18,7 +19,7 @@ function open(): void {
   addLines();
 
   $("#routeGroupsEditor").dialog({
-    title: "Edit Route groups",
+    title: t("Edit route groups"),
     resizable: false,
     position: { my: "left top", at: "left+10 top+140", of: "#map" },
     close: closeRouteGroupsEditor
@@ -31,7 +32,7 @@ function renderDialog(): void {
   const html = /* html */ `<div id="routeGroupsEditor" class="dialog">
     <div id="routeGroupsEditorBody" class="table" style="padding: 0.3em 0; width: 100%"></div>
     <div id="routeGroupsEditorBottom">
-      <button id="routeGroupsEditorAdd" data-tip="Add route group" class="icon-plus"></button>
+      <button id="routeGroupsEditorAdd" data-tip="${t("Add")}" class="icon-plus"></button>
     </div>
   </div>`;
   ensureEl("dialogs").insertAdjacentHTML("beforeend", html);
@@ -48,7 +49,7 @@ function closeRouteGroupsEditor(): void {
 function onBodyClick(ev: Event): void {
   const target = ev.target as HTMLElement;
   const group = target.closest<HTMLElement>(".states")?.dataset.id;
-  if (target.classList.contains("editStyle") && group) editStyle("routes", group);
+  if (target.classList.contains("editStyle") && group) void Controllers.StyleEditor.open("routes", group);
   else if (target.classList.contains("removeGroup") && group) removeGroup(group);
 }
 
@@ -59,12 +60,12 @@ function addLines(): void {
     .selectAll<SVGGElement, unknown>("g")
     .nodes()
     .map(el => {
-      const count = el.children.length;
+      const count = pack.routes.filter((route: Route) => route.group === el.id).length;
       return /* html */ `<div data-id="${el.id}" class="states" style="display: flex; justify-content: space-between;">
           <span>${el.id} (${count})</span>
           <div style="width: auto; display: flex; gap: 0.4em;">
-            <span data-tip="Edit style" class="editStyle icon-brush pointer" style="font-size: smaller;"></span>
-            <span data-tip="Remove group" class="removeGroup icon-trash pointer"></span>
+            <span data-tip="${t("Edit style")}" class="editStyle icon-brush pointer" style="font-size: smaller;"></span>
+            <span data-tip="${t("Remove")}" class="removeGroup icon-trash pointer"></span>
           </div>
         </div>`;
     });
@@ -73,25 +74,32 @@ function addLines(): void {
 }
 
 function addGroup(): void {
-  prompt("Type group name", { default: "route-group-new" }, v => {
+  prompt(t("Group name"), { default: "route-group-new" }, v => {
     let group = v
       .toLowerCase()
       .replace(/ /g, "_")
       .replace(/[^\w\s]/gi, "");
 
-    if (!group) return tip("Invalid group name", false, "error");
+    if (!group) return tip(t("Invalid group name"), false, "error");
     if (!group.startsWith("route-")) group = `route-${group}`;
-    if (document.getElementById(group))
-      return tip("Element with this name already exists. Provide a unique name", false, "error");
-    if (Number.isFinite(+group.charAt(0))) return tip("Group name should start with a letter", false, "error");
+    if (findEl(group)) return tip(t("Element with this name already exists. Provide a unique name"), false, "error");
+    if (Number.isFinite(+group.charAt(0))) return tip(t("Group name should start with a letter"), false, "error");
 
-    select("#routes")
-      .append("g")
-      .attr("id", group)
-      .attr("stroke", "#000000")
-      .attr("stroke-width", 0.5)
-      .attr("stroke-dasharray", "1 0.5")
-      .attr("stroke-linecap", "butt");
+    // the store is authoritative: seed an entry so style edits and presets can address the group
+    const template = styles.routes.groups.roads || Object.values(styles.routes.groups)[0];
+    const groupStyle = structuredClone(template);
+    Object.assign(groupStyle.attrs, {
+      stroke: "#000000",
+      "stroke-width": 0.5,
+      "stroke-dasharray": "1 0.5",
+      "stroke-linecap": "butt"
+    });
+    styles.routes.groups[group] = groupStyle;
+
+    const groupEl = select("#routes").append("g").attr("id", group).attr("data-group", group);
+    for (const [attr, value] of Object.entries(groupStyle.attrs)) {
+      if (value !== null && value !== undefined) groupEl.attr(attr, value);
+    }
     ensureEl<HTMLSelectElement>("routeGroup").options.add(new Option(group, group));
     addLines();
 
@@ -101,14 +109,20 @@ function addGroup(): void {
 
 function removeGroup(group: string): void {
   confirmationDialog({
-    title: "Remove route group",
-    message:
-      "Are you sure you want to remove the entire route group? All routes in this group will be removed.<br>This action can't be reverted",
-    confirm: "Remove",
+    title: t("Remove"),
+    message: `${t("Are you sure you want to remove the entire route group? All routes in this group will be removed.")}<br>${t("This action cannot be reverted")}`,
+    confirm: t("Remove"),
     onConfirm: () => {
-      pack.routes.filter((r: Route) => r.group === group).forEach(Routes.remove);
-      if (!DEFAULT_GROUPS.includes(group)) select("#routes").select(`#${group}`).remove();
-      Layers.draw("labels");
+      pack.routes
+        .filter((r: Route) => r.group === group)
+        .forEach(route => {
+          Routes.remove(route.i);
+        });
+      if (!DEFAULT_GROUPS.includes(group)) {
+        select("#routes").select(`#${group}`).remove();
+        delete styles.routes.groups[group];
+      }
+      Layers.draw("routes", "labels");
       addLines();
     }
   });

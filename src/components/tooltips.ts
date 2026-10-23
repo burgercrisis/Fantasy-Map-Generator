@@ -1,4 +1,6 @@
+import { isMobile } from "@/services/platform";
 import { debounce, ensureEl, findEl } from "@/utils";
+import { sentences, t } from "@/utils/i18n";
 
 type TipType = "info" | "success" | "warn" | "error";
 
@@ -10,6 +12,8 @@ const TIP_BACKGROUND: Record<TipType, string> = {
 };
 
 const getTooltip = () => ensureEl("tooltip");
+
+let autoClearTimeout: number | undefined;
 
 /**
  * Show a message in the tooltip line
@@ -28,7 +32,12 @@ export function tip(message: string, main = false, type: TipType = "info", time 
     tooltip.dataset.color = tooltip.style.background;
   }
 
-  if (time) setTimeout(clearMainTip, time);
+  // Only a pinned or timed tip supersedes a pending auto-clear. Transient hover tips
+  // must leave it alone, or moving the mouse would keep a timed message alive forever.
+  if (main || time) {
+    if (autoClearTimeout) clearTimeout(autoClearTimeout);
+    autoClearTimeout = time ? window.setTimeout(clearMainTip, time) : undefined;
+  }
 }
 
 export function showMainTip(): void {
@@ -38,6 +47,10 @@ export function showMainTip(): void {
 }
 
 export function clearMainTip(): void {
+  if (autoClearTimeout) {
+    clearTimeout(autoClearTimeout);
+    autoClearTimeout = undefined;
+  }
   const tooltip = getTooltip();
   tooltip.dataset.color = "";
   tooltip.dataset.main = "";
@@ -54,7 +67,15 @@ export function showDataTip(event: Event): void {
   if (!dataTip) return;
 
   const shortcut = target.dataset.shortcut;
-  if (shortcut && !MOBILE) dataTip += `. Shortcut: ${shortcut}`;
+  if (shortcut && !isMobile()) dataTip = sentences(dataTip, `${t("Shortcut")}: ${shortcut}`);
+
+  const isRemove =
+    target.dataset.col === "remove" ||
+    parent?.dataset?.col === "remove" ||
+    target.classList.contains("icon-trash-empty") ||
+    target.classList.contains("fastDelete");
+  const removeHint = t("Shift+Click to remove without confirmation");
+  if (isRemove && !isMobile() && !dataTip.includes(removeHint)) dataTip = sentences(dataTip, removeHint);
 
   tip(dataTip);
 }
@@ -63,8 +84,8 @@ export function showElementLockTip(event: Event): void {
   const locked = (event.target as HTMLElement | null)?.classList?.contains("icon-lock");
   tip(
     locked
-      ? "Locked. Click to unlock the element and allow it to be changed by regeneration tools"
-      : "Unlocked. Click to lock the element and prevent changes to it by regeneration tools"
+      ? t("Locked. Click to unlock the element and allow it to be changed by regeneration tools")
+      : t("Unlocked. Click to lock the element and prevent changes to it by regeneration tools")
   );
 }
 
@@ -82,5 +103,4 @@ export const Tooltips = { tip, showMainTip, clearMainTip, showDataTip, showEleme
 
 window.tip = tip;
 window.clearMainTip = clearMainTip;
-window.showDataTip = showDataTip;
 window.showElementLockTip = showElementLockTip;

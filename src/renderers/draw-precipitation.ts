@@ -12,7 +12,7 @@ export function drawPrecipitation(): void {
   drawWindDirections();
   prec.selectAll("text").attr("opacity", 0).transition(show).attr("opacity", 1);
 
-  const cellsNumberModifier = (+ensureEl<HTMLInputElement>("pointsInput").dataset.cells! / 10000) ** 0.25;
+  const cellsNumberModifier = (options.map.graph.points / 10000) ** 0.25;
   const data = Array.from(cells.i as ArrayLike<number>).filter(i => cells.h[i] >= 20 && cells.prec[i]);
   const getRadius = (precipitation: number) => rn(Math.sqrt(precipitation / 4) / cellsNumberModifier, 2);
 
@@ -28,10 +28,6 @@ export function drawPrecipitation(): void {
     .attr("r", cellId => getRadius(cells.prec[cellId]));
 
   TIME && console.timeEnd("drawPrecipitation");
-}
-
-export function removePrecipitation(): void {
-  select(ensureEl<SVGGElement>("prec")).selectAll("*").remove();
 }
 
 /** arrows showing where the prevailing winds enter the map */
@@ -53,10 +49,11 @@ function drawWindDirections(): void {
 
     if (easterly.length > 1) {
       const east = easterly.filter(band => band[2] === tier);
-      if (east.length > 3) addArrow(graphWidth - 52, getMeanY(east[0][0], east[east.length - 1][0]), "\u21C7");
+      if (east.length > 3)
+        addArrow(options.map.graph.width - 52, getMeanY(east[0][0], east[east.length - 1][0]), "\u21C7");
     }
   }
 
-  if (northerly) addArrow(graphWidth / 2, 42, "\u21CA");
-  if (southerly) addArrow(graphWidth / 2, graphHeight - 20, "\u21C8");
+  if (northerly) addArrow(options.map.graph.width / 2, 42, "\u21CA");
+  if (southerly) addArrow(options.map.graph.width / 2, options.map.graph.height - 20, "\u21C8");
 }

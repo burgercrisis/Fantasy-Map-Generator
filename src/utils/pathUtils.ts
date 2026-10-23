@@ -255,7 +255,7 @@ export const getPolesOfInaccessibility = (
   const isolines = getIsolines(graph, getType, { polygons: true });
 
   const poles = Object.entries(isolines).map(([id, isoline]) => {
-    const multiPolygon = (isoline.polygons as unknown as number[][][]).sort((a, b) => b.length - a.length);
+    const multiPolygon = isoline.polygons?.sort((a, b) => b.length - a.length) || [];
     const [x, y] = polylabel(multiPolygon, 20);
     return [id, [rn(x), rn(y)]];
   });
@@ -305,13 +305,14 @@ export const connectVertices = ({
     else if (v2 !== previous && c2 !== c3) next = v2;
     else if (v3 !== previous && c1 !== c3) next = v3;
 
-    if (next >= vertices.c.length) {
+    // a hull half-edge has no opposite triangle, so `vertices.v` holds -1 for it
+    if (next < 0 || next >= vertices.c.length) {
       window.ERROR && console.error("ConnectVertices: next vertex is out of bounds");
       break;
     }
 
     if (next === current) {
-      window.ERROR && console.error("ConnectVertices: next vertex is not found");
+      window.ERROR && console.error("ConnectVertices: next vertex is not found", { startingVertex, current });
       break;
     }
 
@@ -529,7 +530,7 @@ function relaxAcuteAngles(points: Point[], anchorIndices: number[]): void {
   const acuteCost = (pos: (k: number) => Point, i: number): number => {
     if (i <= 0 || i >= n - 1) return 0; // endpoints have no corner
     const cos = cornerCos(pos(i - 1), pos(i), pos(i + 1));
-    return cos > 0 ? cos : 0;
+    return Math.max(cos, 0);
   };
 
   for (let iter = 0; iter < RELAX_ITERATIONS; iter++) {
@@ -561,6 +562,15 @@ function relaxAcuteAngles(points: Point[], anchorIndices: number[]): void {
   }
 }
 
+export type Box = [x0: number, y0: number, x1: number, y1: number];
+
+/** Bounding box of points; a loop, as a territory can have too many cells to spread into Math.min */
+export function getBounds(points: Point[]): Box {
+  let [x0, y0, x1, y1] = [Infinity, Infinity, -Infinity, -Infinity];
+  for (const [x, y] of points) [x0, y0, x1, y1] = [Math.min(x0, x), Math.min(y0, y), Math.max(x1, x), Math.max(y1, y)];
+  return [x0, y0, x1, y1];
+}
+
 // Snap a point to the closest edge of the [0,width]×[0,height] rectangle
 export function projectToNearestEdge(point: Point, width: number, height: number): Point {
   const [x, y] = point;
@@ -576,4 +586,11 @@ declare global {
     getIsolines: typeof getIsolines;
     getVertexPath: typeof getVertexPath;
   }
+}
+
+/** An open wave dash: `halves` half-periods spanning `length` from (x, y), the first bump bending by `amplitude` */
+export function wavyDash(x: number, y: number, length: number, halves: number, amplitude: number): string {
+  const step = length / halves;
+  const f = (v: number) => v.toFixed(2);
+  return `M${f(x)},${f(y)}q${f(step / 2)},${f(amplitude)} ${f(step)},0${`t${f(step)},0`.repeat(halves - 1)}`;
 }

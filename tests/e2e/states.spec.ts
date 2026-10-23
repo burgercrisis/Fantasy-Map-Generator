@@ -1,20 +1,13 @@
-import {test, expect} from "@playwright/test";
+import {test, expect, type Page} from "@playwright/test";
+import { countMaps, waitForMap, waitForNextMap } from "./wait-for-map";
 
 test.describe("States", () => {
-  test.beforeEach(async ({context, page}) => {
-    await context.clearCookies();
-
-    await page.goto("/");
-    await page.evaluate(() => {
-      localStorage.clear();
-      sessionStorage.clear();
-    });
-
+  test.beforeEach(async ({ page }) => {
     // Navigate with seed parameter and wait for full load
     await page.goto("/?seed=test-states&width=1280&height=720");
 
     // Wait for map generation to complete
-    await page.waitForFunction(() => (window as any).mapId !== undefined, {timeout: 60000});
+    await waitForMap(page);
 
     // Additional wait for any rendering/animations to settle
     await page.waitForTimeout(500);
@@ -88,6 +81,69 @@ test.describe("States", () => {
     expect(militaryResult.statesWithMilitary).toBeGreaterThanOrEqual(0);
   });
 
+  test("merging as provinces keeps each merged state as a province of the ruling state", async ({page}) => {
+    await page.click("#optionsTrigger");
+    await page.click("#toolsTab");
+    await page.click("#editStatesButton");
+    await page.waitForSelector("#statesEditor", {state: "visible", timeout: 5000});
+
+    const [ruler, child] = await page.evaluate(() =>
+      pack.states
+        .filter(s => s.i && !s.removed)
+        .slice(0, 2)
+        .map(s => ({
+          i: s.i,
+          name: s.name,
+          formName: s.formName,
+          coa: JSON.stringify(s.coa),
+          provinces: pack.provinces.filter(p => p.i && !p.removed && p.state === s.i).map(p => p.i),
+          cells: pack.cells.state.filter(id => id === s.i).length
+        }))
+    );
+    expect(child.provinces.length).toBeGreaterThan(0);
+
+    await page.click("#statesMerge");
+    await page.check(`#mergeStatesForm input[name="rulingState"][value="${ruler.i}"]`);
+    await page.click(`label[for="selectState${child.i}"]`);
+    await page.click(".ui-dialog:has(#alert) .ui-dialog-buttonpane button:first-child");
+
+    await page.check("#mergeStatesAsProvinces");
+    await page.click(".ui-dialog:has(#alert) .ui-dialog-buttonpane button:first-child");
+    await page.waitForTimeout(300);
+
+    const result = await page.evaluate(
+      ([r, c, oldProvinces]) => {
+        const {states, provinces, cells} = pack;
+        const province = provinces.find(p => p.i && !p.removed && p.state === r && p.name === states[c].name)!;
+        let provinceCells = 0;
+        for (let i = 0; i < cells.province.length; i++) if (cells.province[i] === province.i) provinceCells++;
+        return {
+          stateRemoved: Boolean(states[c].removed),
+          formName: province.formName,
+          fullName: province.fullName,
+          coa: JSON.stringify(province.coa),
+          color: province.color,
+          provinceCells,
+          oldProvincesRemoved: oldProvinces.every((i: number) => provinces[i].removed),
+          listed: states[r].provinces!.includes(province.i),
+          layerOn: Layers.isOn("provinces")
+        };
+      },
+      [ruler.i, child.i, child.provinces] as const
+    );
+    expect(result).toEqual({
+      stateRemoved: true,
+      formName: child.formName,
+      fullName: `${child.name} ${child.formName}`,
+      coa: child.coa,
+      color: expect.stringMatching(/^#[0-9a-f]{6}$/),
+      provinceCells: child.cells,
+      oldProvincesRemoved: true,
+      listed: true,
+      layerOn: true
+    });
+  });
+
   test("painting states applies after the States Editor closes", async ({page}) => {
     const pageErrors: string[] = [];
     page.on("pageerror", error => pageErrors.push(error.message));
@@ -128,5 +184,154 @@ test.describe("States", () => {
     expect(pageErrors).toEqual([]);
     await expect.poll(() => page.evaluate(cell => (window as any).pack.cells.state[cell], target.cell)).toBe(0);
     expect(await page.evaluate(state => (window as any).pack.states[state].label, target.state)).toBeUndefined();
+  });
+});
+
+declare const Controllers: { DiplomacyOverview: { open: () => Promise<void> } };
+declare const Services: {
+  Save: { prepareMapData: () => string };
+  Load: { uploadMap: (file: File) => void };
+};
+declare const pack: {
+  states: import("@/generators/states-generator").State[];
+  provinces: import("@/generators/provinces-generator").Province[];
+  cells: { state: Uint16Array; province: Uint16Array; p: [number, number][] };
+};
+declare const Layers: { isOn: (id: string) => boolean };
+
+test.describe("Diplomacy", () => {
+  let ids: number[];
+  let errors: string[];
+  const diplomacy = (page: Page) => page.evaluate(() => JSON.stringify(pack.states.map(state => state.diplomacy)));
+  const relation = (page: Page, subject: number, object: number) =>
+    page.evaluate(([a, b]) => pack.states[a].diplomacy![b], [subject, object]);
+  const chronicleLength = (page: Page) => page.evaluate(() => pack.states[0].diplomacy.length);
+  const selfId = (page: Page) => page.locator("#diplomacyBodySection .Self");
+
+  async function openEditor(page: Page, relationName: string): Promise<void> {
+    await page.locator("#diplomacyEditRelations").click();
+    await expect(page.locator("#diplomacyEditor")).toBeVisible();
+    await page.locator(`input[name="diplomacyRelation"][value="${relationName}"]`).check();
+  }
+
+  async function mapClick(page: Page, stateId: number): Promise<void> {
+    const point = await page.evaluate(id => {
+      const viewbox = document.getElementById("viewbox") as unknown as SVGGraphicsElement;
+      for (let cell = 0; cell < pack.cells.state.length; cell++) {
+        if (pack.cells.state[cell] !== id) continue;
+        const [x, y] = pack.cells.p[cell];
+        const screen = new DOMPoint(x, y).matrixTransform(viewbox.getScreenCTM()!);
+        if (screen.x < 10 || screen.y < 10 || screen.x > innerWidth - 10 || screen.y > innerHeight - 10) continue;
+        if (document.elementFromPoint(screen.x, screen.y)?.closest("#map")) return { x: screen.x, y: screen.y };
+      }
+      return null;
+    }, stateId);
+    expect(point, `Visible map point for state ${stateId}`).not.toBeNull();
+    await page.mouse.click(point!.x, point!.y);
+  }
+
+  test.beforeEach(async ({ page }) => {
+    errors = [];
+    page.on("pageerror", error => errors.push(error.message));
+    await page.addInitScript(() => localStorage.setItem("version", "99.0.0"));
+    await page.goto("/?seed=diplomacy-parcel&width=1600&height=1000");
+    await waitForMap(page);
+    ids = await page.evaluate(() => {
+      const states = pack.states.filter(state => state.i && !state.removed);
+      for (const a of states) for (const b of states) a.diplomacy![b.i] = a.i === b.i ? "x" : "Neutral";
+      const [a, b, c] = states;
+      a.diplomacy![b.i] = b.diplomacy![a.i] = "Rival";
+      b.diplomacy![c.i] = c.diplomacy![b.i] = "Ally";
+      pack.states[0].diplomacy = [];
+      return [a.i, b.i, c.i];
+    });
+    await page.evaluate(() => Controllers.DiplomacyOverview.open());
+    await expect(page.locator("#diplomacyOverview")).toBeVisible();
+    await expect(selfId(page)).toHaveAttribute("data-id", String(ids[0]));
+  });
+
+  test.afterEach(() => expect(errors).toEqual([]));
+
+  test("painting a state sets both sides and Apply records it once", async ({ page }) => {
+    await openEditor(page, "Ally");
+    await mapClick(page, ids[2]);
+    expect(await relation(page, ids[2], ids[0])).toBe("Ally");
+    expect(await relation(page, ids[0], ids[2])).toBe("Ally");
+    await expect(page.locator("#diplomacyEditorUndo")).toBeEnabled();
+
+    await page.locator("#diplomacyEditorApply").click();
+    await expect(page.locator("#diplomacyEditor")).toHaveCount(0);
+    expect(await chronicleLength(page)).toBe(1);
+    await expect(page.locator(`#diplomacyBodySection [data-id="${ids[2]}"] [data-col="relations"]`)).toContainText(
+      "Ally"
+    );
+  });
+
+  test("painting an unchanged relation records nothing", async ({ page }) => {
+    await mapClick(page, ids[1]);
+    await expect(selfId(page)).toHaveAttribute("data-id", String(ids[1]));
+    await openEditor(page, "Ally");
+    await expect(page.locator("#diplomacyEditorState")).toHaveValue(String(ids[1]));
+    const before = await diplomacy(page);
+    await mapClick(page, ids[2]); // already allies
+    await expect(page.locator("#diplomacyEditorUndo")).toBeDisabled();
+    await page.locator("#diplomacyEditorApply").click();
+    expect(await diplomacy(page)).toBe(before);
+    expect(await chronicleLength(page)).toBe(0);
+  });
+
+  for (const exit of ["Discard", "titlebar", "parent"]) {
+    test(`unapplied changes are reverted and map selection restored after ${exit}`, async ({ page }) => {
+      const before = await diplomacy(page);
+      await openEditor(page, "Enemy");
+      await mapClick(page, ids[2]);
+      expect(await relation(page, ids[2], ids[0])).toBe("Enemy");
+
+      if (exit === "Discard") await page.locator("#diplomacyEditorDiscard").click();
+      else if (exit === "titlebar")
+        await page.locator(".ui-dialog:has(#diplomacyEditor) .ui-dialog-titlebar-close").click();
+      else
+        await page
+          .locator(".ui-dialog:has(#diplomacyOverview) .ui-dialog-titlebar-close")
+          .evaluate((button: HTMLButtonElement) => button.click());
+
+      expect(await diplomacy(page)).toBe(before);
+      expect(await chronicleLength(page)).toBe(0);
+      if (exit === "Discard") {
+        await expect(page.locator("#diplomacyEditorDiscard")).toBeDisabled();
+        return;
+      }
+      await expect(page.locator("#diplomacyEditor")).toHaveCount(0);
+      if (exit === "parent") await page.evaluate(() => Controllers.DiplomacyOverview.open());
+      await mapClick(page, ids[2]); // a click selects again instead of painting
+      await expect(selfId(page)).toHaveAttribute("data-id", String(ids[2]));
+      expect(await diplomacy(page)).toBe(before);
+    });
+  }
+
+  test("invalid relations can be repaired and survive the real save/load service", async ({ page }) => {
+    await page.evaluate(([a, b]) => {
+      pack.states[a].diplomacy![b] = pack.states[b].diplomacy![a] = "x";
+    }, ids);
+    await page.locator("#diplomacyOverviewRefresh").click();
+    const pair = page.locator(`#diplomacyBodySection [data-id="${ids[1]}"] [data-col="relations"]`);
+    await expect(pair).toContainText("Invalid");
+
+    await openEditor(page, "Vassal");
+    await mapClick(page, ids[1]);
+    await page.locator("#diplomacyEditorApply").click();
+    await expect(pair).toContainText("Vassal");
+
+    const saved = await page.evaluate(() => Services.Save.prepareMapData());
+    await page.goto("/?seed=diplomacy-reload&width=1600&height=1000");
+    await waitForMap(page);
+    const previous = await countMaps(page);
+    await page.evaluate(data => Services.Load.uploadMap(new File([data], "diplomacy.map")), saved);
+    await waitForNextMap(page, previous);
+    expect(await page.evaluate(([a, b]) => [pack.states[a].diplomacy![b], pack.states[b].diplomacy![a]], ids)).toEqual([
+      "Suzerain",
+      "Vassal"
+    ]);
+    expect(await chronicleLength(page)).toBe(1);
   });
 });
