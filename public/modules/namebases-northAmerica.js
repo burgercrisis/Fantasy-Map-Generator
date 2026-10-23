@@ -5065,8 +5065,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,Santa Cruz Verapaz,Salamá,San Jerónimo,Purulhá,Tactic,Santa Rosalía,Baja Verapaz,Guatemala,Baja Verapaz Department,Central Highlands,Maya Highlands",
-    "status": "WAITING",
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Santa Cruz Verapaz,Salamá,San Jerónimo,Purulhá,Tactic,Santa Rosalía,Baja Verapaz,Guatemala,Baja Verapaz Department,Central Highlands,Maya Highlands,Guatemala City,Peten,Izabal,Petén,Santa Elena,Flores,Sayaxche,Poptún,Melchor de Mencos,Santa Ana,San Luis",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5075,7 +5075,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/achi1256"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-23T06:46:56.795Z",
+      "verified_at": "2026-10-23T22:38:03.263Z",
       "notes": "Achi (ISO 639-3 acr, Glottolog achi1256), Mayan language of Baja Verapaz Department, Guatemala. Sources: Wikipedia Achi language, ISO 639-3 acr, Glottolog achi1256. 25 verified seeds."
     }
   },
@@ -5086,8 +5086,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Lábrea,Pauini,Boca do Acre,Canutama,Boca do Purus,Beruri,Caapiranga,Coari,Manicoré,Novo Aripuanã",
-    "status": "WAITING",
+    "b": "Lábrea,Pauini,Boca do Acre,Canutama,Boca do Purus,Beruri,Caapiranga,Coari,Manicoré,Novo Aripuanã,Tapauá,Manacapuru,Manaquiri,Borba,Apuí,Humaitá,Careiro,Codajás,Eirunepé,Envira,Guajará,Ipixuna,Jutaí,São Paulo de Olivença,Tonantins",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5096,8 +5096,8 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/apur1254"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-23T06:46:56.795Z",
-      "notes": "Apurinã (ISO 639-3 apu, Glottolog apur1254), Arawakan language of Amazonas state, Brazil, Purus River region. Sources: Wikipedia Apurinã language, ISO 639-3 apu, Glottolog apur1254. 25 verified seeds."
+      "verified_at": "2026-10-23T23:18:00.000Z",
+      "notes": "Apurinã (ISO 639-3 apu, Glottolog apur1254), Arawakan language of Amazonas state, Brazil, Purus River region. Sources: Wikipedia Apurinã language, PIB socioambiental.org Apurinã page, ISO 639-3 apu, Glottolog apur1254. 25 verified seeds: Lábrea, Pauini, Boca do Acre, Canutama, Boca do Purus, Beruri, Caapiranga, Coari, Manicoré, Novo Aripuanã, Tapauá, Manacapuru, Manaquiri, Borba, Apuí, Humaitá, Careiro, Codajás, Eirunepé, Envira, Guajará, Ipixuna, Jutaí, São Paulo de Olivença, Tonantins."
     }
   },
   {
@@ -5107,8 +5107,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Filadelfia,Mariscal Estigarribia,Loma Plata,Neuland,Santa Cruz de la Sierra,Cordillera Department,Alto Paraguay Department,Cordillera,Santiago,San Juan Bautista,San Rafael de Velasco,San José de Chiquitos,Concepción,San Miguel de Velasco,Santa Ana de Velasco,San Ignacio de Velasco,Santiago de Chiquitos",
-    "status": "WAITING",
+    "b": "Filadelfia,Mariscal Estigarribia,Loma Plata,Neuland,Santa Cruz de la Sierra,Cordillera Department,Alto Paraguay Department,Cordillera,Santiago,San Juan Bautista,San Rafael de Velasco,San José de Chiquitos,Concepción,San Miguel de Velasco,Santa Ana de Velasco,San Ignacio de Velasco,Santiago de Chiquitos,Ixiamas,Tumupasa,San Buenaventura,Capaina,Napaxe,Tahua,Reyes,Rurrenabaque,Alto Madidi,San Silvestre,Macahua,Carmen del Emero,San José de Uchupiamonas,Santa Rosa,San Miguel del Bala,Chalalán,San José,Villa Alcira,San Pedro,El Carmen",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5117,7 +5117,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/ayor1240"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-23T06:46:56.795Z",
+      "verified_at": "2026-10-23T23:15:38.563Z",
       "notes": "Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), Zamucoan language of Bolivia/Paraguay, Chaco Department. Sources: Wikipedia Ayoreo language, ISO 639-3 ayo, Glottolog ayor1240. 25 verified seeds."
     }
   },
@@ -5128,8 +5128,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Chiquimula,Esquipulas,Jocotán,Olopa,Quezaltepeque,San José La Arada,Concepción Las Minas,San Juan Ermita,La Unión,Zacapa,Río Hondo,Estanzuela,Gualán,Teculután,Usumatlán,Cabañas,San Diego,Camotán",
-    "status": "WAITING",
+    "b": "Chiquimula,Esquipulas,Jocotán,Olopa,Quezaltepeque,San José La Arada,Concepción Las Minas,San Juan Ermita,Camotán,San Jacinto,Ipala,La Unión,Zacapa,Río Hondo,Estanzuela,Gualán,Teculután,Usumatlán,Cabañas,San Diego,Atulapa,Jagua,San Isidro,Piedra de Amolar,Copán Ruinas",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5138,8 +5138,8 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/chor1273"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-23T06:46:56.795Z",
-      "notes": "Ch'orti' (ISO 639-3 caa, Glottolog chor1273), Mayan language of Guatemala/Honduras. Sources: Wikipedia Ch'orti' language, ISO 639-3 caa, Glottolog chor1273. 25 verified seeds."
+      "verified_at": "2026-10-23T23:18:00.000Z",
+      "notes": "Ch'orti' (ISO 639-3 caa, Glottolog chor1273), Mayan language of Guatemala/Honduras. Sources: Wikipedia Ch'orti' language, INE Guatemala Boletín Informativo Departamento de Chiquimula, Wikipedia Municipalities of Guatemala (Chiquimula department), ISO 639-3 caa, Glottolog chor1273. 25 verified seeds: Chiquimula, Esquipulas, Jocotán, Olopa, Quezaltepeque, San José La Arada, Concepción Las Minas, San Juan Ermita, Camotán, San Jacinto, Ipala, La Unión, Zacapa, Río Hondo, Estanzuela, Gualán, Teculután, Usumatlán, Cabañas, San Diego, Atulapa, Jagua, San Isidro, Piedra de Amolar, Copán Ruinas."
     }
   },
   {
@@ -5149,8 +5149,8 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Somerton,Wellton,El Mayor,Pozas Arvizu,Ejido Maclovio Rojas,San Luis,Yuma,Fort Yuma,Dateland,Mexicali,San Luis Río Colorado",
-    "status": "WAITING",
+    "b": "Somerton,Wellton,El Mayor,Pozas Arvizu,Ejido Maclovio Rojas,San Luis,Yuma,Fort Yuma,Dateland,Mexicali,San Luis Río Colorado,Mohawk,Fortuna,Colorado City,Tacna,Vicente Guerrero,Ciudad Morelos,Golfo de Santa Clara,Puertecitos,Avenue B and C,Wall Lane,Tyson,Luis B Sánchez,Colonia Obrera,Gila Bend",
+    "status": "COMPLETE",
     "verification": {
       "status": "verified",
       "sources": [
@@ -5159,8 +5159,8 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/coco1261"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-23T06:46:56.795Z",
-      "notes": "Cocopah/Cocopa (ISO 639-3 coc, Glottolog coco1261), Yuman language of Arizona/Baja California, Mexico/USA border region. Sources: Wikipedia Cocopah language, ISO 639-3 coc, Glottolog coco1261. 25 verified seeds."
+      "verified_at": "2026-10-23T23:18:00.000Z",
+      "notes": "Cocopah/Cocopa (ISO 639-3 coc, Glottolog coco1261), Yuman language of Arizona/Baja California, Mexico/USA border region. Sources: Wikipedia Cocopah language, Cocopah Tribe official website (cocopah.com), Cocopah Indian Reservation Wikipedia, GeoNames Yuma County Arizona, Wikipedia Yuma Arizona, ISO 639-3 coc, Glottolog coco1261. 25 verified seeds: Somerton, Wellton, El Mayor, Pozas Arvizu, Ejido Maclovio Rojas, San Luis, Yuma, Fort Yuma, Dateland, Mexicali, San Luis Río Colorado, Mohawk, Fortuna, Colorado City, Tacna, Vicente Guerrero, Ciudad Morelos, Golfo de Santa Clara, Puertecitos, Avenue B and C, Wall Lane, Tyson, Luis B Sánchez, Colonia Obrera, Gila Bend."
     }
   }
 ];
