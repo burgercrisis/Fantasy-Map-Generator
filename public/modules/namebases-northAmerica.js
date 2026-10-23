@@ -4970,7 +4970,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/hava1248"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:42:42.183Z",
+      "verified_at": "2026-10-23T06:27:43.066Z",
       "notes": "Havasupai–Hualapai (ISO 639-3 yuf, Glottolog hava1248), Yuman–Cochimí language of Arizona, USA. Sources: Wikipedia Havasupai–Hualapai language (Arizona), ISO 639-3 yuf, Glottolog hava1248. 25 verified seeds."
     }
   },
@@ -4991,8 +4991,8 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/maca1259"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:42:42.183Z",
-      "notes": "Hitnü/Macaguán (ISO 639-3 mbn, Glottolog maca1259), Guahiban language of Colombia. Sources: Wikipedia Macaguán language (Colombia Arauca/Casanare departments), ISO 639-3 mbn, Glottolog maca1259. 25 verified seeds."
+      "verified_at": "2026-10-23T06:27:43.066Z",
+      "notes": "Hitnü/Macaguán (ISO 639-3 mbn, Glottolog maca1259), Guahiban language of Colombia, between Lipa, Ele, and Cuiloto rivers. Sources: Wikipedia Macaguán language (Colombia Arauca/Casanare departments), ISO 639-3 mbn, Glottolog maca1259. 25 verified seeds."
     }
   },
   {
@@ -5012,7 +5012,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/huas1242"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:42:42.183Z",
+      "verified_at": "2026-10-23T06:27:43.066Z",
       "notes": "Huastec/Wastek (ISO 639-3 hus, Glottolog huas1242), Mayan language of San Luis Potosí, Veracruz and Tamaulipas, Mexico. Sources: Wikipedia Huastec language (Mexico San Luis Potosí, Veracruz, Tamaulipas), ISO 639-3 hus, Glottolog huas1242. 25 verified seeds."
     }
   },
@@ -5033,7 +5033,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/arhu1249"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:42:42.183Z",
+      "verified_at": "2026-10-23T06:27:43.066Z",
       "notes": "Ika (ISO 639-3 ika, Glottolog arhu1249), Chibchan language of Colombia, Sierra Nevada de Santa Marta. Sources: Wikipedia Ika language (Colombia Sierra Nevada de Santa Marta), ISO 639-3 ika, Glottolog arhu1249. 25 verified seeds."
     }
   },
@@ -5054,7 +5054,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/iten1243"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:42:42.183Z",
+      "verified_at": "2026-10-23T06:27:43.066Z",
       "notes": "Itene/Moré (ISO 639-3 ite, Glottolog iten1243), Chapacuran language of Beni Department, Bolivia. Sources: Wikipedia Moré language (Bolivia Beni Department), ISO 639-3 ite, Glottolog iten1243. 25 verified seeds."
     }
   },
@@ -5065,7 +5065,7 @@ window.northAmericaNameBases = [
     "max": 16,
     "d": "lnrt",
     "m": 0,
-    "b": "Rabinal,Cubulco,San Miguel Chicaj,Santa Cruz Verapaz,Salamá,San Jerónimo,Purulhá,Tactic,Santa Rosalía",
+    "b": "Rabinal,Cubulco,San Miguel Chicaj,Santa Cruz Verapaz,Salamá,San Jerónimo,Purulhá,Tactic,Santa Rosalía,Baja Verapaz,Guatemala,Baja Verapaz Department,Central Highlands,Maya Highlands",
     "status": "WAITING",
     "verification": {
       "status": "verified",
@@ -5075,7 +5075,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/achi1256"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:57:10.218Z",
+      "verified_at": "2026-10-23T06:46:56.795Z",
       "notes": "Achi (ISO 639-3 acr, Glottolog achi1256), Mayan language of Baja Verapaz Department, Guatemala. Sources: Wikipedia Achi language, ISO 639-3 acr, Glottolog achi1256. 25 verified seeds."
     }
   },
@@ -5096,7 +5096,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/apur1254"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:57:10.218Z",
+      "verified_at": "2026-10-23T06:46:56.795Z",
       "notes": "Apurinã (ISO 639-3 apu, Glottolog apur1254), Arawakan language of Amazonas state, Brazil, Purus River region. Sources: Wikipedia Apurinã language, ISO 639-3 apu, Glottolog apur1254. 25 verified seeds."
     }
   },
@@ -5117,7 +5117,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/ayor1240"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:57:10.218Z",
+      "verified_at": "2026-10-23T06:46:56.795Z",
       "notes": "Ayoreo (ISO 639-3 ayo, Glottolog ayor1240), Zamucoan language of Bolivia/Paraguay, Chaco Department. Sources: Wikipedia Ayoreo language, ISO 639-3 ayo, Glottolog ayor1240. 25 verified seeds."
     }
   },
@@ -5138,7 +5138,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/chor1273"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:57:10.218Z",
+      "verified_at": "2026-10-23T06:46:56.795Z",
       "notes": "Ch'orti' (ISO 639-3 caa, Glottolog chor1273), Mayan language of Guatemala/Honduras. Sources: Wikipedia Ch'orti' language, ISO 639-3 caa, Glottolog chor1273. 25 verified seeds."
     }
   },
@@ -5159,7 +5159,7 @@ window.northAmericaNameBases = [
         "https://glottolog.org/resource/languoid/id/coco1261"
       ],
       "verified_by": "namebase-verifier",
-      "verified_at": "2026-10-22T08:57:10.218Z",
+      "verified_at": "2026-10-23T06:46:56.795Z",
       "notes": "Cocopah/Cocopa (ISO 639-3 coc, Glottolog coco1261), Yuman language of Arizona/Baja California, Mexico/USA border region. Sources: Wikipedia Cocopah language, ISO 639-3 coc, Glottolog coco1261. 25 verified seeds."
     }
   }

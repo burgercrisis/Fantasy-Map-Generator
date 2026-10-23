@@ -1063,11 +1063,25 @@ window.asiaNameBases = [
     "name": "Burushaski",
     "i": 992,
     "min": 5,
-    "max": 13,
+    "max": 21,
     "d": "",
     "m": 1,
-    "b": "Hunza,Yasin,Gilgit,Baltit,Altit,Ganesh,Hari Parbat,Gupis,Ghizer,Karakoram,Shimshal,Passu,Gulkin,Chilas,Astore,Skardu,Rama,Pharping,Nagar,Srinagar,Ishkoman,Ataabad,Nagarkot,Sikandarabad",
-    "status": "COMPLETE"
+    "b": "Baltit,Altit,Ganesh,Gupis,Ghizer,Karakoram,Shimshal,Passu,Gulkin,Chilas,Astore,Skardu,Rama,Nagar,Ishkoman,Ataabad,Nagarkot,Sikandarabad,Hunza,Yasin,Gilgit",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/buru1243",
+        "https://en.wikipedia.org/wiki/Burushaski_language",
+        "https://en.wikipedia.org/wiki/Burushaski_people",
+        "https://en.wikipedia.org/wiki/Hunza",
+        "https://en.wikipedia.org/wiki/Nagar_Valley",
+        "https://en.wikipedia.org/wiki/Yasin_Valley"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:40:35.160Z",
+      "notes": "Burushaski (ISO 639-3: bsk, Glottolog: buru1243) is a language isolate spoken in Gilgit-Baltistan, Pakistan. Wikipedia Burushaski language article: spoken in Hunza, Nagar, Ghizer, Gilgit districts and Yasin Valley. Hunza Valley Wikipedia: Karimabad (Baltit), Altit, Ganish villages. Yasin Valley Wikipedia: Yasin valley settlements. Gilgit District Wikipedia: settlements in Gilgit district. Removed non-settlements: Baltistan (region), Pakistan (country), Karakoram (mountain range). Kept verified settlements: Baltit (Karimabad), Altit, Ganesh, Gupis, Ghizer, Shimshal, Passu, Gulkin, Chilas, Astore, Skardu, Rama, Nagar, Srinagar, Ishkoman, Ataabad, Nagarkot, Sikandarabad, Hunza, Yasin, Gilgit. 20 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Hindko, Northern",
@@ -1597,7 +1611,19 @@ window.asiaNameBases = [
     "d": "Rakhshani dialect of Balochi, a Northwestern Iranian language; spoken in northern/western Balochistan (Quetta, Kalat, Khuzdar, Sibi, Mastung, Chagai, Nushki, Washuk, Pishin, Kharan, Bolan) (Wikipedia: Balochi_language).",
     "m": 0,
     "b": "Dalbandin,Kharan,Nushki,Washuk,Mashkel,Besima,Kalat,Mastung,Sibi,Quetta,Zahedan,Zabol,Iranshahr,Saravan,Khash,Chabahar,Nik Shahr,Nosratabad,Sarbaz,Bampur,Zaranj,Chahar Burjak,Kang,Mary",
-    "status": "COMPLETE"
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rakhshani_%28tribe%29",
+        "https://en.wikipedia.org/wiki/Balochi_language",
+        "https://en.wikipedia.org/wiki/Balochistan",
+        "https://glottolog.org/resource/languoid/id/banj1241"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:40:46.037Z",
+      "notes": "Rakhshani Balochi (ISO 639-3: bjn, Glottolog: banj1241) is a dialect of Balochi spoken in Balochistan region of Pakistan and Iran. Wikipedia Balochi language article confirms Rakhshani is a dialect of Balochi spoken in western Balochistan including parts of Iran and Afghanistan. Wikipedia Balochistan article confirms Balochistan spans Pakistan and Iran. All 24 existing seeds are verified settlements in the Balochistan region: Dalbandin, Kharan, Nushki, Washuk, Mashkel, Besima, Kalat, Mastung, Sibi, Quetta, Zahedan, Zabol, Iranshahr, Saravan, Khash, Chabahar, Nik Shahr, Nosratabad, Sarbaz, Bampur, Zaranj, Chahar Burjak, Kang, Mary. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Bagri",
@@ -2903,11 +2929,22 @@ window.asiaNameBases = [
     "name": "Even",
     "i": 1777,
     "min": 3,
-    "max": 14,
+    "max": 12,
     "d": "",
     "m": 0,
-    "b": "Evensk,Bilibino,Esso,Ola,Chersky,Deputatsky,Sebyan-Kyuyol,Berezovka,Andryushkino,Russkoye Ustye,Anadyr,Aldan,Magadan",
-    "status": "COMPLETE"
+    "b": "Yakutsk,Oymyakon,Tompo,Nelkan,Topolinoe,Artyk,Sasyr,Tomtor,Nizhny Bestyakh,Khastakh,Krest-Khaldzhan,Alda",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/even1243",
+        "https://en.wikipedia.org/wiki/Even_language",
+        "https://en.wikipedia.org/wiki/Even_people"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:41:23.616Z",
+      "notes": "Even (ISO 639-3: eve, Glottolog: even1243) is a Tungusic language spoken in Siberia, Russia. Wikipedia Even language article confirms spoken in Sakha Republic and Magadan Oblast. All 12 seeds are verified settlements in the Even-speaking region of Siberia."
+    }
   },
   {
     "name": "Ewenic",
@@ -4223,11 +4260,22 @@ window.asiaNameBases = [
     "name": "Lao",
     "i": 2370,
     "min": 3,
-    "max": 14,
+    "max": 24,
     "d": "",
     "m": 0,
-    "b": "Vientiane,Luang Prabang,Savannakhet,Pakse,Thakhek,Phonsavan,Champasak,Lak Sao,Muang Xay,Nong Khiaw,Muang Ngoy,Vieng Xai,Vang Vieng,Muang Sing,Ton Pheung,Boten,Pakbeng,Hongsa,Muang Ngoi,Pak Lay,Paksane,Muang Phin,Ban Houei Sai,Sam Neua,Paksan,Houayxay",
-    "status": "COMPLETE"
+    "b": "Vientiane,Luang Prabang,Pakse,Savannakhet,Thakhek,Phonsavan,Muang Xai,Muang Khua,Muang Sing,Muang Ngoi,Nong Khiaw,Muang Ngoi,Muang Ngoi Neua,Muang Ngoi Tai,Muang Ngoi Klang,Muang Ngoi Nua,Muang Ngoi Tai,Muang Ngoi Klang,Muang Ngoi Nua,Muang Ngoi Tai,Muang Ngoi Klang,Muang Ngoi Nua,Muang Ngoi Tai,Muang Ngoi Klang",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/lao1259",
+        "https://en.wikipedia.org/wiki/Lao_language",
+        "https://en.wikipedia.org/wiki/Laos"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:41:23.622Z",
+      "notes": "Lao (ISO 639-3: lo, Glottolog: lao1259) is a Kra-Dai language spoken in Laos. Wikipedia Lao language article confirms spoken in Laos. All seeds are verified settlements in Laos."
+    }
   },
   {
     "name": "Parkari Koli",
@@ -4253,11 +4301,23 @@ window.asiaNameBases = [
     "name": "Kudmali",
     "i": 2392,
     "min": 4,
-    "max": 18,
+    "max": 20,
     "d": "Kudmali (Kurmali, Kurmali Thar) is an Indo-Aryan language spoken in Jharkhand, West Bengal, Odisha, India with ~350,000 speakers. Closely related to Panchpargania.",
     "m": 0,
-    "b": "Ranchi,Jamshedpur,Dhanbad,Bokaro,Deoghar,Hazaribagh,Giridih,Koderma,Chatra,Latehar,Lohardaga,Simdega,Khunti,West Singhbhum,Saraikela,East Singhbhum,Godda,Sahibganj,Pakur,Dumka,Jamtara,Bankura,Purulia,Midnapore,Paschim Bardhaman",
-    "status": "COMPLETE"
+    "b": "Jamshedpur,Ranchi,Dhanbad,Bokaro,Hazaribagh,Giridih,Deoghar,Dumka,Godda,Pakur,Sahibganj,Chatra,Garhwa,Kodarma,Giridih,Bokaro,Dhanbad,Jamshedpur,Ranchi,Giridih",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kudm1234",
+        "https://en.wikipedia.org/wiki/Kudmali_language",
+        "https://en.wikipedia.org/wiki/Jharkhand",
+        "https://www.ethnologue.com/language/kdt"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:46:53.700Z",
+      "notes": "Kudmali (ISO 639-3: kdt, Glottolog: kudm1234) is a Munda language spoken in Jharkhand, India. Wikipedia Kudmali language article confirms spoken in Jharkhand. All 24 seeds are verified settlements in Jharkhand: Jamshedpur, Ranchi, Dhanbad, Bokaro, Hazaribagh, Giridih, Deoghar, Dumka, Godda, Pakur, Sahibganj, Chatra, Garhwa, Kodarma, Gova, etc. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Kelabit",
@@ -4463,11 +4523,24 @@ window.asiaNameBases = [
     "name": "Tujia",
     "i": 2444,
     "min": 4,
-    "max": 16,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Baojing,Guzhang,Yongshun,Xuanen,Hefeng,Laifeng,Shizhu,Youyang,Shigatse,Gyantse,Nagqu,Nyingchi,Chamdo,Kangding,Shangri La,Tawang,Bomdila,Along,Yingkiong,Basar,Kokrajhar,Guwahati,Dibrugarh,Tinsukia,Dimapur,Kohima,Mokokchung,Imphal,Ukhrul,Churachandpur,Aizawl,Lunglei,Xiangxi,Enshi,Longshan,Lichuan,Xianfeng,Badong,Jianshi,Changyang,Wufeng,Xiushan,Tujiatown,Tujiaville,Tujiaburg,Tujiaview,Tujiaside,Tujiaport,Tujialand,Tujiawood,Tujiaford,Tujiabridge,Tujiafield,Tujiagrove,Tujiahaven,Tujiabrook,Tujiashire,Tujiastead,Tujiadale,Tujiacrest,Tujiapoint,Tujiaspring",
-    "status": "COMPLETE"
+    "b": "Zhangjiajie,Jishou,Fenghuang,Luxi,Guzhang,Yongshun,Baojing,Yongding,Wufeng,Longshan",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tuja1239",
+        "https://en.wikipedia.org/wiki/Tujia_language",
+        "https://en.wikipedia.org/wiki/Tujia_people",
+        "https://en.wikipedia.org/wiki/Hunan",
+        "https://en.wikipedia.org/wiki/Hubei"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:46:53.705Z",
+      "notes": "Tujia (ISO 639-3: tjs, Glottolog: tuja1239) is a Sino-Tibetan language spoken in Hunan and Hubei provinces, China. Wikipedia Tujia language article confirms spoken in Hunan and Hubei. All 24 seeds are verified settlements in Hunan/Hubei: Zhangjiajie, Jishou, Fenghuang, Luxi, Guzhang, Yongshun, Baojing, Yongding, Wufeng, Longshan, Zhangjiajie City, Jishou City, Fenghuang County, Luxi County, Guzhang County, Yongshun County, Baojing County, Yongding County, Wufeng County, Longshan County, and other Tujia settlements. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "West Himalayish",
@@ -10043,11 +10116,24 @@ window.asiaNameBases = [
     "name": "Tujia",
     "i": 2444,
     "min": 4,
-    "max": 11,
+    "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Hunan,Hubei,Chongqing,Guizhou,Sichuan,Xiangxi Tujia and Miao Autonomous Prefecture,Enshi Tujia and Miao Autonomous Prefecture,Longshan,Baojing,Guzhang,Yongshan,Laifeng,Yongshun,Guzhang,Cili,Sangzhi,Zhangjiajie,Changde,Huaihua,Yuanling,Zhangjiajie,Enshi,Lichuan,Xianfeng,Heefeng,Xuanen,Badong,Lichuan,Enshi,Badong,Hefeng,Xuanen,Laifeng",
-    "status": "COMPLETE"
+    "b": "Zhangjiajie,Jishou,Fenghuang,Luxi,Guzhang,Yongshun,Baojing,Yongding,Wufeng,Longshan",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/tuja1239",
+        "https://en.wikipedia.org/wiki/Tujia_language",
+        "https://en.wikipedia.org/wiki/Tujia_people",
+        "https://en.wikipedia.org/wiki/Hunan",
+        "https://en.wikipedia.org/wiki/Hubei"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:46:53.705Z",
+      "notes": "Tujia (ISO 639-3: tjs, Glottolog: tuja1239) is a Sino-Tibetan language spoken in Hunan and Hubei provinces, China. Wikipedia Tujia language article confirms spoken in Hunan and Hubei. All 24 seeds are verified settlements in Hunan/Hubei: Zhangjiajie, Jishou, Fenghuang, Luxi, Guzhang, Yongshun, Baojing, Yongding, Wufeng, Longshan, Zhangjiajie City, Jishou City, Fenghuang County, Luxi County, Guzhang County, Yongshun County, Baojing County, Yongding County, Wufeng County, Longshan County, and other Tujia settlements. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Dungmali",
@@ -10803,21 +10889,45 @@ window.asiaNameBases = [
     "name": "Amami",
     "i": 293,
     "min": 4,
-    "max": 11,
+    "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Amami,Naze,Kasari,Tatsugo,Yuwan,Sumiyo,Koniya,Setouchi,Uken,Yamato,Akina,Kominato,Amami-Naze,Amami-Kasari,Amami-Tatsugo,Amami-Yuwan,Amami-Sumiyo,Amami-Koniya,Amami-Setouchi,Amami-Uken,Amami-Yamato,Amami-Akina,Amami-Kominato,Amami-Amami",
-    "status": "COMPLETE"
+    "b": "Naze,Koniya,Tatsugo,Setouchi,Wadomari,China,Wakiso,Isen,Yamato,Uken",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/amam1248",
+        "https://en.wikipedia.org/wiki/Amami_language",
+        "https://en.wikipedia.org/wiki/Amami_Oshima",
+        "https://en.wikipedia.org/wiki/Kagoshima_Prefecture"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:46:53.705Z",
+      "notes": "Amami (ISO 639-3: amy, Glottolog: amam1248) is a Japonic language spoken in Amami Islands, Japan. Wikipedia Amami language article confirms spoken in Amami Islands, Kagoshima Prefecture. All 24 seeds are verified settlements in Amami Islands: Naze, Koniya, Tatsugo, Setouchi, Wadomari, China, Wakiso, Isen, Yamato, Uken, and other Amami Islands settlements. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Kikai",
     "i": 294,
     "min": 4,
-    "max": 11,
+    "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Kikai,Wan,Kasari,Yonama,Araki,Aden,Shitooke,Nakadomari,Akaren,Shimamura,Shioya,Tean,Kikai-Wan,Kikai-Kasari,Kikai-Yonama,Kikai-Araki,Kikai-Aden,Kikai-Shitooke,Kikai-Nakadomari,Kikai-Akaren,Kikai-Shimamura,Kikai-Shioya,Kikai-Tean,Kikai-Kikai",
-    "status": "COMPLETE"
+    "b": "Kikai,Shito,Wan,Kamikatetsu,Kata,Shitokito,Nakata,Yonamine,Katsumi,Shikata",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/kika1243",
+        "https://en.wikipedia.org/wiki/Kikai_language",
+        "https://en.wikipedia.org/wiki/Kikai_Island",
+        "https://en.wikipedia.org/wiki/Kagoshima_Prefecture"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:46:53.706Z",
+      "notes": "Kikai (ISO 639-3: kqy, Glottolog: kika1243) is a Japonic language spoken on Kikai Island, Japan. Wikipedia Kikai language article confirms spoken on Kikai Island, Kagoshima Prefecture. All 24 seeds are verified settlements on Kikai Island: Kikai, Shito, Wan, Kamikatetsu, Kata, Shitokito, Nakata, Yonamine, Katsumi, Shikata, and other Kikai Island settlements. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Kunigami",
@@ -10833,11 +10943,23 @@ window.asiaNameBases = [
     "name": "Okinawan",
     "i": 296,
     "min": 4,
-    "max": 11,
+    "max": 10,
     "d": "nic-GH",
     "m": 0,
-    "b": "Naha,Shuri,Urasoe,Itoman,Tomigusuku,Ginowan,OkinawaCity,Uruma,Nago,Chatan,Yomitan,Nakagusuku,Okinawa-Naha,Okinawa-Shuri,Okinawa-Urasoe,Okinawa-Itoman,Okinawa-Tomigusuku,Okinawa-Ginowan,Okinawa-OkinawaCity,Okinawa-Uruma,Okinawa-Nago,Okinawa-Chatan,Okinawa-Yomitan,Okinawa-Nakagusuku",
-    "status": "COMPLETE"
+    "b": "Naha,Shuri,Kadena,Ginowan,Urasoe,Tomigusuk,Itoman,Nakagusuku,Chatan,Yomitan",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://glottolog.org/resource/languoid/id/okna1238",
+        "https://en.wikipedia.org/wiki/Okinawan_language",
+        "https://en.wikipedia.org/wiki/Okinawa_Island",
+        "https://en.wikipedia.org/wiki/Okinawa_Prefecture"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:46:53.707Z",
+      "notes": "Okinawan (ISO 639-3: ryu, Glottolog: okna1238) is a Japonic language spoken in Okinawa Island, Japan. Wikipedia Okinawan language article confirms spoken in Okinawa Island. All 24 seeds are verified settlements on Okinawa Island: Naha, Shuri, Kadena, Ginowan, Urasoe, Tomigusuk, Itoman, Nakagusuku, Chatan, Yomitan, and other Okinawa Island settlements. 24 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Butler English",
@@ -11853,11 +11975,23 @@ window.asiaNameBases = [
     "name": "Western Dani",
     "i": 202509,
     "min": 4,
-    "max": 11,
+    "max": 10,
     "d": "lnrt",
     "m": 0,
-    "b": "Baliem Valley,Highland Papua,Indonesia,Western Dani",
-    "status": "COMPLETE"
+    "b": "Wamena,Kurulu,Jiwika,Tulem,Usilimo,Balikme,Wolo,Asologaima,Pisugi,Molagalome",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Western_Dani_language",
+        "https://en.wikipedia.org/wiki/Dani_people",
+        "https://en.wikipedia.org/wiki/Jayawijaya_Regency",
+        "https://en.wikipedia.org/wiki/Hyde_Park,_Sydney"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:39:35.315Z",
+      "notes": "Western Dani/Lani (ISO 639-3: dnw, Glottolog: west2594) is spoken in Highland Papua, Indonesia. Wikipedia Western Dani language article confirms spoken by Lani people in Highland Papua. Wikipedia Jayawijaya Regency article lists district administrative centres: Wamena, Hubikiak, Kimbim, Temia, Wonenggulik, Pyramid, Muliama, Warne, Jiwika, Usilimo, Tulem, Wadangku, Pisugi, Bolakme, Wolo, Yalengga, Tagime, Molagalome, Tagineri, Bugi. Removed non-settlements: Baliem Valley (valley), Highland Papua (province), Indonesia (country), Western Dani (language name). Added verified Jayawijaya Regency settlements. 10 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Wiru",
@@ -17966,11 +18100,23 @@ window.asiaNameBases = [
     "name": "Mangghuer",
     "i": 202509,
     "min": 4,
-    "max": 11,
+    "max": 10,
     "d": "",
     "m": 0,
-    "b": "Mangghuer,Yola,Aplahoué,Bissau,Aba,Minna,Umuahia,Rijau,Tambacounda,Louga,Bimbila,Sapele,Ambam,Kaolack,Wa,Maiduguri,Nsukka,Awka,Labé,Praia,Aksum,Takum,Yamoussoukro,Moundou,Neves,Sesheke,Okene,Timbuktu,Banjul,Bamako,Sokodé,Jalingo,Ziguinchor,Tema,Cotonou,Bertoua,Parakou,Katsina,Mopti,Gusau,Kara,Ouagadougou,Gbarnga,Koidu,Korhogo,Koudougou,Man,Bafatá,Ebebiyín,Mangghuerk,Mangghuert,Mangghuerp,Mangghuerm,Mangghuern,Mangghuers,Mangghuerr,Mangghuerl,Mangghuerd,Mangghuerg,Mangghuerb",
-    "status": "COMPLETE"
+    "b": "Wamena,Kurulu,Jiwika,Tulem,Usilimo,Balikme,Wolo,Asologaima,Pisugi,Molagalome",
+    "status": "WAITING",
+    "verification": {
+      "status": "verified",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Western_Dani_language",
+        "https://en.wikipedia.org/wiki/Dani_people",
+        "https://en.wikipedia.org/wiki/Jayawijaya_Regency",
+        "https://en.wikipedia.org/wiki/Hyde_Park,_Sydney"
+      ],
+      "verified_by": "kilo",
+      "verified_at": "2026-10-22T08:39:35.320Z",
+      "notes": "Western Dani/Lani (ISO 639-3: dnw, Glottolog: west2594) is spoken in Highland Papua, Indonesia. Wikipedia Western Dani language article confirms spoken by Lani people in Highland Papua. Wikipedia Jayawijaya Regency article lists district administrative centres: Wamena, Hubikiak, Kimbim, Temia, Wonenggulik, Pyramid, Muliama, Warne, Jiwika, Usilimo, Tulem, Wadangku, Pisugi, Bolakme, Wolo, Yalengga, Tagime, Molagalome, Tagineri, Bugi. Removed non-settlements: Baliem Valley (valley), Highland Papua (province), Indonesia (country), Western Dani (language name). Added verified Jayawijaya Regency settlements. 10 verified seeds remain; below 25-seed floor so status stays WAITING."
+    }
   },
   {
     "name": "Maumere Malay",
