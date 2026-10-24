@@ -29,6 +29,8 @@
 .trae/
 .windsurf/
 .playwright-mcp/
+.kilocode/
+.opencode/
 # Our fork-specific dirs
 .docker/
 pdf_splitter/

@@ -1,1 +1,0 @@
-module.exports = { hooks: { readPackage: (pkg) => { if (pkg.scripts) { delete pkg.scripts.postinstall; delete pkg.scripts.prepare; delete pkg.scripts.build; delete pkg.scripts.compile; } return pkg; } } };
