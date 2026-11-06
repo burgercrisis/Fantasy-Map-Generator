@@ -18,7 +18,7 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "preset": "recommended",
       "style": {
         "useTemplate": {
           "level": "warn",
@@ -45,6 +45,12 @@
       }
     }
   },
+  "overrides": [
+    {
+      "includes": ["**", "!src/e2e/**"],
+      "linter": { "rules": { "correctness": { "usePlaywrightValidDescribeCallback": "off" } } }
+    }
+  ],
   "javascript": {
     "formatter": {
       "quoteStyle": "double",
