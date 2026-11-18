@@ -1,4 +1,4 @@
-import { quadtree } from "d3-quadtree";
+import { quadtree } from "d3";
 import { AUTO_BURG_LIMIT } from "@/components/options-schema";
 import { Emblems } from "@/generators/emblems-generator";
 import type { BurgGroup } from "@/types/burg-groups";

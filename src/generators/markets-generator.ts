@@ -1,5 +1,5 @@
 import Alea from "alea";
-import { quadtree } from "d3-quadtree";
+import { quadtree } from "d3";
 import { rn } from "@/utils";
 import { t } from "@/utils/i18n";
 import { minmax } from "../utils";
