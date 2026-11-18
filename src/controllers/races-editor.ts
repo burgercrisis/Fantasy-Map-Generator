@@ -278,8 +278,9 @@ function racesEditorAddLines(stats: RaceStats[]): void {
     const s = stats[r.i] || { cells: 0, area: 0, rural: 0, urban: 0, cultures: 0, states: 0, burgs: 0 };
 
     const area = getArea(s.area);
-    const rural = s.rural * populationRate;
-    const urban = s.urban * populationRate * urbanization;
+    const { scale, urbanization } = options.map.units.population;
+    const rural = s.rural * scale;
+    const urban = s.urban * scale * urbanization.rate;
     const population = rn(rural + urban);
     const populationTip = `Total population: ${si(population)}; Rural population: ${si(rural)}; Urban population: ${si(
       urban
