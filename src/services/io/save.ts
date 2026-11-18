@@ -21,6 +21,18 @@ const toMachine = (overwrite = false, viewOnly = false): Promise<void> =>
 const toDropbox = (viewOnly = false): Promise<void> =>
   save(() => writeToDropbox(prepareMapData(viewOnly), mapFileName(viewOnly)));
 
+// Race entity type (custom to this fork; no upstream equivalent)
+interface Race {
+  i: number;
+  name: string;
+  color?: string;
+  expansionism?: number;
+  removed?: boolean;
+}
+
+// Extend pack with race data (custom to this fork)
+type PackWithRaces = { races?: Race[]; cells: typeof pack.cells & { race?: Uint16Array } };
+
 // a view-only copy never takes the editable file's name
 const mapFileName = (viewOnly: boolean): string => `${getFileName()}${viewOnly ? " view" : ""}.map`;
 
@@ -144,6 +156,10 @@ function prepareMapData(viewOnly = false): string {
   // round population to save space
   const pop = Array.from(pack.cells.pop).map(p => rn(p, 4));
 
+  // store race data (custom to this fork)
+  const packWithRaces = pack as unknown as PackWithRaces;
+  const races = JSON.stringify(packWithRaces.races || []);
+
   // data format as below
   const mapData = [
     params,
@@ -198,9 +214,20 @@ function prepareMapData(viewOnly = false): string {
     relief,
     layers,
     graphOverride,
-    journeys
-  ].join("\r\n");
-  return mapData;
+    journeys,
+    races
+  ];
+
+  // store cell-level race data if present and valid (custom to this fork)
+  if (
+    packWithRaces.cells?.race &&
+    packWithRaces.cells.i &&
+    packWithRaces.cells.race.length === packWithRaces.cells.i.length
+  ) {
+    mapData.push(packWithRaces.cells.race);
+  }
+
+  return mapData.join("\r\n");
 }
 
 // save map file to indexedDB

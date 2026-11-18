@@ -34,7 +34,7 @@ import { Csv } from "@/services/io/csv";
 import { applyOption, findEl, getArea, getAreaUnit, groupByValue, speak } from "@/utils";
 import { sentences, t } from "@/utils/i18n";
 import { errorText } from "@/utils/stringUtils";
-import { ensureEl, getPointer, getRandomColor, isLand, rand, rn, si, unique } from "../utils";
+import { ensureEl, getPointer, getRandomColor, isLand, rn, si, unique } from "../utils";
 
 const dialogId = "provincesEditor" as const;
 const CSV_COLUMNS = [
@@ -792,7 +792,7 @@ function regenerateShortNameCulture(): void {
 }
 
 function regenerateShortNameRandom(): void {
-  const base = rand(Names.nameBases.length - 1);
+  const base = Names.getRandomValidBaseIndex();
   const name = Names.getState(Names.getBase(base), undefined as unknown as number, base);
   ensureEl<HTMLInputElement>("provinceNameEditorShort").value = name;
 }

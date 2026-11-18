@@ -10,7 +10,7 @@ import { Tags } from "@/generators/tags";
 import { drawLakeEmbellishments } from "@/renderers/draw-lakes";
 import { getArea, getAreaUnit, speak } from "@/utils";
 import { sentences, t } from "@/utils/i18n";
-import { ensureEl, findEl, rand, si } from "../utils";
+import { ensureEl, findEl, si } from "../utils";
 import { getHeight } from "../utils/unitUtils";
 
 let selectedLake: Selection<SVGElement, unknown, HTMLElement, unknown>;
@@ -174,7 +174,7 @@ function generateNameCulture(): void {
 
 function generateNameRandom(): void {
   const lake = getLake();
-  lake.name = ensureEl<HTMLInputElement>("lakeName").value = Names.getBase(rand(Names.nameBases.length - 1));
+  lake.name = ensureEl<HTMLInputElement>("lakeName").value = Names.getBase(Names.getRandomValidBaseIndex());
 }
 
 function changeLakeSubtype(this: HTMLSelectElement): void {

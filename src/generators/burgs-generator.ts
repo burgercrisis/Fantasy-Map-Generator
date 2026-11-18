@@ -119,7 +119,9 @@ class BurgModule {
         burg.i = burgId;
         burg.state = burgId;
         burg.culture = cells.culture[burg.cell];
-        burg.name = Names.getCultureShort(burg.culture);
+        const capitalBaseIndex = Names.getBaseForCell(burg.cell, burg.culture);
+        const capitalRange = Names.getUseCaseRange(capitalBaseIndex, "capital");
+        burg.name = Names.getBase(capitalBaseIndex, capitalRange.min, capitalRange.max, undefined) as string;
         burg.feature = cells.f[burg.cell];
         burg.capital = 1;
         burg.tags = [];
@@ -146,7 +148,9 @@ class BurgModule {
 
           const burgId = burgs.length;
           const culture = cells.culture[cell];
-          const name = Names.getCulture(culture);
+          const townBaseIndex = Names.getBaseForCell(cell, culture);
+          const townRange = Names.getUseCaseRange(townBaseIndex, "town");
+          const name = Names.getBase(townBaseIndex, townRange.min, townRange.max, undefined) as string;
           const feature = cells.f[cell];
           burgs.push({
             cell,
@@ -792,6 +796,9 @@ class BurgModule {
 
     const burgId = pack.burgs.length;
     const culture = cells.culture[cellId];
+    const baseIndex = Names.getBaseForCell(cellId, culture);
+    const range = Names.getUseCaseRange(baseIndex, "town");
+    const name = Names.getBase(baseIndex, range.min, range.max, undefined) as string;
     const burg: Burg = {
       cell: cellId,
       x,
@@ -799,7 +806,7 @@ class BurgModule {
       i: burgId,
       state: cells.state[cellId],
       culture,
-      name: Names.getCulture(culture),
+      name,
       feature: cells.f[cellId],
       capital: 0,
       port: 0,
@@ -901,7 +908,9 @@ class BurgModule {
       }
 
       const culture = cells.culture[cell];
-      const name = Names.getCulture(culture);
+      const baseIndex = Names.getBaseForCell(cell, culture);
+      const range = Names.getUseCaseRange(baseIndex, "town");
+      const name = Names.getBase(baseIndex, range.min, range.max, undefined) as string;
       newBurgs.push({ cell, x, y, state: stateId, i: id, culture, name, capital, feature: cells.f[cell] });
       burgsTree.add([x, y]);
       cells.burg[cell] = id;

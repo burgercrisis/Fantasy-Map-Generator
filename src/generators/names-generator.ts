@@ -1,10 +1,27 @@
 import { tip } from "@/components/tooltips";
 import { getDefaultNameBases, type NameBase } from "@/data/name-bases";
-import { sentences, t } from "@/utils/i18n";
+import { t } from "@/utils/i18n";
 import { capitalize, isVowel, last, P, ra, rand } from "../utils";
+import { fantasyRaceBases } from "./races";
+
+// Pre-computed set of all fantasy race base indices for efficient lookup in getState()
+const fantasyBaseIndexSet = new Set<number>();
+for (const bases of Object.values(fantasyRaceBases)) {
+  if (Array.isArray(bases)) {
+    for (const b of bases) {
+      if (typeof b === "number") fantasyBaseIndexSet.add(b);
+    }
+  }
+}
 
 declare global {
   var Names: NamesGenerator;
+}
+
+/** Minimal culture reference for namebase lookup (avoids circular import of Culture type) */
+interface CultureRef {
+  base?: number;
+  removed?: boolean;
 }
 
 // Markov chain lookup table: key is a letter (or empty string for word start), value is array of possible next syllables
@@ -34,7 +51,6 @@ interface NameRange {
 }
 
 const SYLLABIC = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u;
-
 class NamesGenerator {
   nameBases: NameBase[] = this.getNameBases();
   chains: (MarkovChain | null)[] = []; // Markov chains for namebases
@@ -99,12 +115,23 @@ class NamesGenerator {
       return "ERROR";
     }
 
-    if (this.nameBases[base] === undefined) {
-      if (this.nameBases[0]) {
-        WARN && console.warn(`Namebase ${base} is not found. First available namebase will be used`);
-        base = 0;
+    // Check if the base is valid (has name data)
+    const isValidBase = (b: number) => {
+      return this.nameBases[b]?.b && this.nameBases[b].b.length > 0;
+    };
+
+    if (!isValidBase(base)) {
+      // Find the first valid namebase as fallback
+      const fallbackBase = this.nameBases.findIndex((b, _i) => b?.b && b.b.length > 0);
+      if (fallbackBase >= 0) {
+        if (this.nameBases[base] === undefined) {
+          WARN && console.warn(`Namebase ${base} is not found. Using fallback namebase ${fallbackBase}`);
+        } else {
+          WARN && console.warn(`Namebase ${base} has invalid data. Using fallback namebase ${fallbackBase}`);
+        }
+        base = fallbackBase;
       } else {
-        ERROR && console.error(`Namebase ${base} is not found`);
+        ERROR && console.error(`Namebase ${base} is not found and no valid fallback exists`);
         return "ERROR";
       }
     }
@@ -113,12 +140,25 @@ class NamesGenerator {
 
     const data = this.chains[base];
     if (!data || data[""] === undefined) {
-      tip(
-        sentences(t("Namesbase {{base}} is incorrect", { base }), t("Please check in namesbase editor")),
-        false,
-        "error"
+      // Chain generation failed - try fallback
+      const fallbackBase = this.nameBases.findIndex(
+        (b, i) =>
+          b?.b && b.b.length > 0 && i !== base && this.chains[i] && this.chains[i] && this.chains[i][""] !== undefined
       );
-      ERROR && console.error(`Namebase ${base} is incorrect!`);
+      if (fallbackBase >= 0) {
+        WARN && console.warn(`Namebase ${base} chain is invalid. Using fallback namebase ${fallbackBase}`);
+        base = fallbackBase;
+      } else {
+        tip(`Namesbase ${base} is incorrect. Please check in namesbase editor`, false, "error");
+        ERROR && console.error(`Namebase ${base} is incorrect!`);
+        return "ERROR";
+      }
+    }
+
+    // Update data after potential fallback
+    const chainData = this.chains[base];
+    if (!chainData || chainData[""] === undefined) {
+      ERROR && console.error(`Namebase ${base} chain is invalid after fallback!`);
       return "ERROR";
     }
 
@@ -126,7 +166,7 @@ class NamesGenerator {
     if (!max) max = this.nameBases[base].max;
     if (dupl !== "") dupl = this.nameBases[base].d;
 
-    let v = data[""],
+    let v = chainData[""],
       cur = ra(v),
       w = "";
     for (let i = 0; i < 20; i++) {
@@ -135,14 +175,14 @@ class NamesGenerator {
         if (w.length < min) {
           cur = "";
           w = "";
-          v = data[""];
+          v = chainData[""];
         } else break;
       } else {
         if (w.length + cur.length > max) {
           // word too long
           if (w.length < min) w += cur;
           break;
-        } else v = data[last(cur.split("")) as string] || data[""];
+        } else v = chainData[last(cur.split("")) as string] || chainData[""];
       }
 
       w += cur;
@@ -172,30 +212,57 @@ class NamesGenerator {
         .join("");
 
     if (name.length < 2) {
-      ERROR && console.error("Name is too short! Random name will be selected");
-      name = ra(this.nameBases[base].b.split(","));
+      // Name is too short - try to pick a random name from the base
+      const baseNames = this.nameBases[base].b.split(",").filter(n => n.trim().length >= 2);
+      if (baseNames.length > 0) {
+        name = ra(baseNames);
+      } else {
+        // Base has no valid names - try fallback bases
+        for (let i = 0; i < this.nameBases.length; i++) {
+          if (i === base || !this.nameBases[i] || !this.nameBases[i].b) continue;
+          const fallbackNames = this.nameBases[i].b.split(",").filter(n => n.trim().length >= 2);
+          if (fallbackNames.length > 0) {
+            WARN && console.warn(`Namebase ${base} produced too short name. Using fallback namebase ${i}`);
+            name = ra(fallbackNames);
+            break;
+          }
+        }
+      }
+      if (name.length < 2) {
+        ERROR && console.error("Name is too short! Random name will be selected");
+      }
     }
+
+    name = this.sanitizeName(name);
 
     return name;
   }
 
   // generate name for culture
-  getCulture(culture: number, min?: number, max?: number, dupl?: string): string {
+  getCulture(culture: number, min?: number, max?: number, dupl?: string, base?: number): string {
     if (culture === undefined) {
       ERROR && console.error("Please define a culture");
       return "ERROR";
     }
-    const base = pack.cultures[culture].base;
-    return this.getBase(base, min, max, dupl);
+    const resolvedBase = typeof base === "number" ? base : pack.cultures[culture].base;
+    return this.getBase(resolvedBase, min, max, dupl);
   }
 
   // generate short name for culture
-  getCultureShort(culture: number): string {
+  getCultureShort(culture: number, base?: number): string {
     if (culture === undefined) {
       ERROR && console.error("Please define a culture");
       return "ERROR";
     }
-    return this.getBaseShort(pack.cultures[culture].base);
+    const resolvedBase = typeof base === "number" ? base : pack.cultures[culture].base;
+    return this.getBaseShort(resolvedBase);
+  }
+
+  // pick a random namebase index, skipping sparse-array holes
+  getRandomBaseIndex(): number {
+    const validIndices = this.nameBases.map((nb, i) => (nb ? i : -1)).filter(i => i >= 0);
+    if (validIndices.length === 0) return 0;
+    return validIndices[rand(validIndices.length - 1)];
   }
 
   // generate short name for base
@@ -246,8 +313,10 @@ class NamesGenerator {
     else if (base === 18 && P(0.4))
       name = isVowel(name.slice(0, 1).toLowerCase()) ? `Al${name.toLowerCase()}` : `Al ${name}`; // Arabic starts with -Al
 
-    // no suffix for fantasy bases
-    if (base > 32 && base < 42) return name;
+    // no suffix for fantasy bases and race mixer bases
+    const baseEntry = this.nameBases[base];
+    const isFantasyBase = baseEntry && (baseEntry.raceMixerFor || fantasyBaseIndexSet.has(base));
+    if (isFantasyBase) return name;
 
     // define if suffix should be used
     if (name.length > 3 && isVowel(name.slice(-1))) {
@@ -302,16 +371,41 @@ class NamesGenerator {
 
   // generate name for the map
   getMapName(): string {
-    const base = P(0.7) ? 2 : P(0.5) ? rand(0, 6) : rand(0, 31);
+    const base = this.pickMapNameBase();
+    if (base === undefined) return "";
     if (!this.nameBases[base]) {
       tip(t("Namebase is not found"), false, "error");
       return "";
     }
-    const min = this.nameBases[base].min - 1;
-    const max = Math.max(this.nameBases[base].max - 3, min);
+    const range = this.getUseCaseRange(base, "map");
+    const min = range.min;
+    const max = range.max;
     const baseName = this.getBase(base, min, max, "") as string;
     const name = P(0.7) ? this.addSuffix(baseName) : baseName;
     return name;
+  }
+
+  /**
+   * Pick a namebase for the map name from bases currently in use by cultures
+   * on the map. This includes both built-in and mixer-generated bases.
+   * Falls back to the classic random selection if no cultures exist.
+   */
+  private pickMapNameBase(): number | undefined {
+    const cultures = (pack as unknown as { cultures?: CultureRef[] }).cultures;
+    if (Array.isArray(cultures)) {
+      const inUse = new Set<number>();
+      for (const culture of cultures) {
+        if (!culture || culture.removed || typeof culture.base !== "number") continue;
+        if (this.nameBases[culture.base]) inUse.add(culture.base);
+      }
+      if (inUse.size > 0) {
+        const bases = Array.from(inUse);
+        return bases[rand(bases.length - 1)];
+      }
+    }
+
+    // Fallback: classic random selection (no cultures on map)
+    return P(0.7) ? 2 : P(0.5) ? rand(0, 6) : rand(0, 31);
   }
 
   getNameBases(): NameBase[] {
@@ -331,7 +425,6 @@ class NamesGenerator {
       .map(word => word[0].toUpperCase())
       .join("");
   }
-
   /**
    * Returns a random valid namebase index, accounting for sparse array gaps.
    * Uses defaultNameBaseIds if available, otherwise falls back to array length.
@@ -342,6 +435,22 @@ class NamesGenerator {
       return validBaseIds[rand(validBaseIds.length - 1)];
     }
     return rand(this.nameBases.length - 1);
+  }
+
+  /**
+   * Sanitize a generated name by stripping artifacts introduced by the race
+   * language mixer: digits, pipes, `_unq\d+` / `_u\d+` unique-suffix tokens,
+   * and underscores. Used internally by getBase and exposed for callers that
+   * generate names from mixer output.
+   */
+  sanitizeName(name: string): string {
+    if (typeof name !== "string") return name;
+    return name
+      .replace(/\d/g, "")
+      .replace(/\|/g, "")
+      .replace(/_unq\d+\b/gi, "")
+      .replace(/_u\d+\b/gi, "")
+      .replace(/_/g, "");
   }
 
   /**

@@ -36,7 +36,7 @@ import { Csv } from "@/services/io/csv";
 import { applyOption, findEl, getArea, getAreaUnit, groupByValue, speak } from "@/utils";
 import { sentences, t } from "@/utils/i18n";
 import { errorText } from "@/utils/stringUtils";
-import { ensureEl, formatPrice, getAdjective, getPointer, isLand, rand, rn, si } from "../utils";
+import { ensureEl, formatPrice, getAdjective, getPointer, isLand, rn, si } from "../utils";
 
 const dialogId = "statesEditor" as const;
 const LEGEND_NAME = "States"; // the legend box this editor toggles
@@ -664,12 +664,17 @@ function editStateName(state: number): void {
   function regenerateShortNameCulture() {
     const state = +ensureEl("stateNameEditor").dataset.state!;
     const culture = pack.states[state].culture;
-    const name = Names.getState(Names.getCultureShort(culture), culture);
+    const center = pack.states[state].center;
+    const base =
+      typeof Names.getBaseForCell === "function" && center !== undefined
+        ? Names.getBaseForCell(center, culture)
+        : undefined;
+    const name = Names.getState(Names.getCultureShort(culture, base), culture, base);
     ensureEl<HTMLInputElement>("stateNameEditorShort").value = name;
   }
 
   function regenerateShortNameRandom() {
-    const base = rand(Names.nameBases.length - 1);
+    const base = Names.getRandomValidBaseIndex();
     const name = Names.getState(Names.getBase(base), undefined as unknown as number, base);
     ensureEl<HTMLInputElement>("stateNameEditorShort").value = name;
   }
