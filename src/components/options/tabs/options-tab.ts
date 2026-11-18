@@ -114,6 +114,22 @@ const OPTION_BINDINGS: Record<string, OptionBinding> = {
     pin: "culturesSet",
     effect: syncCultures
   }),
+  languageMixer: option({
+    read: o => o.generation.cultures.languageMixer,
+    write: (o, value) => {
+      o.generation.cultures.languageMixer = value as "on" | "off" | "random" | "humans";
+    },
+    parse: String,
+    pin: "languageMixer"
+  }),
+  racesSet: option({
+    read: o => o.generation.cultures.racesSet,
+    write: (o, value) => {
+      o.generation.cultures.racesSet = value as "all" | "classic" | "dark" | "primal";
+    },
+    parse: String,
+    pin: "racesSet"
+  }),
   statesNumber: option({
     read: o => o.generation.states.limit,
     write: (o, value) => (o.generation.states.limit = value),
@@ -306,6 +322,36 @@ const TEMPLATE = /* html */ `
           <option value="highFantasy" data-max="17">${t("High Fantasy")}</option>
           <option value="darkFantasy" data-max="18">${t("Dark Fantasy")}</option>
           <option value="random" data-max="100">${t("Random")}</option>
+        </select>
+      </td>
+      <td></td>
+    </tr>
+    <tr data-tip="${t("Control language mixer usage for culture name generation")}">
+      <td>
+        <i data-locked="0" id="lock_languageMixer" class="icon-lock-open"></i>
+      </td>
+      <td>${t("Language mixer")}</td>
+      <td>
+        <select id="languageMixer" data-option="languageMixer">
+          <option value="on" selected>${t("On")}</option>
+          <option value="off">${t("Off")}</option>
+          <option value="random">${t("Random")}</option>
+          <option value="humans">${t("Humans only")}</option>
+        </select>
+      </td>
+      <td></td>
+    </tr>
+    <tr data-tip="${t("Select which fantasy races are available for new maps")}">
+      <td>
+        <i data-locked="0" id="lock_racesSet" class="icon-lock-open"></i>
+      </td>
+      <td>${t("Races set")}</td>
+      <td>
+        <select id="racesSet" data-option="racesSet">
+          <option value="all" selected>${t("All fantasy races")}</option>
+          <option value="classic">${t("Classic fantasy")}</option>
+          <option value="dark">${t("Dark & monstrous")}</option>
+          <option value="primal">${t("Primal & wilderness")}</option>
         </select>
       </td>
       <td></td>

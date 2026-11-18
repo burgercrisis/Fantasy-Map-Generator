@@ -128,6 +128,13 @@ export const MAP_COMMANDS: MapCommand[] = [
     run: () => Controllers.CulturesEditor.open()
   },
   {
+    id: "editRacesButton",
+    name: t("Races Editor"),
+    link: true,
+    aliases: "race species",
+    run: () => Controllers.RacesEditor.open()
+  },
+  {
     id: "editReligions",
     name: t("Religions Editor"),
     link: true,

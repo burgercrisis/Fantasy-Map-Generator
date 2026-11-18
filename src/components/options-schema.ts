@@ -202,7 +202,9 @@ export const optionsSchema = z.strictObject({
       limit: count,
       set: cultureSetId,
       sizeVariety: nonNegative,
-      growthRate: nonNegative
+      growthRate: nonNegative,
+      languageMixer: z.enum(["on", "off", "random", "humans"]),
+      racesSet: z.enum(["all", "classic", "dark", "primal"])
     }),
     states: z.strictObject({ limit: count, sizeVariety: nonNegative, growthRate: nonNegative }),
     provinces: z.strictObject({ ratio: percent }),
@@ -299,6 +301,8 @@ export const pinSchemas: Record<string, z.ZodType> = {
   religionsNumber: generation.religions.shape.limit,
   cultures: generation.cultures.shape.limit,
   culturesSet: generation.cultures.shape.set,
+  languageMixer: generation.cultures.shape.languageMixer,
+  racesSet: generation.cultures.shape.racesSet,
   sizeVariety: generation.states.shape.sizeVariety,
   growthRate: generation.states.shape.growthRate,
   mapName: lore.shape.name,
