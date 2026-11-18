@@ -11,6 +11,28 @@ declare global {
 // Note: Uses array with string keys (sparse array) to match original JS behavior
 type MarkovChain = string[][] & Record<string, string[]>;
 
+// Use case for name generation, affecting length range selection
+type UseCase =
+  | "map"
+  | "state"
+  | "capital"
+  | "town"
+  | "city"
+  | "settlement"
+  | "village"
+  | "hamlet"
+  | "culture"
+  | "people"
+  | "religion"
+  | "faith"
+  | "deity";
+
+// Name length range for a given use case
+interface NameRange {
+  min: number;
+  max: number;
+}
+
 const SYLLABIC = /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Hangul}]/u;
 
 class NamesGenerator {
@@ -308,6 +330,127 @@ class NamesGenerator {
       .filter(Boolean)
       .map(word => word[0].toUpperCase())
       .join("");
+  }
+
+  /**
+   * Returns a random valid namebase index, accounting for sparse array gaps.
+   * Uses defaultNameBaseIds if available, otherwise falls back to array length.
+   */
+  getRandomValidBaseIndex(): number {
+    const validBaseIds = (window as unknown as { defaultNameBaseIds?: number[] }).defaultNameBaseIds;
+    if (Array.isArray(validBaseIds) && validBaseIds.length > 0) {
+      return validBaseIds[rand(validBaseIds.length - 1)];
+    }
+    return rand(this.nameBases.length - 1);
+  }
+
+  /**
+   * Race-aware namebase selection for a given cell.
+   *
+   * Reads the cell's race from `pack.cells.race`, resolves the race name from
+   * `pack.races`, and (if the race mixer is available) maps it to a mixer
+   * namebase index via `ensureRaceMixerBaseIndex`. Falls back to the culture's
+   * base when no race base can be resolved.
+   *
+   * @param cell - cell index into pack.cells.race
+   * @param culture - culture index used for the fallback base
+   * @returns namebase index to pass to getBase
+   */
+  getBaseForCell(cell?: number, culture?: number): number {
+    if (cell === undefined) return 0;
+
+    const cultureBase =
+      culture && pack?.cultures?.[culture] && typeof pack.cultures[culture].base === "number"
+        ? pack.cultures[culture].base
+        : 0;
+
+    // pack.cells.race and pack.races are runtime-only (set by races.ts) and
+    // not part of the static PackedGraph type, so access via a narrow cast.
+    const packCells = (pack as unknown as { cells: { race?: number[] } }).cells;
+    const raceId = packCells?.race && typeof packCells.race[cell] === "number" ? packCells.race[cell]! : 0;
+    if (!raceId) return cultureBase;
+
+    const packRaces = (pack as unknown as { races: { name?: string }[] }).races;
+    const raceName = packRaces?.[raceId] && typeof packRaces[raceId].name === "string" ? packRaces[raceId].name : "";
+    if (!raceName || raceName === "None") return cultureBase;
+
+    const ensureRaceMixerBaseIndex = (
+      window as unknown as { ensureRaceMixerBaseIndex?: (raceName: string) => number | null }
+    ).ensureRaceMixerBaseIndex;
+    if (typeof ensureRaceMixerBaseIndex === "function") {
+      const base = ensureRaceMixerBaseIndex(raceName);
+      if (typeof base === "number") return base;
+    }
+
+    return cultureBase;
+  }
+
+  /**
+   * Return a name length range (min/max) tuned for a specific use case.
+   *
+   * Different map features benefit from different name lengths: map and state
+   * names skew longer, village/hamlet names skew shorter, etc. The range is
+   * derived from the namebase's home min/max and clamped so max >= min.
+   *
+   * @param base - namebase index
+   * @param useCase - the feature the name is being generated for
+   * @returns { min, max } length range
+   */
+  getUseCaseRange(base: number, useCase: string): NameRange {
+    const b = this.nameBases[base];
+    if (!b || typeof b.min !== "number" || typeof b.max !== "number") {
+      return { min: 4, max: 10 };
+    }
+
+    const homeMin = b.min;
+    const homeMax = b.max;
+    const span = homeMax - homeMin || 1;
+    const mid = homeMin + span / 2;
+
+    let min = homeMin;
+    let max = homeMax;
+
+    switch (useCase as UseCase) {
+      case "map":
+        min = Math.max(homeMin, Math.round(mid));
+        max = Math.min(homeMax + 3, homeMin + span + 4);
+        break;
+      case "state":
+        min = Math.max(homeMin, Math.round(mid));
+        max = Math.min(homeMax + 2, homeMin + span + 3);
+        break;
+      case "capital":
+        min = Math.max(homeMin, Math.round(homeMin + span * 0.6));
+        max = homeMax + 1;
+        break;
+      case "town":
+      case "city":
+      case "settlement":
+        min = homeMin;
+        max = homeMax;
+        break;
+      case "village":
+      case "hamlet":
+        min = homeMin;
+        max = Math.max(homeMin + 1, Math.round(mid));
+        break;
+      case "culture":
+      case "people":
+        min = Math.max(homeMin, Math.floor(homeMin + span * 0.3));
+        max = Math.min(homeMax, Math.round(homeMin + span * 0.9));
+        break;
+      case "religion":
+      case "faith":
+      case "deity":
+        min = Math.max(homeMin, Math.round(mid));
+        max = homeMax + 3;
+        break;
+      default:
+        break;
+    }
+
+    if (max < min) max = min;
+    return { min, max };
   }
 }
 
