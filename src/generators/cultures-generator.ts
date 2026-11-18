@@ -1280,7 +1280,7 @@ class CulturesGenerator {
    * Combines the global map seed with the culture ID for reproducible results.
    */
   getCultureMixerSeed(cultureId: number): number {
-    const seedStr = typeof seed === "string" ? seed : String(seed || "");
+    const seedStr = typeof options?.map?.seed === "string" ? options.map.seed : String(options?.map?.seed || "");
     let h = 2166136261;
     const s = `culture-mixer|${seedStr}|${cultureId}`;
     for (let i = 0; i < s.length; i++) {
