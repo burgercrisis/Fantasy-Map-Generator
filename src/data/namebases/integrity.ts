@@ -2,7 +2,7 @@ import type { NameBase } from "../name-bases";
 
 export function countNames(b: unknown): number {
   if (typeof b !== "string") return 0;
-  return b.split(",").filter((n) => n.trim().length > 0).length;
+  return b.split(",").filter(n => n.trim().length > 0).length;
 }
 
 export function isProto(name: unknown): boolean {
@@ -34,7 +34,7 @@ export function sanitizeNameBases(entries: unknown[]): NameBase[] {
   }
 
   // Remove proto languages
-  const nonProto = valid.filter((e) => !isProto(e.name));
+  const nonProto = valid.filter(e => !isProto(e.name));
 
   // Dedup by name::i - keep the entry with MORE names in b (fix #6: name::i, not name only)
   const byKey = new Map<string, NameBase>();
