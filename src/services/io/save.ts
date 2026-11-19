@@ -2,6 +2,7 @@
 import { closeDialogs } from "@/components/dialog/dialog-helpers";
 import { Layers } from "@/components/layers";
 import { tip } from "@/components/tooltips";
+import { getDefaultNameBasesBaseline } from "@/data/name-bases";
 import { GraphOverride } from "@/generators/graph-override";
 import { Notes } from "@/generators/notes";
 import { restoreOceanVectors } from "@/renderers/ocean-cache";
@@ -145,7 +146,7 @@ function prepareMapData(viewOnly = false): string {
   const styleData = JSON.stringify(styles);
 
   // store name array only if not the same as default
-  const defaultNameBases = Names.getNameBases();
+  const defaultNameBases = getDefaultNameBasesBaseline();
   const namesData = Names.nameBases
     .map((b, i) => {
       const names = defaultNameBases[i] && defaultNameBases[i].b === b.b ? "" : b.b;

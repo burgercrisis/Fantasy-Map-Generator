@@ -1,13 +1,13 @@
 import { max, quadtree, range } from "d3";
 import { Emblems } from "@/generators/emblems-generator";
+import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
 import type { Emblem } from "@/types/emblems";
+import { last } from "@/utils/arrayUtils";
 import { requireColor } from "@/utils/colorUtils";
 import { t } from "@/utils/i18n";
 import { requireCode, requireName, requireOneOf, requireOrigins } from "@/utils/validationUtils";
 import { abbreviate, biased, ensureEl, getColors, getRandomColor, minmax, P, rand, rn, rw } from "../utils";
 import { Population } from "./population-generator";
-import type { LanguageMixerCatalogEntry } from "@/generators/language-softmods";
-import { last } from "@/utils/arrayUtils";
 
 /** The named culture sets the user picks from: how many cultures each holds and how often it is rolled */
 export const CULTURE_SETS: Record<string, { name: string; max: number; probability: number }> = {

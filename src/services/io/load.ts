@@ -12,6 +12,7 @@ import { undraw } from "@/components/undraw";
 import { applyDefaultViewboxEvents } from "@/components/viewbox-events";
 import { resetZoom } from "@/components/zoom";
 import { Controllers } from "@/controllers";
+import { getDefaultNameBasesBaseline } from "@/data/name-bases";
 import { GraphOverride } from "@/generators/graph-override";
 import { Styles } from "@/generators/styles";
 import { onLegendClick } from "@/renderers/draw-legend";
@@ -383,7 +384,7 @@ async function parseLoadedData(data: string[], mapVersion: string | null): Promi
     pack.journeys = data[52] ? JSON.parse(data[52]) : [];
 
     // save omits names that equal the default base at the same index
-    const defaultNameBases = Names.getNameBases();
+    const defaultNameBases = getDefaultNameBasesBaseline();
     Names.nameBases = data[31]
       ? data[31].split("/").map((d, i) => {
           const e = d.split("|");

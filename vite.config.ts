@@ -27,9 +27,14 @@ export default ({ mode }: { mode: string }) => ({
         // icon-sets.ts loads each set's SVGs on demand; one chunk per set: relief sets and charge categories are subdirectories
         manualChunks(id: string) {
           const path = id.match(/src\/assets\/icons\/(.+)\/[^/]+\.svg/)?.[1];
-          if (!path) return undefined;
-          const [family, set] = path.split("/");
-          return family === "relief" || family === "charges" ? `icons-${family}-${set}` : `icons-${family}`;
+          if (path) {
+            const [family, set] = path.split("/");
+            return family === "relief" || family === "charges" ? `icons-${family}-${set}` : `icons-${family}`;
+          }
+          // Split the ~1.7MB namebase dataset into its own chunk so it caches
+          // independently of app code and downloads in parallel (fix #6).
+          if (id.includes("/src/data/namebases/")) return "namebases";
+          return undefined;
         }
       }
     }

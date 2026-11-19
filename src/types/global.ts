@@ -4,6 +4,7 @@ import type {
   LanguageSoftmodRawBundle,
   PostMixedLanguage
 } from "../generators/language-softmods";
+
 declare global {
   interface Window {
     tip: typeof import("../components/tooltips").tip;
