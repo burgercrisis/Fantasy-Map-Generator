@@ -50,4 +50,3 @@ docs/reports/
 #   integrity-baseline.json  the known-debt ratchet
 modules/backups/
 tools/tmp_*
-# New TS ports (not yet committed)

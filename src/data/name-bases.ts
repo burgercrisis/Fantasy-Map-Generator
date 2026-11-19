@@ -16,49 +16,79 @@ export interface NameBase {
   isoWeights?: Record<string, number>;
   /** Whether this base is a language mixer base */
   languageMixer?: boolean;
+  /** Verification/completion status (e.g. "COMPLETE", "WAITING") */
+  status?: string;
 }
 
+import { getAllNameBases } from "./namebases/all";
+
+// Prefer TS source of truth as the single source of namebases.
+// defaultNameBases below is deprecated: continent TS modules already contain
+// all default names. A default is used ONLY to gap-fill an index that no
+// continent entry occupies; continent metadata/content always wins otherwise.
+let cachedResult: NameBase[] | null = null;
+
 export function getDefaultNameBases(): NameBase[] {
-  // If the full namebase array has been loaded by namebases-all.js, use it.
-  // This includes real-world and fantasy namebases beyond the default ~50.
-  const globalNameBases = (window as unknown as { nameBases?: NameBase[] }).nameBases;
-  if (Array.isArray(globalNameBases) && globalNameBases.length > defaultNameBases.length) {
-    // Merge default namebases into the global array so that indices 0-42
-    // (German, English, French, etc.) are always populated. The external
-    // namebases-all.js only includes real-world + fantasy + dedicated bases
-    // and leaves gaps at the default indices, causing "ERROR" culture names.
-    const merged = globalNameBases.slice();
-    for (const nb of defaultNameBases) {
-      if (nb && typeof nb.i === "number") {
-        // Gap-fill only. This used to assign unconditionally, which silently
-        // shadowed whichever real language the aggregator had already put at
-        // that index. 17 of the 43 were a different language, so the shipped
-        // array disagreed with the data files and with every tool that reads
-        // them:
-        //
-        //   index  6  app "Nordic"     data "Greek"
-        //   index 12  app "Japanese"   data "Portuguese"
-        //   index 13  app "Portuguese" data "Nahuatl"
-        //   index 14  app "Nahuatl"    data "Hungarian"
-        //   index 25  app "Hawaiian"   data "Kannada"
-        //
-        // Those indices are addressable by the mixer map, so `ces` generated
-        // Dwarven names and `por` generated Japanese ones. Filling only empty
-        // slots is what the comment above always claimed this did.
-        if (merged[nb.i] === undefined) {
-          merged[nb.i] = nb;
-        }
-      }
-    }
-    return merged;
+  if (cachedResult) return cachedResult;
+
+  // Build index map directly from sanitized continent data (single sanitize).
+  const byIndex = new Map<number, NameBase>();
+  for (const e of getAllNameBases()) {
+    byIndex.set(e.i, e);
   }
-  return defaultNameBases;
+
+  // Gap-fill only (fix #3): add a deprecated default ONLY when no continent
+  // entry occupies its index. Continent data (already de-duplicated by
+  // sanitizeNameBases) is the single source of truth, so collision resolution
+  // lives solely in integrity.ts — not duplicated here.
+  for (const nb of defaultNameBases) {
+    if (!nb || typeof nb.i !== "number") continue;
+    if (!byIndex.has(nb.i)) byIndex.set(nb.i, nb);
+  }
+
+  // Build sparse array indexed by `i` (nameBases[i] resolves by declared index).
+  const sparse: NameBase[] = [];
+  for (const [i, e] of byIndex) {
+    sparse[i] = e;
+  }
+
+  // Publish sparse-safe globals consumed by the generator layer (fix #2):
+  // getRandomValidBaseIndex() and the race/culture/namesbase editors read
+  // window.defaultNameBaseIds and call window.refreshDefaultNameBaseIds().
+  publishNameBaseGlobals(sparse);
+
+  cachedResult = sparse;
+  return sparse;
+}
+
+/**
+ * Pristine default-namebase snapshot for save/load baselines (fix #1).
+ * Returns a copy so callers can compare the live, mutable Names.nameBases
+ * against an unchanging baseline. Using the live array directly makes every
+ * base compare equal to itself and serialize as empty, losing edited/added bases.
+ */
+export function getDefaultNameBasesBaseline(): NameBase[] {
+  return getDefaultNameBases().slice();
+}
+
+function publishNameBaseGlobals(nameBases: NameBase[]): void {
+  const g = window as unknown as {
+    nameBases?: NameBase[];
+    defaultNameBaseIds?: number[];
+    refreshDefaultNameBaseIds?: () => void;
+  };
+  g.nameBases = nameBases;
+  // Object.keys on a sparse array returns only populated indices (ascending).
+  const rebuild = () => {
+    g.defaultNameBaseIds = Object.keys(g.nameBases ?? []).map(Number);
+  };
+  g.refreshDefaultNameBaseIds = rebuild;
+  rebuild();
 }
 
 // name, min length, max length, letters to allow duplication, multi-word name rate [deprecated]
 // prettier-ignore
 const defaultNameBases: NameBase[] = [
-  // real-world bases by Azgaar:
   {
     name: "German",
     i: 0,
@@ -69,42 +99,6 @@ const defaultNameBases: NameBase[] = [
     b: "Achern,Aichhalden,Aitern,Albbruck,Alpirsbach,Altensteig,Althengstett,Appenweier,Auggen,Badenen,Badenweiler,Baiersbronn,Ballrechten,Bellingen,Berghaupten,Bernau,Biberach,Biederbach,Binzen,Birkendorf,Birkenfeld,Bischweier,Blumberg,Bollen,Bollschweil,Bonndorf,Bosingen,Braunlingen,Breisach,Breisgau,Breitnau,Brigachtal,Buchenbach,Buggingen,Buhl,Buhlertal,Calw,Dachsberg,Dobel,Donaueschingen,Dornhan,Dornstetten,Dottingen,Dunningen,Durbach,Durrheim,Ebhausen,Ebringen,Efringen,Egenhausen,Ehrenkirchen,Ehrsberg,Eimeldingen,Eisenbach,Elzach,Elztal,Emmendingen,Endingen,Engelsbrand,Enz,Enzklosterle,Eschbronn,Ettenheim,Ettlingen,Feldberg,Fischerbach,Fischingen,Fluorn,Forbach,Freiamt,Freiburg,Freudenstadt,Friedenweiler,Friesenheim,Frohnd,Furtwangen,Gaggenau,Geisingen,Gengenbach,Gernsbach,Glatt,Glatten,Glottertal,Gorwihl,Gottenheim,Grafenhausen,Grenzach,Griesbach,Gutach,Gutenbach,Hag,Haiterbach,Hardt,Harmersbach,Hasel,Haslach,Hausach,Hausen,Hausern,Heitersheim,Herbolzheim,Herrenalb,Herrischried,Hinterzarten,Hochenschwand,Hofen,Hofstetten,Hohberg,Horb,Horben,Hornberg,Hufingen,Ibach,Ihringen,Inzlingen,Kandern,Kappel,Kappelrodeck,Karlsbad,Karlsruhe,Kehl,Keltern,Kippenheim,Kirchzarten,Konigsfeld,Krozingen,Kuppenheim,Kussaberg,Lahr,Lauchringen,Lauf,Laufenburg,Lautenbach,Lauterbach,Lenzkirch,Liebenzell,Loffenau,Loffingen,Lorrach,Lossburg,Mahlberg,Malsburg,Malsch,March,Marxzell,Marzell,Maulburg,Monchweiler,Muhlenbach,Mullheim,Munstertal,Murg,Nagold,Neubulach,Neuenburg,Neuhausen,Neuried,Neuweiler,Niedereschach,Nordrach,Oberharmersbach,Oberkirch,Oberndorf,Oberbach,Oberried,Oberwolfach,Offenburg,Ohlsbach,Oppenau,Ortenberg,otigheim,Ottenhofen,Ottersweier,Peterstal,Pfaffenweiler,Pfalzgrafenweiler,Pforzheim,Rastatt,Renchen,Rheinau,Rheinfelden,Rheinmunster,Rickenbach,Rippoldsau,Rohrdorf,Rottweil,Rummingen,Rust,Sackingen,Sasbach,Sasbachwalden,Schallbach,Schallstadt,Schapbach,Schenkenzell,Schiltach,Schliengen,Schluchsee,Schomberg,Schonach,Schonau,Schonenberg,Schonwald,Schopfheim,Schopfloch,Schramberg,Schuttertal,Schwenningen,Schworstadt,Seebach,Seelbach,Seewald,Sexau,Simmersfeld,Simonswald,Sinzheim,Solden,Staufen,Stegen,Steinach,Steinen,Steinmauern,Straubenhardt,Stuhlingen,Sulz,Sulzburg,Teinach,Tiefenbronn,Tiengen,Titisee,Todtmoos,Todtnau,Todtnauberg,Triberg,Tunau,Tuningen,uhlingen,Unterkirnach,Reichenbach,Utzenfeld,Villingen,Villingendorf,Vogtsburg,Vohrenbach,Waldachtal,Waldbronn,Waldkirch,Waldshut,Wehr,Weil,Weilheim,Weisenbach,Wembach,Wieden,Wiesental,Wildbad,Wildberg,Winzeln,Wittlingen,Wittnau,Wolfach,Wutach,Wutoschingen,Wyhlen,Zavelstein"
   },
   {
-    name: "English",
-    i: 1,
-    min: 6,
-    max: 11,
-    d: "",
-    m: 0.1,
-    b: "Abingdon,Albrighton,Alcester,Almondbury,Altrincham,Amersham,Andover,Appleby,Ashboume,Atherstone,Aveton,Axbridge,Aylesbury,Baldock,Bamburgh,Barton,Basingstoke,Berden,Bere,Berkeley,Berwick,Betley,Bideford,Bingley,Birmingham,Blandford,Blechingley,Bodmin,Bolton,Bootham,Boroughbridge,Boscastle,Bossinney,Bramber,Brampton,Brasted,Bretford,Bridgetown,Bridlington,Bromyard,Bruton,Buckingham,Bungay,Burton,Calne,Cambridge,Canterbury,Carlisle,Castleton,Caus,Charmouth,Chawleigh,Chichester,Chillington,Chinnor,Chipping,Chisbury,Cleobury,Clifford,Clifton,Clitheroe,Cockermouth,Coleshill,Combe,Congleton,Crafthole,Crediton,Cuddenbeck,Dalton,Darlington,Dodbrooke,Drax,Dudley,Dunstable,Dunster,Dunwich,Durham,Dymock,Exeter,Exning,Faringdon,Felton,Fenny,Finedon,Flookburgh,Fowey,Frampton,Gateshead,Gatton,Godmanchester,Grampound,Grantham,Guildford,Halesowen,Halton,Harbottle,Harlow,Hatfield,Hatherleigh,Haydon,Helston,Henley,Hertford,Heytesbury,Hinckley,Hitchin,Holme,Hornby,Horsham,Kendal,Kenilworth,Kilkhampton,Kineton,Kington,Kinver,Kirby,Knaresborough,Knutsford,Launceston,Leighton,Lewes,Linton,Louth,Luton,Lyme,Lympstone,Macclesfield,Madeley,Malborough,Maldon,Manchester,Manningtree,Marazion,Marlborough,Marshfield,Mere,Merryfield,Middlewich,Midhurst,Milborne,Mitford,Modbury,Montacute,Mousehole,Newbiggin,Newborough,Newbury,Newenden,Newent,Norham,Northleach,Noss,Oakham,Olney,Orford,Ormskirk,Oswestry,Padstow,Paignton,Penkneth,Penrith,Penzance,Pershore,Petersfield,Pevensey,Pickering,Pilton,Pontefract,Portsmouth,Preston,Quatford,Reading,Redcliff,Retford,Rockingham,Romney,Rothbury,Rothwell,Salisbury,Saltash,Seaford,Seasalter,Sherston,Shifnal,Shoreham,Sidmouth,Skipsea,Skipton,Solihull,Somerton,Southam,Southwark,Standon,Stansted,Stapleton,Stottesdon,Sudbury,Swavesey,Tamerton,Tarporley,Tetbury,Thatcham,Thaxted,Thetford,Thornbury,Tintagel,Tiverton,Torksey,Totnes,Towcester,Tregoney,Trematon,Tutbury,Uxbridge,Wallingford,Wareham,Warenmouth,Wargrave,Warton,Watchet,Watford,Wendover,Westbury,Westcheap,Weymouth,Whitford,Wickwar,Wigan,Wigmore,Winchelsea,Winkleigh,Wiscombe,Witham,Witheridge,Wiveliscombe,Woodbury,Yeovil"
-  },
-  {
-    name: "French",
-    i: 2,
-    min: 5,
-    max: 13,
-    d: "nlrs",
-    m: 0.1,
-    b: "Adon,Aillant,Amilly,Andonville,Ardon,Artenay,Ascheres,Ascoux,Attray,Aubin,Audeville,Aulnay,Autruy,Auvilliers,Auxy,Aveyron,Baccon,Bardon,Barville,Batilly,Baule,Bazoches,Beauchamps,Beaugency,Beaulieu,Beaune,Bellegarde,Boesses,Boigny,Boiscommun,Boismorand,Boisseaux,Bondaroy,Bonnee,Bonny,Bordes,Bou,Bougy,Bouilly,Boulay,Bouzonville,Bouzy,Boynes,Bray,Breteau,Briare,Briarres,Bricy,Bromeilles,Bucy,Cepoy,Cercottes,Cerdon,Cernoy,Cesarville,Chailly,Chaingy,Chalette,Chambon,Champoulet,Chanteau,Chantecoq,Chapell,Charme,Charmont,Charsonville,Chateau,Chateauneuf,Chatel,Chatenoy,Chatillon,Chaussy,Checy,Chevannes,Chevillon,Chevilly,Chevry,Chilleurs,Choux,Chuelles,Clery,Coinces,Coligny,Combleux,Combreux,Conflans,Corbeilles,Corquilleroy,Cortrat,Coudroy,Coullons,Coulmiers,Courcelles,Courcy,Courtemaux,Courtempierre,Courtenay,Cravant,Crottes,Dadonville,Dammarie,Dampierre,Darvoy,Desmonts,Dimancheville,Donnery,Dordives,Dossainville,Douchy,Dry,Echilleuses,Egry,Engenville,Epieds,Erceville,Ervauville,Escrennes,Escrignelles,Estouy,Faverelles,Fay,Feins,Ferolles,Ferrieres,Fleury,Fontenay,Foret,Foucherolles,Freville,Gatinais,Gaubertin,Gemigny,Germigny,Gidy,Gien,Girolles,Givraines,Gondreville,Grangermont,Greneville,Griselles,Guigneville,Guilly,Gyleslonains,Huetre,Huisseau,Ingrannes,Ingre,Intville,Isdes,Ivre,Jargeau,Jouy,Juranville,Bussiere,Laas,Ladon,Lailly,Langesse,Leouville,Ligny,Lombreuil,Lorcy,Lorris,Loury,Louzouer,Malesherbois,Marcilly,Mardie,Mareau,Marigny,Marsainvilliers,Melleroy,Menestreau,Merinville,Messas,Meung,Mezieres,Migneres,Mignerette,Mirabeau,Montargis,Montbarrois,Montbouy,Montcresson,Montereau,Montigny,Montliard,Mormant,Morville,Moulinet,Moulon,Nancray,Nargis,Nesploy,Neuville,Neuvy,Nevoy,Nibelle,Nogent,Noyers,Ocre,Oison,Olivet,Ondreville,Onzerain,Orleans,Ormes,Orville,Oussoy,Outarville,Ouzouer,Pannecieres,Pannes,Patay,Paucourt,Pers,Pierrefitte,Pithiverais,Pithiviers,Poilly,Potier,Prefontaines,Presnoy,Pressigny,Puiseaux,Quiers,Ramoulu,Rebrechien,Rouvray,Rozieres,Rozoy,Ruan,Sandillon,Santeau,Saran,Sceaux,Seichebrieres,Semoy,Sennely,Sermaises,Sigloy,Solterre,Sougy,Sully,Sury,Tavers,Thignonville,Thimory,Thorailles,Thou,Tigy,Tivernon,Tournoisis,Trainou,Treilles,Trigueres,Trinay,Vannes,Varennes,Vennecy,Vieilles,Vienne,Viglain,Vignes,Villamblain,Villemandeur,Villemoutiers,Villemurlin,Villeneuve,Villereau,Villevoques,Villorceau,Vimory,Vitry,Vrigny"
-  },
-  {
-    name: "Italian",
-    i: 3,
-    min: 5,
-    max: 12,
-    d: "cltr",
-    m: 0.1,
-    b: "Accumoli,Acquafondata,Acquapendente,Acuto,Affile,Agosta,Alatri,Albano,Allumiere,Alvito,Amaseno,Amatrice,Anagni,Anguillara,Anticoli,Antrodoco,Anzio,Aprilia,Aquino,Arcinazzo,Ariccia,Arpino,Arsoli,Ausonia,Bagnoregio,Bassiano,Bellegra,Belmonte,Bolsena,Bomarzo,Borgorose,Boville,Bracciano,Broccostella,Calcata,Camerata,Campagnano,Campoli,Canale,Canino,Cantalice,Cantalupo,Capranica,Caprarola,Carbognano,Casalattico,Casalvieri,Castelforte,Castelnuovo,Castiglione,Castro,Castrocielo,Ceccano,Celleno,Cellere,Cerreto,Cervara,Cerveteri,Ciampino,Ciciliano,Cittaducale,Cittareale,Civita,Civitella,Colfelice,Colleferro,Collepardo,Colonna,Concerviano,Configni,Contigliano,Cori,Cottanello,Esperia,Faleria,Farnese,Ferentino,Fiamignano,Filacciano,Fiuggi,Fiumicino,Fondi,Fontana,Fonte,Fontechiari,Formia,Frascati,Frasso,Frosinone,Fumone,Gaeta,Gallese,Gavignano,Genazzano,Giuliano,Gorga,Gradoli,Grottaferrata,Grotte,Guarcino,Guidonia,Ischia,Isola,Labico,Labro,Ladispoli,Latera,Lenola,Leonessa,Licenza,Longone,Lubriano,Maenza,Magliano,Marano,Marcellina,Marcetelli,Marino,Mazzano,Mentana,Micigliano,Minturno,Montalto,Montasola,Montebuono,Monteflavio,Montelanico,Monteleone,Montenero,Monterosi,Moricone,Morlupo,Nazzano,Nemi,Nerola,Nespolo,Nettuno,Norma,Olevano,Onano,Oriolo,Orte,Orvinio,Paganico,Paliano,Palombara,Patrica,Pescorocchiano,Petrella,Piansano,Picinisco,Pico,Piedimonte,Piglio,Pignataro,Poggio,Poli,Pomezia,Pontecorvo,Pontinia,Ponzano,Posta,Pozzaglia,Priverno,Proceno,Rignano,Riofreddo,Ripi,Rivodutri,Rocca,Roccagorga,Roccantica,Roccasecca,Roiate,Ronciglione,Roviano,Salisano,Sambuci,Santa,Santini,Scandriglia,Segni,Selci,Sermoneta,Serrone,Settefrati,Sezze,Sgurgola,Sonnino,Sora,Soriano,Sperlonga,Spigno,Subiaco,Supino,Sutri,Tarano,Tarquinia,Terelle,Terracina,Tivoli,Toffia,Tolfa,Torrice,Torricella,Trevi,Trevignano,Trivigliano,Turania,Tuscania,Valentano,Vallecorsa,Vallemaio,Vallepietra,Vallerano,Vasanello,Vejano,Velletri,Ventotene,Veroli,Vetralla,Vicalvi,Vico,Vicovaro,Vignanello,Viterbo,Viticuso,Vitorchiano,Vivaro,Zagarolo"
-  },
-  {
-    name: "Castillian",
-    i: 4,
-    min: 5,
-    max: 11,
-    d: "lr",
-    m: 0,
-    b: "Ajofrin,Alameda,Alaminos,Albares,Albarreal,Albendiego,Alcanizo,Alcaudete,Alcolea,Aldea,Aldeanueva,Algar,Algora,Alhondiga,Almadrones,Almendral,Alovera,Anguita,Arbancon,Argecilla,Arges,Arroyo,Atanzon,Atienza,Azuqueca,Baides,Banos,Bargas,Barriopedro,Belvis,Berninches,Brihuega,Buenaventura,Burgos,Burguillos,Bustares,Cabanillas,Calzada,Camarena,Campillo,Cantalojas,Cardiel,Carmena,Casas,Castejon,Castellar,Castilforte,Castillo,Castilnuevo,Cazalegas,Centenera,Cervera,Checa,Chozas,Chueca,Cifuentes,Cincovillas,Ciruelas,Cogollor,Cogolludo,Consuegra,Copernal,Corral,Cuerva,Domingo,Dosbarrios,Driebes,Duron,Escalona,Escalonilla,Escamilla,Escopete,Espinosa,Esplegares,Esquivias,Estables,Estriegana,Fontanar,Fuembellida,Fuensalida,Fuentelsaz,Gajanejos,Galvez,Gascuena,Gerindote,Guadamur,Heras,Herreria,Herreruela,Hinojosa,Hita,Hombrados,Hontanar,Hormigos,Huecas,Huerta,Humanes,Illana,Illescas,Iniestola,Irueste,Jadraque,Jirueque,Lagartera,Ledanca,Lillo,Lominchar,Loranca,Lucillos,Luzaga,Luzon,Madrid,Magan,Malaga,Malpica,Manzanar,Maqueda,Masegoso,Matillas,Medranda,Megina,Mejorada,Millana,Milmarcos,Mirabueno,Miralrio,Mocejon,Mochales,Molina,Mondejar,Montarron,Mora,Moratilla,Morenilla,Navas,Negredo,Noblejas,Numancia,Nuno,Ocana,Ocentejo,Olias,Olmeda,Ontigola,Orea,Orgaz,Oropesa,Otero,Palma,Pardos,Paredes,Penalver,Pepino,Peralejos,Pinilla,Pioz,Piqueras,Portillo,Poveda,Pozo,Pradena,Prados,Puebla,Puerto,Quero,Quintanar,Rebollosa,Retamoso,Riba,Riofrio,Robledo,Romanillos,Romanones,Rueda,Salmeron,Santiuste,Santo,Sauca,Segura,Selas,Semillas,Sesena,Setiles,Sevilla,Siguenza,Solanillos,Somolinos,Sonseca,Sotillo,Talavera,Taravilla,Tembleque,Tendilla,Tierzo,Torralba,Torre,Torrejon,Torrijos,Tortola,Tortuera,Totanes,Trillo,Uceda,Ugena,Urda,Utande,Valdesotos,Valhermoso,Valtablado,Valverde,Velada,Viana,Yebra,Yuncos,Yunquera,Zaorejas,Zarzuela,Zorita"
-  },
-  {
     name: "Ruthenian",
     i: 5,
     min: 5,
@@ -112,15 +106,6 @@ const defaultNameBases: NameBase[] = [
     d: "",
     m: 0,
     b: "Belgorod,Beloberezhye,Belyi,Belz,Berestiy,Berezhets,Berezovets,Berezutsk,Bobruisk,Bolonets,Borisov,Borovsk,Bozhesk,Bratslav,Bryansk,Brynsk,Buryn,Byhov,Chechersk,Chemesov,Cheremosh,Cherlen,Chern,Chernigov,Chernitsa,Chernobyl,Chernogorod,Chertoryesk,Chetvertnia,Demyansk,Derevesk,Devyagoresk,Dichin,Dmitrov,Dorogobuch,Dorogobuzh,Drestvin,Drokov,Drutsk,Dubechin,Dubichi,Dubki,Dubkov,Dveren,Galich,Glebovo,Glinsk,Goloty,Gomiy,Gorodets,Gorodische,Gorodno,Gorohovets,Goroshin,Gorval,Goryshon,Holm,Horobor,Hoten,Hotin,Hotmyzhsk,Ilovech,Ivan,Izborsk,Izheslavl,Kamenets,Kanev,Karachev,Karna,Kavarna,Klechesk,Klyapech,Kolomyya,Kolyvan,Kopyl,Korec,Kornik,Korochunov,Korshev,Korsun,Koshkin,Kotelno,Kovyla,Kozelsk,Kozelsk,Kremenets,Krichev,Krylatsk,Ksniatin,Kulatsk,Kursk,Kursk,Lebedev,Lida,Logosko,Lomihvost,Loshesk,Loshichi,Lubech,Lubno,Lubutsk,Lutsk,Luchin,Luki,Lukoml,Luzha,Lvov,Mtsensk,Mdin,Medniki,Melecha,Merech,Meretsk,Mescherskoe,Meshkovsk,Metlitsk,Mezetsk,Mglin,Mihailov,Mikitin,Mikulino,Miloslavichi,Mogilev,Mologa,Moreva,Mosalsk,Moschiny,Mozyr,Mstislav,Mstislavets,Muravin,Nemech,Nemiza,Nerinsk,Nichan,Novgorod,Novogorodok,Obolichi,Obolensk,Obolensk,Oleshsk,Olgov,Omelnik,Opoka,Opoki,Oreshek,Orlets,Osechen,Oster,Ostrog,Ostrov,Perelai,Peremil,Peremyshl,Pererov,Peresechen,Perevitsk,Pereyaslav,Pinsk,Ples,Polotsk,Pronsk,Proposhesk,Punia,Putivl,Rechitsa,Rodno,Rogachev,Romanov,Romny,Roslavl,Rostislavl,Rostovets,Rsha,Ruza,Rybchesk,Rylsk,Rzhavesk,Rzhev,Rzhischev,Sambor,Serensk,Serensk,Serpeysk,Shilov,Shuya,Sinech,Sizhka,Skala,Slovensk,Slutsk,Smedin,Sneporod,Snitin,Snovsk,Sochevo,Sokolec,Starica,Starodub,Stepan,Sterzh,Streshin,Sutesk,Svinetsk,Svisloch,Terebovl,Ternov,Teshilov,Teterin,Tiversk,Torchevsk,Toropets,Torzhok,Tripolye,Trubchevsk,Tur,Turov,Usvyaty,Uteshkov,Vasilkov,Velil,Velye,Venev,Venicha,Verderev,Vereya,Veveresk,Viazma,Vidbesk,Vidychev,Voino,Volodimer,Volok,Volyn,Vorobesk,Voronich,Voronok,Vorotynsk,Vrev,Vruchiy,Vselug,Vyatichsk,Vyatka,Vyshegorod,Vyshgorod,Vysokoe,Yagniatin,Yaropolch,Yasenets,Yuryev,Yuryevets,Zaraysk,Zhitomel,Zholvazh,Zizhech,Zubkov,Zudechev,Zvenigorod"
-  },
-  {
-    name: "Greek",
-    i: 6,
-    min: 3,
-    max: 14,
-    d: "lnrt",
-    m: 0,
-    b: "Athina,Thessaloniki,Patra,Irakleio,Larisa,Volos,Ioannina,Chania,Rodos,Kalamata,Kerkyra,Argos,Sparti,Nafplio,Olympia,Delphi,Metsovo,Kastoria,Preveza,Veria,Kilkis,Serres,Alexandroupoli,Drama,Xanthi,Komotini,Kavala,Grevena,Kozani,Florina,Edessa,Giannitsa,Katerini,Litochoro,Ptolemaida,Naousa,Trikala,Lamia,Chalkida,Corinth,Mytilene,Samos,Zakynthos,Corfu,Hydra,Spetses,Monemvasia,Gytheion,Mistras,Vergina,Pella,Dion,Thebes,Chalcis,Eretria,Megara,Loutraki,Nemea"
   },
   {
     name: "Greek",
@@ -141,15 +126,6 @@ const defaultNameBases: NameBase[] = [
     b: "Abila,Adflexum,Adnicrem,Aelia,Aelius,Aeminium,Aequum,Agrippina,Agrippinae,Ala,Albanianis,Aleria,Ambianum,Andautonia,Apulum,Aquae,Aquaegranni,Aquensis,Aquileia,Aquincum,Arae,Argentoratum,Ariminum,Ascrivium,Asturica,Atrebatum,Atuatuca,Augusta,Aurelia,Aurelianorum,Batavar,Batavorum,Belum,Biriciana,Blestium,Bonames,Bonna,Bononia,Borbetomagus,Bovium,Bracara,Brigantium,Burgodunum,Caesaraugusta,Caesarea,Caesaromagus,Calleva,Camulodunum,Cannstatt,Cantiacorum,Capitolina,Caralis,Castellum,Castra,Castrum,Cibalae,Clausentum,Colonia,Concangis,Condate,Confluentes,Conimbriga,Corduba,Coria,Corieltauvorum,Corinium,Coriovallum,Cornoviorum,Danum,Deva,Dianium,Divodurum,Dobunnorum,Drusi,Dubris,Dumnoniorum,Durnovaria,Durocobrivis,Durocornovium,Duroliponte,Durovernum,Durovigutum,Eboracum,Ebusus,Edetanorum,Emerita,Emona,Emporiae,Euracini,Faventia,Flaviae,Florentia,Forum,Gerulata,Gerunda,Gesoscribate,Glevensium,Hadriani,Herculanea,Isca,Italica,Iulia,Iuliobrigensium,Iuvavum,Lactodurum,Lagentium,Lapurdum,Lauri,Legionis,Lemanis,Lentia,Lepidi,Letocetum,Lindinis,Lindum,Lixus,Londinium,Lopodunum,Lousonna,Lucus,Lugdunum,Luguvalium,Lutetia,Mancunium,Marsonia,Martius,Massa,Massilia,Matilo,Mattiacorum,Mediolanum,Mod,Mogontiacum,Moridunum,Mursa,Naissus,Nervia,Nida,Nigrum,Novaesium,Noviomagus,Olicana,Olisippo,Ovilava,Parisiorum,Partiscum,Paterna,Pistoria,Placentia,Pollentia,Pomaria,Pompeii,Pons,Portus,Praetoria,Praetorium,Pullum,Ragusium,Ratae,Raurica,Ravenna,Regina,Regium,Regulbium,Rigomagus,Roma,Romula,Rutupiae,Salassorum,Salernum,Salona,Scalabis,Segovia,Silurum,Sirmium,Siscia,Sorviodurum,Sumelocenna,Tarraco,Taurinorum,Theranda,Traiectum,Treverorum,Tungrorum,Turicum,Ulpia,Valentia,Venetiae,Venta,Verulamium,Vesontio,Vetera,Victoriae,Victrix,Villa,Viminacium,Vindelicorum,Vindobona,Vinovia,Viroconium"
   },
   {
-    name: "Estonian",
-    i: 9,
-    min: 3,
-    max: 13,
-    d: "klmnprst",
-    m: 0,
-    b: "Tallinn,Parnu,Kohtla-Jarve,Maardu,Sillamae,Voru,Johvi,Poltsamaa,Türi,Keila-Joa,Viljandi,Rakvere,Kuressaare,Valga,Paide,Elva,Tapa,Kardla,Polva,Rapina,Antsla,Narva,Narva-Joesuu,Otepaa,Kunda,Torva,Keila,Rapla,Kehra,Loksa,Kilingi-Nomme,Karksi-Nuia,Vohma,Mustvee,Lihula,Suure-Jaani,Abja-Paluoja,Pussi,Moisakula,Kallaste,Puka,Oisu,Tori,Audru,Viimsi,Rae,Harku,Vaike-Maarja,Vinni,Rakke,Laekvere,Paikuse,Saarde,Torigu,Vandra"
-  },
-  {
     name: "Korean",
     i: 10,
     min: 5,
@@ -157,42 +133,6 @@ const defaultNameBases: NameBase[] = [
     d: "",
     m: 0,
     b: "Anjung,Ansan,Anseong,Anyang,Aphae,Apo,Baekseok,Baeksu,Beolgyo,Boeun,Boseong,Busan,Buyeo,Changnyeong,Changwon,Cheonan,Cheongdo,Cheongjin,Cheongsong,Cheongyang,Cheorwon,Chirwon,Chuncheon,Chungju,Daedeok,Daegaya,Daejeon,Damyang,Dangjin,Dasa,Donghae,Dongsong,Doyang,Eonyang,Gaeseong,Ganggyeong,Ganghwa,Gangneung,Ganseong,Gaun,Geochang,Geoje,Geoncheon,Geumho,Geumil,Geumwang,Gijang,Gimcheon,Gimhwa,Gimje,Goa,Gochang,Gohan,Gongdo,Gongju,Goseong,Goyang,Gumi,Gunpo,Gunsan,Guri,Gurye,Gwangju,Gwangyang,Gwansan,Gyeongseong,Hadong,Hamchang,Hampyeong,Hamyeol,Hanam,Hapcheon,Hayang,Heungnam,Hongnong,Hongseong,Hwacheon,Hwando,Hwaseong,Hwasun,Hwawon,Hyangnam,Incheon,Inje,Iri,Janghang,Jangheung,Jangseong,Jangseungpo,Jangsu,Jecheon,Jeju,Jeomchon,Jeongeup,Jeonggwan,Jeongju,Jeongok,Jeongseon,Jeonju,Jido,Jiksan,Jinan,Jincheon,Jindo,Jingeon,Jinjeop,Jinnampo,Jinyeong,Jocheon,Jochiwon,Jori,Maepo,Mangyeong,Mokpo,Muju,Munsan,Naesu,Naju,Namhae,Namwon,Namyang,Namyangju,Nongong,Nonsan,Ocheon,Okcheon,Okgu,Onam,Onsan,Onyang,Opo,Paengseong,Pogok,Poseung,Pungsan,Pyeongchang,Pyeonghae,Pyeongyang,Sabi,Sacheon,Samcheok,Samho,Samrye,Sancheong,Sangdong,Sangju,Sapgyo,Sariwon,Sejong,Seocheon,Seogwipo,Seonghwan,Seongjin,Seongju,Seongnam,Seongsan,Seosan,Seungju,Siheung,Sindong,Sintaein,Soheul,Sokcho,Songak,Songjeong,Songnim,Songtan,Suncheon,Taean,Taebaek,Tongjin,Uijeongbu,Uiryeong,Uiwang,Uljin,Ulleung,Unbong,Ungcheon,Ungjin,Waegwan,Wando,Wayang,Wiryeseong,Wondeok,Yangju,Yangsan,Yangyang,Yecheon,Yeomchi,Yeoncheon,Yeongam,Yeongcheon,Yeongdeok,Yeongdong,Yeonggwang,Yeongju,Yeongwol,Yeongyang,Yeonil,Yongin,Yongjin,Yugu"
-  },
-  {
-    name: "Japanese",
-    i: 11,
-    min: 4,
-    max: 11,
-    d: "kstp",
-    m: 0,
-    b: "Tokyo,Osaka,Kyoto,Yokohama,Nagoya,Sapporo,Kobe,Fukuoka,Kawasaki,Hiroshima,Sendai,Kitakyushu,Chiba,Sakai,Niigata,Okayama,Kumamoto,Kagoshima,Shizuoka,Hamamatsu,Matsuyama,Utsunomiya,Toyohashi,Kanazawa,Nagasaki,Gifu,Akita,Hirosaki,Aomori,Hachinohe,Funabashi,Ichikawa,Matsudo,Kashiwa,Narita,Sakura,Tateyama,Kisarazu,Noda,Mobara,Ichihara,Nagareyama,Yachiyo,Abiko,Kamagaya,Kimitsu,Futtsu,Urayasu,Yotsukaido,Sodegaura,Yachimata,Inzai,Shiroi,Tomisato,Kamogawa,Asahi,Isumi,Sosa,Minamiboso,Katori,Sanmu,Niihama,Imabari,Uwajima,Niiya,Ozu,Saitama,Kawagoe,Hakodate,Hachioji,Fuchu,Machida,Kofu,Numazu,Nagano,Matsumoto,Toyama,Takayama,Oita,Miyazaki,Kochi,Wakayama,Naha,Morioka"
-  },
-  {
-    name: "Portuguese",
-    i: 12,
-    min: 5,
-    max: 19,
-    d: "lnrt",
-    m: 0,
-    b: "Lisboa,Porto,Coimbra,Braga,Aveiro,Faro,Guimarães,Évora,Setúbal,Viseu,Sintra,Óbidos,Fátima,Albufeira,Cascais,Amadora,Odivelas,Leiria,Santarem,Torres Vedras,Figueira da Foz,Ponte de Lima,Bragança,Chaves,Guarda,Portimão,Funchal,Ponta Delgada,Angra do Heroísmo,Beja"
-  },
-  {
-    name: "Nahuatl",
-    i: 13,
-    min: 4,
-    max: 16,
-    d: "lmtnxzc",
-    m: 0,
-    b: "Tenochtitlan,Mexihco,Texcoco,Xochimilco,Tlaxcallan,Cuauhnahuac,Azcapotzalco,Tlatelolco,Chalco,Tenayuca,Tepotzotlan,Huaxacac,Tlachco,Cuicatlan,Comitlan,Amatlan,Tonanytlan,Xolotlan,Yopico,Teotihuacan,Cholollan,Tizayuca,Apizaco,Huamantla,Contla,Ixtacamaxtitlan,Tetela,Ocotlan,Tonatico,Xalatlaco,Chalchiuhcuecan,Atemaxac,Atlacomolco,Cuauhtitlan,Mazatlan,Acatlan,Coatepec,Huejutla,Ixmiquilpan,Tizatlan,Tollantzinco,Tochtepec,Tequixquiac,Zacualco,Tepecoyo,Chapultepec,Coyoacan,Tlalpan,Malinalco,Tulancingo,Zempoala,Cempoala,Tlalmanalco,Amecatepec,Cuautitlan,Jilotepec,Atlixco,Huaquechula,Chiautla,Tepeaca,Tehuacan,Cuautinchan,Atoyatempan,Tecali,Tepexi,Tlachichuca,Zacatlan,Xicotepec,Chignahuapan,Zacapoaxtla,Cuetzalan,Xalapa,Acajete,Tlacojalpan,Tlacolulan,Tlacotalpan,Tlaltetela,Tlapacoyan,Tlilapan,Tomatlan,Tonayan,Totutla,Xico,Yecuatla,Zacualpan,Zongolica,Zontecomatlan,Acula,Catemaco,Chacaltianguis,Cosamaloapan,Cotaxtla,Ixmatlahuacan,Jamapa,Miahuatlan,Minatitlan,Naolinco,Otatitlan,Panuco,Xochicoatlan,Yahuitlan,Xaltocan,Metepec,Ixtlahuaca,Atlacomulco,Jiquipilco,Aculco,Temascalcingo,Coyotepec,Hueypoxtla,Nextlalpan,Tepetlaoxtoc,Chiconcuac,Tepanohuayan,Cuautlancingo,Tlalnepantla"
-  },
-  {
-    name: "Hungarian",
-    i: 14,
-    min: 3,
-    max: 16,
-    d: "lnrt",
-    m: 0,
-    b: "Budapest,Debrecen,Szeged,Miskolc,Pecs,Gyor,Nyiregyhaza,Kecskemet,Szekesfehervar,Szombathely,Eger,Sopron,Veszprem,Zalaegerszeg,Salgotarjan,Kaposvar,Bekescsaba,Dunaujvaros,Hodmezovasarhely,Szekszard,Kiskunfelegyhaza,Ceglad,Jaszbereny,Paks,Baja,Szolnok,Tatabanya,Ozd,Vecses,Kazincbarcika,Godollo,Szentendre,Esztergom,Komarom,Gyula,Oroshaza,Vac,Dunakeszi,Nagykanizsa,Papa,Varpalota,Mezokovesd,Szarvas,Bekes,Mosonmagyarovar,Keszthely,Tapolca,Balatonfured,Siofok,Pecsvar,Sarkad,Hajduboszormeny,Mateszalka,Vasvarosnameny,Tokaj,Satoraljaujhely,Kisvarda,Fehergyarmat,Berettyoujfalu"
   },
   {
     name: "Hungarian",
@@ -214,15 +154,6 @@ const defaultNameBases: NameBase[] = [
   },
   {
     name: "Arabic",
-    i: 17,
-    min: 4,
-    max: 15,
-    d: "bdfghklmnqrstwxz",
-    m: 0,
-    b: "Baghdad,Damascus,Beirut,Al-Quds,Cairo,Riyadh,Jeddah,Makkah,Al-Madinah,Muscat,Ad-Dawhah,Abu Dhabi,Al-Kuwayt,Manamah,Sanaa,Al-Adan,Al-Iskandariyah,Tarablus,Tunis,Al-Jazair,Ad-Dar al-Bayda,Rabat,Muqdisho,Al-Khartum,Amman,Kuwait City,Doha,Manama,Aden,Aleppo,Homs,Tripoli,Sidon,Tyre,Jerusalem,Basra,Mosul,Hama,Latakia,Casablanca,Fez,Marrakesh,Oran,Constantine,Benghazi,Misrata,Sfax,Sousse,Nouakchott,Djibouti,Moroni,Luxor,Aswan,PortSaid,Suez,Taif,Tabuk,Buraidah,Hail,Salalah,Nizwa,Sharjah,Ajman,RasAlKhaimah,Fujairah,Muharraq,Hawalli,Salmiya,Karbala,Najaf,Erbil,Sulaymaniyah,Gaza,Hebron,Nablus,Zarqa,Irbid,Aqaba,Agadir,Tetouan,Tangier,Meknes,Tlemcen,Batna,Setif,Biskra,WadMadani,PortSudan,Mukalla,Taiz,Ibb,Hodeidah,Dhamar,Dubai"
-  },
-  {
-    name: "Arabic",
     i: 18,
     min: 4,
     max: 9,
@@ -238,15 +169,6 @@ const defaultNameBases: NameBase[] = [
     d: "alutsn",
     m: 0,
     b: "Aaluik,Aappilattoq,Aasiaat,Agissat,Agssaussat,Akuliarutsip,Akunnaaq,Alluitsup,Alluttoq,Amitsorsuaq,Ammassalik,Anarusuk,Anguniartarfik,Annertussoq,Annikitsoq,Apparsuit,Apusiaajik,Arsivik,Arsuk,Atammik,Ateqanaq,Atilissuaq,Attu,Augpalugtoq,Aukarnersuaq,Aumat,Auvilkikavsaup,Avadtlek,Avallersuaq,Bjornesk,Blabaerdalen,Blomsterdalen,Brattalhid,Bredebrae,Brededal,Claushavn,Edderfulegoer,Egger,Eqalugalinnguit,Eqalugarssuit,Eqaluit,Eqqua,Etah,Graah,Hakluyt,Haredalen,Hareoen,Hundeo,Igaliku,Igdlorssuit,Igdluluarssuk,Iginniafik,Ikamiut,Ikarissat,Ikateq,Ikermiut,Ikermoissuaq,Ikorfarssuit,Ilimanaq,Illorsuit,Illunnguit,Iluileq,Ilulissat,Imaarsivik,Imartunarssuk,Immikkoortukajik,Innaarsuit,Inneruulalik,Inussullissuaq,Iperaq,Ippik,Iqek,Isortok,Isungartussoq,Itileq,Itissaalik,Itivdleq,Ittit,Ittoqqortoormiit,Ivingmiut,Ivittuut,Kanajoorartuut,Kangaamiut,Kangeq,Kangerluk,Kangerlussuaq,Kanglinnguit,Kapisillit,Kekertamiut,Kiatak,Kiataussaq,Kigatak,Kinaussak,Kingittorsuaq,Kitak,Kitsissuarsuit,Kitsissut,Klenczner,Kook,Kraulshavn,Kujalleq,Kullorsuaq,Kulusuk,Kuurmiit,Kuusuaq,Laksedalen,Maniitsoq,Marrakajik,Mattaangassut,Mernoq,Mittivakkat,Moriusaq,Myggbukta,Naajaat,Nangissat,Nanuuseq,Nappassoq,Narsarmijt,Narsarsuaq,Narssaq,Nasiffik,Natsiarsiorfik,Naujanguit,Niaqornaarsuk,Niaqornat,Nordfjordspasset,Nugatsiaq,Nunarssit,Nunarsuaq,Nunataaq,Nunatakavsaup,Nutaarmiut,Nuugaatsiaq,Nuuk,Nuukullak,Olonkinbyen,Oodaaq,Oqaatsut,Oqaitsunguit,Oqonermiut,Paagussat,Paamiut,Paatuut,Palungataq,Pamialluk,Perserajoq,Pituffik,Puugutaa,Puulkuip,Qaanaq,Qaasuitsup,Qaersut,Qajartalik,Qallunaat,Qaneq,Qaqortok,Qasigiannguit,Qassimiut,Qeertartivaq,Qeqertaq,Qeqertasussuk,Qeqqata,Qernertoq,Qernertunnguit,Qianarreq,Qingagssat,Qoornuup,Qorlortorsuaq,Qullikorsuit,Qunnerit,Qutdleq,Ravnedalen,Ritenbenk,Rypedalen,Saarloq,Saatorsuaq,Saattut,Salliaruseq,Sammeqqat,Sammisoq,Sanningassoq,Saqqaq,Saqqarlersuaq,Saqqarliit,Sarfannguit,Sattiaatteq,Savissivik,Serfanguaq,Sermersooq,Sermiligaaq,Sermilik,Sermitsiaq,Simitakaja,Simiutaq,Singamaq,Siorapaluk,Sisimiut,Sisuarsuit,Sullorsuaq,Suunikajik,Sverdrup,Taartoq,Takiseeq,Tasirliaq,Tasiusak,Tiilerilaaq,Timilersua,Timmiarmiut,Tukingassoq,Tussaaq,Tuttulissuup,Tuujuk,Uiivaq,Uilortussoq,Ujuaakajiip,Ukkusissat,Upernavik,Uttorsiutit,Uumannaq,Uunartoq,Uvkusigssat,Ymer"
-  },
-  {
-    name: "Ijaw",
-    i: 20,
-    min: 3,
-    max: 11,
-    d: "lnrt",
-    m: 0,
-    b: "Brass,Nembe,Okrika,Opobo,Abonnema,Buguma,Yenagoa,Odi,Kolokuma,Patani,Warri,Forcados,Burutu,Ogulagha,Obioku,Opuama,Edegbene,Oporoza,Okpokunu,Agoloma,Ofoni,Bassambiri,Ogbia,Amassoma,Oloibiri,Gbarantoru,Ogbinobi,Ogu,Opuokutu,Akugbene,Olodiama,Obotebe,Okumbiri,Okolo,Epie,Atissa,Agbura,Okirika,Ogbogolo,Okaraja,Ikodi,Ogbe-Ijaw,Amakalakala"
   },
   {
     name: "Nigerian",
@@ -267,69 +189,6 @@ const defaultNameBases: NameBase[] = [
     b: "Aberaman,Aberangell,Aberarth,Aberavon,Aberbanc,Aberbargoed,Aberbeeg,Abercanaid,Abercarn,Abercastle,Abercegir,Abercraf,Abercregan,Abercych,Abercynon,Aberdare,Aberdaron,Aberdaugleddau,Aberdeen,Aberdulais,Aberdyfi,Aberedw,Abereiddy,Abererch,Abereron,Aberfan,Aberffraw,Aberffrwd,Abergavenny,Abergele,Aberglasslyn,Abergorlech,Abergwaun,Abergwesyn,Abergwili,Abergwynfi,Abergwyngregyn,Abergynolwyn,Aberhafesp,Aberhonddu,Aberkenfig,Aberllefenni,Abermain,Abermaw,Abermorddu,Abermule,Abernant,Aberpennar,Aberporth,Aberriw,Abersoch,Abersychan,Abertawe,Aberteifi,Aberthin,Abertillery,Abertridwr,Aberystwyth,Achininver,Afonhafren,Alisaha,Anfosadh,Antinbhearmor,Ardenna,Attacon,Banwen,Beira,Bhrura,Bleddfa,Boioduro,Bona,Boskyny,Boslowenpolbrogh,Boudobriga,Bravon,Brigant,Briganta,Briva,Brosnach,Caersws,Cambodunum,Cambra,Caracta,Catumagos,Centobriga,Ceredigion,Chalain,Chearbhallain,Chlasaigh,Chormaic,Cuileannach,Dinn,Diwa,Dubingen,Duibhidighe,Duro,Ebora,Ebruac,Eburodunum,Eccles,Egloskuri,Eighe,Eireann,Elerghi,Ferkunos,Fhlaithnin,Gallbhuaile,Genua,Ghrainnse,Gwyles,Heartsease,Hebron,Hordh,Inbhear,Inbhir,Inbhirair,Innerleithen,Innerleven,Innerwick,Inver,Inveraldie,Inverallan,Inveralmond,Inveramsay,Inveran,Inveraray,Inverarnan,Inverbervie,Inverclyde,Inverell,Inveresk,Inverfarigaig,Invergarry,Invergordon,Invergowrie,Inverhaddon,Inverkeilor,Inverkeithing,Inverkeithney,Inverkip,Inverleigh,Inverleith,Inverloch,Inverlochlarig,Inverlochy,Invermay,Invermoriston,Inverness,Inveroran,Invershin,Inversnaid,Invertrossachs,Inverugie,Inveruglas,Inverurie,Iubhrach,Karardhek,Kilninver,Kirkcaldy,Kirkintilloch,Krake,Lanngorrow,Latense,Leming,Lindomagos,Llanaber,Llandidiwg,Llandyrnog,Llanfarthyn,Llangadwaldr,Llansanwyr,Lochinver,Lugduno,Magoduro,Mheara,Monmouthshire,Nanshiryarth,Narann,Novioduno,Nowijonago,Octoduron,Penning,Pheofharain,Ponsmeur,Raithin,Ricomago,Rossinver,Salodurum,Seguia,Sentica,Theorsa,Tobargeal,Trealaw,Trefesgob,Trewedhenek,Trewythelan,Tuaisceart,Uige,Vitodurum,Windobona"
   },
   {
-    name: "Mesopotamian",
-    i: 23,
-    min: 4,
-    max: 9,
-    d: "srpl",
-    m: 0.1,
-    b: "Adab,Adamndun,Adma,Admatum,Agrab,Akkad,Akshak,Amnanum,Andarig,Anshan,Apiru,Apum,Arantu,Arbid,Arpachiyah,Arpad,Arrapha,Ashlakka,Assur,Awan,Babilim,Bad-Tibira,Balawat,Barsip,Birtu,Bit-Bunakki,Borsippa,Chuera,Dashrah,Der,Dilbat,Diniktum,Doura,Dur-Kurigalzu,Dur-Sharrukin,Dur-Untash,Dûr-gurgurri,Ebla,Ekallatum,Ekalte,Emar,Erbil,Eresh,Eridu,Eshnunn,Eshnunna,Gargamish,Gasur,Gawra,Gibil,Girsu,Gizza,Habirun,Habur,Hadatu,Hakkulan,Halab,Halabit,Hamazi,Hamoukar,Haradum,Harbidum,Harran,Harranu,Hassuna,Hatarikka,Hatra,Hissar,Hiyawa,Hormirzad,Ida-Maras,Idamaraz,Idu,Imerishu,Imgur-Enlil,Irisagrig,Irnina,Irridu,Isin,Issinnitum,Iturungal,Izubitum,Jarmo,Jemdet,Kabnak,Kadesh,Kahat,Kalhu,Kar-Shulmanu-Asharedu,Kar-Tukulti-Ninurta,Kar-shulmanu-asharedu,Karana,Karatepe,Kartukulti,Kazallu,Kesh,Kidsha,Kinza,Kish,Kisiga,Kisurra,Kuara,Kurda,Kurruhanni,Kutha,Lagaba,Lagash,Larak,Larsa,Leilan,Malgium,Marad,Mardaman,Mari,Marlik,Mashkan,Mashkan-shapir,Matutem,Me-Turan,Meliddu,Mumbaqat,Nabada,Nagar,Nanagugal,Nerebtum,Nigin,Nimrud,Nina,Nineveh,Ninua,Nippur,Niru,Niya,Nuhashe,Nuhasse,Nuzi,Puzrish-Dagan,Qalatjarmo,Qatara,Qatna,Qattunan,Qidshu,Rapiqum,Rawda,Sagaz,Shaduppum,Shaggaratum,Shalbatu,Shanidar,Sharrukin,Shawwan,Shehna,Shekhna,Shemshara,Shibaniba,Shubat-Enlil,Shurkutir,Shuruppak,Shusharra,Shushin,Sikan,Sippar,Sippar-Amnanum,Sippar-sha-Annunitum,Subatum,Susuka,Tadmor,Tarbisu,Telul,Terqa,Tirazish,Tisbon,Tuba,Tushhan,Tuttul,Tutub,Ubaid,Umma,Ur,Urah,Urbilum,Urkesh,Ursa'um,Uruk,Urum,Uzarlulu,Warka,Washukanni,Zabalam,Zarri-Amnan"
-  },
-  {
-    name: "Iranian",
-    i: 24,
-    min: 5,
-    max: 11,
-    d: "",
-    m: 0.1,
-    b: "Abali,Abrisham,Absard,Abuzeydabad,Afus,Alavicheh,Alikosh,Amol,Anarak,Anbar,Andisheh,Anshan,Aran,Ardabil,Arderica,Ardestan,Arjomand,Asgaran,Asgharabad,Ashian,Awan,Babajan,Badrud,Bafran,Baghestan,Baghshad,Bahadoran,Baharan Shahr,Baharestan,Bakun,Bam,Baqershahr,Barzok,Bastam,Behistun,Bitistar,Bumahen,Bushehr,Chadegan,Chahardangeh,Chamgardan,Chermahin,Choghabonut,Chugan,Damaneh,Damavand,Darabgard,Daran,Dastgerd,Dehaq,Dehaqan,Dezful,Dizicheh,Dorcheh,Dowlatabad,Duruntash,Ecbatana,Eslamshahr,Estakhr,Ezhiyeh,Falavarjan,Farrokhi,Fasham,Ferdowsieh,Fereydunshahr,Ferunabad,Firuzkuh,Fuladshahr,Ganjdareh,Ganzak,Gaz,Geoy,Godin,Goldasht,Golestan,Golpayegan,Golshahr,Golshan,Gorgab,Guged,Habibabad,Hafshejan,Hajjifiruz,Hana,Harand,Hasanabad,Hasanlu,Hashtgerd,Hecatompylos,Hormirzad,Imanshahr,Isfahan,Jandaq,Javadabad,Jiroft,Jowsheqan ,Jowzdan,Kabnak,Kahrizak,Kahriz Sang,Kangavar,Karaj,Karkevand,Kashan,Kelishad,Kermanshah,Khaledabad,Khansar,Khorramabad,Khur,Khvorzuq,Kilan,Komeh,Komeshcheh,Konar,Kuhpayeh,Kul,Kushk,Lavasan,Laybid,Liyan,Lyan,Mahabad,Mahallat,Majlesi,Malard,Manzariyeh,Marlik,Meshkat,Meymeh,Miandasht,Mish,Mobarakeh,Nahavand,Nain,Najafabad,Naqshe,Narezzash,Nasimshahr,Nasirshahr,Nasrabad,Natanz,Neyasar,Nikabad,Nimvar,Nushabad,Pakdasht,Parand,Pardis,Parsa,Pasargadai,Patigrabana,Pir Bakran,Pishva,Qahderijan,Qahjaverestan,Qamsar,Qarchak,Qods,Rabat,Ray-shahr,Rezvanshahr,Rhages,Robat Karim,Rozveh,Rudehen,Sabashahr,Safadasht,Sagzi,Salehieh,Sandal,Sarvestan,Sedeh,Sefidshahr,Semirom,Semnan,Shadpurabad,Shah,Shahdad,Shahedshahr,Shahin,Shahpour,Shahr,Shahreza,Shahriar,Sharifabad,Shemshak,Shiraz,Shushan,Shushtar,Sialk,Sin,Sukhteh,Tabas,Tabriz,Takhte,Talkhuncheh,Talli,Tarq,Temukan,Tepe,Tiran,Tudeshk,Tureng,Urmia,Vahidieh,Vahrkana,Vanak,Varamin,Varnamkhast,Varzaneh,Vazvan,Yahya,Yarim,Yasuj,Zarrin Shahr,Zavareh,Zayandeh,Zazeran,Ziar,Zibashahr,Zranka"
-  },
-  {
-    name: "Kannada",
-    i: 25,
-    min: 4,
-    max: 16,
-    d: "tnlrpdmk",
-    m: 0,
-    b: "Hubballi,Belagavi,Ballari,Gulbarga,Kalaburagi,Davangere,Shivamogga,Udupi,Bidar,Raichur,Dharwad,Gadag,Koppal,Chitradurga,Vijayapura,Mandya,Kodagu,Shravanabelagola,Bangalore,Mysore,Mysuru,Mangaluru,Tumakuru,Hassan,Bagalkot,Bijapur,Chikkamagaluru,Kolar,Chikballapur,Ramanagara,Yadgir,Sedam,Shahapur,Shorapur,Basavakalyan,Bhalki,Humnabad,Mudhol,Jamkhandi,Athani,Chikodi,Gokak,Nipani,Ramdurg,Saundatti,Navalgund,Kundgol,Badami,Pattadakal,Aihole,Tirthahalli,Hosanagara,Sagara,Soraba,Koppa,Karkala,Kundapura,Byndoor,Mulki,Bantwal,Madikeri,Karwar,Kumta,Honnavar,Sirsi,Dandeli,Puttur,Sullia,Channapatna,Kanakapura,Hoskote,Anekal,Gauribidanur,Pavagada,Sira,Hiriyur,Challakere,Chincholli,Aland,Mudigere,Kalasa,Nanjangud,Hunsur,Krishnarajanagara,Piriyapatna,Nagamangala,Maddur,Malavalli"
-  },
-  {
-    name: "Quechua",
-    i: 26,
-    min: 3,
-    max: 20,
-    d: "",
-    m: 0,
-    b: "Qusqu,Ariqipa,Limaq,Kitu,Chuqiyapu,Quchapampa,Chuqichaka,Punu,Ayakucho,Qasamarka,Piwra,Chiklayu,Truhillu,Ikitus,Pukallpa,Taqna,Wankayu,Hullaqa,Chimputi,Ika,Amankay,PasquUrqu,Tumpis,Chachapoyas,PuertoMaldonado,Wankawilka,Chinchiru,Pisaq,Ullantaytampu,Markas,Yuka,Siqwana,UruUru,Putuqsi,Utawalu,Tumipampa,Kanar,Wanta,Karas,Yunkay,Qarwas,Waras,Moquegua,Chuquichaka,Wamanqa,Willkapampa,Antawaylla,Aqupampa,Lukana,Surqana,Qiswa"
-  },
-  {
-    name: "Swahili",
-    i: 27,
-    min: 4,
-    max: 13,
-    d: "",
-    m: 0,
-    b: "Zanzibar,Mombasa,Dar es Salaam,Nairobi,Kigali,Kampala,Dodoma,Arusha,Mwanza,Tanga,Lamu,Malindi,Pemba,Kilwa,Gedi,Shanga,Manda,Songo Mnara,Pate,Bagamoyo,Mogadishu,Barawa,Kismayu,Merca,Lindi,Mtwara,Garbaharey,Loyangalani,CelDheer,Saakow"
-  },
-  {
-    name: "Vietnamese",
-    i: 28,
-    min: 3,
-    max: 16,
-    d: "",
-    m: 0,
-    b: "Hanoi,Ho Chi Minh City,Saigon,Hue,Da Nang,Hai Phong,Can Tho,Nha Trang,Da Lat,Vinh,Thai Nguyen,Quy Nhon,Rach Gia,My Tho,Vung Tau,Bien Hoa,Ha Long,Ninh Binh,Phan Thiet,Cam Ranh,Buon Ma Thuot,Pleiku,Quang Ngai,Tam Ky,Thanh Hoa,Ben Tre,Lao Cai,Cu Chi,Vinh Long,An Phu,Chon Thanh,Sa Dec,Cao Lanh,Long Xuyen,Chau Doc,Soc Trang,Bac Lieu,Ca Mau,Tra Vinh,Dong Hoi,Dong Ha,Hoi An,Tuy Hoa,Kon Tum,Gia Nghia,Tay Ninh,Tan An,Nam Dinh,Hung Yen,Ha Tinh,Dien Bien Phu,Lai Chau,Son La,Hoa Binh,Yen Bai,Phu Tho,Viet Tri,Tuyen Quang,Ha Giang,Cao Bang,Lang Son,Bac Kan,Bac Giang,Bac Ninh,Vinh Yen,Cam Pha,Uong Bi,Mong Cai,Phuc Yen,Sa Pa,Bac Ha,Quang Tri,Phong Dien,Tien Yen,Binh Long,Phuoc Long,Duc Hoa,Trang Bang,Cho Lach,Binh Minh,Ha Tien,Kien Luong,Duong Dong,Cai Lay,Cai Be,Giang Thanh,Hong Ngu,Tan Chau"
-  },
-  {
-    name: "Cantonese",
-    i: 29,
-    min: 5,
-    max: 11,
-    d: "",
-    m: 0,
-    b: "Hong Kong,Guangzhou,Shenzhen,Macau,Zhuhai,Jiangmen,Huizhou,Zhaoqing,Yunfu,Shantou,Maoming,Yangjiang,Meizhou,Chaozhou,Jieyang,Shanwei,Taishan,Kaiping,Gaoyao,Sihui,Foshan,Dongguan,Zhongshan,Shaoguan,Qingyuan,Heyuan,Zhanjiang,Xinhui,Enping,Heshan,Huidong,Boluo,Zijin,Lufeng,Haifeng,Nanxiong,Wengyuan,Yingde,Lianzhou,Yangshan,Huaiji,Fengkai,Deqing,Gaoming,Nanhai,Shunde,Chanchen,Haojiang,Jinping,Longhu,Chenghai,Chaoyang,Chaonan,Chao'an,Raoping,Jiedong,Jiexi,Huilai,Puning,Luhe,Heping,Longchuan,Lianping,Xinfeng,Ruyuan,Liannan,Lianshan,Qingxin,Fogang,Nanning,Wuzhou,Beihai,Qinzhou,Fangchenggang,Yulin,Guigang,Hezhou,Chongzuo,Guiping,Cenxi,Tengxian,Cangwu,Beiliu,Rongxian,Luchuan,Bobai,Xingye,Pubei,Hepu,Conghua,Zengcheng,Huadu,Panyu"
-  },
-  {
     name: "Cantonese",
     i: 30,
     min: 5,
@@ -347,7 +206,6 @@ const defaultNameBases: NameBase[] = [
     m: 0.3,
     b: "Adaatsag,Airag,Alag Erdene,Altai,Altanshiree,Altantsogts,Arbulag,Baatsagaan,Batnorov,Batshireet,Battsengel,Bayan Adarga,Bayan Agt,Bayanbulag,Bayandalai,Bayandun,Bayangovi,Bayanjargalan,Bayankhongor,Bayankhutag,Bayanlig,Bayanmonkh,Bayannur,Bayannuur,Bayan Ondor,Bayan Ovoo,Bayantal,Bayantsagaan,Bayantumen,Bayan Uul,Bayanzurkh,Berkh,Biger,Binder,Bogd,Bombogor,Bor Ondor,Bugat,Bugt,Bulgan,Buregkhangai,Burentogtokh,Buutsagaan,Buyant,Chandmani,Chandmani Ondor,Choibalsan,Chuluunkhoroot,Chuluut,Dadal,Dalanjargalan,Dalanzadgad,Darhan Muminggan,Darkhan,Darvi,Dashbalbar,Dashinchilen,Delger,Delgerekh,Delgerkhaan,Delgerkhangai,Delgertsogt,Deluun,Deren,Dorgon,Duut,Erdene,Erdenebulgan,Erdeneburen,Erdenedalai,Erdenemandal,Erdenetsogt,Galshar,Galt,Galuut,Govi Ugtaal,Gurvan,Gurvanbulag,Gurvansaikhan,Gurvanzagal,Hinggan,Hodong,Holingol,Hondlon,Horin Ger,Horqin,Hulunbuir,Hure,Ikhkhet,Ikh Tamir,Ikh Uul,Jargalan,Jargalant,Jargaltkhaan,Jarud,Jinst,Khairkhan,Khalhgol,Khaliun,Khanbogd,Khangai,Khangal,Khankh,Khankhongor,Khashaat,Khatanbulag,Khatgal,Kherlen,Khishig Ondor,Khokh,Kholonbuir,Khongor,Khotont,Khovd,Khovsgol,Khuld,Khureemaral,Khurmen,Khutag Ondor,Luus,Mandakh,Mandal Ovoo,Mankhan,Manlai,Matad,Mogod,Monkhkhairkhan,Moron,Most,Myangad,Nogoonnuur,Nomgon,Norovlin,Noyon,Ogii,Olgii,Olziit,Omnodelger,Ondorkhaan,Ondorshil,Ondor Ulaan,Ongniud,Ordos,Orgon,Orkhon,Rashaant,Renchinlkhumbe,Sagsai,Saikhan,Saikhandulaan,Saikhan Ovoo,Sainshand,Saintsagaan,Selenge,Sergelen,Sevrei,Sharga,Sharyngol,Shine Ider,Shinejinst,Shiveegovi,Sumber,Taishir,Tarialan,Tariat,Teshig,Togrog,Togtoh,Tolbo,Tomorbulag,Tonkhil,Tosontsengel,Tsagaandelger,Tsagaannuur,Tsagaan Ovoo,Tsagaan Uur,Tsakhir,Tseel,Tsengel,Tsenkher,Tsenkhermandal,Tsetseg,Tsetserleg,Tsogt,Tsogt Ovoo,Tsogttsetsii,Tumed,Tunel,Tuvshruulekh,Ulaanbadrakh,Ulaankhus,Ulaan Uul,Ulanhad,Ulanqab,Uyench,Yesonbulag,Zag,Zalainur,Zamyn Uud,Zereg"
   },
-  // fantasy bases by Dopu:
   {
     name: "Human Generic",
     i: 32,
@@ -356,15 +214,5 @@ const defaultNameBases: NameBase[] = [
     d: "peolst",
     m: 0,
     b: "Amberglen,Angelhand,Arrowden,Autumnband,Autumnkeep,Basinfrost,Basinmore,Bayfrost,Beargarde,Bearmire,Bellcairn,Bellport,Bellreach,Blackwatch,Bleakward,Bonemouth,Boulder,Bridgefalls,Bridgeforest,Brinepeak,Brittlehelm,Bronzegrasp,Castlecross,Castlefair,Cavemire,Claymond,Claymouth,Clearguard,Cliffgate,Cliffshear,Cliffshield,Cloudbay,Cloudcrest,Cloudwood,Coldholde,Cragbury,Crowgrove,Crowvault,Crystalrock,Crystalspire,Cursefield,Curseguard,Cursespell,Dawnforest,Dawnwater,Deadford,Deadkeep,Deepcairn,Deerchill,Demonfall,Dewglen,Dewmere,Diredale,Direden,Dirtshield,Dogcoast,Dogmeadow,Dragonbreak,Dragonhold,Dragonward,Dryhost,Dustcross,Dustwatch,Eaglevein,Earthfield,Earthgate,Earthpass,Ebonfront,Edgehaven,Eldergate,Eldermere,Embervault,Everchill,Evercoast,Falsevale,Faypond,Fayvale,Fayyard,Fearpeak,Flameguard,Flamewell,Freyshell,Ghostdale,Ghostpeak,Gloomburn,Goldbreach,Goldyard,Grassplains,Graypost,Greeneld,Grimegrove,Grimeshire,Heartfall,Heartford,Heartvault,Highbourne,Hillpass,Hollowstorm,Honeywater,Houndcall,Houndholde,Iceholde,Icelight,Irongrave,Ironhollow,Knightlight,Knighttide,Lagoonpass,Lakecross,Lastmere,Laststar,Lightvale,Limeband,Littlehall,Littlehold,Littlemire,Lostcairn,Lostshield,Loststar,Madfair,Madham,Midholde,Mightglen,Millstrand,Mistvault,Mondpass,Moonacre,Moongulf,Moonwell,Mosshand,Mosstide,Mosswind,Mudford,Mudwich,Mythgulch,Mythshear,Nevercrest,Neverfront,Newfalls,Nighthall,Oakenbell,Oakenrun,Oceanstar,Oldreach,Oldwall,Oldwatch,Oxbrook,Oxlight,Pearlhaven,Pinepond,Pondfalls,Pondtown,Pureshell,Quickbell,Quickpass,Ravenside,Roguehaven,Roseborn,Rosedale,Rosereach,Rustmore,Saltmouth,Sandhill,Scorchpost,Scorchstall,Shadeforest,Shademeadow,Shadeville,Shimmerrun,Shimmerwood,Shroudrock,Silentkeep,Silvercairn,Silvergulch,Smallmire,Smoothcliff,Smoothgrove,Smoothtown,Snakemere,Snowbay,Snowshield,Snowtown,Southbreak,Springmire,Springview,Stagport,Steammouth,Steamwall,Steepmoor,Stillhall,Stoneguard,Stonespell,Stormhand,Stormhorn,Sungulf,Sunhall,Swampmaw,Swangarde,Swanwall,Swiftwell,Thorncairn,Thornhelm,Thornyard,Timberside,Tradewick,Westmeadow,Westpoint,Whiteshore,Whitvalley,Wildeden,Wildwell,Wildyard,Winterhaven,Wolfpass"
-  },
-  // additional by Avengium:
-  {
-    name: "Somontanés",
-    i: 42,
-    min: 4,
-    max: 20,
-    d: "lnrt",
-    m: 0,
-    b: "Barbastro,Huesca,Ayerbe,Nocito,Adahuesca,Almudévar,Fuencalderas,Sabiñánigo,Jaca,Biescas,Benasque,Ansó,Hecho,Jasa,Aragüés,San Juan de la Peña,Riglos,Loarre,Agüero,Aniés,Murillo de Gállego,San Mateo de Gállego,Yésero,Candasnos,Berbegal,Alquézar,Colungo,Salas Altas,Boltaña,Alins"
   }
 ];

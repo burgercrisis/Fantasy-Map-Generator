@@ -49,7 +49,7 @@ type MarkovChain = Record<string, string[]>;
 
 // Race data: maps race name to array of namebase indices.
 //
-// The nine classic seed lists live at 1000xx in public/modules/namebases-fantasy.js.
+// The nine classic seed lists live at 1000xx in src/data/namebases/fantasy.ts.
 // They used to be addressed as the built-in defaults 32-41, but those indices
 // sit inside the range the real-language data files claim, so the gap-fill in
 // name-bases.ts silently loses to them: index 35 serves Czech to the Dwarves and
@@ -8208,12 +8208,19 @@ function getRaceNameForCulture(culture: any): string {
   const nameBases = getNameBases();
 
   for (const [raceName, bases] of Object.entries(fantasyRaceBases)) {
+    // "AnyLanguage" is a catch-all language-mixer pseudo-race, not a real
+    // culture race. Its base (276) is a real-language slot (Iatm), so mapping
+    // it back to "AnyLanguage" would mis-tag every real culture using that
+    // base. Skip it so such cultures fall through to Human.
+    if (raceName === "AnyLanguage") continue;
     if (bases.includes(base)) return raceName;
   }
 
   // Quaternary: check if the namebase is marked as a race mixer base
   const baseEntry = nameBases?.[base];
   const markedRace = baseEntry && typeof baseEntry.raceMixerFor === "string" ? baseEntry.raceMixerFor : "";
+  // Never resolve back to the catch-all pseudo-race; treat it as Human.
+  if (markedRace === "AnyLanguage") return "Human";
   if (markedRace && fantasyRaceBases[markedRace]) return markedRace;
 
   return "Human";
