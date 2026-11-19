@@ -828,7 +828,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 17,
     d: "",
     m: 0,
-    b: "Alice Springs,Hermannsburg,Areyonga,Haasts Bluff,Jay Creek,Wallace Rockhole,Papunya,Mount Liebig,Kintore,Kaltukatjara,Mutitjulu,Yulara,Titjikala,Imanpa,Ltyentye Apurte,Ampilatwatja,Laramba,Ntaria,MacDonnell Ranges,Finke,Urrampinyi,Glen Helen,Watarrka,Angela,Napperby",
+    b: "Alice Springs,Hermannsburg,Areyonga,Haasts Bluff,Jay Creek,Wallace Rockhole,Papunya,Mount Liebig,Kintore,Kaltukatjara,Mutitjulu,Yulara,Titjikala,Imanpa,Ltyentye Apurte,Ampilatwatja,Laramba,Ntaria,MacDonnell Ranges,Finke,Urrampinyi,Glen Helen,Watarrka,Angela,Napperby,Mparntwe,Imengkwerne,Alcoota,Alkwerte,Artetyerre,Harts Range,Bonya,Uthipe Atherre,Ilperl Anyent,Ti Tree,Ilpurntu",
     status: "COMPLETE"
   },
   {
@@ -838,7 +838,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Yirrkala,Nhulunbuy,Gunbalanya,Maningrida,Ramingining,Gapuwiyak,Milingimbi,Numbulwar,Ngukurr,Galiwinku,Umbakumba,Marthakal,Gangan,Elcho Island,Minjilang,Pirlangimpi,Milikapiti,Warruwi,Borroloola,Roper Bar,Jabiru,Oenpelli,Bamaga,Bulman,Yarrinya",
+    b: "Yirrkala,Nhulunbuy,Gunbalanya,Maningrida,Ramingining,Gapuwiyak,Milingimbi,Numbulwar,Ngukurr,Galiwinku,Umbakumba,Marthakal,Gangan,Elcho Island,Minjilang,Pirlangimpi,Milikapiti,Warruwi,Borroloola,Roper Bar,Jabiru,Oenpelli,Bamaga,Bulman,Yarrinya,Galiwin'ku,Gängawuy,Djambarrpuyŋu,Datiwuy,Gumatj,Rirratjingu,Djapu,Guṇapuyŋu",
     status: "COMPLETE"
   },
   {

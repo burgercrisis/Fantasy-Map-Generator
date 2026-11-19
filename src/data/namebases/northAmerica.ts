@@ -298,7 +298,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 13,
     d: "ahiknorswty':",
     m: 0.62,
-    b: "Kahnawà:ke,Kanehsatà:ke,Ahkwesáhsne,Kawehnò:ke,Kaná:takon,Tsi Snaíhne,Kenhtè:ke,Wáhta,Oshwé:ken,Kanièn:ke,Kana'tsioharè:ke,Tioweró:ton,Ossernenon,Andagaron,Tionontoguen,Kanagaro,Nowadaga,Tyondaroge,Asserue,Osquake,Canowaroghere,Schanidisse,Caughnawaga,Onekagoncka,Canajoharie",
+    b: "Kahnawà:ke,Kanehsatà:ke,Ahkwesáhsne,Kawehnò:ke,Kaná:takon,Tsi Snaíhne,Kenhtè:ke,Wáhta,Oshwé:ken,Kanièn:ke,Kana'tsioharè:ke,Tioweró:ton,Ossernenon,Andagaron,Tionontoguen,Kanagaro,Nowadaga,Tyondaroge,Asserue,Osquake,Canowaroghere,Schanidisse,Caughnawaga,Onekagoncka,Canajoharie,Ganien:geh,Kana'tsyoharé:ke,Brantford,Caledonia,Ohsweken,Grand River",
     status: "COMPLETE"
   },
   {
@@ -1038,7 +1038,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Tuba City,Moenave,Hotevilla,Bacavi,Old Oraibi,Third Mesa,Oraibi,New Oraibi,Mishongnovi,Shungopavi,Sitsomovi,First Mesa,Walpi,Hano,Tewa Village,Polacca,Moenkopi,Keams Canyon,Winslow,Holbrook,Second Mesa,Sichomovi,Kykotsmovi,Sipaulovi,Lower Moenkopi",
+    b: "Tuba City,Moenave,Hotevilla,Bacavi,Old Oraibi,Third Mesa,Oraibi,New Oraibi,Mishongnovi,Shungopavi,Sitsomovi,First Mesa,Walpi,Hano,Tewa Village,Polacca,Moenkopi,Keams Canyon,Winslow,Holbrook,Second Mesa,Sichomovi,Kykotsmovi,Sipaulovi,Lower Moenkopi,Upper Moenkopi,Shipaulovi,Musangnuvi,Songoopavi,Hotvela,Paaqavi,KiqÖtsmovi,Orayvi,Waalpi,Hanoki,Pinetop,Lakeside,Snowflake,Taylor,Show Low,Flagstaff",
     status: "COMPLETE"
   },
   {
@@ -1358,7 +1358,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 21,
     d: "lnrt",
     m: 0,
-    b: "Guaymas,San Carlos,Bahia Kino,Puerto Lobos,Punta Tepopa,Cocorit,Loma de Bacum,Loma de Guamuchil,Potam,San Pedro de la Cueva,Huatabampo,Navojoa,Vicam,Rahum,Torim,Huirivis,Belem,Alamos,Hant Ihiin,Heeno,Xnaamotat,Xiica hast ano,Tahejoc himquij,Cofteecol hipcap,Socaaix hac",
+    b: "Guaymas,San Carlos,Bahia Kino,Puerto Lobos,Punta Tepopa,Cocorit,Loma de Bacum,Loma de Guamuchil,Potam,San Pedro de la Cueva,Huatabampo,Navojoa,Vicam,Rahum,Torim,Huirivis,Belem,Alamos,Hant Ihiin,Heeno,Xnaamotat,Xiica hast ano,Tahejoc himquij,Cofteecol hipcap,Socaaix hac,Bacum,Tesobitam,Tórim,Empalme,Jiménez,Mazatlán,Empalme,San Ignacio,Cumuripa",
     status: "COMPLETE"
   },
   {
@@ -1958,7 +1958,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Arctic Village,Fort Yukon,Venetie,Chalkyitsik,Birch Creek,Old Crow,Aklavik,Inuvik,Tsiigehtchic,Fort McPherson,Teetlit Zheh,Drozdikin,Rampart,Beaver,Stevens Village,Circle,Nenetlʉ,Minto,Nenana,Tanana,Fairbanks,Eagle,Tok,Northway,Dot Lake",
+    b: "Arctic Village,Fort Yukon,Venetie,Chalkyitsik,Birch Creek,Old Crow,Aklavik,Inuvik,Tsiigehtchic,Fort McPherson,Teetlit Zheh,Drozdikin,Rampart,Beaver,Stevens Village,Circle,Nenetlʉ,Minto,Nenana,Tanana,Fairbanks,Eagle,Tok,Northway,Dot Lake,Christian,Canyon Village,Dawson City,Moosehide",
     status: "COMPLETE"
   },
   {
