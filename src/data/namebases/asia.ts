@@ -168,7 +168,7 @@ export const asiaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Kampung Orang Asli Dedari,Kampung Kuala Sat,Kuala Kemiang,Sungai Cheka,Semetong,Merapoh,Kampung Orang Asli Kuala Koh,Kampung Pasir Linggi,Kampung Aring 5,Pasir Lenggi,Kampung Sungai Berua,Kampung Sungai Sayap,Kuala Tembeling,Teluk Gunung,Sungai Kechau,Sungai Tahan,Sungai Sat,Teresek,Jeram Dedari,Kuala Keniam,Sungai Tabung,Kampung Bechah Kelubi,Kuala Atok,Sungai Yong,Kuala Tahan",
+    b: "Kampung Orang Asli Dedari,Kampung Kuala Sat,Kuala Kemiang,Sungai Cheka,Semetong,Merapoh,Kampung Orang Asli Kuala Koh,Kampung Pasir Linggi,Kampung Aring 5,Pasir Lenggi,Kampung Sungai Berua,Kampung Sungai Sayap,Kuala Tembeling,Teluk Gunung,Sungai Kechau,Sungai Tahan,Sungai Sat,Teresek,Jeram Dedari,Kuala Keniam,Sungai Tabung,Kampung Bechah Kelubi,Kuala Atok,Sungai Yong,Kuala Tahan,Kg Yong,Kg Sungai Tabung,Kg Dedari,Kg Cangkong,Kg Bengoi,Pos Lebir,Gua Musang,Kenyir Lake,Hulu Terengganu,Besut",
     status: "COMPLETE"
   },
   {
@@ -2728,7 +2728,7 @@ export const asiaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Daejeon,Cheongju,Gongju,Sejong,Hongseong,Cheonan,Asan,Yesan",
+    b: "Daejeon,Cheongju,Gongju,Sejong,Hongseong,Cheonan,Asan,Yesan,Nonsan,Gyeryong,Chungju,Seosan,Taean,Dangjin,Boryeong,Buyeo,Goesan,Okcheon,Seocheon,Geumsan,Yeongdong,Daedeok,Yuseong,Seogu,Jochiwon",
     status: "COMPLETE"
   },
   {
@@ -7244,7 +7244,7 @@ export const asiaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Ziro,Along,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Miao,Deomali,Aalo,Basar",
+    b: "Ziro,Along,Roing,Tezu,Anini,Daporijo,Bomdila,Tawang,Seppa,Yingkiong,Mechuka,Monigong,Hunli,Hayuliang,Changlang,Khonsa,Namsai,Lekang,Chowkham,Wakro,Bordumsa,Miao,Deomali,Aalo,Basar,Itanagar,Naharlagun,Pasighat,Koloriang,Kurung Kumey,Kra Daadi,Pakke Kesang,Kamle,Darrang",
     status: "COMPLETE"
   },
   {
@@ -7364,7 +7364,7 @@ export const asiaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Taoping,Jiashan,Tonghua,Longxi,Bulan,Baduo,Mianchi,Puxi,Xuecheng,Heihu,Goukou,Sanlong,Fengyi,Zengtou,Niushan,Bulan,Jiaochang,TaopingVillage,LongxiVillage,MianchiVillage,HeihuVillage,SanlongVillage,ZengtouVillage,NiushanVillage,BulanVillage",
+    b: "Taoping,Jiashan,Tonghua,Longxi,Bulan,Baduo,Mianchi,Puxi,Xuecheng,Heihu,Goukou,Sanlong,Fengyi,Zengtou,Niushan,Bulan,Jiaochang,TaopingVillage,LongxiVillage,MianchiVillage,HeihuVillage,SanlongVillage,ZengtouVillage,NiushanVillage,BulanVillage,Xiaoxing,Zhenjiangguan,Zhenping,Songpinggou,Luhua,Qinglang,Zhawo,Ciba,Shuangliusuo,Zhimulin,Hongyan,Mawo,Luoduo,Longba,Musu,Shidiaolou,Weigu,Waboliangzi,Se'ergu,Ekou,Weicheng,Ronghong,Chibusu,Qugu,Wadi,Baixi,Huilong,Yonghe,Ganbao,Liedai,Putou",
     status: "COMPLETE"
   },
   {

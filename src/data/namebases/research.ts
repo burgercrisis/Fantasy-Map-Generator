@@ -17,7 +17,7 @@ export const researchNameBases: NameBase[] = [
     max: 20,
     d: "lnrt",
     m: 0.1,
-    b: "Ranchi,Jamshedpur,Dhanbad,Bokaro,Deoghar,Hazaribagh,Giridih,Koderma,Chatra,Latehar,Lohardaga,Simdega,Khunti,West Singhbhum,Saraikela,East Singhbhum,Godda,Sahibganj,Pakur,Dumka,Jamtara,Bankura,Purulia,Midnapore,Paschim Bardhaman"
+    b: "Ranchi,Jamshedpur,Dhanbad,Bokaro,Deoghar,Hazaribagh,Giridih,Koderma,Chatra,Latehar,Lohardaga,Simdega,Khunti,West Singhbhum,Saraikela,East Singhbhum,Godda,Sahibganj,Pakur,Dumka,Jamtara,Bankura,Purulia,Midnapore,Paschim Bardhaman,Chaibasa,Seraikela,Kharsawan,Mayurbhanj,Balasore,Kendujhar,Jajpur,Sundargarh,Baripada,Keonjhar,Anugul"
   },
   {
     name: "Tujia",

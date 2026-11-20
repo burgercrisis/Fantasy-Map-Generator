@@ -128,7 +128,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0.25,
-    b: "Socaaix,Haxol Iihom,Tahejoc,Cofteecol,El Desemboque,Punta Chueca,Isla Tiburon,Desemboque,Hermosillo,Bahia de Kino,San Carlos,Guaymas,Empalme,Ostimuri,Tiburon,San Esteban,Caborca,Pitiquito,Altar,Saric,Tubutama,Atil,Trinidad,Oquitoa,Puerto Libertad",
+    b: "Socaaix,Haxol Iihom,Tahejoc,Cofteecol,El Desemboque,Punta Chueca,Isla Tiburon,Desemboque,Hermosillo,Bahia de Kino,San Carlos,Guaymas,Empalme,Ostimuri,Tiburon,San Esteban,Caborca,Pitiquito,Altar,Saric,Tubutama,Atil,Trinidad,Oquitoa,Puerto Libertad,Mexico City,Guaymas,La Paz,Loreto,Santa Rosalia,Mulege,Comondu,Puerto Penasco,Rocky Point,Yanbu,Al Qunfudhah,Al Lith,Jeddah,Mecca,Medina,Taif,Abha,Najran,Jizan",
     status: "COMPLETE"
   },
   {
@@ -248,7 +248,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Edzo,Dettah,Tsoti,Behchoko,Whati,Gameti,Wekweeti,Fort Rae,Fort Providence,Hay River,Yellowknife,Fort Smith,Fort Simpson,Lutselke,Deline,Norman Wells,Tulita,Fort Good Hope,Colville Lake,Inuvik,Aklavik",
+    b: "Behchokǫ̀,Whatì,Gamètì,Wekweètì,Edzo,Dettah,Tsoti,Behchoko,Whati,Gameti,Wekweeti,Fort Rae,Fort Providence,Hay River,Yellowknife,Fort Smith,Fort Simpson,Lutselke,Deline,Norman Wells,Tulita,Fort Good Hope,Colville Lake,Inuvik,Aklavik,Ndilǫ,Rae,Frank Channel,Wıı̀lıı̀deh,Monfwi",
     status: "COMPLETE"
   },
   {
@@ -308,7 +308,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Goiogouen,Tiohero,Chonodote,Onnontare,Ganogeh,Gewauga,Neodakheat,Gandaseteigon,Kawauka,Kente,Oneniote,Onyadeakahyat,Ohsweken,Coreorgonel,Six Nations Reserve,New York,Senoa,Ganondagan,Tadoda,Tekoa,Canajoharie,Kahnawake,Akwesasne,Tuscarora,Onondaga",
+    b: "Goiogouen,Tiohero,Chonodote,Onnontare,Ganogeh,Gewauga,Neodakheat,Gandaseteigon,Kawauka,Kente,Oneniote,Onyadeakahyat,Ohsweken,Coreorgonel,Six Nations Reserve,New York,Senoa,Ganondagan,Tadoda,Tekoa,Canajoharie,Kahnawake,Akwesasne,Tuscarora,Onondaga,Cattaraugus,Six Nations,Grand River,Brantford,Caledonia,Hagersville,York,Dunnville,Port Dover,Port Rowan,Simcoe",
     status: "COMPLETE"
   },
   {
@@ -318,7 +318,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 27,
     d: "lnrt",
     m: 0.15,
-    b: "Oneida Castle,Kanawalohale,Old Oneida,Oriska,Nichols Pond,Cowassalon,Canaseraga,Ganadoga,Tkanetota,Tegasoke,Hostayuntwa,Ossewingo,Ostogeron,Schoherage,Solocka,Awegen,Cahunghage,Opolopong,Canowdowsa,Sevege,Southwold,Oneida Settlement,Oneida Nation of the Thames,Duck Creek,Chicago Corners",
+    b: "Oneida Castle,Kanawalohale,Old Oneida,Oriska,Nichols Pond,Cowassalon,Canaseraga,Ganadoga,Tkanetota,Tegasoke,Hostayuntwa,Ossewingo,Ostogeron,Schoherage,Solocka,Awegen,Cahunghage,Opolopong,Canowdowsa,Sevege,Southwold,Oneida Settlement,Oneida Nation of the Thames,Duck Creek,Chicago Corners,Green Bay,Oneida Lake,Utica,Canandaigua,Six Nations,Grand River,Brantford,London Ontario,Syracuse,Vernon,Oneida Nation of Wisconsin",
     status: "COMPLETE"
   },
   {
@@ -508,7 +508,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Fort Vancouver,Fort Astoria,Fort Victoria,Fort Langley,Fort Nisqually,Fort Walla Walla,Fort Colvile,Fort Edmonton,Fort St. James,Fort Kamloops,Oregon City,Portland,Seattle,Vancouver,The Dalles,Walla Walla,Yakima,Puget Sound,Willamette Valley,Columbia River,Victoria,Astoria,Olympia,Tacoma,Bellingham",
+    b: "Fort Vancouver,Fort Astoria,Fort Victoria,Fort Langley,Fort Nisqually,Fort Walla Walla,Fort Colvile,Fort Edmonton,Fort St. James,Fort Kamloops,Oregon City,Portland,Seattle,Vancouver,The Dalles,Walla Walla,Yakima,Puget Sound,Willamette Valley,Columbia River,Victoria,Astoria,Olympia,Tacoma,Bellingham,Grand Ronde,Yale,New Westminster,Nanaimo,Salish Sea,Fraser River,Cascades,Mount Hood,Chinook,Wauna,Ilwaco",
     status: "COMPLETE"
   },
   {
@@ -948,7 +948,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 14,
     d: "lnrt",
     m: 0,
-    b: "Koyukuk,Galena,Nulato,Huslia,Hughes,Allakaket,Bettles,Evansville,Alatna,Tanana,Ruby,Rampart,Stevens Village,Circle,Fort Yukon,Voznesenka,Kaltag,Andreafsky,Anvik,Grayling,Holy Cross,Russian Mission,Marshall,Pitkas Point,Alakanuk",
+    b: "Koyukuk,Galena,Nulato,Huslia,Hughes,Allakaket,Bettles,Evansville,Alatna,Tanana,Ruby,Rampart,Stevens Village,Circle,Fort Yukon,Voznesenka,Kaltag,Andreafsky,Anvik,Grayling,Holy Cross,Russian Mission,Marshall,Pitkas Point,Alakanuk,Beaver,Manley Hot Springs,Kokrines,Lake Minchumina,Notaalee Denh,Tlaa'ologhe,Hut'odlee Kkaakk'et,Ts'aateyhdenaadekk'onh Denh,Aalaa Kkaakk'et,Ggaał Doh,Noolaaghe Doh,Meneelghaadze' T'oh,Hohudodetlaatl Denh,Dleł Taaneets,Denyeet",
     status: "COMPLETE"
   },
   {
@@ -1338,7 +1338,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Creel,Batopilas,Guachochi,Norogachi,Temosachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Morelia,Uruachi,Maguarichi,Tepahuis,Chicar,Nonoava,Bocoyna,San Rafael,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Parral,Jimenez,Camargo",
+    b: "Creel,Batopilas,Guachochi,Norogachi,Temosachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Morelia,Uruachi,Maguarichi,Tepahuis,Chicar,Nonoava,Bocoyna,San Rafael,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Parral,Jimenez,Camargo,Cuauhtemoc,Guerrero,Balleza,El Tule,Morelos,Guadalupe y Calvo,Urique,Batopilas,Chihuahua,Juarez,Delicias,Cuauhtemoc",
     status: "COMPLETE"
   },
   {
@@ -1988,7 +1988,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Fort Mojave,Needles,Parker,Poston,Blythe,Fort Yuma,Parker Dam,Big River,Bluewater,Ehrenberg,Quartzsite,Salome,Bouse,Mohave Valley,Fort Mohave,Bullhead City,Arizona City,Yuma,Colorado River,Mohave City,Hardyville,Palo Verde,Mohave,Havasu,Topock",
+    b: "Fort Mojave,Needles,Parker,Poston,Blythe,Fort Yuma,Parker Dam,Big River,Bluewater,Ehrenberg,Quartzsite,Salome,Bouse,Mohave Valley,Fort Mohave,Bullhead City,Arizona City,Yuma,Colorado River,Mohave City,Hardyville,Palo Verde,Mohave,Havasu,Topock,Lake Havasu City,Kingman,Laughlin,Davis Dam,Willow Beach,Golden Shores,Colorado River Indian Tribes",
     status: "COMPLETE"
   },
   {
@@ -2058,7 +2058,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 14,
     d: "lnrt",
     m: 0,
-    b: "Sells,Ajo,Choulic,San Simon,Covered Wells,Chuichu,San Miguel,Santa Rosa,Topawa,Pisinemo,Vamori,Gu Vo,San Xavier,Gila Bend,Why,Kaka,Gu Achi,Hickiwan,Sixty-one,Sixty-two,Sixty-three,Sixty-four,Sixty-five,Sixty-six,Sixty-seven",
+    b: "Sells,Ajo,Choulic,San Simon,Covered Wells,Chuichu,San Miguel,Santa Rosa,Topawa,Pisinemo,Vamori,Gu Vo,San Xavier,Gila Bend,Why,Kaka,Gu Achi,Hickiwan,Sif Oidak,Chukut Kuk,Schuk Toak,Baboquivari,Florence Village,San Lucy,Arivaca,Sasabe,Tucson,Casa Grande",
     status: "COMPLETE"
   },
   {
@@ -2268,7 +2268,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Tama,Iowa,Oskaloosa,Toledo,Newton,Pella,Grinnell,Marengo,Montezuma,Brooklyn,Deep River,Barnes City,South English,Keswick,What Cheer,Lynnville,Sully,Miller,Mingo,Cleghorn,Minburn,Dallas Center,Adel,Van Meter,Plover",
+    b: "Tama,Iowa,Oskaloosa,Toledo,Newton,Pella,Grinnell,Marengo,Montezuma,Brooklyn,Deep River,Barnes City,South English,Keswick,What Cheer,Lynnville,Sully,Miller,Mingo,Cleghorn,Minburn,Dallas Center,Adel,Van Meter,Plover,Marshalltown,Des Moines,Iowa City,Green Bay,Saukenuk,Rock Island,Red Lake,Oklahoma City,Shawnee,Kansas City,Topeka,Wichita,Stillwater",
     status: "WAITING"
   },
   {
@@ -2278,7 +2278,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Santa Luzia,Grajaú,Amarante,Maranhão,Caxias,Codo,Peritoró,Bacabal,Codó,Timon,Imperatriz,Santa Inês,Zé Doca,Açailândia,Bom Jardim,Monção,Nina Rodrigues,Arame,Santa Rita,Bacurituba,Bacuri,Miranha,Vitorino Freire,Bela Vista do Maranhão,Centrolândia",
+    b: "Santa Luzia,Grajaú,Amarante,Maranhão,Caxias,Codo,Peritoró,Bacabal,Codó,Timon,Imperatriz,Santa Inês,Zé Doca,Açailândia,Bom Jardim,Monção,Nina Rodrigues,Arame,Santa Rita,Bacurituba,Bacuri,Miranha,Vitorino Freire,Bela Vista do Maranhão,Centrolândia,Barra do Corda,Sítio Novo,Montes Altos,Aldeias Altas,Capinzão do Norte,Alto Alegre,São Mateus,Coroatá,São Luís,Tuntum",
     status: "WAITING"
   },
   {
