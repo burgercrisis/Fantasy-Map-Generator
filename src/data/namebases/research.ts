@@ -8,7 +8,7 @@ export const researchNameBases: NameBase[] = [
     max: 20,
     d: "lnrt",
     m: 0.1,
-    b: "Hunza,Yasin,Gilgit,Baltit,Altit,Ganesh,Hari Parbat,Gupis,Ghizer,Karakoram,Shimshal,Passu,Gulkin,Chilas,Astore,Skardu,Rama,Pharping,Nagar,Srinagar,Ishkoman,Ataabad,Nagarkot,Sikandarabad"
+    b: "Hunza,Yasin,Gilgit,Baltit,Altit,Ganesh,Hari Parbat,Gupis,Ghizer,Karakoram,Shimshal,Passu,Gulkin,Chilas,Astore,Skardu,Rama,Pharping,Nagar,Srinagar,Ishkoman,Ataabad,Nagarkot,Sikandarabad,Hunza,Nagar,Yasin,Gilgit,Karimabad,Altit,Baltit,Aliabad,Gulmit,Passu,Ganish,Nasirabad,Duikar,Gupis,Ishkoman,Darkut,Thallu,Gakuch,Yasin Valley,Punial,Darkot,Silpi,Hushe,Khaplu,Skardu,Shigar"
   },
   {
     name: "Kudmali",

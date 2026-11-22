@@ -38,7 +38,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 22,
     d: "cltr",
     m: 0.35,
-    b: "Chipilo,Segusino,Treviso,Belluno,Quero,Valdobbiadene,Feltre,Maser,Conegliano,Vittorio Veneto,Pieve di Soligo,Mogliano Veneto,Preganziol,San Biagio di Callalta,Spresiano,Villa del Conte,Montebelluna,Castelfranco Veneto,Cittadella,Stramare,Alano di Piave,Pederobba,Cavaso del Tomba,Fener,Vas",
+    b: "Chipilo,Segusino,Quero-Vas,Valdobbiadene,San Pietro di Barbozza,Volpago del Montello,Feltre,Miane,Maser,Alano di Piave,Cornuda,Barcis,Pederobba,La Perla de Chipilo,Puebla,San Gregorio Atzompa,Atlixco,Cholula,Guanajuato,Chipilo,Segusino,Quero-Vas,Valdobbiadene,San Pietro di Barbozza,Volpago del Montello",
     status: "COMPLETE"
   },
   {
@@ -48,7 +48,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 20,
     d: "lnrm",
     m: 0.42,
-    b: "Lewiston,Madawaska,Fort Kent,Van Buren,Grand Isle,New Canada,Eagle Lake,St. Francis,Wallagrass,Cyr Plantation,Allagash,St. Froid,Woonsocket,Caribou,Frenchville,Biddeford,Augusta,Waterville,Brunswick,Sanford,Westbrook,Saco,South Berwick,Old Town,Manchester",
+    b: "Maine,Vermont,New Hampshire,Massachusetts,Rhode Island,Connecticut,Aroostook County,Madawaska,Van Buren,Fort Kent,Presque Isle,Caribou,Lewiston,Auburn,Biddeford,Saco,Portland,Bangor,Burlington,Winooski,Plattsburgh,Lowell,Manchester,Fall River,New Bedford",
     status: "COMPLETE"
   },
   {
@@ -68,7 +68,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 22,
     d: "lnrt",
     m: 0.29,
-    b: "Brackettville,Fort Clark,Seminole,Wewoka,Nacimiento de los Negros,Sasakwa,Bowlegs,Konawa,Maud,Cromwell,Lima,Dixon,Butner,Dewright,Little,Nobletown,Schoolton,Vamoosa,Wolf,Nacimiento,Holdenville,Wetumka,Adams,Coalgate,Hartshorne",
+    b: "Oklahoma,Texas,Florida,Coahuila,Nacimiento de los Negros,Muskogee,Wewoka,Brackettville,Del Rio,Eagle Pass,San Antonio,Houston,Dallas,Tampa,Miami,Jacksonville,Pensacola,Tallahassee,Gainesville,Ocala",
     status: "COMPLETE"
   },
   {
@@ -78,7 +78,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 17,
     d: "kpt",
     m: 0.3,
-    b: "Aguacatan,Chex,Llano Coyote,Rio San Juan,Las Pilas,Pichiquil,Exchimal,Tuixkox,Manzanillo,Chalchitan,Awakantlán,Santa Eulalia,San Miguel Acatán,Nenton,San Pedro Soloma,San Juan Ixcoy,San Mateo Ixtatán,San Miguel Ixtahuacán,San Sebastián Huehuetenango,La Democracia,Colotenango,Barillas,Malacatancito,San Rafael La Independencia,Huehuetenango",
+    b: "Aguacatan,Chex,Llano Coyote,Rio San Juan,Las Pilas,Pichiquil,Exchimal,Tuixkox,Manzanillo,Chalchitan,Awakantlán,Santa Eulalia,San Miguel Acatán,Nenton,San Pedro Soloma,San Juan Ixcoy,San Mateo Ixtatán,San Miguel Ixtahuacán,San Sebastián Huehuetenango,La Democracia,Colotenango,Barillas,Malacatancito,San Rafael La Independencia,Huehuetenango,Maya Tecún I,Maya Tecún II,Santo Domingo Kesté,Culcheco,Xolob,Tunimab,San José Cotoxjá,San Miguel Cotoxjá,La Florida,El Ocotal,Agua Caliente,Nueva Alianza",
     status: "COMPLETE"
   },
   {
@@ -128,7 +128,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0.25,
-    b: "Socaaix,Haxol Iihom,Tahejoc,Cofteecol,El Desemboque,Punta Chueca,Isla Tiburon,Desemboque,Hermosillo,Bahia de Kino,San Carlos,Guaymas,Empalme,Ostimuri,Tiburon,San Esteban,Caborca,Pitiquito,Altar,Saric,Tubutama,Atil,Trinidad,Oquitoa,Puerto Libertad,Mexico City,Guaymas,La Paz,Loreto,Santa Rosalia,Mulege,Comondu,Puerto Penasco,Rocky Point,Yanbu,Al Qunfudhah,Al Lith,Jeddah,Mecca,Medina,Taif,Abha,Najran,Jizan",
+    b: "Punta Chueca,El Desemboque,Isla Tiburón,Desemboque,Bahía de Kino,Hermosillo,San Carlos,Guaymas,Empalme,Ostimuri,San Esteban,Caborca,Pitiquito,Altar,Saric,Tubutama,Atil,Trinidad,Oquitoa,Puerto Libertad",
     status: "COMPLETE"
   },
   {
@@ -188,7 +188,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 17,
     d: "lnrt",
     m: 0.57,
-    b: "Ste. Genevieve,Old Mines,Cinque Hommes,St. Louis,Carondelet,Florissant,Valles Mines,Desloge,Bon Terre,Cadet,St. Ferdinand,Femme Osage,Prairie du Biche,Grand Champ,Cahokia,Kaskaskia,Prairie du Rocher,St. Philippe,Peoria,Vincennes,Ouiatenon,Portage des Sioux,Pioneer Mine,San Miguel,Plattenville",
+    b: "Missouri,Illinois,St. Louis,Ste. Genevieve,Cape Girardeau,New Madrid,Carondalet,Prairie du Rocher,Kaskaskia,Fort de Chartres,Cahokia,Florissant,Portage des Sioux,Old Mines,Mine Renault,Potosi,Washington County,Ste. Mary,Perryville,Jackson",
     status: "COMPLETE"
   },
   {
@@ -228,7 +228,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "New Amsterdam,Fort Nassau,Fort Orange,Schuyler Flatts,Esopus,Rensselaerswyck,Pavonia,Communipaw,Harsimus,Paulus Hook,Newark,Elizabethtown,Woodbridge,Piscataway,Raritan,Perth Amboy,South Amboy,Keyport,Middletown,Shrewsbury,Freehold,Manasquan,Toms River,Barnegat,Little Egg Harbor",
+    b: "New Amsterdam,Fort Nassau,Fort Orange,Schuyler Flatts,Esopus,Rensselaerswyck,Pavonia,Communipaw,Harsimus,Paulus Hook,Newark,Elizabethtown,Woodbridge,Piscataway,Raritan,Perth Amboy,South Amboy,Keyport,Middletown,Shrewsbury,Freehold,Manasquan,Toms River,Barnegat,Little Egg Harbor,Delaware,New Jersey,Pennsylvania,Philadelphia,Wilmington,Trenton,New Castle,Chester,Dover,Milford,Lewes,Rehoboth,Bridgeton,Salem,Burlington,Bristol,Germantown,Gwynedd,Skippack,Lansdale",
     status: "COMPLETE"
   },
   {
@@ -238,7 +238,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 15,
     d: "lnrt",
     m: 0,
-    b: "Anvik,Deloy Ges,Anilukhtakpak,Old Anvik,Holy Cross,Shageluk,Old Shageluk,Grayling,Iltenleyden,Tozhgelede,Nikadodellenten,Old Bonasila,New Bonasila,Koserefsky,Stony River,Nikolai,Takotna,McGrath,Telida,Lime Village,Chitina,Gakona,Gulkana,Mentasta,Tazlina",
+    b: "Grayling,Anvik,Shageluk,Holy Cross,Stony River,Dishkaket,Innoko River,Yukon River,Bonasila,Georgetown,McGrath,Kuskokwim River,Grayling,Anvik",
     status: "COMPLETE"
   },
   {
@@ -328,7 +328,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Nedrow,Ganakdagweniyogeh,Otiahanague,Touenho,Ahaouete,Gistwiahna,Deseroken,Tgasunto,Gannentaha,Kaneenda,Onondaghara,Onondahgegahgeh,Onontatacet,Gadoquat,Butternut,Indian Hill,Onondaga Nation,Syracuse,Lafayette,Pompey,Tully,Apulia,Fabius,Truxton,Marcellus",
+    b: "Nedrow,Ganakdagweniyogeh,Otiahanague,Touenho,Ahaouete,Gistwiahna,Deseroken,Tgasunto,Gannentaha,Kaneenda,Onondaghara,Onondahgegahgeh,Onontatacet,Gadoquat,Butternut,Indian Hill,Onondaga Nation,Syracuse,Lafayette,Pompey,Tully,Apulia,Fabius,Truxton,Marcellus,Six Nations,Ohsweken,Brantford,Grand River,Onondaga Lake,Salina,Liverpool,Geddes,Camillus,Van Buren",
     status: "COMPLETE"
   },
   {
@@ -518,7 +518,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Nicoya,Diriamba,Nandasinmo,Monimbe,Nindiria,Nakutiri,Mombonasi,Masaya,Managua,Namotiva,Norome,Oretina,Diria,Nagrandan,Choluteca,Orotiña,Rivas,Jinotepe,Granada,León,Chinandega,Corinto,El Viejo,Tipitapa,Masatepe",
+    b: "Guanacaste,Nicoya,Rivas,Liberia,Santa Cruz,Filadelfia,Carrillo,Bagaces,Cañas,Tilarán,Puntarenas,San José,Alajuela,Cartago,Heredia,Masaya,Granada,Diriamba,Jinotepe,San Marcos",
     status: "COMPLETE"
   },
   {
@@ -528,7 +528,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 23,
     d: "",
     m: 0,
-    b: "Chicomuselo,Mazapa de Madero,Amatenango de la Frontera,Chiapas,Mexico,Huehuetenango,Guatemala,Siltepec,El Porvenir,Montecristo de Guerrero,Frontera Comalapa,La Trinitaria,Venustiano Carranza,Ocosingo,Chalchihuitan,Huixtan,Motozintla,Tuzantan,San Jeronimo,Amatenango,Bosque Bonito,El Aguacate,San Cristobal,Las Rosas,Villa Corzo",
+    b: "Chicomuselo,Mazapa de Madero,Amatenango de la Frontera,Chiapas,Huehuetenango,Guatemala,Cotoque,Chikomuselteko,Chicomucelteco,Comalapa,La Trinitaria,Bella Vista,Honduras de la Sierra,Siltepec,El Porvenir,Frontera Comalapa",
     status: "COMPLETE"
   },
   {
@@ -538,7 +538,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 13,
     d: "",
     m: 0,
-    b: "Aquespala,Coapa,Coneta,Escuintenango,Zapaluta,Comitan,Chicomuselo,Comalapa,Yayahuita,Huitatan,Coxoh,Comitán,Las Margaritas,Altamirano,Chenaló,Huixtán,San Juan Chamelco,Chamula,Zinacantán,San Cristóbal de las Casas,Oxchuc,Tenejapa,San Andrés Larrainzar,Huixtan,Pantelhó",
+    b: "San Juan Ostuncalco,Quetzaltenango,San Andrés Huista,Jacaltenango,Huehuetenango,Coneta,Chiapas,San Mateo,San Cristóbal Cucho,San Pedro Sacatepéquez,El Quetzal,Palestina de Los Altos,Cajolá,San Miguel Sigüilá,Colomba,San Martín Sacatepéquez,Concepción Chiquirichapa",
     status: "COMPLETE"
   },
   {
@@ -648,7 +648,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Fort Yukon,Chalkyitsik,Arctic Village,Venetie,Fort McPherson,Aklavik,Inuvik,Tuktoyaktuk,Paulatuk,Colville Lake,Fort Good Hope,Norman Wells,Tulita,Deline,Gameti,Wekweeti,Whati,Behchoko,Yellowknife,Fort Smith,Hay River,Enterprise,Fort Liard,Nahanni Butte,Jean Marie River,Fort Simpson,Wrigley,Tulita,Norman Wells,Fort Good Hope,Colville Lake,Fort McPherson,Aklavik,Inuvik,Tuktoyaktuk,Sachs Harbour,Ulukhaktok,Paulatuk,Fort Chipewyan,Fort McKay,Fort McMurray,Anzac,Janvier,Conklin,Chard,Fort Vermilion,La Crete,High Level,Rainbow Lake,Zama City,Assumption,Paddle Prairie,Peavine,Gift Lake,East Prairie,Trout Lake,Peerless Lake,Chipewyan Lake,Bigstone,Cree,Wabasca,Desmarais,Calling Lake,Whitefish Lake,Siksika,Tsuu Tina,Piikani,Blood,Tribal,Stoney,Nakoda,Lutak,CooperLanding,Deception,PortHeiden,Portage,PortClarence,KingSalmon,Beluga,Mendeltna,Mendenhall,Perryville,Coffman,TrapperCreek,ThorneBay,PilotPoint",
+    b: "Fairbanks,Anchorage,Juneau,Sitka,Ketchikan,Wrangell,Petersburg,Kake,Hoonah,Angoon,Hoonah,Tenakee Springs,Pelican,Gustavus,Skagway,Haines,Yakutat,Cordova,Valdez,Whittier,Seward,Homer,Kodiak,Bethel,Nome,Kotzebue,Barrow,Kaktovik,Tok,Eagle,Circle,Fort Yukon,Venetie,Arctic Village,Beaver,Stevens Village,Rampart,Tanana,Nenana,Healy,Cantwell,Glennallen,Copper Center,Mentasta,Chisana,Northway,Tetlin,Tok,Eagle,Eagle Village",
     status: "COMPLETE"
   },
   {
@@ -668,7 +668,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "",
     m: 0.4,
-    b: "Rabinal,Cubulco,San Miguel Chicaj,Salamá,San Jerónimo,Purulhá,Granados,Santa Cruz El Chol,El Chol,Tres Cruces,Tzamaneb',Kajyub',Xetulul,Xococ,Urrán,Cajiup,Cuxbalám,Pacoc,Las Burras,Chipichek,Chusxan,Santa Cruz Verapaz,San Cristobal Verapaz,Tamahu,Chahal",
+    b: "Rabinal,Cubulco,Salamá,San Miguel Chicaj,San Jerónimo,El Chol,Granados,Tactic,San Cristóbal Verapaz,Chicamán,Ixcán,Purulhá,Ribalcó,Baja Verapaz,El Quiché",
     status: "COMPLETE"
   },
   {
@@ -728,7 +728,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Coban,San Pedro Carcha,San Juan Chamelco,San Cristobal Verapaz,Tactic,Tamahu,Fray Bartolome de las Casas,Chahal,Senahu,Cahabon,Chisec,Poptun,San Luis,Peten,Sayaxche,Dolores,San Francisco,El Estor,Livingston,Morales,Punta Gorda,Lanquin,Panzos,Santa Catalina La Tinta,Tucuru",
+    b: "Coban,San Pedro Carcha,San Juan Chamelco,San Cristobal Verapaz,Tactic,Tamahu,Fray Bartolome de las Casas,Chahal,Senahu,Cahabon,Chisec,Poptun,San Luis,Peten,Sayaxche,Dolores,San Francisco,El Estor,Livingston,Morales,Punta Gorda,Lanquin,Panzos,Santa Catalina La Tinta,Tucuru,Purulhá,La Libertad,Las Cruces,San Benito,El Chal,Melchor de Mencos,Flores,Raxruhá,Ixcán,Playa Grande,Uspantán,Los Amates,Puerto Barrios",
     status: "COMPLETE"
   },
   {
@@ -758,7 +758,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Santa Eulalia,San Juan Ixcoy,San Pedro Soloma,Santa Cruz Barillas,San Miguel Acatan,San Rafael La Independencia,San Sebastian Huitan,Concepcion Huista,Nenton,Jacaltenango,San Antonio Huista,San Gaspar Ixchil,San Mateo Ixtatan,San Sebastian Coatan,Santa Ana Huista,Santa Cruz San Miguel,San Ildefonso Ixtahuacan,San Juan Atitan,San Juan Yalambojoch,San Miguel Uspantan,San Pedro Necta,Huehuetenango,La Democracia,Aguacatan,Colotenango",
+    b: "San Juan Ixcoy,San Pedro Soloma,Santa Eulalia,Santa Cruz Barillas,Yich K'ox,Tz'uluma',Jolom Konob',Yalmotx,Ixcán,Chajul,Catazajá,Amatenango de la Frontera,La Trinitaria,Bella Vista,Frontera Comalapa,Las Margaritas,Maravilla Tenejapa,Bacalar,San Juan Ixcoy,San Pedro Soloma,Santa Eulalia,Santa Cruz Barillas,Yich K'ox,Tz'uluma',Jolom Konob'",
     status: "COMPLETE"
   },
   {
@@ -798,7 +798,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 19,
     d: "lnrt",
     m: 0,
-    b: "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Cosuyoapan,Zacoalpa,Chochoapan,Huehuetono,El Pajaro,Las Minas,Cerro Bronco,Guajentepec,Pueblo Nuevo,San Pedro Amuzgos,Santa Maria Ipalapa,Suljaa,Nomndaa,Tzjon Non,Tzotyio,Icpalli,Tsjoom Nma,Jnonndaa,Jnunnda,Tsunuma,Amoxco,San Lucas Ojitlan",
+    b: "Xochistlahuaca,Tlacoachistlahuaca,Ometepec,Cozoyoapan,Guadalupe Victoria,Zacoalpan,Cochoapa,Huehuetonoc,Huixtepec,Cuajinicuilapa,Azoyú,San Pedro Amuzgos,Santa María Ipalapa,Las Minas,Cerro Bronco,San Nicolás",
     status: "COMPLETE"
   },
   {
@@ -808,7 +808,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 18,
     d: "lnrt",
     m: 0,
-    b: "Soteapan,Tatahuicapan,Hueyapan de Ocampo,Catemaco,Piedra Labrada,Acayucan,Sayula de Aleman,Jesus Carranza,Oluta,Pajapan,Texistepec,Sayula de Alemán,Zongolica,Jaltepec,Tlacotalpan,Cosamaloapan,Papantla,Zempoala,Misantla,Coatepec,Xalapa,Banderilla,Cosoleacaque,Coscomatepec,Fortín",
+    b: "Hueyapan de Ocampo,Soteapan,Tatahuicapan de Juárez,Acayucan,Catemaco,Sayula de Alemán,Mecayapan,Pajapan,Piedra Labrada,Santa Rosa Cintepec,San Fernando de Chimpa,Michapa,Corral de Piedra,El Huamuche",
     status: "COMPLETE"
   },
   {
@@ -868,7 +868,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 28,
     d: "lnrt",
     m: 0,
-    b: "Totontepec Villa de Morelos,Tlahuitoltepec,San Pedro y San Pablo Ayutla,Tamazulapan,Santa Maria Tlahuitoltepec,Asuncion Cacalotepec,Mixistlan de la Reforma,Santiago Atitlan,San Lucas Camotlan,San Juan Cotzocon,San Juan Mazatlan,San Miguel Quetzaltepec,Santo Domingo Tepuxtepec,San Pedro Ocotepec,Santa Maria Alotepec,San Juan Juquila Mixes,Santiago Zacatepec,San Pedro Comitancillo,San Miguel Huautla,San Lorenzo,San Juan Lalana,San Pedro Ixcatlan,San Bartolome Ayautla,San Felipe Usila,San Juan Coatzospam,San Jose Tenango,San Mateo Etlatongo,San Miguel Chicahua,San Andres Lagunas,San Pedro Tidaa,San Francisco Nuxano",
+    b: "Totontepec Villa de Morelos,Mixistlán,Asunción Cacalotepec,Ayutla,Tamazultpec,San Juan Mazatlán,Guieje,Tepojaco,Totontepec,Mixistlán,Ayutla",
     status: "COMPLETE"
   },
   {
@@ -918,7 +918,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Eklutna,Knik,Tyonek,Susitna,Talkeetna,Nondalton,Lime Village,Seldovia,Kenai,Kustatan,Pedro Bay,Old Iliamna,Lake Iliamna,Tikahtnu,Ninilchik,Kasilof,Cooper Landing,Hope,Sunrise,Girdwood,Ninilchik Village,Sterling,Anchor Point,Homer,Soldotna",
+    b: "Eklutna,Knik,Tyonek,Susitna,Talkeetna,Nondalton,Lime Village,Seldovia,Kenai,Kustatan,Pedro Bay,Old Iliamna,Lake Iliamna,Tikahtnu,Ninilchik,Kasilof,Cooper Landing,Hope,Sunrise,Girdwood,Ninilchik Village,Sterling,Anchor Point,Homer,Soldotna,Idlughet,Niteh,Tubughnenq',Kahtnu,Ch'k'ituk't,Unhghenesditnu,Ch'ak'dalitnu,Qizhjeh,Hek'dichen Hdakaq',Nunvendaltin,Chickaloon,Montana Creek,Alexander Creek,Susitna Station,Salamatof,Kalifornsky Village",
     status: "COMPLETE"
   },
   {
@@ -938,7 +938,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Holikachuk,Huligachagat,Xiyighelinghdi,Grayling,Dishkaket,Thompson Slough,Anvik,Shageluk,Holy Cross,Nikolai,Takotna,McGrath,Telida,Lime Village,Stony River,Kaltag,Nulato,Huslia,Hughes,Allakaket,Bettles,Evansville,Alatna,Tanana,Ruby",
+    b: "Holikachuk,Huligachagat,Xiyighelinghdi,Grayling,Dishkaket,Thompson Slough,Anvik,Shageluk,Holy Cross,Nikolai,Takotna,McGrath,Telida,Lime Village,Stony River,Kaltag,Nulato,Huslia,Hughes,Allakaket,Bettles,Evansville,Alatna,Tanana,Ruby,Sixno' Xidakagg,Diyhkagg,Hiyeghelinhdi,Doogh Qinag,Innoko River,Dishna River",
     status: "COMPLETE"
   },
   {
@@ -958,7 +958,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Nikolai,Telida,McGrath,Takotna,Medfra,Farewell Landing,Slow Fork,Dennis Creek,Big River,Vinasale,Golovin,Sleetmute,Stony River,Kwigiumpainukamiut,Crooked Creek,Red Devil,Aniak,Kalskag,Bethel,Napaimute,Ruby,Huslia,Hughes,Allakaket,Bettles",
+    b: "Nikolai,Telida,McGrath,Medfra,Takotna,Slow Fork,Dennis Creek,Farewell,Tonzona,Big River,Salmon River,Pitka,Vinasale Mountain,Denali,Lake Minchumina,Trimokish Hills,Kolmakovsky",
     status: "COMPLETE"
   },
   {
@@ -968,7 +968,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Northway,Tetlin,Tok,Nabesna,Beaver Creek,Scottie Creek,Northway Village,Tanacross,Dot Lake,Dot Lake Village,Eagle,Manley Hot Springs,Minto,Nenana,Fairbanks,Delta Junction,Healy Lake,Cantwell,Slana,Gakona,Gulkana,Mentasta,Beaver,Stevens Village,Fort Yukon",
+    b: "Northway,Tetlin,Tok,Nabesna,Beaver Creek,Scottie Creek,Northway Village,Tanacross,Dot Lake,Dot Lake Village,Eagle,Manley Hot Springs,Minto,Nenana,Fairbanks,Delta Junction,Healy Lake,Cantwell,Slana,Gakona,Gulkana,Mentasta",
     status: "COMPLETE"
   },
   {
@@ -1068,7 +1068,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Nacajuca,Centla,Jonuta,Macuspana,Balancan,Tenosique,Tacotalpa,Emiliano Zapata,Cardenas,Comalcalco,Paraiso,Frontera,El Bosque,Jalpa de Mendez,Villahermosa,Huimanguillo,Cunducan,Teapa,Jalapa,Centro,Cárdenas,Paraíso,Benito Juárez,Lázaro Cárdenas,Adolfo López Mateos",
+    b: "Nacajuca,Centla,Jonuta,Macuspana,Balancan,Tenosique,Tacotalpa,Emiliano Zapata,Cardenas,Comalcalco,Paraiso,Frontera,El Bosque,Jalpa de Mendez,Villahermosa,Huimanguillo,Cunducan,Teapa,Jalapa,Centro,Cárdenas,Paraíso,Benito Juárez,Lázaro Cárdenas,Adolfo López Mateos,Tamulté de las Sabanas,El Tigre,Saloya,Guatacalca,Olcuatitán,Tucta,Mazatehuapa,Tapotzingo,Guaytalpa,San Simón,Tecoluta,Oxiacapue,Guadalupe,El Sitio,Quintín Arauz",
     status: "COMPLETE"
   },
   {
@@ -1078,7 +1078,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 22,
     d: "lnrt",
     m: 0,
-    b: "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori,Jesús María,San Pedro Ixcatlán,Santa María del Oro,Rosamorada,San Blas,Acaponeta,Tepic",
+    b: "Jesus Maria de Oro,Mesa del Nayar,Santa Teresa,San Francisco,Corapan,Chicora,Presidio de los Reyes,Huaynamota,Dolores,Puertecitos,La Mesa,Mololon,San Blasito,Maria de Oro,El Nayar,La Yesca,Santa Maria del Oro,Huajicori,Jesús María,San Pedro Ixcatlán,Santa María del Oro,Rosamorada,San Blas,Acaponeta,Tepic,Ruiz,Jalisco,Durango,Mezquital,Santa Cruz del Guaybel,San Juan Corapan,Chimaltita,El Huicot,El Coyunque,Rancho Viejo,Linda Vista,Arroyo de Camarones,Gavilanes",
     status: "COMPLETE"
   },
   {
@@ -1108,7 +1108,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrtk",
     m: 0,
-    b: "Ulukhaktok,Cambridge Bay,Kugluktuk,Bathurst Inlet,Umingmaktok,Gjoa Haven,Coppermine,Bay Chimo,Paulatuk,Sachs Harbour,Holman,Taloyoak,Kugaaruk,Pelly Bay,Repulse Bay,Igloolik,Hall Beach,Coral Harbour,Rankin Inlet,Pond Inlet,Resolute,Arctic Bay,Grise Fiord,Cape Dorset,Iqaluit",
+    b: "Ulukhaktok,Cambridge Bay,Kugluktuk,Bathurst Inlet,Umingmaktok,Gjoa Haven,Coppermine,Bay Chimo,Paulatuk,Sachs Harbour,Holman,Taloyoak,Kugaaruk,Pelly Bay,Repulse Bay,Igloolik,Hall Beach,Coral Harbour,Rankin Inlet,Pond Inlet,Resolute,Arctic Bay,Grise Fiord,Cape Dorset,Iqaluit,Iqaluktuuttiaq,Qurluqtuq,Uqsuqtuuq,Ulukhaqtuq,Ikahuak,Tuktuyaaqtuuq,Paulatuuq",
     status: "COMPLETE"
   },
   {
@@ -1118,7 +1118,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 17,
     d: "lnrt",
     m: 0.52,
-    b: "Coban,San Pedro Carcha,San Juan Chamelco,Cahabon,Senahu,Lanquin,Chisec,Chahal,Fray Bartolome,Panzos,Raxruha,Poptun,San Luis,Sayaxche,El Estor,Livingston,Ixcán,Playa Grande,San Pedro Columbia,Crique Sarco,Dolores,Punta Gorda,Blue Creek,Indian Creek,Santa Cruz",
+    b: "Cobán,San Pedro Carchá,Lanquín,Panzós,Senahú,Tucurú,Chahal,San Juan Chamelco,Cahabón,Santa María Cahabón,Fray Bartolomé de las Casas,Purulhá,La Libertad,Poptún,San Luis,Sayaxché,Ixcán,Playa Grande,Uspantán,El Estor,Livingston,Morales,Toledo,Quetzal-Etzná,Los Laureles,Maya Tecún II,Santo Domingo Kesté,Las Cruces,San Benito,San Francisco,El Chal,Dolores,Santa Ana,Flores,Melchor de Mencos,Los Amates,Puerto Barrios,Raxruhá,Santa Catalina La Tinta",
     status: "COMPLETE"
   },
   {
@@ -1178,7 +1178,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Lacanjá Chansayab,Lacanjá,Nahá,Metzabok,Puerto Bello Metzabok,Betel,San Javier,Ojo de Agua Chankín,Bethel,Bonampak,Maeva,San Quintín,Crucero Bonampak,Zapote Caribal,Naha,Chancalá,Playón de la Gloria,Corozal,Palenque,Ocosingo,Pichucalco,Catazajá,Benemérito de las Américas,Frontera Corozal,Chajul",
+    b: "Bethel,Bonampak,Maeva,Nahá,Ojo de Agua Chankín,Puerto Bello Metzabok,San Javier,San Quintín,Metzabok,Ocosingo,Palenque,Yaxchilán,Chankín,Lacandón",
     status: "COMPLETE"
   },
   {
@@ -1198,7 +1198,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0.2,
-    b: "Chinautla,Mixco,San Luis Jilotepeque,San Pedro Pinula,San Carlos Alzatate,Palín,Cubulco,Rabinal,San Miguel Chicaj,Santa Cruz Verapaz,San Cristobal Verapaz,Tamahu,Chahal,Tucuru,Santa Catalina La Tinta,San Pedro Carcha,Coban,Salama,Purulha,Semococh,Guabito,La Tinta,Santa Maria Cahabon,Cahabon Viejo,San Rafael",
+    b: "Palín,Chinautla,Mixco,San Luis Jilotepeque,San Pedro Pinula,San Carlos Alzatate,Asunción Mita,Petapa,Amatitlán,Nimpoqom,Belej,Mixco Viejo,Sacoj Grande,Guatemala City,Villa Nueva,San Miguel Petapa,Palencia",
     status: "COMPLETE"
   },
   {
@@ -1208,7 +1208,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 18,
     d: "",
     m: 0.1,
-    b: "San Cristobal Verapaz,Tactic,Tamahu,Tucuru,Santa Cruz Verapaz,San Juan Chamelco,Panzos,Senahu,Cahabon,Chisec,Raxruha,Lanquin,San Pedro Carcha,Coban,Salama,Purulha,San Agustin Acasaguastlan,El Estor,Semococh,Guabito,Rio Hondo,La Tinta,Santa Maria Cahabon,Cahabon Viejo,Las Vacas",
+    b: "San Cristóbal Verapaz,Santa Cruz Verapaz,Tactic,Tamahú,Tucurú,Purulhá,Chicamán,Belejú,El Estor,San Miguel Uspantán,Ribalcó,Alta Verapaz,Baja Verapaz",
     status: "COMPLETE"
   },
   {
@@ -1228,7 +1228,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Sacapulas,Río Blanco,Trapichitos,Paguayil,Xutixtiox,Chutinamit,Xolpocol,Xolchún,Pacot,Xecatoloj,Chu'porb'al,Chu'xajawb'al,Chu'kot,Paksootz',Chi'chaj,Chu'b'iyiil,Chi'k'axay,Chu'atz'yaq,Santa Cruz Barillas,San Mateo Ixtatán,Nenton,San Miguel Acatán,San Rafael La Independencia,San Juan Ixcoy,San Pedro Soloma",
+    b: "Sacapulas,El Quiché,Río Blanco,Trapichitos,Paguayil,Chinajul,Chumulsnik,Saqiya',Cabricán,San Miguel Ixtahuacán",
     status: "COMPLETE"
   },
   {
@@ -1238,7 +1238,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Sipacapa,Quequesiguan,Pie de la Cuesta,Poj,Pueblo Viejo,Tres Cruces,Cancil,Chilil,Chual,Escupija,La Estancia,Queca,San Isidro,C Setiva,San Bartolo,Tuimij,Sipakapa,San Miguel Ixtahuacán,San Sebastián Huehuetenango,Nenton,San Juan Ixcoy,San Pedro Soloma,Santa Cruz Barillas,San Mateo Ixtatán,San Miguel Acatán",
+    b: "Sipacapa,San Marcos,Saqiya',Kukumbol,Chupadero,Ixchol,Cuilco,San Miguel Ixtahuacán,Cabricán,Malacatancito,Comitancillo",
     status: "COMPLETE"
   },
   {
@@ -1248,7 +1248,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Tectitan,Cuilco,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero,Bacantón,Altamirano Uno,Chimalapa,Nuevo Paraíso,Reforma,Tierra Blanca,Valle Obregón,Veracruz,Villa Hidalgo,Barrio Nuevo,Chiquisbil,El Porvenir,Granadillal,Las Marías,Nuevo Amatenango,Sabinalito,Nuevo Mazapa,La Trinitaria,Venustiano Carranza,Ocosingo",
+    b: "Tectitán,Cuilco,San Marcos,Tacaná,Amatenango de la Frontera,Frontera Comalapa,Mazapa de Madero,Chiapas,Huehuetenango,B'a'aj",
     status: "COMPLETE"
   },
   {
@@ -1258,7 +1258,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 24,
     d: "lnrt",
     m: 0,
-    b: "San Francisco Oxtotilpan,Temascaltepec,San Felipe del Progreso,San Lucas Ocotepec,Temoaya,San Antonio la Isla,Toluca,Metepec,Calimaya,Tenango del Valle,Almoloya de Juarez,Zinacantepec,Otzoloapan,Villa Guerrero,Coatepec Harinas,Ixtapan de la Sal,Tonatico,Zumpahuacan,Almoloya del Rio,Joquicingo,Ocuilan,Chalco,Xalatlaco,Capulhuac,Santiago Tianguistenco",
+    b: "San Francisco Oxtotilpan,Temascaltepec,San Felipe del Progreso,San Lucas Ocotepec,Temoaya,San Antonio la Isla,Toluca,Metepec,Calimaya,Tenango del Valle,Almoloya de Juarez,Zinacantepec,Otzoloapan,Villa Guerrero,Coatepec Harinas,Ixtapan de la Sal,Tonatico,Zumpahuacan,Almoloya del Rio,Joquicingo,Ocuilan,Chalco,Xalatlaco,Capulhuac,Santiago Tianguistenco,San Mateo Almomoloa,San Miguel Oxtotilpan,Nevado de Toluca,Valle de Bravo,Charo,Purépecha,Michoacán,Guerrero,Toluca Valley",
     status: "COMPLETE"
   },
   {
@@ -1278,7 +1278,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 34,
     d: "lnrt",
     m: 0.93,
-    b: "Tlaxiaco,Juxtlahuaca,San Juan Mixtepec,Santa Maria Peñoles,San Miguel el Grande,San Pedro y San Pablo Tequixtepec,San Mateo Yucutindoó,San Esteban Atatlahuca,Santiago Yosondua,Santa Cruz Itundujia,San Andres Dinicuiti,San Juan Diquiyú,San Miguel Amatitlan,San Sebastian Tecomaxtlahuaca,San Martin Duraznos,Santo Tomas Ocotepec,San Agustin Tlacotepec,Magdalena Peñasco,San Jeronimo Xayacatlan,San Juan Ñumí,Santa Maria Yucuhiti,San Andres Yuticachi,San Martin Huamelulpam,San Pedro Molinos,San Dionisio Ocotlan,Santa Lucia Monteverde,San Juan Teita,San Pedro Topiltepec,San Andres Cabecera Nueva,San Andres Nuxiño,Santa Maria Yolotepec,San Antonino Monte Verde,San Cristobal Amoltepec,Santiago Tamazola,San Martin de los Cansecos,San Juan Cieneguilla,Santa Maria Apazco,San Francisco Telixtlahuaca,San Juan Bautista Cuicatlan,San Pedro Jocotipac,Santa Maria Nativitas,San Andres Zautla (neighbor),San Martin Itunyoso,Tlacoatzintepec,Sochiapan,San Pedro y San Pablo Ayutla,San Lorenzo Cuaunecuiltitlan,Santa Maria Jalapa del Marques,San Juan Jaltepec,Santiago Yolomecatl,San Mateo Piñas,San Andres Paxtlan,San Vicente Nuñú,San Francisco Chapulapa,Santiago Huajolotitlan,San Miguel Chicahua,San Juan Tepeuxila",
+    b: "Jamiltepec,Pinotepa Nacional,Putla,Tlaxiaco,Huajuapan de León,Coatzacoalcos,Acatlán,Chazumba,Tamazulapa,Jamiltepec,Pinotepa Nacional,Putla,Tlaxiaco",
     status: "COMPLETE"
   },
   {
@@ -1338,7 +1338,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Creel,Batopilas,Guachochi,Norogachi,Temosachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Morelia,Uruachi,Maguarichi,Tepahuis,Chicar,Nonoava,Bocoyna,San Rafael,Ocampo,Temosachic,Carichi,San Juanito,Samachique,Parral,Jimenez,Camargo,Cuauhtemoc,Guerrero,Balleza,El Tule,Morelos,Guadalupe y Calvo,Urique,Batopilas,Chihuahua,Juarez,Delicias,Cuauhtemoc",
+    b: "Creel,Batopilas,Guachochi,Norogachi,Temosachi,Cusihuiriachi,Urique,Chinipas,Guazapares,Morelia,Uruachi,Maguarichi,Nonoava,Carichi,San Juanito,Samachique,Basaseachi,Basochil,Madera,Bachíniva,Temósachic,Cuauhtémoc,Guerrero,Balleza,El Tule",
     status: "COMPLETE"
   },
   {
@@ -1348,7 +1348,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 18,
     d: "lnrt",
     m: 0,
-    b: "Alamos,Uruachi,Chinipas,Maguarichi,Guazapares,Morelia,Tepahuis,Chicar,Nonoava,Ocampo,Guachochi,Temosachic,Carichi,Cusihuiriachi,Urique,Batopilas,Creel,Norogachi,Temosachi,San Juanito,Samachique,Chinipas de Almada,Moris,Quiriego,Rosario",
+    b: "Chínipas,Moris,Uruachi,Álamos,Quiriego,Guazapares,Arechuyvo,Aremeyvo,Cuiteco,Chacharachi,Gosogachi,Guasaremos,Jecopaco,Jicamorachi,Sipachi,Toribisachi,Bavícora,Burapaco,Mochibampo,Tecoripa,Sejaqui,Huataturi,Chorijoa,Batacosa",
     status: "COMPLETE"
   },
   {
@@ -1358,7 +1358,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 21,
     d: "lnrt",
     m: 0,
-    b: "Guaymas,San Carlos,Bahia Kino,Puerto Lobos,Punta Tepopa,Cocorit,Loma de Bacum,Loma de Guamuchil,Potam,San Pedro de la Cueva,Huatabampo,Navojoa,Vicam,Rahum,Torim,Huirivis,Belem,Alamos,Hant Ihiin,Heeno,Xnaamotat,Xiica hast ano,Tahejoc himquij,Cofteecol hipcap,Socaaix hac,Bacum,Tesobitam,Tórim,Empalme,Jiménez,Mazatlán,Empalme,San Ignacio,Cumuripa",
+    b: "Guaymas,San Carlos,Bahía Kino,Puerto Lobos,Punta Tepopa,Cocorit,Loma de Bacum,Loma de Guamuchil,Potam,San Pedro de la Cueva,Huatabampo,Navojoa,Vícam,Rahum,Tórim,Huirivis,Belem,Álamos,Bacum,Tesobitam,Empalme,Jiménez,Mazatlán,San Ignacio,Cumuripa",
     status: "COMPLETE"
   },
   {
@@ -1378,7 +1378,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrtk",
     m: 0,
-    b: "Inuvik,Tuktoyaktuk,Aklavik,Paulatuk,Sachs Harbour,Ulukhaktok,Holman,Cambridge Bay,Kugluktuk,Bathurst Inlet,Umingmaktok,Gjoa Haven,Taloyoak,Kugaaruk,Pelly Bay,Repulse Bay,Igloolik,Hall Beach,Fort McPherson,Tsiigehtchic,Fort Good Hope,Norman Wells,Tulita,Deline,Colville Lake",
+    b: "Inuvik,Tuktoyaktuk,Aklavik,Paulatuk,Sachs Harbour,Ulukhaktok,Holman,Akłarvik,Inuuvik,Ikaahuk,Tuktuyaaqtuuq,Paulatuuq,Ulukhaktuuq,Aktlarvik,Herschel Island,Shingle Point,Komakuk Beach,Stokes Point,Norman Wells,Fort McPherson,Tsiigehtchic,Fort Good Hope,Colville Lake",
     status: "COMPLETE"
   },
   {
@@ -1448,7 +1448,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bridgetown,Speightstown,Oistins,Holetown,Crab Hill,Bathsheba,Greenland,Six Cross Roads,Crane,Welchman Hall,St. Lawrence,St. David,St. George,St. James,St. John,St. Joseph,St. Lucy,St. Michael,St. Peter,St. Philip,St. Thomas,Christ Church,St. Andrew",
+    b: "Bridgetown,Speightstown,Oistins,Holetown,Crab Hill,Bathsheba,Greenland,Six Cross Roads,Crane,Hastings,Worthing,Saint Lawrence,Saint James,Saint Peter,Saint Lucy,Saint George,Saint Michael,Saint Philip,Saint John,Saint Joseph,Saint Andrew,Saint Thomas,Saint Charles",
     status: "COMPLETE"
   },
   {
@@ -1458,7 +1458,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Belize City,Belmopan,San Ignacio,Orange Walk Town,Corozal Town,Dangriga,Punta Gorda,San Pedro,Ambergris Caye,Caye Caulker,Placencia,Hopkins,Sittee River,San Antonio,San Pablo,San Jose,San Roman,San Miguel,San Carlos,San Francisco,San Juan,San Luis,San Marcos,San Nicolas,San Pedro,San Rafael,San Vicente,Santa Cruz,Santa Elena,Santa Rosa,Santiago",
+    b: "Belize City,Belmopan,Orange Walk,Corozal,Dangriga,San Pedro,Punta Gorda,Placencia,San Ignacio,Benque Viejo,Belize City,Belmopan",
     status: "COMPLETE"
   },
   {
@@ -1468,7 +1468,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bocas del Toro,Bastimentos,Almirante,Changuinola,Chiriqui Grande,El Silencio,Old Bank,Quebrada de Sal,Isla Colon,Isla Bastimentos,Isla Carenero,Isla Solarte,Isla Popa,Cayo Agua,Cayo Nancy,Cayo Zapatilla,Cayo Agua,Cayo de Agua",
+    b: "Bocas Town,Almirante,Changuinola,Chiriquí Grande,Cauchero,Punta Valiente",
     status: "COMPLETE"
   },
   {
@@ -1478,7 +1478,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "St. George,Gouyave,Grenville,Victoria,Sauteurs,Hillsborough,La Tante,St. David,St. Andrew,St. Patrick,St. Mark,St. John,St. George,Grand Anse,Woburn,Lance aux Epines,Morne Rouge,Tivoli,Waltham,Concord,Belmont,Mt. Parnassus,Westerhall,Tempe,Woodlands",
+    b: "St. George's,Gouyave,Victoria,St. David,Hillsborough,Sauteurs,Grenville,Tivoli,Belmont,Grand Anse,Morne Rouge,Calivigny,Woburn,Champs Fleurs,Constantine,Willis,Telescope,Dunfermline,Crochu",
     status: "COMPLETE"
   },
   {
@@ -1498,7 +1498,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Puerto Limon,Cahuita,Puerto Viejo,Manzanillo,Bri Bri,Sixaola,Guapiles,Siquirres,Matina,Barra del Colorado,Colorado,Tortuguero,Parismina,La Francia,La Geest,La Suiza,La Rita,La Lola,La Perla,La Union,La Esperanza",
+    b: "Limón,Puerto Limón,Moín,Matina,Guácimo,Siquirres,Tortuguero,Parismina,Cahuita,Puerto Viejo,Bribri,Sixaola,Gandoca,Manzanillo",
     status: "COMPLETE"
   },
   {
@@ -1518,7 +1518,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Brades,St. Johns,St. Peters,Salem,Cork Hill,St. Patricks,Lookout,Davy Hill,Weekes,Flemings,Olveston,Woodlands,Geralds,Buddles,Molyneux,Hope,Trants,Farms,Trial,Bethel,Hermitage",
+    b: "Plymouth,Brades,Salem,St. John's,St. Peter's,Little Bay,Carr's Little Bay,Olveston,Elberton,Cork Hill,Lookout,St. George's Hill,Fox's,Rendezvous,Margetts,Fairfield,Harris,Trials,Long Ground,Blakes",
     status: "COMPLETE"
   },
   {
@@ -1538,7 +1538,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Kingstown,Georgetown,Chateaubelair,Barrouallie,Layou,Calliaqua,Biabou,Richland Park,Mesopotamia,Greiggs,Stubbs,South Rivers,Overland,Park Hill,Fancy,Owia,Sandy Bay,Point,Union Island,Bequia,Mustique,Canouan,Mayreau,Palm Island,Petit St. Vincent",
+    b: "Kingstown,Georgetown,Barrouallie,Chateaubelair,Layou,Richmond,Wallilabou,Buccament,Duffry,Rutland,Calliaqua,Edinboro,Stubbs,Fair Hall,New Montrose,Arnos Vale,Kingstown Park,Sion Hill,Fitz Hughes,Cumberland",
     status: "COMPLETE"
   },
   {
@@ -1838,7 +1838,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "SanJosé,Flores,SantaElena,SanBenito,MelchorDeMencos,Uaxactún,Tikal,San Jose,Peten,Sayache,Dolores,Poptun,Melchor de Mencos,Santa Ana,La Libertad,El Chal,Raxruha,San Benito,Santa Clara,Las Cruces,Nuevo San Jose,El Remate,Santa Elena,San Andres,Santa Cruz",
+    b: "San José,San Andrés,Flores,Santa Elena,San Benito,Petén Itzá,Tayasal,Nojpetén,El Remate",
     status: "COMPLETE"
   },
   {
@@ -1848,7 +1848,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0.2,
-    b: "San Luis,Poptún,Melchor de Mencos,Dolores,San Antonio,San José Succotz,Santa Cruz,Jordan,San Pedro Columbia,Blue Creek,Indian Creek,San Felipe,Punta Gorda,Santa Elena,San Isidro,Benque Viejo del Carmen,San Jose Succotz,Armenia,Calla Creek,Duck Run,Middlesex,San Jose,Orange Walk,Benque Viejo,Cayo",
+    b: "San Luis,Poptún,Melchor de Mencos,Dolores,San Antonio,Pueblo Viejo,Stann Creek,Cayo,Toledo,Benque Viejo del Carmen,San Ignacio",
     status: "COMPLETE"
   },
   {
@@ -1888,7 +1888,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 19,
     d: "",
     m: 0,
-    b: "Uspantan,Playa Grande Ixcan,San Miguel Uspantan,Chichicastenango,Santa Cruz del Quiche,Rabinal,Coban,San Miguel Uspantan municipality,Playa Grande Ixcan municipality,Uspantán,San Miguel Uspantán,Chicamán,Plebis,Sacapulas,Cunén,Nebaj,Joyabaj,Zacualpa,Chiché,San Andrés Sajcabajá,San Bartolomé Jocotenango,Santa Cruz del Quiché,Patzicia,San Juan Cotzal,Santa María Nebaj",
+    b: "Uspantán,Chicamán,Playa Grande Ixcán,Las Pacayas,La Lagunita,Chipaj,San Antonio La Esperanza,Cholá,Peñaflor,Tz'unun Kaab'",
     status: "COMPLETE"
   },
   {
@@ -1898,7 +1898,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 21,
     d: "lnrt",
     m: 0,
-    b: "Santa Maria Cauque,Santiago Sacatepequez,Cauque,San Pedro Cauque,San Juan Cauque,San Andres Cauque,San Antonio Cauque,San Jose Cauque,San Martin Cauque,San Lucas Cauque,San Marcos Cauque,Antigua Guatemala,Mixco,Villa Nueva,Petapa,San Miguel Petapa,Chinautla,San Juan Sacatepequez,San Raymundo,Chuarrancho,Fraijanes,Palencia,Amatitlan,Villa Canales,San Jose Pinula",
+    b: "Santa Maria Cauque,Santiago Sacatepequez,Cauque,San Pedro Cauque,San Juan Cauque,San Andres Cauque,San Antonio Cauque,San Jose Cauque,San Martin Cauque,San Lucas Cauque,San Marcos Cauque,Antigua Guatemala,Mixco,Villa Nueva,Petapa,San Miguel Petapa,Chinautla,San Juan Sacatepequez,San Raymundo,Chuarrancho,Fraijanes,Palencia,Amatitlan,Villa Canales,San Jose Pinula,Santa Ana Cauque,Quetzaltenango,San Martín Sacatepéquez,Concepción Chiquirichapa,San Juan Ostuncalco,Cajolá,San Miguel Sigüilá,Palestina de Los Altos,Colomba,Coatepeque,Génova,Flores Costa Cuca,Huitán,Zunil,Almolonga,Cantel,El Palmar,La Esperanza,Salcajá,Olintepeque",
     status: "COMPLETE"
   },
   {
@@ -1918,7 +1918,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 23,
     d: "lnrt",
     m: 0,
-    b: "StraitOfBelleIsle,ChateauBay,Quirpon,Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Norman Bay,Paradise River,Fox Harbour,St. Lewis,Port Hope Simpson,Mary's Harbour,Lodge Bay,Cape Charles,Battle Harbour,Red Bay,Forteau,L'Anse au Clair,West St. Modeste,Happy Valley-Goose Bay,Wabush",
+    b: "Labrador,Newfoundland,Nain,Hopedale,Makkovik,Postville,Rigolet,Cartwright,Black Tickle,Happy Valley-Goose Bay,North West River,Sheshatshiu,Natuashish,Davis Inlet,Okak,Hebron,Nutak,Ramah,Killiniq",
     status: "COMPLETE"
   },
   {
@@ -1938,7 +1938,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "PortJackson,Sydney,NewSouthWales,Newcastle,BotanyBay,Parramatta,CumberlandPlain,HawkesburyRiver,NorthernTerritory,RoperRiverMission,Ngukurr,SydneyCove,Bennelong,Windsor,Liverpool,Wollongong,Campbelltown,Penrith,Blacktown,Fairbank,Hunter Valley,Central Coast,Illawarra,South Coast,Melbourne",
+    b: "Sydney,Port Jackson,New South Wales,Parramatta,Hawkesbury,Nepean,Richmond,Windsor,Liverpool,Campbelltown,Penrith,Blacktown,Baulkham Hills,Castle Hill,Ryde,Ermington,Milsons Point,Kirribilli,Neutral Bay,Manly,Bondi,Coogee,Randwick,Paddington,Surry Hills",
     status: "COMPLETE"
   },
   {
@@ -1968,7 +1968,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Eagle,Dawson City,Moosehide,Tr'ondëk,Tr'ochëk,Fort Reliance,Forty Mile,Ch'ëchozhù' Ndëk,Fort Cudahy,Fort Constantine,Fort Eagle,Black City,Johnny's Village,Charley's Village,Klondike,Forty Mile River,Dënezhu Graveyard,Fort Yukon,Circle,Central,Chicken,Fortymile,Boundary,Moose Lake,Scottie Creek",
+    b: "Eagle,Dawson City,Moosehide,Tr'ondëk,Tr'ochëk,Fort Reliance,Forty Mile,Ch'ëchozhù' Ndëk,Fort Cudahy,Fort Constantine,Fort Eagle,Black City,Johnny's Village,Charley's Village,Klondike,Forty Mile River,Dënezhu Graveyard,Fort Yukon,Circle,Central,Chicken,Fortymile,Boundary,Moose Lake,Scottie Creek,Fairbanks,Tanacross,Nuclako,Ch'ëdä Dëk,Tr'ondëk Hwëch'in,44 Mile,Rampart Creek,Eight Mile,Twelve Mile,King Solomon's Dome,Omineca",
     status: "COMPLETE"
   },
   {
@@ -2008,7 +2008,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 18,
     d: "lnrt",
     m: 0,
-    b: "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Taxicaringa,Milpillas,Ocotan,Odam,Audam,Ocampo,Guadalupe y Calvo,Baborigame,Chínipas,Urique",
+    b: "Mezquital,Pueblo Nuevo,Tepehuanes,El Mezquital,Santa Maria Ocotan,Xoconostle,San Francisco Ocotan,Santiago Ocotan Teneraca,Santa Maria Magdalena Taxicaringa,Chico Milpillas,San Bernardino,San Francisco de Lajas,Huajicori,San Andres Milpillas Grande,Chinacates,Taxicaringa,Milpillas,Ocotan,Odam,Audam,Ocampo,Guadalupe y Calvo,Baborigame,Chínipas,Urique,San Andrés Milpillas Grande,San Bernardino Milpillas Chico,Santa María Magdalena de Taxicaringa,Santiago Teneraca,San Francisco de Ocotán,Juktɨr,Chianarkam,Koxbilhim,Nakaabtam,Aicham",
     status: "COMPLETE"
   },
   {
@@ -2018,7 +2018,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 9,
     d: "lnrt",
     m: 0,
-    b: "Guadalupe y Calvo,Baborigame,Nararachi,Chinacates,El Vergel,Turicachi,Yepachi,Tepojichi,Guazapares,Ocampo,Chínipas,Urique,Temosachic,Uruachi,Maguarichi,Nonoava,Carichi,San Juanito,Samachique,Basaseachi,Basochil,Madera,Bachíniva,Temósachic,Guachochi",
+    b: "Guadalupe y Calvo,Baborigame,Nararachi,Chinacates,El Vergel,Turicachi,Yepachi,Tepojichi,Guazapares,Ocampo,Chínipas,Urique,Temosachic,Uruachi,Maguarichi,Nonoava,Carichi,San Juanito,Samachique,Basaseachi,Basochil,Madera,Bachíniva,Temósachic,Guachochi,Nabogame,Llano Grande,Barbechitos,El Venadito,Balleza,Batopilas,Coloradas de los Chávez,Cinco Llagas,Borregos Quemados,El Muertecito,El Pinito,La Matanza,Mesa Colorada,Mesa de la Manga,San Gerónimo,San Juan Nepomuceno,Santa Rosa,Rancho Mares",
     status: "COMPLETE"
   },
   {
@@ -2048,7 +2048,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Sacaton,Blackwater,Casa Blanca,Gila Crossing,Maricopa,Komakt,Komatke,Stotonic,Sweet Water,Vahki,Akw Chin,Lehi,Nogales,San Xavier,Tucson,Sells,Ajo,Why,Pisinemo,Topawa,San Miguel,Kaka,Gu Achi,Hickiwan,Yecora",
+    b: "Sacaton,Blackwater,Casa Blanca,Gila Crossing,Maricopa,Komakt,Komatke,Stotonic,Sweet Water,Vahki,Akw Chin,Lehi,Nogales,San Xavier,Tucson,Sells,Ajo,Why,Pisinemo,Topawa,San Miguel,Kaka,Gu Achi,Hickiwan,Yecora,Maycoba,Yepáchic,Mesa Blanca,Pinos Verdes,Mineral de Dolores,Redondeados,Mulatos,Madera,Agua Amarilla,Basaseachi,Pinos Altos,Santo Domingo,Sapareachi,Tierritas,Temósachi",
     status: "COMPLETE"
   },
   {
@@ -2138,7 +2138,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Occoneechee Island,Fort Christanna,Roanoke River,Eno River,Dan River,Fredricks,Jenrette,Field's Island,Lewis Island,Nelson's Island,Pleasant Grove,Little Texas,Burnette's Chapel,Occoneechee State Park,Hillsborough,Durham,Raleigh,Goldsboro,Fayetteville,Wilmington,Greensboro,Charlotte,Asheville,Winston-Salem,Chapel Hill",
+    b: "Hillsborough,Mebane,Burlington,Alamance County,Orange County,Caswell County,Little Texas,Fort Christanna,Clarksville,Roanoke River,Meherrin River,Greensville County,Durham,Chapel Hill,Texana,Eno River",
     status: "COMPLETE"
   },
   {
@@ -2168,7 +2168,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Taats'altęy,Mendees Cheeg,Kelt'aaddh Menn',Dihthâad,Saages Cheeg,Tanacross,Tok,Dot Lake,Dot Lake Village,Eagle,Northway,Northway Village,Tanacross Village,Healy Lake,Manley Hot Springs,Minto,Nenana,Fairbanks,Delta Junction,Eagle Village,Northway Junction,Slana,Chicken,Central,Boundary",
+    b: "Taats'altęy,Dihthâad,Saages Cheeg',Menhdees Cheeg,Kelt'aaddh Měnn,Tok,K'ehtthiig,Mansfield Hill,Camp Lake,Long Cabin,Tanacross Mountain,Mt. Fairplay,Fish Creek,Glaman Lake,Robertson River,Sam Lake,Little Gerstle River,Yerrick Creek,Goodpaster",
     status: "COMPLETE"
   },
   {
@@ -2208,7 +2208,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "San Juan Lealao,San Juan Quiotepec,San Felipe Usila,Tepetotutla,San Antonio Huitepec,San Pedro Tlatepuco,Santiago Quiotepec,Santiago Comaltepec,San Pedro Yaneri,Santiago Yosondua,Santiago Zoochila,San José Yaganiza,Santiago Tepetlapa,San Pablo Tijaltepec,Santiago Xiacuí,Santiago Ihuitlán Plumas,Santiago Tlapancingo,Santiago Xolapa,Santiago Tilantongo,Santiago Tiltepec,Santiago Lalopa,Santiago Yalálag,Santiago Textitlán,San Juan Bautista Tuxtepec,San Juan Bautista Ojitlán",
+    b: "San Lucas Ojitlán,San Felipe Jalapa de Díaz,San Juan Bautista Valle Nacional,Ayotzintepec,San Juan Lalana,San Felipe Usila,San Pedro Sochiapám,San Juan Petlapa,Santiago Jocotepec,Santiago Comaltepec,San Juan Quiotepec,San Pedro Yolox,San Juan Bautista Tlacoatzintepec,San José Chiltepec,Santa María Jacatepec,San Pedro Quiotepec,Tuxtepec",
     status: "COMPLETE"
   },
   {
@@ -2258,7 +2258,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Cordova,Eyak,Orca,Alaganik,Odiak,Kathleen,Kayak,Orca Inlet,Eyak River,Copper River,Gulkana,Katella,Martin Point,Icy Bay,Yakutat,Orca Bay,Hawkins Island,Hawkins Cutoff,Sheep Bay,Whale Island,Glacier Island,Montague Island,Montague Point,Port Etkins,Point Whitshed",
+    b: "Cordova,Eyak,Orca,Alaganik,Odiak,Kathleen,Kayak,Orca Inlet,Eyak River,Copper River,Gulkana,Katella,Martin Point,Icy Bay,Yakutat,Orca Bay,Hawkins Island,Hawkins Cutoff,Sheep Bay,Whale Island,Glacier Island,Montague Island,Montague Point,Port Etkins,Point Whitshed,Katalla,Controller Bay,Prince William Sound,Valdez,Chugach,Tlingit,Alutiiq,Igya'aq,Eyak Lake,Orca Mountain",
     status: "WAITING"
   },
   {
@@ -2288,7 +2288,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Peach Springs,Seligman,Hackberry,Kingman,Supai,Grand Canyon,Hualapai,Yucca,Valle,Goulding,Truxton,Dolan Springs,Golden Valley,Chloride,Oatman,Celie,Hualapai Valley,Wikieup,Peeples Valley,Congress,Wickenburg,Seligman Airport,Valentine,Yucecca,Morristown",
+    b: "Supai,Peach Springs,Valentine,Grand Canyon West,Kingman,Hualapai Hilltop,Grand Canyon,Colorado River,Havasu Canyon,Coconino,Mohave,Yavapai,Aubrey Cliffs,Seligman,Big Sandy,Hakataya,Cataract Canyon,Long Mesa,Tenderfoot Mesa,Great Thumb",
     status: "COMPLETE"
   },
   {
@@ -2298,7 +2298,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Puerto Rondón,Tame,Saravena,Fortúl,Cumaral,Villavicencio,Puerto López,Puerto Carreño,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey,Casanare,Arauca,Puerto Rico,Santa Fe,Iñapari,Tahualpa,San Antonio,Madre de Dios,San Lorenzo,San Felipe,Santa Cruz,San José",
+    b: "Puerto Rondón,Tame,Saravena,Fortúl,Cumaral,Villavicencio,Puerto López,Puerto Carreño,La Paz,Munich,Santa Rosalía,Puerto Boyacá,Monterrey,Casanare,Arauca,Puerto Rico,Santa Fe,Iñapari,Tahualpa,San Antonio,Madre de Dios,San Lorenzo,San Felipe,Santa Cruz,San José,Bogotá,Boyacá,Cundinamarca,Tunja,Sogamoso,Duitama,Paipa,Chiquinquirá,Zipaquirá,Chía,Cajicá,Villapinzón,Aquitania,Nobsa,Tópaga,Mongua,Monguí,Gámeza,Corrales,Beteitiva",
     status: "COMPLETE"
   },
   {
@@ -2318,7 +2318,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Rabinal,Cubulco,San Miguel Chicaj,Santa Cruz Verapaz,Salamá,San Jerónimo,Purulhá,Tactic,Santa Rosalía,Baja Verapaz,Guatemala,Baja Verapaz Department,Central Highlands,Maya Highlands,Guatemala City,Peten,Izabal,Petén,Santa Elena,Flores,Sayaxche,Poptún,Melchor de Mencos,Santa Ana,San Luis",
+    b: "Rabinal,Cubulco,Salamá,San Miguel Chicaj,San Jerónimo,El Chol,Granados,Tactic,San Cristóbal Verapaz,Chicamán,Ixcán,Purulhá,Ribalcó,Baja Verapaz,El Quiché",
     status: "COMPLETE"
   },
   {
@@ -2328,7 +2328,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Lábrea,Pauini,Boca do Acre,Canutama,Boca do Purus,Beruri,Caapiranga,Coari,Manicoré,Novo Aripuanã,Tapauá,Manacapuru,Manaquiri,Borba,Apuí,Humaitá,Careiro,Codajás,Eirunepé,Envira,Guajará,Ipixuna,Jutaí,São Paulo de Olivença,Tonantins",
+    b: "Boca do Acre,Pauini,Lábrea,Tapauá,Manacapuru,Beruri,Manaquiri,Manicoré,Humaitá,Santo Antônio do Içá,Rio Branco,Camicuã,Km 124,Km 137,Km 45,Peneri,Seruini,Água Preta,São Francisco,Torá,Roosevelt,Cacoal,Boquerão,Corixão,Mamoriá,Catipari,Itixi Mitari,Acimã,Cajueiro,Paumari",
     status: "COMPLETE"
   },
   {
@@ -2348,7 +2348,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Somerton,Wellton,El Mayor,Pozas Arvizu,Ejido Maclovio Rojas,San Luis,Yuma,Fort Yuma,Dateland,Mexicali,San Luis Río Colorado,Mohawk,Fortuna,Colorado City,Tacna,Vicente Guerrero,Ciudad Morelos,Golfo de Santa Clara,Puertecitos,Avenue B and C,Wall Lane,Tyson,Luis B Sánchez,Colonia Obrera,Gila Bend",
+    b: "Somerton,Wellton,El Mayor,Pozas Arvizu,Ejido Maclovio Rojas,San Luis,Yuma,Fort Yuma,Dateland,Mexicali,San Luis Río Colorado,Mohawk,Fortuna,Colorado City,Tacna,Vicente Guerrero,Ciudad Morelos,Golfo de Santa Clara,Puertecitos,Avenue B and C,Wall Lane,Tyson,Luis B Sánchez,Colonia Obrera,Gila Bend,North Reservation,East Reservation,West Reservation,Campo Camerina,Campo del Prado,Campo Flores,Campo Sonora,Colonia la Puerta,Ejido Cucapá Mestizo,Ejido Doctor Alberto Oviedo Mota,Ejido Durango,Ejido México,San Felipe,Somerton Arizona,Yuma Arizona",
     status: "COMPLETE"
   },
   {
@@ -2358,7 +2358,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Rama Cay,Bluefields,Monkey Point,Greytown,San Juan de Nicaragua,El Castillo,San Carlos,San Miguelito,La Cruz de Rio Grande,Kukra Hill,El Rama,Waslala,Siuna,Rosita,Prinzapolka,Puerto Cabezas,Bluefields,Pearl Lagoon",
+    b: "Bluefields,Rama Cay,Pearl Lagoon,Corn Island,Prinzapolka,Puerto Cabezas,Sandy Bay,Monkey Point,Punta Gorda",
     status: "COMPLETE"
   },
   {
@@ -2378,7 +2378,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Port of Spain,San Fernando,Arima,Chaguanas,Point Fortin,Princes Town,Penal,Siparia,Couva,Diego Martin,Tunapuna,Arouca,San Juan,Laventille,Morvant,Barataria,St. Joseph,Curepe,St. Augustine,Valsayn,Trincity",
+    b: "Port of Spain,San Fernando,Chaguanas,Arima,Point Fortin,Scarborough,Sangre Grande,Princes Town,Couva,Toco,Mayaro,Siparia,Penal,Petit Valley,Diego Martin,San Juan,Tunapuna,Piarco",
     status: "COMPLETE"
   },
   {
@@ -2388,7 +2388,7 @@ export const northAmericaNameBases: NameBase[] = [
     max: 22,
     d: "cltr",
     m: 0.35,
-    b: "Chipilo,Puebla,Cholula,Atlixco,Tehuacán,Izúcar de Matamoros,Teziutlán,Cuetzalan,Huejotzingo,San Martín Texmelucan,Amozoc,Acatzingo,Tepeaca,Tecamachalco,Xicotepec,Zacatlán,Tepeyahualco,Tlahuapan,San Andrés Cholula,San Pedro Cholula,San Gregorio Atzompa,San Bernardino Tlaxcalancingo,San Cristóbal Tepontla,San Nicolás Buenos Aires,San Baltazar Tetela",
+    b: "Chipilo,Segusino,Quero-Vas,Valdobbiadene,San Pietro di Barbozza,Volpago del Montello,Feltre,Miane,Maser,Alano di Piave,Cornuda,Barcis,Pederobba,La Perla de Chipilo,Puebla,San Gregorio Atzompa,Atlixco,Cholula,Guanajuato",
     status: "COMPLETE"
   },
   {

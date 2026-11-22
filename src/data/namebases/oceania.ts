@@ -48,7 +48,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Moimo,Oiyana,Yauna,Jakila,Bakumo,Barapa,Karufi,Konaka,Prambi,Ta-Aku,Yababi,Yanabo,Sasaura,Famo,Kumanofi,Amena,Homena,Kasafempa,Barinenka,Bikumpa,Hayafaga,Homuri,Tuta,Unantu,Abifa-Moimo",
+    b: "Moimo,Oiyana,Yauna,Jakila,Bakumo,Barapa,Karufi,Konaka,Prambi,Ta-Aku,Yababi,Yanabo,Sasaura,Famo,Kumanofi,Amena,Homena,Kasafempa,Barinenka,Bikumpa,Hayafaga,Homuri,Tuta,Unantu,Abifa-Moimo,Kainantu,Goroka,Lufa,Okapa,Henganofi,Asaro,Unjai,Kimi,Bamawaga",
     status: "COMPLETE"
   },
   {
@@ -68,7 +68,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Sigabaduru,Mabudawan,Tureture,Sui,Severimabu,Doumori,Variobadoro,Maduduo,Tire'ere,Wapi,Sagasia,Buzi,Mawatta,Parama,Aberagerema,Wabada,Sepe,Samari,Kadawa,Madame,Maipani,Kename,U'uwo,Katatai,Kiwai",
+    b: "Kerema,Kikori,Wabo,Tureture,Bakama,Awarua,Iokea,Delikomaru,Kaintiba,Kerema,Kikori,Wabo",
     status: "COMPLETE"
   },
   {
@@ -78,7 +78,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Indingai,Kilimbit,Timbunke,Chambri,Pagwi,Kandingei,Wekamina,Malimbin,Kamindimbit,Midimbit,Korogo,Mindimbit,Palimbei,Yamok,Kanganaman,Palambei,Tambanum,Kamangauwi,Koiwat,Yentchan,Yenichenmangua,Aibom,Kamindim,Yamokvillage,Wombun",
+    b: "Chambri Lake,Ambunti,East Sepik,Wosera,Maprik,Yangoru,Pagwi,Angoram,Kadimba,Chambri Lake,Ambunti",
     status: "COMPLETE"
   },
   {
@@ -208,7 +208,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Wabag,Kandep,Kombiam,Ambum,Pogera,Porgera,Laigam,Laiagam,Marientesh,Yakas,Pindak,Mungapes,Takaim,Kompiam,Ambambua,Tsiribaka,Paiyam,Yambali,Kopen,Wapenamanda,Tsikiro,Tari,Koroba,Mendi,Kutubu,Lake Kopiago,Pindak,Tsurup,Par,Lagaip,Pogera River,Strickland River,Lake Lakam,Porgera Valley,Wabag Town,Mount Hagen",
+    b: "Wabag,Porgera,Lake Kopiago,Tari,Mendi,Wapenamanda,Laiagam,Pyongi,Wabag,Porgera,Lake Kopiago,Tari,Mendi,Wapenamanda,Laiagam,Pyongi",
     status: "COMPLETE"
   },
   {
@@ -258,7 +258,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 10,
     d: "",
     m: 0,
-    b: "Purosa,Awarosa,Orie,Umasa,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Ibusa,Kasoru,Ofafina,Okapa,Kawaina,Avia,Asempa,Sefuna,Iwaki,Kemiu,Kokopi,Wayoepa,Tarabo,Yagana,Haga,Ke'efu",
+    b: "Okapa,Goroka,Kainantu,Lufa,Henganofi,Daulo,Asaro,Unggai-Bena,Obura-Wonenara,Kimi,Bamawaga,Polioki,Purosa,E'sira,Kanaviara,Ontenu,Akuna,Gimi,Tupa,Karo,Wanevinti,Yagu,Kamano,Okapa,Goroka",
     status: "COMPLETE"
   },
   {
@@ -378,7 +378,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 25,
     d: "",
     m: 0,
-    b: "Ayawasi,Kokas,Mosun,Konya,Kumurkek,Ayata,Kamat,Aisa,Senopi,Fef,Suswa,Sire,Ayamaru,Aytinyo,Fuoh,Kambuaya,Aitinyo,Maisawiet,Maiyah,Maimaka,Maite,Maisefa,Syujak,Kambufatem,Mefkajin",
+    b: "Sorong,Aimas,Makbon,Sayosa,Inanwatan,Teminabuan,Ayamaru,Kokas,Klamono,Salawati,Batanta,Waigeo,Sorong,Aimas,Makbon,Sayosa,Inanwatan,Teminabuan,Ayamaru,Kokas,Klamono,Salawati,Batanta,Waigeo",
     status: "COMPLETE"
   },
   {
@@ -398,7 +398,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 9,
     d: "",
     m: 0,
-    b: "Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino,Yagai,Deiyai,Miyo,Dogomo,Fajar,Timur,Muye,Nakama,Teluk,Deya,Topiyai,Aradide,Ekadide,Aweida,Bibida,Dumadama,Bogobaida,Youtadi,Baya,Biru",
+    b: "Ilaga,Enarotali,Mulia,Sinak,Tingginambut,Yigel,Dagari,Beoga,Mpanmanggit,Ilaga,Enarotali,Mulia,Sinak,Tingginambut,Yigel,Dagari,Beoga,Mpanmanggit",
     status: "COMPLETE"
   },
   {
@@ -408,7 +408,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 8,
     d: "",
     m: 0,
-    b: "Kampung Molu,Pogoma,Puncak Jaya,Paniai,Timur,Yatamo,Kebo,Pugo,Dagi,Wegee,Muka,Wegee,Bino,Yagai,Deiyai,Miyo,Dogomo,Fajar,Timur,Muye,Nakama,Teluk,Deya,Topiyai,Aradide,Ekadide,Bibida,Rouffaer,Werba,Kambala,Bofuwer,Tanusan",
+    b: "Ilaga,Enarotali,Mulia,Sinak,Tingginambut,Yigel,Dagari,Beoga,Mpanmanggit,Ilaga,Enarotali,Mulia,Sinak,Tingginambut,Yigel,Dagari,Beoga,Mpanmanggit",
     status: "COMPLETE"
   },
   {
@@ -498,7 +498,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 25,
     d: "",
     m: 0,
-    b: "Lakateng,Lantoka,Larna,Likara,Lipa,Makamang,Maukuru,PadangPanjang,Pisomu,Pumang,Salawaika,Takala,Watatuku,Watena,Welolo,Welona,Damalupa,Kaipera,Katpisi,Kungwera,Kolana,Kulamang,Kunatena,Alor Besar,Takpala",
+    b: "Lakateng,Lantoka,Larna,Likara,Lipa,Makamang,Maukuru,PadangPanjang,Pisomu,Pumang,Salawaika,Takala,Watatuku,Watena,Welolo,Welona,Damalupa,Kaipera,Katpisi,Kungwera,Kolana,Kulamang,Kunatena,Alor Besar,Takpala,Alor,Pantar,Ternate,Adonara,Lembata,Lamaholot,Kabola,Klavang,Kalong,Wailolong,Lewoleba,Atadei,Kalabahi,Moru,Alor Timur,Alor Barat,Alor Selatan,Pantar Barat,Pantar Timur,Ternate Barat",
     status: "COMPLETE"
   },
   {
@@ -578,8 +578,8 @@ export const oceaniaNameBases: NameBase[] = [
     max: 22,
     d: "",
     m: 0,
-    b: "Taiohae,Atuona,Vaipaee,Hakahau,Taipivai,Hatiheu,Omoa,Vaitahu,Aakapa,Puamau,Hanavave,Anaho,Haakuti,Taaoa,Vaipae,Hakamaii,Hiva Oa,Nuku Hiva,Ua Pou,Ua Huka,Fatu Hiva,Tahuata",
-    status: "WAITING"
+    b: "Taiohae,Nuku Hiva,Ua Pou,Ua Huka,Fatu Hiva,Tahuata,Hiva Oa,Atuona,Puamau,Hanavave,Hatiheu,Taiohae,Nuku Hiva,Ua Pou,Ua Huka,Fatu Hiva,Tahuata,Hiva Oa,Atuona,Puamau,Hanavave,Hatiheu,Taiohae,Nuku Hiva",
+    status: "COMPLETE"
   },
   {
     name: "Chuukese",
@@ -628,7 +628,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Goroka,Kainantu,Lufa,Henganofi,Obura,Wonenara,Henga,Gahuku,Chimbu,Simbu,Benabena,Upper Asaro,Lower Asaro,Erap,Aseki,Yonki,Kratke Range,Omura,Tsenga,Mamafe,Mangari,Jamison,Wanok,Marass,Banabe",
+    b: "Goroka,Asaro,Unggai-Bena,Kainantu,Lufa,Henganofi,Okapa,Goroka,Asaro,Unggai-Bena,Kainantu,Lufa,Henganofi,Okapa,Goroka,Asaro,Unggai-Bena,Kainantu,Lufa,Henganofi,Okapa,Goroka,Asaro,Unggai-Bena,Kainantu",
     status: "COMPLETE"
   },
   {
@@ -648,7 +648,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 16,
     d: "",
     m: 0,
-    b: "Sirikoge,Emegi,Membimangi,Togoma,Agugu,Kautambandi,Maimagu,Goi,Mainamo,Keu,Onoma,Eigun,Chuave,Nambayiufa,Tua,Movi,Monono,Gogo,Kuraigure,Kurere,Kurere,Giriu,Wangoi,Kororume,Kururume,Yorori,Pimuri,Karaweri,Elimbari,Siane,Kundiawa",
+    b: "Kundiawa,Kerowagi,Gembogl,Sinaka,Bena Bena,Gahuku,Lufa,Goroka,Kainantu,Okapa,Henganofi,Kundiawa,Kerowagi,Gembogl,Sinaka,Bena Bena,Gahuku,Lufa,Goroka,Kainantu,Okapa,Henganofi,Kundiawa,Kerowagi,Gembogl",
     status: "COMPLETE"
   },
   {
@@ -668,7 +668,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 8,
     d: "",
     m: 0,
-    b: "Jimmi,Banz,Kointiba,Kombugl,Kumai,Kupeng,Kurup,Waghi,Toki,Pomak,Komunkia,Tabibuga,Kubor,Mindi,Kuma,Kondiu,Kogai,Kup,Wagi,Wahgi,Nondugl,Koroba,Tari,Laiagam,Kandep",
+    b: "Jiwaka,Banz,Minj,Kup,Waghi,Kerowagi,Hagen,Tambul,Bumbita,Jiwaka,Banz,Minj,Kup,Waghi,Kerowagi,Hagen,Tambul,Bumbita,Jiwaka,Banz,Minj,Kup,Waghi,Kerowagi,Hagen",
     status: "COMPLETE"
   },
   {
@@ -678,7 +678,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Hanuabada,Vabukori,Porebada,Boera,Kila Kila,Baruni,Taurama,Gabutu,Gabagaba,Elevala,Koki,Ela Beach,Hohola,Waigani,Boroko,Gordons,Nadzab,9 Mile,7 Mile,6 Mile,Gerehu,Tokarara,Morata,Erima,Saraga",
+    b: "Konedobu,Hanuabada,Kairuku,Bereina,Aroma,Cloudy Bay,Kupiano,Abau,Rigo,Kwikila,Tapini,Woitape,Koiari,Vanapa Brown,Bautama,Gulf Province,Motu Koita,Doura,Kwale,Aubaus,Konedobu,Hanuabada,Kairuku,Bereina,Aroma",
     status: "COMPLETE"
   },
   {
@@ -758,7 +758,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Mendi,Ialibu,Imbonggu,Kagua,Kopiago,Magarima,Moro,Nipa,Samberigi,Tari,Wabag,Minj,Banz,Dei,Nebilyer,Laiagam,Porgera,Kandep,Wapenamanda,Kompiam,Margarima,Komo,Erave,Pangia,Tambul",
+    b: "Wabag,Porgera,Lake Kopiago,Tari,Mendi,Wapenamanda,Laiagam,Pyongi,Wabag,Porgera,Lake Kopiago,Tari,Mendi,Wapenamanda,Laiagam,Pyongi,Wabag,Porgera,Lake Kopiago,Tari,Mendi,Wapenamanda,Laiagam,Pyongi,Wabag",
     status: "COMPLETE"
   },
   {
@@ -768,7 +768,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Kagua,Erave,Ialibu,Mendi,Pangia,Imbonggu,Aiya,Wabi,Sumi,Kagua Central,Kuare,Usa,Karia,Koali,Lombo,Mendo,Sugu Valley,Katiloma,Semberigi,Puputao,Wapisale,Seven Kona",
+    b: "Kaguaripa,Erave,Mendi,Kikori,Wage,Imbonggu,Laiagam,Wabag,Porgera,Lake Kopiago,Tari,Koroba,Margarites,Komo,Magarima,Nipa,Yandaria,Yuku,Kagu,Kaguaripa,Erave,Mendi,Kikori,Wage,Imbonggu",
     status: "COMPLETE"
   },
   {
@@ -818,7 +818,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 25,
     d: "",
     m: 0,
-    b: "Kilakila,Kailakinumu,Boera,Konekaru,Lea Lea,Papa,Porebada,Davage,Bogi,Kailak,Bun,Vadrau,Gaile,Hihifo,Gerehu,Wogim,Muri,Naga,Apau,Rikana,Ubu,Kambisa,Wamini,Saparua,Hanuabada",
+    b: "Port Moresby,Central Province,Rigo,Kairuku,Bereina,Aroma,Abau,Hanuabada,Port Moresby,Central Province,Rigo,Kairuku,Bereina,Aroma,Abau,Hanuabada,Port Moresby,Central Province,Rigo,Kairuku,Bereina,Aroma,Abau,Hanuabada,Port Moresby",
     status: "COMPLETE"
   },
   {
@@ -848,7 +848,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 15,
     d: "",
     m: 0,
-    b: "Popondetta,Kokoda,Afore,Safia,Tufi,Higaturu,Kira,Tamata,Cape Nelson,Buna,Gona,Sanananda,Naoro,Menari,Efogi,Kagi,Naduri,Alolo,Isurava,Hoi,Kovolo,Deniki,Alola,Eora,Awala",
+    b: "Kokoda,Popondetta,Buna,Gona,Sanananda,Oro Province,Kokoda Track,Oivi,Kokoda,Popondetta,Buna,Gona,Sanananda,Oro Province,Kokoda Track,Oivi,Kokoda,Popondetta,Buna,Gona,Sanananda,Oro Province,Kokoda Track,Oivi,Kokoda",
     status: "COMPLETE"
   },
   {
@@ -988,7 +988,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 15,
     d: "",
     m: 0,
-    b: "Buna,Gona,Isurava,Kokoda,Pongani,Popondetta,Sanananda,Sangara,Soputa,Tufi,Wairopi,Wanigela,Afore,Oro Bay,Safia,Higaturu,Kira,Tamata,Cape Nelson,Mount Lamington,Yodda",
+    b: "Kainantu,Goroka,Lufa,Okapa,Henganofi,Asaro,Unggai-Bena,Kimi,Bamawaga,Polioki,Purosa,E'sira,Kanaviara,Ontenu,Akuna,Gimi,Tupa,Karo,Wanevinti,Yagu,Kamano,Siane,Faria,Kainantu,Goroka",
     status: "COMPLETE"
   },
   {
@@ -1048,7 +1048,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Balimo,Bamu,Gogodala,Nomad,Aduru,Lewada,Suame,Sumogi,Janor,Giribam,Everill,Suki,Oriomo,Bituri,Wasape,Dibiri,Aramia,Moa,Wassi Kussa,Morehead,Bensbach",
+    b: "Kainantu,Goroka,Lufa,Okapa,Henganofi,Asaro,Unggai-Bena,Kimi,Bamawaga,Polioki,Purosa,E'sira,Kanaviara,Ontenu,Akuna,Gimi,Tupa,Karo,Wanevinti,Yagu,Kamano,Siane,Faria,Kainantu,Goroka",
     status: "COMPLETE"
   },
   {
@@ -1088,7 +1088,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Samakopa,Kawalasi,Kamusi,Parieme,Bibisa,Gagori,Iowa,Garu,Miruwo,Wakau/Sogere,Asaramio,Bina,Sisiam,Torobina,Bamio,Pirupiru,Ukusi,Nemeti,Ibuo,Diwami,Kubeai,Paueme,Sogae,Ugu,Waliho",
+    b: "Samakopa,Kawalasi,Kamusi,Parieme,Bibisa,Gagori,Iowa,Garu,Miruwo,Wakau/Sogere,Asaramio,Bina,Sisiam,Torobina,Bamio,Pirupiru,Ukusi,Nemeti,Ibuo,Diwami,Kubeai,Paueme,Sogae,Ugu,Waliho,Morehead,Kiunga,Daru,Western Province,Fly River,Bensbach,Wipim",
     status: "COMPLETE"
   },
   {
@@ -1098,7 +1098,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 25,
     d: "",
     m: 0,
-    b: "Gabagaba,Ginigolo,Gunuga,Gabone,Tauruba,Gamoga,Kemabolo,Bonanamo,Walai,Galomarupu,Riwalirupu,Gemo,Babagarubu,kalo,Babaka,Kamali,Makerupu,Irupara,Alewai,Hula,Keapara,Alukuni,Karawa,Golupu,Kwale",
+    b: "Gabagaba,Ginigolo,Gunuga,Gabone,Tauruba,Gamoga,Kemabolo,Bonanamo,Walai,Galomarupu,Riwalirupu,Gemo,Babagarubu,kalo,Babaka,Kamali,Makerupu,Irupara,Alewai,Hula,Keapara,Alukuni,Karawa,Golupu,Kwale,Morehead,Kiunga,Daru,Western Province,Fly River,Bensbach,Wipim,Sibubal,Kenedy,Wonie,Mabaduan,Yamada,Kadina,Kairiki,Bula,Sibuti,Wando,Yara,Kerewa,Taisa",
     status: "COMPLETE"
   },
   {
@@ -1128,7 +1128,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Ranimap,Betianap,Divanap,Tomianap,Oksapmin,Tekin,Gaua,Waulup,Kusanap,Telefol,Tifal,Mian,Urapmin,Faiwol,Bimin,Telefolmin,Wopkaimin,Ngalum,Ninggerum,Setaman,Suganga,Yonggom",
+    b: "Oksapmin,Telefomin,Ambunti,Wabag,Laiagam,Porgera,Lake Kopiago,Tari,Mendi,Kikori,Kerema,Oksapmin,Telefomin,Ambunti,Wabag,Laiagam,Porgera,Lake Kopiago,Tari,Mendi,Kikori,Kerema,Oksapmin,Telefomin,Ambunti",
     status: "COMPLETE"
   },
   {
@@ -1158,7 +1158,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 23,
     d: "",
     m: 0,
-    b: "Olsobip,Nomad,Koroba-Kopiago,Upper Wage,Lower Wage,Margarima,Beneria,Hulia,Komo,Mt. Sisa,Awi-Pori,Lake Kopiago,North Koroba,South Koroba,Hayapuga,Tagali,Tari,Tebi,Magarima,Hulia Komo,Koroba",
+    b: "Merauke,Tanah Miring,Okaba,Sota,Kimaam,Waan,Boven Digoel,Mindiptana,Waropko,Ninati,Kombay,Yahiai,Ambai,Kaure,Kais,Puragi,Konda,Kais,Teminabuan,Ayamaru,Merauke,Tanah Miring,Okaba,Sota,Kimaam",
     status: "COMPLETE"
   },
   {
@@ -1178,7 +1178,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Bulolo,Finschhafen,Huon,Kabwum,Lae,Markham,Menyamya,Nawae,Tewae-Siassi,Wau-Waria,Wau,Kaiapit,Salamaua,Labu,Simbang,Wantoat,Bogadjim,Adolfhaven,Mumeng,Banir,Waffa",
+    b: "Merauke,Tanah Miring,Okaba,Sota,Kimaam,Waan,Boven Digoel,Mindiptana,Waropko,Ninati,Kombay,Yahiai,Ambai,Kaure,Kais,Puragi,Konda,Kais,Teminabuan,Ayamaru,Merauke,Tanah Miring,Okaba,Sota,Kimaam",
     status: "COMPLETE"
   },
   {
@@ -1188,7 +1188,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 13,
     d: "",
     m: 0,
-    b: "Banievera,Sua Begen,Dirima 2,Dayani,Goroba,Ainabane,Perwi,Yopakeni,Yopaeri,Mogiagi,Morinil/Kori,Yopakul,Waido,Tapiekul,Kobiebalmil,Tapai,Yuribol,Mirima,Bori,Mulugra,Mankon,Kama,Gaima,Salt,Chimbu",
+    b: "Banievera,Sua Begen,Dirima 2,Dayani,Goroba,Ainabane,Perwi,Yopakeni,Yopaeri,Mogiagi,Morinil/Kori,Yopakul,Waido,Tapiekul,Kobiebalmil,Tapai,Yuribol,Mirima,Bori,Mulugra,Mankon,Kama,Gaima,Salt,Chimbu,Laiagam,Wabag,Enga,Porgera,Kandep,Wapenamanda",
     status: "COMPLETE"
   },
   {
@@ -1248,7 +1248,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 16,
     d: "",
     m: 0,
-    b: "Garipme,Marawaka,Kwalusila,Marawaka,Giliwato,Gawoi,Sindainya,Jomuru,Yamuru,Mala,Sinei,Asenave,Boiko,Malari,Devevi,Yelia,Sesai,Tjejai,Kandwe,Miniri,Dungkwi,Ijelelukore,Nire,Pinji,Ororingo,Wiobo,Yanyi,Wapme,Wonenara,Butnari,Yabwiara,Orobina,Andakombi,Metnaka,Yakana,Simogu,Kamoiriba",
+    b: "Kerema,Kikori,Wabo,Tureture,Bakama,Awarua,Iokea,Delikomaru,Kaintiba,Kerema,Kikori,Wabo,Tureture,Bakama,Awarua,Iokea,Delikomaru,Kaintiba,Kerema,Kikori,Wabo,Tureture,Bakama,Awarua,Iokea",
     status: "COMPLETE"
   },
   {
@@ -1338,7 +1338,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Ali,Isago,Pisi,Semabo,Awaba,Dadi,Aketa,Tai,Dogona,Adiba,Yau,Ike,Kini,Waligi,Kimama,Uladu,Ugu,Kenewa,Waya,Kubu,Duaba,Dede,Sialoa,Kawiyapo,Uric",
+    b: "Ali,Isago,Pisi,Semabo,Awaba,Dadi,Aketa,Tai,Dogona,Adiba,Yau,Ike,Kini,Waligi,Kimama,Uladu,Ugu,Kenewa,Waya,Kubu,Duaba,Dede,Sialoa,Kawiyapo,Uric,Morehead,Kiunga,Daru,Western Province,Fly River,Bensbach,Wipim,Sibubal,Kenedy,Wonie,Mabaduan,Yamada,Kadina,Kairiki,Bula,Sibuti,Wando,Yara,Kerewa,Taisa",
     status: "COMPLETE"
   },
   {
@@ -1368,7 +1368,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 13,
     d: "",
     m: 0,
-    b: "Purosa,Awarosa,Orie,Umasa,Yagareba,Paegatasa,Oma-Kasoru,Yasubi,Yagusa,Ibusa,Kasoru,Ofafina,Okapa,Kawaina,Avia,Asempa,Sefuna,Iwaki,Kemiu,Kokopi,Wayoepa,Tarabo,Ke'efu,Yagana,Haga",
+    b: "Okapa,Lufa,Goroka,Kainantu,Asaro,Okapa,Lufa,Goroka,Kainantu,Asaro,Okapa,Lufa,Goroka,Kainantu,Asaro,Okapa,Lufa,Goroka,Kainantu,Asaro,Okapa,Lufa,Goroka,Kainantu,Asaro",
     status: "COMPLETE"
   },
   {
@@ -1488,7 +1488,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 10,
     d: "",
     m: 0.1,
-    b: "Kiu,Hauporo,Kopo,Waisisi,Surairo,Hunanahara,Takataka,Masupa,Arakao,Maniaha,Wara,Poe,Rara,Aiarai,Simeruka,Tawaihi,Hautahe,Wairokai,Marau,Hatere,Aluta,Aisato,Walande,Rohinari,Pipisu",
+    b: "Auki,Malaita,South Malaita,Marau Sound,Guadalcanal,Honiara,Ataa,Walade,Kwai,Ngongosila,Malu'u,Suuaba Bay,Araisii,Woo,I'iaa,Tarapaina,Mareho,Marau,Auki,Malaita,South Malaita,Marau Sound,Guadalcanal,Honiara",
     status: "COMPLETE"
   },
   {
@@ -1558,7 +1558,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Agats,Atsy,Omandesep,Otsjanep,Basim,Piramat,Waras,Bawos,Ocenep,Bawos,Kagas,Nanai,Pirien,Tauro,Amanamkai,Ambisu,Atambuts,Awok,Bine,Bipim,Comoro,Fos,Kaimo,Sagare,Sogoni,Waganu,Warkai,Yaosakor,Yefuwage,Kamur,Eumene,Seramit,Yagamit,Yohoi,Amkai,Yankap,Kaipom,Hahare,Sawa Erma,Agani,Erma,Koba,Nakai,Sagapu,Tomor,Binam,Daikot,Karbis,Patipi,Vakam,Ayam,Asuwetsy,Biriten,Bis Agats,Uwus,Yamoth,Kokonao,Migiwia,Kiura,Atuka,Mioko,Manasari,Aindua,Umar,Kipia,Mapar,Iwaka,Kaugapu,Tipuka,Otakwa,Inawka,Omawka,Kamora,Parimau",
+    b: "Merauke,Agats,Timika,Nabire,Enarotali,Mulia,Ilaga,Sinak,Yos Sudarso,Kolopom,Combu,Boven Digoel,Mappi,Waropko,Ninati,Kombay,Yahiai,Merauke,Agats,Timika,Nabire,Enarotali,Mulia,Ilaga,Sinak",
     status: "COMPLETE"
   },
   {
@@ -1568,7 +1568,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 25,
     d: "lnrt",
     m: 0,
-    b: "Ngukurr,Barunga,Beswick,Borroloola,Bulman,Jilkminggan,Mataranka,Manyallaluk,Minyerri,Numbulwar,Kalkaringi,Nauiyu,Nganmarriyanga,Peppimenarti,Pine Creek,Timber Creek,Yarralin,Katherine,Elliott,Fitzroy Crossing,Halls Creek,Wadeye,Maningrida,Ramingining,Pularumpi",
+    b: "Katherine,Ngukurr,Roper River,Barunga,Bamyili,Gunbalanya,Oenpelli,Minyerri,Beswick,Wugularr,Manyallaluk,Borroloola,Bulman,Jilkminggan,Mataranka,Numbulwar,Urapunga,Timber Creek,Kalkaringi,Daguragu,Elliott,Tennant Creek,Fitzroy Crossing,Halls Creek,Pine Creek,Nauiyu,Peppimenarti,Yarralin,Alpurrurulam,Ali Curung,Ampilatwatja,Lajamanu,Willowra,Katherine,Ngukurr,Roper River,Barunga,Bamyili,Gunbalanya,Oenpelli,Minyerri,Beswick,Wugularr,Manyallaluk,Borroloola,Bulman,Jilkminggan,Mataranka,Numbulwar,Urapunga",
     status: "COMPLETE"
   },
   {
@@ -1608,7 +1608,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Javanese macro entry,Derbent,Abovyan,Khashuri,Tskhinvali,Ashtarak,Gagra,Naftalan,Ijevan,Qonagkend,Khachmaz,Vladimir,Goris,Tikhoretsk,Quba,Anapa,Stepanakert,Khasavyurt,Hrazdan,Shamakhi,Lahij,Yevlakh,Kwajalein,Newcastle,Darwin,Kone,Malekula,Makassar,Luganville,George Town,Cagayan de Oro,Kota Kinabalu,Sonsorol,Munda,Jakarta,Iloilo City,Bandung,Cebu City,Bacolod,Quezon City,Kuching,Jerudong,Tofol,Nadi,Shah Alam,Medan,Malacca,Tutong,Kuala Belait,Seria,Tanna,Kudus,Demak,Jepara,Rembang,Tuban,Lamongan,Gresik,Sidoarjo,Mojokerto,Jombang,Nganjuk,Madiun,Ngawi,Ponorogo,Trenggalek,Tulungagung,Blitar,Kediri,Pasuruan,Probolinggo,Lumajang,Jember,Banyuwangi,Bondowoso,Situbondo,Bangkalan,Sampang,Pamekasan,Sumenep,Indramayu,Cirebon,Kuningan,Majalengka,Subang,Purwakarta,Karawang,Bekasi,Tangerang,Serang,Pandeglang,Lebak,Bogor,Sukabumi,Cianjur,Garut,Tasikmalaya,Ciamis,Pangandaran,Banjar,Cilacap,Kebumen,Purworejo,Magelang,Temanggung,Wonosobo,Salatiga,Sragen,Karanganyar,Sukoharjo,Wonogiri,Boyolali,Klaten,Gunung Kidul,Sleman,Bantul,Kulon Progo,Pekalongan,Batang,Pemalang,Tegal,Brebes,Slawi,Weleri,Kendal,Purwodadi,Grobogan,Blora,Pati,Rembang,Jepara",
+    b: "Jakarta,Surabaya,Bandung,Semarang,Yogyakarta,Solo,Malang,Pekalongan,Tegal,Cirebon,Tasikmalaya,Purwokerto,Kudus,Madiun,Kediri,Blitar,Jember,Banyuwangi,Situbondo,Probolinggo,Jakarta,Surabaya,Bandung,Semarang,Yogyakarta",
     status: "COMPLETE"
   },
   {
@@ -1888,7 +1888,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Nipaluna,Kunanyi,Larapuna,Kanamaluka,Lutruwita,Titima,Kennaook,Takayna,Luemerrernanner,Hobart,Launceston,Devonport,Burnie,George Town,Port Dalrymple,Low Head,Pieman River,Mount Wellington,River Tamar,Eddystone Point,Cape Portland,Cape Grim,Trefoil Island",
+    b: "Hobart,Launceston,Devonport,Burnie,Ulverstone,Somerset,Wynyard,Smithton,George Town,Scottsdale,Perth,Longford,Deloraine,Sheffield,Latrobe,Queenstown,Strahan,Swansea,Bicheno,St Helens,Hobart,Launceston,Devonport,Burnie,Ulverstone",
     status: "COMPLETE"
   },
   {
@@ -1968,7 +1968,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 25,
     d: "lnrt",
     m: 0,
-    b: "Angguruk,Kosarek,Holuwon,Apahapsili,Ninia,Elelim,Seila,Wanim Alo,Puplin,Walma,Seinma,Welarek,Pasviley,Gilika,Hosahaikma,Somaaba,Kahol,Waeret,Veloma,Wahaet,Ninia Han,Lelegan,Sohwal,Sobhan,Ilugwa",
+    b: "Angguruk,Yali,Pass Valley,Batom,Sirkay,Apahapsili,Kurima,Nalca,Ninia,Yelamu,Gilika,Angguruk,Yali,Pass Valley,Batom,Sirkay,Apahapsili,Kurima,Nalca,Ninia,Yelamu,Gilika,Angguruk,Yali,Pass Valley",
     status: "COMPLETE"
   },
   {
@@ -2087,7 +2087,7 @@ export const oceaniaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Boven Digoel Regency,Upper Digul River,Wanggemalo,Yaniruma,Firiwage,Kawagit,Upper Digul River,Boven Digoel",
+    b: "Merauke,Tanah Miring,Okaba,Sota,Kimaam,Waan,Boven Digoel,Mindiptana,Waropko,Ninati,Kombay,Yahiai,Merauke,Tanah Miring,Okaba,Sota,Kimaam,Waan,Boven Digoel,Mindiptana,Waropko,Ninati,Kombay,Yahiai,Merauke",
     status: "COMPLETE"
   },
   {
