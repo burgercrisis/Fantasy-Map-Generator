@@ -28,7 +28,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Cunene,Kwando-Kubango,Cuando Cubango,Opuwo,Rundu,Katima Mulilo,Ndiyona,Andara,Bagani,Nkurenkuru,Divundu,Shakawe,Mohembo,Seronga,Ghanzi,Maun,Tsumkwe,Omaheke,Gobabis,Nkurenkuru,Rundu,Katima Mulilo",
+    b: "Cunene,Kwando-Kubango,Cuando Cubango,Opuwo,Rundu,Katima Mulilo,Ndiyona,Andara,Bagani,Nkurenkuru,Divundu,Shakawe,Mohembo,Seronga,Ghanzi,Maun,Tsumkwe,Omaheke,Gobabis",
     status: "COMPLETE"
   },
   {
@@ -48,7 +48,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Kondoa,Manyoni,Babati,Dodoma,Singida,Tabora,Shinyanga,Mwanza,Arusha,Moshi,Kilimanjaro,Dar es Salaam,Morogoro,Iringa,Mbeya,Songwe,Ruvuma,Mtwara,Lindi,Pwani,Kondoa,Manyoni,Babati",
+    b: "Kondoa,Manyoni,Babati,Dodoma,Singida,Tabora,Shinyanga,Mwanza,Arusha,Moshi,Kilimanjaro,Dar es Salaam,Morogoro,Iringa,Mbeya,Songwe,Ruvuma,Mtwara,Lindi,Pwani",
     status: "COMPLETE"
   },
   {
@@ -68,7 +68,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Keren,Asmara,Halhal,Habero,Hagaz,Sela,Asmat,Kerkebet,Elabered,Adi Tekelezan,Geleb,Hamikrang,Afabet,Sabder,Anseba,Fisho,Adulis,Massawa,Ghinda,Foro,Karura,Nakfa,Afabet,Elabered,Sela,Asmat,Kerkebet,Adi Tekelezan,Geleb,Hamikrang",
+    b: "Keren,Asmara,Halhal,Habero,Hagaz,Sela,Asmat,Kerkebet,Elabered,Adi Tekelezan,Geleb,Hamikrang,Afabet,Sabder,Anseba,Fisho,Adulis,Massawa,Ghinda,Foro,Karura,Nakfa",
     status: "COMPLETE"
   },
   {
@@ -148,7 +148,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Ebolowa,Mvengole,Sangmélima,Djoum,Mintom,Meyomessala,Biwanga,Nko'ovet,Mvengue,Abong-Mbang,Dimako,Moloundou,Yokadouma,Nguelemendouka,Bebeng,Nkolnganga,Nzengue,Nkoulou,Nkongsamba,Ebolowa,Mvengole,Sangmélima,Djoum",
+    b: "Ebolowa,Mvengole,Sangmélima,Djoum,Mintom,Meyomessala,Biwanga,Nko'ovet,Mvengue,Abong-Mbang,Dimako,Moloundou,Yokadouma,Nguelemendouka,Bebeng,Nkolnganga,Nzengue,Nkoulou,Nkongsamba",
     status: "COMPLETE"
   },
   {
@@ -368,7 +368,7 @@ export const africaNameBases: NameBase[] = [
     max: 7,
     d: "lnrt",
     m: 0.1,
-    b: "Bobo-Dioulasso,Ouagadougou,Banfora,Orodara,Houndé,Dédougou,Nouna,Tougan,Boromo,Bagassi,Pâ,Boni,Ouarkoye,Fara,Dano,Kampti,Solenzo,Sanaba,Bourasso,Sono,Gassan,Douroula,Kona,Safané,Marraba,Bobo-Dioulasso,Ouagadougou,Banfora",
+    b: "Bobo-Dioulasso,Ouagadougou,Banfora,Orodara,Houndé,Dédougou,Nouna,Tougan,Boromo,Bagassi,Pâ,Boni,Ouarkoye,Fara,Dano,Kampti,Solenzo,Sanaba,Bourasso,Sono,Gassan,Douroula,Kona,Safané,Marraba",
     status: "COMPLETE"
   },
   {
@@ -468,24 +468,14 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Biu,Askira,Uba,Shani,Kogu,Maiduguri,Damboa,Chibok,Gwoza,Monguno,Dikwa,Bama,Konduga,Mafa,Magumeri,Gubio,Kukawa,Mallam Fatori,Abadam,Mobbar,Ngala,Bama,Dikwa,Biu,Askira,Uba",
-    status: "COMPLETE"
-  },
-  {
-    name: "Bure",
-    i: 587,
-    min: 4,
-    max: 8,
-    d: "bk",
-    m: 0,
-    b: "Bure",
+    b: "Biu,Askira,Uba,Shani,Kogu,Maiduguri,Damboa,Chibok,Gwoza,Monguno,Dikwa,Bama,Konduga,Mafa,Magumeri,Gubio,Kukawa,Mallam Fatori,Abadam,Mobbar,Ngala",
     status: "COMPLETE"
   },
   {
     name: "Cakfem-Mushere",
     i: 589,
-    min: 0,
-    max: 0,
+    min: 3,
+    max: 12,
     d: "lnrt",
     m: 0,
     b: "Maiduguri,Konduga,Mafa,Damboa,Gwoza,Bama,Monguno,Ngala,Marte,Kukawa,Dikwa,Chibok,Biu,Askira,Uba,Hawul,Jere,Kaga,Kala Balge,Kwaya Kusar,Magumeri,Nganzai,Shani,Abadam,Bayo,Gubio,Guzamala,Mobbar,Bolori,Gwange,Maisandari,Shehuri North,Shehuri South,Bulabulin,Lamisula,Mafoni,Fezzan,Gamboru,Hausari,Limanti,Pombe,Dala,Dusman,Aulari,Koshebe,Benisheikh,Tashan Alade,Mainok,Kawuri,Wanori",
@@ -868,7 +858,7 @@ export const africaNameBases: NameBase[] = [
     max: 10,
     d: "lnrt",
     m: 0,
-    b: "Mbandaka,Inongo,Bikoro,Nkuru,Boende,Mongo,Kutu,Kinshasa,Kisangani,Gemena,Gbadolite,Lisala,Bumba,Boma,Matadi,Lubumbashi,Mbuji-Mayi,Kananga,Tshikapa,Kikwit,Bandundu,Boende,Basankusu,Bondo,Buta,Isiro,Dungu,Mahagi,Aru,Faradje,Mbandaka,Inongo,Bikoro",
+    b: "Mbandaka,Inongo,Bikoro,Nkuru,Boende,Mongo,Kutu,Kinshasa,Kisangani,Gemena,Gbadolite,Lisala,Bumba,Boma,Matadi,Lubumbashi,Mbuji-Mayi,Kananga,Tshikapa,Kikwit,Bandundu,Basankusu,Bondo,Buta,Isiro,Dungu,Mahagi,Aru,Faradje",
     status: "COMPLETE"
   },
   {
@@ -908,7 +898,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Windhoek,Walvis Bay,Swakopmund,Okahandja,Otjiwarongo,Grootfontein,Tsumeb,Oshakati,Ondangwa,Rundu,Katima Mulilo,Keetmanshoop,Mariental,Gobabis,Rehoboth,Karasburg,Bethanie,Lüderitz,Aus,Helmeringhausen,Maltahöhe,Sesfontein,Khorixas,Outjo,Omaruru,Karibib,Usakos,Otavi,Grootfontein,Tsumeb",
+    b: "Windhoek,Walvis Bay,Swakopmund,Okahandja,Otjiwarongo,Grootfontein,Tsumeb,Oshakati,Ondangwa,Rundu,Katima Mulilo,Keetmanshoop,Mariental,Gobabis,Rehoboth,Karasburg,Bethanie,Lüderitz,Aus,Helmeringhausen,Maltahöhe,Sesfontein,Khorixas,Outjo,Omaruru,Karibib,Usakos,Otavi",
     status: "COMPLETE"
   },
   {
@@ -958,7 +948,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Wadi Halfa,Dongola,Aswan,Kom Ombo,Khashm el-Girba,New Halfa,Kerma,Korosko,Abu Simbel,Sukkot,Burgeg,Cairo,Khartoum,Daraw,Debba,Argo,Mograt Island,Sai Island,Amara,Gemai,Tanqur,Aliab,Barkal,Karima,Berber,Atbara,Shendi,Meroe,Napata,Wawa,Salima,Sonqi,Dabod,Derr,Gemai",
+    b: "Wadi Halfa,Dongola,Aswan,Kom Ombo,Khashm el-Girba,New Halfa,Kerma,Korosko,Abu Simbel,Sukkot,Burgeg,Cairo,Khartoum,Daraw,Debba,Argo,Mograt Island,Sai Island,Amara,Gemai,Tanqur,Aliab,Barkal,Karima,Berber,Atbara,Shendi,Meroe,Napata,Wawa,Salima,Sonqi,Dabod,Derr",
     status: "COMPLETE"
   },
   {
@@ -994,11 +984,11 @@ export const africaNameBases: NameBase[] = [
   {
     name: "Sinyar",
     i: 1331,
-    min: 0,
-    max: 0,
+    min: 3,
+    max: 12,
     d: "lnrt",
     m: 0.1,
-    b: "Foro Boranga",
+    b: "Sinyar,Shemya,Shamya,Goz Beida,Foro Boranga,Ouaddai,Sila,Darfur,Azum,Kaja,Salih,Chad,Sudan",
     status: "COMPLETE"
   },
   {
@@ -1048,7 +1038,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0.1,
-    b: "Sukur",
+    b: "Sukur,Sakun,Sakwun,Damai Kasa,Damai Sama,Giwa Higgi,Gubla,Jelang,Kurang,Mafer,Magar,Mildo Shalmi,Mildo Vapura,Muduvu,Ndalmi,Rugudum,Wakara,Wula Mango,Silir,Madagali,Gwoza,Michika,Mubi",
     status: "COMPLETE"
   },
   {
@@ -1168,7 +1158,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Robertsport",
+    b: "Robertsport,Bopolu,Monrovia,Voinjama,Tubmanburg,Bendaja,Porkpa,Gbarpolu,Grand Cape Mount,Lofa,Bomi,Montserrado,Kenema,Pujehun,Gola Forest",
     status: "COMPLETE"
   },
   {
@@ -1189,16 +1179,6 @@ export const africaNameBases: NameBase[] = [
     d: "lnrt",
     m: 0,
     b: "Kafigué,Kagnina,Bougouro,Fassalakahan,Niandonon,Dionkanha,Dagban,Kapiré,Nifin,Toudounkahan,Nangokahan,Pignan,Fourkoura,Tjetwalkaha,Woulakaha,Zagnékaha,Zangoukaha,Nadjagoala,Kaplekaha,Nangole,Bozogo,Djokaha,Kagbougo,Katolo,Zedjinkaha,Sougolykaha,Naguélékaha,Nerfounkaha,Nigninnevogo,Balkaha,Faha,Madé,Tamansar,Lokougô,Outourou,Kienkienkan,Koko,Dissigué,Soutara,Sandiedjie,Konakaha,Mpara,Yanzankaha,Timba,Nawokaha,Kotinama,Telikaha,Kasségué,Loman,Kayelegue,Zanviguekaha,Ziefonkaha,Kayogo,Sinkaha,Kamraga,Bakaha,Dokaha,Kagbogo,Lodieleme,Niangolokaha,Biguaikaha,Kanyehin,Amon,Kakpoho,Kodononkaha,Lofadjele",
-    status: "COMPLETE"
-  },
-  {
-    name: "Supyire",
-    i: 1605,
-    min: 3,
-    max: 13,
-    d: "lnrt",
-    m: 0,
-    b: "Kadiolo,Lobougoula,Niena,Zanférébougou,Blendio,Nkourala,Kafouziéla,Gongasso,Kignan,Finkolo,Finkolo Ganadougou,Kouoro,Danderesso,Koumankou,Koungoba,Kapolondougou,Sanzana,Nimbougou,Diou,Dioumaténé,Fourou,Kaï,Misséni,Zégoua,Kadiolo Cercle,Gur,Mali Independence,Farakala Village,Cultivating,Millet,Ancestral History,Agricultural Processes,Neighboring Cultures,Bananas,Manioc,Successfully Cultivated,Care,Chickens,Sheep,Goats,Guinea Fowl",
     status: "COMPLETE"
   },
   {
@@ -1258,7 +1238,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Gwoza",
+    b: "Gwoza,Ghwa'a,Kurana Basa,Vaghagaya,Barawa,Hambagda,Gwoza Central,Gava,Guduf,Cikide,Cineni,Gvoko,Minawao,Belek,Yola,Mandara Mountains",
     status: "COMPLETE"
   },
   {
@@ -1269,16 +1249,6 @@ export const africaNameBases: NameBase[] = [
     d: "lnrt",
     m: 0,
     b: "Divo,Lakota,Guitry,Yocoboué,Lauzoua,Zikisso",
-    status: "COMPLETE"
-  },
-  {
-    name: "Diri",
-    i: 1702,
-    min: 3,
-    max: 13,
-    d: "lnrt",
-    m: 0,
-    b: "Dir Village,Baram Dutse,Dingis,Diryawa,Diriya,Dirya,Sago,Tsagu,Diryanci,Buwane,Darazo LGA,Bade-Warji,North Bauchi Languages,Ajawa,Warji District,Jigawa State,Birnin Kudu LGA,Miya Town,Hamlets,Kariya Wuro,Serzakwai,Sirzakwai,Sar,Sarawa,Vene Mi,Miyawa,Languages Darazo LGA,Deno,Ngamo,Afro-Asiatic Chadic West Chadic North Bauchi,Proto-North Bauchi,Geographic Distribution,Ningi LGAs,North Bauchi,Languages Bauchi State Listed LGA,Dulbu,Galambu,Ju,Kir-Balar,Luri,Mangas,Mbat,Shiki,Tala,Zangwal,Dukku,Karekare,Jimi,Kubi,Bure,Fulato/Borno,Shuwa,Kanuri,Sur,Vaghat-Ya-Bijim-Legeri,Gwak,Geji,Gwa,Gyem,Iguta,Jere,Lame,Lemoro,Mawa,Panawa,Sanga,Saya,Shau,Tunzuii,Zeem,Ziriya,Bade,Heterogeneous State,Predominant Tribes,Jarawa,Waja,Balewa,Sayawa,Tarewa,Itas-Gadau,Shira,Emirates,Bauchi Emirate,Katagum Emirate,Azare,Misau Emirate,Ningi Emirate,Jama'are Emirate,Dass Emirate,Bur Emirate,Bur,Dambam Emirate,Dambam,Darazo Emirate,Duguri Emirate,Yuli,Gam Emirate,Gam,Giade Emirate,Toro Emirate,Warji Emirate,Katangar Warji,Ari Emirate,Gadar Maiwa,Itas/Gadau,Jama'a Emirate,Nabardo,Lame Emirate,Gumau,Bununu Emirate,Bununu,Lere Emirate,Lere,Zaar Chiefdom,Mhrim",
     status: "COMPLETE"
   },
   {
@@ -1308,7 +1278,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Tchakidjeke,Tchéré,Méri,Dugwor,Mékéri,Tokombéré,Mokolo,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Muyang,Gawar,Matal,Daba,Mbudum,Buwal,Mazagway",
+    b: "Tchakidjeke,Tchéré,Méri,Dugwor,Mékéri,Tokombéré,Mokolo,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Muyang,Gawar,Matal,Daba,Mbudum,Buwal,Mazagway",
     status: "COMPLETE"
   },
   {
@@ -1388,7 +1358,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Kolda,Ziguinchor,Sédhiou,Tambacounda,Kédougou,Matam,Podor,Dagana,Bakel,Linguère,Louga,Saint-Louis,Richard-Toll,Dagana,Ourossogui,Vélingara,Goudiry,Bakel,Matam,Kanel,Ranérou,Kolda,Thiès,Diourbel,Kaolack,Fatick,Kaolack,Mbour,Thiès",
+    b: "Kolda,Ziguinchor,Sédhiou,Tambacounda,Kédougou,Matam,Podor,Dagana,Bakel,Linguère,Louga,Saint-Louis,Richard-Toll,Ourossogui,Vélingara,Goudiry,Kanel,Ranérou,Thiès,Diourbel,Kaolack,Fatick,Mbour",
     status: "COMPLETE"
   },
   {
@@ -1409,16 +1379,6 @@ export const africaNameBases: NameBase[] = [
     d: "lnrt",
     m: 0,
     b: "Onitsha,Aba,Abakaliki,Awka,Asaba,Nsukka,Nnewi,Awgu,Eha-Amufu,Ikem,Udi,Agbani,Mbieri,Mbele,Mbodo,Ihite,Eziobodo,Iho,Atta,Eziama,Amaimo,Umuelemai,Anara,Amaraku,Umundugba,Amandugba,Isu-Njaba,Nwaorieubi,Ogbaku,Ordo,Ifakala,Umuneke-Ngor,Umuowa,Ozuzu,Nnenasa,Umuaka,Amaigbo,Agulu,Neni,Ichida,Adazi-Nnukwu,Akwaeze,Obeledu,Nri,Aguluzigbo,Oraeri,Nanka,Ekwulobia,Isuofia,Umuchu,Igbo-Ukwu,Awka-Etiti,Amawbia,Nibo,Nise,Mbaukwu,Okpuno,Umuawulu,Nnobi,Oba,Ojoto,Okija,Ozubulu,Ihiala,Ogoloma,Amorka,Ubulu,Ubulu-Uku,Ogwashi-Uku,Issele-Uku,Ibusa,Agbor,Orji,Eke,Ibagwa,Opi,Edem,Okpuje,Ibagwa-Ndiagu,Alor,Ovoko,Ohebe,Obollo-Afor,Enugu-Ezike,Orba,Obollo-Etiti,Umulokpa,Adani,Nimbo,Agbogugu,Mpu,Nenwe,Ndiabor,Oduma,Okpanku,Amoli,Ukehe,Aku,Diogbe,Ohodo,Umuna,Ozalla,Ikolo,Ochima,Achi,Inyi,Oji-River,Akpugo,Nkerefi,Nomeh,Ogbahu,Oruku,Ugbawka,Afor-Oru,Ogidi,Nkpor,Obosi,Abatete,Uke,Oraukwu,Omuko,Akokwa,Arondizuogu,Dikenafai,Okwelle,Ofeahia,Okwe,Isinweke,Uboma,Item,Isuikwuato",
-    status: "COMPLETE"
-  },
-  {
-    name: "Gwandara",
-    i: 1927,
-    min: 3,
-    max: 13,
-    d: "lnrt",
-    m: 0,
-    b: "Akwanga,Awe,Keana,Doma,Obi,Abuja,Karshi,New Karshi,Karu,Nyankpa,Gurku,Yarkade,Kokona,Garaku,Agwada,Amba,Dan,Ninkoro,Haderi,Pam Barau,Kufai Gwari,Yelwa,Akware,Kofar Gwari,Moroa,Ajuye,Angwan Yaro,Angwan Doka,Dokan Daji,Shabu,Jaman Gayan,Nasarawa,Nassarawa,Toto,Keffi LGA,Lafia LGA,Akwanga LGA,Awe LGA,Doma LGA,Obi LGA,Abuja FCT,Bwali LGA,Kwai LGA,Niger State,Suleija LGA,Gurara LGA,Kaduna State,Kaura LGA,Plateau State,Riyom LGA,Taraba State,Benue State,Zaria,Govandara,Madaki Keffi,Nuhu,Dauda,Maikwoto,Magaji Dan Yamusa,Captain Maloney,Ibrahim Mai Gunduma,Bashayi,Mainasara,Gankuma,Afo,Gbagyi,Migili,Alago,Eggon,Mada,Koro,Hausa,Angas,Geomai,Odoma,Agatu,Tiv,Afro-Asiatic,West Chadic,Hausa-Gwandara",
     status: "COMPLETE"
   },
   {
@@ -1702,16 +1662,6 @@ export const africaNameBases: NameBase[] = [
     status: "COMPLETE"
   },
   {
-    name: "Vori",
-    i: 2061,
-    min: 3,
-    max: 13,
-    d: "lnrt",
-    m: 0,
-    b: "Geshere,Kumana,Kitanda,Kugauta,Kabene,Surubunda,Kauru LGA,Kaduna State,Kauru Chiefdom,Kumana Chiefdom,Chawai Chiefdom,Zubairu,Dangambo,Dungu,Garba,Gajere,Gamagira,Garke,Garin Dutse,Garin Mallam,Garin Yammama,Garin Zomo,Hamman Dikko,Hausawa,Hauwa,Huda,Hudu,Imam Maianguwa,Ingawa,Isah,Kabiru,Kadarko,Kafinta,Kagadama,Kagarko,Kahiru,Kaiwa,Kaka,Kakale,Kamfanin Kachi,Kamfanin Zungeru,Kampani,Kanawa,Kano,Kanwuri,Kanya,Kargako,Karkarna,Kasa,Katanga,Katsina,Katsinawa,Kaya,Kayan Bana,Kayan Gari,Kayan Hausa,Kayan Kasa,Kayan Kauran,Kayan Kudi,Kayan Kwari,Kayan Lemu,Kayan Maza,Kayan Tasha,Kayan Zango,Keke,Kelani,Keta,Ketare,Kewaye,Kewaya,Khadi,Khamis,Kibiya,Kida,Kigawa,Kijimi,Kila,Kiru,Kitawa,Kofa,Koguna,Koko,Kola,Koli,Kolo,Kona,Kongolam,Kore,Kori,Koshi,Kota,Kotorkoshi,Kubau,Kudaru,Kufai,Kuka,Kukawa,Kululu,Kumbotso,Kunkurawa,Kura,Kuran,Kurya,Kusada,Kusogi,Kuyambana,Kuyan Bana,Kuyan Gari,Kuyan Hausa,Kuyan Kasa,Kuyan Kauran,Kuyan Kudi,Kuyan Kwari,Kuyan Lemu,Kuyan Maza,Kuyan Tasha,Kuyan Zango,Kwari,Kwata,Kwato,Kwaya,Kwazazzabe",
-    status: "COMPLETE"
-  },
-  {
     name: "Voro",
     i: 2062,
     min: 3,
@@ -1992,16 +1942,6 @@ export const africaNameBases: NameBase[] = [
     status: "COMPLETE"
   },
   {
-    name: "Auyokawa",
-    i: 3257,
-    min: 4,
-    max: 4,
-    d: "lnrt",
-    m: 0,
-    b: "Auyo",
-    status: "COMPLETE"
-  },
-  {
     name: "Barga",
     i: 3258,
     min: 4,
@@ -2038,7 +1978,7 @@ export const africaNameBases: NameBase[] = [
     max: 17,
     d: "lnrt",
     m: 0.1,
-    b: "Ikot Ekpene,Abak,Essien Udim,Ika,Ukanafun,Obot Akara,Etim Ekpo,Afaha Obong,Afaha Ikot Ebak,Utu Etim Ekpo,Ikot Akpa Nkuk,Nto Edino,Urua Inyang,Ikot Ibritam,Ekparakwa,Ikot Okoro,Obio Akpa,Ikot Inuen,Ikot Akpan Essien,Ntak Ibesit,Ikot Esenam,Urua Anwa,Ikpe Annang,Odoro Ikot,Ekpenyong Atai,Ukana,Adiasim,Ikot Akpan,Ikot Ekpenyong,Mbiabet,Nto Okpo,Urua Akpan,Ediene,Midim,Otoro,Ikot Eshiet,Atai Otoro,Ikot Obioko,Ikot Obong,Utu Abak,Ekpene Okpo,Ifuho,Ikot Enwang,Ikot Obong Edong,Nsiak,Uruk Uso,Mbiaso,Ibiakpan,Obong Ntak,Uruk Ata,Esa Obong,Iwukem,Ikot Mboho,Udianga Enem,Ikot Ukana,Ikwen,Ibong Otoro,Ikot Osukpong,Abiakana,Nto Ukara",
+    b: "Abak,Ikot Ekpene,Essien Udim,Ukanafun,Etim Ekpo,Ika,Obot Akara,Oruk Anam,Uyo,Itu,Uruan,Etinan,Nsit Ibom,Nsit Atai,Nsit Ubium,Ibesikpo Asutan,Ikono,Ini,Ikot Abasi,Mkpat Enin,Ibiono Ibom,Onna,Eket,Esit Eket",
     status: "COMPLETE"
   },
   {
@@ -2128,7 +2068,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Tsumkwe,Grootfontein,Otjiwarongo,Oshakati,Rundu,Katima Mulilo,Ondangwa,Tsumeb,Grootfontein,Otjiwarongo,Oshakati,Rundu,Katima Mulilo,Ondangwa",
+    b: "Tsumkwe,Grootfontein,Otjiwarongo,Oshakati,Rundu,Katima Mulilo,Ondangwa,Tsumeb",
     status: "COMPLETE"
   },
   {
@@ -2178,7 +2118,7 @@ export const africaNameBases: NameBase[] = [
     max: 14,
     d: "lnrt",
     m: 0.1,
-    b: "Maseru,Hlotse,Mafeteng,Mokhotlong,Teyateyaneng,Moyeni,Butha-Buthe,Thaba-Tseka,Maputsoe,Semonkong,Marakabei,Malealea,Mapoteng,Pitseng,Mapholaneng,Matlameng,Qomoqomong,Mphaki,Lesobeng,Seshote,Tajane,Qibing,Phamong,Siloe,Ribaneng,Khomokhoana,Likalaneng,Lithabaneng,Lithoteng,Makhoarane,Makolopetsane,Manonyane,Motimposo,Nyakosoba,Qoaling,Matsatseng,Seforong,Tsatsane,Fenyane,Hleoheng,Kueneng,Likila,Limamarela,Linare,Lipelaneng,Liqhobong,Litjotjela,Makeoana,Makhunoane,Motanasela,Ntelle,Sekhobe,Senekane,Phuthiatsana,Khalahali,Khoelenya,Khubelu,Likhutloaneng,Linakaneng,Liphamola,Marung,Mashaleng,Mateanong,Matsoku,Mootsinyane,Moremoholo,Nkau,Qabane,Qhobeng,Qobong,Rafolatsane,Sakeng,Seroto,Letloepe,Likhohlong,Lilala,Liphakoe,Makaota,Makheka,Malumeng,Maseepho,Mathula,Mokotjomela,Monyake,Mosenekeng,Patlong,Qiloane,Ramoetsana,Ratau,Serupane,Tekeseleng,Telle,Linakeng,Maisa-Phoka,Tebe-Tebe,Phuthaditjhaba,Tshiame,Botshabelo,Leribe,Berea,Quthing,Qachas Nek,Mohale's Hoek,Roma,Mazenod,Morija,Nako,Ramabanta,Ha Makoae,Thaba Bosiu,Sehlabathebe,Ha Ramabanta,Ha Khojane,Ha Seshoare,Sani Pass,Oxbow,Liphakeng,Mpharane,Mount Moorosi,Tsakholo,Mpiti,Mekuatling,Machache,Kubung,Mpofozi,Ha Mabote,Ha Mahlehle,Mabotse,Ha Lentsoenyane,Tsoelike,Tlali-Mathee,Ha Tume,Ha Mokhethi,Ha Rankelema,Ha Petje,Ha Sekoka,Ha Mpeli,Ha Mantsebo,Ha Matela,Mphe-Lebeko,Ha Kompi,Ha Seeiso,Ha Moshoeshoe,Ha Sofonia,Ha Makateng,Ha Rantsie,Makhalong,Mohlanapeng,Mabotsaneng,Thaba-Chitja,Ha Mabotsa,Ha Phohleli,Ha Foso,Ha Ramonoko,Ha Makhotso,Ha Mabeleng,Ha Ts'epong,Ha Hlalele,Ha Ntsane,Ha Sello,Ha Ntsiu,Ha Mosiuoa,Ha Lefotha,Ha Mokotjo,Ha Mosenyehi,Motetema",
+    b: "Maseru,Teyateyaneng,Mafeteng,Hlotse,Mohale's Hoek,Maputsoe,Qacha's Nek,Quthing,Butha-Buthe,Mokhotlong,Thaba-Tseka,Berea,Leribe,Roma,Morija,Matsieng,Thabong,Tabola,Thaba-Bosiu,Mabote,Mapoteng,Matelile,Semonkong,Mazenod,Sehonghong,Libono,Sekake,Mantsonyane,Tsa-Kholo,Ha-Matala,Qoaling,Khubetsoana,Hoohlo,Koalabata,Thabana-Morena",
     status: "COMPLETE"
   },
   {
@@ -2208,7 +2148,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bukavu,Uvira,Goma,Kalehe,Walungu,Kabare,Idjwi,Shabunda,Mwenga,Baraka,Fizi,Kalemie,Kindu,Kasongo,Kabambare,Bukavu,Uvira,Goma,Kalehe,Walungu",
+    b: "Bukavu,Uvira,Goma,Kalehe,Walungu,Kabare,Idjwi,Shabunda,Mwenga,Baraka,Fizi,Kalemie,Kindu,Kasongo,Kabambare",
     status: "COMPLETE"
   },
   {
@@ -2318,7 +2258,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0.1,
-    b: "Tlemcen,Oran,Sidi Bel Abbès,Saïda,Mascara,Tiaret,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida,Tlemcen,Oran,Sidi Bel Abbès,Saïda,Mascara",
+    b: "Tlemcen,Oran,Sidi Bel Abbès,Saïda,Mascara,Tiaret,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida",
     status: "COMPLETE"
   },
   {
@@ -2468,7 +2408,7 @@ export const africaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "East London,Swakopmund,Walvis Bay,Johannesburg,Pretoria,Durban,Cape Town,Port Elizabeth,Bloemfontein,Pietermaritzburg,Welkom,Kimberley,Polokwane,Nelspruit,Mthatha,Kokstad,Matatiele,East London,Swakopmund,Walvis Bay",
+    b: "East London,Swakopmund,Walvis Bay,Johannesburg,Pretoria,Durban,Cape Town,Port Elizabeth,Bloemfontein,Pietermaritzburg,Welkom,Kimberley,Polokwane,Nelspruit,Mthatha,Kokstad,Matatiele",
     status: "COMPLETE"
   },
   {
@@ -2608,7 +2548,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Ga'anda,Gabun,Boga,Dingai,Mokar,Makwar,Mwakwar Mountain,Gombi,Song,Guyuk,Mubi,Biu,Hong,Hyna,Hobi,Garkida,Guyaku,Tawa,Yang,Duwa,Ga'anda Ward,Gabun Ward,Boga/Dingai,Garkida Ward,Guyaku Ward,Tawa Ward,Yang Ward,Duwa Ward,Gombi North,Gombi South,Balda,Banga,Boga,Dingai,Dongo,Duwa,Dzangola,Fotta,Futena,Gabun,Galgafun,Gangaran,Ganjara,Ganjikta,Ganjing,Garfite,Garin Dadi,Gudban,Gudumiya,Hina,Huji,Hurduwa,Hurgabun,Hursama,Hurunda,Hushipra,Jaromboyi,Jau,Jere,Kampamta,Kamsubura,Kanjara,Kankeshir,Kaudi Hona,Kilar,Kirp,Kojoli,Koko,Kondusun,Kurara,Kwadumra,Kwalamba,Kwanda,Kwanta,Kwargwashe,Kwarwa,Leme Fulani,Lubu,Marja,Mbewa,Mbilla,Mijiwana,Muchalla,Mulabara,Njenjiba,Pamta,Parijo,Pirkasa,Riji,Sabongari,Sama Farticha,Sanma,Sasai,Sheno Gormoso,Shime,Sirta,Tali,Tawa,Tubar,Urdun,Virgwi,Walawal,Wamurete,Wugulsa,Wumturu,Wungara,Wuro Golare,Wuro Yaji,Wuyaku,Yamtar,Yang,Zangra",
+    b: "Ga'anda,Gabun,Boga,Dingai,Mokar,Makwar,Mwakwar Mountain,Gombi,Song,Guyuk,Mubi,Biu,Hong,Hyna,Hobi,Garkida,Guyaku,Tawa,Yang,Duwa,Ga'anda Ward,Gabun Ward,Boga/Dingai,Garkida Ward,Guyaku Ward,Tawa Ward,Yang Ward,Duwa Ward,Gombi North,Gombi South,Balda,Banga,Dongo,Dzangola,Fotta,Futena,Galgafun,Gangaran,Ganjara,Ganjikta,Ganjing,Garfite,Garin Dadi,Gudban,Gudumiya,Hina,Huji,Hurduwa,Hurgabun,Hursama,Hurunda,Hushipra,Jaromboyi,Jau,Jere,Kampamta,Kamsubura,Kanjara,Kankeshir,Kaudi Hona,Kilar,Kirp,Kojoli,Koko,Kondusun,Kurara,Kwadumra,Kwalamba,Kwanda,Kwanta,Kwargwashe,Kwarwa,Leme Fulani,Lubu,Marja,Mbewa,Mbilla,Mijiwana,Muchalla,Mulabara,Njenjiba,Pamta,Parijo,Pirkasa,Riji,Sabongari,Sama Farticha,Sanma,Sasai,Sheno Gormoso,Shime,Sirta,Tali,Tubar,Urdun,Virgwi,Walawal,Wamurete,Wugulsa,Wumturu,Wungara,Wuro Golare,Wuro Yaji,Wuyaku,Yamtar,Zangra",
     status: "COMPLETE"
   },
   {
@@ -2619,16 +2559,6 @@ export const africaNameBases: NameBase[] = [
     d: "lnrt",
     m: 0.1,
     b: "Pankshin,Mangu,Bokkos,Kanke,Barkin Ladi,Riyom,Shendam,Langtang,Wase,Panyam,Kanam,Dengi,Ibadan",
-    status: "COMPLETE"
-  },
-  {
-    name: "Galambu",
-    i: 11281,
-    min: 8,
-    max: 8,
-    d: "lnrt",
-    m: 0,
-    b: "Galambi",
     status: "COMPLETE"
   },
   {
@@ -2748,7 +2678,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo",
+    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri",
     status: "COMPLETE"
   },
   {
@@ -2799,16 +2729,6 @@ export const africaNameBases: NameBase[] = [
     d: "lnrt",
     m: 0,
     b: "Hona,Gombi,Hong,Song,Shani,Garkida,Guyaku,Boga,Dingai,Fotta,Duwa,Riji,Kiro,Jere,Dahra,Jaraboi,Ganji,Gir,Lubu,Mbewa,Merja,Pirfa,Pirkasa,Sosai,Tofa,Vurgwi,Wuyaku,Dongo,Bebe,Demna,Kurara,Kwari,Yola,Mubi,Madagali,Michika,Gombi LGA,Hong LGA,Song LGA,Shani LGA,Adamawa State,Borno State,Pella,Kulinyi,Garaha,Bangshika,Mijili,Miljili,Ndlang,Hyema,Hyama,Kinging,Motaku,Kwapor,Zah,Zivi,Uding,Udong,Mothol,Dagza",
-    status: "COMPLETE"
-  },
-  {
-    name: "Hya",
-    i: 11583,
-    min: 4,
-    max: 4,
-    d: "lnrt",
-    m: 0,
-    b: "Amsa",
     status: "COMPLETE"
   },
   {
@@ -2868,7 +2788,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Monze,Choma,Kalomo,Pemba,Mazabuka,Zimba,Siavonga,Sinazongwe,Gwembe,Livingstone,Binga,Namwala,Itezhi-Tezhi,Chirundu,Kazungula,Lusaka,Kabwe,Mumbwa,Chibombo,Chisamba,Victoria Falls,Gokwe,Nkayi,Nyaminyami,Kafue,Rufunsa,Siavonga,Gwembe,Sinazongwe,Chirundu",
+    b: "Monze,Choma,Kalomo,Pemba,Mazabuka,Zimba,Siavonga,Sinazongwe,Gwembe,Livingstone,Binga,Namwala,Itezhi-Tezhi,Chirundu,Kazungula,Lusaka,Kabwe,Mumbwa,Chibombo,Chisamba,Victoria Falls,Gokwe,Nkayi,Nyaminyami,Kafue,Rufunsa",
     status: "COMPLETE"
   },
   {
@@ -2948,7 +2868,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Mambwe District,Chama,Lundazi,Chipata,Katete,Sinda,Petauke,Lusaka,Zumbo,Luangwa,Zambezi,Kariba,Nyaminyami,Gokwe,Binga,Harare,Tete,Chikunda,Kanyemba,Mbire,Hunyani,Doma,Muzarabani,Centenary,Guruve,Mbire,Rushinga,Mt Darwin,Shamva,Bindura,Mazowe,Mbire,Dande,Uclar,Kanyemba,Muzarabani,Centenary",
+    b: "Mambwe District,Chama,Lundazi,Chipata,Katete,Sinda,Petauke,Lusaka,Zumbo,Luangwa,Zambezi,Kariba,Nyaminyami,Gokwe,Binga,Harare,Tete,Chikunda,Kanyemba,Mbire,Hunyani,Doma,Muzarabani,Centenary,Guruve,Rushinga,Mt Darwin,Shamva,Bindura,Mazowe,Dande,Uclar",
     status: "COMPLETE"
   },
   {
@@ -3028,7 +2948,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Jinja,Iganga,Buyende,Kamuli,Luuka,Mayuge,Namayingo,Namutumba,Busembatia,Kampala,Entebbe,Mbarara,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Kabale,Mityana,Buvuma,Kaliro,Bugiri,Bugweri,Bugembe,Buvuma Island,Ssese Islands,Namasagali,Kigulu,Bunhole,Bulandoni,Kidera,Bunya,Bukooli,Kwesiro,Buvuma",
+    b: "Jinja,Iganga,Buyende,Kamuli,Luuka,Mayuge,Namayingo,Namutumba,Busembatia,Kampala,Entebbe,Mbarara,Gulu,Lira,Mbale,Tororo,Fort Portal,Hoima,Masindi,Soroti,Kabale,Mityana,Buvuma,Kaliro,Bugiri,Bugweri,Bugembe,Buvuma Island,Ssese Islands,Namasagali,Kigulu,Bunhole,Bulandoni,Kidera,Bunya,Bukooli,Kwesiro",
     status: "COMPLETE"
   },
   {
@@ -3138,7 +3058,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Kondoa,Manyoni,Babati,Dodoma,Singida,Tabora,Shinyanga,Mwanza,Arusha,Moshi,Kilimanjaro,Dar es Salaam,Morogoro,Iringa,Mbeya,Songwe,Ruvuma,Mtwara,Lindi,Pwani,Kondoa,Manyoni,Babati",
+    b: "Kondoa,Manyoni,Babati,Dodoma,Singida,Tabora,Shinyanga,Mwanza,Arusha,Moshi,Kilimanjaro,Dar es Salaam,Morogoro,Iringa,Mbeya,Songwe,Ruvuma,Mtwara,Lindi,Pwani",
     status: "COMPLETE"
   },
   {
@@ -3228,7 +3148,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Keren,Agordat,Barentu,Massawa,Assab,Tessenai,Adi Teklezan,Habab,Mensa,Semhar,Asmara,Mendefera,Adi Keyh,Adi Quala,Elabered,Gala,Forto,Mogolo,Antalla,Adi Nebrid,Adi Hageray,Adi Yaqob,Adi Ghebru,Adi Tsetser,Adi Abune,Adi Gebru,Adi Tekelie,Adigrat",
+    b: "Aksum,Lalibela,Gondar,Addis Ababa,Asmara,Adwa,Mekelle,Debre Damo,Debre Libanos,Yeha,Matara,Qohaito,Adulis,Keskessa,Dibdib,Enda Cherkos,Enda Mariam,Enda Theodoros,Enda Giorgis,Enda Michael,Enda Gabriel,Enda Silas,Enda Kidanemeheret,Enda Maryam,Axum,Debre Tabor,Debre Sina,Debre Berhan",
     status: "COMPLETE"
   },
   {
@@ -3278,7 +3198,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bangui,Bambari,Berbérati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Bimbo,Boali,Bangassou,Birao,Ouanda Djallé,Bouar,Bambari,Bossangoa,Bozoum,Bouar,Bangassou,Birao,Ouanda Djallé",
+    b: "Bangui,Bambari,Berbérati,Bossangoa,Bozoum,Carnot,Mbaiki,Boda,Kaga-Bandoro,Paoua,Obo,Zemio,Rafaï,Sibut,Alindao,Bria,Ouadda,Bakouma,Dékoa,Bimbo,Boali,Bangassou,Birao,Ouanda Djallé,Bouar",
     status: "COMPLETE"
   },
   {
@@ -3298,7 +3218,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Addis Ababa,Dire Dawa,Adama,Gondar,Mekelle,Hawassa,Bahir Dar,Dessie,Jimma,Debre Berhan,Harar,Jijiga,Shashamene,Bishoftu,Sodo,Arba Minch,Hosaena,Dilla,Nekemte,Asella,Gimbi,Adigrat,Aksum,Lalibela,Debre Markos,Debre Tabor,Debark,Kombolcha,Woldiya,Alamata,Adwa,Axum,Shire,Maychew,Inda Selassie,Sebeta,Burayu,Ambo,Bale Robe,Goba,Ginir,Negele Borena,Shakiso,Waliso,Butajira,Worabe,Welkite,Hossana,Yirga Alem,Debre Zeit,Mojo,Fitche,Sendafa,Holeta,Bako,Shambu,Meki,Ziway,Buta Jirra,Chiro,Asbe Teferi,Harar Jugol,Dembi Dolo,Nejo,Assosa,Gambela,Injibara,Chagni,Dangila,Debre Werq,Were Ilu,Kemise,Kobo,Debre Sina,Bichena,Dejen,Mota,Mertule Mariam,Finote Selam,Bure,Wukro,Inticho,Yechila,Negash,Hawzen,Adi Daero,May Mekden,Temben,Tippi,Mizan Teferi,Bonga,Wolaita Sodo,Durame,Hager Mariam,Wereta,Kola Debba",
+    b: "Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Adama,Jimma,Dessie,Harar,Lalibela,Axum,Arba Minch,Nekemte,Debre Birhan,Kombolcha,Sodo,Asella,Ambo,Debre Markos,Dire Dawa,Shashemene,Bishoftu,Debre Sina,Woldiya,Gambela,Jigjiga,Semera,Assosa,Dilla,Yirgalem,Robe,Bekoji,Bale,Afdhoq,Kebridehar,Dodola,Agaro,Bonga,Tepi,Mizan Teferi,Wolkite,Hosaena,Butajira,Wonago,Yirgacheffe,Konso,Jinka,Tura Meda,Ali Sabieh,Djibouti,Assab,Massawa",
     status: "COMPLETE"
   },
   {
@@ -3328,7 +3248,7 @@ export const africaNameBases: NameBase[] = [
     max: 19,
     d: "lnrt",
     m: 0,
-    b: "Malabo,Bata,Annobón,Bioko,Río Muni,Equatorial Guinea,Fernando Póo,San Antonio de Palé,Palé,Angoche,São Tomé,Príncipe,Malabo,Bata,Annobón",
+    b: "Malabo,Bata,Annobón,Bioko,Río Muni,Equatorial Guinea,Fernando Póo,San Antonio de Palé,Palé,Angoche,São Tomé,Príncipe",
     status: "COMPLETE"
   },
   {
@@ -3338,7 +3258,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bongo,Ganok,Nkos,Buyatolo,Buyabikɛl,Buyabatug,Buyamboy,Kélendé Mbat,Kélendé Mɔma,Nibieg,Yangben,Bokito,Bafia,Nkitaba,Bidjé,Ndjip,Bidjamba,Bikou,Nkolngué,Bongando,Ndébaye,Bougoulou,Binkolo,Bapéhé,Bapéla,Nkong,Bongola,Bapé,Bapoundi,Bapéyé,Bapéa,Bapébam,Bikélé,Bidjamba,Bidjé,Bongo",
+    b: "Bongo,Ganok,Nkos,Buyatolo,Buyabikɛl,Buyabatug,Buyamboy,Kélendé Mbat,Kélendé Mɔma,Nibieg,Yangben,Bokito,Bafia,Nkitaba,Bidjé,Ndjip,Bidjamba,Bikou,Nkolngué,Bongando,Ndébaye,Bougoulou,Binkolo,Bapéhé,Bapéla,Nkong,Bongola,Bapé,Bapoundi,Bapéyé,Bapéa,Bapébam,Bikélé",
     status: "COMPLETE"
   },
   {
@@ -3388,7 +3308,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Gulu,Darfur,Chad,Sudan,Jebel Marra,Jebel Daju,Kujargé,Wadi Salih,Roknon,Kabkabiya,Zalingei,Nya,Foro Baranga,Krenbe,Ardeib,Masteri,Tundur,Jebel Moon,Kutum,Darb al-Arba'in,Wadi Salih,Roknon,Kabkabiya,Saraf al-Alam,Umm Kadadah,Umm Badri,Nyala,Al-Fashir,Al-Junaynah,Zalingei,Wadi Salih,Masteri,Foro Baranga,Krenbe,Ardeib,Tundur,Jebel Moon,Kutum,Gulu,Darfur",
+    b: "Gulu,Darfur,Chad,Sudan,Jebel Marra,Jebel Daju,Kujargé,Wadi Salih,Roknon,Kabkabiya,Zalingei,Nya,Foro Baranga,Krenbe,Ardeib,Masteri,Tundur,Jebel Moon,Kutum,Darb al-Arba'in,Saraf al-Alam,Umm Kadadah,Umm Badri,Nyala,Al-Fashir,Al-Junaynah",
     status: "COMPLETE"
   },
   {
@@ -3478,7 +3398,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Beba,Muala,Shisong,Mbamba,Lower Mbekunyam,Upper Mbekunyam,Fombe,Agah,Sohka,Ntadieboh,Befang,Modele,Mukuru,Okoromanjang,Batomo,Bombe,Akwaya,Assaka,Messaga,Essimbi,Amanavil,Oshie,Mundum,Mbakong,Bamenda,Buea,Kumba,Wum,Nkambe,Ndop,Kumbo,Mbengwi,Bali,Bamenda,Fontem,Mamfe,Tiko,Limbe,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamunka,Babanki,Vengo,Wushi,Nso,Kom,Bum,Mbuk",
+    b: "Beba,Muala,Shisong,Mbamba,Lower Mbekunyam,Upper Mbekunyam,Fombe,Agah,Sohka,Ntadieboh,Befang,Modele,Mukuru,Okoromanjang,Batomo,Bombe,Akwaya,Assaka,Messaga,Essimbi,Amanavil,Oshie,Mundum,Mbakong,Bamenda,Buea,Kumba,Wum,Nkambe,Ndop,Kumbo,Mbengwi,Bali,Fontem,Mamfe,Tiko,Limbe,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamunka,Babanki,Vengo,Wushi,Nso,Kom,Bum,Mbuk",
     status: "COMPLETE"
   },
   {
@@ -3548,7 +3468,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bambalang,Jakiri,Widikum,Mbengwi,Bamenda,Bafanji,Bum,Mbuk,Kom,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Ndop,Kumbo,Wum,Nkambe,Bali,Babanki,Vengo,Wushi,Zhoa,Bum,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamenda,Santa,Bamenda,Ndop,Kumbo,Mbengwi,Wum,Nkambe,Bali,Babanki,Furu Awa,Ndu,Mbot,Misaje",
+    b: "Bambalang,Jakiri,Widikum,Mbengwi,Bamenda,Bafanji,Bum,Mbuk,Kom,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Ndop,Kumbo,Wum,Nkambe,Bali,Babanki,Vengo,Wushi,Zhoa,Furu Awa,Ndu,Mbot,Misaje",
     status: "COMPLETE"
   },
   {
@@ -3578,7 +3498,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Bamunka,Bangwa,Bekwa,Belabo,Bibemi,Bifang,Bikom,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamenda,Ndop,Kumbo,Mbengwi,Wum,Nkambe,Bali,Babanki,Vengo,Wushi,Zhoa,Bum,Mbuk,Kom,Bamunka,Bamenda,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamenda,Ndop,Kumbo,Mbengwi,Wum,Nkambe,Bali,Babanki,Furu Awa,Ndu,Mbot,Misaje,Bali,Bamenda",
+    b: "Bamunka,Bangwa,Bekwa,Belabo,Bibemi,Bifang,Bikom,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamenda,Ndop,Kumbo,Mbengwi,Wum,Nkambe,Bali,Babanki,Vengo,Wushi,Zhoa,Bum,Mbuk,Kom,Furu Awa,Ndu,Mbot,Misaje",
     status: "COMPLETE"
   },
   {
@@ -3748,7 +3668,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Jos,Plateau,Bauchi,Kaduna,Zaria,Kano,Katsina,Minna,Ilorin,Bida,Lokoja,Makurdi,Lafia,Keffi,Akwanga,Gombe,Gombe,Kaltungo,Dachau,Billiri,Akko,Funakaye,Kwami,Shongom,Yamaltu-Deba,Gwandu,Kokona,Adamawa,Taraba,Plateau,Kaduna,Barkin Ladi,Bokkos,Mangu,Pankshin,Shendam,Langtang,Wase,Kanam,Kanke,Mikang,Quaan Pan,Riyom,Bassa,Jos North,Jos South,Jos East",
+    b: "Jos,Plateau,Bauchi,Kaduna,Zaria,Kano,Katsina,Minna,Ilorin,Bida,Lokoja,Makurdi,Lafia,Keffi,Akwanga,Gombe,Kaltungo,Dachau,Billiri,Akko,Funakaye,Kwami,Shongom,Yamaltu-Deba,Gwandu,Kokona,Adamawa,Taraba,Barkin Ladi,Bokkos,Mangu,Pankshin,Shendam,Langtang,Wase,Kanam,Kanke,Mikang,Quaan Pan,Riyom,Bassa,Jos North,Jos South,Jos East",
     status: "COMPLETE"
   },
   {
@@ -3798,7 +3718,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Yenagoa,Port Harcourt,Brass,Nembe,Oloibiri,Twon-Brass,Brass Island,Bayelsa,Rivers,Delta,Edo,Akwa Ibom,Ogbia,Nembe,Brass,Sagbama,Ekeremor,Kolokuma/Opokuma,Southern Ijaw,Yenagoa,Ogbia,Oruma,Otuama,Odi,Otuasega,Anyiam-Obia,Oloibiri,Opolai,Okoroba,Odi,Ogbia,Ikata,Swali,Okutukutu,Igbogeni,Ebiseni,Ekine,Ogbolomabiri,Obiageri,Amalem",
+    b: "Yenagoa,Port Harcourt,Brass,Nembe,Oloibiri,Twon-Brass,Brass Island,Bayelsa,Rivers,Delta,Edo,Akwa Ibom,Ogbia,Sagbama,Ekeremor,Kolokuma/Opokuma,Southern Ijaw,Oruma,Otuama,Odi,Otuasega,Anyiam-Obia,Opolai,Okoroba,Ikata,Swali,Okutukutu,Igbogeni,Ebiseni,Ekine,Ogbolomabiri,Obiageri,Amalem",
     status: "COMPLETE"
   },
   {
@@ -3858,7 +3778,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Juba,Wau,Malakal,Yei,Aweil,Bor,Rumbek,Torit,Yambio,Kuajok,Tonj,Nimule,Bentiu,Renk,Nasir,Akobo,Pibor,Kapoeta,Raga,Warrap,Abyei,Mankien,Mayom,Gogrial,Wau,Aweil,Tonj,Raja,Deim Zubeir,Kafia Kingi,Source Yubu,Bambari,Ouanda Djallé,Bangassou,Rafiki,Zemio,Obo,Djema,Zangue,Bakouma,Ouadda,Yalinga,Bria,Ouanda Djallé",
+    b: "Juba,Wau,Malakal,Yei,Aweil,Bor,Rumbek,Torit,Yambio,Kuajok,Tonj,Nimule,Bentiu,Renk,Nasir,Akobo,Pibor,Kapoeta,Raga,Warrap,Abyei,Mankien,Mayom,Gogrial,Raja,Deim Zubeir,Kafia Kingi,Source Yubu,Bambari,Ouanda Djallé,Bangassou,Rafiki,Zemio,Obo,Djema,Zangue,Bakouma,Ouadda,Yalinga,Bria",
     status: "COMPLETE"
   },
   {
@@ -3938,7 +3858,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Bumba,Basoko,Yambow,Mongala,Lisala,Bongandanga,Gemena,Mbandaka,Kinshasa,Buta,Kisangani,Businga,Yakoma,Zongo,Libenge,Bikoro,Ingende,Bondo,Ango,Pokoto,Bomongo,Bokungu,Boende,Basankusu,Bumba,Lisala,Mbandaka,Gemena,Gbadolite",
+    b: "Bumba,Basoko,Yambow,Mongala,Lisala,Bongandanga,Gemena,Mbandaka,Kinshasa,Buta,Kisangani,Businga,Yakoma,Zongo,Libenge,Bikoro,Ingende,Bondo,Ango,Pokoto,Bomongo,Bokungu,Boende,Basankusu,Gbadolite",
     status: "COMPLETE"
   },
   {
@@ -3968,7 +3888,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Dédougou,Nouna,Tougan,Houndé,Boromo,Bagassi,Pâ,Boni,Ouarkoye,Fara,Dano,Kampti,Orodara,Bobo-Dioulasso,Banfora,Solenzo,Sanaba,Bourasso,Sono,Gassan,Douroula,Kona,Safané,Marraba,Kademu,Kioho,Mukioho,Tuiman,Bonikuv,Bwan,Dendjenné,Fatianl,Kallnakuv,Wakana,Toula,Kéra,Wakuv,Sara,Koudougou,Réo,Dédougou,Nouna,Tougan,Houndé,Boromo",
+    b: "Dédougou,Nouna,Tougan,Houndé,Boromo,Bagassi,Pâ,Boni,Ouarkoye,Fara,Dano,Kampti,Orodara,Bobo-Dioulasso,Banfora,Solenzo,Sanaba,Bourasso,Sono,Gassan,Douroula,Kona,Safané,Marraba,Kademu,Kioho,Mukioho,Tuiman,Bonikuv,Bwan,Dendjenné,Fatianl,Kallnakuv,Wakana,Toula,Kéra,Wakuv,Sara,Koudougou,Réo",
     status: "COMPLETE"
   },
   {
@@ -4018,7 +3938,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Asmara,Mendefera,Adi Quala,Keren,Massawa,Dekemhare,Axum,Mekelle,Adigrat,Adi Keyh,Debub,Halhal,Bisha,Shire,Adwa,Adi Nebrid,Elabered,Gala,Forto,Hamelmalo,Mogolo,Antalla,Adi Yaqob,Adi Ghebru,Adi Tsetser,Garanwa",
+    b: "Asmara,Keren,Mendefera,Assab,Barentu,Massawa,Adulis,Axum,Mekelle,Adwa,Debre Damo,Debre Libanos,Yeha,Matara,Qohaito,Badme,Nakfa,Teseney,Agordat,Adi Quala,Senafe,Adigrat,Serae,Adi Keyh,Dekemhare,Tesseney",
     status: "COMPLETE"
   },
   {
@@ -4048,7 +3968,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Victoria,Beau Vallon,Anse Royale,Praslin,La Digue,Baie Lazare,Takamaka,Port Glaud,Anse aux Pins,Anse Boileau,Anse Etoile,Anse Louis,Anse Volbert,Capucin,Cascade,Cerf,Grand Anse,La Misère,Mont Buxton,Port Launay,Roche Caiman,Sauzon,St. Louis,Kankan,Mont Fleuri,Plaine St. Anne",
+    b: "Victoria,Beau Vallon,Anse Boileau,Takamaka,Port Glaud,Saint Louis,Anse Royale,Anse aux Pins,Anse Étoile,Baie Sainte Anne,Bel Air,Bel Ombre,Cascade,English River,Glacis,Grand Anse,Les Mamelles,Mont Buxton,Mont Fleuri,Roche Caiman,Pointe Larue,Anse Etoile",
     status: "COMPLETE"
   },
   {
@@ -4058,7 +3978,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Ngoshe,Boko,Amuuda,Arboko,Attagara,Agapalawa,Aganjara,Juburli,Zamga,Gwoza,Pulka,Maiduguri,Ashigashia,Mayo-Moskota,Mayo-Tsanaga,Limani,Ngala,Mora,Kolonbui,Glavda,Gwoza,Pulka,Bama,Dikwa,Monguno,Kukawa,Mallam Fatori,Abadam,Mobbar,Ngala,Damboa,Askira,Uba,Shani,Kogu,Biu,Chibok,Damboa,Gwoza,Pulka",
+    b: "Ngoshe,Boko,Amuuda,Arboko,Attagara,Agapalawa,Aganjara,Juburli,Zamga,Gwoza,Pulka,Maiduguri,Ashigashia,Mayo-Moskota,Mayo-Tsanaga,Limani,Ngala,Mora,Kolonbui,Glavda,Bama,Dikwa,Monguno,Kukawa,Mallam Fatori,Abadam,Mobbar,Damboa,Askira,Uba,Shani,Kogu,Biu,Chibok",
     status: "COMPLETE"
   },
   {
@@ -4168,7 +4088,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Endegagn,Enemorina Eaner,Welkite,Gyeto,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet,Wolkite,Addis Ababa,Cheha,Abeshge,Geta,Enseno,East Meskane,Meskane,Soddo,Bahir Dar,Gondar,Mekelle,Hawassa,Dire Dawa,Shashemene,Gunchire,Arekit,Dinkula,Mike,Mehal Amba,Hawariyat,Agenna,Quante,Emdibir,Endegagn,Dinkula,Welkite,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet",
+    b: "Endegagn,Enemorina Eaner,Welkite,Gyeto,Ezha,Chaha,Gumer,Gura,Muher,Sebat Bet,Wolkite,Addis Ababa,Cheha,Abeshge,Geta,Enseno,East Meskane,Meskane,Soddo,Bahir Dar,Gondar,Mekelle,Hawassa,Dire Dawa,Shashemene,Gunchire,Arekit,Dinkula,Mike,Mehal Amba,Hawariyat,Agenna,Quante,Emdibir",
     status: "COMPLETE"
   },
   {
@@ -4178,7 +4098,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Cheha,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Welkite,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Dire Dawa,Shashemene,Emdibir,Arekit,Dinkula,Gunchire,Mike,Mehal Amba,Hawariyat,Agenna,Quante,Endegagn,Inor,Ezha,Gumer,Gura,Welkite,Cheha,Emdeber,Abeshge,Gumer",
+    b: "Cheha,Emdeber,Wolkite,Ezha,Enemorina Ener,Abeshge,Gumer,Welkite,Joka,Tug Megheccia,Haram Shet,Wink E Shet,Attat,Azer,Gotam,Megecha,Wabe,Metrakat,Addis Ababa,Bahir Dar,Gondar,Mekelle,Hawassa,Dire Dawa,Shashemene,Emdibir,Arekit,Dinkula,Gunchire,Mike,Mehal Amba,Hawariyat,Agenna,Quante,Endegagn,Inor,Gura",
     status: "COMPLETE"
   },
   {
@@ -4278,7 +4198,7 @@ export const africaNameBases: NameBase[] = [
     max: 16,
     d: "lnrt",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata",
+    b: "Tchouvok,Zamay,Mokolo,Mayo-Tsanaga,Maroua,Garoua,Mbele,Gawar,Buwal,Merey,Mafa,Mofu,Bulyak,Wisambak,Gàdáká,Mekélék,Mukshey,Wayam Tazay,Ndurey,Matarpas,Merew,Maram,Zemndék,Metergwed,Medere,Mazday,Soulede",
     status: "COMPLETE"
   },
   {
@@ -4288,7 +4208,7 @@ export const africaNameBases: NameBase[] = [
     max: 17,
     d: "lnrt",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata",
+    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Douroum,Gadala,Kortchi,Gawar,Buwal,Matal,Guider,Mayo-Oulo,Mayo-Louti",
     status: "COMPLETE"
   },
   {
@@ -4308,7 +4228,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Dass,Bauchi,Jos,Toro,Tafawa Balewa,Kanam,Bokkos,Zaria,Plateau,Dott,Zumbul,Wandi,Durr,Baraza,Lukshi,Bankal,Ningi,Ganjuwa,Bogoro,Gombe,Kaltungo,Dachau,Billiri,Akko,Funakaye,Kwami,Shongom,Yamaltu-Deba,Gwandu,Kokona,Adamawa,Taraba,Plateau,Kaduna,Bauchi,Jos,Toro,Tafawa Balewa,Kanam,Bokkos",
+    b: "Dass,Bauchi,Jos,Toro,Tafawa Balewa,Kanam,Bokkos,Zaria,Plateau,Dott,Zumbul,Wandi,Durr,Baraza,Lukshi,Bankal,Ningi,Ganjuwa,Bogoro,Gombe,Kaltungo,Dachau,Billiri,Akko,Funakaye,Kwami,Shongom,Yamaltu-Deba,Gwandu,Kokona,Adamawa,Taraba,Kaduna",
     status: "COMPLETE"
   },
   {
@@ -4338,7 +4258,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Poli,Tcheboa,Banyo,Bankim,Faro,Bénoué,Ngaoundéré,Garoua,Rey Bouba,Lagdo,Pitoa,Guider,Foumban,Nkongsamba,Touboro,Ngong,Bibemi,Pitoa,Guider,Foumban,Nkongsamba,Touboro,Ngong,Bibemi,Pitoa,Guider,Foumban,Nkongsamba,Touboro,Ngong,Bibemi,Poli,Tcheboa,Banyo,Bankim,Faro,Bénoué,Ngaoundéré,Garoua,Rey Bouba,Lagdo",
+    b: "Poli,Tcheboa,Banyo,Bankim,Faro,Bénoué,Ngaoundéré,Garoua,Rey Bouba,Lagdo,Pitoa,Guider,Foumban,Nkongsamba,Touboro,Ngong,Bibemi",
     status: "COMPLETE"
   },
   {
@@ -4358,17 +4278,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Dekese,Tshumbe,Lodja,Kole,Lomela,Tshikapa,Kananga,Mbuji-Mayi,Kinshasa,Lubumbashi,Mbandaka,Gemena,Gbadolite,Lisala,Bumba,Boma,Matadi,Kikwit,Bandundu,Inongo,Boende,Basankusu,Bondo,Buta,Isiro,Dungu,Mahagi,Aru,Faradje,Watsa,Ango,Pokoto,Kasai-Oriental,Sankuru River,Kuba Kingdom,Dekese Territory,Kasai River,Sankuru,Mbuji-Mayi,Dekese,Tshumbe,Lodja,Kole,Lomela",
-    status: "COMPLETE"
-  },
-  {
-    name: "Deno",
-    i: 20736,
-    min: 4,
-    max: 11,
-    d: "lnrt",
-    m: 0,
-    b: "Fika,Dukku,Alkaleri,Darazo,Wase,Bole,Deno,Denawa,Denwa,Pali,Giiwo,Geruma,Galambu,Ngamo,Maaka",
+    b: "Dekese,Tshumbe,Lodja,Kole,Lomela,Tshikapa,Kananga,Mbuji-Mayi,Kinshasa,Lubumbashi,Mbandaka,Gemena,Gbadolite,Lisala,Bumba,Boma,Matadi,Kikwit,Bandundu,Inongo,Boende,Basankusu,Bondo,Buta,Isiro,Dungu,Mahagi,Aru,Faradje,Watsa,Ango,Pokoto,Kasai-Oriental,Sankuru River,Kuba Kingdom,Dekese Territory,Kasai River,Sankuru",
     status: "COMPLETE"
   },
   {
@@ -4378,7 +4288,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Casablanca,Rabat,Fès,Marrakech,Agadir,Tangier,Meknès,Oujda,Kénitra,Tétouan,Safi,El Jadida,Béni Mellal,Nador,Khouribga,Mohammedia,Essaouira,Khénifra,Errachidia,Oued Zem,Settat,Berrechid,Salé,Skhirate,Témara,Mohammedia,El Jadida,Youssoufia,Ben Slimane,Sidi Bennour,Chémalalate,Sidi Slimane,Sidi Kacem,Tiflet,Rommani,Oulmes,Souk Sebt,Benslimane,Bouznika",
+    b: "Casablanca,Rabat,Fès,Marrakech,Agadir,Tangier,Meknès,Oujda,Kénitra,Tétouan,Safi,El Jadida,Béni Mellal,Nador,Khouribga,Mohammedia,Essaouira,Khénifra,Errachidia,Oued Zem,Settat,Berrechid,Salé,Skhirate,Témara,Youssoufia,Ben Slimane,Sidi Bennour,Chémalalate,Sidi Slimane,Sidi Kacem,Tiflet,Rommani,Oulmes,Souk Sebt,Benslimane,Bouznika",
     status: "COMPLETE"
   },
   {
@@ -4598,7 +4508,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Cairo,Qahirah,Alexandria,Iskandariyah,Giza,Jizah,Luxor,Uqsur,Aswan,Asyut,Hurghada,Ghardaqah,Sharm El Sheikh,Suez,Suways,Tanta,Mansoura,Mansurah,Zagazig,Zaqaziq,Damietta,Dimyat,Said,Ismailia,Isma-iliyah,Suef,Suwayf,Faiyum,Fayyum,Minya,Sohag,Suhaj,Qena,Qina,Idfu,Armant,Ballas,Edfu,Esna,Isna,Manfalut,Abnub,Qusiya,Dayrut,Badari,Ghanayim,Samallut,Matay,Idwah,Shubra El Kheima,Port Said,El Mahalla El Kubra,Damanhur,Beni Suef,Kafr El Sheikh,Mallawi,Banha,Bilbeis,Borg El Arab,Desouk,Dar El Salam,Dokki,Daraw,Deir Mawas,Dekernes,Dishna,Delengat,Heliopolis,Helwan,Kafr El Dawwar,Kafr El Zayat,Kom Hamada,Maadi,Maghaghah,Marina El Alamein,Marsa Alam,Menouf,Mit Ghamr,Minyet El Nasr,Nag Hammadi,Naqada,New Cairo,Obour,Old Cairo,Port Fuad,Qalyub,Qus,Quesna,Rosetta,Sadat City,Shibin El Kom,Sidi Salem,Tala,Tahta,Tell El Kebir,Zamalek,Zeitoun,Sixth of October,Tenth of Ramadan,El Gouna,Shorouk,Badr,New Borg El Arab,New Damietta,New Minya,New Sohag,New Qena,New Asyut,New Fayyum,New Beni Suef,New Ismailia",
+    b: "Cairo,Alexandria,Giza,Luxor,Aswan,Asyut,Sohag,Qena,Suez,Ismailia,Port Said,Damietta,Kafr El Sheikh,Tanta,Zagazig,Banha,Shibin El Kom,Minuf,Beni Suef,Fayyum,Hurghada,Sharm El-Sheikh,Siwa,Mansoura,Damanhur,Beni Mazar,Minya",
     status: "COMPLETE"
   },
   {
@@ -4638,7 +4548,8 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0,
-    b: "Bissau,Bafata,Gabu,Bissora,Bolama,Cacheu,Catio,Farim,Fria,Madina,do,Boe,Mansoa,Quinhamel,Sao,Domingos,Buba,Cacine,Quebo,Empada,Jai,Pitche,Sonaco,Cansancolo,Cambaju,Bambadinca,Contuboel,Galomaro,Xitole,Safim,Bigene,Bula,Caio,Canchungo,Mansaba,Oio,Nhabo,Quinara,Tombali,Bedanda,Komo,Boé,Pirada,Buruntuma,Camajaba,Canjadude,Canjia,Canquelifa,Cansisse,Carantaba,Cheche,Lenquete,Uacaba,Uelingara,Fulacunda,Tite,Joao,Santo,Antonio,Prábis,Saful,Catunco,Reino,de,Bafatá,Sarugo,Cossé,Gamamundo"
+    b: "Bissau,Bafata,Gabu,Bissora,Bolama,Cacheu,Catio,Farim,Fria,Madina do Boe,Mansoa,Quinhamel,São Domingos,Buba,Cacine,Quebo,Empada,Jai,Pitche,Sonaco,Cansancolo,Cambaju,Bambadinca,Contuboel,Galomaro,Xitole,Safim,Bigene,Bula,Caio,Canchungo,Mansaba,Oio,Nhabo,Quinara,Tombali,Bedanda,Komo,Boé,Pirada,Buruntuma,Camajaba,Canjadude,Canjia,Canquelifa,Cansisse,Carantaba,Cheche,Lenquete,Uacaba,Uelingara,Fulacunda,Tite,João,Santo António,Prábis,Saful,Catunco,Reino de Bafatá,Sarugo,Cossé,Gamamundo",
+    status: "COMPLETE"
   },
   {
     name: "Bamileke",
@@ -4867,7 +4778,7 @@ export const africaNameBases: NameBase[] = [
     max: 9,
     d: "",
     m: 0,
-    b: "Bafut,Tuba,Mezam,Metchum,Bamenda,Buea,Kumba,Bafoussam,Douala,Yaoundé,Ngaoundéré,Garoua,Maroua,Bertoua,Ebolowa,Bali,Babanki,Vengo,Wushi,Santa,Mankon,Bambili,Bambui,Tubah,Bambalang,Fut,Bufe,Afughe,Bɨfɨɨ̀,Befe,Fu,Bafut Subdivision,Mezam Division,Metchum,Northwest Province,Cameroon,Mankon,Bamunka,Vengo,Wushi,Zhoa,Bum,Mbuk,Kom,Bum,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamenda,Ndop,Kumbo,Mbengwi,Wum,Nkambe,Bali,Babanki,Furu Awa,Ndu,Mbot,Misaje",
+    b: "Bafut,Tuba,Mezam,Metchum,Bamenda,Buea,Kumba,Bafoussam,Douala,Yaoundé,Ngaoundéré,Garoua,Maroua,Bertoua,Ebolowa,Bali,Babanki,Vengo,Wushi,Santa,Mankon,Bambili,Bambui,Tubah,Bambalang,Fut,Bufe,Afughe,Bɨfɨɨ̀,Befe,Fu,Bafut Subdivision,Mezam Division,Northwest Province,Cameroon,Bamunka,Zhoa,Bum,Mbuk,Kom,Ndop,Kumbo,Mbengwi,Wum,Nkambe,Furu Awa,Ndu,Mbot,Misaje",
     status: "COMPLETE"
   },
   {
@@ -4877,7 +4788,7 @@ export const africaNameBases: NameBase[] = [
     max: 10,
     d: "",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Gawar,Gadala,Kortchi,Muyang,Goudouba,Palbara,Gouada-Gouada,Cuvok,Daba,Mofu-Gudur,Baldemu,Matal,Mbuko,Mofu-North,Mofu-South,Gemzek,Zulgo-Gemzek,Mafa,Mofu,Cuvok,Daba",
+    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Gawar,Gadala,Kortchi,Muyang,Goudouba,Palbara,Gouada-Gouada,Cuvok,Daba,Mofu-Gudur,Baldemu,Matal,Mbuko,Mofu-North,Mofu-South,Gemzek,Zulgo-Gemzek,Mafa,Mofu",
     status: "COMPLETE"
   },
   {
@@ -4928,16 +4839,6 @@ export const africaNameBases: NameBase[] = [
     d: "",
     m: 0,
     b: "Jibyal,Monkwat,Lamalang,Shimər,Dalu,Mangu LGA,Nasarawa State",
-    status: "COMPLETE"
-  },
-  {
-    name: "Jilbe",
-    i: 200035,
-    min: 4,
-    max: 6,
-    d: "",
-    m: 0,
-    b: "Jilbe",
     status: "COMPLETE"
   },
   {
@@ -5007,7 +4908,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "",
     m: 0.1,
-    b: "N'Djamena,Moundou,Sarh,Abéché,Am Timan,Bongor,Koumou,Pala,Ati,Massakory,Doba,Kyabé,Bébguana,Bédaria,Bahr el-Ghazal,Batha,Guéra,Hadjer-Lamis,Kanem,Lac,Logone Occidental,Logone Oriental,Mandoul,Mayo-Kebbi Est,Mayo-Kebbi Ouest,Moyen-Chari,Ouaddaï,Salamat,Sila,Tandjilé,Wadi Fira,Bahr el-Arab,Djourab,Bahr el-Zaraf,Goz Beïda,Amdjarass,Biltine,Iriba,Bahai,Guereda,Kabalai,Kim,Maba,Mabaan,Runga,Amdang,Mararit,Tama,Sungor,Daju,Maba,Kabalai,Marra,Wadi Fira,Biltine,Ouaddaï",
+    b: "N'Djamena,Moundou,Sarh,Abéché,Am Timan,Bongor,Koumou,Pala,Ati,Massakory,Doba,Kyabé,Bébguana,Bédaria,Bahr el-Ghazal,Batha,Guéra,Hadjer-Lamis,Kanem,Lac,Logone Occidental,Logone Oriental,Mandoul,Mayo-Kebbi Est,Mayo-Kebbi Ouest,Moyen-Chari,Ouaddaï,Salamat,Sila,Tandjilé,Wadi Fira,Bahr el-Arab,Djourab,Bahr el-Zaraf,Goz Beïda,Amdjarass,Biltine,Iriba,Bahai,Guereda,Kabalai,Kim,Maba,Mabaan,Runga,Amdang,Mararit,Tama,Sungor,Daju,Marra",
     status: "COMPLETE"
   },
   {
@@ -5327,7 +5228,7 @@ export const africaNameBases: NameBase[] = [
     max: 17,
     d: "",
     m: 0.1,
-    b: "Baktchoro,Bakchoro,Marba Bakchoro,Marba Gogor,Marba Damdou,Marba Mander,Marba Kakrao,Marba Ganane,Marba Gana,Domo Marba,Tchiré,Tchiré Gogor,Tchire Andam,Tchiré Seména,Tchiré Mouséï,Tchire Mandjojo,Tchiré Wowora,Kolobey,Méguéné,Méguéné Bagaye,Méguéné Ngolo,Bagaye Tchilang,Bagay Toua,Bagay Déoué,Kandja,Kolon,Kolon Kaséré,Kolonbagay Balo,Bezmé Kolon,Bologo,Bologo Madang,Dadji,Massang,Kouroup,Marbelem,Marbelem Pindjing,Marbélem Lamgué,Marbelem Kokro,Mangsé,Mangsé Bembok,Damdou Mbasa,Léo Mbassa,Léo Gono,Léo Moro,Léo Bidim,Léo Koré,Léo Baktano,Léo Mbaya",
+    b: "Am Timan,Baktchoro,Bagaye,Mésmé,Kolon,Kabbia,Mayo-Kebbi Est,Tandjilé,N'Djamena,Kouroup,Koyom,Mayo Boneye,Gounou Gaya,Kélo,Béré,Dadji,Massang,Mont d'Illi,Laal,Bousso,Sarh,Moundou,Abéché,Pala,Kyabé,Kolbeye,Monogoye,Koureye,Dih,Kandja,Marba,Leou,Gogo,Dargaye",
     status: "COMPLETE"
   },
   {
@@ -5407,7 +5308,7 @@ export const africaNameBases: NameBase[] = [
     max: 10,
     d: "",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Matal,Muktele,Muyang,Mada,Məlokwo,Wuzlam,Ouldémé,Gemzek,Zulgo-Gemzek,Mofu-Gudur,Mofu-North,Mofu-South,Mafa,Cuvok,Daba,Baldemu",
+    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Matal,Muktele,Muyang,Mada,Məlokwo,Wuzlam,Ouldémé,Gemzek,Zulgo-Gemzek,Mofu-Gudur,Mofu-North,Mofu-South,Mafa,Cuvok,Daba,Baldemu",
     status: "COMPLETE"
   },
   {
@@ -5457,17 +5358,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "",
     m: 0.1,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Mbuko,Matal,Muktele,Muyang,Mada,Məlokwo,Wuzlam,Ouldémé,Gemzek,Zulgo-Gemzek,Mofu-Gudur,Mofu-North,Mofu-South,Mafa,Cuvok,Daba,Baldemu",
-    status: "COMPLETE"
-  },
-  {
-    name: "Mburku",
-    i: 200090,
-    min: 5,
-    max: 11,
-    d: "",
-    m: 0,
-    b: "Burku",
+    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Mbuko,Matal,Muktele,Muyang,Mada,Məlokwo,Wuzlam,Ouldémé,Gemzek,Zulgo-Gemzek,Mofu-Gudur,Mofu-North,Mofu-South,Mafa,Cuvok,Daba,Baldemu",
     status: "COMPLETE"
   },
   {
@@ -5711,16 +5602,6 @@ export const africaNameBases: NameBase[] = [
     status: "COMPLETE"
   },
   {
-    name: "Muskum",
-    i: 200115,
-    min: 4,
-    max: 10,
-    d: "",
-    m: 0,
-    b: "Chad",
-    status: "COMPLETE"
-  },
-  {
     name: "Muyang",
     i: 200116,
     min: 4,
@@ -5877,14 +5758,14 @@ export const africaNameBases: NameBase[] = [
     max: 9,
     d: "",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata",
+    b: "Meri,Tchakidjeke,Tchéré,Dugwor,Mékéri,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Gawar,Buwal,Matal,Daba,Mbudum,Mazagway,Cuvok,Doulek",
     status: "COMPLETE"
   },
   {
     name: "Northern Berber",
     i: 200134,
-    min: 0,
-    max: 0,
+    min: 3,
+    max: 12,
     d: "",
     m: 0,
     b: "Chefchaouen,Tetouan,Tizi Ouzou,Béjaïa,Ghardaïa,Tamanrasset,Ouargla,Figuig,Adrar,Timimoun,Ifrane,Azrou,Beni Mellal,Midelt,Khenifra,Errachidia,Taza,Nador,Al Hoceima,El Jebha,Tanaqoub,Bni Rzine,Boghni,Bouzeguene,Ath Yenni,Larba Nath Iraten,Aïn El Hammam,Beni Douala,Beni Yenni,Beni Isguen,Melika,Bounoura,El Atteuf,Berriane,El Guerrara,Metlili,Imilchil,Tinmal,Tounfit,Goulmima,Tiout,Tamentit,In Salah,Béni Abbès,Tindouf,Djanet,Illizi,El Oued,Touggourt,M'zab",
@@ -5957,7 +5838,7 @@ export const africaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata,Gawaza,Bogo,Dargala,Ndoukoula,Petté,Méri,Bourrha,Mokolo,Tokombéré,Koza,Mogodé,Hina,Rhumsiki,Tourou,Bourrha,Souledé-Roua,Mozogo,Mora,Kolofata",
+    b: "Mora,Gouvaka,Godigong,Oudjila,Mayo-Sava,Kolofata,Amchide,Fotokol,Kousseri,Maroua,Mokolo,Tokombere,Keroua,Boundore,Garinggaram,Limani,Tireli,Gaboua,Kaygudi,Mada'ar,Vangara,Djoundoum,Goulaka,Far North,Mandara Mountains,Waza,Bogo,Gawar,Sirwella,Douva,Ouro-Souk,Parekwa,Podoko",
     status: "COMPLETE"
   },
   {
@@ -6047,7 +5928,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Marsabit,Laisamis,Korr,Kargi,Logologo,Loiyangalani,Merille,Merti,Kangi,Ngurunit,Kamboi,Hula-hula,Karare,Songa,Namarei,Goob Lengima,Kaisut Desert,Chalbi Desert,Mount Marsabit,Merille River,Serolivi,Lontolio,Marsabit,Laisamis,Korr,Kargi,Logologo,Loiyangalani,Merille,Merti,Kangi,Ngurunit",
+    b: "Marsabit,Laisamis,Korr,Kargi,Logologo,Loiyangalani,Merille,Merti,Kangi,Ngurunit,Kamboi,Hula-hula,Karare,Songa,Namarei,Goob Lengima,Kaisut Desert,Chalbi Desert,Mount Marsabit,Merille River,Serolivi,Lontolio",
     status: "COMPLETE"
   },
   {
@@ -6063,8 +5944,8 @@ export const africaNameBases: NameBase[] = [
   {
     name: "Saho–Afar",
     i: 200159,
-    min: 0,
-    max: 0,
+    min: 3,
+    max: 12,
     d: "",
     m: 0,
     b: "Semera,Asaita,Logiya,Dubti,Mile,Afambo,Bure,Chiefera,Elidar,Galafi,Manda,Awash,Gewane,Melka Sedi,Melka Werer,Sabure,Abala,Afdera,Berahile,Konaba,Dallol,Erta Ale,Lake Assal,Lake Abbe,Tadjoura,Obock,Dikhil,Ali Sabieh,Arta,Randa,Adailou,Balho,As Eyla,Senafe,Adi Keyh,Adi Quala,Debarwa,Dekemhare,Areza,Mendefera,Segheneyti,Tserona,Qohaito,Zula,Irafalo,Assab,Massawa,Tendaho,Hadar",
@@ -6147,7 +6028,7 @@ export const africaNameBases: NameBase[] = [
     max: 18,
     d: "b",
     m: 0.1,
-    b: "Siri,Siri Babba,Siri Zurhu,Siri Galda,Siri Gidan Chiroma,Yalwan Gameru,Siri Nasara,Sirin Kan Hanya,Sirin Kacha,Sirin Kudu,Sirin Babuje,Sirin Gabas,Sirin Makaranta",
+    b: "Darazo,Ningi,Bauchi,Jama'are,Kariya,Warji,Pa'a,Miya,Zumbun,Burku,Choogen,Dirya,Gala,Vune Mi,Ganjuwa,Misau,Dambam,Azare,Katagum,Itas,Gadau,Zungur,Kirfi,Toro,Tafawa Balewa,Bogoro,Dass,Sirawa,Duguri,Shira,Bauchi State,Jamaare",
     status: "COMPLETE"
   },
   {
@@ -6311,16 +6192,6 @@ export const africaNameBases: NameBase[] = [
     status: "COMPLETE"
   },
   {
-    name: "Tambas",
-    i: 200186,
-    min: 6,
-    max: 6,
-    d: "",
-    m: 0,
-    b: "Tambes",
-    status: "COMPLETE"
-  },
-  {
     name: "Tamki",
     i: 200187,
     min: 5,
@@ -6437,7 +6308,7 @@ export const africaNameBases: NameBase[] = [
     max: 18,
     d: "",
     m: 0,
-    b: "Johannesburg,Pretoria,Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Katlehong,Thokoza,Daveyton,KwaThema,Tsakane,Ratanda,Mamelodi,Soshanguve,Atteridgeville,Mabopane,Ga-Rankuwa,Soshanguve,Mamelodi",
+    b: "Johannesburg,Pretoria,Soweto,Alexandra,Tembisa,Katlehong,Vosloorus,Thokoza,Daveyton,KwaThema,Tsakane,Ratanda,Mamelodi,Soshanguve,Atteridgeville,Mabopane,Ga-Rankuwa",
     status: "COMPLETE"
   },
   {
@@ -6478,16 +6349,6 @@ export const africaNameBases: NameBase[] = [
     d: "",
     m: 0,
     b: "Kumasi,Bekwae,Bantama,Bonwire,Adanwomase,Konongo,Offinso,Wenchi,Nkoranza,Koforidua,CapeCoast,Accra,Goaso,Nsuta,Kwamo,Oforikrom,Bohyen,Buokrom,Breman,Aduaben,Bompata,Kodie,Krofrom,Manso,Nante,Beposo,Adansi,Asokwa,Aputuogya,Ntotroso,Kukuom,Kwadaso,Manhyia,Mampong,Ejisu,Juaben,Agogo,Kumawu,Effiduase,AsanteMampong",
-    status: "COMPLETE"
-  },
-  {
-    name: "Ubi",
-    i: 200205,
-    min: 3,
-    max: 3,
-    d: "",
-    m: 0,
-    b: "Ubi",
     status: "COMPLETE"
   },
   {
@@ -6537,7 +6398,7 @@ export const africaNameBases: NameBase[] = [
     max: 3,
     d: "",
     m: 0,
-    b: "Weh",
+    b: "Weh,Wum,Fungom,Menchum,Bafmen,Babanki,Kom,Bum,Oku,Mmen,Kuk,Kung,Aghem,Isu,Zhoa,Laimbue",
     status: "COMPLETE"
   },
   {
@@ -6647,7 +6508,7 @@ export const africaNameBases: NameBase[] = [
     max: 14,
     d: "",
     m: 0,
-    b: "Jos,Plateau,Bauchi,Kaduna,Zaria,Kano,Katsina,Minna,Ilorin,Bida,Lokoja,Makurdi,Lafia,Keffi,Akwanga,Gombe,Kaltungo,Dachau,Billiri,Akko,Funakaye,Kwami,Shongom,Yamaltu-Deba,Gwandu,Kokona,Adamawa,Taraba,Plateau,Kaduna,Bauchi,Jos,Toro,Tafawa Balewa,Kanam,Bokkos,Zaria,Plateau,Dott,Zumbul,Wandi,Durr,Baraza",
+    b: "Jos,Plateau,Bauchi,Kaduna,Zaria,Kano,Katsina,Minna,Ilorin,Bida,Lokoja,Makurdi,Lafia,Keffi,Akwanga,Gombe,Kaltungo,Dachau,Billiri,Akko,Funakaye,Kwami,Shongom,Yamaltu-Deba,Gwandu,Kokona,Adamawa,Taraba,Toro,Tafawa Balewa,Kanam,Bokkos,Dott,Zumbul,Wandi,Durr,Baraza",
     status: "COMPLETE"
   },
   {
@@ -6668,16 +6529,6 @@ export const africaNameBases: NameBase[] = [
     d: "",
     m: 0,
     b: "Zirenkel,Guéra",
-    status: "COMPLETE"
-  },
-  {
-    name: "Zizilivakan",
-    i: 200225,
-    min: 5,
-    max: 5,
-    d: "",
-    m: 0,
-    b: "Jilvu",
     status: "COMPLETE"
   },
   {
@@ -6717,7 +6568,7 @@ export const africaNameBases: NameBase[] = [
     max: 19,
     d: "",
     m: 0,
-    b: "Santo António,Sundy,Porto Real,Neves Ferreira,Ribeira Izé,Praia Inhame,Praia Burra,Praia Formiga,Praia Grande,Praia Abade,Praia Salgada,Praia de Santa Cruz,Santa Catarina,Belo Monte,Bom Viver,Hospital Velho,Nova Estrela,Picão,Portinho,São Joaquim,Terreiro Velho,Ilhéu Bom Bom",
+    b: "Santo António,Sundy,Belo Monte,Porto Real,Pico Papagaio,Pico de Príncipe,Roça Sundy,Príncipe,São Tomé,Neves,Santana,São João dos Angolares,Pointe Noire",
     status: "COMPLETE"
   },
   {
@@ -6727,7 +6578,7 @@ export const africaNameBases: NameBase[] = [
     max: 18,
     d: "",
     m: 0,
-    b: "Port Louis,Beau Bassin-Rose Hill,Vacoas-Phoenix,Curepipe,Quatre Bornes,Bambous,Mahébourg,Goodlands,Centre de Flacq,Triolet,Pamplemousses,Rivière du Rempart,Mapou,Grand Baie,Pereybère,Cap Malheureux,Pointe aux Cannoniers,Pointe aux Piments,Flic en Flac,Tamarin,Wolmar,La Gaulette,Le Morne,Souillac,Bel Ombre,Le Bouchon,Port Louis,Beau Bassin-Rose Hill,Vacoas-Phoenix,Curepipe,Quatre Bornes,Bambous,Mahébourg,Goodlands,Centre de Flacq,Triolet,Pamplemousses,Rivière du Rempart,Mapou,Grand Baie",
+    b: "Port Louis,Beau Bassin-Rose Hill,Vacoas-Phoenix,Curepipe,Quatre Bornes,Bambous,Mahébourg,Goodlands,Centre de Flacq,Triolet,Pamplemousses,Rivière du Rempart,Mapou,Grand Baie,Pereybère,Cap Malheureux,Pointe aux Cannoniers,Pointe aux Piments,Flic en Flac,Tamarin,Wolmar,La Gaulette,Le Morne,Souillac,Bel Ombre,Le Bouchon",
     status: "COMPLETE"
   },
   {
@@ -6877,7 +6728,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Touggourt,Ouargla,Biskra,El Oued,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida,Sétif,Batna,Temacine,Tamloul,Messaad,Bou Saada,Sidi Aissa,Aflou,Laghouat,Djelfa,Boussaada,El Goléa,Rouissat,Nezla,Témacine,Touggourt",
+    b: "Touggourt,Ouargla,Biskra,El Oued,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida,Sétif,Batna,Temacine,Tamloul,Messaad,Bou Saada,Sidi Aissa,Aflou,Laghouat,Djelfa,Boussaada,El Goléa,Rouissat,Nezla,Témacine",
     status: "COMPLETE"
   },
   {
@@ -6897,7 +6748,7 @@ export const africaNameBases: NameBase[] = [
     max: 17,
     d: "lnrt",
     m: 0,
-    b: "Oran,Tlemcen,Sidi Bel Abbès,Saïda,Mascara,Tiaret,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida,Sétif,Batna,Oran,Tlemcen,Sidi Bel Abbès,Saïda,Mascara,Tiaret,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida,Sétif,Batna",
+    b: "Oran,Tlemcen,Sidi Bel Abbès,Saïda,Mascara,Tiaret,Ghardaïa,Algiers,Constantine,Annaba,Béjaïa,Blida,Sétif,Batna",
     status: "COMPLETE"
   },
   {
@@ -6917,7 +6768,7 @@ export const africaNameBases: NameBase[] = [
     max: 15,
     d: "lnrt",
     m: 0,
-    b: "Zuwara,Tripoli,Misrata,Khoms,Sabta,Benghazi,Derna,Tobruk,Ajdabiya,Sirte,Gharyan,Zintan,Nalut,Ghadames,Ghat,Ubari,Sabha,Murzuq,Bani Walid,Tarhuna,Msallata,Zliten,Buerat,Abu Grein,Zuwara,Tripoli",
+    b: "Zuwara,Tripoli,Misrata,Khoms,Sabta,Benghazi,Derna,Tobruk,Ajdabiya,Sirte,Gharyan,Zintan,Nalut,Ghadames,Ghat,Ubari,Sabha,Murzuq,Bani Walid,Tarhuna,Msallata,Zliten,Buerat,Abu Grein",
     status: "COMPLETE"
   },
   {
@@ -6957,7 +6808,7 @@ export const africaNameBases: NameBase[] = [
     max: 10,
     d: "",
     m: 0,
-    b: "Bafoussam,Bandjoun,Baham,Batié,Bansoa,Bamendjou,Bafounda,Bameka,Bamougoum,Bana,Bafang,Kékem,Bangangté,Dschang,Mbouda,Baleng,Bahouan,Bayangam,Bamena,Bangang,Bapa,Bandenkop,Fotouni,Bametchouetcha,Bangam,Bafou,Bapi,Bamena,Bapa,Batié,Bandjoun,Baham,Bansoa,Bamendjou,Bafounda,Bameka,Bamougoum,Bana,Bafang,Kékem,Bangangté,Dschang,Mbouda,Baleng,Bahouan,Bayangam",
+    b: "Bafoussam,Bandjoun,Baham,Batié,Bansoa,Bamendjou,Bafounda,Bameka,Bamougoum,Bana,Bafang,Kékem,Bangangté,Dschang,Mbouda,Baleng,Bahouan,Bayangam,Bamena,Bangang,Bapa,Bandenkop,Fotouni,Bametchouetcha,Bangam,Bafou,Bapi",
     status: "COMPLETE"
   },
   {
@@ -6967,7 +6818,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "",
     m: 0,
-    b: "Holma,Sorau,Mubi,Gombi,Hong,Maiha,Mubi LGA,Yola,Numan,Guyuk,Song,Fufore,Ganye,Mayo-Belwa,Ganye LGA,Cameroon,Adamawa State,Mubi LGA,Michika LGA,Gombe LGA,Hong LGA,Maiha LGA,Song LGA,Fufore LGA,Yola LGA,Numan LGA,Guyuk LGA",
+    b: "Holma,Sorau,Mubi,Gombi,Hong,Maiha,Mubi LGA,Yola,Numan,Guyuk,Song,Fufore,Ganye,Mayo-Belwa,Ganye LGA,Cameroon,Adamawa State,Michika LGA,Gombe LGA,Hong LGA,Maiha LGA,Song LGA,Fufore LGA,Yola LGA,Numan LGA,Guyuk LGA",
     status: "COMPLETE"
   },
   {
@@ -8847,7 +8698,7 @@ export const africaNameBases: NameBase[] = [
     max: 23,
     d: "lnrt",
     m: 0,
-    b: "Accra,Kumasi,Takoradi,Cape Coast,Tema,Elmina,Sekondi,Tamale,Obuasi,Koforidua,Ho,Legon,Osu,Labadi,Teshi,Nungua,Winneba,Sunyani,Accra,Kumasi,Takoradi,Cape Coast,Tema,Elmina,Sekondi,Tamale,Obuasi,Koforidua,Ho,Legon",
+    b: "Accra,Kumasi,Takoradi,Cape Coast,Tema,Elmina,Sekondi,Tamale,Obuasi,Koforidua,Ho,Legon,Osu,Labadi,Teshi,Nungua,Winneba,Sunyani",
     status: "COMPLETE"
   },
   {
@@ -8887,7 +8738,7 @@ export const africaNameBases: NameBase[] = [
     max: 13,
     d: "lnrt",
     m: 0,
-    b: "Buu,Mundabli,Mufu,Ajumbu,Fang,Koshin,Munken,Ngun,Biya,Abar,Missong,Kung,Naki,Nkanchang,Fungom,Wum,Nkambe,Bamenda,Buea,Kumba,Bafoussam,Douala,Yaoundé,Ngaoundéré,Garoua,Maroua,Bertoua,Ebolowa,Lower Fungom,North West Region,Menchum Division,Furu Awa,Ndu,Kumbo,Mbengwi,Bali,Babanki,Vengo,Wushi,Zhoa,Bum,Mbuk,Kom,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang,Bamenda",
+    b: "Buu,Mundabli,Mufu,Ajumbu,Fang,Koshin,Munken,Ngun,Biya,Abar,Missong,Kung,Naki,Nkanchang,Fungom,Wum,Nkambe,Bamenda,Buea,Kumba,Bafoussam,Douala,Yaoundé,Ngaoundéré,Garoua,Maroua,Bertoua,Ebolowa,Lower Fungom,North West Region,Menchum Division,Furu Awa,Ndu,Kumbo,Mbengwi,Bali,Babanki,Vengo,Wushi,Zhoa,Bum,Mbuk,Kom,Bafut,Mankon,Santa,Bambili,Bambui,Tubah,Bambalang",
     status: "COMPLETE"
   },
   {
@@ -8967,7 +8818,7 @@ export const africaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Kondala,Mana Sibu,Begi,Asosa,Gambela,Nekemte,Gimbi,Dembi Dullu,Tepi,Mizan Teferi,Bonga,Jimma,Addis Ababa,Hawassa,Dilla,Yirgalem,Arba Minch,Jinka,Konso,Wolaita Sodo,Hosaena,Butajira,Wonago,Yirgacheffe,Metu,Gore,Toba,Dembi Dullu,Kondala Woreda,Mirab Welega Zone,Western Oromia,Mao,Amo,Seze,Begi-Mao,Kondala,Mana Sibu,Begi,Asosa,Gambela,Nekemte,Gimbi,Dembi Dullu,Tepi,Mizan Teferi",
+    b: "Kondala,Mana Sibu,Begi,Asosa,Gambela,Nekemte,Gimbi,Dembi Dullu,Tepi,Mizan Teferi,Bonga,Jimma,Addis Ababa,Hawassa,Dilla,Yirgalem,Arba Minch,Jinka,Konso,Wolaita Sodo,Hosaena,Butajira,Wonago,Yirgacheffe,Metu,Gore,Toba,Kondala Woreda,Mirab Welega Zone,Western Oromia,Mao,Amo,Seze,Begi-Mao",
     status: "COMPLETE"
   },
   {
@@ -8987,7 +8838,7 @@ export const africaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Kaélé,Maga,Bogo,Gueme,Kayao,Tokmar,Tchatchele,Tilly,Serere,Goulfey,Kousséri,N'Djamena,Moundou,Sarh,Abéché,Am Timan,Bongor,Koumou,Pala,Ati,Massakory,Doba,Kyabé,Mundang,Tupuri,Mambay,Mbum,Pana,Kali-Dek,Kuo,Gbata,Pam,Ndai,Fali,Nimbari,Gbaya,Bangandu,Baka,Samba,Daka,Doyayo,Longto,Peere,Mumuye,Tula,Waja,Kam,Bangwinji,Dadiya,Dijim-Bwilim,Kamo,Tso,Yebu,Leko,Chamba Leko,Kolbila,Nyong,Wom,Duru,Dii,Dugun,Duupa,Koma,Vere,Longto",
+    b: "Kaélé,Maga,Bogo,Gueme,Kayao,Tokmar,Tchatchele,Tilly,Serere,Goulfey,Kousséri,N'Djamena,Moundou,Sarh,Abéché,Am Timan,Bongor,Koumou,Pala,Ati,Massakory,Doba,Kyabé,Mundang,Tupuri,Mambay,Mbum,Pana,Kali-Dek,Kuo,Gbata,Pam,Ndai,Fali,Nimbari,Gbaya,Bangandu,Baka,Samba,Daka,Doyayo,Longto,Peere,Mumuye,Tula,Waja,Kam,Bangwinji,Dadiya,Dijim-Bwilim,Kamo,Tso,Yebu,Leko,Chamba Leko,Kolbila,Nyong,Wom,Duru,Dii,Dugun,Duupa,Koma,Vere",
     status: "COMPLETE"
   },
   {

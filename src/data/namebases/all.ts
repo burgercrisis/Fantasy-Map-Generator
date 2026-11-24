@@ -6,7 +6,6 @@ import { fantasyNameBases } from "./fantasy";
 import { sanitizeNameBases } from "./integrity";
 import { northAmericaNameBases } from "./northAmerica";
 import { oceaniaNameBases } from "./oceania";
-import { researchNameBases } from "./research";
 import { southAmericaNameBases } from "./southAmerica";
 
 // Lazily computed and memoized (fix #3): sanitize + sort runs only on first call,
@@ -22,8 +21,7 @@ export function getAllNameBases(): NameBase[] {
       ...northAmericaNameBases,
       ...oceaniaNameBases,
       ...southAmericaNameBases,
-      ...fantasyNameBases,
-      ...researchNameBases
+      ...fantasyNameBases
     ]);
   }
   return _allNameBases;

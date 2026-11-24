@@ -8,7 +8,7 @@ export const fantasyNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "London,Paris,Rome,Madrid,Berlin,Vienna,Prague,Warsaw,Budapest,Bucharest,Sofia,Belgrade,Zagreb,Ljubljana,Bratislava,Vilnius,Riga,Tallinn,Helsinki,Stockholm,Oslo,Copenhagen,Amsterdam,Brussels,Luxembourg,Bern,Geneva,Zurich,Milan,Turin,Naples,Florence,Bologna,Barcelona,Lisbon,Dublin,Edinburgh,Cardiff,Belfast,Athens,London,Paris,Rome,Madrid,Berlin,Vienna,Prague,Warsaw,Budapest,Bucharest",
+    b: "London,Paris,Rome,Madrid,Berlin,Vienna,Prague,Warsaw,Budapest,Bucharest,Sofia,Belgrade,Zagreb,Ljubljana,Bratislava,Vilnius,Riga,Tallinn,Helsinki,Stockholm,Oslo,Copenhagen,Amsterdam,Brussels,Luxembourg,Bern,Geneva,Zurich,Milan,Turin,Naples,Florence,Bologna,Barcelona,Lisbon,Dublin,Edinburgh,Cardiff,Belfast,Athens",
     status: "COMPLETE"
   },
   {

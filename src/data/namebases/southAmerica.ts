@@ -18,7 +18,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 19,
     d: "",
     m: 0,
-    b: "Boa Vista,Manaus,Amazonas,Roraima,Parima,Auaris,Maturacá,Demini,Xamaté,Kasiwa,Wapixana,Macuxi,Ingaricó,Taurepang,Pemon,Makiritare,Ye'kuana,Sanumá,Yanomamö,Namam,Yanomam,Shirianan,Waiká,Yanomami,Sanöma,Boa Vista,Manaus,Amazonas,Roraima,Parima",
+    b: "Boa Vista,Manaus,Amazonas,Roraima,Parima,Auaris,Maturacá,Demini,Xamaté,Kasiwa,Wapixana,Macuxi,Ingaricó,Taurepang,Pemon,Makiritare,Ye'kuana,Sanumá,Yanomamö,Namam,Yanomam,Shirianan,Waiká,Yanomami,Sanöma",
     status: "COMPLETE"
   },
   {
@@ -58,7 +58,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 24,
     d: "",
     m: 0,
-    b: "Boa Vista,Manaus,Amazonas,Roraima,Parima,Auaris,Maturacá,Demini,Xamaté,Kasiwa,Wapixana,Macuxi,Ingaricó,Taurepang,Pemon,Makiritare,Ye'kuana,Sanumá,Yanomamö,Namam,Yanomam,Shirianan,Waiká,Yanomami,Sanöma,Boa Vista,Manaus,Amazonas,Roraima,Parima",
+    b: "Boa Vista,Manaus,Amazonas,Roraima,Parima,Auaris,Maturacá,Demini,Xamaté,Kasiwa,Wapixana,Macuxi,Ingaricó,Taurepang,Pemon,Makiritare,Ye'kuana,Sanumá,Yanomamö,Namam,Yanomam,Shirianan,Waiká,Yanomami,Sanöma",
     status: "COMPLETE"
   },
   {
@@ -138,7 +138,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Tabatinga,Leticia,Benjamin Constant,São Paulo de Olivença,Santo Antônio do Içá,Atalaia do Norte,Jutaí,Fonte Boa,Tonantins,Alvarães,Maraã,Barcelos,Tabatinga,Leticia,Benjamin Constant,São Paulo de Olivença,Santo Antônio do Içá,Atalaia do Norte,Jutaí,Fonte Boa,Tonantins,Alvarães,Maraã,Barcelos,Tabatinga",
+    b: "Tabatinga,Leticia,Benjamin Constant,São Paulo de Olivença,Amaturá,Santo Antônio do Içá,Tonantins,Jutaí,Fonte Boa,Beruri,Manaus,Tefé,Içá,Putumayo,Amazonas,Loreto,Santa Rosa,Islândia,Nazareth,Macedonia,Pozo Redondo,Puerto Esperanza,San Antonio de los Lagos,San Sebastián,El Vergel,Mocagua,Cothué-Putumayo,Aticoya,Puerto Nariño,San Francisco de Loretoyaco,Mayoruna,Yaguas,São Jerônimo,Tonatü,Eware",
     status: "COMPLETE"
   },
   {
@@ -148,7 +148,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Istanbul,Thessaloniki,Sarajevo,Skopje,Bucharest,Belgrade,Sofia,Izmir,Edirne,Bursa,Kastoria,Rhodes,Venice,Trieste,Ferrara,Budapest,Alexandria,Cairo,Tangier,Tetuan,Amsterdam,Hamburg,Jerusalem,Safed,Damascus,Aleppo,Vienna,Plovdiv,Vidin,Nikopol,Istanbul,Thessaloniki,Sarajevo,Skopje,Bucharest,Belgrade,Sofia,Izmir,Edirne,Bursa,Kastoria,Rhodes,Venice,Trieste,Ferrara,Budapest",
+    b: "Istanbul,Thessaloniki,Sarajevo,Skopje,Bucharest,Belgrade,Sofia,Izmir,Edirne,Bursa,Kastoria,Rhodes,Venice,Trieste,Ferrara,Budapest,Alexandria,Cairo,Tangier,Tetuan,Amsterdam,Hamburg,Jerusalem,Safed,Damascus,Aleppo,Vienna,Plovdiv,Vidin,Nikopol",
     status: "COMPLETE"
   },
   {
@@ -258,7 +258,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Peru,Loreto,Iquitos,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas,Caballo Cocha,Peru,Loreto,Iquitos,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas,Caballo Cocha,Peru,Loreto,Iquitos,Putumayo,Ampiyacu",
+    b: "Peru,Loreto,Iquitos,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas,Caballo Cocha",
     status: "COMPLETE"
   },
   {
@@ -268,7 +268,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Peru,Loreto,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas,Peru,Loreto,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas,Peru,Loreto,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas,Peru",
+    b: "Peru,Loreto,Putumayo,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Pebas",
     status: "COMPLETE"
   },
   {
@@ -288,7 +288,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Reyes,San Borja,La Paz,Bolivia,Beni,Rurrenabaque,San Ignacio de Moxos,Trinidad,Yucumo,Santa Ana del Yacuma,San Andrés,Loreto,Baures,Huacaraje,San Joaquín,San Javier,San Ramón,Puerto Siles,Exaltación,Magdalena,Gonzaga,San Pedro,San Pablo,San Juan,San Miguel,Reyes,San Borja,La Paz,Bolivia,Beni",
+    b: "Reyes,San Borja,La Paz,Bolivia,Beni,Rurrenabaque,San Ignacio de Moxos,Trinidad,Yucumo,Santa Ana del Yacuma,San Andrés,Loreto,Baures,Huacaraje,San Joaquín,San Javier,San Ramón,Puerto Siles,Exaltación,Magdalena,Gonzaga,San Pedro,San Pablo,San Juan,San Miguel",
     status: "COMPLETE"
   },
   {
@@ -298,7 +298,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Colombia,Amazonas,Leticia,Putumayo,Caquetá,Puerto Alegría,Puerto Leguízamo,La Chorrera,Mirití-Paraná,Colombia,Amazonas,Leticia,Putumayo,Caquetá,Puerto Alegría,Puerto Leguízamo,La Chorrera,Mirití-Paraná,Colombia,Amazonas,Leticia,Putumayo,Caquetá,Puerto Alegría,Puerto Leguízamo",
+    b: "Puerto Remanso del Tigre,Mariápolis,San Francisco,Las Palmas,Metá-Quinché,Solarte,Quinchemetá,Puerto Miraña Manacaro,La Chorrera,Mirití-Paraná,Leticia,Puerto Alegría,Caquetá,Cahuinari,Putumayo,Amazonas,Comeña,Apaporis,Pirá-Paraná,Pamá,Tarapacá,El Encanto,Puerto Santander,La Pedrera,La Victoria",
     status: "COMPLETE"
   },
   {
@@ -488,7 +488,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Sabanas de San Ángel,El Copey,Santa Marta,Valledupar,Gaira,Fundación,El Difícil,La Peña,Monterrubio,San Ángel,María Angola,Río Frío,Sierra Nevada de Santa Marta,Mompox,Ciénaga de Zapatosa,Ariguaní,Cesar River,Magdalena River,Issa Oristunna,Ette Buteriya,Itti Takke,Naara Kajmanta,Diwana,Sabanas de San Ángel,El Copey,Santa Marta,Valledupar,Gaira,Fundación",
+    b: "Sabanas de San Ángel,El Copey,Santa Marta,Valledupar,Gaira,Fundación,El Difícil,La Peña,Monterrubio,San Ángel,María Angola,Río Frío,Sierra Nevada de Santa Marta,Mompox,Ciénaga de Zapatosa,Ariguaní,Cesar River,Magdalena River,Issa Oristunna,Ette Buteriya,Itti Takke,Naara Kajmanta,Diwana",
     status: "COMPLETE"
   },
   {
@@ -528,7 +528,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Cúcuta,Tibú,Norte de Santander,Catatumbo,Sardinata,El Tarra,Convención,Teorama,San Calixto,Hacaritama,Branquiazul,La Gabarra,Cúcuta,Tibú,Norte de Santander,Catatumbo,Sardinata,El Tarra,Convención,Teorama,San Calixto,Hacaritama,Branquiazul,La Gabarra,Cúcuta",
+    b: "Cúcuta,Tibú,Norte de Santander,Catatumbo,Sardinata,El Tarra,Convención,Teorama,San Calixto,Hacaritama,Branquiazul,La Gabarra",
     status: "COMPLETE"
   },
   {
@@ -588,7 +588,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Trinidad,San Ignacio de Moxos,San Andrés,Loreto,San Joaquín,San Javier,San Borja,Reyes,Santa Ana,Santa Magdalena,Baures,El Carmen,Huacaraje,San Miguel,Tujure,Cairo,Alta Gracia,Jasiaquini,Bereuro,San Francisco,San Pedro,Buena Hora,Las Peñas,Pueblo Baure,Concepción de Baures,San Simón,San Nicolás,Carmen de Mojos,San Martín,Trinidad,San Ignacio de Moxos,San Andrés,Loreto,San Joaquín,San Javier,San Borja,Reyes,Santa Ana,Santa Magdalena,Baures,El Carmen,Huacaraje,San Miguel,Tujure,Cairo,Alta Gracia,Jasiaquini",
+    b: "Trinidad,San Ignacio de Moxos,San Andrés,Loreto,San Joaquín,San Javier,San Borja,Reyes,Santa Ana,Santa Magdalena,Baures,El Carmen,Huacaraje,San Miguel,Tujure,Cairo,Alta Gracia,Jasiaquini,Bereuro,San Francisco,San Pedro,Buena Hora,Las Peñas,Pueblo Baure,Concepción de Baures,San Simón,San Nicolás,Carmen de Mojos,San Martín",
     status: "COMPLETE"
   },
   {
@@ -598,7 +598,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Paraguay,Chaco,Boquerón,Filadelfia,Loma Plata,Mariscal Estigarribia,Pozo Colorado,General Eugenio A. Garay,Bañado Santiago,Nueva Asunción,Paraguay,Chaco,Boquerón,Filadelfia,Loma Plata,Mariscal Estigarribia,Pozo Colorado,General Eugenio A. Garay,Bañado Santiago,Nueva Asunción,Paraguay,Chaco,Boquerón,Filadelfia,Loma Plata",
+    b: "Paraguay,Chaco,Boquerón,Filadelfia,Loma Plata,Mariscal Estigarribia,Pozo Colorado,General Eugenio A. Garay,Bañado Santiago,Nueva Asunción",
     status: "COMPLETE"
   },
   {
@@ -648,7 +648,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Puerto Williams,Ushuaia,Punta Arenas,Villa Ukika,Navarino Island,Cape Horn,Beagle Channel,Murray Channel,Wulaia Bay,Bahía Mejillones,Caleta Mejillones,Port Toro,Puerto Luisa,Yendegaia Bay,Puerto Róbalo,Picton Island,Punta Divide,Brecknock,Cook Bay,False Cape Horn,Keppel Island,Wollaston Island,Isla Hoste,Douglas Bay,Eugenia Port,Dientes de Navarino,Puerto Williams,Ushuaia,Punta Arenas,Villa Ukika",
+    b: "Puerto Williams,Ushuaia,Punta Arenas,Villa Ukika,Navarino Island,Cape Horn,Beagle Channel,Murray Channel,Wulaia Bay,Bahía Mejillones,Caleta Mejillones,Port Toro,Puerto Luisa,Yendegaia Bay,Puerto Róbalo,Picton Island,Punta Divide,Brecknock,Cook Bay,False Cape Horn,Keppel Island,Wollaston Island,Isla Hoste,Douglas Bay,Eugenia Port,Dientes de Navarino",
     status: "COMPLETE"
   },
   {
@@ -698,7 +698,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Tame,Hato Corozal,Paz de Ariporo,Cumaribo,Puerto Carreño,Guacacías,Arauca,Casanare,Meta,Vichada,Apure,Los Iguanitos,Caño Mochuelo,Santa Teresita del Tuparro,La Pascua,San José de Lipa,La Vorágine,Bajo Cusay,Alto Ele,Capanaparo,Aguaclara,Ariporo,Unchadia,Riecito,Mausuney Muthe,Mataunei Muthu,Tame,Hato Corozal,Paz de Ariporo,Cumaribo",
+    b: "Tame,Hato Corozal,Paz de Ariporo,Cumaribo,Puerto Carreño,Guacacías,Arauca,Casanare,Meta,Vichada,Apure,Los Iguanitos,Caño Mochuelo,Santa Teresita del Tuparro,La Pascua,San José de Lipa,La Vorágine,Bajo Cusay,Alto Ele,Capanaparo,Aguaclara,Ariporo,Unchadia,Riecito,Mausuney Muthe,Mataunei Muthu",
     status: "COMPLETE"
   },
   {
@@ -738,7 +738,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "San José del Guaviare,Guaviare,Meta,Ariari,Guayabero,Guaviare,La Macarena,Vista Hermosa,Granada,Fuente de Oro,San Martín,Castilla la Nueva,San José del Guaviare,Guaviare,Meta,Ariari,Guayabero,Guaviare,La Macarena,Vista Hermosa,Granada,Fuente de Oro,San Martín,Castilla la Nueva,San José",
+    b: "San José del Guaviare,Guaviare,Meta,Ariari,Guayabero,La Macarena,Vista Hermosa,Granada,Fuente de Oro,San Martín,Castilla la Nueva,San José",
     status: "COMPLETE"
   },
   {
@@ -778,7 +778,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Lethem,Georgetown,Bonfim,Boa Vista,Nhamundá-Mapuera,Trombetas/Mapuera,Wai-Wai,Jatapuzinho,Anauá,Mapuera,Nhamundá,Jatapu,Essequibo,Kuyuwini,Masakinyari,Erepoimo,Parabara,Catual,Soma,Samaúma,Rupununi,Serra de Acaraí,Wayamu,Xaary,Lethem,Georgetown,Bonfim,Boa Vista,Nhamundá-Mapuera,Trombetas/Mapuera",
+    b: "Lethem,Georgetown,Bonfim,Boa Vista,Nhamundá-Mapuera,Trombetas/Mapuera,Wai-Wai,Jatapuzinho,Anauá,Mapuera,Nhamundá,Jatapu,Essequibo,Kuyuwini,Masakinyari,Erepoimo,Parabara,Catual,Soma,Samaúma,Rupununi,Serra de Acaraí,Wayamu,Xaary",
     status: "COMPLETE"
   },
   {
@@ -788,7 +788,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Machiques,Maracaibo,Zulia,Perijá,Iroka,Sokorpa,Menkwe,La Paz,Becerril,Agustín Codazzi,El Coso,El Rosario,Caño Padilla,Tukuko,Yaza,Apón,Chiriamo,San José de Oriente,Valledupar,Serranía de Valledupar,Casacará,Río Negro,Yrapa,Guasare,Palmar,Lajas,Santa Rosa,Caño Padilla,La Bodega,El Vallito",
+    b: "Machiques,Maracaibo,Zulia,Perijá,Iroka,Sokorpa,Menkwe,La Paz,Becerril,Agustín Codazzi,El Coso,El Rosario,Caño Padilla,Tukuko,Yaza,Apón,Chiriamo,San José de Oriente,Valledupar,Serranía de Valledupar,Casacará,Río Negro,Yrapa,Guasare,Palmar,Lajas,Santa Rosa,La Bodega,El Vallito",
     status: "COMPLETE"
   },
   {
@@ -1118,7 +1118,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 11,
     d: "lnrt",
     m: 0,
-    b: "Pilbara,Western Australia,Karratha,Roebourne,Port Hedland,Newman,Marble Bar,Nullagine,Yandeyarra,Wickham,Dampier,Pilbara,Western Australia,Karratha,Roebourne,Port Hedland,Newman,Marble Bar,Nullagine,Yandeyarra,Wickham,Dampier,Pilbara,Western Australia,Karratha",
+    b: "Pilbara,Western Australia,Karratha,Roebourne,Port Hedland,Newman,Marble Bar,Nullagine,Yandeyarra,Wickham,Dampier",
     status: "COMPLETE"
   },
   {
@@ -1168,7 +1168,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 16,
     d: "",
     m: 0,
-    b: "Santa Marta,Valledupar,Riohacha,Dibulla,Guatapurí,Aracataca,Fundación,Ciénaga,San Juan del Cesar,Fonseca,Atanquez,Sierra Nevada de Santa Marta,Kogui-Malayo-Arhuaco,San José de Maruámake,Tucurinca,Don Diego,Palomino,Ancho,Badillo,Ranchería,Mamatoco,Chundwa,Geres,Haticos,Maruámake,Tairona,Kankurua,Santa Marta,Valledupar,Riohacha",
+    b: "Santa Marta,Valledupar,Riohacha,Dibulla,Guatapurí,Aracataca,Fundación,Ciénaga,San Juan del Cesar,Fonseca,Atanquez,Sierra Nevada de Santa Marta,Kogui-Malayo-Arhuaco,San José de Maruámake,Tucurinca,Don Diego,Palomino,Ancho,Badillo,Ranchería,Mamatoco,Chundwa,Geres,Haticos,Maruámake,Tairona,Kankurua",
     status: "COMPLETE"
   },
   {
@@ -1248,7 +1248,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 18,
     d: "lnrt",
     m: 0,
-    b: "Suriname,Paramaribo,Para District,Marowijne,Commewijne,Brokopondo,Saramacca,Wanica,Nickerie,Coronie,Suriname,Paramaribo,Para District,Marowijne,Commewijne,Brokopondo,Saramacca,Wanica,Nickerie,Coronie,Suriname,Paramaribo,Para District,Marowijne,Commewijne",
+    b: "Suriname,Paramaribo,Para District,Marowijne,Commewijne,Brokopondo,Saramacca,Wanica,Nickerie,Coronie",
     status: "COMPLETE"
   },
   {
@@ -1475,10 +1475,10 @@ export const southAmericaNameBases: NameBase[] = [
     name: "Tacana",
     i: 203328,
     min: 4,
-    max: 3,
+    max: 12,
     d: "",
     m: 0.15,
-    b: "Tumupasa,Ixiamas,San Buenaventura,Rurrenabaque,Santa Rosa de Maravilla,Tahua,Napashe,Capaina,San Pedro,Buena Vista,Altamarani,Carmen del Emero,Bella Altura,Tres Hermanos,Carmen Pecha,Macahua,Huahuayana,San Silvestre,Cachichira,Puerto Guzmán,San Miguel,Villa Alcira,Eyiyoquibo,San Antonio del Tequeje,Esperanza de Enapurera,Villa Fátima,Puerto Motor,San José de Uchupiamonas,Cavinas,Tumupasa,Ixiamas,San Buenaventura,Rurrenabaque,Santa Rosa de Maravilla,Tahua",
+    b: "Tumupasa,Ixiamas,San Buenaventura,Rurrenabaque,Santa Rosa de Maravilla,Tahua,Napashe,Capaina,San Pedro,Buena Vista,Altamarani,Carmen del Emero,Bella Altura,Tres Hermanos,Carmen Pecha,Macahua,Huahuayana,San Silvestre,Cachichira,Puerto Guzmán,San Miguel,Villa Alcira,Eyiyoquibo,San Antonio del Tequeje,Esperanza de Enapurera,Villa Fátima,Puerto Motor,San José de Uchupiamonas,Cavinas",
     status: "COMPLETE"
   },
   {
@@ -1498,7 +1498,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 13,
     d: "",
     m: 0.15,
-    b: "Valledupar,Sierra Nevada de Santa Marta,Santa Marta,Riohacha,Dibulla,Guatapurí,Aracataca,Fundación,Ciénaga,San Juan del Cesar,Fonseca,Atanquez,Maruámake,Tucurinca,Don Diego,Palomino,Ancho,Badillo,Ranchería,Mamatoco,Chundwa,Geres,Haticos,Kogui,Arhuaco,Wiwa,Sankavillawa,Gotsezhi,Kalinka,Tairona,Valledupar,Sierra Nevada,Santa Marta,Riohacha",
+    b: "Valledupar,Sierra Nevada de Santa Marta,Santa Marta,Riohacha,Dibulla,Guatapurí,Aracataca,Fundación,Ciénaga,San Juan del Cesar,Fonseca,Atanquez,Maruámake,Tucurinca,Don Diego,Palomino,Ancho,Badillo,Ranchería,Mamatoco,Chundwa,Geres,Haticos,Kogui,Arhuaco,Wiwa,Sankavillawa,Gotsezhi,Kalinka,Tairona,Sierra Nevada",
     status: "COMPLETE"
   },
   {
@@ -1528,7 +1528,7 @@ export const southAmericaNameBases: NameBase[] = [
     max: 12,
     d: "lnrt",
     m: 0,
-    b: "Peru,Loreto,Iquitos,Putumayo,Yaguas,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Peru,Loreto,Iquitos,Putumayo,Yaguas,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas,Peru,Loreto,Iquitos,Putumayo,Yaguas,Ampiyacu,Bora",
+    b: "Peru,Loreto,Iquitos,Putumayo,Yaguas,Ampiyacu,Bora,Pucaurquillo,Nuevo Andoas",
     status: "COMPLETE"
   },
   {
